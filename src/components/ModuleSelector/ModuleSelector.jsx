@@ -10,6 +10,7 @@ const ModuleSelector = ({
   onStartQuiz,
   disabled,
 }) => {
+  
   const selectedModuleObj = modules.find((mod) => mod.id === selectedModule);
 
   return (
@@ -26,11 +27,11 @@ const ModuleSelector = ({
       {selectedModuleObj && selectedModuleObj.subModules && (
         <select value={selectedSubmodule} onChange={onSubmoduleChange}>
           <option value="">Select a submodule</option>
-          {selectedModuleObj.subModules.map((submodule) => (
-            <option key={submodule.id} value={submodule.id}>
-              {submodule.title}
-            </option>
-          ))}
+            {selectedModuleObj.subModules.map((submodule) => (
+              <option key={submodule.id} value={submodule.id}>
+                {submodule.title}
+              </option>
+            ))}
         </select>
       )}
 

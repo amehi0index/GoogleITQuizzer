@@ -1,11 +1,21 @@
-// App.js
 import React, { useState, useEffect } from 'react';
+import CourseSelector from './components/CourseSelector/CourseSelector';
 import ModuleSelector from './components/ModuleSelector/ModuleSelector';
 import Question from './components/Question/Question';
 import QuizResult from './components/QuizResult/QuizResult';
+import { generateFeedback } from './utils/feedback'; 
 import './App.css';
 
 const App = () => {
+  const [courses] = useState([
+    { id: 'c1', title: 'Course 1: Technical Support Fundamentals', jsonFile: '/questions.json' },
+    { id: 'c2', title: 'Course 2: The Bits and Bytes of Computer Networking', jsonFile: '/course2.json' },
+    { id: 'c3', title: 'Course 3: Operating Systems and You: Becoming a Power User', jsonFile: '/course3.json' },
+    { id: 'c4', title: 'Course 4: System Administration and and IT Infrastructure Services ', jsonFile: '/course4.json' },
+    { id: 'c5', title: 'Course 5: IT Security: Defense Against the Digital Dark Arts', jsonFile: '/course5.json' },
+  ]);
+  
+  const [selectedCourse, setSelectedCourse] = useState(null);
   const [modules, setModules] = useState([]);
   const [selectedModule, setSelectedModule] = useState("");
   const [selectedSubmodule, setSelectedSubmodule] = useState("");
@@ -18,25 +28,39 @@ const App = () => {
   const [feedback, setFeedback] = useState([]);
 
   useEffect(() => {
-    fetch('/questions.json')
-      .then((response) => response.json())
-      .then((data) => {
-        setModules(data.course.modules);
-      });
-  }, []);
+    if (selectedCourse) {
+      fetch(selectedCourse.jsonFile)
+        .then((response) => response.json())
+        .then((data) => {
+          setModules(data.course.modules);
+        });
+    }
+  }, [selectedCourse]);
+
+  const handleCourseChange = (e) => {
+    const selectedCourseId = e.target.value;
+    const course = courses.find((c) => c.id === selectedCourseId);
+    setSelectedCourse(course);
+    setModules([]);
+    setSelectedModule('');
+    setSelectedSubmodule('');
+    setQuestions([]);
+    setCurrentQuestionIndex(0);
+    setQuizComplete(false);
+    setScore(0);
+    setFeedback([]);
+  };
 
   const startQuiz = () => {
     let selectedQuestions = [];
     const module = modules.find((mod) => mod.id === selectedModule);
 
     if (module && selectedSubmodule) {
-      // If a submodule is selected, use its questions
       const submodule = module.subModules.find(
         (sub) => sub.id === selectedSubmodule
       );
       selectedQuestions = submodule ? submodule.questions : [];
     } else if (module) {
-      // Otherwise, use the main module's questions
       selectedQuestions = module.questions;
     }
 
@@ -76,7 +100,8 @@ const App = () => {
 
       if (currentQuestionIndex === questions.length - 1) {
         setQuizComplete(true);
-        generateFeedback(newAnswers);
+        const feedbackData = generateFeedback(questions, newAnswers);
+        setFeedback(feedbackData);
       } else {
         setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
         setSelectedAnswer(null);
@@ -96,57 +121,29 @@ const App = () => {
     }
   };
 
-  const generateFeedback = (finalAnswers) => {
-    const feedbackData = questions.map((question) => {
-      const selectedAnswer = finalAnswers.find(
-        (answer) => answer.questionId === question.id
-      )?.selectedAnswer;
-      const correctId = question.correct;
-
-      let feedbackClass = '';
-      let feedbackIcon = '';
-      let feedbackText = '';
-
-      if (selectedAnswer !== undefined) {
-        if (selectedAnswer === correctId) {
-          feedbackClass = 'correct';
-          feedbackIcon = '✔';
-          feedbackText = `Correct answer: ${question.answers.find(a => a.id === correctId).answer}`;
-        } else {
-          feedbackClass = 'incorrect';
-          feedbackIcon = '✘';
-          feedbackText = `Your answer: ${question.answers.find(a => a.id === selectedAnswer).answer} <br> Correct answer: ${question.answers.find(a => a.id === correctId).answer}`;
-        }
-      } else {
-        feedbackClass = 'incorrect';
-        feedbackIcon = '✘';
-        feedbackText = `No answer selected. <br> Correct answer: ${question.answers.find(a => a.id === correctId).answer}`;
-      }
-
-      return {
-        id: question.id,
-        title: question.title,
-        class: feedbackClass,
-        icon: feedbackIcon,
-        text: feedbackText,
-      };
-    });
-
-    setFeedback(feedbackData);
-  };
-
   return (
     <div className="App">
-      <h1>Choose a Module</h1>
-      <ModuleSelector
-        modules={modules}
-        selectedModule={selectedModule}
-        selectedSubmodule={selectedSubmodule}
-        onModuleChange={handleModuleChange}
-        onSubmoduleChange={handleSubmoduleChange}
-        onStartQuiz={startQuiz}
-        disabled={!selectedModule}
+      <CourseSelector
+        courses={courses}
+        selectedCourse={selectedCourse?.id || ""}
+        onCourseChange={handleCourseChange}
       />
+
+      {selectedCourse && (
+        <>
+          <h2>{selectedCourse.title}</h2>
+          <ModuleSelector
+            modules={modules}
+            selectedModule={selectedModule}
+            selectedSubmodule={selectedSubmodule}
+            onModuleChange={handleModuleChange}
+            onSubmoduleChange={handleSubmoduleChange}
+            onStartQuiz={startQuiz}
+            disabled={!selectedModule}
+          />
+        </>
+      )}
+
       {quizComplete ? (
         <QuizResult
           score={score}
@@ -169,6 +166,8 @@ const App = () => {
 };
 
 export default App;
+
+
 
 
 
