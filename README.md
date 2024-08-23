@@ -1,4 +1,4 @@
-# Quiz App
+# IT Quiz App
 
 A React quiz application that allows users to select different modules and submodules, take quizzes, and receive feedback based on their answers. 
 ## Table of Contents
