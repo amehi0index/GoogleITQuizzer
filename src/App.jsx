@@ -8,12 +8,13 @@ import './App.css';
 
 const App = () => {
   const [courses] = useState([
-    { id: 'c1', title: 'Course 1: Technical Support Fundamentals', jsonFile: '/questions.json' },
-    { id: 'c2', title: 'Course 2: The Bits and Bytes of Computer Networking', jsonFile: '/course2.json' },
-    { id: 'c3', title: 'Course 3: Operating Systems and You: Becoming a Power User', jsonFile: '/course3.json' },
-    { id: 'c4', title: 'Course 4: System Administration and and IT Infrastructure Services ', jsonFile: '/course4.json' },
-    { id: 'c5', title: 'Course 5: IT Security: Defense Against the Digital Dark Arts', jsonFile: '/course5.json' },
+    { id: 'c1', title: 'Course 1: Technical Support Fundamentals', jsonFile: '/questions.json', disabled: false },
+    { id: 'c2', title: 'Course 2: The Bits and Bytes of Computer Networking', jsonFile: '/course2.json', disabled: true },
+    { id: 'c3', title: 'Course 3: Operating Systems and You: Becoming a Power User', jsonFile: '/course3.json', disabled: true },
+    { id: 'c4', title: 'Course 4: System Administration and IT Infrastructure Services', jsonFile: '/course4.json', disabled: true },
+    { id: 'c5', title: 'Course 5: IT Security: Defense Against the Digital Dark Arts', jsonFile: '/course5.json', disabled: true },
   ]);
+  
   
   const [selectedCourse, setSelectedCourse] = useState(null);
   const [modules, setModules] = useState([]);
@@ -100,8 +101,7 @@ const App = () => {
 
       if (currentQuestionIndex === questions.length - 1) {
         setQuizComplete(true);
-        const feedbackData = generateFeedback(questions, newAnswers);
-        setFeedback(feedbackData);
+        setFeedback(generateFeedback(questions, newAnswers));
       } else {
         setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
         setSelectedAnswer(null);
