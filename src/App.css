@@ -118,6 +118,6 @@ button.btn:hover {
 /* Course Selections*/
 
 select option[disabled] {
-  color: gray;
+  color: #808080;
   background-color: #e1dddd;
 }
