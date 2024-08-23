@@ -1,0 +1,1177 @@
+
+{
+  "course": {
+    "title": "Understanding How Computers Work",
+    "modules": [
+        {
+          "id": "module1",
+          "title": "Module 1: Understanding How Computers Work",
+          "questions": [
+            {
+              "id": "0",
+              "title": "What is the primary function of a compiler or interpreter in a computer system?",
+              "answers": [
+                { "id": "0", "answer": "To store data" },
+                { "id": "3", "answer": "To convert human instructions into machine language" },
+                { "id": "2", "answer": "To increase CPU speed" },
+                { "id": "1", "answer": "To manage RAM" }
+              ],
+              "correct": "3"
+            },
+            {
+              "id": "1",
+              "title": "Define a computer program.",
+              "answers": [
+                { "id": "0", "answer": "A set of instructions for the CPU" },
+                { "id": "1", "answer": "A type of storage device" },
+                { "id": "2", "answer": "An external peripheral" },
+                { "id": "3", "answer": "A programming language" }
+              ],
+              "correct": "0"
+            },
+            {
+              "id": "2",
+              "title": "What is the base number for the binary system?",
+              "answers": [
+                { "id": "0", "answer": "2" },
+                { "id": "1", "answer": "10" },
+                { "id": "2", "answer": "8" },
+                { "id": "3", "answer": "16" }
+              ],
+              "correct": "0"
+            },
+            {
+              "id": "3",
+              "title": "Which character encoding standard is most commonly used today?",
+              "answers": [
+                { "id": "0", "answer": "ASCII" },
+                { "id": "1", "answer": "UTF-8" },
+                { "id": "2", "answer": "Morse Code" },
+                { "id": "3", "answer": "ISO 8859-1" }
+              ],
+              "correct": "1"
+            },
+            {
+              "id": "4",
+              "title": "What is a group of 8 bits called?",
+              "answers": [
+                { "id": "0", "answer": "Nibble" },
+                { "id": "1", "answer": "Byte" },
+                { "id": "2", "answer": "Bit" },
+                { "id": "3", "answer": "Word" }
+              ],
+              "correct": "1"
+            },
+            {
+              "id": 5,
+              "title": "Which component acts as a bridge between the CPU and RAM?",
+              "answers": [
+                  { "id": 1, "answer": "Memory Controller Chip (MCC)" },
+                  { "id": 2, "answer": "External Data Bus" },
+                  { "id": 3, "answer": "Cache" },
+                  { "id": 4, "answer": "Hard Drive" }
+              ],
+              "correct": 1
+          },
+          {
+              "id": 6,
+              "title": "What is the primary difference between L1 and L3 cache?",
+              "answers": [
+                  { "id": 1, "answer": "L1 cache is larger but slower than L3 cache" },
+                  { "id": 2, "answer": "L1 cache is smaller but faster than L3 cache" },
+                  { "id": 3, "answer": "L3 cache is faster and stores more data than L1 cache" },
+                  { "id": 4, "answer": "L1 cache is shared across all CPU cores, while L3 is not" }
+              ],
+              "correct": 2
+          },
+          {
+            "id": "7",
+            "title": "Which component is considered the 'brain' of the computer?",
+            "answers": [
+              { "id": "0", "answer": "Hard Drive" },
+              { "id": "1", "answer": "Central Processing Unit (CPU)" },
+              { "id": "2", "answer": "Graphics Card" },
+              { "id": "3", "answer": "RAM" }
+            ],
+            "correct": "1"
+          },
+          {
+            "id": "8",
+            "title": "How many different values can a single byte represent?",
+            "answers": [
+              { "id": "0", "answer": "16" },
+              { "id": "1", "answer": "128" },
+              { "id": "2", "answer": "256" },
+              { "id": "3", "answer": "1024" }
+            ],
+            "correct": "2"
+          },
+          {
+            "id": "9",
+            "title": "Which of these is an example of open source software?",
+            "answers": [
+              { "id": "0", "answer": "Microsoft Word" },
+              { "id": "1", "answer": "Linux OS" },
+              { "id": "2", "answer": "Adobe Photoshop" },
+              { "id": "3", "answer": "iOS" }
+            ],
+            "correct": "1"
+          },
+          {
+            "id": "10",
+            "title": "Which gate takes a single input and outputs the opposite binary state?",
+            "answers": [
+              { "id": "0", "answer": "AND gate" },
+              { "id": "1", "answer": "OR gate" },
+              { "id": "2", "answer": "NOT gate" },
+              { "id": "3", "answer": "XOR gate" }
+            ],
+            "correct": "2"
+          },
+          {
+            "id": "11",
+            "title": "What does abstraction in computing help with?",
+            "answers": [
+              { "id": "0", "answer": "Complicating a system for more efficiency" },
+              { "id": "1", "answer": "Simplifying a complex system for easier interaction" },
+              { "id": "2", "answer": "Improving binary calculations" },
+              { "id": "3", "answer": "Increasing data storage capacity" }
+            ],
+            "correct": "1"
+          },
+          {
+            "id": "12",
+            "title": "What does the term 'digital divide' refer to?",
+            "answers": [
+              { "id": "0", "answer": "The gap between people with and without digital literacy skills" },
+              { "id": "1", "answer": "The difference between digital and analog data" },
+              { "id": "2", "answer": "The separation between different types of computers" },
+              { "id": "3", "answer": "A network segmentation technique" }
+            ],
+            "correct": "0"
+          },
+          {
+            "id": "13",
+            "title": "What is cryptography primarily concerned with?",
+            "answers": [
+              { "id": "0", "answer": "Optimizing CPU performance" },
+              { "id": "1", "answer": "Coding and hiding messages from unauthorized parties" },
+              { "id": "2", "answer": "Storing data efficiently" },
+              { "id": "3", "answer": "Creating new programming languages" }
+            ],
+            "correct": "1"
+          },
+          {
+            "id": "14",
+            "title": "What does the RGB model represent?",
+            "answers": [
+              { "id": "0", "answer": "Binary data in characters" },
+              { "id": "1", "answer": "A color model using red, green, and blue components" },
+              { "id": "2", "answer": "A type of storage" },
+              { "id": "3", "answer": "File permissions" }
+            ],
+            "correct": "1"
+          },
+          {
+            "id": "15",
+            "title": "Which logic gate outputs 'on' when either input is 'on'?",
+            "answers": [
+              { "id": "0", "answer": "AND gate" },
+              { "id": "1", "answer": "NOT gate" },
+              { "id": "2", "answer": "OR gate" },
+              { "id": "3", "answer": "XOR gate" }
+            ],
+            "correct": "2"
+          },
+          {
+            "id": "16",
+            "title": "Which encoding standard is commonly used to represent emojis and non-Latin characters?",
+            "answers": [
+              { "id": "0", "answer": "ASCII" },
+              { "id": "1", "answer": "Morse Code" },
+              { "id": "2", "answer": "UTF-8" },
+              { "id": "3", "answer": "EBCDIC" }
+            ],
+            "correct": "2"
+          },
+          {
+            "id": "17",
+            "title": "Which technology enabled mobile computing before smartphones?",
+            "answers": [
+              { "id": "0", "answer": "Mainframe Computers" },
+              { "id": "1", "answer": "PDAs (Personal Digital Assistants)" },
+              { "id": "2", "answer": "Laser Printers" },
+              { "id": "3", "answer": "CRT Monitors" }
+            ],
+            "correct": "1"
+          },
+          {
+            "id": "18",
+            "title": "What does a computer’s motherboard do?",
+            "answers": [
+              { "id": "0", "answer": "Store long-term data" },
+              { "id": "1", "answer": "Connects all the components of a computer together" },
+              { "id": "2", "answer": "Power the computer" },
+              { "id": "3", "answer": "Control the computer’s display" }
+            ],
+            "correct": "1"
+          },
+          {
+            "id": "19",
+            "title": "What is an example of a secondary storage device?",
+            "answers": [
+              { "id": "0", "answer": "RAM" },
+              { "id": "1", "answer": "SSD" },
+              { "id": "2", "answer": "CPU" },
+              { "id": "3", "answer": "Cache Memory" }
+            ],
+            "correct": "1"
+          },
+          {
+            "id": "20",
+            "title": "Which programming language was designed for web development?",
+            "answers": [
+              { "id": "0", "answer": "C++" },
+              { "id": "1", "answer": "Python" },
+              { "id": "2", "answer": "JavaScript" },
+              { "id": "3", "answer": "Java" }
+            ],
+            "correct": "2"
+          },
+          {
+            "id": "21",
+            "title": "What is the decimal value of the binary number 11001100?",
+            "answers": [
+              { "id": "0", "answer": "201" },
+              { "id": "1", "answer": "199" },
+              { "id": "2", "answer": "204" },
+              { "id": "3", "answer": "192" }
+            ],
+            "correct": "3"
+          },
+          {
+            "id": "22",
+            "title": "What does the term 'algorithm' refer to in computing?",
+            "answers": [
+              { "id": "0", "answer": "A type of hardware component" },
+              { "id": "1", "answer": "A step-by-step procedure for solving a problem" },
+              { "id": "2", "answer": "A graphical user interface" },
+              { "id": "3", "answer": "A type of network protocol" }
+            ],
+            "correct": "1"
+          },
+          {
+            "id": "23",
+            "title": "What role do transistors play in computing?",
+            "answers": [
+              { "id": "0", "answer": "Power the monitor" },
+              { "id": "1", "answer": "Amplify and switch electronic signals, acting as building blocks for CPUs" },
+              { "id": "2", "answer": "Store data in magnetic form" },
+              { "id": "3", "answer": "Control the operating system" }
+            ],
+            "correct": "1"
+          },
+          {
+            "id": "24",
+            "title": "Which of the following binary values represents the decimal value 150?",
+            "answers": [
+              { "id": "0", "answer": "10010110" },
+              { "id": "1", "answer": "10101110" },
+              { "id": "2", "answer": "10011100" },
+              { "id": "3", "answer": "10001110" }
+            ],
+            "correct": "1"
+          },
+          {
+            "id": "25",
+            "title": "What was the purpose of early computing machines like the ENIAC?",
+            "answers": [
+              { "id": "0", "answer": "To calculate complex mathematical equations" },
+              { "id": "1", "answer": "To simulate human brain functions" },
+              { "id": "2", "answer": "To manage online social networks" },
+              { "id": "3", "answer": "To display graphical images" }
+            ],
+            "correct": "0"
+          } 
+        ]
+        },
+        {
+          "id": "module2",
+          "title": "Module 2: Computer Hardware",
+          "subModules": [
+            {
+              "id": "module2-1",
+              "title": "The Modern Computer",
+              "questions": [
+                {
+                  "id": 1,
+                  "title": "What is the primary function of a CPU in a computer system?",
+                  "answers": [
+                      { "id": 1, "answer": "To manage power supply" },
+                      { "id": 2, "answer": "To process and execute instructions" },
+                      { "id": 3, "answer": "To store long-term data" },
+                      { "id": 4, "answer": "To provide network access" }
+                  ],
+                  "correct": 2
+                },
+                {
+                    "id": 2,
+                    "title": "How does a compiler assist in the execution of programs?",
+                    "answers": [
+                        { "id": 1, "answer": "It stores programs in the hard drive" },
+                        { "id": 2, "answer": "It translates human-readable code into machine language" },
+                        { "id": 3, "answer": "It executes programs directly" },
+                        { "id": 4, "answer": "It manages power usage in the CPU" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 3,
+                    "title": "Which memory type provides the CPU with the fastest access to data?",
+                    "answers": [
+                        { "id": 1, "answer": "RAM" },
+                        { "id": 2, "answer": "Hard Drive" },
+                        { "id": 3, "answer": "L1 Cache" },
+                        { "id": 4, "answer": "Virtual Memory" }
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id": 4,
+                    "title": "What is the main role of the External Data Bus (EDB)?",
+                    "answers": [
+                        { "id": 1, "answer": "To connect peripheral devices to the CPU" },
+                        { "id": 2, "answer": "To transmit binary data between the CPU and other components" },
+                        { "id": 3, "answer": "To provide cooling for the CPU" },
+                        { "id": 4, "answer": "To store temporary data for quick access" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 5,
+                    "title": "Which component acts as a bridge between the CPU and RAM?",
+                    "answers": [
+                        { "id": 1, "answer": "Memory Controller Chip (MCC)" },
+                        { "id": 2, "answer": "External Data Bus" },
+                        { "id": 3, "answer": "Cache" },
+                        { "id": 4, "answer": "Hard Drive" }
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 6,
+                    "title": "What is the primary difference between L1 and L3 cache?",
+                    "answers": [
+                        { "id": 1, "answer": "L1 cache is larger but slower than L3 cache" },
+                        { "id": 2, "answer": "L1 cache is smaller but faster than L3 cache" },
+                        { "id": 3, "answer": "L3 cache is faster and stores more data than L1 cache" },
+                        { "id": 4, "answer": "L1 cache is shared across all CPU cores, while L3 is not" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 7,
+                    "title": "How does overclocking affect a CPU?",
+                    "answers": [
+                        { "id": 1, "answer": "It reduces power consumption" },
+                        { "id": 2, "answer": "It increases processing speed but can lead to overheating" },
+                        { "id": 3, "answer": "It increases memory capacity" },
+                        { "id": 4, "answer": "It stabilizes the CPU’s performance" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 8,
+                    "title": "Why is it critical to use a specialized cooling system when overclocking?",
+                    "answers": [
+                        { "id": 1, "answer": "To prevent dust buildup in the CPU" },
+                        { "id": 2, "answer": "To avoid overheating that could damage the CPU" },
+                        { "id": 3, "answer": "To improve data transmission speeds" },
+                        { "id": 4, "answer": "To reduce noise generated by the computer" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 9,
+                    "title": "What role do registers play in CPU operations?",
+                    "answers": [
+                        { "id": 1, "answer": "They permanently store user data" },
+                        { "id": 2, "answer": "They act as small, temporary storage areas for the CPU" },
+                        { "id": 3, "answer": "They manage power distribution across CPU cores" },
+                        { "id": 4, "answer": "They serve as external connections to peripherals" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 10,
+                    "title": "How does the Address Bus function within a computer system?",
+                    "answers": [
+                        { "id": 1, "answer": "It sends the data location to the CPU without carrying the data itself" },
+                        { "id": 2, "answer": "It transfers data between the CPU and hard drive" },
+                        { "id": 3, "answer": "It manages power supply to different CPU cores" },
+                        { "id": 4, "answer": "It connects the CPU to external devices" }
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 11,
+                    "title": "What is the function of the clock wire in a CPU?",
+                    "answers": [
+                        { "id": 1, "answer": "It determines the speed at which data is stored" },
+                        { "id": 2, "answer": "It synchronizes the clock cycles for CPU operations" },
+                        { "id": 3, "answer": "It powers the memory controller chip" },
+                        { "id": 4, "answer": "It handles the transfer of data between registers" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 12,
+                    "title": "What does the term 'clock speed' refer to in a CPU?",
+                    "answers": [
+                        { "id": 1, "answer": "The frequency at which the CPU completes cycles per second" },
+                        { "id": 2, "answer": "The amount of cache memory available" },
+                        { "id": 3, "answer": "The time it takes for data to travel between RAM and the CPU" },
+                        { "id": 4, "answer": "The temperature threshold of the CPU" }
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 13,
+                    "title": "Why might an IT professional be asked to overclock a CPU?",
+                    "answers": [
+                        { "id": 1, "answer": "To increase storage space" },
+                        { "id": 2, "answer": "To enhance performance for processor-intensive tasks like gaming" },
+                        { "id": 3, "answer": "To improve network speeds" },
+                        { "id": 4, "answer": "To reduce system boot times" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 14,
+                    "title": "What is a potential consequence of setting the CPU voltage too high during overclocking?",
+                    "answers": [
+                        { "id": 1, "answer": "Improved data security" },
+                        { "id": 2, "answer": "Faster cooling times" },
+                        { "id": 3, "answer": "Damage to the CPU and system instability" },
+                        { "id": 4, "answer": "Longer battery life" }
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id": 15,
+                    "title": "What should you check before attempting to overclock a CPU?",
+                    "answers": [
+                        { "id": 1, "answer": "The available RAM capacity" },
+                        { "id": 2, "answer": "Whether the CPU model supports overclocking" },
+                        { "id": 3, "answer": "The total number of connected peripherals" },
+                        { "id": 4, "answer": "The hard drive’s read/write speed" }
+                    ],
+                    "correct": 2
+                }
+              ]
+            },
+            {
+              "id": "module2-2",
+              "title": "Components",
+              "questions": [
+                {
+                  "id": "0",
+                  "title": "What is the primary role of the CPU in a computer?",
+                  "answers": [
+                    { "id": "0", "answer": "To perform calculations and process data" },
+                    { "id": "1", "answer": "To store long-term data" },
+                    { "id": "2", "answer": "To connect external devices" },
+                    { "id": "3", "answer": "To manage input/output operations" }
+                  ],
+                  "correct": "0"
+                },
+                {
+                  "id": "1",
+                  "title": "What does the CPU use to perform tasks like arithmetic and logical operations?",
+                  "answers": [
+                    { "id": "0", "answer": "RAM" },
+                    { "id": "1", "answer": "Instruction set" },
+                    { "id": "2", "answer": "Motherboard chipset" },
+                    { "id": "3", "answer": "Cooling system" }
+                  ],
+                  "correct": "1"
+                },
+                {
+                  "id": "2",
+                  "title": "Which of the following is a popular CPU manufacturer?",
+                  "answers": [
+                    { "id": "0", "answer": "Intel" },
+                    { "id": "1", "answer": "NVIDIA" },
+                    { "id": "2", "answer": "Cisco" },
+                    { "id": "3", "answer": "IBM" }
+                  ],
+                  "correct": "0"
+                },
+                {
+                  "id": "3",
+                  "title": "What is an example of a common CPU chipset?",
+                  "answers": [
+                    { "id": "0", "answer": "Apple A8" },
+                    { "id": "1", "answer": "NVIDIA GTX 1060" },
+                    { "id": "2", "answer": "Intel Core i7" },
+                    { "id": "3", "answer": "AMD Athlon" }
+                  ],
+                  "correct": "2"
+                },
+                {
+                  "id": "4",
+                  "title": "Which type of socket does a motherboard use if it has pins located on the motherboard itself?",
+                  "answers": [
+                    { "id": "0", "answer": "PGA" },
+                    { "id": "1", "answer": "LGA" },
+                    { "id": "2", "answer": "BGA" },
+                    { "id": "3", "answer": "ZIF" }
+                  ],
+                  "correct": "1"
+                },
+                {
+                  "id": "5",
+                  "title": "Why is proper cooling essential for the CPU?",
+                  "answers": [
+                    { "id": "0", "answer": "To improve data storage capacity" },
+                    { "id": "1", "answer": "To prevent overheating and maintain performance" },
+                    { "id": "2", "answer": "To synchronize system operations" },
+                    { "id": "3", "answer": "To reduce the CPU's power consumption" }
+                  ],
+                  "correct": "1"
+                },
+                {
+                  "id": "6",
+                  "title": "What does 64-bit CPU architecture allow compared to 32-bit architecture?",
+                  "answers": [
+                    { "id": "0", "answer": "Faster data storage" },
+                    { "id": "1", "answer": "More data processed simultaneously" },
+                    { "id": "2", "answer": "Higher clock speed" },
+                    { "id": "3", "answer": "More cooling options" }
+                  ],
+                  "correct": "1"
+                },
+                {
+                  "id": "7",
+                  "title": "What is the purpose of RAM in a computer system?",
+                  "answers": [
+                    { "id": "0", "answer": "To store data permanently" },
+                    { "id": "1", "answer": "To store data temporarily while running programs" },
+                    { "id": "2", "answer": "To connect peripherals" },
+                    { "id": "3", "answer": "To manage CPU operations" }
+                  ],
+                  "correct": "1"
+                },
+                {
+                  "id": "8",
+                  "title": "What happens to data stored in RAM when the computer is powered off?",
+                  "answers": [
+                    { "id": "0", "answer": "It remains stored" },
+                    { "id": "1", "answer": "It is transferred to the CPU" },
+                    { "id": "2", "answer": "It is lost" },
+                    { "id": "3", "answer": "It is saved to long-term storage" }
+                  ],
+                  "correct": "2"
+                },
+                {
+                  "id": "9",
+                  "title": "Which type of RAM is currently the fastest and most efficient?",
+                  "answers": [
+                    { "id": "0", "answer": "DRAM" },
+                    { "id": "1", "answer": "SDRAM" },
+                    { "id": "2", "answer": "DDR4" },
+                    { "id": "3", "answer": "DDR3" }
+                  ],
+                  "correct": "2"
+                },
+                {
+                  "id": "10",
+                  "title": "What does the chipset on a motherboard manage?",
+                  "answers": [
+                    { "id": "0", "answer": "Power supply connections" },
+                    { "id": "1", "answer": "Communication between components" },
+                    { "id": "2", "answer": "Cooling system operations" },
+                    { "id": "3", "answer": "External storage devices" }
+                  ],
+                  "correct": "1"
+                },
+                {
+                  "id": "11",
+                  "title": "Which part of the motherboard handles RAM and video card communication?",
+                  "answers": [
+                    { "id": "0", "answer": "Southbridge" },
+                    { "id": "1", "answer": "Chipset" },
+                    { "id": "2", "answer": "Northbridge" },
+                    { "id": "3", "answer": "BIOS" }
+                  ],
+                  "correct": "2"
+                },{
+                  "id": "12",
+                  "title": "What is the smallest unit of data storage?",
+                  "answers": [
+                    { "id": "0", "answer": "Byte" },
+                    { "id": "1", "answer": "Bit" },
+                    { "id": "2", "answer": "Kilobyte" },
+                    { "id": "3", "answer": "Megabyte" }
+                  ],
+                  "correct": "1"
+                },
+                {
+                  "id": "13",
+                  "title": "What does a higher RPM (Revolutions per Minute) indicate in a Hard Disk Drive (HDD)?",
+                  "answers": [
+                    { "id": "0", "answer": "More storage capacity" },
+                    { "id": "1", "answer": "Faster data read/write speed" },
+                    { "id": "2", "answer": "Lower power consumption" },
+                    { "id": "3", "answer": "Greater resistance to physical damage" }
+                  ],
+                  "correct": "1"
+                },
+                {
+                  "id": "14",
+                  "title": "What is a key advantage of Solid State Drives (SSDs) over Hard Disk Drives (HDDs)?",
+                  "answers": [
+                    { "id": "0", "answer": "Larger storage capacity" },
+                    { "id": "1", "answer": "Faster data access" },
+                    { "id": "2", "answer": "Lower price per GB" },
+                    { "id": "3", "answer": "Uses spinning platters" }
+                  ],
+                  "correct": "1"
+                },
+                {
+                  "id": "15",
+                  "title": "Which interface is typically used for connecting SSDs for faster data transfer?",
+                  "answers": [
+                    { "id": "0", "answer": "SATA" },
+                    { "id": "1", "answer": "NVMe" },
+                    { "id": "2", "answer": "PCI" },
+                    { "id": "3", "answer": "AGP" }
+                  ],
+                  "correct": "1"
+                },
+                {
+                  "id": "16",
+                  "title": "What does a power supply unit (PSU) convert?",
+                  "answers": [
+                    { "id": "0", "answer": "Direct Current (DC) to Alternating Current (AC)" },
+                    { "id": "1", "answer": "AC to DC" },
+                    { "id": "2", "answer": "Voltage to Amperage" },
+                    { "id": "3", "answer": "Wattage to Voltage" }
+                  ],
+                  "correct": "1"
+                },
+                {
+                  "id": "17",
+                  "title": "What might happen if a computer’s power supply does not provide enough wattage?",
+                  "answers": [
+                    { "id": "0", "answer": "The computer will shut down randomly" },
+                    { "id": "1", "answer": "The computer will overheat" },
+                    { "id": "2", "answer": "Data will be lost" },
+                    { "id": "3", "answer": "The hard drive will fail" }
+                  ],
+                  "correct": "0"
+                },
+                {
+                  "id": "18",
+                  "title": "Which of the following is a specialized mobile device?",
+                  "answers": [
+                    { "id": "0", "answer": "Smartphone" },
+                    { "id": "1", "answer": "Tablet" },
+                    { "id": "2", "answer": "Fitness monitor" },
+                    { "id": "3", "answer": "Laptop" }
+                  ],
+                  "correct": "2"
+                },
+                {
+                  "id": "19",
+                  "title": "What is a System on a Chip (SoC) designed to do in mobile devices?",
+                  "answers": [
+                    { "id": "0", "answer": "Increase storage capacity" },
+                    { "id": "1", "answer": "Integrate the CPU, RAM, and storage onto a single chip" },
+                    { "id": "2", "answer": "Provide wireless connectivity" },
+                    { "id": "3", "answer": "Handle only display functions" }
+                  ],
+                  "correct": "1"
+                },
+                {
+                  "id": "20",
+                  "title": "Which port type is becoming a universal standard for both data transfer and power in mobile devices?",
+                  "answers": [
+                    { "id": "0", "answer": "Micro-USB" },
+                    { "id": "1", "answer": "Lightning" },
+                    { "id": "2", "answer": "USB Type-C" },
+                    { "id": "3", "answer": "HDMI" }
+                  ],
+                  "correct": "2"
+                },
+                {
+                  "id": "21",
+                  "title": "Which type of battery is commonly used in mobile devices?",
+                  "answers": [
+                    { "id": "0", "answer": "Non-rechargeable alkaline" },
+                    { "id": "1", "answer": "Rechargeable lithium-ion" },
+                    { "id": "2", "answer": "Nickel-cadmium" },
+                    { "id": "3", "answer": "Lead-acid" }
+                  ],
+                  "correct": "1"
+                },
+                {
+                  "id": "22",
+                  "title": "What does a charge cycle represent in a rechargeable battery?",
+                  "answers": [
+                    { "id": "0", "answer": "One full charge and discharge" },
+                    { "id": "1", "answer": "The time it takes to charge fully" },
+                    { "id": "2", "answer": "The maximum number of charges before failure" },
+                    { "id": "3", "answer": "The voltage rating of the battery" }
+                  ],
+                  "correct": "0"
+                },
+                {
+                  "id": "23",
+                  "title": "Which USB version typically has the fastest data transfer speed?",
+                  "answers": [
+                    { "id": "0", "answer": "USB 2.0" },
+                    { "id": "1", "answer": "USB 3.0" },
+                    { "id": "2", "answer": "USB 3.1" },
+                    { "id": "3", "answer": "USB 1.1" }
+                  ],
+                  "correct": "2"
+                }
+              ]
+            },
+            {
+              "id": "module2-3",
+              "title": "Starting It Up",
+              "questions": [
+                  {
+                    "id": "1",
+                    "title": "Where is the BIOS typically stored on a computer?",
+                    "answers": [
+                      { "id": "0", "answer": "Hard drive" },
+                      { "id": "1", "answer": "RAM" },
+                      { "id": "2", "answer": "Motherboard ROM" },
+                      { "id": "3", "answer": "CPU" }
+                    ],
+                    "correct": "2"
+                  },
+                  {
+                    "id": "2",
+                    "title": "What is the role of the BIOS during computer startup?",
+                    "answers": [
+                      { "id": "0", "answer": "Loads the operating system" },
+                      { "id": "1", "answer": "Initializes hardware and runs the POST" },
+                      { "id": "2", "answer": "Checks for software updates" },
+                      { "id": "3", "answer": "Provides power to the CPU" }
+                    ],
+                    "correct": "1"
+                  },
+                  {
+                    "id": "3",
+                    "title": "What does POST stand for in the context of BIOS?",
+                    "answers": [
+                      { "id": "0", "answer": "Preliminary Operating System Test" },
+                      { "id": "1", "answer": "Power-On System Test" },
+                      { "id": "2", "answer": "Power-On Self-Test" },
+                      { "id": "3", "answer": "Primary Output Service Test" }
+                    ],
+                    "correct": "2"
+                  },
+                  {
+                    "id": "4",
+                    "title": "Which of the following can store BIOS settings like date and time?",
+                    "answers": [
+                      { "id": "0", "answer": "RAM" },
+                      { "id": "1", "answer": "CMOS" },
+                      { "id": "2", "answer": "SSD" },
+                      { "id": "3", "answer": "Cache" }
+                    ],
+                    "correct": "1"
+                  },
+                  {
+                    "id": "5",
+                    "title": "What is the purpose of device drivers in a computer system?",
+                    "answers": [
+                      { "id": "0", "answer": "To provide instructions to the CPU for processing input from devices" },
+                      { "id": "1", "answer": "To store the operating system" },
+                      { "id": "2", "answer": "To enhance internet speed" },
+                      { "id": "3", "answer": "To manage power supply to peripherals" }
+                    ],
+                    "correct": "0"
+                  },
+                  {
+                    "id": "6",
+                    "title": "What is UEFI, and how is it related to BIOS?",
+                    "answers": [
+                      { "id": "0", "answer": "A newer interface replacing BIOS with improved hardware support" },
+                      { "id": "1", "answer": "A type of external storage" },
+                      { "id": "2", "answer": "A graphics configuration tool" },
+                      { "id": "3", "answer": "A CPU overclocking software" }
+                    ],
+                    "correct": "0"
+                  },
+                  {
+                    "id": "7",
+                    "title": "Which component stores the main system settings like boot order and date/time?",
+                    "answers": [
+                      { "id": "0", "answer": "RAM" },
+                      { "id": "1", "answer": "ROM" },
+                      { "id": "2", "answer": "CMOS" },
+                      { "id": "3", "answer": "SSD" }
+                    ],
+                    "correct": "2"
+                  },
+                  {
+                    "id": "8",
+                    "title": "How can IT support professionals access BIOS settings during startup?",
+                    "answers": [
+                      { "id": "0", "answer": "By pressing a specific key shown on screen during startup" },
+                      { "id": "1", "answer": "Through the operating system settings" },
+                      { "id": "2", "answer": "By connecting an external device" },
+                      { "id": "3", "answer": "Using a BIOS management software" }
+                    ],
+                    "correct": "0"
+                  },
+                  {
+                    "id": "9",
+                    "title": "What happens if a POST error occurs during startup?",
+                    "answers": [
+                      { "id": "0", "answer": "The operating system loads as usual" },
+                      { "id": "1", "answer": "The system beeps with an error code" },
+                      { "id": "2", "answer": "The CPU stops functioning" },
+                      { "id": "3", "answer": "The motherboard gets reset" }
+                    ],
+                    "correct": "1"
+                  },
+                  {
+                    "id": "10",
+                    "title": "What can cause a system to fail to power on during assembly?",
+                    "answers": [
+                      { "id": "0", "answer": "Incorrect CPU placement" },
+                      { "id": "1", "answer": "Incompatible USB peripherals" },
+                      { "id": "2", "answer": "Unformatted hard drive" },
+                      { "id": "3", "answer": "Disconnected Ethernet cable" }
+                    ],
+                    "correct": "0"
+                  },
+                  {
+                    "id": "11",
+                    "title": "Why is it important to align the CPU markers with the motherboard socket during installation?",
+                    "answers": [
+                      { "id": "0", "answer": "To avoid damaging the motherboard" },
+                      { "id": "1", "answer": "To secure the heat sink" },
+                      { "id": "2", "answer": "To install the RAM correctly" },
+                      { "id": "3", "answer": "To prevent electrostatic discharge" }
+                    ],
+                    "correct": "0"
+                  },
+                  {
+                    "id": "12",
+                    "title": "What should be done before sending a mobile device out for repairs?",
+                    "answers": [
+                      { "id": "0", "answer": "Change the battery" },
+                      { "id": "1", "answer": "Upgrade the operating system" },
+                      { "id": "2", "answer": "Perform a factory reset to remove data" },
+                      { "id": "3", "answer": "Disable Bluetooth" }
+                    ],
+                    "correct": "2"
+                  },
+                  {
+                    "id": "13",
+                    "title": "Which tool helps prevent electrostatic discharge when assembling computer components?",
+                    "answers": [
+                      { "id": "0", "answer": "Anti-static wristband" },
+                      { "id": "1", "answer": "Thermal paste" },
+                      { "id": "2", "answer": "Screwdriver" },
+                      { "id": "3", "answer": "Molex connector" }
+                    ],
+                    "correct": "0"
+                  },
+                  {
+                    "id": "14",
+                    "title": "Which type of connector is used to power the motherboard?",
+                    "answers": [
+                      { "id": "0", "answer": "SATA connector" },
+                      { "id": "1", "answer": "Molex connector" },
+                      { "id": "2", "answer": "24-pin connector" },
+                      { "id": "3", "answer": "USB Type-C connector" }
+                    ],
+                    "correct": "2"
+                  },
+                  {
+                    "id": "15",
+                    "title": "Which of the following describes the purpose of thermal paste?",
+                    "answers": [
+                      { "id": "0", "answer": "It secures the heat sink to the CPU" },
+                      { "id": "1", "answer": "It prevents static discharge" },
+                      { "id": "2", "answer": "It ensures efficient heat transfer from the CPU to the heat sink" },
+                      { "id": "3", "answer": "It lubricates the CPU socket" }
+                    ],
+                    "correct": "2"
+                  },
+                  {
+                    "id": "16",
+                    "title": "What is the main purpose of case fans in a computer build?",
+                    "answers": [
+                      { "id": "0", "answer": "To power the motherboard" },
+                      { "id": "1", "answer": "To manage network connections" },
+                      { "id": "2", "answer": "To create an airflow pattern that cools internal components" },
+                      { "id": "3", "answer": "To control the boot sequence" }
+                    ],
+                    "correct": "2"
+                  },
+                  {
+                    "id": "17",
+                    "title": "Which component typically holds the CPU during a computer build?",
+                    "answers": [
+                      { "id": "0", "answer": "RAM slot" },
+                      { "id": "1", "answer": "DIMM slot" },
+                      { "id": "2", "answer": "PCIe slot" },
+                      { "id": "3", "answer": "Motherboard socket" }
+                    ],
+                    "correct": "3"
+                  },
+                  {
+                    "id": "18",
+                    "title": "What does a factory reset do on a mobile device?",
+                    "answers": [
+                      { "id": "0", "answer": "Increases battery life" },
+                      { "id": "1", "answer": "Removes all data, apps, and customizations" },
+                      { "id": "2", "answer": "Boosts processing speed" },
+                      { "id": "3", "answer": "Disables software updates" }
+                    ],
+                    "correct": "1"
+                  },
+                  {
+                    "id": "19",
+                    "title": "How should IT support handle a customer complaint about a malfunctioning battery in a mobile device?",
+                    "answers": [
+                      { "id": "0", "answer": "Advise the user to fully discharge the battery daily" },
+                      { "id": "1", "answer": "Replace the battery with a compatible one" },
+                      { "id": "2", "answer": "Suggest a hard reset" },
+                      { "id": "3", "answer": "Recommend clearing storage space" }
+                    ],
+                    "correct": "1"
+                  },
+                  {
+                    "id": "20",
+                    "title": "Which type of storage device has no moving parts?",
+                    "answers": [
+                      { "id": "0", "answer": "Hard disk drive (HDD)" },
+                      { "id": "1", "answer": "Solid state drive (SSD)" },
+                      { "id": "2", "answer": "Optical disk" },
+                      { "id": "3", "answer": "Flash drive" }
+                    ],
+                    "correct": "1"
+                  },
+                  {
+                    "id": "21",
+                    "title": "What is the primary advantage of using SSDs over HDDs?",
+                    "answers": [
+                      { "id": "0", "answer": "Higher storage capacity" },
+                      { "id": "1", "answer": "Faster read/write speeds" },
+                      { "id": "2", "answer": "Lower cost per gigabyte" },
+                      { "id": "3", "answer": "Better compatibility with older systems" }
+                    ],
+                    "correct": "1"
+                  },
+                  {
+                    "id": "22",
+                    "title": "Which type of RAM is most commonly used in modern PCs?",
+                    "answers": [
+                      { "id": "0", "answer": "DDR2" },
+                      { "id": "1", "answer": "DDR3" },
+                      { "id": "2", "answer": "DDR4" },
+                      { "id": "3", "answer": "SDRAM" }
+                    ],
+                    "correct": "2"
+                  },
+                  {
+                    "id": "23",
+                    "title": "What is the function of a power supply unit (PSU) in a computer?",
+                    "answers": [
+                      { "id": "0", "answer": "It provides cooling to internal components" },
+                      { "id": "1", "answer": "It converts AC power to DC power for internal components" },
+                      { "id": "2", "answer": "It controls boot sequence order" },
+                      { "id": "3", "answer": "It manages USB peripherals" }
+                    ],
+                    "correct": "1"
+                  },
+                  {
+                    "id": "24",
+                    "title": "Which type of display technology is commonly used in mobile devices?",
+                    "answers": [
+                      { "id": "0", "answer": "CRT" },
+                      { "id": "1", "answer": "LED" },
+                      { "id": "2", "answer": "OLED" },
+                      { "id": "3", "answer": "Plasma" }
+                    ],
+                    "correct": "2"
+                  },
+                  {
+                    "id": "25",
+                    "title": "What is the primary function of cache memory in a CPU?",
+                    "answers": [
+                      { "id": "0", "answer": "To provide additional RAM" },
+                      { "id": "1", "answer": "To store frequently accessed data for faster processing" },
+                      { "id": "2", "answer": "To increase storage capacity" },
+                      { "id": "3", "answer": "To reduce power consumption" }
+                    ],
+                    "correct": "1"
+                  },
+                  {
+                    "id": "26",
+                    "title": "What is the purpose of thermal paste when assembling a CPU and heat sink?",
+                    "answers": [
+                      { "id": "0", "answer": "To prevent overheating by conducting heat efficiently" },
+                      { "id": "1", "answer": "To secure the heat sink" },
+                      { "id": "2", "answer": "To insulate the CPU" },
+                      { "id": "3", "answer": "To prevent dust buildup" }
+                    ],
+                    "correct": "0"
+                  },
+                  {
+                    "id": "27",
+                    "title": "Which component manages communication between the CPU and other parts of the computer?",
+                    "answers": [
+                      { "id": "0", "answer": "GPU" },
+                      { "id": "1", "answer": "Motherboard chipset" },
+                      { "id": "2", "answer": "RAM" },
+                      { "id": "3", "answer": "Power supply" }
+                    ],
+                    "correct": "1"
+                  },
+                  {
+                    "id": "28",
+                    "title": "Which component stores data persistently even when the computer is turned off?",
+                    "answers": [
+                      { "id": "0", "answer": "RAM" },
+                      { "id": "1", "answer": "Cache memory" },
+                      { "id": "2", "answer": "SSD" },
+                      { "id": "3", "answer": "BIOS" }
+                    ],
+                    "correct": "2"
+                  },
+                  {
+                    "id": "29",
+                    "title": "What does GPU stand for?",
+                    "answers": [
+                      { "id": "0", "answer": "Graphical Processing Unit" },
+                      { "id": "1", "answer": "Global Positioning Unit" },
+                      { "id": "2", "answer": "General Processor Unit" },
+                      { "id": "3", "answer": "Graphics Power Unit" }
+                    ],
+                    "correct": "0"
+                  },
+                  {
+                    "id": "30",
+                    "title": "Which type of battery is commonly used in smartphones?",
+                    "answers": [
+                      { "id": "0", "answer": "Alkaline" },
+                      { "id": "1", "answer": "NiMH" },
+                      { "id": "2", "answer": "Li-ion" },
+                      { "id": "3", "answer": "Lead-acid" }
+                    ],
+                    "correct": "2"
+                  },
+                  {
+                    "id": "31",
+                    "title": "Which of these ports is used for connecting monitors?",
+                    "answers": [
+                      { "id": "0", "answer": "HDMI" },
+                      { "id": "1", "answer": "USB Type-A" },
+                      { "id": "2", "answer": "RJ45" },
+                      { "id": "3", "answer": "SATA" }
+                    ],
+                    "correct": "0"
+                  },
+                  {
+                    "id": "32",
+                    "title": "Which device connects to a motherboard using a SATA cable?",
+                    "answers": [
+                      { "id": "0", "answer": "Hard drive" },
+                      { "id": "1", "answer": "Graphics card" },
+                      { "id": "2", "answer": "Sound card" },
+                      { "id": "3", "answer": "RAM module" }
+                    ],
+                    "correct": "0"
+                  },
+                  {
+                    "id": "33",
+                    "title": "What does RAM stand for?",
+                    "answers": [
+                      { "id": "0", "answer": "Random Access Memory" },
+                      { "id": "1", "answer": "Read and Modify" },
+                      { "id": "2", "answer": "Read Access Mode" },
+                      { "id": "3", "answer": "Restricted Active Module" }
+                    ],
+                    "correct": "0"
+                  },
+                  {
+                    "id": "34",
+                    "title": "What does BIOS stand for?",
+                    "answers": [
+                      { "id": "0", "answer": "Basic Input/Output System" },
+                      { "id": "1", "answer": "Binary Input Operating System" },
+                      { "id": "2", "answer": "Boot Instruction Operating System" },
+                      { "id": "3", "answer": "Basic Initialization Operating Software" }
+                    ],
+                    "correct": "0"
+                  },
+                  {
+                    "id": "35",
+                    "title": "What is the function of a CMOS battery?",
+                    "answers": [
+                      { "id": "0", "answer": "To power the CPU during boot-up" },
+                      { "id": "1", "answer": "To store BIOS settings when the computer is powered off" },
+                      { "id": "2", "answer": "To prevent overheating in the system" },
+                      { "id": "3", "answer": "To increase the speed of data transfer" }
+                    ],
+                    "correct": "1"
+                  },
+                  {
+                    "id": "36",
+                    "title": "Which port type is commonly used for external storage devices?",
+                    "answers": [
+                      { "id": "0", "answer": "USB" },
+                      { "id": "1", "answer": "HDMI" },
+                      { "id": "2", "answer": "VGA" },
+                      { "id": "3", "answer": "Ethernet" }
+                    ],
+                    "correct": "0"
+                  },
+                  {
+                    "id": "37",
+                    "title": "Which storage device is known for high durability and speed?",
+                    "answers": [
+                      { "id": "0", "answer": "HDD" },
+                      { "id": "1", "answer": "Optical disk" },
+                      { "id": "2", "answer": "SSD" },
+                      { "id": "3", "answer": "Flash drive" }
+                    ],
+                    "correct": "2"
+                  },
+                  {
+                    "id": "38",
+                    "title": "What does USB stand for?",
+                    "answers": [
+                      { "id": "0", "answer": "Universal Storage Bus" },
+                      { "id": "1", "answer": "Universal Serial Bus" },
+                      { "id": "2", "answer": "Unified Signal Broadcast" },
+                      { "id": "3", "answer": "Uninterruptible System Bus" }
+                    ],
+                    "correct": "1"
+                  }
+                ]
+            }
+          ]
+        },
+        {
+          "id": "module3",
+          "title": "Module 3: Software and Operating Systems",
+          "questions": [
+            
+          ]
+        }
+    ]
+  }
+}
