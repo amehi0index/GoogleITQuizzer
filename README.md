@@ -23,8 +23,8 @@ To run this project locally, you'll need to have the following installed:
 ### Installation
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/quiz-app.git
-   cd quiz-app
+   git clone https://github.com/your-username/GoogleITQuizzer.git
+   cd react-it-quiz
 2. Install the dependencies:
     ```
     npm install
