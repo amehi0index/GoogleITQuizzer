@@ -1,4 +1,9 @@
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   display: flex;
@@ -7,10 +12,13 @@ body {
   min-height: 100vh;
   margin: 0;
   background-color: #e9ecef;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .App {
   font-family: Arial, sans-serif;
+  color: #333;
   width: 800px;
   padding: 20px;
   background-color: #ffffff;
@@ -22,9 +30,8 @@ body {
   max-width: 100%;
 }
 
-h1 {
+h2{
   text-align: center;
-  color: #333;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -106,7 +113,7 @@ button.btn:hover {
 
   .App {
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     margin: 0;
     min-height: auto;
   }
@@ -116,8 +123,8 @@ button.btn:hover {
     margin-bottom: 10px;
   }
 
-  h1 {
-    font-size: 20px;
+  h2 {
+    font-size:1.1em;
   }
 
   .question-section {

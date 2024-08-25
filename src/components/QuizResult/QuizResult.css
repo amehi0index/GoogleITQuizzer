@@ -11,9 +11,18 @@
     box-sizing: border-box; 
     overflow: auto; 
   }
+
+  .result-section h3 {
+    padding:8px 0;
+  }
+
+  .result-section p {
+    font-size: 1em;
+    padding-bottom:10px;
+  }
   
   .feedback {
-    margin: 15px 0;
+    margin:2px 0;
     font-size: 1.1em;
     line-height: 1.5;
   }
@@ -52,13 +61,13 @@
       font-size: 0.9em;
     }
   
-    .result-section h3 {
-      font-size: 1.5em;
+    /* .result-section h3 {
+      font-size: 1em;
     }
   
     .result-section p {
-      font-size: 1em;
-    }
+      font-size:.8em;
+    } */
   
     .feedback {
       flex-direction: column;
