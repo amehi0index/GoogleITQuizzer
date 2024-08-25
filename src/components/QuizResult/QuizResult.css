@@ -1,5 +1,6 @@
 /* QuizResult.css */
 
+/* QuizResult styles */
 .result-section {
     background-color: #fff;
     padding: 20px;
@@ -39,28 +40,12 @@
     color: #dc3545; 
   }
   
-  button.btn {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    font-size: 1em;
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  /* ModuleSelector styles */
+  .module-selector {
+    display: flex;
+    flex-direction: column;
   }
   
-  button.btn:disabled {
-    background-color: #ccc;
-  }
-  
-  button.btn:hover {
-    background-color: #0056b3;
-  }
-  
- 
   @media (max-width: 768px) {
     .result-section {
       padding: 15px;
@@ -85,11 +70,4 @@
       margin-bottom: 10px;
       font-size: 1.3em;
     }
-  
-    button.btn {
-      padding: 8px 16px;
-      font-size: 0.9em;
-    }
   }
-  
-   
