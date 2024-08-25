@@ -66,10 +66,8 @@ const App = () => {
     }
   
     if (selectedQuestions.length > 0) {
-      // Shuffle the questions array
       const shuffledQuestions = selectedQuestions.sort(() => Math.random() - 0.5);
       
-      // Select the first 15 questions
       const questionsToDisplay = shuffledQuestions.slice(0, 15);
       
       setQuestions(questionsToDisplay);
