@@ -68,7 +68,7 @@ const App = () => {
     if (selectedQuestions.length > 0) {
       const shuffledQuestions = selectedQuestions.sort(() => Math.random() - 0.5);
       
-      const questionsToDisplay = shuffledQuestions.slice(0, 3);
+      const questionsToDisplay = shuffledQuestions.slice(0, 15);
       
       setQuestions(questionsToDisplay);
       setCurrentQuestionIndex(0);
