@@ -73,6 +73,7 @@ button.btn:disabled {
 
 button.btn:hover {
   background-color: #0056b3;
+  transition: background-color 0.3s;
 }
 
 .result-section {
@@ -115,9 +116,14 @@ button.btn:hover {
 }
 
 
-/* Course Selections*/
+/* Course Selections */
+select {
+  cursor: pointer;
+}
 
 select option[disabled] {
   color: #808080;
   background-color: #e1dddd;
 }
+
+

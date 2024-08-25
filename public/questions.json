@@ -1168,8 +1168,453 @@
         {
           "id": "module3",
           "title": "Module 3: Software and Operating Systems",
-          "questions": [
-            
+          "subModules": [
+            {
+              "id": "module3-1",
+              "title": "What's An Operating System",
+              "questions": [
+                {
+                  "id": 1,
+                  "title": "What is the primary function of an operating system?",
+                  "answers": [
+                    { "id": 1, "answer": "To manage computer resources" },
+                    { "id": 2, "answer": "To design hardware" },
+                    { "id": 3, "answer": "To program applications" },
+                    { "id": 4, "answer": "To enhance network speed" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 2,
+                  "title": "Which part of the operating system directly interacts with hardware?",
+                  "answers": [
+                    { "id": 1, "answer": "User space" },
+                    { "id": 2, "answer": "Kernel" },
+                    { "id": 3, "answer": "File system" },
+                    { "id": 4, "answer": "Process scheduler" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 3,
+                  "title": "What does the kernel manage in terms of file handling?",
+                  "answers": [
+                    { "id": 1, "answer": "User permissions" },
+                    { "id": 2, "answer": "File storage and organization" },
+                    { "id": 3, "answer": "Network traffic" },
+                    { "id": 4, "answer": "Application interfaces" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 4,
+                  "title": "What is the role of process management in an operating system?",
+                  "answers": [
+                    { "id": 1, "answer": "To handle input/output operations" },
+                    { "id": 2, "answer": "To manage running programs" },
+                    { "id": 3, "answer": "To store user data" },
+                    { "id": 4, "answer": "To optimize disk performance" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 5,
+                  "title": "Which file system is commonly used by Windows operating systems?",
+                  "answers": [
+                    { "id": 1, "answer": "EXT4" },
+                    { "id": 2, "answer": "NTFS" },
+                    { "id": 3, "answer": "HFS+" },
+                    { "id": 4, "answer": "FAT32" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 6,
+                  "title": "Which component of the OS is responsible for memory management?",
+                  "answers": [
+                    { "id": 1, "answer": "User space" },
+                    { "id": 2, "answer": "Kernel" },
+                    { "id": 3, "answer": "File system" },
+                    { "id": 4, "answer": "Shell" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 7,
+                  "title": "What does I/O management handle in an OS?",
+                  "answers": [
+                    { "id": 1, "answer": "User authentication" },
+                    { "id": 2, "answer": "Interactions with hardware devices" },
+                    { "id": 3, "answer": "Network security" },
+                    { "id": 4, "answer": "Application installation" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 8,
+                  "title": "What is the main function of virtual memory?",
+                  "answers": [
+                    { "id": 1, "answer": "To increase processing speed" },
+                    { "id": 2, "answer": "To extend available memory using hard drive space" },
+                    { "id": 3, "answer": "To manage network connections" },
+                    { "id": 4, "answer": "To store user preferences" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 9,
+                  "title": "Which operating system is developed by Apple Inc.?",
+                  "answers": [
+                    { "id": 1, "answer": "Ubuntu" },
+                    { "id": 2, "answer": "Mac OS" },
+                    { "id": 3, "answer": "Windows" },
+                    { "id": 4, "answer": "Chrome OS" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 10,
+                  "title": "What is the purpose of the bootloader in the boot process?",
+                  "answers": [
+                    { "id": 1, "answer": "To manage file permissions" },
+                    { "id": 2, "answer": "To load the operating system" },
+                    { "id": 3, "answer": "To configure user accounts" },
+                    { "id": 4, "answer": "To perform system diagnostics" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 11,
+                  "title": "What is a process in the context of process management?",
+                  "answers": [
+                    { "id": 1, "answer": "A static application" },
+                    { "id": 2, "answer": "An executing instance of a program" },
+                    { "id": 3, "answer": "A file system operation" },
+                    { "id": 4, "answer": "A network request" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 12,
+                  "title": "What does time slicing refer to in process management?",
+                  "answers": [
+                    { "id": 1, "answer": "Allocating memory space" },
+                    { "id": 2, "answer": "Dividing CPU time among processes" },
+                    { "id": 3, "answer": "Scheduling network bandwidth" },
+                    { "id": 4, "answer": "Managing file storage" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 13,
+                  "title": "Which operating system is known for being open source and community-driven?",
+                  "answers": [
+                    { "id": 1, "answer": "Windows" },
+                    { "id": 2, "answer": "Mac OS" },
+                    { "id": 3, "answer": "Linux" },
+                    { "id": 4, "answer": "Chrome OS" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 14,
+                  "title": "What is the role of swap space in memory management?",
+                  "answers": [
+                    { "id": 1, "answer": "To store temporary files" },
+                    { "id": 2, "answer": "To provide additional virtual memory" },
+                    { "id": 3, "answer": "To manage user settings" },
+                    { "id": 4, "answer": "To handle I/O operations" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 15,
+                  "title": "What is the primary function of a Graphical User Interface (GUI)?",
+                  "answers": [
+                    { "id": 1, "answer": "To execute shell commands" },
+                    { "id": 2, "answer": "To provide a visual way to interact with the system" },
+                    { "id": 3, "answer": "To manage hardware resources" },
+                    { "id": 4, "answer": "To handle network connections" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 16,
+                  "title": "What is the primary difference between a program and a process?",
+                  "answers": [
+                    { "id": 1, "answer": "A program is a static application, while a process is a running instance" },
+                    { "id": 2, "answer": "A program manages hardware, while a process manages software" },
+                    { "id": 3, "answer": "A process is a file, while a program is a network request" },
+                    { "id": 4, "answer": "A process handles security, while a program handles performance" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 17,
+                  "title": "Which file system is commonly used by Linux distributions?",
+                  "answers": [
+                    { "id": 1, "answer": "NTFS" },
+                    { "id": 2, "answer": "HFS+" },
+                    { "id": 3, "answer": "EXT4" },
+                    { "id": 4, "answer": "FAT32" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 18,
+                  "title": "What is the purpose of the shell in an operating system?",
+                  "answers": [
+                    { "id": 1, "answer": "To handle hardware interactions" },
+                    { "id": 2, "answer": "To provide a command-line interface for users" },
+                    { "id": 3, "answer": "To manage file storage" },
+                    { "id": 4, "answer": "To optimize CPU usage" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 19,
+                  "title": "Which system call is used to create a new process?",
+                  "answers": [
+                    { "id": 1, "answer": "exec()" },
+                    { "id": 2, "answer": "fork()" },
+                    { "id": 3, "answer": "exit()" },
+                    { "id": 4, "answer": "wait()" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 20,
+                  "title": "What does the term 'deadlock' refer to in operating systems?",
+                  "answers": [
+                    { "id": 1, "answer": "A system crash" },
+                    { "id": 2, "answer": "A situation where processes are stuck waiting for each other" },
+                    { "id": 3, "answer": "A security breach" },
+                    { "id": 4, "answer": "A network failure" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 21,
+                  "title": "What is the role of the file system in an operating system?",
+                  "answers": [
+                    { "id": 1, "answer": "To handle network traffic" },
+                    { "id": 2, "answer": "To manage file storage and access" },
+                    { "id": 3, "answer": "To execute applications" },
+                    { "id": 4, "answer": "To manage hardware devices" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 22,
+                  "title": "Which type of memory is used for temporary storage during system operation?",
+                  "answers": [
+                    { "id": 1, "answer": "ROM" },
+                    { "id": 2, "answer": "Hard drive" },
+                    { "id": 3, "answer": "RAM" },
+                    { "id": 4, "answer": "Flash memory" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 23,
+                  "title": "What is the main purpose of a device driver?",
+                  "answers": [
+                    { "id": 1, "answer": "To manage network settings" },
+                    { "id": 2, "answer": "To enable communication between hardware and the OS" },
+                    { "id": 3, "answer": "To handle file operations" },
+                    { "id": 4, "answer": "To optimize CPU performance" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 24,
+                  "title": "Which operating system is known for its extensive use in server environments?",
+                  "answers": [
+                    { "id": 1, "answer": "Mac OS" },
+                    { "id": 2, "answer": "Windows" },
+                    { "id": 3, "answer": "Linux" },
+                    { "id": 4, "answer": "Chrome OS" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 25,
+                  "title": "What is the purpose of a system call in an operating system?",
+                  "answers": [
+                    { "id": 1, "answer": "To request services from the operating system" },
+                    { "id": 2, "answer": "To handle network connections" },
+                    { "id": 3, "answer": "To manage user accounts" },
+                    { "id": 4, "answer": "To execute hardware commands" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 26,
+                  "title": "Which of the following is not an example of a file system?",
+                  "answers": [
+                    { "id": 1, "answer": "NTFS" },
+                    { "id": 2, "answer": "EXT4" },
+                    { "id": 3, "answer": "FAT32" },
+                    { "id": 4, "answer": "TCP/IP" }
+                  ],
+                  "correct": 4
+                },
+                {
+                  "id": 27,
+                  "title": "What is the purpose of file permissions in an operating system?",
+                  "answers": [
+                    { "id": 1, "answer": "To enhance system performance" },
+                    { "id": 2, "answer": "To control access to files and directories" },
+                    { "id": 3, "answer": "To manage network traffic" },
+                    { "id": 4, "answer": "To handle memory allocation" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 28,
+                  "title": "What is a kernel panic?",
+                  "answers": [
+                    { "id": 1, "answer": "A security breach" },
+                    { "id": 2, "answer": "A critical system error" },
+                    { "id": 3, "answer": "A hardware failure" },
+                    { "id": 4, "answer": "A user authentication issue" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 29,
+                  "title": "What does the term 'booting' refer to in computing?",
+                  "answers": [
+                    { "id": 1, "answer": "Starting the operating system" },
+                    { "id": 2, "answer": "Shutting down the computer" },
+                    { "id": 3, "answer": "Updating software" },
+                    { "id": 4, "answer": "Installing hardware components" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 30,
+                  "title": "Which file system is used by macOS?",
+                  "answers": [
+                    { "id": 1, "answer": "NTFS" },
+                    { "id": 2, "answer": "EXT4" },
+                    { "id": 3, "answer": "APFS" },
+                    { "id": 4, "answer": "FAT32" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 31,
+                  "title": "What is the role of the file descriptor in process management?",
+                  "answers": [
+                    { "id": 1, "answer": "To manage memory allocation" },
+                    { "id": 2, "answer": "To represent files and I/O resources" },
+                    { "id": 3, "answer": "To schedule process execution" },
+                    { "id": 4, "answer": "To handle network communication" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 32,
+                  "title": "What is a context switch in process management?",
+                  "answers": [
+                    { "id": 1, "answer": "Switching between different network connections" },
+                    { "id": 2, "answer": "Saving and restoring process state during a context switch" },
+                    { "id": 3, "answer": "Changing user permissions" },
+                    { "id": 4, "answer": "Modifying file system permissions" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 33,
+                  "title": "Which command is used to list files in a directory in Unix-like systems?",
+                  "answers": [
+                    { "id": 1, "answer": "dir" },
+                    { "id": 2, "answer": "ls" },
+                    { "id": 3, "answer": "list" },
+                    { "id": 4, "answer": "show" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 34,
+                  "title": "Which of the following is a common Linux command for checking disk usage?",
+                  "answers": [
+                    { "id": 1, "answer": "df" },
+                    { "id": 2, "answer": "du" },
+                    { "id": 3, "answer": "ls" },
+                    { "id": 4, "answer": "ps" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 35,
+                  "title": "What is the purpose of the 'chmod' command in Unix-like systems?",
+                  "answers": [
+                    { "id": 1, "answer": "To change file permissions" },
+                    { "id": 2, "answer": "To list directory contents" },
+                    { "id": 3, "answer": "To display process information" },
+                    { "id": 4, "answer": "To copy files" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 36,
+                  "title": "What is the role of the 'grep' command in Unix-like systems?",
+                  "answers": [
+                    { "id": 1, "answer": "To search text using patterns" },
+                    { "id": 2, "answer": "To list files" },
+                    { "id": 3, "answer": "To change file permissions" },
+                    { "id": 4, "answer": "To display process information" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 37,
+                  "title": "Which command is used to display the contents of a file in Unix-like systems?",
+                  "answers": [
+                    { "id": 1, "answer": "cat" },
+                    { "id": 2, "answer": "more" },
+                    { "id": 3, "answer": "less" },
+                    { "id": 4, "answer": "all" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 38,
+                  "title": "What does the 'ps' command do in Unix-like systems?",
+                  "answers": [
+                    { "id": 1, "answer": "Shows current running processes" },
+                    { "id": 2, "answer": "Lists files in a directory" },
+                    { "id": 3, "answer": "Displays disk usage" },
+                    { "id": 4, "answer": "Searches for files" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 39,
+                  "title": "What is the function of the 'kill' command in Unix-like systems?",
+                  "answers": [
+                    { "id": 1, "answer": "To terminate processes" },
+                    { "id": 2, "answer": "To display file permissions" },
+                    { "id": 3, "answer": "To list directory contents" },
+                    { "id": 4, "answer": "To check disk usage" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 40,
+                  "title": "Which command is used to change the current working directory in Unix-like systems?",
+                  "answers": [
+                    { "id": 1, "answer": "cd" },
+                    { "id": 2, "answer": "mv" },
+                    { "id": 3, "answer": "pwd" },
+                    { "id": 4, "answer": "ls" }
+                  ],
+                  "correct": 1
+                }
+              ]
+            }
           ]
         }
     ]
