@@ -55,7 +55,7 @@ const App = () => {
   const startQuiz = () => {
     let selectedQuestions = [];
     const module = modules.find((mod) => mod.id === selectedModule);
-
+  
     if (module && selectedSubmodule) {
       const submodule = module.subModules.find(
         (sub) => sub.id === selectedSubmodule
@@ -64,9 +64,15 @@ const App = () => {
     } else if (module) {
       selectedQuestions = module.questions;
     }
-
+  
     if (selectedQuestions.length > 0) {
-      setQuestions(selectedQuestions);
+      // Shuffle the questions array
+      const shuffledQuestions = selectedQuestions.sort(() => Math.random() - 0.5);
+      
+      // Select the first 15 questions
+      const questionsToDisplay = shuffledQuestions.slice(0, 15);
+      
+      setQuestions(questionsToDisplay);
       setCurrentQuestionIndex(0);
       setScore(0);
       setUserAnswers([]);
@@ -75,6 +81,7 @@ const App = () => {
       setFeedback([]);
     }
   };
+  
 
   const handleModuleChange = (e) => {
     setSelectedModule(e.target.value);
