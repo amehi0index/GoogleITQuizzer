@@ -1,5 +1,5 @@
 import React from 'react';
-// import './QuizResult.css'; 
+import './QuizResult.css'; 
 
 const QuizResult = ({ score, totalQuestions, feedback, onNewQuiz }) => (
   <div className="result-section">

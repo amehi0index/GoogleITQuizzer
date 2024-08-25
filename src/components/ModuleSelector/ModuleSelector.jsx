@@ -1,5 +1,6 @@
 // ModuleSelector.js
 import React from 'react';
+import './ModuleSelector.css';
 
 const ModuleSelector = ({
   modules,

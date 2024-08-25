@@ -1,14 +1,14 @@
-/* ModuleSelector.css*/
-.module-selector {
+/*Question.css*/
+.question-section {
     display: flex;
     flex-direction: column;
   }
   
-  select {
+  .answer-option {
     margin-bottom: 10px;
   }
   
   .btn {
-    margin-top: 10px;
+    margin-top: 20px;
   }
   

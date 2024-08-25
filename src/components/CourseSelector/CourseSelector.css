@@ -1,0 +1,15 @@
+/*CourseSelector.css*/
+select {
+    width: 100%;
+    padding: 10px;
+  }
+
+  select {
+    cursor: pointer;
+  }
+  
+  select option[disabled] {
+    color: #808080;
+    background-color: #e1dddd;
+  }
+  

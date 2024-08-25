@@ -1,10 +1,13 @@
 import React from 'react';
+import './CourseSelector.css';
+
+
 
 const CourseSelector = ({ courses, selectedCourse, onCourseChange }) => {
   return (
     <select
       value={selectedCourse}
-      onChange={onCourseChange}
+      onChange={onCourseChange} //e.target.value -> course.id
       disabled={courses.every(course => course.disabled)}
     >
       <option value="" disabled>Select a course</option>

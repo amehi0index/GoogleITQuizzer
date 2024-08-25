@@ -1,5 +1,5 @@
 import React from 'react';
-// import './Question.css'; 
+import './Question.css'; 
 
 const Question = ({ questions, currentQuestionIndex, selectedAnswer, onAnswerChange, onNextQuestion, isLastQuestion }) => {
   if (questions.length === 0) return null;
