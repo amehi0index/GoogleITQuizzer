@@ -1601,9 +1601,313 @@
                     { "id": 4, "answer": "They share core components with desktop OSs" }
                   ],
                   "correct": 3
+                },
+                {
+                  "id": 41,
+                  "title": "What is the primary purpose of buffering in I/O operations?",
+                  "answers": [
+                    { "id": 1, "answer": "To permanently store data on the device" },
+                    { "id": 2, "answer": "To reduce wait time by temporarily storing data" },
+                    { "id": 3, "answer": "To increase network bandwidth" },
+                    { "id": 4, "answer": "To compress files for faster transmission" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 42,
+                  "title": "What is the main role of caching in a system?",
+                  "answers": [
+                    { "id": 1, "answer": "To store data for long-term backups" },
+                    { "id": 2, "answer": "To store frequently accessed data for faster retrieval" },
+                    { "id": 3, "answer": "To manage system updates" },
+                    { "id": 4, "answer": "To optimize software installation" }
+                  ],
+                  "correct": 2
                 }
               ]
+            },
+            {
+              "id": "module3-2",
+              "title": "Installing An Operating Systems",
+              "questions": [
+                {
+                  "id": 1,
+                  "title": "What is a key consideration when selecting an OS for an organization?",
+                  "answers": [
+                    { "id": 1, "answer": "Employee preferences" },
+                    { "id": 2, "answer": "Specific software requirements" },
+                    { "id": 3, "answer": "Brand loyalty" },
+                    { "id": 4, "answer": "Color scheme" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 2,
+                  "title": "Why is hardware compatibility important when choosing an OS?",
+                  "answers": [
+                    { "id": 1, "answer": "To ensure the OS looks visually appealing" },
+                    { "id": 2, "answer": "To match the hardware's supported OS" },
+                    { "id": 3, "answer": "To enhance the user interface design" },
+                    { "id": 4, "answer": "To increase the OS's download speed" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 3,
+                  "title": "What should you check to ensure CPU architecture compatibility with an OS?",
+                  "answers": [
+                    { "id": 1, "answer": "OS's user interface design" },
+                    { "id": 2, "answer": "CPU's color scheme" },
+                    { "id": 3, "answer": "CPU's bit architecture (32-bit or 64-bit)" },
+                    { "id": 4, "answer": "OS's marketing materials" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 4,
+                  "title": "What is a common method for installing an OS from scratch?",
+                  "answers": [
+                    { "id": 1, "answer": "Via network only" },
+                    { "id": 2, "answer": "Via an external hard drive" },
+                    { "id": 3, "answer": "Using disks, USB drives, or internet-based installs" },
+                    { "id": 4, "answer": "Using internal storage only" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 5,
+                  "title": "What is the purpose of a Virtual Machine (VM)?",
+                  "answers": [
+                    { "id": 1, "answer": "To increase the physical RAM of a computer" },
+                    { "id": 2, "answer": "To run multiple OSes on a single machine" },
+                    { "id": 3, "answer": "To boost the computer's internet speed" },
+                    { "id": 4, "answer": "To improve the display resolution" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 6,
+                  "title": "Which of the following is a benefit of using VMs in IT support?",
+                  "answers": [
+                    { "id": 1, "answer": "Decreased system security" },
+                    { "id": 2, "answer": "Increased hardware wear" },
+                    { "id": 3, "answer": "Ease of deploying and removing virtual computers" },
+                    { "id": 4, "answer": "Limited software testing capabilities" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 7,
+                  "title": "How should you prepare installation media for Windows 10?",
+                  "answers": [
+                    { "id": 1, "answer": "Download it as a ZIP file" },
+                    { "id": 2, "answer": "Create a bootable USB drive or use a disk" },
+                    { "id": 3, "answer": "Burn it to a DVD only" },
+                    { "id": 4, "answer": "Install it directly from an email attachment" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 8,
+                  "title": "What is the purpose of the 'Express settings' option during Windows 10 installation?",
+                  "answers": [
+                    { "id": 1, "answer": "To configure advanced network settings" },
+                    { "id": 2, "answer": "To speed up the setup process" },
+                    { "id": 3, "answer": "To create additional user accounts" },
+                    { "id": 4, "answer": "To enable additional security features" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 9,
+                  "title": "What is one of the key features of the Ubuntu desktop environment?",
+                  "answers": [
+                    { "id": 1, "answer": "A Dock for app shortcuts on the left side" },
+                    { "id": 2, "answer": "A taskbar at the bottom for system notifications" },
+                    { "id": 3, "answer": "An app launcher in the center of the screen" },
+                    { "id": 4, "answer": "A start menu at the bottom right corner" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 10,
+                  "title": "How do you create a file via the Terminal in Ubuntu?",
+                  "answers": [
+                    { "id": 1, "answer": "Use the 'mkdir' command" },
+                    { "id": 2, "answer": "Use the 'touch' command" },
+                    { "id": 3, "answer": "Use the 'cp' command" },
+                    { "id": 4, "answer": "Use the 'rm' command" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 11,
+                  "title": "What is the primary focus of ChromeOS?",
+                  "answers": [
+                    { "id": 1, "answer": "Gaming performance" },
+                    { "id": 2, "answer": "Web browsing and cloud-based applications" },
+                    { "id": 3, "answer": "High-end graphics design" },
+                    { "id": 4, "answer": "Advanced system programming" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 12,
+                  "title": "What is a notable feature of ChromeOS concerning data storage?",
+                  "answers": [
+                    { "id": 1, "answer": "Data is stored locally on the device" },
+                    { "id": 2, "answer": "Data is stored in the Cloud" },
+                    { "id": 3, "answer": "Data is stored on a removable hard drive" },
+                    { "id": 4, "answer": "Data is stored on a separate partition" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 13,
+                  "title": "Which macOS feature provides shortcuts to commonly used applications?",
+                  "answers": [
+                    { "id": 1, "answer": "The Finder" },
+                    { "id": 2, "answer": "The Dock" },
+                    { "id": 3, "answer": "The Menu Bar" },
+                    { "id": 4, "answer": "The Launchpad" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 14,
+                  "title": "In macOS, where can you find the option to restart or shut down the computer?",
+                  "answers": [
+                    { "id": 1, "answer": "The Finder menu" },
+                    { "id": 2, "answer": "The Dock" },
+                    { "id": 3, "answer": "The Apple menu at the top left" },
+                    { "id": 4, "answer": "The Launchpad" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 15,
+                  "title": "What should you check if you need to install Linux on a machine?",
+                  "answers": [
+                    { "id": 1, "answer": "The machine's compatibility with Ubuntu" },
+                    { "id": 2, "answer": "The machine's web browser version" },
+                    { "id": 3, "answer": "The machine's CPU's color scheme" },
+                    { "id": 4, "answer": "The machine's RAM capacity" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 16,
+                  "title": "Which command in Ubuntu Terminal is used to create a new file?",
+                  "answers": [
+                    { "id": 1, "answer": "nano" },
+                    { "id": 2, "answer": "touch" },
+                    { "id": 3, "answer": "mkdir" },
+                    { "id": 4, "answer": "cp" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 17,
+                  "title": "What does the 'echo $SHELL' command do in Ubuntu?",
+                  "answers": [
+                    { "id": 1, "answer": "Displays the current user" },
+                    { "id": 2, "answer": "Displays the current working directory" },
+                    { "id": 3, "answer": "Confirms the shell being used" },
+                    { "id": 4, "answer": "Displays the system date and time" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 18,
+                  "title": "What is a major advantage of using Virtual Machines (VMs) in IT support?",
+                  "answers": [
+                    { "id": 1, "answer": "They increase physical hardware requirements" },
+                    { "id": 2, "answer": "They allow running multiple OSes simultaneously" },
+                    { "id": 3, "answer": "They decrease network security" },
+                    { "id": 4, "answer": "They limit resource allocation" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 19,
+                  "title": "When installing Windows 10, what should you do if prompted for a product key during installation?",
+                  "answers": [
+                    { "id": 1, "answer": "Enter the product key immediately" },
+                    { "id": 2, "answer": "Skip the product key entry for now" },
+                    { "id": 3, "answer": "Reboot and try again later" },
+                    { "id": 4, "answer": "Call Microsoft support" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 20,
+                  "title": "Which tool is used to create a bootable USB drive for installing Ubuntu?",
+                  "answers": [
+                    { "id": 1, "answer": "Etcher" },
+                    { "id": 2, "answer": "Disk Utility" },
+                    { "id": 3, "answer": "Windows Explorer" },
+                    { "id": 4, "answer": "Photoshop" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 21,
+                  "title": "What does the 'System Preferences' in macOS allow you to adjust?",
+                  "answers": [
+                    { "id": 1, "answer": "Internet speed" },
+                    { "id": 2, "answer": "Mouse scroll direction, user management, and more" },
+                    { "id": 3, "answer": "CPU architecture" },
+                    { "id": 4, "answer": "Disk partitioning" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 22,
+                  "title": "What should be checked to ensure compatibility between an OS and a CPU architecture?",
+                  "answers": [
+                    { "id": 1, "answer": "OS’s color scheme" },
+                    { "id": 2, "answer": "OS’s bit architecture (32-bit or 64-bit)" },
+                    { "id": 3, "answer": "CPU’s brand" },
+                    { "id": 4, "answer": "OS’s market share" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 23,
+                  "title": "What feature of ChromeOS helps in reducing dependency on local storage?",
+                  "answers": [
+                    { "id": 1, "answer": "Local disk encryption" },
+                    { "id": 2, "answer": "Cloud-based configuration" },
+                    { "id": 3, "answer": "High-speed local SSDs" },
+                    { "id": 4, "answer": "External storage support" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 24,
+                  "title": "What is the primary purpose of the 'Finder' in macOS?",
+                  "answers": [
+                    { "id": 1, "answer": "File management and navigation" },
+                    { "id": 2, "answer": "System performance monitoring" },
+                    { "id": 3, "answer": "Network settings configuration" },
+                    { "id": 4, "answer": "Application installation" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 25,
+                  "title": "Which command is used to create a file in Ubuntu's Terminal?",
+                  "answers": [
+                    { "id": 1, "answer": "mkdir" },
+                    { "id": 2, "answer": "touch" },
+                    { "id": 3, "answer": "mv" },
+                    { "id": 4, "answer": "cp" }
+                  ],
+                  "correct": 2
+                }
+              ]  
             }
+            
           ]
         }
     ]
