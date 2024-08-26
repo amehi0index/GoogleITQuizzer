@@ -1513,6 +1513,94 @@
                     { "id": 4, "answer": "Modifying file system permissions" }
                   ],
                   "correct": 2
+                },
+                {
+                  "id": 33,
+                  "title": "What is the primary purpose of logs in a computer system?",
+                  "answers": [
+                    { "id": 1, "answer": "To speed up the boot process" },
+                    { "id": 2, "answer": "To record system events and assist in diagnosing issues" },
+                    { "id": 3, "answer": "To manage system memory" },
+                    { "id": 4, "answer": "To improve device performance" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 34,
+                  "title": "Which of the following is an example of a scenario that would be captured in system logs?",
+                  "answers": [
+                    { "id": 1, "answer": "Installing a new app on your smartphone" },
+                    { "id": 2, "answer": "Adjusting screen brightness" },
+                    { "id": 3, "answer": "A game console shutting off repeatedly" },
+                    { "id": 4, "answer": "Opening a new web browser tab" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 35,
+                  "title": "Why is understanding the boot process important for IT support?",
+                  "answers": [
+                    { "id": 1, "answer": "It helps improve device battery life" },
+                    { "id": 2, "answer": "It provides insight when a computer fails to start" },
+                    { "id": 3, "answer": "It enhances system performance" },
+                    { "id": 4, "answer": "It is necessary for installing software" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 36,
+                  "title": "Which of the following is NOT a step in the boot process?",
+                  "answers": [
+                    { "id": 1, "answer": "Power-On Self-Test (POST)" },
+                    { "id": 2, "answer": "BIOS/UEFI Initialization" },
+                    { "id": 3, "answer": "Bootloader Execution" },
+                    { "id": 4, "answer": "System Backup" }
+                  ],
+                  "correct": 4
+                },
+                {
+                  "id": 37,
+                  "title": "What is the main function of the kernel in the boot process?",
+                  "answers": [
+                    { "id": 1, "answer": "To check if all hardware is functioning properly" },
+                    { "id": 2, "answer": "To load the user interface" },
+                    { "id": 3, "answer": "To control access to system resources" },
+                    { "id": 4, "answer": "To start background applications" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 38,
+                  "title": "How do mobile operating systems differ from desktop operating systems?",
+                  "answers": [
+                    { "id": 1, "answer": "Mobile OSs prioritize battery life by optimizing performance" },
+                    { "id": 2, "answer": "Mobile OSs are designed to support multiple boot devices" },
+                    { "id": 3, "answer": "Desktop OSs are optimized for minimal hardware usage" },
+                    { "id": 4, "answer": "Mobile OSs do not require drivers" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 39,
+                  "title": "Which type of device typically uses a specialized operating system?",
+                  "answers": [
+                    { "id": 1, "answer": "Smartphones" },
+                    { "id": 2, "answer": "Fitness monitors" },
+                    { "id": 3, "answer": "Laptops" },
+                    { "id": 4, "answer": "Tablets" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 40,
+                  "title": "What is a key characteristic of operating systems for specialized mobile devices like fitness trackers?",
+                  "answers": [
+                    { "id": 1, "answer": "They are designed for high processing power" },
+                    { "id": 2, "answer": "They support a wide range of peripherals" },
+                    { "id": 3, "answer": "They are optimized for minimal hardware and battery usage" },
+                    { "id": 4, "answer": "They share core components with desktop OSs" }
+                  ],
+                  "correct": 3
                 }
               ]
             }
