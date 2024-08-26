@@ -1786,7 +1786,7 @@
                 },
                 {
                   "id": 15,
-                  "title": "What should you check if you need to install Linux on a machine?",
+                  "title": "What should you check if you need to install Linux (Ubuntu) on a machine?",
                   "answers": [
                     { "id": 1, "answer": "The machine's compatibility with Ubuntu" },
                     { "id": 2, "answer": "The machine's web browser version" },
@@ -1904,8 +1904,173 @@
                     { "id": 4, "answer": "cp" }
                   ],
                   "correct": 2
-                }
-              ]  
+                },
+                {
+                  "id": 26,
+                  "title": "What is CPU architecture compatibility, and why does it matter when selecting an OS?",
+                  "answers": [
+                    { "id": 1, "answer": "It ensures software is compatible with the CPU's design" },
+                    { "id": 2, "answer": "It affects the OS's color scheme" },
+                    { "id": 3, "answer": "It determines the OS installation speed" },
+                    { "id": 4, "answer": "It influences the system's sound settings" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 28,
+                  "title": "What does it mean if a computer comes with a pre-installed OS?",
+                  "answers": [
+                    { "id": 1, "answer": "The OS is installed on the computer before you receive it" },
+                    { "id": 2, "answer": "The OS installation requires no setup" },
+                    { "id": 3, "answer": "The OS can be removed easily" },
+                    { "id": 4, "answer": "The OS is installed after purchase" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 29,
+                  "title": "Why might a USB drive be chosen for a single OS installation?",
+                  "answers": [
+                    { "id": 1, "answer": "It is cost-effective for large-scale deployments" },
+                    { "id": 2, "answer": "It is convenient for single installations" },
+                    { "id": 3, "answer": "It provides better performance" },
+                    { "id": 4, "answer": "It supports multiple OS installations simultaneously" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 30,
+                  "title": "What is a virtual machine (VM)?",
+                  "answers": [
+                    { "id": 1, "answer": "A physical computer that runs multiple OSes" },
+                    { "id": 2, "answer": "A software-based emulation of a physical computer" },
+                    { "id": 3, "answer": "A cloud-based operating system" },
+                    { "id": 4, "answer": "A backup tool for OS installations" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 31,
+                  "title": "What should you ensure when preparing installation media for Windows 10?",
+                  "answers": [
+                    { "id": 1, "answer": "The BIOS/UEFI boot order is set to boot from the USB drive" },
+                    { "id": 2, "answer": "The disk is formatted for quick access" },
+                    { "id": 3, "answer": "The computer is connected to a network" },
+                    { "id": 4, "answer": "The system has a high-speed processor" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 32,
+                  "title": "What is the first step in the Windows 10 installation process?",
+                  "answers": [
+                    { "id": 1, "answer": "Select the drive you want to install Windows on" },
+                    { "id": 2, "answer": "Choose language, time, and keyboard preferences" },
+                    { "id": 3, "answer": "Enter your product key" },
+                    { "id": 4, "answer": "Create a username and password" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 33,
+                  "title": "Which of the following is a key interface element of the Ubuntu desktop environment?",
+                  "answers": [
+                    { "id": 1, "answer": "Dock on the bottom of the screen" },
+                    { "id": 2, "answer": "Top right corner for network, sound, power options" },
+                    { "id": 3, "answer": "Start menu with application shortcuts" },
+                    { "id": 4, "answer": "Sidebar with task manager" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 34,
+                  "title": "How do you install Ubuntu from a bootable USB drive?",
+                  "answers": [
+                    { "id": 1, "answer": "Boot from the USB drive and choose 'Try Ubuntu'" },
+                    { "id": 2, "answer": "Boot from the USB drive and choose 'Install Ubuntu'" },
+                    { "id": 3, "answer": "Install Ubuntu via a network connection" },
+                    { "id": 4, "answer": "Use a CD to install Ubuntu" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 35,
+                  "title": "What information do you need to enter during the Ubuntu installation process?",
+                  "answers": [
+                    { "id": 1, "answer": "Your name, computer name, username, and password" },
+                    { "id": 2, "answer": "Your email address and phone number" },
+                    { "id": 3, "answer": "Your product key and security questions" },
+                    { "id": 4, "answer": "Your hardware specifications" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id":36,
+                  "title": "How can you confirm that you are using Bash in Ubuntu's terminal?",
+                  "answers": [
+                    { "id": 1, "answer": "Use the 'echo $SHELL' command" },
+                    { "id": 2, "answer": "Check the terminal settings" },
+                    { "id": 3, "answer": "Look at the terminal color scheme" },
+                    { "id": 4, "answer": "Run the 'ls' command" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 37,
+                  "title": "What additional features does ChromeOS support?",
+                  "answers": [
+                    { "id": 1, "answer": "Running Android and Linux applications inside containers" },
+                    { "id": 2, "answer": "Running multiple instances of the same OS" },
+                    { "id": 3, "answer": "Running high-performance gaming applications" },
+                    { "id": 4, "answer": "Running virtual machines with different OSes" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id":38,
+                  "title": "What is the user interface of ChromeOS primarily centered around?",
+                  "answers": [
+                    { "id": 1, "answer": "The Chrome browser" },
+                    { "id": 2, "answer": "A traditional desktop environment" },
+                    { "id": 3, "answer": "A customizable start menu" },
+                    { "id": 4, "answer": "Multiple desktop workspaces" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 39,
+                  "title": "What is the primary focus of ChromeOS in terms of user experience?",
+                  "answers": [
+                    { "id": 1, "answer": "Simplicity and ease of use with minimal configuration" },
+                    { "id": 2, "answer": "Complex configuration and extensive customization" },
+                    { "id": 3, "answer": "High-performance gaming and multimedia capabilities" },
+                    { "id": 4, "answer": "Advanced software development tools" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 40,
+                  "title": "What is the format of the Terminal prompt in Ubuntu?",
+                  "answers": [
+                    { "id": 1, "answer": "hostname@username:~$" },
+                    { "id": 2, "answer": "username@hostname:~$" },
+                    { "id": 3, "answer": "user@host:~$" },
+                    { "id": 4, "answer": "host@user:~$" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id":41,
+                  "title": "How can you open the Terminal in Ubuntu?",
+                  "answers": [
+                    { "id": 1, "answer": "Search for 'Command Prompt' in the applications menu" },
+                    { "id": 2, "answer": "Search for 'Terminal' in the applications menu" },
+                    { "id": 3, "answer": "Click on 'System Preferences'" },
+                    { "id": 4, "answer": "Right-click on the desktop and select 'Open Terminal'" }
+                  ],
+                  "correct": 2
+                }            
+              ]
             }
             
           ]
