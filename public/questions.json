@@ -1372,17 +1372,6 @@
                   "correct": 2
                 },
                 {
-                  "id": 19,
-                  "title": "Which system call is used to create a new process?",
-                  "answers": [
-                    { "id": 1, "answer": "exec()" },
-                    { "id": 2, "answer": "fork()" },
-                    { "id": 3, "answer": "exit()" },
-                    { "id": 4, "answer": "wait()" }
-                  ],
-                  "correct": 2
-                },
-                {
                   "id": 20,
                   "title": "What does the term 'deadlock' refer to in operating systems?",
                   "answers": [
@@ -1524,94 +1513,6 @@
                     { "id": 4, "answer": "Modifying file system permissions" }
                   ],
                   "correct": 2
-                },
-                {
-                  "id": 33,
-                  "title": "Which command is used to list files in a directory in Unix-like systems?",
-                  "answers": [
-                    { "id": 1, "answer": "dir" },
-                    { "id": 2, "answer": "ls" },
-                    { "id": 3, "answer": "list" },
-                    { "id": 4, "answer": "show" }
-                  ],
-                  "correct": 2
-                },
-                {
-                  "id": 34,
-                  "title": "Which of the following is a common Linux command for checking disk usage?",
-                  "answers": [
-                    { "id": 1, "answer": "df" },
-                    { "id": 2, "answer": "du" },
-                    { "id": 3, "answer": "ls" },
-                    { "id": 4, "answer": "ps" }
-                  ],
-                  "correct": 1
-                },
-                {
-                  "id": 35,
-                  "title": "What is the purpose of the 'chmod' command in Unix-like systems?",
-                  "answers": [
-                    { "id": 1, "answer": "To change file permissions" },
-                    { "id": 2, "answer": "To list directory contents" },
-                    { "id": 3, "answer": "To display process information" },
-                    { "id": 4, "answer": "To copy files" }
-                  ],
-                  "correct": 1
-                },
-                {
-                  "id": 36,
-                  "title": "What is the role of the 'grep' command in Unix-like systems?",
-                  "answers": [
-                    { "id": 1, "answer": "To search text using patterns" },
-                    { "id": 2, "answer": "To list files" },
-                    { "id": 3, "answer": "To change file permissions" },
-                    { "id": 4, "answer": "To display process information" }
-                  ],
-                  "correct": 1
-                },
-                {
-                  "id": 37,
-                  "title": "Which command is used to display the contents of a file in Unix-like systems?",
-                  "answers": [
-                    { "id": 1, "answer": "cat" },
-                    { "id": 2, "answer": "more" },
-                    { "id": 3, "answer": "less" },
-                    { "id": 4, "answer": "all" }
-                  ],
-                  "correct": 1
-                },
-                {
-                  "id": 38,
-                  "title": "What does the 'ps' command do in Unix-like systems?",
-                  "answers": [
-                    { "id": 1, "answer": "Shows current running processes" },
-                    { "id": 2, "answer": "Lists files in a directory" },
-                    { "id": 3, "answer": "Displays disk usage" },
-                    { "id": 4, "answer": "Searches for files" }
-                  ],
-                  "correct": 1
-                },
-                {
-                  "id": 39,
-                  "title": "What is the function of the 'kill' command in Unix-like systems?",
-                  "answers": [
-                    { "id": 1, "answer": "To terminate processes" },
-                    { "id": 2, "answer": "To display file permissions" },
-                    { "id": 3, "answer": "To list directory contents" },
-                    { "id": 4, "answer": "To check disk usage" }
-                  ],
-                  "correct": 1
-                },
-                {
-                  "id": 40,
-                  "title": "Which command is used to change the current working directory in Unix-like systems?",
-                  "answers": [
-                    { "id": 1, "answer": "cd" },
-                    { "id": 2, "answer": "mv" },
-                    { "id": 3, "answer": "pwd" },
-                    { "id": 4, "answer": "ls" }
-                  ],
-                  "correct": 1
                 }
               ]
             }
