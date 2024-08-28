@@ -2097,25 +2097,25 @@
               "questions": [
                 {
                   "id": 1,
-                  "title": "What does an IP address represent?",
+                 "title": "What is the primary purpose of an IP address?",
                   "answers": [
-                    { "id": 1, "answer": "A unique identifier for a computer on a network" },
-                    { "id": 2, "answer": "A physical connection to a network" },
-                    { "id": 3, "answer": "A protocol for data transmission" },
-                    { "id": 4, "answer": "A type of Ethernet cable" }
+                    { "id": 1, "answer": "To identify a device's unique hardware" },
+                    { "id": 2, "answer": "To uniquely identify a device on a network and determine its location" },
+                    { "id": 3, "answer": "To encrypt data during transmission" },
+                    { "id": 4, "answer": "To assign a name to a device on a network" }
                   ],
-                  "correct": 1
+                  "correct": 2
                 },
                 {
                   "id": 2,
-                  "title": "What is the role of a MAC address in networking?",
+                  "title": "What is the primary purpose of a MAC address?",
                   "answers": [
-                    { "id": 1, "answer": "To identify a device on a network" },
-                    { "id": 2, "answer": "To provide an IP address to a device" },
-                    { "id": 3, "answer": "To route data across the internet" },
-                    { "id": 4, "answer": "To encrypt data during transmission" }
+                    { "id": 1, "answer": "To route data across the internet" },
+                    { "id": 2, "answer": "To uniquely identify the hardware of a device on a network" },
+                    { "id": 3, "answer": "To provide a temporary network identity" },
+                    { "id": 4, "answer": "To serve as a backup for an IP address" }
                   ],
-                  "correct": 1
+                  "correct": 2
                 },
                 {
                   "id": 3,
@@ -2196,25 +2196,25 @@
                 },
                 {
                   "id": 10,
-                  "title": "What is an IP address?",
+                  "title": "Which of the following correctly describes the format of an IP address?",
                   "answers": [
-                    { "id": 1, "answer": "A numerical label assigned to devices on a network" },
-                    { "id": 2, "answer": "A physical cable used to connect to a network" },
-                    { "id": 3, "answer": "A protocol for reliable data transmission" },
-                    { "id": 4, "answer": "A method of encrypting data" }
+                    { "id": 1, "answer": "A combination of letters and special characters, e.g., G4%9D:A5" },
+                    { "id": 2, "answer": "A series of four groups of numbers separated by dots, e.g., 192.168.0.1" },
+                    { "id": 3, "answer": "A combination of letters and numbers separated by hyphens, e.g., AA-BB-CC-DD-EE-FF" },
+                    { "id": 4, "answer": "A series of numbers separated by colons, e.g., 82:4f:23:59:47:4" }
                   ],
-                  "correct": 1
+                  "correct": 2
                 },
                 {
                   "id": 11,
-                  "title": "What is a MAC address?",
+                  "title": "Which of the following correctly describes the format of a MAC address?",
                   "answers": [
-                    { "id": 1, "answer": "A globally unique identifier attached to a network interface" },
-                    { "id": 2, "answer": "A numerical label assigned to a device on a network" },
-                    { "id": 3, "answer": "A device that directs data within a network" },
-                    { "id": 4, "answer": "A protocol for converting domain names into IP addresses" }
+                    { "id": 1, "answer": "A series of four groups of numbers separated by dots, e.g., 192.168.0.1" },
+                    { "id": 2, "answer": "A combination of letters and numbers separated by colons or hyphens, e.g., 82:4f:23:59:47:4" },
+                    { "id": 3, "answer": "A series of numbers separated by slashes, e.g., 10/100/1000" },
+                    { "id": 4, "answer": "A combination of special characters and letters, e.g., #A2&C@4" }
                   ],
-                  "correct": 1
+                  "correct": 2
                 },
                 {
                   "id": 12,
@@ -2248,6 +2248,17 @@
                     { "id": 4, "answer": "Maps domain names to IP addresses" }
                   ],
                   "correct": 1
+                },
+                {
+                  "id": 15,
+                  "title": "How does an IP address differ from a MAC address?",
+                  "answers": [
+                    { "id": 1, "answer": "IP addresses are permanent and MAC addresses change frequently." },
+                    { "id": 2, "answer": "IP addresses identify a device's network location, while MAC addresses identify the device's hardware." },
+                    { "id": 3, "answer": "IP addresses use a hexadecimal format, while MAC addresses use a numerical format." },
+                    { "id": 4, "answer": "IP addresses are only used for wired connections, while MAC addresses are for wireless connections." }
+                  ],
+                  "correct": 2
                 }
               ]
             },
