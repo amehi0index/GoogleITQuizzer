@@ -2269,6 +2269,50 @@
                     { "id": 4, "answer": "Routers are used for wireless connections, while switches are used for wired connections." }
                   ],
                   "correct": 2
+                },
+                {
+                  "id": 19,
+                  "title": "What is a website primarily made up of?",
+                  "answers": [
+                    { "id": 1, "answer": "Software programs" },
+                    { "id": 2, "answer": "Text documents formatted with HTML" },
+                    { "id": 3, "answer": "Hardware components" },
+                    { "id": 4, "answer": "Data encryption protocols" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 20,
+                  "title": "What does a URL (Uniform Resource Locator) represent?",
+                  "answers": [
+                    { "id": 1, "answer": "A software application" },
+                    { "id": 2, "answer": "A network configuration file" },
+                    { "id": 3, "answer": "The web address of a website" },
+                    { "id": 4, "answer": "An IP address" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 21,
+                  "title": "What part of the URL 'www.reddit.com' is the domain name?",
+                  "answers": [
+                    { "id": 1, "answer": "www" },
+                    { "id": 2, "answer": "reddit" },
+                    { "id": 3, "answer": "com" },
+                    { "id": 4, "answer": "reddit.com" }
+                  ],
+                  "correct": 4
+                },
+                {
+                  "id": 4,
+                  "title": "Which protocol forms the core of the Internet?",
+                  "answers": [
+                    { "id": 1, "answer": "HTTP/HTTPS" },
+                    { "id": 2, "answer": "TCP/IP" },
+                    { "id": 3, "answer": "FTP" },
+                    { "id": 4, "answer": "SMTP" }
+                  ],
+                  "correct": 2
                 }
               ]
             },
@@ -2285,17 +2329,6 @@
                     { "id": 2, "answer": "Programmers had to directly interact with massive computers." },
                     { "id": 3, "answer": "There was no electricity." },
                     { "id": 4, "answer": "Computers could not store data." }
-                  ],
-                  "correct": 2
-                },
-                {
-                  "id": 2,
-                  "title": "Which project led to the creation of ARPANET?",
-                  "answers": [
-                    { "id": 1, "answer": "NASA" },
-                    { "id": 2, "answer": "DARPA" },
-                    { "id": 3, "answer": "World Wide Web Consortium" },
-                    { "id": 4, "answer": "ICANN" }
                   ],
                   "correct": 2
                 },
@@ -2320,17 +2353,6 @@
                     { "id": 4, "answer": "Linus Torvalds and Richard Stallman" }
                   ],
                   "correct": 2
-                },
-                {
-                  "id": 5,
-                  "title": "What does ARPANET stand for?",
-                  "answers": [
-                    { "id": 1, "answer": "Advanced Research Projects Agency Network" },
-                    { "id": 2, "answer": "Automatic Remote Protocol Association Network" },
-                    { "id": 3, "answer": "Advanced Router and Protocol Analysis Network" },
-                    { "id": 4, "answer": "Associated Research and Protocol Agency Network" }
-                  ],
-                  "correct": 1
                 },
                 {
                   "id": 6,
@@ -2433,15 +2455,28 @@
                 },
                 {
                   "id": 15,
-                  "title": "How did ARPANET benefit early programmers?",
+                  "title": "What is the format of an IPv6 address?",
                   "answers": [
-                    { "id": 1, "answer": "Allowed them to use multiple computers at once." },
-                    { "id": 2, "answer": "Enabled remote access to computing resources." },
-                    { "id": 3, "answer": "Provided them with more programming languages." },
-                    { "id": 4, "answer": "Increased storage space significantly." }
+                    { "id": 1, "answer": "128-bit address written in hexadecimal format, e.g., 2001:0000:130F:0000:0000:09C0:876A:130B" },
+                    { "id": 2, "answer": "32-bit address written in decimal format, e.g., 192.168.1.1" },
+                    { "id": 3, "answer": "64-bit address written in binary format, e.g., 11000000101010000000000000000001" },
+                    { "id": 4, "answer": "8-bit address written in octal format, e.g., 300.150.200.10" }
                   ],
-                  "correct": 2
+                  "correct": 1
+                },
+                {
+                  "id": 14,
+                  "title": "Who is responsible for registering domain names once they are taken?",
+                  "answers": [
+                    { "id": 1, "answer": "ICANN" },
+                    { "id": 2, "answer": "IANA" },
+                    { "id": 3, "answer": "DNS" },
+                    { "id": 4, "answer": "RIPE NCC" }
+                  ],
+                  "correct": 1
                 }
+                
+                
               ]
             },
             
@@ -2482,17 +2517,7 @@
                   ],
                   "correct": 3
                 },
-                {
-                  "id": 4,
-                  "title": "Which protocol forms the core of the Internet?",
-                  "answers": [
-                    { "id": 1, "answer": "HTTP/HTTPS" },
-                    { "id": 2, "answer": "TCP/IP" },
-                    { "id": 3, "answer": "FTP" },
-                    { "id": 4, "answer": "SMTP" }
-                  ],
-                  "correct": 2
-                },
+             
                 {
                   "id": 5,
                   "title": "What is a major concern associated with IoT devices?",
@@ -2721,6 +2746,530 @@
                     { "id": 2, "answer": "By giving users control over their personal data" },
                     { "id": 3, "answer": "By allowing companies unrestricted access to data" },
                     { "id": 4, "answer": "By prohibiting Internet use" }
+                  ],
+                  "correct": 2
+                }
+              ]
+            },{
+              "id": 15,
+              "title": "Which regulation specifically addresses the protection of children's personal information online in the U.S.?",
+              "answers": [
+                { "id": 1, "answer": "GDPR" },
+                { "id": 2, "answer": "COPPA" },
+                { "id": 3, "answer": "HIPAA" },
+                { "id": 4, "answer": "FERPA" }
+              ],
+              "correct": 2
+            }          
+          ]
+        },
+        {
+          "id": "module5",
+          "title": "Module 5: Software",
+          "subModules": [
+            {
+              "id": "module5-1",
+              "title": "Introduction to Software",
+              "questions": [
+                {
+                  "id": 1,
+                  "title": "What is software?",
+                  "answers": [
+                    { "id": 1, "answer": "The tangible components of a computer" },
+                    { "id": 2, "answer": "The set of instructions that tells hardware what to do" },
+                    { "id": 3, "answer": "The physical hardware of a computer system" },
+                    { "id": 4, "answer": "The network infrastructure for data communication" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 2,
+                  "title": "Which of the following is an example of application software?",
+                  "answers": [
+                    { "id": 1, "answer": "Operating System" },
+                    { "id": 2, "answer": "BIOS" },
+                    { "id": 3, "answer": "LibreOffice" },
+                    { "id": 4, "answer": "Firmware" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 3,
+                  "title": "What is the main difference between coding and scripting?",
+                  "answers": [
+                    { "id": 1, "answer": "Coding is used for small tasks, while scripting is for larger applications" },
+                    { "id": 2, "answer": "Coding involves creating larger applications, while scripting is for specific tasks or automation" },
+                    { "id": 3, "answer": "Scripting is used for hardware management, while coding is for software development" },
+                    { "id": 4, "answer": "Coding is generally easier than scripting" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 4,
+                  "title": "Which scripting language is commonly used for web development?",
+                  "answers": [
+                    { "id": 1, "answer": "Python" },
+                    { "id": 2, "answer": "PowerShell" },
+                    { "id": 3, "answer": "JavaScript" },
+                    { "id": 4, "answer": "Batch Script" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 5,
+                  "title": "What is a key security risk associated with scripting?",
+                  "answers": [
+                    { "id": 1, "answer": "Increased hardware performance" },
+                    { "id": 2, "answer": "Improved system stability" },
+                    { "id": 3, "answer": "Malware risks and inadvertent system changes" },
+                    { "id": 4, "answer": "Enhanced user experience" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 6,
+                  "title": "What does versioning in software indicate?",
+                  "answers": [
+                    { "id": 1, "answer": "The programming language used for development" },
+                    { "id": 2, "answer": "The number of developers involved in the project" },
+                    { "id": 3, "answer": "Updates and changes in the software" },
+                    { "id": 4, "answer": "The level of security features included" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 7,
+                  "title": "Which of the following is an example of an open-source software?",
+                  "answers": [
+                    { "id": 1, "answer": "Microsoft Office" },
+                    { "id": 2, "answer": "Adobe Photoshop" },
+                    { "id": 3, "answer": "Firefox" },
+                    { "id": 4, "answer": "Windows OS" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 8,
+                  "title": "What does abstraction in computing help achieve?",
+                  "answers": [
+                    { "id": 1, "answer": "It simplifies the programming of hardware-specific instructions" },
+                    { "id": 2, "answer": "It ensures software compatibility with different hardware configurations" },
+                    { "id": 3, "answer": "It increases the physical storage capacity of computers" },
+                    { "id": 4, "answer": "It reduces the need for software updates" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 9,
+                  "title": "Which scripting language is known for its powerful libraries for automation?",
+                  "answers": [
+                    { "id": 1, "answer": "JavaScript" },
+                    { "id": 2, "answer": "PowerShell" },
+                    { "id": 3, "answer": "Python" },
+                    { "id": 4, "answer": "Batch Script" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 10,
+                  "title": "Which software category includes tools like the BIOS?",
+                  "answers": [
+                    { "id": 1, "answer": "Application Software" },
+                    { "id": 2, "answer": "System Software" },
+                    { "id": 3, "answer": "Firmware" },
+                    { "id": 4, "answer": "Utility Software" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 11,
+                  "title": "What is the purpose of scripting languages like PowerShell or Shell Script?",
+                  "answers": [
+                    { "id": 1, "answer": "Creating web applications" },
+                    { "id": 2, "answer": "Performing specific tasks and automation" },
+                    { "id": 3, "answer": "Designing graphical user interfaces" },
+                    { "id": 4, "answer": "Developing large-scale software applications" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 12,
+                  "title": "Which scripting language is built on the .NET platform and used for automating system management?",
+                  "answers": [
+                    { "id": 1, "answer": "Batch Script" },
+                    { "id": 2, "answer": "PowerShell" },
+                    { "id": 3, "answer": "Visual Basic Script" },
+                    { "id": 4, "answer": "Shell Script" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 13,
+                  "title": "Which language is known for its ease of use and is popular for data collection and automation?",
+                  "answers": [
+                    { "id": 1, "answer": "JavaScript" },
+                    { "id": 2, "answer": "PowerShell" },
+                    { "id": 3, "answer": "Python" },
+                    { "id": 4, "answer": "Batch Script" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 14,
+                  "title": "What is a key characteristic of open-source software?",
+                  "answers": [
+                    { "id": 1, "answer": "It requires a license for use" },
+                    { "id": 2, "answer": "It is freely available for use, modification, and distribution" },
+                    { "id": 3, "answer": "It is always commercial software" },
+                    { "id": 4, "answer": "It cannot be modified or redistributed" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 15,
+                  "title": "Which of the following is an example of a scripting language used in Linux/Unix environments?",
+                  "answers": [
+                    { "id": 1, "answer": "PowerShell" },
+                    { "id": 2, "answer": "Batch Script" },
+                    { "id": 3, "answer": "Shell Script" },
+                    { "id": 4, "answer": "Visual Basic Script" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 16,
+                  "title": "What does the term 'programming' generally refer to?",
+                  "answers": [
+                    { "id": 1, "answer": "Writing scripts for automation" },
+                    { "id": 2, "answer": "Creating smaller tasks and automation processes" },
+                    { "id": 3, "answer": "Using programming languages to create larger applications" },
+                    { "id": 4, "answer": "Designing user interfaces" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 17,
+                  "title": "Which versioning number typically signifies a newer version of software?",
+                  "answers": [
+                    { "id": 1, "answer": "A lower number" },
+                    { "id": 2, "answer": "The same number" },
+                    { "id": 3, "answer": "A higher number" },
+                    { "id": 4, "answer": "An even number" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 18,
+                  "title": "What is the primary use of Visual Basic Script (.vbs)?",
+                  "answers": [
+                    { "id": 1, "answer": "Automating system management on Windows" },
+                    { "id": 2, "answer": "Creating complex web applications" },
+                    { "id": 3, "answer": "Writing low-level system code" },
+                    { "id": 4, "answer": "Designing graphical user interfaces" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 19,
+                  "title": "Which language is primarily used for system administration tasks and automation in Windows environments?",
+                  "answers": [
+                    { "id": 1, "answer": "Python" },
+                    { "id": 2, "answer": "PowerShell" },
+                    { "id": 3, "answer": "JavaScript" },
+                    { "id": 4, "answer": "Batch Script" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 20,
+                  "title": "Which term describes software that provides basic functions for operating a computer system?",
+                  "answers": [
+                    { "id": 1, "answer": "Application Software" },
+                    { "id": 2, "answer": "System Software" },
+                    { "id": 3, "answer": "Utility Software" },
+                    { "id": 4, "answer": "Firmware" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 21,
+                  "title": "What is the role of firmware in a computer system?",
+                  "answers": [
+                    { "id": 1, "answer": "To manage user interfaces" },
+                    { "id": 2, "answer": "To perform basic functions of hardware devices" },
+                    { "id": 3, "answer": "To create and manage files" },
+                    { "id": 4, "answer": "To handle complex software applications" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 22,
+                  "title": "What does the term 'debugging' refer to?",
+                  "answers": [
+                    { "id": 1, "answer": "Optimizing software for performance" },
+                    { "id": 2, "answer": "Finding and fixing errors in code" },
+                    { "id": 3, "answer": "Creating new software features" },
+                    { "id": 4, "answer": "Designing software interfaces" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 23,
+                  "title": "Which software category includes tools like antivirus programs and disk cleanup utilities?",
+                  "answers": [
+                    { "id": 1, "answer": "System Software" },
+                    { "id": 2, "answer": "Utility Software" },
+                    { "id": 3, "answer": "Application Software" },
+                    { "id": 4, "answer": "Firmware" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 24,
+                  "title": "Which of the following is a common feature of modern programming languages?",
+                  "answers": [
+                    { "id": 1, "answer": "Low-level memory management" },
+                    { "id": 2, "answer": "High-level abstraction for easier development" },
+                    { "id": 3, "answer": "Exclusive use of assembly language" },
+                    { "id": 4, "answer": "No support for object-oriented programming" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 25,
+                  "title": "Which type of software is typically installed to manage and interact with hardware devices?",
+                  "answers": [
+                    { "id": 1, "answer": "Application Software" },
+                    { "id": 2, "answer": "System Software" },
+                    { "id": 3, "answer": "Utility Software" },
+                    { "id": 4, "answer": "Firmware" }
+                  ],
+                  "correct": 2
+                }
+              ]
+            },
+            
+            {
+              "id": "module5-2",
+              "title": "Interacting with Software",
+              "questions": [
+                {
+                  "id": 1,
+                  "title": "What term is often used interchangeably with 'program' and 'applications'?",
+                  "answers": [
+                    { "id": 1, "answer": "Software" },
+                    { "id": 2, "answer": "Hardware" },
+                    { "id": 3, "answer": "Firmware" },
+                    { "id": 4, "answer": "Driver" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 2,
+                  "title": "What is the primary function of drivers in a computer system?",
+                  "answers": [
+                    { "id": 1, "answer": "To perform daily tasks" },
+                    { "id": 2, "answer": "To facilitate interaction with hardware" },
+                    { "id": 3, "answer": "To manage system settings" },
+                    { "id": 4, "answer": "To provide network connectivity" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 3,
+                  "title": "Which type of software is used for daily tasks, such as word processing or browsing?",
+                  "answers": [
+                    { "id": 1, "answer": "Drivers" },
+                    { "id": 2, "answer": "Utilities" },
+                    { "id": 3, "answer": "Applications" },
+                    { "id": 4, "answer": "System Software" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 4,
+                  "title": "What is the role of utility software?",
+                  "answers": [
+                    { "id": 1, "answer": "To provide network services" },
+                    { "id": 2, "answer": "To facilitate interaction with hardware" },
+                    { "id": 3, "answer": "To manage system resources" },
+                    { "id": 4, "answer": "To perform tasks like calculations and settings management" }
+                  ],
+                  "correct": 4
+                },
+                {
+                  "id": 5,
+                  "title": "Why is it important to test new software before full deployment?",
+                  "answers": [
+                    { "id": 1, "answer": "To ensure the software is from a reputable source" },
+                    { "id": 2, "answer": "To avoid compatibility issues or unexpected changes" },
+                    { "id": 3, "answer": "To verify the software license" },
+                    { "id": 4, "answer": "To reduce installation time" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 6,
+                  "title": "What risk is associated with running outdated software?",
+                  "answers": [
+                    { "id": 1, "answer": "Improved software performance" },
+                    { "id": 2, "answer": "Increased security vulnerabilities due to unresolved bugs" },
+                    { "id": 3, "answer": "Enhanced compatibility with new hardware" },
+                    { "id": 4, "answer": "Better software support" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 7,
+                  "title": "What is a key aspect of software management?",
+                  "answers": [
+                    { "id": 1, "answer": "Only installing software from trusted sources" },
+                    { "id": 2, "answer": "Installing, updating, and removing software" },
+                    { "id": 3, "answer": "Performing daily backups" },
+                    { "id": 4, "answer": "Upgrading hardware components" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 8,
+                  "title": "How do you install software on Windows?",
+                  "answers": [
+                    { "id": 1, "answer": "Use the package manager command" },
+                    { "id": 2, "answer": "Download the installer, run it, and follow prompts" },
+                    { "id": 3, "answer": "Execute a shell script" },
+                    { "id": 4, "answer": "Use the 'Add or Remove Programs' setting" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 9,
+                  "title": "What is the first step in updating software on Windows?",
+                  "answers": [
+                    { "id": 1, "answer": "Download the latest version from the website" },
+                    { "id": 2, "answer": "Uninstall the old version" },
+                    { "id": 3, "answer": "Run the installer for the latest version" },
+                    { "id": 4, "answer": "Access 'Add or Remove Programs' and select 'Update'" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 10,
+                  "title": "How do you remove software on Windows?",
+                  "answers": [
+                    { "id": 1, "answer": "Download a removal tool" },
+                    { "id": 2, "answer": "Use the 'Add or Remove Programs' setting" },
+                    { "id": 3, "answer": "Manually delete the software folder" },
+                    { "id": 4, "answer": "Run the uninstaller from the software directory" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 11,
+                  "title": "What is the command to install software on Linux using the package manager?",
+                  "answers": [
+                    { "id": 1, "answer": "sudo apt remove <software>" },
+                    { "id": 2, "answer": "sudo apt install <software>" },
+                    { "id": 3, "answer": "sudo apt update <software>" },
+                    { "id": 4, "answer": "sudo apt upgrade <software>" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 12,
+                  "title": "How do you update software on Linux?",
+                  "answers": [
+                    { "id": 1, "answer": "Use the same command structure as installation" },
+                    { "id": 2, "answer": "Download the latest version manually" },
+                    { "id": 3, "answer": "Reinstall the software from the package manager" },
+                    { "id": 4, "answer": "Use the 'Add or Remove Programs' command" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 13,
+                  "title": "What is the command to remove software on Linux?",
+                  "answers": [
+                    { "id": 1, "answer": "sudo apt install <software>" },
+                    { "id": 2, "answer": "sudo apt update <software>" },
+                    { "id": 3, "answer": "sudo apt remove <software>" },
+                    { "id": 4, "answer": "sudo apt upgrade <software>" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 14,
+                  "title": "What is the purpose of software automation?",
+                  "answers": [
+                    { "id": 1, "answer": "To manually install software across multiple machines" },
+                    { "id": 2, "answer": "To efficiently manage software across multiple machines" },
+                    { "id": 3, "answer": "To increase the time spent on software management" },
+                    { "id": 4, "answer": "To perform manual troubleshooting tasks" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 15,
+                  "title": "Which of the following is a benefit of software automation?",
+                  "answers": [
+                    { "id": 1, "answer": "Increased manual effort" },
+                    { "id": 2, "answer": "Improved efficiency and time savings" },
+                    { "id": 3, "answer": "Higher costs" },
+                    { "id": 4, "answer": "Reduced software reliability" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 16,
+                  "title": "What should be done before installing new software?",
+                  "answers": [
+                    { "id": 1, "answer": "Uninstall all existing software" },
+                    { "id": 2, "answer": "Check compatibility and test the software" },
+                    { "id": 3, "answer": "Update all hardware drivers" },
+                    { "id": 4, "answer": "Restart the computer" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 17,
+                  "title": "What is a common step after removing software on Windows?",
+                  "answers": [
+                    { "id": 1, "answer": "Reinstall the software" },
+                    { "id": 2, "answer": "Reboot the computer" },
+                    { "id": 3, "answer": "Update the software" },
+                    { "id": 4, "answer": "Run a virus scan" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 18,
+                  "title": "Which command is used to confirm the removal of software on Linux?",
+                  "answers": [
+                    { "id": 1, "answer": "Confirm by pressing 'Y'" },
+                    { "id": 2, "answer": "Enter 'yes' when prompted" },
+                    { "id": 3, "answer": "Press 'Enter' to proceed" },
+                    { "id": 4, "answer": "Type 'remove' to confirm" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 19,
+                  "title": "What type of software is known for helping with calculations and system settings?",
+                  "answers": [
+                    { "id": 1, "answer": "Applications" },
+                    { "id": 2, "answer": "Drivers" },
+                    { "id": 3, "answer": "Utilities" },
+                    { "id": 4, "answer": "Firmware" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 20,
+                  "title": "Why is regular software updating important?",
+                  "answers": [
+                    { "id": 1, "answer": "To enhance software features" },
+                    { "id": 2, "answer": "To address security vulnerabilities and ensure compatibility" },
+                    { "id": 3, "answer": "To increase software cost" },
+                    { "id": 4, "answer": "To avoid software license renewal" }
                   ],
                   "correct": 2
                 }
