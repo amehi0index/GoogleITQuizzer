@@ -1962,14 +1962,14 @@
                 },
                 {
                   "id": 32,
-                  "title": "What is the first step in the Windows 10 installation process?",
+                  "title": "What is the first step when installing Windows 10 from a USB drive?",
                   "answers": [
-                    { "id": 1, "answer": "Select the drive you want to install Windows on" },
-                    { "id": 2, "answer": "Choose language, time, and keyboard preferences" },
-                    { "id": 3, "answer": "Enter your product key" },
-                    { "id": 4, "answer": "Create a username and password" }
+                    { "id": 1, "answer": "Ensure BIOS or UEFI boot order is set to boot from the USB drive" },
+                    { "id": 2, "answer": "Select the drive you want to install Windows on" },
+                    { "id": 3, "answer": "Create a username and password" },
+                    { "id": 4, "answer": "Choose language, time, and keyboard preferences" }
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "id": 33,
@@ -2069,7 +2069,640 @@
                     { "id": 4, "answer": "Right-click on the desktop and select 'Open Terminal'" }
                   ],
                   "correct": 2
-                }            
+                },
+                {
+                  "id": 42,
+                  "title": "You want to boot an OS stored on a USB drive, but your computer is currently configured to boot from its internal hardware. Which menu allows you to change the boot device?",
+                  "answers": [
+                    { "id": 1, "answer": "BIOS/UEFI Menu" },
+                    { "id": 2, "answer": "System Configuration" },
+                    { "id": 3, "answer": "Boot Options Menu" },
+                    { "id": 4, "answer": "Device Manager" }
+                  ],
+                  "correct": 3
+                }
+                            
+              ]
+            }
+            
+          ]
+        },
+        {
+          "id": "module4",
+          "title": "Module 4: Networking",
+          "subModules": [
+            {
+              "id": "module4-1",
+              "title": "What Is Networking",
+              "questions": [
+                {
+                  "id": 1,
+                  "title": "What does an IP address represent?",
+                  "answers": [
+                    { "id": 1, "answer": "A unique identifier for a computer on a network" },
+                    { "id": 2, "answer": "A physical connection to a network" },
+                    { "id": 3, "answer": "A protocol for data transmission" },
+                    { "id": 4, "answer": "A type of Ethernet cable" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 2,
+                  "title": "What is the role of a MAC address in networking?",
+                  "answers": [
+                    { "id": 1, "answer": "To identify a device on a network" },
+                    { "id": 2, "answer": "To provide an IP address to a device" },
+                    { "id": 3, "answer": "To route data across the internet" },
+                    { "id": 4, "answer": "To encrypt data during transmission" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 3,
+                  "title": "Why are both IP and MAC addresses necessary?",
+                  "answers": [
+                    { "id": 1, "answer": "To ensure data reaches the correct location and recipient" },
+                    { "id": 2, "answer": "To improve data transmission speed" },
+                    { "id": 3, "answer": "To prevent unauthorized access to a network" },
+                    { "id": 4, "answer": "To manage multiple network connections simultaneously" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 4,
+                  "title": "What are data packets in networking?",
+                  "answers": [
+                    { "id": 1, "answer": "Small bits of data sent through a network" },
+                    { "id": 2, "answer": "The process of converting data into electrical signals" },
+                    { "id": 3, "answer": "The physical cables used to connect networks" },
+                    { "id": 4, "answer": "A method of encrypting data for secure transmission" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 5,
+                  "title": "What is the purpose of a router in a network?",
+                  "answers": [
+                    { "id": 1, "answer": "To connect different computers and networks together" },
+                    { "id": 2, "answer": "To physically connect a computer to a network" },
+                    { "id": 3, "answer": "To convert data into packets for transmission" },
+                    { "id": 4, "answer": "To encrypt data before it is sent" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 6,
+                  "title": "What is the difference between an Ethernet cable and a Wi-Fi connection?",
+                  "answers": [
+                    { "id": 1, "answer": "Ethernet uses a physical cable, while Wi-Fi is wireless" },
+                    { "id": 2, "answer": "Wi-Fi uses cables, while Ethernet is wireless" },
+                    { "id": 3, "answer": "Ethernet is slower than Wi-Fi" },
+                    { "id": 4, "answer": "Wi-Fi is more secure than Ethernet" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 7,
+                  "title": "What is the function of the Transmission Control Protocol (TCP)?",
+                  "answers": [
+                    { "id": 1, "answer": "To ensure reliable delivery of data across networks" },
+                    { "id": 2, "answer": "To convert domain names into IP addresses" },
+                    { "id": 3, "answer": "To connect computers to a network using Ethernet" },
+                    { "id": 4, "answer": "To broadcast data to all devices in a network" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 8,
+                  "title": "What does the Domain Name System (DNS) do?",
+                  "answers": [
+                    { "id": 1, "answer": "It maps domain names to IP addresses" },
+                    { "id": 2, "answer": "It routes data packets to their destination" },
+                    { "id": 3, "answer": "It encrypts data for secure transmission" },
+                    { "id": 4, "answer": "It provides a unique MAC address to each device" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 9,
+                  "title": "Which device directs data within a network to the correct destination?",
+                  "answers": [
+                    { "id": 1, "answer": "Switch" },
+                    { "id": 2, "answer": "Hub" },
+                    { "id": 3, "answer": "Router" },
+                    { "id": 4, "answer": "Modem" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 10,
+                  "title": "What is an IP address?",
+                  "answers": [
+                    { "id": 1, "answer": "A numerical label assigned to devices on a network" },
+                    { "id": 2, "answer": "A physical cable used to connect to a network" },
+                    { "id": 3, "answer": "A protocol for reliable data transmission" },
+                    { "id": 4, "answer": "A method of encrypting data" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 11,
+                  "title": "What is a MAC address?",
+                  "answers": [
+                    { "id": 1, "answer": "A globally unique identifier attached to a network interface" },
+                    { "id": 2, "answer": "A numerical label assigned to a device on a network" },
+                    { "id": 3, "answer": "A device that directs data within a network" },
+                    { "id": 4, "answer": "A protocol for converting domain names into IP addresses" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 12,
+                  "title": "Which protocol handles routing packets to the correct IP addresses on a network?",
+                  "answers": [
+                    { "id": 1, "answer": "Internet Protocol (IP)" },
+                    { "id": 2, "answer": "Transmission Control Protocol (TCP)" },
+                    { "id": 3, "answer": "Domain Name System (DNS)" },
+                    { "id": 4, "answer": "Network Address Translation (NAT)" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 13,
+                  "title": "What type of cable uses light to transmit data at high speeds?",
+                  "answers": [
+                    { "id": 1, "answer": "Fiber optic cable" },
+                    { "id": 2, "answer": "Ethernet cable" },
+                    { "id": 3, "answer": "Coaxial cable" },
+                    { "id": 4, "answer": "USB cable" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 14,
+                  "title": "What does a hub do in a network?",
+                  "answers": [
+                    { "id": 1, "answer": "Broadcasts data to all devices in a network" },
+                    { "id": 2, "answer": "Routes data to the correct destination" },
+                    { "id": 3, "answer": "Ensures reliable delivery of data" },
+                    { "id": 4, "answer": "Maps domain names to IP addresses" }
+                  ],
+                  "correct": 1
+                }
+              ]
+            },
+            
+            {
+              "id": "module4-2",
+              "title": "Limitations of the Internet",
+              "questions": [
+                {
+                  "id": 1,
+                  "title": "What was the main challenge with early computing before the internet?",
+                  "answers": [
+                    { "id": 1, "answer": "Computers were too small." },
+                    { "id": 2, "answer": "Programmers had to directly interact with massive computers." },
+                    { "id": 3, "answer": "There was no electricity." },
+                    { "id": 4, "answer": "Computers could not store data." }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 2,
+                  "title": "Which project led to the creation of ARPANET?",
+                  "answers": [
+                    { "id": 1, "answer": "NASA" },
+                    { "id": 2, "answer": "DARPA" },
+                    { "id": 3, "answer": "World Wide Web Consortium" },
+                    { "id": 4, "answer": "ICANN" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 3,
+                  "title": "What problem did the creation of TCP/IP solve?",
+                  "answers": [
+                    { "id": 1, "answer": "Lack of computers in universities" },
+                    { "id": 2, "answer": "Inter-network communication" },
+                    { "id": 3, "answer": "Computer size issues" },
+                    { "id": 4, "answer": "Storage capacity limitations" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 4,
+                  "title": "Who were the creators of TCP/IP?",
+                  "answers": [
+                    { "id": 1, "answer": "Tim Berners-Lee and Alan Turing" },
+                    { "id": 2, "answer": "Vinton Cerf and Bob Kahn" },
+                    { "id": 3, "answer": "Steve Jobs and Bill Gates" },
+                    { "id": 4, "answer": "Linus Torvalds and Richard Stallman" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 5,
+                  "title": "What does ARPANET stand for?",
+                  "answers": [
+                    { "id": 1, "answer": "Advanced Research Projects Agency Network" },
+                    { "id": 2, "answer": "Automatic Remote Protocol Association Network" },
+                    { "id": 3, "answer": "Advanced Router and Protocol Analysis Network" },
+                    { "id": 4, "answer": "Associated Research and Protocol Agency Network" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 6,
+                  "title": "What was a significant limitation of the IPv4 protocol?",
+                  "answers": [
+                    { "id": 1, "answer": "It could only be used in the US." },
+                    { "id": 2, "answer": "It could not support domain names." },
+                    { "id": 3, "answer": "It was limited to 4.3 billion unique addresses." },
+                    { "id": 4, "answer": "It was only compatible with fiber optic networks." }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 7,
+                  "title": "Why was IPv6 introduced?",
+                  "answers": [
+                    { "id": 1, "answer": "To reduce data transmission speed." },
+                    { "id": 2, "answer": "To increase the number of available IP addresses." },
+                    { "id": 3, "answer": "To eliminate the use of MAC addresses." },
+                    { "id": 4, "answer": "To replace all wireless networks." }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 8,
+                  "title": "What role does Network Address Translation (NAT) play?",
+                  "answers": [
+                    { "id": 1, "answer": "Conserves public IPv4 addresses." },
+                    { "id": 2, "answer": "Eliminates the need for DNS." },
+                    { "id": 3, "answer": "Increases network speed." },
+                    { "id": 4, "answer": "Creates new internet protocols." }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 9,
+                  "title": "What significant change did Tim Berners-Lee bring to the internet in the 1990s?",
+                  "answers": [
+                    { "id": 1, "answer": "Invented email." },
+                    { "id": 2, "answer": "Created the World Wide Web." },
+                    { "id": 3, "answer": "Developed IPv6." },
+                    { "id": 4, "answer": "Built the first computer." }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 10,
+                  "title": "Which protocol ensures reliable data delivery across networks?",
+                  "answers": [
+                    { "id": 1, "answer": "Internet Protocol (IP)" },
+                    { "id": 2, "answer": "Transmission Control Protocol (TCP)" },
+                    { "id": 3, "answer": "Network Address Translation (NAT)" },
+                    { "id": 4, "answer": "Hypertext Transfer Protocol (HTTP)" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 11,
+                  "title": "What was a major outcome of the development of the World Wide Web?",
+                  "answers": [
+                    { "id": 1, "answer": "It replaced IPv4 with IPv6." },
+                    { "id": 2, "answer": "It allowed global communication and information access." },
+                    { "id": 3, "answer": "It limited access to government institutions only." },
+                    { "id": 4, "answer": "It introduced NAT for the first time." }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 12,
+                  "title": "What does IPv6 offer compared to IPv4?",
+                  "answers": [
+                    { "id": 1, "answer": "Fewer IP addresses." },
+                    { "id": 2, "answer": "More IP addresses with 128-bit addresses." },
+                    { "id": 3, "answer": "Only private IP addresses." },
+                    { "id": 4, "answer": "Reduced data transfer speeds." }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 13,
+                  "title": "Which organization initiated the creation of ARPANET?",
+                  "answers": [
+                    { "id": 1, "answer": "ICANN" },
+                    { "id": 2, "answer": "DARPA" },
+                    { "id": 3, "answer": "W3C" },
+                    { "id": 4, "answer": "IETF" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 14,
+                  "title": "What is the main purpose of TCP/IP?",
+                  "answers": [
+                    { "id": 1, "answer": "To provide secure email communication." },
+                    { "id": 2, "answer": "To enable data exchange between networks." },
+                    { "id": 3, "answer": "To create static websites." },
+                    { "id": 4, "answer": "To manage IP address allocation." }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 15,
+                  "title": "How did ARPANET benefit early programmers?",
+                  "answers": [
+                    { "id": 1, "answer": "Allowed them to use multiple computers at once." },
+                    { "id": 2, "answer": "Enabled remote access to computing resources." },
+                    { "id": 3, "answer": "Provided them with more programming languages." },
+                    { "id": 4, "answer": "Increased storage space significantly." }
+                  ],
+                  "correct": 2
+                }
+              ]
+            },
+            
+            {
+              "id": "module4-3",
+              "title": "Impact of the Internet",
+              "questions": [
+                {
+                  "id": 1,
+                  "title": "How has the Internet revolutionized commerce?",
+                  "answers": [
+                    { "id": 1, "answer": "By enabling global marketplaces and e-commerce" },
+                    { "id": 2, "answer": "By reducing international trade barriers" },
+                    { "id": 3, "answer": "By promoting only local businesses" },
+                    { "id": 4, "answer": "By eliminating the need for physical stores" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 2,
+                  "title": "Which social movement was significantly amplified by the Internet?",
+                  "answers": [
+                    { "id": 1, "answer": "The Industrial Revolution" },
+                    { "id": 2, "answer": "The Arab Spring" },
+                    { "id": 3, "answer": "The Renaissance" },
+                    { "id": 4, "answer": "The Great Depression" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 3,
+                  "title": "What does IoT stand for?",
+                  "answers": [
+                    { "id": 1, "answer": "Internet of Technology" },
+                    { "id": 2, "answer": "Interconnection of Telecommunication" },
+                    { "id": 3, "answer": "Internet of Things" },
+                    { "id": 4, "answer": "Internet of Telecommunications" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 4,
+                  "title": "Which protocol forms the core of the Internet?",
+                  "answers": [
+                    { "id": 1, "answer": "HTTP/HTTPS" },
+                    { "id": 2, "answer": "TCP/IP" },
+                    { "id": 3, "answer": "FTP" },
+                    { "id": 4, "answer": "SMTP" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 5,
+                  "title": "What is a major concern associated with IoT devices?",
+                  "answers": [
+                    { "id": 1, "answer": "Low battery life" },
+                    { "id": 2, "answer": "Lack of Internet connectivity" },
+                    { "id": 3, "answer": "High cost of deployment" },
+                    { "id": 4, "answer": "Cybersecurity and privacy" }
+                  ],
+                  "correct": 4
+                },
+                {
+                  "id": 6,
+                  "title": "Which of the following is an example of an IoT device?",
+                  "answers": [
+                    { "id": 1, "answer": "Smart thermostat" },
+                    { "id": 2, "answer": "Analog clock" },
+                    { "id": 3, "answer": "Traditional phone" },
+                    { "id": 4, "answer": "Electric fan" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 7,
+                  "title": "How has the Internet impacted education?",
+                  "answers": [
+                    { "id": 1, "answer": "Reduced the need for educational institutions" },
+                    { "id": 2, "answer": "Allowed remote and on-demand learning" },
+                    { "id": 3, "answer": "Limited access to educational materials" },
+                    { "id": 4, "answer": "Made education more expensive" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 8,
+                  "title": "What is a key challenge in the development of IoT?",
+                  "answers": [
+                    { "id": 1, "answer": "Too many compatible standards" },
+                    { "id": 2, "answer": "Lack of compatible standards" },
+                    { "id": 3, "answer": "Lack of interest from tech companies" },
+                    { "id": 4, "answer": "Inadequate power supply" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 9,
+                  "title": "Why is IoT considered transformative for everyday life?",
+                  "answers": [
+                    { "id": 1, "answer": "It replaces human interaction" },
+                    { "id": 2, "answer": "It enables automation and efficiency in daily tasks" },
+                    { "id": 3, "answer": "It reduces the use of the Internet" },
+                    { "id": 4, "answer": "It increases physical labor" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 10,
+                  "title": "What does the Internet of Things (IoT) primarily involve?",
+                  "answers": [
+                    { "id": 1, "answer": "Networking, servers, and web browsers" },
+                    { "id": 2, "answer": "Networks, devices, and data" },
+                    { "id": 3, "answer": "Cloud storage and virtual machines" },
+                    { "id": 4, "answer": "Social media and online marketing" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 11,
+                  "title": "Which type of regulation helps protect online privacy?",
+                  "answers": [
+                    { "id": 1, "answer": "Cybercrime laws" },
+                    { "id": 2, "answer": "Data protection laws" },
+                    { "id": 3, "answer": "Tax laws" },
+                    { "id": 4, "answer": "Intellectual property laws" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 12,
+                  "title": "What is a key security risk associated with IoT?",
+                  "answers": [
+                    { "id": 1, "answer": "Excessive power consumption" },
+                    { "id": 2, "answer": "Incompatibility with IPv6" },
+                    { "id": 3, "answer": "Vulnerability to hacking" },
+                    { "id": 4, "answer": "Slow data processing" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 13,
+                  "title": "How do hackers pose a threat to Internet security?",
+                  "answers": [
+                    { "id": 1, "answer": "By creating new websites" },
+                    { "id": 2, "answer": "By exploiting software vulnerabilities" },
+                    { "id": 3, "answer": "By promoting cybersecurity awareness" },
+                    { "id": 4, "answer": "By fixing bugs in open-source software" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 14,
+                  "title": "Why is standardization important for IoT development?",
+                  "answers": [
+                    { "id": 1, "answer": "To prevent devices from connecting to the Internet" },
+                    { "id": 2, "answer": "To ensure compatibility and communication among devices" },
+                    { "id": 3, "answer": "To limit the number of devices in the network" },
+                    { "id": 4, "answer": "To reduce costs of IoT deployment" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 15,
+                  "title": "Which of the following is NOT an example of IoT?",
+                  "answers": [
+                    { "id": 1, "answer": "A wearable fitness tracker" },
+                    { "id": 2, "answer": "An electric toaster with no connectivity" },
+                    { "id": 3, "answer": "A smart refrigerator" },
+                    { "id": 4, "answer": "A self-driving car" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 16,
+                  "title": "What was a key motivation for the creation of global regulations on data protection?",
+                  "answers": [
+                    { "id": 1, "answer": "To simplify the Internet's infrastructure" },
+                    { "id": 2, "answer": "To prevent government access to the Internet" },
+                    { "id": 3, "answer": "To protect personal information online" },
+                    { "id": 4, "answer": "To control the number of websites online" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 17,
+                  "title": "How do IoT devices enhance industrial processes?",
+                  "answers": [
+                    { "id": 1, "answer": "By increasing manual labor requirements" },
+                    { "id": 2, "answer": "By providing smart sensors for efficiency" },
+                    { "id": 3, "answer": "By reducing automation in factories" },
+                    { "id": 4, "answer": "By removing connectivity options" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 18,
+                  "title": "What major event highlighted the need for better cybersecurity?",
+                  "answers": [
+                    { "id": 1, "answer": "WannaCry ransomware attack" },
+                    { "id": 2, "answer": "Stock market crash of 1929" },
+                    { "id": 3, "answer": "The discovery of the first computer" },
+                    { "id": 4, "answer": "Launch of social media platforms" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 19,
+                  "title": "Which company has been involved in IoT standardization efforts?",
+                  "answers": [
+                    { "id": 1, "answer": "Apple" },
+                    { "id": 2, "answer": "Microsoft" },
+                    { "id": 3, "answer": "Sony" },
+                    { "id": 4, "answer": "Tesla" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 20,
+                  "title": "What is one of the privacy challenges of IoT?",
+                  "answers": [
+                    { "id": 1, "answer": "Increased physical security" },
+                    { "id": 2, "answer": "Enhanced data encryption" },
+                    { "id": 3, "answer": "Pervasive surveillance" },
+                    { "id": 4, "answer": "Simplified user interfaces" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 21,
+                  "title": "Which of the following best describes the Internet's impact on globalization?",
+                  "answers": [
+                    { "id": 1, "answer": "Decreased cultural exchange" },
+                    { "id": 2, "answer": "Facilitated faster communication and trade" },
+                    { "id": 3, "answer": "Increased national isolation" },
+                    { "id": 4, "answer": "Reduced international collaboration" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 22,
+                  "title": "What role does cybersecurity play in online environments?",
+                  "answers": [
+                    { "id": 1, "answer": "Ensuring a stable Internet connection" },
+                    { "id": 2, "answer": "Preventing unauthorized access and breaches" },
+                    { "id": 3, "answer": "Increasing advertising efficiency" },
+                    { "id": 4, "answer": "Reducing costs for online services" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 23,
+                  "title": "How can IoT devices affect personal privacy?",
+                  "answers": [
+                    { "id": 1, "answer": "By offering more control over data" },
+                    { "id": 2, "answer": "By potentially leading to increased surveillance" },
+                    { "id": 3, "answer": "By eliminating the need for data collection" },
+                    { "id": 4, "answer": "By ensuring complete anonymity online" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 24,
+                  "title": "What is a benefit of IoT in smart cities?",
+                  "answers": [
+                    { "id": 1, "answer": "Higher utility bills" },
+                    { "id": 2, "answer": "Reduced parking space availability" },
+                    { "id": 3, "answer": "Enhanced resource management and services" },
+                    { "id": 4, "answer": "Increased traffic congestion" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 25,
+                  "title": "How do online privacy laws like GDPR protect users?",
+                  "answers": [
+                    { "id": 1, "answer": "By making all data public" },
+                    { "id": 2, "answer": "By giving users control over their personal data" },
+                    { "id": 3, "answer": "By allowing companies unrestricted access to data" },
+                    { "id": 4, "answer": "By prohibiting Internet use" }
+                  ],
+                  "correct": 2
+                }
               ]
             }
             
