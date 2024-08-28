@@ -2140,17 +2140,6 @@
                   "correct": 1
                 },
                 {
-                  "id": 5,
-                  "title": "What is the purpose of a router in a network?",
-                  "answers": [
-                    { "id": 1, "answer": "To connect different computers and networks together" },
-                    { "id": 2, "answer": "To physically connect a computer to a network" },
-                    { "id": 3, "answer": "To convert data into packets for transmission" },
-                    { "id": 4, "answer": "To encrypt data before it is sent" }
-                  ],
-                  "correct": 1
-                },
-                {
                   "id": 6,
                   "title": "What is the difference between an Ethernet cable and a Wi-Fi connection?",
                   "answers": [
@@ -2180,17 +2169,6 @@
                     { "id": 2, "answer": "It routes data packets to their destination" },
                     { "id": 3, "answer": "It encrypts data for secure transmission" },
                     { "id": 4, "answer": "It provides a unique MAC address to each device" }
-                  ],
-                  "correct": 1
-                },
-                {
-                  "id": 9,
-                  "title": "Which device directs data within a network to the correct destination?",
-                  "answers": [
-                    { "id": 1, "answer": "Switch" },
-                    { "id": 2, "answer": "Hub" },
-                    { "id": 3, "answer": "Router" },
-                    { "id": 4, "answer": "Modem" }
                   ],
                   "correct": 1
                 },
@@ -2257,6 +2235,38 @@
                     { "id": 2, "answer": "IP addresses identify a device's network location, while MAC addresses identify the device's hardware." },
                     { "id": 3, "answer": "IP addresses use a hexadecimal format, while MAC addresses use a numerical format." },
                     { "id": 4, "answer": "IP addresses are only used for wired connections, while MAC addresses are for wireless connections." }
+                  ],
+                  "correct": 2
+                },{
+                  "id": 16,
+                  "title": "Which device is responsible for directing data within a local network?",
+                  "answers": [
+                    { "id": 1, "answer": "Router" },
+                    { "id": 2, "answer": "Switch" },
+                    { "id": 3, "answer": "Modem" },
+                    { "id": 4, "answer": "Access Point" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 17,
+                  "title": "Which device is used to connect multiple local networks or a local network to the internet?",
+                  "answers": [
+                    { "id": 1, "answer": "Router" },
+                    { "id": 2, "answer": "Switch" },
+                    { "id": 3, "answer": "Hub" },
+                    { "id": 4, "answer": "Repeater" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 18,
+                  "title": "What is one key difference between routers and switches?",
+                  "answers": [
+                    { "id": 1, "answer": "Routers connect devices within a single network, while switches connect multiple networks." },
+                    { "id": 2, "answer": "Routers operate at the Network Layer, while switches operate at the Data Link Layer." },
+                    { "id": 3, "answer": "Routers encrypt data, while switches store data." },
+                    { "id": 4, "answer": "Routers are used for wireless connections, while switches are used for wired connections." }
                   ],
                   "correct": 2
                 }
