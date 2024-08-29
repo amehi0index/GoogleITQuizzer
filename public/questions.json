@@ -3045,6 +3045,72 @@
                     { "id": 4, "answer": "Firmware" }
                   ],
                   "correct": 2
+                },
+                {
+                  "id": 26,
+                  "title": "What is an assembly language?",
+                  "answers": [
+                    { "id": 1, "answer": "A type of machine code" },
+                    { "id": 2, "answer": "Human-readable instructions converted into machine code" },
+                    { "id": 3, "answer": "A high-level programming language" },
+                    { "id": 4, "answer": "A compiled programming language" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 27,
+                  "title": "What makes assembly language different from binary code?",
+                  "answers": [
+                    { "id": 1, "answer": "It is less readable than binary code" },
+                    { "id": 2, "answer": "It is not specific to any CPU" },
+                    { "id": 3, "answer": "It improves readability over binary but is still CPU-specific" },
+                    { "id": 4, "answer": "It is used for web development" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 28,
+                  "title": "What is the role of a compiler in compiled programming languages?",
+                  "answers": [
+                    { "id": 1, "answer": "To interpret code at runtime" },
+                    { "id": 2, "answer": "To convert human-readable instructions into machine code" },
+                    { "id": 3, "answer": "To execute scripts directly" },
+                    { "id": 4, "answer": "To manage operating systems" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 29,
+                  "title": "Who is credited with inventing some of the first compiled programming languages?",
+                  "answers": [
+                    { "id": 1, "answer": "Alan Turing" },
+                    { "id": 2, "answer": "Steve Jobs" },
+                    { "id": 3, "answer": "Admiral Grace Hopper" },
+                    { "id": 4, "answer": "Bill Gates" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 30,
+                  "title": "What is an interpreted language?",
+                  "answers": [
+                    { "id": 1, "answer": "A language that is compiled into machine code" },
+                    { "id": 2, "answer": "A language that is directly executed by the CPU" },
+                    { "id": 3, "answer": "A language where code is interpreted into CPU instructions at runtime" },
+                    { "id": 4, "answer": "A language used only for automation scripts" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 31,
+                  "title": "What is a key benefit of interpreted languages?",
+                  "answers": [
+                    { "id": 1, "answer": "They are faster than compiled languages" },
+                    { "id": 2, "answer": "They provide flexibility for tasks without needing pre-compilation" },
+                    { "id": 3, "answer": "They are machine-specific like assembly languages" },
+                    { "id": 4, "answer": "They are only used for machine learning" }
+                  ],
+                  "correct": 2
                 }
               ]
             },
@@ -3272,6 +3338,60 @@
                     { "id": 4, "answer": "To avoid software license renewal" }
                   ],
                   "correct": 2
+                },{
+                  "id":21,
+                  "title": "What risk do you face when running old software on your machine?",
+                  "answers": [
+                    { "id": 1, "answer": "Improved software features" },
+                    { "id": 2, "answer": "Enhanced system performance" },
+                    { "id": 3, "answer": "Exposure to cyber security attacks that exploit software bugs" },
+                    { "id": 4, "answer": "Reduced hardware compatibility issues" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 22,
+                  "title": "What is a software bug?",
+                  "answers": [
+                    { "id": 1, "answer": "A harmless program feature" },
+                    { "id": 2, "answer": "An error in software causing unexpected results" },
+                    { "id": 3, "answer": "A type of virus" },
+                    { "id": 4, "answer": "A method to improve software speed" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 23,
+                  "title": "What is Git?",
+                  "answers": [
+                    { "id": 1, "answer": "A programming language used for developing applications" },
+                    { "id": 2, "answer": "A version control system that helps track changes made to files and directories" },
+                    { "id": 3, "answer": "A software tool used for designing databases" },
+                    { "id": 4, "answer": "An operating system for servers" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 24,
+                  "title": "What is the purpose of a file with the .exe extension in Windows?",
+                  "answers": [
+                    { "id": 1, "answer": "To store text documents" },
+                    { "id": 2, "answer": "To execute a program or application" },
+                    { "id": 3, "answer": "To compress files for storage" },
+                    { "id": 4, "answer": "To serve as an image format" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 25,
+                  "title": "What does the 'sudo' command do in Linux?",
+                  "answers": [
+                    { "id": 1, "answer": "Runs a command as a superuser" },
+                    { "id": 2, "answer": "Updates the operating system" },
+                    { "id": 3, "answer": "Deletes files from the system" },
+                    { "id": 4, "answer": "Installs a new kernel" }
+                  ],
+                  "correct": 1
                 }
               ]
             }
