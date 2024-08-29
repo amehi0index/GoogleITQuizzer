@@ -3397,7 +3397,724 @@
             }
             
           ]
+        },
+        {
+          "id": "module6",
+          "title": "Module : Troubleshooting",
+          "subModules": [
+            {
+              "id": "module6-1",
+              "title": "Troubleshooting Best Practices",
+              "questions": [
+                {
+                  "id": 1,
+                  "title": "What is the first step in troubleshooting a problem?",
+                  "answers": [
+                    { "id": 1, "answer": "Restart the device" },
+                    { "id": 2, "answer": "Ask questions to gather information" },
+                    { "id": 3, "answer": "Check the power supply" },
+                    { "id": 4, "answer": "Replace the hardware" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 2,
+                  "title": "Why is it important to ask specific questions during troubleshooting?",
+                  "answers": [
+                    { "id": 1, "answer": "To make the user feel comfortable" },
+                    { "id": 2, "answer": "To understand the problem more clearly" },
+                    { "id": 3, "answer": "To avoid wasting time on irrelevant details" },
+                    { "id": 4, "answer": "To show technical expertise" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 3,
+                  "title": "What does it mean to 'isolate the problem'?",
+                  "answers": [
+                    { "id": 1, "answer": "Identifying the person responsible for the issue" },
+                    { "id": 2, "answer": "Narrowing down potential causes by ruling out irrelevant factors" },
+                    { "id": 3, "answer": "Fixing the problem without diagnosing it" },
+                    { "id": 4, "answer": "Replacing all hardware components" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 4,
+                  "title": "Which of the following is a 'quickest step' approach to troubleshooting?",
+                  "answers": [
+                    { "id": 1, "answer": "Reinstall the operating system" },
+                    { "id": 2, "answer": "Replace all cables and connectors" },
+                    { "id": 3, "answer": "Restart the computer" },
+                    { "id": 4, "answer": "Reconfigure network settings" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 5,
+                  "title": "What is a common pitfall to avoid during troubleshooting?",
+                  "answers": [
+                    { "id": 1, "answer": "Finding the root cause of the problem" },
+                    { "id": 2, "answer": "Following a systematic approach" },
+                    { "id": 3, "answer": "Using a drastic solution when a smaller fix is sufficient" },
+                    { "id": 4, "answer": "Asking the user for more details" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 6,
+                  "title": "What should you do if a user describes their issue vaguely, such as 'My computer is broken'?",
+                  "answers": [
+                    { "id": 1, "answer": "Ignore the user and start troubleshooting immediately" },
+                    { "id": 2, "answer": "Ask specific follow-up questions to clarify the problem" },
+                    { "id": 3, "answer": "Replace the computer" },
+                    { "id": 4, "answer": "Reboot the computer to see if it solves the problem" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 7,
+                  "title": "What does 'follow the cookie crumbs' mean in troubleshooting?",
+                  "answers": [
+                    { "id": 1, "answer": "Eat snacks while troubleshooting" },
+                    { "id": 2, "answer": "Trace the problem back to its origin and proceed from there" },
+                    { "id": 3, "answer": "Leave a trail of tasks completed" },
+                    { "id": 4, "answer": "Use random methods to find a solution" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 8,
+                  "title": "Why is it crucial to identify the root cause of an issue?",
+                  "answers": [
+                    { "id": 1, "answer": "To replace faulty hardware quickly" },
+                    { "id": 2, "answer": "To prevent the issue from recurring" },
+                    { "id": 3, "answer": "To blame someone for the problem" },
+                    { "id": 4, "answer": "To log the error for future reference" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 9,
+                  "title": "What should you do if a problem persists after attempting several solutions?",
+                  "answers": [
+                    { "id": 1, "answer": "Restart troubleshooting from the beginning" },
+                    { "id": 2, "answer": "Escalate the issue to a higher level of support" },
+                    { "id": 3, "answer": "Give up and tell the user to replace their device" },
+                    { "id": 4, "answer": "Try more drastic measures like a system reset" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 10,
+                  "title": "How can you prevent autopilot mode during troubleshooting?",
+                  "answers": [
+                    { "id": 1, "answer": "Focus on each unique situation without relying solely on past experience" },
+                    { "id": 2, "answer": "Use automated tools for every step" },
+                    { "id": 3, "answer": "Ignore new problems and focus on known issues" },
+                    { "id": 4, "answer": "Avoid asking questions to save time" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 11,
+                  "title": "What is a good strategy if you are unsure about a solution during troubleshooting?",
+                  "answers": [
+                    { "id": 1, "answer": "Make an educated guess without asking questions" },
+                    { "id": 2, "answer": "Admit you don't know but explain how you would find the answer" },
+                    { "id": 3, "answer": "Ignore the problem and move on" },
+                    { "id": 4, "answer": "Replace all components as a precaution" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 12,
+                  "title": "Which is the most effective way to handle a complex troubleshooting scenario?",
+                  "answers": [
+                    { "id": 1, "answer": "Break down the work needed to solve the problem" },
+                    { "id": 2, "answer": "Ask the user to try another device" },
+                    { "id": 3, "answer": "Reboot the system multiple times" },
+                    { "id": 4, "answer": "Replace all network components" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 13,
+                  "title": "When is it appropriate to use diagrams or notes during troubleshooting?",
+                  "answers": [
+                    { "id": 1, "answer": "Always, no matter the problem" },
+                    { "id": 2, "answer": "Only when the solution is straightforward" },
+                    { "id": 3, "answer": "When the problem is complex and needs clearer visualization" },
+                    { "id": 4, "answer": "Never, it wastes time" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 14,
+                  "title": "What should you do if a simple, quick solution doesn't fix the problem?",
+                  "answers": [
+                    { "id": 1, "answer": "Move on to more complex troubleshooting steps" },
+                    { "id": 2, "answer": "Give up and contact a manager" },
+                    { "id": 3, "answer": "Replace the entire system" },
+                    { "id": 4, "answer": "Ignore the issue and wait for it to resolve itself" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 15,
+                  "title": "Why is it important to ensure that your approach to questioning does not make the user feel embarrassed?",
+                  "answers": [
+                    { "id": 1, "answer": "To maintain a positive user experience and foster good communication" },
+                    { "id": 2, "answer": "To avoid being held responsible for the problem" },
+                    { "id": 3, "answer": "To prevent the user from reporting the issue to management" },
+                    { "id": 4, "answer": "To ensure faster resolution of the issue" }
+                  ],
+                  "correct": 1
+                }
+              ]
+            },
+            
+            {
+              "id": "module6-2",
+              "title": "Customer Service",
+              "questions": [
+                {
+                  "id": 1,
+                  "title": "Why is empathy considered the most crucial aspect of customer service?",
+                  "answers": [
+                    { "id": 1, "answer": "It shows sympathy to users" },
+                    { "id": 2, "answer": "It helps build a personal connection with the user" },
+                    { "id": 3, "answer": "It actively involves understanding users' feelings from their perspective" },
+                    { "id": 4, "answer": "It allows for a quick resolution of technical issues" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 2,
+                  "title": "How can tone affect customer interactions?",
+                  "answers": [
+                    { "id": 1, "answer": "Tone does not matter in digital communication" },
+                    { "id": 2, "answer": "A blunt tone can feel dismissive and uninviting" },
+                    { "id": 3, "answer": "Tone should always be overly enthusiastic" },
+                    { "id": 4, "answer": "Tone only matters in in-person conversations" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 3,
+                  "title": "What is the difference between sympathy and empathy in customer service?",
+                  "answers": [
+                    { "id": 1, "answer": "Sympathy is feeling sorry; empathy is understanding feelings from another's perspective" },
+                    { "id": 2, "answer": "Sympathy involves direct actions to help; empathy is just listening" },
+                    { "id": 3, "answer": "Sympathy means ignoring the problem; empathy means solving it quickly" },
+                    { "id": 4, "answer": "Sympathy requires training; empathy does not" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 4,
+                  "title": "Which approach can help in making a good first impression in a customer service interaction?",
+                  "answers": [
+                    { "id": 1, "answer": "Using slang and casual language" },
+                    { "id": 2, "answer": "Ignoring the user's concerns initially" },
+                    { "id": 3, "answer": "Introducing yourself and maintaining a positive tone" },
+                    { "id": 4, "answer": "Avoiding eye contact and keeping conversations brief" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 5,
+                  "title": "Why is it important to clarify the issue before troubleshooting?",
+                  "answers": [
+                    { "id": 1, "answer": "To demonstrate technical knowledge" },
+                    { "id": 2, "answer": "To avoid unnecessary steps and save time" },
+                    { "id": 3, "answer": "To impress the user with advanced terminology" },
+                    { "id": 4, "answer": "To reduce the conversation duration" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 6,
+                  "title": "How should you adjust your tone in digital communication?",
+                  "answers": [
+                    { "id": 1, "answer": "Be blunt to save time" },
+                    { "id": 2, "answer": "Match the audience's culture or regional communication style" },
+                    { "id": 3, "answer": "Use complex technical jargon" },
+                    { "id": 4, "answer": "Avoid using punctuation to keep it casual" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 7,
+                  "title": "What does building trust in customer service entail?",
+                  "answers": [
+                    { "id": 1, "answer": "Making promises you cannot keep" },
+                    { "id": 2, "answer": "Delivering on commitments and communicating honestly" },
+                    { "id": 3, "answer": "Being overly friendly" },
+                    { "id": 4, "answer": "Avoiding difficult questions" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 8,
+                  "title": "Why is it important to acknowledge a user's comments during an interaction?",
+                  "answers": [
+                    { "id": 1, "answer": "To show you are actively listening and considering their input" },
+                    { "id": 2, "answer": "To fill in time while finding an answer" },
+                    { "id": 3, "answer": "To avoid taking responsibility" },
+                    { "id": 4, "answer": "To quickly end the conversation" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 9,
+                  "title": "What should you do when you need to look up an answer during a troubleshooting session?",
+                  "answers": [
+                    { "id": 1, "answer": "Stay silent until you find the answer" },
+                    { "id": 2, "answer": "Tell the user you are taking notes and will address all concerns" },
+                    { "id": 3, "answer": "Ask the user to call back later" },
+                    { "id": 4, "answer": "Guess the answer to save time" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 10,
+                  "title": "Why is it important to understand your employer's customer service approach?",
+                  "answers": [
+                    { "id": 1, "answer": "To understand their specific practices and guidelines" },
+                    { "id": 2, "answer": "To use the same tone for every customer interaction" },
+                    { "id": 3, "answer": "To avoid using any customer service techniques" },
+                    { "id": 4, "answer": "To create your own style without following rules" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 11,
+                  "title": "What can lead to a user feeling disengaged during a customer service interaction?",
+                  "answers": [
+                    { "id": 1, "answer": "Acknowledge their frustrations" },
+                    { "id": 2, "answer": "Ignoring their comments and concerns" },
+                    { "id": 3, "answer": "Being empathetic" },
+                    { "id": 4, "answer": "Asking for feedback" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 12,
+                  "title": "Why is it important to avoid forced small talk?",
+                  "answers": [
+                    { "id": 1, "answer": "It helps build a natural rapport" },
+                    { "id": 2, "answer": "It makes the interaction less formal" },
+                    { "id": 3, "answer": "It distracts from the main issue" },
+                    { "id": 4, "answer": "It may feel insincere or awkward" }
+                  ],
+                  "correct": 4
+                },
+                {
+                  "id": 13,
+                  "title": "What is the benefit of making a personal connection in customer service?",
+                  "answers": [
+                    { "id": 1, "answer": "It impresses the user with your personal stories" },
+                    { "id": 2, "answer": "It builds trust and rapport with the user" },
+                    { "id": 3, "answer": "It shortens the duration of the interaction" },
+                    { "id": 4, "answer": "It avoids addressing the real issue" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 14,
+                  "title": "How can you demonstrate empathy in a customer service situation?",
+                  "answers": [
+                    { "id": 1, "answer": "By feeling sorry for the user" },
+                    { "id": 2, "answer": "By understanding the user's feelings from their perspective" },
+                    { "id": 3, "answer": "By avoiding all technical discussions" },
+                    { "id": 4, "answer": "By solving the issue without listening" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 15,
+                  "title": "Why is honesty important when you make a mistake during a customer service interaction?",
+                  "answers": [
+                    { "id": 1, "answer": "To shift the blame to someone else" },
+                    { "id": 2, "answer": "To build trust by admitting mistakes and being specific in apologies" },
+                    { "id": 3, "answer": "To confuse the user" },
+                    { "id": 4, "answer": "To avoid facing the consequences" }
+                  ],
+                  "correct": 2
+                }
+              ]
+            },
+            
+            {
+              "id": "module6-3",
+              "title": "Documentation",
+              "questions": [
+                {
+                  "id": 1,
+                  "title": "Why is documentation important in IT support?",
+                  "answers": [
+                    { "id": 1, "answer": "To create more work for IT support staff" },
+                    { "id": 2, "answer": "To keep IT support staff entertained" },
+                    { "id": 3, "answer": "To avoid forgetting steps for recurring tasks and save time" },
+                    { "id": 4, "answer": "To confuse users with technical jargon" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 2,
+                  "title": "What is the primary purpose of a ticketing system in IT support?",
+                  "answers": [
+                    { "id": 1, "answer": "To track and manage user issues systematically" },
+                    { "id": 2, "answer": "To store unused software licenses" },
+                    { "id": 3, "answer": "To replace direct communication with users" },
+                    { "id": 4, "answer": "To archive personal notes of the IT team" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 3,
+                  "title": "Which of the following is an example of a ticketing system?",
+                  "answers": [
+                    { "id": 1, "answer": "Microsoft Word" },
+                    { "id": 2, "answer": "Redmine" },
+                    { "id": 3, "answer": "Google Sheets" },
+                    { "id": 4, "answer": "Slack" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 4,
+                  "title": "What information should be included when updating a ticket?",
+                  "answers": [
+                    { "id": 1, "answer": "The problem description and final resolution only" },
+                    { "id": 2, "answer": "Only the steps taken to resolve the issue" },
+                    { "id": 3, "answer": "The problem description, steps attempted, and final resolution" },
+                    { "id": 4, "answer": "User complaints and unrelated issues" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 5,
+                  "title": "What is a benefit of effectively updating tickets?",
+                  "answers": [
+                    { "id": 1, "answer": "It keeps users informed and creates an audit trail" },
+                    { "id": 2, "answer": "It makes the IT team look busy" },
+                    { "id": 3, "answer": "It discourages users from reporting issues" },
+                    { "id": 4, "answer": "It hides mistakes from other IT staff" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 6,
+                  "title": "What is a characteristic of good documentation?",
+                  "answers": [
+                    { "id": 1, "answer": "Vague instructions and creative language" },
+                    { "id": 2, "answer": "Clear instructions with specific details and paths" },
+                    { "id": 3, "answer": "Only includes background information" },
+                    { "id": 4, "answer": "Written only for IT professionals" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 7,
+                  "title": "Why is concise and straightforward writing important in documentation?",
+                  "answers": [
+                    { "id": 1, "answer": "To reduce paper usage" },
+                    { "id": 2, "answer": "To improve clarity and understanding" },
+                    { "id": 3, "answer": "To showcase advanced vocabulary skills" },
+                    { "id": 4, "answer": "To entertain the reader" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 8,
+                  "title": "Which of the following is an example of poor documentation?",
+                  "answers": [
+                    { "id": 1, "answer": "Describes the issue, cause, and resolution clearly" },
+                    { "id": 2, "answer": "Lacks specific details and instructions" },
+                    { "id": 3, "answer": "Provides an overview with exact settings and paths" },
+                    { "id": 4, "answer": "Includes a summary with background information" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 9,
+                  "title": "Why should documentation be kept updated?",
+                  "answers": [
+                    { "id": 1, "answer": "To avoid confusion as systems and processes change" },
+                    { "id": 2, "answer": "To save space on servers" },
+                    { "id": 3, "answer": "To use up more storage space" },
+                    { "id": 4, "answer": "To confuse new employees" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 10,
+                  "title": "What should a well-documented ticket create?",
+                  "answers": [
+                    { "id": 1, "answer": "A personal note for the IT staff" },
+                    { "id": 2, "answer": "An audit trail reflecting actions taken" },
+                    { "id": 3, "answer": "A series of unanswered questions" },
+                    { "id": 4, "answer": "A vague summary of the issue" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 11,
+                  "title": "What should you do if an issue repeats frequently?",
+                  "answers": [
+                    { "id": 1, "answer": "Create a new process document for each occurrence" },
+                    { "id": 2, "answer": "Refer to existing documentation for repeated issues" },
+                    { "id": 3, "answer": "Ignore the documentation and solve it again from scratch" },
+                    { "id": 4, "answer": "Write a novel about the issue" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 12,
+                  "title": "Why might a ticket not need full process documentation?",
+                  "answers": [
+                    { "id": 1, "answer": "Because it's easier to remember details later" },
+                    { "id": 2, "answer": "If the issue is simple and already documented elsewhere" },
+                    { "id": 3, "answer": "To save time and avoid unnecessary work" },
+                    { "id": 4, "answer": "Because no one reads the tickets" }
+                  ],
+                  "correct": 2
+                }
+              ]
+            },
+            
+            {
+              "id": "module6-4",
+              "title": "Interview Preparation",
+              "questions": [
+                {
+                  "id": 1,
+                  "title": "What is a key element to include in a resume?",
+                  "answers": [
+                    { "id": 1, "answer": "A list of hobbies" },
+                    { "id": 2, "answer": "Your employment history" },
+                    { "id": 3, "answer": "Personal anecdotes" },
+                    { "id": 4, "answer": "Your favorite books" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 2,
+                  "title": "What is the purpose of tailoring your resume for each job application?",
+                  "answers": [
+                    { "id": 1, "answer": "To match the resume to a specific company’s needs" },
+                    { "id": 2, "answer": "To make it look longer" },
+                    { "id": 3, "answer": "To add more personal details" },
+                    { "id": 4, "answer": "To use a different resume format" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 3,
+                  "title": "Which resume format is best for someone with limited work experience?",
+                  "answers": [
+                    { "id": 1, "answer": "Chronological/Reverse-Chronological" },
+                    { "id": 2, "answer": "Functional/Skills-Based" },
+                    { "id": 3, "answer": "Combination" },
+                    { "id": 4, "answer": "Infographic" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 4,
+                  "title": "What should you include in your LinkedIn profile to align with your resume?",
+                  "answers": [
+                    { "id": 1, "answer": "Personal interests" },
+                    { "id": 2, "answer": "Job achievements and specific projects" },
+                    { "id": 3, "answer": "Social media links" },
+                    { "id": 4, "answer": "Favorite quotes" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 5,
+                  "title": "How can you prepare effectively for a technical interview?",
+                  "answers": [
+                    { "id": 1, "answer": "By memorizing answers to common questions" },
+                    { "id": 2, "answer": "By practicing technical problems and explaining your thought process" },
+                    { "id": 3, "answer": "By avoiding technical practice and focusing only on soft skills" },
+                    { "id": 4, "answer": "By reviewing only the job description" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 6,
+                  "title": "What is an elevator pitch?",
+                  "answers": [
+                    { "id": 1, "answer": "A brief summary of who you are and what you do" },
+                    { "id": 2, "answer": "A detailed report of your previous job experiences" },
+                    { "id": 3, "answer": "A technical explanation of your past projects" },
+                    { "id": 4, "answer": "A list of your professional references" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 7,
+                  "title": "When faced with a technical question you don’t know the answer to, what should you do?",
+                  "answers": [
+                    { "id": 1, "answer": "Admit you don't know and leave it at that" },
+                    { "id": 2, "answer": "Explain how you would find the answer and demonstrate your problem-solving approach" },
+                    { "id": 3, "answer": "Change the topic of conversation" },
+                    { "id": 4, "answer": "Provide a random answer" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 8,
+                  "title": "How should you handle nervousness during an interview?",
+                  "answers": [
+                    { "id": 1, "answer": "Speak rapidly to get it over with" },
+                    { "id": 2, "answer": "Take deep breaths and speak at a steady pace" },
+                    { "id": 3, "answer": "Avoid eye contact and stay silent" },
+                    { "id": 4, "answer": "Overcompensate by being overly enthusiastic" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 9,
+                  "title": "What should you do the night before an interview?",
+                  "answers": [
+                    { "id": 1, "answer": "Cram for the interview" },
+                    { "id": 2, "answer": "Get a good night's sleep and avoid last-minute stress" },
+                    { "id": 3, "answer": "Stay up late to review all potential questions" },
+                    { "id": 4, "answer": "Go out and relax, forgetting about the interview" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 10,
+                  "title": "What is the benefit of doing mock interviews?",
+                  "answers": [
+                    { "id": 1, "answer": "To memorize answers to common questions" },
+                    { "id": 2, "answer": "To become comfortable with thinking out loud and providing clear answers" },
+                    { "id": 3, "answer": "To learn how to avoid technical topics" },
+                    { "id": 4, "answer": "To practice aggressive interview techniques" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 11,
+                  "title": "How should you dress for an interview?",
+                  "answers": [
+                    { "id": 1, "answer": "In casual clothes" },
+                    { "id": 2, "answer": "In professional attire appropriate for the company culture" },
+                    { "id": 3, "answer": "In the most expensive outfit you own" },
+                    { "id": 4, "answer": "In something you feel most comfortable in, regardless of professional standards" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 12,
+                  "title": "What role does research play in interview preparation?",
+                  "answers": [
+                    { "id": 1, "answer": "It helps you understand the company and its needs" },
+                    { "id": 2, "answer": "It provides irrelevant details about the company's history" },
+                    { "id": 3, "answer": "It focuses solely on industry trends" },
+                    { "id": 4, "answer": "It allows you to ignore the job description" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 13,
+                  "title": "What is an effective way to handle technical problem-solving during an interview?",
+                  "answers": [
+                    { "id": 1, "answer": "Attempt to solve the problem silently" },
+                    { "id": 2, "answer": "Verbalize your thought process and use evidence to guide your solution" },
+                    { "id": 3, "answer": "Change the topic if you feel stuck" },
+                    { "id": 4, "answer": "Wait for the interviewer to provide the solution" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 14,
+                  "title": "How should you use diagrams during an interview?",
+                  "answers": [
+                    { "id": 1, "answer": "To distract from the discussion" },
+                    { "id": 2, "answer": "To illustrate your thought process and keep the discussion organized" },
+                    { "id": 3, "answer": "To show off artistic skills" },
+                    { "id": 4, "answer": "To cover up mistakes in your answers" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 15,
+                  "title": "What is important when asking questions to the interviewer?",
+                  "answers": [
+                    { "id": 1, "answer": "Asking about salary and benefits only" },
+                    { "id": 2, "answer": "Asking thoughtful questions that help you evaluate the company and the role" },
+                    { "id": 3, "answer": "Asking questions about the interviewer’s personal life" },
+                    { "id": 4, "answer": "Avoiding asking any questions" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 16,
+                  "title": "What should you include in your elevator pitch?",
+                  "answers": [
+                    { "id": 1, "answer": "Your detailed work history" },
+                    { "id": 2, "answer": "A short summary of who you are, what you do, and why you’re interested in the role" },
+                    { "id": 3, "answer": "Personal hobbies and interests" },
+                    { "id": 4, "answer": "The names of previous employers" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 17,
+                  "title": "What is the best way to demonstrate your problem-solving skills during an interview?",
+                  "answers": [
+                    { "id": 1, "answer": "By guessing solutions quickly" },
+                    { "id": 2, "answer": "By clearly outlining your approach to solving complex problems and using examples" },
+                    { "id": 3, "answer": "By avoiding difficult questions" },
+                    { "id": 4, "answer": "By focusing solely on past achievements" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 18,
+                  "title": "What should you do if you are late for an interview?",
+                  "answers": [
+                    { "id": 1, "answer": "Arrive and apologize profusely" },
+                    { "id": 2, "answer": "Call ahead to inform them and provide a reason for the delay" },
+                    { "id": 3, "answer": "Show up anyway and hope they understand" },
+                    { "id": 4, "answer": "Ignore it and start the interview as usual" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 19,
+                  "title": "Why is it important to review the job description thoroughly before an interview?",
+                  "answers": [
+                    { "id": 1, "answer": "To prepare a detailed cover letter" },
+                    { "id": 2, "answer": "To understand the role, responsibilities, and requirements of the position" },
+                    { "id": 3, "answer": "To create a different resume format" },
+                    { "id": 4, "answer": "To know the company’s financial status" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 20,
+                  "title": "How can you effectively manage your time during a technical interview?",
+                  "answers": [
+                    { "id": 1, "answer": "By rushing through each question" },
+                    { "id": 2, "answer": "By allocating time to each question and using a structured approach to solve them" },
+                    { "id": 3, "answer": "By spending extra time on questions you find easiest" },
+                    { "id": 4, "answer": "By focusing only on the first few questions" }
+                  ],
+                  "correct": 2
+                }
+              ]
+            }
+            
+          ]
         }
+        
     ]
   }
 }
