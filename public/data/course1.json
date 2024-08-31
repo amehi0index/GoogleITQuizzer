@@ -3881,7 +3881,29 @@
                     { "id": 4, "answer": "Because no one reads the tickets" }
                   ],
                   "correct": 2
-                }
+                },
+                {
+                  "id": 13,
+                  "title": "Which of the following are examples of bug tracking and ticketing systems used in IT?",
+                  "answers": [
+                    { "id": 1, "answer": "Excel, Google Drive, and Slack" },
+                    { "id": 2, "answer": "Bugzilla, Redmine, and JIRA" },
+                    { "id": 3, "answer": "Outlook, Zoom, and Dropbox" },
+                    { "id": 4, "answer": "WordPress, Trello, and Evernote" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 14,
+                  "title": "What is the definition of a 'bug' in the context of IT systems?",
+                  "answers": [
+                    { "id": 1, "answer": "A system issue caused by an external source" },
+                    { "id": 2, "answer": "A problem with the system that was not caused by an external source" },
+                    { "id": 3, "answer": "A user error or misconfiguration" },
+                    { "id": 4, "answer": "A feature enhancement request" }
+                  ],
+                  "correct": 2
+                } 
               ]
             },
             

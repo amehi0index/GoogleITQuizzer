@@ -8,11 +8,11 @@ import './App.css';
 
 const App = () => {
   const [courses] = useState([
-    { id: 'c1', title: 'Course 1: Technical Support Fundamentals', jsonFile: '/questions.json', disabled: false },
-    { id: 'c2', title: 'Course 2: The Bits and Bytes of Computer Networking', jsonFile: '/course2.json', disabled: true },
-    { id: 'c3', title: 'Course 3: Operating Systems and You: Becoming a Power User', jsonFile: '/course3.json', disabled: true },
-    { id: 'c4', title: 'Course 4: System Administration and IT Infrastructure Services', jsonFile: '/course4.json', disabled: true },
-    { id: 'c5', title: 'Course 5: IT Security: Defense Against the Digital Dark Arts', jsonFile: '/course5.json', disabled: true },
+    { id: 'c1', title: 'Course 1: Technical Support Fundamentals', jsonFile: 'data/course1.json', disabled: false },
+    { id: 'c2', title: 'Course 2: The Bits and Bytes of Computer Networking', jsonFile: 'data/course2.json', disabled: false },
+    { id: 'c3', title: 'Course 3: Operating Systems and You: Becoming a Power User', jsonFile: 'data/course3.json', disabled: true },
+    { id: 'c4', title: 'Course 4: System Administration and IT Infrastructure Services', jsonFile: 'data/course4.json', disabled: true },
+    { id: 'c5', title: 'Course 5: IT Security: Defense Against the Digital Dark Arts', jsonFile: 'data/course5.json', disabled: true },
   ]);
   
   
