@@ -7,180 +7,140 @@
           "title": "Module 1: Intro to Networking",
           "subModules": [
             {
-              "id": "module1-2",
-              "title": "",
-              "questions": [
-                [
-                    {
-                      "id": 1,
-                      "title": "What is the primary focus of the five-layer networking model?",
-                      "answers": [
-                        { "id": 1, "answer": "Communication between applications" },
-                        { "id": 2, "answer": "Network security protocols" },
-                        { "id": 3, "answer": "All components involved in data communication, from physical devices to protocols" },
-                        { "id": 4, "answer": "Internet browser settings" }
-                      ],
-                      "correct": 3
-                    },
-                    {
-                      "id": 2,
-                      "title": "Which layer is responsible for the physical devices that interconnect computers?",
-                      "answers": [
-                        { "id": 1, "answer": "Transport Layer" },
-                        { "id": 2, "answer": "Data Link Layer" },
-                        { "id": 3, "answer": "Physical Layer" },
-                        { "id": 4, "answer": "Application Layer" }
-                      ],
-                      "correct": 3
-                    },
-                    {
-                      "id": 3,
-                      "title": "What is the main function of the Data Link Layer?",
-                      "answers": [
-                        { "id": 1, "answer": "To define a common way to interpret signals for communication within the same network" },
-                        { "id": 2, "answer": "To ensure data is delivered to the correct application" },
-                        { "id": 3, "answer": "To decide the route between networks" },
-                        { "id": 4, "answer": "To handle application-specific protocols" }
-                      ],
-                      "correct": 1
-                    },
-                    {
-                      "id": 4,
-                      "title": "Which protocol is most commonly associated with the Network Layer?",
-                      "answers": [
-                        { "id": 1, "answer": "TCP" },
-                        { "id": 2, "answer": "Ethernet" },
-                        { "id": 3, "answer": "IP" },
-                        { "id": 4, "answer": "HTTP" }
-                      ],
-                      "correct": 3
-                    },
-                    {
-                      "id": 5,
-                      "title": "What is the primary function of the Transport Layer?",
-                      "answers": [
-                        { "id": 1, "answer": "To determine the route data takes across networks" },
-                        { "id": 2, "answer": "To ensure data is delivered to the correct application on a device" },
-                        { "id": 3, "answer": "To define physical devices and connections" },
-                        { "id": 4, "answer": "To manage encryption for secure communication" }
-                      ],
-                      "correct": 2
-                    },
-                    {
-                      "id": 6,
-                      "title": "Which protocols are commonly found at the Transport Layer?",
-                      "answers": [
-                        { "id": 1, "answer": "HTTP and SMTP" },
-                        { "id": 2, "answer": "TCP and UDP" },
-                        { "id": 3, "answer": "IP and Ethernet" },
-                        { "id": 4, "answer": "DNS and DHCP" }
-                      ],
-                      "correct": 2
-                    },
-                    {
-                      "id": 7,
-                      "title": "What is the purpose of the Application Layer?",
-                      "answers": [
-                        { "id": 1, "answer": "To manage physical connections between devices" },
-                        { "id": 2, "answer": "To handle protocols that directly interact with user applications" },
-                        { "id": 3, "answer": "To ensure data delivery between nodes" },
-                        { "id": 4, "answer": "To configure network addresses" }
-                      ],
-                      "correct": 2
-                    },
-                    {
-                      "id": 8,
-                      "title": "In the package delivery analogy, what does the Network Layer represent?",
-                      "answers": [
-                        { "id": 1, "answer": "The contents of the package" },
-                        { "id": 2, "answer": "The delivery truck and roads" },
-                        { "id": 3, "answer": "The method of moving from one intersection to the next" },
-                        { "id": 4, "answer": "The route from the starting address to the destination address" }
-                      ],
-                      "correct": 4
-                    },
-                    {
-                      "id": 9,
-                      "title": "Which layer is responsible for defining the rules for communication within a local network?",
-                      "answers": [
-                        { "id": 1, "answer": "Physical Layer" },
-                        { "id": 2, "answer": "Data Link Layer" },
-                        { "id": 3, "answer": "Transport Layer" },
-                        { "id": 4, "answer": "Application Layer" }
-                      ],
-                      "correct": 2
-                    },
-                    {
-                      "id": 10,
-                      "title": "Which layer is most familiar to users and involves protocols like HTTP and SMTP?",
-                      "answers": [
-                        { "id": 1, "answer": "Network Layer" },
-                        { "id": 2, "answer": "Transport Layer" },
-                        { "id": 3, "answer": "Application Layer" },
-                        { "id": 4, "answer": "Data Link Layer" }
-                      ],
-                      "correct": 3
-                    }
-              ]
-                  
-              ]
-            }
-          ]
-        },
-        {
-          "id": "module2",
-          "title": "Module 2: The TCP/IP Five Layer Network Model",
-          "subModules": [
+              "id": "module1-1",
+              "title": "Basics of Networking",
+              "questions": []
+            },
             {
-              "id": "module2-1",
-              "title": "",
+              "id": "module1-2",
+              "title": "Module 2: The TCP/IP Five Layer Network Model",
               "questions": [
-                
+                {
+                  "id": 1,
+                  "title": "What is the primary focus of the five-layer networking model?",
+                  "answers": [
+                    { "id": 1, "answer": "Communication between applications" },
+                    { "id": 2, "answer": "Network security protocols" },
+                    { "id": 3, "answer": "All components involved in data communication, from physical devices to protocols" },
+                    { "id": 4, "answer": "Internet browser settings" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 2,
+                  "title": "Which layer is responsible for the physical devices that interconnect computers?",
+                  "answers": [
+                    { "id": 1, "answer": "Transport Layer" },
+                    { "id": 2, "answer": "Data Link Layer" },
+                    { "id": 3, "answer": "Physical Layer" },
+                    { "id": 4, "answer": "Application Layer" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 3,
+                  "title": "What is the main function of the Data Link Layer?",
+                  "answers": [
+                    { "id": 1, "answer": "To define a common way to interpret signals for communication within the same network" },
+                    { "id": 2, "answer": "To ensure data is delivered to the correct application" },
+                    { "id": 3, "answer": "To decide the route between networks" },
+                    { "id": 4, "answer": "To handle application-specific protocols" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 4,
+                  "title": "Which protocol is most commonly associated with the Network Layer?",
+                  "answers": [
+                    { "id": 1, "answer": "TCP" },
+                    { "id": 2, "answer": "Ethernet" },
+                    { "id": 3, "answer": "IP" },
+                    { "id": 4, "answer": "HTTP" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 5,
+                  "title": "What is the primary function of the Transport Layer?",
+                  "answers": [
+                    { "id": 1, "answer": "To determine the route data takes across networks" },
+                    { "id": 2, "answer": "To ensure data is delivered to the correct application on a device" },
+                    { "id": 3, "answer": "To define physical devices and connections" },
+                    { "id": 4, "answer": "To manage encryption for secure communication" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 6,
+                  "title": "Which protocols are commonly found at the Transport Layer?",
+                  "answers": [
+                    { "id": 1, "answer": "HTTP and SMTP" },
+                    { "id": 2, "answer": "TCP and UDP" },
+                    { "id": 3, "answer": "IP and Ethernet" },
+                    { "id": 4, "answer": "DNS and DHCP" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 7,
+                  "title": "What is the purpose of the Application Layer?",
+                  "answers": [
+                    { "id": 1, "answer": "To manage physical connections between devices" },
+                    { "id": 2, "answer": "To handle protocols that directly interact with user applications" },
+                    { "id": 3, "answer": "To ensure data delivery between nodes" },
+                    { "id": 4, "answer": "To configure network addresses" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 8,
+                  "title": "In the package delivery analogy, what does the Network Layer represent?",
+                  "answers": [
+                    { "id": 1, "answer": "The contents of the package" },
+                    { "id": 2, "answer": "The delivery truck and roads" },
+                    { "id": 3, "answer": "The method of moving from one intersection to the next" },
+                    { "id": 4, "answer": "The route from the starting address to the destination address" }
+                  ],
+                  "correct": 4
+                },
+                {
+                  "id": 9,
+                  "title": "Which layer is responsible for defining the rules for communication within a local network?",
+                  "answers": [
+                    { "id": 1, "answer": "Physical Layer" },
+                    { "id": 2, "answer": "Data Link Layer" },
+                    { "id": 3, "answer": "Transport Layer" },
+                    { "id": 4, "answer": "Application Layer" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 10,
+                  "title": "Which layer is most familiar to users and involves protocols like HTTP and SMTP?",
+                  "answers": [
+                    { "id": 1, "answer": "Network Layer" },
+                    { "id": 2, "answer": "Transport Layer" },
+                    { "id": 3, "answer": "Application Layer" },
+                    { "id": 4, "answer": "Data Link Layer" }
+                  ],
+                  "correct": 3
+                }
               ]
             },
             {
-              "id": "module2-2",
-              "title": "",
-              "questions": [
-                
-              ]
-            }
-          ]
-        },
-        {
-          "id": "module3",
-          "title": "Module 3: The Basics of Networking Devices",
-          "subModules": [
+                "id": "module1-3",
+                "title": "The Basics of Networking Devices",
+                "questions": []
+            },
             {
-              "id": "module3-1",
-              "title": "",
-              "questions": [
-                
-              ]
-            }
-          ]
-        },
-        {
-          "id": "module4",
-          "title": "Module 4: The Physical Layer",
-          "subModules": [
+                "id": "module1-4",
+                "title": "The Physical Layer",
+                "questions": []
+            },
             {
-              "id": "module4-1",
-              "title": "",
-              "questions": [
-              ]
-            }
-          ]
-        },
-        {
-          "id": "module5",
-          "title": "Module 5: The Data Link Layer",
-          "subModules": [
-            {
-              "id": "module5-1",
-              "title": "",
-              "questions": [
-              ]
+                "id": "module1-5",
+                "title": "The Data Link Layer",
+                "questions": []
             }
           ]
         }
