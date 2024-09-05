@@ -7,13 +7,8 @@
           "title": "Module 1: Intro to Networking",
           "subModules": [
             {
-              "id": "module1-1",
-              "title": "Basics of Networking",
-              "questions": []
-            },
-            {
               "id": "module1-2",
-              "title": "Module 2: The TCP/IP Five Layer Network Model",
+              "title": "The TCP/IP Five Layer Network Model",
               "questions": [
                 {
                   "id": 1,
@@ -130,7 +125,176 @@
             {
                 "id": "module1-3",
                 "title": "The Basics of Networking Devices",
-                "questions": []
+                "questions": [
+                  [
+                    {
+                      "id": 1,
+                      "title": "Which type of cable is most commonly used in standard home and office networks for wired connections?",
+                      "answers": [
+                        { "id": 1, "answer": "Coaxial Cable" },
+                        { "id": 2, "answer": "Cat5e Cable" },
+                        { "id": 3, "answer": "Fiber Optic Cable" },
+                        { "id": 4, "answer": "HDMI Cable" }
+                      ],
+                      "correct": 2
+                    }, 
+                    {
+                      "id": 2,
+                      "title": "Which category of copper cable provides the highest data transfer rates?",
+                      "answers": [
+                        { "id": 1, "answer": "Cat5" },
+                        { "id": 2, "answer": "Cat5e" },
+                        { "id": 3, "answer": "Cat6" },
+                        { "id": 4, "answer": "Cat4" }
+                      ],
+                      "correct": 3
+                    },
+                    {
+                      "id": 3,
+                      "title": "What is 'crosstalk' in networking?",
+                      "answers": [
+                        { "id": 1, "answer": "The speed of data transmission" },
+                        { "id": 2, "answer": "Interference caused by signals from adjacent wires" },
+                        { "id": 3, "answer": "The distance a cable can transmit data" },
+                        { "id": 4, "answer": "A device that connects multiple computers" }
+                      ],
+                      "correct": 2
+                    },
+                    {
+                      "id": 4,
+                      "title": "Which type of cable uses light to transmit data?",
+                      "answers": [
+                        { "id": 1, "answer": "Cat5" },
+                        { "id": 2, "answer": "Cat6" },
+                        { "id": 3, "answer": "Fiber Optic" },
+                        { "id": 4, "answer": "Coaxial" }
+                      ],
+                      "correct": 3
+                    },
+                    {
+                      "id": 5,
+                      "title": "What is a primary advantage of fiber optic cables?",
+                      "answers": [
+                        { "id": 1, "answer": "Lower cost" },
+                        { "id": 2, "answer": "Less interference" },
+                        { "id": 3, "answer": "Shorter distance transmission" },
+                        { "id": 4, "answer": "Requires no maintenance" }
+                      ],
+                      "correct": 2
+                    },
+                    {
+                      "id": 6,
+                      "title": "Which device operates at Layer 1 of the OSI model?",
+                      "answers": [
+                        { "id": 1, "answer": "Router" },
+                        { "id": 2, "answer": "Switch" },
+                        { "id": 3, "answer": "Hub" },
+                        { "id": 4, "answer": "Firewall" }
+                      ],
+                      "correct": 3
+                    },
+                    {
+                      "id": 7,
+                      "title": "How does a hub transmit data to devices connected to it?",
+                      "answers": [
+                        { "id": 1, "answer": "Sends data only to the intended device" },
+                        { "id": 2, "answer": "Broadcasts data to all connected devices" },
+                        { "id": 3, "answer": "Uses a routing table to find the destination" },
+                        { "id": 4, "answer": "Encrypts data before sending it" }
+                      ],
+                      "correct": 2
+                    },
+                    {
+                      "id": 8,
+                      "title": "Which device is considered outdated and mostly a historical artifact?",
+                      "answers": [
+                        { "id": 1, "answer": "Router" },
+                        { "id": 2, "answer": "Switch" },
+                        { "id": 3, "answer": "Hub" },
+                        { "id": 4, "answer": "Modem" }
+                      ],
+                      "correct": 3
+                    },
+                    {
+                      "id": 9,
+                      "title": "What is the primary benefit of using a switch over a hub?",
+                      "answers": [
+                        { "id": 1, "answer": "Higher cost" },
+                        { "id": 2, "answer": "Reduces collision domains" },
+                        { "id": 3, "answer": "Increases interference" },
+                        { "id": 4, "answer": "Broadcasts data to all devices" }
+                      ],
+                      "correct": 2
+                    },
+                    {
+                      "id": 10,
+                      "title": "At which layer does a router operate?",
+                      "answers": [
+                        { "id": 1, "answer": "Layer 1" },
+                        { "id": 2, "answer": "Layer 2" },
+                        { "id": 3, "answer": "Layer 3" },
+                        { "id": 4, "answer": "Layer 4" }
+                      ],
+                      "correct": 3
+                    },
+                    {
+                      "id": 11,
+                      "title": "What is the purpose of a home or small office router?",
+                      "answers": [
+                        { "id": 1, "answer": "To form the backbone of the internet" },
+                        { "id": 2, "answer": "To connect a local network to an ISP" },
+                        { "id": 3, "answer": "To handle large amounts of global traffic" },
+                        { "id": 4, "answer": "To store large amounts of data" }
+                      ],
+                      "correct": 2
+                    },
+                    {
+                      "id": 12,
+                      "title": "Which protocol is used by core ISP routers to share routing data?",
+                      "answers": [
+                        { "id": 1, "answer": "HTTP" },
+                        { "id": 2, "answer": "FTP" },
+                        { "id": 3, "answer": "BGP" },
+                        { "id": 4, "answer": "SMTP" }
+                      ],
+                      "correct": 3
+                    },
+                    {
+                      "id": 13,
+                      "title": "Which of the following best describes a 'client' in networking?",
+                      "answers": [
+                        { "id": 1, "answer": "A device that provides data or services" },
+                        { "id": 2, "answer": "A device that requests and receives data" },
+                        { "id": 3, "answer": "A device that routes data between networks" },
+                        { "id": 4, "answer": "A device that stores data for long periods" }
+                      ],
+                      "correct": 2
+                    },
+                    {
+                      "id": 14,
+                      "title": "What is an example of a device acting as both a server and a client?",
+                      "answers": [
+                        { "id": 1, "answer": "A web server receiving email" },
+                        { "id": 2, "answer": "A home router" },
+                        { "id": 3, "answer": "An email server querying a DNS server" },
+                        { "id": 4, "answer": "A laptop connecting to Wi-Fi" }
+                      ],
+                      "correct": 3
+                    },
+                    {
+                      "id": 15,
+                      "title": "Why are core ISP routers essential for internet communication?",
+                      "answers": [
+                        { "id": 1, "answer": "They provide local storage for data" },
+                        { "id": 2, "answer": "They handle traffic between local devices only" },
+                        { "id": 3, "answer": "They route data globally across various networks" },
+                        { "id": 4, "answer": "They serve as a firewall" }
+                      ],
+                      "correct": 3
+                    }
+                  ]
+                  
+                ]
             },
             {
                 "id": "module1-4",
