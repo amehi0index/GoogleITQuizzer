@@ -126,7 +126,6 @@
                 "id": "module1-3",
                 "title": "The Basics of Networking Devices",
                 "questions": [
-                  [
                     {
                       "id": 1,
                       "title": "Which type of cable is most commonly used in standard home and office networks for wired connections?",
@@ -293,8 +292,6 @@
                       "correct": 3
                     }
                   ]
-                  
-                ]
             },
             {
                 "id": "module1-4",
