@@ -150,15 +150,16 @@
                     },
                     {
                       "id": 3,
-                      "title": "What is 'crosstalk' in networking?",
+                      "title": "What is 'crosstalk' in networking, and how does it affect data transmission?",
                       "answers": [
-                        { "id": 1, "answer": "The speed of data transmission" },
-                        { "id": 2, "answer": "Interference caused by signals from adjacent wires" },
-                        { "id": 3, "answer": "The distance a cable can transmit data" },
-                        { "id": 4, "answer": "A device that connects multiple computers" }
+                        { "id": 1, "answer": "When data is transmitted too quickly, causing buffer overflow" },
+                        { "id": 2, "answer": "When a signal from one wire is mistakenly detected on another wire" },
+                        { "id": 3, "answer": "When a device receives data intended for another device on the network" },
+                        { "id": 4, "answer": "When data packets are lost due to insufficient bandwidth" }
                       ],
                       "correct": 2
                     },
+                    
                     {
                       "id": 4,
                       "title": "Which type of cable uses light to transmit data?",
@@ -290,13 +291,225 @@
                         { "id": 4, "answer": "They serve as a firewall" }
                       ],
                       "correct": 3
+                    },
+                    {
+                      "id": 16,
+                      "title": "How is binary data transmitted over copper wires in a network?",
+                      "answers": [
+                        { "id": 1, "answer": "By varying light intensity" },
+                        { "id": 2, "answer": "By changing voltage levels" },
+                        { "id": 3, "answer": "By modulating sound frequencies" },
+                        { "id": 4, "answer": "By altering magnetic fields" }
+                      ],
+                      "correct": 2
+                    },
+                    {
+                      "id": 17,
+                      "title": "What factor significantly affects the speed and interference resistance of data transmission in twisted pair cables?",
+                      "answers": [
+                        { "id": 1, "answer": "The color of the cable jacket" },
+                        { "id": 2, "answer": "The length of the cable" },
+                        { "id": 3, "answer": "The arrangement of the twisted pairs" },
+                        { "id": 4, "answer": "The type of connectors used" }
+                      ],
+                      "correct": 3
+                    },
+                    {
+                      "id": 18,
+                      "title": "What is a key characteristic of Cat6 cables compared to Cat5e cables?",
+                      "answers": [
+                        { "id": 1, "answer": "Cat6 cables are less reliable than Cat5e cables." },
+                        { "id": 2, "answer": "Cat6 cables can transfer data faster but have a shorter maximum distance at higher speeds." },
+                        { "id": 3, "answer": "Cat6 cables are more prone to interference than Cat5e cables." },
+                        { "id": 4, "answer": "Cat6 cables are designed for use in wireless networks." }
+                      ],
+                      "correct": 2
+                    },
+                    {
+                      "id":19,
+                      "title": "How does a switch improve network efficiency compared to a hub?",
+                      "answers": [
+                        { "id": 1, "answer": "By sending data to all connected devices simultaneously" },
+                        { "id": 2, "answer": "By inspecting Ethernet data and sending it only to the intended recipient" },
+                        { "id": 3, "answer": "By encrypting data before transmission" },
+                        { "id": 4, "answer": "By reducing the data transmission speed" }
+                      ],
+                      "correct": 2
                     }
+                    
                   ]
             },
             {
                 "id": "module1-4",
                 "title": "The Physical Layer",
-                "questions": []
+                "questions": [
+                  {
+                    "id": 1,
+                    "title": "What is the main focus of the physical layer in networking?",
+                    "answers": [
+                      { "id": 1, "answer": "Routing data packets" },
+                      { "id": 2, "answer": "Moving binary data across network links" },
+                      { "id": 3, "answer": "Encrypting data" },
+                      { "id": 4, "answer": "Managing network addresses" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 2,
+                    "title": "What term describes the modulation of electrical charges to represent binary data?",
+                    "answers": [
+                      { "id": 1, "answer": "Line Coding" },
+                      { "id": 2, "answer": "Packet Switching" },
+                      { "id": 3, "answer": "Error Detection" },
+                      { "id": 4, "answer": "Frequency Division" }
+                    ],
+                    "correct": 1
+                  },
+                  {
+                    "id": 3,
+                    "title": "Which type of communication allows data to flow in both directions simultaneously?",
+                    "answers": [
+                      { "id": 1, "answer": "Simplex Communication" },
+                      { "id": 2, "answer": "Half Duplex Communication" },
+                      { "id": 3, "answer": "Full Duplex Communication" },
+                      { "id": 4, "answer": "Unidirectional Communication" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 4,
+                    "title": "What type of twisted pair cable provides additional shielding against interference?",
+                    "answers": [
+                      { "id": 1, "answer": "Unshielded Twisted Pair (UTP)" },
+                      { "id": 2, "answer": "Shielded Twisted Pair (STP)" },
+                      { "id": 3, "answer": "Foiled Twisted Pair (FTP)" },
+                      { "id": 4, "answer": "Coaxial Cable" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 5,
+                    "title": "Which cable type is used to connect devices of the same type directly, such as two switches?",
+                    "answers": [
+                      { "id": 1, "answer": "Straight-Through Cable" },
+                      { "id": 2, "answer": "Crossover Cable" },
+                      { "id": 3, "answer": "Patch Cable" },
+                      { "id": 4, "answer": "Rollover Cable" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 6,
+                    "title": "What is the purpose of a network patch panel?",
+                    "answers": [
+                      { "id": 1, "answer": "To connect devices to the internet" },
+                      { "id": 2, "answer": "To house and organize multiple network cables" },
+                      { "id": 3, "answer": "To increase network bandwidth" },
+                      { "id": 4, "answer": "To manage network security" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 7,
+                    "title": "Which tool is used to strip the protective coating from cables?",
+                    "answers": [
+                      { "id": 1, "answer": "Crimper" },
+                      { "id": 2, "answer": "Cable Stripper" },
+                      { "id": 3, "answer": "Wi-Fi Analyzer" },
+                      { "id": 4, "answer": "Punch Down Tool" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 8,
+                    "title": "What does the link light on a network port indicate?",
+                    "answers": [
+                      { "id": 1, "answer": "Data transmission speed" },
+                      { "id": 2, "answer": "Cable connection and power status" },
+                      { "id": 3, "answer": "Network activity" },
+                      { "id": 4, "answer": "Signal strength" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 9,
+                    "title": "Which type of Ethernet cable is most commonly used to connect computers to network devices like routers and switches?",
+                    "answers": [
+                      { "id": 1, "answer": "Crossover Cable" },
+                      { "id": 2, "answer": "Straight-Through Cable" },
+                      { "id": 3, "answer": "Coaxial Cable" },
+                      { "id": 4, "answer": "Fiber Optic Cable" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 10,
+                    "title": "What tool is used to test the integrity of a network cable?",
+                    "answers": [
+                      { "id": 1, "answer": "Crimper" },
+                      { "id": 2, "answer": "Cable Tester" },
+                      { "id": 3, "answer": "Toner Probe" },
+                      { "id": 4, "answer": "Loopback Plug" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 11,
+                    "title": "Which type of cable uses a foil shield to protect against interference?",
+                    "answers": [
+                      { "id": 1, "answer": "Unshielded Twisted Pair (UTP)" },
+                      { "id": 2, "answer": "Shielded Twisted Pair (STP)" },
+                      { "id": 3, "answer": "Foiled Twisted Pair (FTP)" },
+                      { "id": 4, "answer": "Coaxial Cable" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 12,
+                    "title": "What does the activity light on a network port indicate?",
+                    "answers": [
+                      { "id": 1, "answer": "Data transmission speed" },
+                      { "id": 2, "answer": "Link status" },
+                      { "id": 3, "answer": "Whether data is being transmitted" },
+                      { "id": 4, "answer": "Signal strength" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 13,
+                    "title": "What is the primary use of a loopback plug?",
+                    "answers": [
+                      { "id": 1, "answer": "To test network ports by sending traffic back to the port" },
+                      { "id": 2, "answer": "To strip cable insulation" },
+                      { "id": 3, "answer": "To analyze Wi-Fi signal quality" },
+                      { "id": 4, "answer": "To crimp cables" }
+                    ],
+                    "correct": 1
+                  },
+                  {
+                    "id": 14,
+                    "title": "Which device is used to find Ethernet connectors using sound?",
+                    "answers": [
+                      { "id": 1, "answer": "Crimper" },
+                      { "id": 2, "answer": "Wi-Fi Analyzer" },
+                      { "id": 3, "answer": "Toner Probe" },
+                      { "id": 4, "answer": "Cable Tester" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 15,
+                    "title": "What is the main purpose of the physical layer in the OSI model?",
+                    "answers": [
+                      { "id": 1, "answer": "Routing packets to their destination" },
+                      { "id": 2, "answer": "Transmitting raw binary data over a network link" },
+                      { "id": 3, "answer": "Encrypting data during transmission" },
+                      { "id": 4, "answer": "Managing network addresses and paths" }
+                    ],
+                    "correct": 2
+                  }
+                ]
+                
             },
             {
                 "id": "module1-5",
