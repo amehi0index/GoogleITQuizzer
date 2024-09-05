@@ -514,7 +514,173 @@
             {
                 "id": "module1-5",
                 "title": "The Data Link Layer",
-                "questions": []
+                "questions": [
+                  {
+                    "id": 1,
+                    "title": "What is the primary function of the Data Link Layer?",
+                    "answers": [
+                      { "id": 1, "answer": "Transmitting raw binary data" },
+                      { "id": 2, "answer": "Error detection and correction, and framing" },
+                      { "id": 3, "answer": "Routing packets across networks" },
+                      { "id": 4, "answer": "Managing logical network addresses" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 2,
+                    "title": "What does MAC stand for in MAC address?",
+                    "answers": [
+                      { "id": 1, "answer": "Machine Access Control" },
+                      { "id": 2, "answer": "Media Access Control" },
+                      { "id": 3, "answer": "Multi Access Communication" },
+                      { "id": 4, "answer": "Main Address Code" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 3,
+                    "title": "What is the size of a MAC address?",
+                    "answers": [
+                      { "id": 1, "answer": "24 bits" },
+                      { "id": 2, "answer": "48 bits" },
+                      { "id": 3, "answer": "64 bits" },
+                      { "id": 4, "answer": "128 bits" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 4,
+                    "title": "What does CSMA/CD stand for?",
+                    "answers": [
+                      { "id": 1, "answer": "Carrier Sense Multiple Access with Collision Detection" },
+                      { "id": 2, "answer": "Carrier Sense Multiple Access with Collision Delay" },
+                      { "id": 3, "answer": "Collision Sense Multiple Access with Carrier Detection" },
+                      { "id": 4, "answer": "Carrier Signal Multiple Access with Collision Detection" }
+                    ],
+                    "correct": 1
+                  },
+                  {
+                    "id": 5,
+                    "title": "What does a collision domain refer to?",
+                    "answers": [
+                      { "id": 1, "answer": "A network segment where data collisions are detected and managed" },
+                      { "id": 2, "answer": "A segment where data collisions occur if multiple devices transmit simultaneously" },
+                      { "id": 3, "answer": "A network segment that prevents data collisions through encryption" },
+                      { "id": 4, "answer": "A domain where only one device is allowed to send data" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 6,
+                    "title": "Which type of address is used to identify a single device in a network?",
+                    "answers": [
+                      { "id": 1, "answer": "Broadcast address" },
+                      { "id": 2, "answer": "Multicast address" },
+                      { "id": 3, "answer": "Unicast address" },
+                      { "id": 4, "answer": "Anycast address" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 7,
+                    "title": "What is the significance of the least significant bit in the first octet of a destination MAC address?",
+                    "answers": [
+                      { "id": 1, "answer": "It determines whether the frame is unicast or multicast" },
+                      { "id": 2, "answer": "It indicates the frame type (Ethernet, IP, etc.)" },
+                      { "id": 3, "answer": "It signifies the speed of the network" },
+                      { "id": 4, "answer": "It determines the encryption method used" }
+                    ],
+                    "correct": 1
+                  },
+                  {
+                    "id": 8,
+                    "title": "What does the term 'broadcast' mean in Ethernet?",
+                    "answers": [
+                      { "id": 1, "answer": "Sending data to a single device" },
+                      { "id": 2, "answer": "Sending data to all devices on a network" },
+                      { "id": 3, "answer": "Sending data to a group of devices" },
+                      { "id": 4, "answer": "Sending data only to the gateway" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 9,
+                    "title": "What is the purpose of the preamble in an Ethernet frame?",
+                    "answers": [
+                      { "id": 1, "answer": "To synchronize the receiver and prepare it for the frame" },
+                      { "id": 2, "answer": "To identify the sender of the frame" },
+                      { "id": 3, "answer": "To encrypt the data being sent" },
+                      { "id": 4, "answer": "To separate different frames" }
+                    ],
+                    "correct": 1
+                  },
+                  {
+                    "id": 10,
+                    "title": "What is the length of the EtherType field in an Ethernet frame?",
+                    "answers": [
+                      { "id": 1, "answer": "8 bits" },
+                      { "id": 2, "answer": "16 bits" },
+                      { "id": 3, "answer": "32 bits" },
+                      { "id": 4, "answer": "64 bits" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 11,
+                    "title": "What does a VLAN tag in an Ethernet frame indicate?",
+                    "answers": [
+                      { "id": 1, "answer": "The frame is part of a virtual LAN" },
+                      { "id": 2, "answer": "The frame is encrypted" },
+                      { "id": 3, "answer": "The frame has high priority" },
+                      { "id": 4, "answer": "The frame is a broadcast frame" }
+                    ],
+                    "correct": 1
+                  },
+                  {
+                    "id": 12,
+                    "title": "What is the length range of the data payload in an Ethernet frame?",
+                    "answers": [
+                      { "id": 1, "answer": "32-256 bytes" },
+                      { "id": 2, "answer": "64-1024 bytes" },
+                      { "id": 3, "answer": "46-1500 bytes" },
+                      { "id": 4, "answer": "128-2048 bytes" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 13,
+                    "title": "What is the purpose of the Frame Check Sequence (FCS) in an Ethernet frame?",
+                    "answers": [
+                      { "id": 1, "answer": "To identify the sender of the frame" },
+                      { "id": 2, "answer": "To ensure data integrity through error detection" },
+                      { "id": 3, "answer": "To encrypt the frame data" },
+                      { "id": 4, "answer": "To specify the frame size" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 14,
+                    "title": "How does the CSMA/CD protocol handle a data collision?",
+                    "answers": [
+                      { "id": 1, "answer": "It ignores the collision and continues transmitting" },
+                      { "id": 2, "answer": "Devices involved in the collision wait a random time before retransmitting" },
+                      { "id": 3, "answer": "It resolves the collision by prioritizing one device over another" },
+                      { "id": 4, "answer": "It automatically reroutes the data to avoid collisions" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 15,
+                    "title": "What is the role of the Organizationally Unique Identifier (OUI) in a MAC address?",
+                    "answers": [
+                      { "id": 1, "answer": "It identifies the network interface manufacturer" },
+                      { "id": 2, "answer": "It indicates the type of network protocol used" },
+                      { "id": 3, "answer": "It specifies the network speed" },
+                      { "id": 4, "answer": "It denotes the data encryption method" }
+                    ],
+                    "correct": 1
+                  }
+                ]    
             }
           ]
         }
