@@ -507,9 +507,74 @@
                       { "id": 4, "answer": "Managing network addresses and paths" }
                     ],
                     "correct": 2
-                  }
-                ]
-                
+                  },
+                  {
+                    "id": 16,
+                    "title": "What is the most common plug type used for network cables?",
+                    "answers": [
+                      { "id": 1, "answer": "RJ11" },
+                      { "id": 2, "answer": "RJ45" },
+                      { "id": 3, "answer": "USB" },
+                      { "id": 4, "answer": "HDMI" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 17,
+                    "title": "What is the primary function of a crimper in networking?",
+                    "answers": [
+                      { "id": 1, "answer": "To analyze WiFi signals" },
+                      { "id": 2, "answer": "To strip cables" },
+                      { "id": 3, "answer": "To connect wires" },
+                      { "id": 4, "answer": "To test network ports" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 18,
+                    "title": "What does a Wi-Fi analyzer do?",
+                    "answers": [
+                      { "id": 1, "answer": "Measures cable attenuation" },
+                      { "id": 2, "answer": "Analyzes the power and quality of WiFi in an area" },
+                      { "id": 3, "answer": "Removes the protective coating from cables" },
+                      { "id": 4, "answer": "Connects wires in punch down panels" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 19,
+                    "title": "What is a punch down tool used for?",
+                    "answers": [
+                      { "id": 1, "answer": "To crimp cables" },
+                      { "id": 2, "answer": "To analyze WiFi strength" },
+                      { "id": 3, "answer": "To punch down wires into panels or jacks" },
+                      { "id": 4, "answer": "To test network ports" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 20,
+                    "title": "What is a loopback plug used for in networking?",
+                    "answers": [
+                      { "id": 1, "answer": "To analyze network traffic" },
+                      { "id": 2, "answer": "To test ports by sending traffic back to the port after receiving it" },
+                      { "id": 3, "answer": "To strip cable coatings" },
+                      { "id": 4, "answer": "To measure cable attenuation" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id":20,
+                    "title": "What is the primary use of a network tap in networking?",
+                    "answers": [
+                      { "id": 1, "answer": "To crimp network cables" },
+                      { "id": 2, "answer": "To analyze WiFi quality" },
+                      { "id": 3, "answer": "To copy traffic information for monitoring purposes" },
+                      { "id": 4, "answer": "To test cable integrity" }
+                    ],
+                    "correct": 3
+                  } 
+                ]   
             },
             {
                 "id": "module1-5",
@@ -679,8 +744,518 @@
                       { "id": 4, "answer": "It denotes the data encryption method" }
                     ],
                     "correct": 1
+                  },
+                  {
+                    "id":16,
+                    "title": "What is the purpose of the Start Frame Delimiter (SFD) in an Ethernet frame?",
+                    "answers": [
+                      { "id": 1, "answer": "To signal the beginning of the preamble" },
+                      { "id": 2, "answer": "To mark the end of the preamble and signal the start of the frame contents" },
+                      { "id": 3, "answer": "To determine the destination MAC address" },
+                      { "id": 4, "answer": "To identify the type of data in the frame" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id":17,
+                    "title": "What is one of the primary purposes of using VLANs in a network?",
+                    "answers": [
+                      { "id": 1, "answer": "To increase the physical size of the network" },
+                      { "id": 2, "answer": "To segregate different types of network traffic" },
+                      { "id": 3, "answer": "To reduce the number of available IP addresses" },
+                      { "id": 4, "answer": "To enhance the security of Ethernet cables" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 18,
+                    "title": "Which statement about Ethernet frames is true?",
+                    "answers": [
+                      { "id": 1, "answer": "All sections of an Ethernet frame are optional." },
+                      { "id": 2, "answer": "Almost all sections of an Ethernet frame are mandatory, and most have a fixed size." },
+                      { "id": 3, "answer": "Ethernet frames have a random structure with variable sizes." },
+                      { "id": 4, "answer": "An Ethernet frame's structure is only important for wireless networks." }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id":19,
+                    "title": "What are data packets called at the Ethernet level?",
+                    "answers": [
+                      { "id": 1, "answer": "Ethernet segments" },
+                      { "id": 2, "answer": "Ethernet frames" },
+                      { "id": 3, "answer": "Ethernet datagrams" },
+                      { "id": 4, "answer": "Ethernet cells" }
+                    ],
+                    "correct": 2
                   }
                 ]    
+            }
+          ]
+        },
+        {
+          "id": "module2",
+          "title": "Module 2: The Network Layer",
+          "subModules": [
+            {
+              "id": "module2-1",
+              "title": "The Network Layer",
+              "questions": [
+                {
+                  "id": 1,
+                  "title": "What does the Network Layer provide in a computer network?",
+                  "answers": [
+                    { "id": 1, "answer": "Physical connections between nodes" },
+                    { "id": 2, "answer": "Logical addressing and routing" },
+                    { "id": 3, "answer": "Encryption and decryption of data" },
+                    { "id": 4, "answer": "Error detection and correction" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 2,
+                  "title": "What is a major limitation of using MAC addresses for communication?",
+                  "answers": [
+                    { "id": 1, "answer": "MAC addresses can only be used within a single network segment" },
+                    { "id": 2, "answer": "MAC addresses are not unique to each device" },
+                    { "id": 3, "answer": "MAC addresses require encryption for use" },
+                    { "id": 4, "answer": "MAC addresses are assigned dynamically" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 3,
+                  "title": "Why is IP addressing more scalable than MAC addressing?",
+                  "answers": [
+                    { "id": 1, "answer": "IP addresses are hardware-specific" },
+                    { "id": 2, "answer": "IP addresses provide a hierarchical structure for routing" },
+                    { "id": 3, "answer": "IP addresses do not require routers to communicate" },
+                    { "id": 4, "answer": "IP addresses are always dynamically assigned" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 4,
+                  "title": "What is the purpose of the Address Resolution Protocol (ARP)?",
+                  "answers": [
+                    { "id": 1, "answer": "To assign IP addresses dynamically" },
+                    { "id": 2, "answer": "To map IP addresses to MAC addresses on a local network" },
+                    { "id": 3, "answer": "To encrypt data for secure transmission" },
+                    { "id": 4, "answer": "To divide networks into subnets" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 5,
+                  "title": "What is the maximum size of an IP datagram in IPv4?",
+                  "answers": [
+                    { "id": 1, "answer": "65,535 bytes" },
+                    { "id": 2, "answer": "1,024 bytes" },
+                    { "id": 3, "answer": "256 bytes" },
+                    { "id": 4, "answer": "4,096 bytes" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 6,
+                  "title": "Which field in the IP header is used to ensure that a datagram is not transmitted indefinitely?",
+                  "answers": [
+                    { "id": 1, "answer": "Version" },
+                    { "id": 2, "answer": "Header Checksum" },
+                    { "id": 3, "answer": "Time to Live (TTL)" },
+                    { "id": 4, "answer": "Flags" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 7,
+                  "title": "How is an IP address structured?",
+                  "answers": [
+                    { "id": 1, "answer": "A 32-bit number divided into four octets" },
+                    { "id": 2, "answer": "A 64-bit number divided into eight octets" },
+                    { "id": 3, "answer": "A 16-bit number divided into two octets" },
+                    { "id": 4, "answer": "A 128-bit number divided into sixteen octets" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 8,
+                  "title": "Which protocol is typically used to assign dynamic IP addresses?",
+                  "answers": [
+                    { "id": 1, "answer": "ARP" },
+                    { "id": 2, "answer": "TCP" },
+                    { "id": 3, "answer": "DHCP" },
+                    { "id": 4, "answer": "UDP" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 9,
+                  "title": "Which IP address class is primarily used for multicasting?",
+                  "answers": [
+                    { "id": 1, "answer": "Class A" },
+                    { "id": 2, "answer": "Class B" },
+                    { "id": 3, "answer": "Class C" },
+                    { "id": 4, "answer": "Class D" }
+                  ],
+                  "correct": 4
+                },
+                {
+                  "id": 10,
+                  "title": "What is the function of the 'Header Checksum' field in an IPv4 datagram?",
+                  "answers": [
+                    { "id": 1, "answer": "To specify the length of the IP datagram" },
+                    { "id": 2, "answer": "To prioritize certain datagrams over others" },
+                    { "id": 3, "answer": "To check for errors in the IP header" },
+                    { "id": 4, "answer": "To indicate the version of IP being used" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 11,
+                  "title": "What is the purpose of the 'Fragmentation Offset' field in the IP header?",
+                  "answers": [
+                    { "id": 1, "answer": "To specify the Transport Layer protocol being used" },
+                    { "id": 2, "answer": "To reassemble fragmented datagrams in the correct order" },
+                    { "id": 3, "answer": "To indicate the length of the header" },
+                    { "id": 4, "answer": "To specify the maximum size of a datagram" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 12,
+                  "title": "Which IP address class has the largest number of host addresses available?",
+                  "answers": [
+                    { "id": 1, "answer": "Class A" },
+                    { "id": 2, "answer": "Class B" },
+                    { "id": 3, "answer": "Class C" },
+                    { "id": 4, "answer": "Class D" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 13,
+                  "title": "What is the range of the first octet for Class C IP addresses?",
+                  "answers": [
+                    { "id": 1, "answer": "0 to 127" },
+                    { "id": 2, "answer": "128 to 191" },
+                    { "id": 3, "answer": "192 to 223" },
+                    { "id": 4, "answer": "224 to 239" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 14,
+                  "title": "What is the main difference between static and dynamic IP addresses?",
+                  "answers": [
+                    { "id": 1, "answer": "Static IP addresses are assigned automatically, while dynamic IP addresses are manually configured." },
+                    { "id": 2, "answer": "Static IP addresses remain constant, while dynamic IP addresses can change." },
+                    { "id": 3, "answer": "Static IP addresses are only used in LANs, while dynamic IP addresses are used on the internet." },
+                    { "id": 4, "answer": "Static IP addresses require ARP, while dynamic IP addresses do not." }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 15,
+                  "title": "What is the purpose of the 'Time to Live (TTL)' field in an IP datagram?",
+                  "answers": [
+                    { "id": 1, "answer": "To specify the destination IP address" },
+                    { "id": 2, "answer": "To prevent datagrams from circulating indefinitely" },
+                    { "id": 3, "answer": "To indicate the size of the datagram" },
+                    { "id": 4, "answer": "To specify the network layer protocol being used" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 16,
+                  "title": "Which address class is reserved for experimental or future use?",
+                  "answers": [
+                    { "id": 1, "answer": "Class A" },
+                    { "id": 2, "answer": "Class B" },
+                    { "id": 3, "answer": "Class D" },
+                    { "id": 4, "answer": "Class E" }
+                  ],
+                  "correct": 4
+                },
+                {
+                  "id": 17,
+                  "title": "What does the 'Protocol' field in the IP header specify?",
+                  "answers": [
+                    { "id": 1, "answer": "The type of Transport Layer protocol being used (e.g., TCP or UDP)" },
+                    { "id": 2, "answer": "The size of the datagram" },
+                    { "id": 3, "answer": "The length of the IP header" },
+                    { "id": 4, "answer": "The destination IP address" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 18,
+                  "title": "What is the role of the IP Options field in an IPv4 header?",
+                  "answers": [
+                    { "id": 1, "answer": "To prioritize traffic" },
+                    { "id": 2, "answer": "To provide optional settings for testing or special purposes" },
+                    { "id": 3, "answer": "To specify the source IP address" },
+                    { "id": 4, "answer": "To indicate the protocol used at the Transport Layer" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 19,
+                  "title": "How are IP datagrams encapsulated at the Data Link Layer?",
+                  "answers": [
+                    { "id": 1, "answer": "As TCP packets" },
+                    { "id": 2, "answer": "As Ethernet frames" },
+                    { "id": 3, "answer": "As MAC addresses" },
+                    { "id": 4, "answer": "As DNS queries" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 20,
+                  "title": "What type of address is a MAC address?",
+                  "answers": [
+                    { "id": 1, "answer": "A logical address" },
+                    { "id": 2, "answer": "A physical address" },
+                    { "id": 3, "answer": "A broadcast address" },
+                    { "id": 4, "answer": "A multicast address" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 21,
+                  "title": "What does CIDR stand for in networking?",
+                  "answers": [
+                    { "id": 1, "answer": "Classful Inter-Domain Routing" },
+                    { "id": 2, "answer": "Classless Inter-Domain Routing" },
+                    { "id": 3, "answer": "Communication Inter-Domain Routing" },
+                    { "id": 4, "answer": "Common Inter-Domain Routing" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 22,
+                  "title": "What happens when an ARP request is broadcasted on a local network?",
+                  "answers": [
+                    { "id": 1, "answer": "It is sent to a specific device's MAC address" },
+                    { "id": 2, "answer": "It is sent to all devices on the local network" },
+                    { "id": 3, "answer": "It is sent to a DNS server" },
+                    { "id": 4, "answer": "It is sent to all devices on the global network" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 23,
+                  "title": "How does a device respond to an ARP request if it has the matching IP address?",
+                  "answers": [
+                    { "id": 1, "answer": "By sending an ARP broadcast" },
+                    { "id": 2, "answer": "By sending an ARP response with its MAC address" },
+                    { "id": 3, "answer": "By sending an IP datagram" },
+                    { "id": 4, "answer": "By disconnecting from the network" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 24,
+                  "title": "Which IP address class provides a maximum of 256 addresses per network?",
+                  "answers": [
+                    { "id": 1, "answer": "Class A" },
+                    { "id": 2, "answer": "Class B" },
+                    { "id": 3, "answer": "Class C" },
+                    { "id": 4, "answer": "Class D" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 25,
+                  "title": "Which field in the IP header helps in prioritizing datagrams for certain types of traffic?",
+                  "answers": [
+                    { "id": 1, "answer": "Version" },
+                    { "id": 2, "answer": "Service Type" },
+                    { "id": 3, "answer": "Header Length" },
+                    { "id": 4, "answer": "Protocol" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 26,
+                  "title": "What does the 'Identification' field in the IPv4 header do?",
+                  "answers": [
+                    { "id": 1, "answer": "Indicates the IP version being used" },
+                    { "id": 2, "answer": "Groups fragments of the same message for reassembly" },
+                    { "id": 3, "answer": "Specifies the total length of the datagram" },
+                    { "id": 4, "answer": "Specifies the type of service" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 27,
+                  "title": "What is the primary purpose of the IP layer in networking?",
+                  "answers": [
+                    { "id": 1, "answer": "To handle physical connections between devices" },
+                    { "id": 2, "answer": "To provide a logical addressing scheme for networks" },
+                    { "id": 3, "answer": "To encrypt data for secure communication" },
+                    { "id": 4, "answer": "To maintain error correction for all network traffic" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 28,
+                  "title": "Which part of the IPv4 address represents the 'Network ID' in Class B addressing?",
+                  "answers": [
+                    { "id": 1, "answer": "First octet" },
+                    { "id": 2, "answer": "First two octets" },
+                    { "id": 3, "answer": "Last two octets" },
+                    { "id": 4, "answer": "Entire address" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 29,
+                  "title": "How many bits does the 'Version' field in the IP header use?",
+                  "answers": [
+                    { "id": 1, "answer": "4 bits" },
+                    { "id": 2, "answer": "8 bits" },
+                    { "id": 3, "answer": "16 bits" },
+                    { "id": 4, "answer": "32 bits" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 30,
+                  "title": "What is the purpose of the 'Padding' field in an IPv4 header?",
+                  "answers": [
+                    { "id": 1, "answer": "To provide space for encryption" },
+                    { "id": 2, "answer": "To ensure the header is a correct length when options are used" },
+                    { "id": 3, "answer": "To specify the source IP address" },
+                    { "id": 4, "answer": "To indicate the destination IP address" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 31,
+                  "title": "Which protocol is used to determine the MAC address corresponding to a given IP address?",
+                  "answers": [
+                    { "id": 1, "answer": "ICMP" },
+                    { "id": 2, "answer": "TCP" },
+                    { "id": 3, "answer": "ARP" },
+                    { "id": 4, "answer": "UDP" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 32,
+                  "title": "What is the correct format for representing an IP address?",
+                  "answers": [
+                    { "id": 1, "answer": "Dotted decimal notation" },
+                    { "id": 2, "answer": "Hexadecimal notation" },
+                    { "id": 3, "answer": "Binary notation" },
+                    { "id": 4, "answer": "Octal notation" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 33,
+                  "title": "What is the function of a 'Header Length' field in the IP header?",
+                  "answers": [
+                    { "id": 1, "answer": "Indicates the size of the entire datagram" },
+                    { "id": 2, "answer": "Indicates the size of the IP header only" },
+                    { "id": 3, "answer": "Indicates the size of the payload only" },
+                    { "id": 4, "answer": "Indicates the size of the Ethernet frame" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 34,
+                  "title": "Which IP address class is most commonly used for small networks?",
+                  "answers": [
+                    { "id": 1, "answer": "Class A" },
+                    { "id": 2, "answer": "Class B" },
+                    { "id": 3, "answer": "Class C" },
+                    { "id": 4, "answer": "Class D" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 35,
+                  "title": "What is the maximum size of an IP datagram?",
+                  "answers": [
+                    { "id": 1, "answer": "1,024 bytes" },
+                    { "id": 2, "answer": "32,768 bytes" },
+                    { "id": 3, "answer": "65,535 bytes" },
+                    { "id": 4, "answer": "128,000 bytes" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 36,
+                  "title": "Which field in the IP header indicates the Transport Layer protocol in use?",
+                  "answers": [
+                    { "id": 1, "answer": "Version" },
+                    { "id": 2, "answer": "Protocol" },
+                    { "id": 3, "answer": "Service Type" },
+                    { "id": 4, "answer": "Identification" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 37,
+                  "title": "What is the purpose of the 'Time to Live' (TTL) field in the IP header?",
+                  "answers": [
+                    { "id": 1, "answer": "To specify the source IP address" },
+                    { "id": 2, "answer": "To limit the number of hops a datagram can take" },
+                    { "id": 3, "answer": "To determine the payload size" },
+                    { "id": 4, "answer": "To indicate if fragmentation is allowed" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 38,
+                  "title": "Which field in the IP header helps in reassembling fragmented datagrams?",
+                  "answers": [
+                    { "id": 1, "answer": "Source IP Address" },
+                    { "id": 2, "answer": "Fragmentation Offset" },
+                    { "id": 3, "answer": "Protocol" },
+                    { "id": 4, "answer": "Service Type" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 39,
+                  "title": "What is the function of the 'Flags' field in the IP header?",
+                  "answers": [
+                    { "id": 1, "answer": "Indicates the protocol being used" },
+                    { "id": 2, "answer": "Indicates whether the datagram can be fragmented" },
+                    { "id": 3, "answer": "Specifies the total length of the datagram" },
+                    { "id": 4, "answer": "Provides space for optional settings" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 40,
+                  "title": "How does the 'Header Checksum' field in the IP header function?",
+                  "answers": [
+                    { "id": 1, "answer": "Ensures the payload data is accurate" },
+                    { "id": 2, "answer": "Provides error-checking for the IP header" },
+                    { "id": 3, "answer": "Indicates the length of the datagram" },
+                    { "id": 4, "answer": "Identifies the source and destination IP addresses" }
+                  ],
+                  "correct": 2
+                }
+              ]
+              
+            },
+            {
+              "id": "module2-2",
+              "title": "Subnetting",
+              "questions": [
+                
+              ]
+            },
+            {
+              "id": "module2-3",
+              "title": "Routing",
+              "questions": [
+              ]
             }
           ]
         }
