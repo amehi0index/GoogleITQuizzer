@@ -1248,14 +1248,730 @@
               "id": "module2-2",
               "title": "Subnetting",
               "questions": [
-                
+                {
+                  "id": 1,
+                  "title": "What is the primary purpose of subnetting?",
+                  "answers": [
+                    { "id": 1, "answer": "To increase the number of IP addresses available" },
+                    { "id": 2, "answer": "To divide a large network into smaller, manageable segments" },
+                    { "id": 3, "answer": "To enhance network speed by increasing bandwidth" },
+                    { "id": 4, "answer": "To simplify the network hardware" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 2,
+                  "title": "What does a subnet mask of 255.255.255.0 indicate in terms of network and host IDs?",
+                  "answers": [
+                    { "id": 1, "answer": "24 bits for network and subnet IDs, 8 bits for host IDs" },
+                    { "id": 2, "answer": "16 bits for network and subnet IDs, 16 bits for host IDs" },
+                    { "id": 3, "answer": "8 bits for network and subnet IDs, 24 bits for host IDs" },
+                    { "id": 4, "answer": "32 bits for network and subnet IDs, 0 bits for host IDs" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 3,
+                  "title": "How many usable IP addresses are available in a /24 subnet?",
+                  "answers": [
+                    { "id": 1, "answer": "254" },
+                    { "id": 2, "answer": "256" },
+                    { "id": 3, "answer": "510" },
+                    { "id": 4, "answer": "512" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 4,
+                  "title": "What is CIDR notation for the subnet mask 255.255.255.224?",
+                  "answers": [
+                    { "id": 1, "answer": "/24" },
+                    { "id": 2, "answer": "/27" },
+                    { "id": 3, "answer": "/28" },
+                    { "id": 4, "answer": "/29" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 5,
+                  "title": "What is the binary representation of the subnet mask 255.255.255.0?",
+                  "answers": [
+                    { "id": 1, "answer": "11111111.11111111.11111111.00000000" },
+                    { "id": 2, "answer": "11111111.00000000.00000000.00000000" },
+                    { "id": 3, "answer": "00000000.11111111.11111111.11111111" },
+                    { "id": 4, "answer": "11111111.11111111.00000000.00000000" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 6,
+                  "title": "Which part of an IP address is determined by the subnet mask?",
+                  "answers": [
+                    { "id": 1, "answer": "Host ID" },
+                    { "id": 2, "answer": "Subnet ID" },
+                    { "id": 3, "answer": "Network ID" },
+                    { "id": 4, "answer": "Both Network ID and Host ID" }
+                  ],
+                  "correct": 4
+                },
+                {
+                  "id": 7,
+                  "title": "What is the maximum number of hosts that can be addressed in a /23 subnet?",
+                  "answers": [
+                    { "id": 1, "answer": "510" },
+                    { "id": 2, "answer": "512" },
+                    { "id": 3, "answer": "254" },
+                    { "id": 4, "answer": "256" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 8,
+                  "title": "What are the three primary ranges of non-routable address space defined in RFC 1918?",
+                  "answers": [
+                    { "id": 1, "answer": "10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16" },
+                    { "id": 2, "answer": "192.168.0.0/8, 10.0.0.0/16, 172.16.0.0/24" },
+                    { "id": 3, "answer": "10.0.0.0/24, 172.16.0.0/24, 192.168.0.0/24" },
+                    { "id": 4, "answer": "172.16.0.0/8, 192.168.0.0/12, 10.0.0.0/16" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 9,
+                  "title": "Which binary operator is used to determine if an IP address is on the same network as another?",
+                  "answers": [
+                    { "id": 1, "answer": "OR" },
+                    { "id": 2, "answer": "AND" },
+                    { "id": 3, "answer": "XOR" },
+                    { "id": 4, "answer": "NOT" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 10,
+                  "title": "What is the primary advantage of CIDR over traditional class-based IP addressing?",
+                  "answers": [
+                    { "id": 1, "answer": "Eliminates fixed address classes and allows flexible network sizes" },
+                    { "id": 2, "answer": "Increases the number of available IP addresses" },
+                    { "id": 3, "answer": "Simplifies binary arithmetic operations" },
+                    { "id": 4, "answer": "Requires fewer bits for network addresses" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 11,
+                  "title": "What is the binary equivalent of the decimal number 9?",
+                  "answers": [
+                    { "id": 1, "answer": "00001001" },
+                    { "id": 2, "answer": "00010001" },
+                    { "id": 3, "answer": "00100100" },
+                    { "id": 4, "answer": "00001010" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 12,
+                  "title": "How many bits are used for host IDs in a /26 subnet?",
+                  "answers": [
+                    { "id": 1, "answer": "6 bits" },
+                    { "id": 2, "answer": "8 bits" },
+                    { "id": 3, "answer": "10 bits" },
+                    { "id": 4, "answer": "12 bits" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 13,
+                  "title": "How many total IP addresses are available in a /28 subnet?",
+                  "answers": [
+                    { "id": 1, "answer": "16" },
+                    { "id": 2, "answer": "32" },
+                    { "id": 3, "answer": "64" },
+                    { "id": 4, "answer": "128" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 14,
+                  "title": "What does the term 'broadcast address' refer to in a subnet?",
+                  "answers": [
+                    { "id": 1, "answer": "The address used to send data to all devices in a subnet" },
+                    { "id": 2, "answer": "The address used to identify the network segment" },
+                    { "id": 3, "answer": "The address used to route traffic between subnets" },
+                    { "id": 4, "answer": "The address assigned to the router interface" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 15,
+                  "title": "What is the range of host IP addresses in the subnet 192.168.1.0/24?",
+                  "answers": [
+                    { "id": 1, "answer": "192.168.1.1 to 192.168.1.254" },
+                    { "id": 2, "answer": "192.168.1.0 to 192.168.1.255" },
+                    { "id": 3, "answer": "192.168.1.0 to 192.168.1.254" },
+                    { "id": 4, "answer": "192.168.1.1 to 192.168.1.255" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 16,
+                  "title": "What is the maximum number of usable hosts in a /29 subnet?",
+                  "answers": [
+                    { "id": 1, "answer": "6" },
+                    { "id": 2, "answer": "8" },
+                    { "id": 3, "answer": "14" },
+                    { "id": 4, "answer": "16" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 17,
+                  "title": "How many bits does a /16 subnet mask use for the network and subnet IDs?",
+                  "answers": [
+                    { "id": 1, "answer": "16 bits" },
+                    { "id": 2, "answer": "24 bits" },
+                    { "id": 3, "answer": "32 bits" },
+                    { "id": 4, "answer": "8 bits" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 18,
+                  "title": "What does the binary addition of 1010 + 0011 yield?",
+                  "answers": [
+                    { "id": 1, "answer": "1101" },
+                    { "id": 2, "answer": "1111" },
+                    { "id": 3, "answer": "1001" },
+                    { "id": 4, "answer": "1011" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 19,
+                  "title": "In binary math, what does the AND operation between 1100 and 1010 result in?",
+                  "answers": [
+                    { "id": 1, "answer": "1000" },
+                    { "id": 2, "answer": "1110" },
+                    { "id": 3, "answer": "1111" },
+                    { "id": 4, "answer": "1010" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 20,
+                  "title": "How does CIDR improve IP address allocation compared to traditional address classes?",
+                  "answers": [
+                    { "id": 1, "answer": "By allowing networks of any size and more efficient address usage" },
+                    { "id": 2, "answer": "By increasing the total number of IP addresses available" },
+                    { "id": 3, "answer": "By simplifying the binary math involved in subnetting" },
+                    { "id": 4, "answer": "By reducing the number of bits required for subnet masks" }
+                  ],
+                  "correct": 1
+                }
               ]
+              
             },
             {
               "id": "module2-3",
               "title": "Routing",
               "questions": [
+                {
+                  "id": 1,
+                  "title": "What is routing?",
+                  "answers": [
+                    { "id": 1, "answer": "The process of connecting devices within a single network" },
+                    { "id": 2, "answer": "The process of directing data between networks across the globe" },
+                    { "id": 3, "answer": "The method of creating a network topology" },
+                    { "id": 4, "answer": "The procedure for assigning IP addresses to devices" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 2,
+                  "title": "What does a router do?",
+                  "answers": [
+                    { "id": 1, "answer": "Connects devices within a single network" },
+                    { "id": 2, "answer": "Forwards data packets between different networks" },
+                    { "id": 3, "answer": "Manages data traffic within a network segment" },
+                    { "id": 4, "answer": "Encrypts data for secure transmission" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 3,
+                  "title": "Which component of a router determines the best path for forwarding a packet?",
+                  "answers": [
+                    { "id": 1, "answer": "The MAC address table" },
+                    { "id": 2, "answer": "The routing table" },
+                    { "id": 3, "answer": "The ARP table" },
+                    { "id": 4, "answer": "The NAT table" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 4,
+                  "title": "What is the first step a router takes when it receives a packet?",
+                  "answers": [
+                    { "id": 1, "answer": "Encapsulate the packet in a new Ethernet frame" },
+                    { "id": 2, "answer": "Examine the destination IP address" },
+                    { "id": 3, "answer": "Forward the packet to the destination" },
+                    { "id": 4, "answer": "Decrypt the packet" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 5,
+                  "title": "In a routing example, how does a router on Network A (192.168.1.0/24) forward a packet to Network B (10.0.0.0/24)?",
+                  "answers": [
+                    { "id": 1, "answer": "By sending the packet directly to Network B" },
+                    { "id": 2, "answer": "By forwarding the packet to its gateway router" },
+                    { "id": 3, "answer": "By dropping the packet if Network B is not directly connected" },
+                    { "id": 4, "answer": "By sending the packet to the local DNS server" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 6,
+                  "title": "What does the 'Next Hop' entry in a routing table indicate?",
+                  "answers": [
+                    { "id": 1, "answer": "The destination network's IP address" },
+                    { "id": 2, "answer": "The IP address of the next router to forward the packet to" },
+                    { "id": 3, "answer": "The number of hops required to reach the destination" },
+                    { "id": 4, "answer": "The interface to use for the packet" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 7,
+                  "title": "What is the purpose of the 'Total Hops' entry in a routing table?",
+                  "answers": [
+                    { "id": 1, "answer": "To track the number of hops required to reach the destination network" },
+                    { "id": 2, "answer": "To list all networks known to the router" },
+                    { "id": 3, "answer": "To indicate which interface should be used" },
+                    { "id": 4, "answer": "To show the next hop router's IP address" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 8,
+                  "title": "Which type of routing protocol sends the entire routing table to neighboring routers periodically?",
+                  "answers": [
+                    { "id": 1, "answer": "Link State Protocol" },
+                    { "id": 2, "answer": "Distance Vector Protocol" },
+                    { "id": 3, "answer": "Exterior Gateway Protocol" },
+                    { "id": 4, "answer": "Interior Gateway Protocol" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 9,
+                  "title": "Which routing protocol advertises the state of each of its interfaces to all other routers in the AS?",
+                  "answers": [
+                    { "id": 1, "answer": "Distance Vector Protocol" },
+                    { "id": 2, "answer": "Link State Protocol" },
+                    { "id": 3, "answer": "Exterior Gateway Protocol" },
+                    { "id": 4, "answer": "Static Routing Protocol" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 10,
+                  "title": "What is an autonomous system (AS)?",
+                  "answers": [
+                    { "id": 1, "answer": "A network device that forwards data packets" },
+                    { "id": 2, "answer": "A collection of networks under the control of a single organization" },
+                    { "id": 3, "answer": "A type of routing protocol used in large networks" },
+                    { "id": 4, "answer": "A method for calculating IP addresses" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 11,
+                  "title": "What role does the Internet Assigned Numbers Authority (IANA) play in routing?",
+                  "answers": [
+                    { "id": 1, "answer": "Manages the allocation of IP addresses and Autonomous System Numbers (ASNs)" },
+                    { "id": 2, "answer": "Determines the best path for data packets" },
+                    { "id": 3, "answer": "Controls the encryption of data packets" },
+                    { "id": 4, "answer": "Updates routing tables dynamically" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 12,
+                  "title": "What is a default or catch-all entry in a routing table used for?",
+                  "answers": [
+                    { "id": 1, "answer": "To handle any IP address not explicitly listed in the table" },
+                    { "id": 2, "answer": "To list all directly connected networks" },
+                    { "id": 3, "answer": "To specify the IP address of the next router" },
+                    { "id": 4, "answer": "To indicate the number of hops required" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 13,
+                  "title": "How does a router react when a network link goes down?",
+                  "answers": [
+                    { "id": 1, "answer": "It removes the affected route from the routing table" },
+                    { "id": 2, "answer": "It encrypts all packets to ensure they are secure" },
+                    { "id": 3, "answer": "It redirects traffic to a backup DNS server" },
+                    { "id": 4, "answer": "It logs the event and sends an alert to the network administrator" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 14,
+                  "title": "In a network with multiple routers, how is the best path for a packet determined?",
+                  "answers": [
+                    { "id": 1, "answer": "Based on the router's configuration file" },
+                    { "id": 2, "answer": "By consulting the routing table and the number of hops" },
+                    { "id": 3, "answer": "By the packet's source IP address" },
+                    { "id": 4, "answer": "By the network's MAC address" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 15,
+                  "title": "What is the main advantage of link state routing protocols over distance vector protocols?",
+                  "answers": [
+                    { "id": 1, "answer": "Link state protocols provide a more complete view of the network" },
+                    { "id": 2, "answer": "Link state protocols are simpler and use less memory" },
+                    { "id": 3, "answer": "Link state protocols do not require routing tables" },
+                    { "id": 4, "answer": "Link state protocols are less accurate in routing decisions" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 16,
+                  "title": "Which of the following is a characteristic of distance vector routing protocols?",
+                  "answers": [
+                    { "id": 1, "answer": "They provide a complete view of the network topology" },
+                    { "id": 2, "answer": "They periodically send their entire routing table to neighbors" },
+                    { "id": 3, "answer": "They use advanced algorithms to calculate the shortest path" },
+                    { "id": 4, "answer": "They require extensive memory and processing power" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 17,
+                  "title": "What does the 'Destination Network' column in a routing table represent?",
+                  "answers": [
+                    { "id": 1, "answer": "The IP address of the destination network" },
+                    { "id": 2, "answer": "The number of hops to reach the destination" },
+                    { "id": 3, "answer": "The interface to be used for forwarding the packet" },
+                    { "id": 4, "answer": "The IP address of the next hop router" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 18,
+                  "title": "Which protocol is commonly used for routing between different autonomous systems on the Internet?",
+                  "answers": [
+                    { "id": 1, "answer": "OSPF" },
+                    { "id": 2, "answer": "BGP" },
+                    { "id": 3, "answer": "RIP" },
+                    { "id": 4, "answer": "EIGRP" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 19,
+                  "title": "What does the 'Interface' column in a routing table indicate?",
+                  "answers": [
+                    { "id": 1, "answer": "The destination network's IP address" },
+                    { "id": 2, "answer": "The next hop router's IP address" },
+                    { "id": 3, "answer": "The network interface on the router to use" },
+                    { "id": 4, "answer": "The total number of hops required" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 20,
+                  "title": "How does CIDR improve IP address allocation compared to traditional address classes?",
+                  "answers": [
+                    { "id": 1, "answer": "By allowing networks of any size and more efficient address usage" },
+                    { "id": 2, "answer": "By increasing the total number of IP addresses available" },
+                    { "id": 3, "answer": "By simplifying the binary math involved in subnetting" },
+                    { "id": 4, "answer": "By reducing the number of bits required for subnet masks" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 21,
+                  "title": "What is the main purpose of non-routable address spaces such as private IP addresses?",
+                  "answers": [
+                    { "id": 1, "answer": "To allow devices to communicate within a private network without using public IP addresses" },
+                    { "id": 2, "answer": "To provide higher-speed data transmission" },
+                    { "id": 3, "answer": "To ensure data encryption across the internet" },
+                    { "id": 4, "answer": "To facilitate faster packet routing in core networks" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 22,
+                  "title": "What is an Exterior Gateway Protocol (EGP) used for?",
+                  "answers": [
+                    { "id": 1, "answer": "To exchange routing information between different autonomous systems" },
+                    { "id": 2, "answer": "To manage routing within a single autonomous system" },
+                    { "id": 3, "answer": "To configure network interfaces" },
+                    { "id": 4, "answer": "To handle IP address allocation" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 23,
+                  "title": "How does a routing table entry get updated when a new route is learned?",
+                  "answers": [
+                    { "id": 1, "answer": "The router replaces the old route with the new route" },
+                    { "id": 2, "answer": "The router adds the new route to the existing table" },
+                    { "id": 3, "answer": "The router ignores the new route if it is not better" },
+                    { "id": 4, "answer": "The router deletes all old routes and only uses the new route" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 24,
+                  "title": "Which protocol is used to dynamically update the routing table with new routes based on network changes?",
+                  "answers": [
+                    { "id": 1, "answer": "RIP" },
+                    { "id": 2, "answer": "ICMP" },
+                    { "id": 3, "answer": "ARP" },
+                    { "id": 4, "answer": "SMTP" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 25,
+                  "title": "What type of routing protocol is OSPF (Open Shortest Path First)?",
+                  "answers": [
+                    { "id": 1, "answer": "Distance Vector Protocol" },
+                    { "id": 2, "answer": "Link State Protocol" },
+                    { "id": 3, "answer": "Exterior Gateway Protocol" },
+                    { "id": 4, "answer": "Hybrid Protocol" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 26,
+                  "title": "What does the term 'subnet mask' refer to?",
+                  "answers": [
+                    { "id": 1, "answer": "A mask that determines the size of a subnet in an IP address" },
+                    { "id": 2, "answer": "A protocol used to manage IP address assignments" },
+                    { "id": 3, "answer": "A method for encrypting network traffic" },
+                    { "id": 4, "answer": "A type of routing algorithm" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 27,
+                  "title": "How does a subnet mask help in routing within a network?",
+                  "answers": [
+                    { "id": 1, "answer": "It defines which portion of an IP address is used for network identification" },
+                    { "id": 2, "answer": "It determines the encryption method for data packets" },
+                    { "id": 3, "answer": "It assigns IP addresses to devices automatically" },
+                    { "id": 4, "answer": "It calculates the total number of routers in a network" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 28,
+                  "title": "In CIDR notation, what does a '/24' signify?",
+                  "answers": [
+                    { "id": 1, "answer": "A subnet mask with 24 bits set to 1" },
+                    { "id": 2, "answer": "A network with 24 IP addresses" },
+                    { "id": 3, "answer": "A Class B network" },
+                    { "id": 4, "answer": "A subnet mask with 8 bits set to 1" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 29,
+                  "title": "What is the role of ARP (Address Resolution Protocol) in a network?",
+                  "answers": [
+                    { "id": 1, "answer": "To map IP addresses to MAC addresses within a local network" },
+                    { "id": 2, "answer": "To manage routing tables in a router" },
+                    { "id": 3, "answer": "To assign IP addresses dynamically" },
+                    { "id": 4, "answer": "To encrypt data packets" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 30,
+                  "title": "Why are IPv4 addresses divided into different classes (A, B, C, etc.)?",
+                  "answers": [
+                    { "id": 1, "answer": "To allocate address ranges for different sizes of networks" },
+                    { "id": 2, "answer": "To improve the speed of data transmission" },
+                    { "id": 3, "answer": "To provide a way to encrypt IP addresses" },
+                    { "id": 4, "answer": "To manage DNS entries" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 31,
+                  "title": "What is the main purpose of the Classless Inter-Domain Routing (CIDR) system?",
+                  "answers": [
+                    { "id": 1, "answer": "To provide more flexible and efficient IP address allocation" },
+                    { "id": 2, "answer": "To increase the total number of available IP addresses" },
+                    { "id": 3, "answer": "To simplify IP address classes" },
+                    { "id": 4, "answer": "To enhance data encryption" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 32,
+                  "title": "How does binary math apply to subnetting?",
+                  "answers": [
+                    { "id": 1, "answer": "Binary math is used to calculate subnet masks and network IDs" },
+                    { "id": 2, "answer": "Binary math simplifies data encryption algorithms" },
+                    { "id": 3, "answer": "Binary math increases the speed of data transmission" },
+                    { "id": 4, "answer": "Binary math is used to manage routing tables" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 33,
+                  "title": "What is the primary function of the TTL (Time-to-Live) field in an IP packet?",
+                  "answers": [
+                    { "id": 1, "answer": "To prevent packets from circulating indefinitely in the network" },
+                    { "id": 2, "answer": "To encrypt the packet's data" },
+                    { "id": 3, "answer": "To specify the maximum transmission unit (MTU) size" },
+                    { "id": 4, "answer": "To assign a unique IP address to each packet" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 34,
+                  "title": "What happens when a packet's TTL expires?",
+                  "answers": [
+                    { "id": 1, "answer": "The packet is discarded and not forwarded further" },
+                    { "id": 2, "answer": "The packet is redirected to a backup router" },
+                    { "id": 3, "answer": "The TTL value is increased to extend its life" },
+                    { "id": 4, "answer": "The packet's data is encrypted" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 35,
+                  "title": "Which IPv4 address class provides the largest number of host addresses per network?",
+                  "answers": [
+                    { "id": 1, "answer": "Class A" },
+                    { "id": 2, "answer": "Class B" },
+                    { "id": 3, "answer": "Class C" },
+                    { "id": 4, "answer": "Class D" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 36,
+                  "title": "What is the purpose of subnetting in IP networks?",
+                  "answers": [
+                    { "id": 1, "answer": "To divide a large network into smaller, more manageable subnets" },
+                    { "id": 2, "answer": "To increase the overall speed of data transmission" },
+                    { "id": 3, "answer": "To simplify the encryption of network traffic" },
+                    { "id": 4, "answer": "To create unique IP addresses for each device" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 37,
+                  "title": "What does the term 'network ID' refer to in subnetting?",
+                  "answers": [
+                    { "id": 1, "answer": "The portion of an IP address that identifies a specific network" },
+                    { "id": 2, "answer": "The total number of IP addresses available in a subnet" },
+                    { "id": 3, "answer": "The IP address assigned to a router" },
+                    { "id": 4, "answer": "The encryption key used for securing data" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 38,
+                  "title": "What is a common issue that can arise from incorrect subnetting?",
+                  "answers": [
+                    { "id": 1, "answer": "Devices may not be able to communicate with each other across subnets" },
+                    { "id": 2, "answer": "Increased encryption of data packets" },
+                    { "id": 3, "answer": "Reduced overall network speed" },
+                    { "id": 4, "answer": "Unnecessary duplication of IP addresses" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 39,
+                  "title": "What is the main advantage of using CIDR (Classless Inter-Domain Routing) over traditional IP addressing methods?",
+                  "answers": [
+                    { "id": 1, "answer": "CIDR allows for more flexible allocation of IP address ranges" },
+                    { "id": 2, "answer": "CIDR simplifies the encryption of IP addresses" },
+                    { "id": 3, "answer": "CIDR increases the maximum number of IP addresses available" },
+                    { "id": 4, "answer": "CIDR speeds up data transmission between networks" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 40,
+                  "title": "What does a routing protocol's 'metric' usually indicate?",
+                  "answers": [
+                    { "id": 1, "answer": "The cost or distance associated with a route" },
+                    { "id": 2, "answer": "The encryption strength of the routing information" },
+                    { "id": 3, "answer": "The number of bits in the subnet mask" },
+                    { "id": 4, "answer": "The maximum transmission unit (MTU) size" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 41,
+                  "title": "How does OSPF (Open Shortest Path First) determine the best path for routing packets?",
+                  "answers": [
+                    { "id": 1, "answer": "By using the shortest path algorithm based on link states" },
+                    { "id": 2, "answer": "By calculating the route with the fewest number of hops" },
+                    { "id": 3, "answer": "By selecting the path with the highest bandwidth" },
+                    { "id": 4, "answer": "By prioritizing routes with the most recent updates" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 42,
+                  "title": "Which IPv4 address class is used for multicast communication?",
+                  "answers": [
+                    { "id": 1, "answer": "Class D" },
+                    { "id": 2, "answer": "Class A" },
+                    { "id": 3, "answer": "Class B" },
+                    { "id": 4, "answer": "Class C" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 43,
+                  "title": "What does the term 'broadcast' refer to in networking?",
+                  "answers": [
+                    { "id": 1, "answer": "Sending a packet to all devices on a network" },
+                    { "id": 2, "answer": "Sending a packet to a specific device" },
+                    { "id": 3, "answer": "Encrypting a packet for security" },
+                    { "id": 4, "answer": "Routing a packet through multiple networks" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 44,
+                  "title": "How does a router use the 'Network ID' and 'Host ID' in an IP address?",
+                  "answers": [
+                    { "id": 1, "answer": "The Network ID identifies the specific network, while the Host ID identifies a device within that network" },
+                    { "id": 2, "answer": "The Network ID specifies the encryption level, while the Host ID is used for routing" },
+                    { "id": 3, "answer": "The Network ID is used for IP address allocation, while the Host ID is for network speed" },
+                    { "id": 4, "answer": "The Network ID is for multicast groups, while the Host ID is for direct communication" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 45,
+                  "title": "What is the main role of a gateway router in a network?",
+                  "answers": [
+                    { "id": 1, "answer": "To connect and manage traffic between different networks" },
+                    { "id": 2, "answer": "To assign IP addresses to devices on a network" },
+                    { "id": 3, "answer": "To encrypt all outgoing and incoming data packets" },
+                    { "id": 4, "answer": "To provide high-speed connections between devices within a network" }
+                  ],
+                  "correct": 1
+                }
               ]
+              
             }
           ]
         }
