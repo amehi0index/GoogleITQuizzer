@@ -1240,6 +1240,16 @@
                     { "id": 4, "answer": "Identifies the source and destination IP addresses" }
                   ],
                   "correct": 2
+                },  {
+                  "id": 43,
+                  "title": "What does the term 'broadcast' refer to in networking?",
+                  "answers": [
+                    { "id": 1, "answer": "Sending a packet to all devices on a network" },
+                    { "id": 2, "answer": "Sending a packet to a specific device" },
+                    { "id": 3, "answer": "Encrypting a packet for security" },
+                    { "id": 4, "answer": "Routing a packet through multiple networks" }
+                  ],
+                  "correct": 1
                 }
               ]
               
@@ -1325,17 +1335,7 @@
                   ],
                   "correct": 1
                 },
-                {
-                  "id": 8,
-                  "title": "What are the three primary ranges of non-routable address space defined in RFC 1918?",
-                  "answers": [
-                    { "id": 1, "answer": "10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16" },
-                    { "id": 2, "answer": "192.168.0.0/8, 10.0.0.0/16, 172.16.0.0/24" },
-                    { "id": 3, "answer": "10.0.0.0/24, 172.16.0.0/24, 192.168.0.0/24" },
-                    { "id": 4, "answer": "172.16.0.0/8, 192.168.0.0/12, 10.0.0.0/16" }
-                  ],
-                  "correct": 1
-                },
+               
                 {
                   "id": 9,
                   "title": "Which binary operator is used to determine if an IP address is on the same network as another?",
@@ -1459,6 +1459,60 @@
                 },
                 {
                   "id": 20,
+                  "title": "How does CIDR improve IP address allocation compared to traditional address classes?",
+                  "answers": [
+                    { "id": 1, "answer": "By allowing networks of any size and more efficient address usage" },
+                    { "id": 2, "answer": "By increasing the total number of IP addresses available" },
+                    { "id": 3, "answer": "By simplifying the binary math involved in subnetting" },
+                    { "id": 4, "answer": "By reducing the number of bits required for subnet masks" }
+                  ],
+                  "correct": 1
+                }, 
+                {
+                  "id": 21,
+                  "title": "In CIDR notation, what does a '/24' signify?",
+                  "answers": [
+                    { "id": 1, "answer": "A subnet mask with 24 bits set to 1" },
+                    { "id": 2, "answer": "A network with 24 IP addresses" },
+                    { "id": 3, "answer": "A Class B network" },
+                    { "id": 4, "answer": "A subnet mask with 8 bits set to 1" }
+                  ],
+                  "correct": 1
+                }, {
+                  "id": 22,
+                  "title": "What does the term 'subnet mask' refer to?",
+                  "answers": [
+                    { "id": 1, "answer": "A mask that determines the size of a subnet in an IP address" },
+                    { "id": 2, "answer": "A protocol used to manage IP address assignments" },
+                    { "id": 3, "answer": "A method for encrypting network traffic" },
+                    { "id": 4, "answer": "A type of routing algorithm" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 23,
+                  "title": "How does a subnet mask help in routing within a network?",
+                  "answers": [
+                    { "id": 1, "answer": "It defines which portion of an IP address is used for network identification" },
+                    { "id": 2, "answer": "It determines the encryption method for data packets" },
+                    { "id": 3, "answer": "It assigns IP addresses to devices automatically" },
+                    { "id": 4, "answer": "It calculates the total number of routers in a network" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 24,
+                  "title": "What is the main purpose of the Classless Inter-Domain Routing (CIDR) system?",
+                  "answers": [
+                    { "id": 1, "answer": "To provide more flexible and efficient IP address allocation" },
+                    { "id": 2, "answer": "To increase the total number of available IP addresses" },
+                    { "id": 3, "answer": "To simplify IP address classes" },
+                    { "id": 4, "answer": "To enhance data encryption" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 25,
                   "title": "How does CIDR improve IP address allocation compared to traditional address classes?",
                   "answers": [
                     { "id": 1, "answer": "By allowing networks of any size and more efficient address usage" },
@@ -1684,17 +1738,7 @@
                   ],
                   "correct": 3
                 },
-                {
-                  "id": 20,
-                  "title": "How does CIDR improve IP address allocation compared to traditional address classes?",
-                  "answers": [
-                    { "id": 1, "answer": "By allowing networks of any size and more efficient address usage" },
-                    { "id": 2, "answer": "By increasing the total number of IP addresses available" },
-                    { "id": 3, "answer": "By simplifying the binary math involved in subnetting" },
-                    { "id": 4, "answer": "By reducing the number of bits required for subnet masks" }
-                  ],
-                  "correct": 1
-                },
+         
                 {
                   "id": 21,
                   "title": "What is the main purpose of non-routable address spaces such as private IP addresses?",
@@ -1739,50 +1783,7 @@
                   ],
                   "correct": 1
                 },
-                {
-                  "id": 25,
-                  "title": "What type of routing protocol is OSPF (Open Shortest Path First)?",
-                  "answers": [
-                    { "id": 1, "answer": "Distance Vector Protocol" },
-                    { "id": 2, "answer": "Link State Protocol" },
-                    { "id": 3, "answer": "Exterior Gateway Protocol" },
-                    { "id": 4, "answer": "Hybrid Protocol" }
-                  ],
-                  "correct": 2
-                },
-                {
-                  "id": 26,
-                  "title": "What does the term 'subnet mask' refer to?",
-                  "answers": [
-                    { "id": 1, "answer": "A mask that determines the size of a subnet in an IP address" },
-                    { "id": 2, "answer": "A protocol used to manage IP address assignments" },
-                    { "id": 3, "answer": "A method for encrypting network traffic" },
-                    { "id": 4, "answer": "A type of routing algorithm" }
-                  ],
-                  "correct": 1
-                },
-                {
-                  "id": 27,
-                  "title": "How does a subnet mask help in routing within a network?",
-                  "answers": [
-                    { "id": 1, "answer": "It defines which portion of an IP address is used for network identification" },
-                    { "id": 2, "answer": "It determines the encryption method for data packets" },
-                    { "id": 3, "answer": "It assigns IP addresses to devices automatically" },
-                    { "id": 4, "answer": "It calculates the total number of routers in a network" }
-                  ],
-                  "correct": 1
-                },
-                {
-                  "id": 28,
-                  "title": "In CIDR notation, what does a '/24' signify?",
-                  "answers": [
-                    { "id": 1, "answer": "A subnet mask with 24 bits set to 1" },
-                    { "id": 2, "answer": "A network with 24 IP addresses" },
-                    { "id": 3, "answer": "A Class B network" },
-                    { "id": 4, "answer": "A subnet mask with 8 bits set to 1" }
-                  ],
-                  "correct": 1
-                },
+               
                 {
                   "id": 29,
                   "title": "What is the role of ARP (Address Resolution Protocol) in a network?",
@@ -1805,17 +1806,7 @@
                   ],
                   "correct": 1
                 },
-                {
-                  "id": 31,
-                  "title": "What is the main purpose of the Classless Inter-Domain Routing (CIDR) system?",
-                  "answers": [
-                    { "id": 1, "answer": "To provide more flexible and efficient IP address allocation" },
-                    { "id": 2, "answer": "To increase the total number of available IP addresses" },
-                    { "id": 3, "answer": "To simplify IP address classes" },
-                    { "id": 4, "answer": "To enhance data encryption" }
-                  ],
-                  "correct": 1
-                },
+               
                 {
                   "id": 32,
                   "title": "How does binary math apply to subnetting?",
@@ -1894,17 +1885,6 @@
                   "correct": 1
                 },
                 {
-                  "id": 39,
-                  "title": "What is the main advantage of using CIDR (Classless Inter-Domain Routing) over traditional IP addressing methods?",
-                  "answers": [
-                    { "id": 1, "answer": "CIDR allows for more flexible allocation of IP address ranges" },
-                    { "id": 2, "answer": "CIDR simplifies the encryption of IP addresses" },
-                    { "id": 3, "answer": "CIDR increases the maximum number of IP addresses available" },
-                    { "id": 4, "answer": "CIDR speeds up data transmission between networks" }
-                  ],
-                  "correct": 1
-                },
-                {
                   "id": 40,
                   "title": "What does a routing protocol's 'metric' usually indicate?",
                   "answers": [
@@ -1938,17 +1918,6 @@
                   "correct": 1
                 },
                 {
-                  "id": 43,
-                  "title": "What does the term 'broadcast' refer to in networking?",
-                  "answers": [
-                    { "id": 1, "answer": "Sending a packet to all devices on a network" },
-                    { "id": 2, "answer": "Sending a packet to a specific device" },
-                    { "id": 3, "answer": "Encrypting a packet for security" },
-                    { "id": 4, "answer": "Routing a packet through multiple networks" }
-                  ],
-                  "correct": 1
-                },
-                {
                   "id": 44,
                   "title": "How does a router use the 'Network ID' and 'Host ID' in an IP address?",
                   "answers": [
@@ -1967,6 +1936,17 @@
                     { "id": 2, "answer": "To assign IP addresses to devices on a network" },
                     { "id": 3, "answer": "To encrypt all outgoing and incoming data packets" },
                     { "id": 4, "answer": "To provide high-speed connections between devices within a network" }
+                  ],
+                  "correct": 1
+                }, 
+                {
+                  "id": 46,
+                  "title": "What are the three primary ranges of non-routable address space defined in RFC 1918?",
+                  "answers": [
+                    { "id": 1, "answer": "10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16" },
+                    { "id": 2, "answer": "192.168.0.0/8, 10.0.0.0/16, 172.16.0.0/24" },
+                    { "id": 3, "answer": "10.0.0.0/24, 172.16.0.0/24, 192.168.0.0/24" },
+                    { "id": 4, "answer": "172.16.0.0/8, 192.168.0.0/12, 10.0.0.0/16" }
                   ],
                   "correct": 1
                 }
