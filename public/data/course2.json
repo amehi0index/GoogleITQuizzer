@@ -1521,9 +1521,30 @@
                     { "id": 4, "answer": "By reducing the number of bits required for subnet masks" }
                   ],
                   "correct": 1
+                },
+                {
+                  "id":26,
+                  "title": "What does the term 'network ID' refer to in subnetting?",
+                  "answers": [
+                    { "id": 1, "answer": "The portion of an IP address that identifies a specific network" },
+                    { "id": 2, "answer": "The total number of IP addresses available in a subnet" },
+                    { "id": 3, "answer": "The IP address assigned to a router" },
+                    { "id": 4, "answer": "The encryption key used for securing data" }
+                  ],
+                  "correct": 1
+                },     
+                {
+                  "id": 27,
+                  "title": "How does binary math apply to subnetting?",
+                  "answers": [
+                    { "id": 1, "answer": "Binary math is used to calculate subnet masks and network IDs" },
+                    { "id": 2, "answer": "Binary math simplifies data encryption algorithms" },
+                    { "id": 3, "answer": "Binary math increases the speed of data transmission" },
+                    { "id": 4, "answer": "Binary math is used to manage routing tables" }
+                  ],
+                  "correct": 1
                 }
-              ]
-              
+              ]  
             },
             {
               "id": "module2-3",
@@ -1718,17 +1739,6 @@
                 },
                 {
                   "id": 18,
-                  "title": "Which protocol is commonly used for routing between different autonomous systems on the Internet?",
-                  "answers": [
-                    { "id": 1, "answer": "OSPF" },
-                    { "id": 2, "answer": "BGP" },
-                    { "id": 3, "answer": "RIP" },
-                    { "id": 4, "answer": "EIGRP" }
-                  ],
-                  "correct": 2
-                },
-                {
-                  "id": 19,
                   "title": "What does the 'Interface' column in a routing table indicate?",
                   "answers": [
                     { "id": 1, "answer": "The destination network's IP address" },
@@ -1740,7 +1750,7 @@
                 },
          
                 {
-                  "id": 21,
+                  "id": 19,
                   "title": "What is the main purpose of non-routable address spaces such as private IP addresses?",
                   "answers": [
                     { "id": 1, "answer": "To allow devices to communicate within a private network without using public IP addresses" },
@@ -1751,7 +1761,7 @@
                   "correct": 1
                 },
                 {
-                  "id": 22,
+                  "id": 20,
                   "title": "What is an Exterior Gateway Protocol (EGP) used for?",
                   "answers": [
                     { "id": 1, "answer": "To exchange routing information between different autonomous systems" },
@@ -1762,7 +1772,7 @@
                   "correct": 1
                 },
                 {
-                  "id": 23,
+                  "id": 21,
                   "title": "How does a routing table entry get updated when a new route is learned?",
                   "answers": [
                     { "id": 1, "answer": "The router replaces the old route with the new route" },
@@ -1773,53 +1783,7 @@
                   "correct": 2
                 },
                 {
-                  "id": 24,
-                  "title": "Which protocol is used to dynamically update the routing table with new routes based on network changes?",
-                  "answers": [
-                    { "id": 1, "answer": "RIP" },
-                    { "id": 2, "answer": "ICMP" },
-                    { "id": 3, "answer": "ARP" },
-                    { "id": 4, "answer": "SMTP" }
-                  ],
-                  "correct": 1
-                },
-               
-                {
-                  "id": 29,
-                  "title": "What is the role of ARP (Address Resolution Protocol) in a network?",
-                  "answers": [
-                    { "id": 1, "answer": "To map IP addresses to MAC addresses within a local network" },
-                    { "id": 2, "answer": "To manage routing tables in a router" },
-                    { "id": 3, "answer": "To assign IP addresses dynamically" },
-                    { "id": 4, "answer": "To encrypt data packets" }
-                  ],
-                  "correct": 1
-                },
-                {
-                  "id": 30,
-                  "title": "Why are IPv4 addresses divided into different classes (A, B, C, etc.)?",
-                  "answers": [
-                    { "id": 1, "answer": "To allocate address ranges for different sizes of networks" },
-                    { "id": 2, "answer": "To improve the speed of data transmission" },
-                    { "id": 3, "answer": "To provide a way to encrypt IP addresses" },
-                    { "id": 4, "answer": "To manage DNS entries" }
-                  ],
-                  "correct": 1
-                },
-               
-                {
-                  "id": 32,
-                  "title": "How does binary math apply to subnetting?",
-                  "answers": [
-                    { "id": 1, "answer": "Binary math is used to calculate subnet masks and network IDs" },
-                    { "id": 2, "answer": "Binary math simplifies data encryption algorithms" },
-                    { "id": 3, "answer": "Binary math increases the speed of data transmission" },
-                    { "id": 4, "answer": "Binary math is used to manage routing tables" }
-                  ],
-                  "correct": 1
-                },
-                {
-                  "id": 33,
+                  "id": 22,
                   "title": "What is the primary function of the TTL (Time-to-Live) field in an IP packet?",
                   "answers": [
                     { "id": 1, "answer": "To prevent packets from circulating indefinitely in the network" },
@@ -1830,7 +1794,7 @@
                   "correct": 1
                 },
                 {
-                  "id": 34,
+                  "id":23,
                   "title": "What happens when a packet's TTL expires?",
                   "answers": [
                     { "id": 1, "answer": "The packet is discarded and not forwarded further" },
@@ -1841,62 +1805,7 @@
                   "correct": 1
                 },
                 {
-                  "id": 35,
-                  "title": "Which IPv4 address class provides the largest number of host addresses per network?",
-                  "answers": [
-                    { "id": 1, "answer": "Class A" },
-                    { "id": 2, "answer": "Class B" },
-                    { "id": 3, "answer": "Class C" },
-                    { "id": 4, "answer": "Class D" }
-                  ],
-                  "correct": 1
-                },
-                {
-                  "id": 36,
-                  "title": "What is the purpose of subnetting in IP networks?",
-                  "answers": [
-                    { "id": 1, "answer": "To divide a large network into smaller, more manageable subnets" },
-                    { "id": 2, "answer": "To increase the overall speed of data transmission" },
-                    { "id": 3, "answer": "To simplify the encryption of network traffic" },
-                    { "id": 4, "answer": "To create unique IP addresses for each device" }
-                  ],
-                  "correct": 1
-                },
-                {
-                  "id": 37,
-                  "title": "What does the term 'network ID' refer to in subnetting?",
-                  "answers": [
-                    { "id": 1, "answer": "The portion of an IP address that identifies a specific network" },
-                    { "id": 2, "answer": "The total number of IP addresses available in a subnet" },
-                    { "id": 3, "answer": "The IP address assigned to a router" },
-                    { "id": 4, "answer": "The encryption key used for securing data" }
-                  ],
-                  "correct": 1
-                },
-                {
-                  "id": 38,
-                  "title": "What is a common issue that can arise from incorrect subnetting?",
-                  "answers": [
-                    { "id": 1, "answer": "Devices may not be able to communicate with each other across subnets" },
-                    { "id": 2, "answer": "Increased encryption of data packets" },
-                    { "id": 3, "answer": "Reduced overall network speed" },
-                    { "id": 4, "answer": "Unnecessary duplication of IP addresses" }
-                  ],
-                  "correct": 1
-                },
-                {
-                  "id": 40,
-                  "title": "What does a routing protocol's 'metric' usually indicate?",
-                  "answers": [
-                    { "id": 1, "answer": "The cost or distance associated with a route" },
-                    { "id": 2, "answer": "The encryption strength of the routing information" },
-                    { "id": 3, "answer": "The number of bits in the subnet mask" },
-                    { "id": 4, "answer": "The maximum transmission unit (MTU) size" }
-                  ],
-                  "correct": 1
-                },
-                {
-                  "id": 41,
+                  "id":24,
                   "title": "How does OSPF (Open Shortest Path First) determine the best path for routing packets?",
                   "answers": [
                     { "id": 1, "answer": "By using the shortest path algorithm based on link states" },
@@ -1906,19 +1815,9 @@
                   ],
                   "correct": 1
                 },
+          
                 {
-                  "id": 42,
-                  "title": "Which IPv4 address class is used for multicast communication?",
-                  "answers": [
-                    { "id": 1, "answer": "Class D" },
-                    { "id": 2, "answer": "Class A" },
-                    { "id": 3, "answer": "Class B" },
-                    { "id": 4, "answer": "Class C" }
-                  ],
-                  "correct": 1
-                },
-                {
-                  "id": 44,
+                  "id":25,
                   "title": "How does a router use the 'Network ID' and 'Host ID' in an IP address?",
                   "answers": [
                     { "id": 1, "answer": "The Network ID identifies the specific network, while the Host ID identifies a device within that network" },
@@ -1929,7 +1828,7 @@
                   "correct": 1
                 },
                 {
-                  "id": 45,
+                  "id":26,
                   "title": "What is the main role of a gateway router in a network?",
                   "answers": [
                     { "id": 1, "answer": "To connect and manage traffic between different networks" },
@@ -1940,7 +1839,7 @@
                   "correct": 1
                 }, 
                 {
-                  "id": 46,
+                  "id":27,
                   "title": "What are the three primary ranges of non-routable address space defined in RFC 1918?",
                   "answers": [
                     { "id": 1, "answer": "10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16" },
