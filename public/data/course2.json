@@ -1727,17 +1727,6 @@
                   "correct": 2
                 },
                 {
-                  "id": 17,
-                  "title": "What does the 'Destination Network' column in a routing table represent?",
-                  "answers": [
-                    { "id": 1, "answer": "The IP address of the destination network" },
-                    { "id": 2, "answer": "The number of hops to reach the destination" },
-                    { "id": 3, "answer": "The interface to be used for forwarding the packet" },
-                    { "id": 4, "answer": "The IP address of the next hop router" }
-                  ],
-                  "correct": 1
-                },
-                {
                   "id": 18,
                   "title": "What does the 'Interface' column in a routing table indicate?",
                   "answers": [
@@ -1925,7 +1914,54 @@
                     { "id": 4, "answer": "To enhance the security of devices by hiding their IP addresses from external networks" }
                   ],
                   "correct": 2
-                } 
+                },
+                {
+                  "id": 35,
+                  "title": "Which of the following is the most common distance vector routing protocol as per IETF RFC2453?",
+                  "answers": [
+                    { "id": 1, "answer": "OSPF (Open Shortest Path First)" },
+                    { "id": 2, "answer": "RIP (Routing Information Protocol)" },
+                    { "id": 3, "answer": "BGP (Border Gateway Protocol)" },
+                    { "id": 4, "answer": "EIGRP (Enhanced Interior Gateway Routing Protocol)" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 36,
+                  "title": "Which protocol is currently the only exterior gateway protocol in use for exchanging routing information across the Internet?",
+                  "answers": [
+                    { "id": 1, "answer": "EIGRP (Enhanced Interior Gateway Routing Protocol)" },
+                    { "id": 2, "answer": "RIP (Routing Information Protocol)" },
+                    { "id": 3, "answer": "BGP (Border Gateway Protocol)" },
+                    { "id": 4, "answer": "OSPF (Open Shortest Path First)" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 37,
+                  "title": "What is the original purpose of RFCs, or Request for Comments?",
+                  "answers": [
+                    { "id": 1, "answer": "To serve as a standard for Internet Protocol (IP) addressing" },
+                    { "id": 2, "answer": "To allow academics to discuss how their computers might communicate and form consensus on technical standards" },
+                    { "id": 3, "answer": "To document the history of the Internet" },
+                    { "id": 4, "answer": "To manage IP address allocation and assignment" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 38,
+                  "title": "Which organization is responsible for developing and maintaining the standards required for the Internet to operate, including managing RFCs?",
+                  "answers": [
+                    { "id": 1, "answer": "Internet Corporation for Assigned Names and Numbers (ICANN)" },
+                    { "id": 2, "answer": "Internet Engineering Task Force (IETF)" },
+                    { "id": 3, "answer": "World Wide Web Consortium (W3C)" },
+                    { "id": 4, "answer": "Internet Assigned Numbers Authority (IANA)" }
+                  ],
+                  "correct": 2
+                }
+                
+                
+                
               ]
               
             }
