@@ -1903,8 +1903,29 @@
                     { "id": 4, "answer": "To monitor and control data traffic between different networks" }
                   ],
                   "correct": 2
-                }
-                
+                },
+                {
+                  "id": 33,
+                  "title": "What is the primary purpose of non-routable address spaces defined by RFC 1918?",
+                  "answers": [
+                    { "id": 1, "answer": "To provide globally unique IP addresses for external communication" },
+                    { "id": 2, "answer": "To allow internal communication within private networks without requiring unique global IP addresses" },
+                    { "id": 3, "answer": "To replace IPv4 addresses with IPv6 addresses for better routing" },
+                    { "id": 4, "answer": "To facilitate external traffic routing between different autonomous systems" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id":34,
+                  "title": "What is the primary function of Network Address Translation (NAT) in relation to devices with non-routable addresses?",
+                  "answers": [
+                    { "id": 1, "answer": "To assign unique public IP addresses to all devices in a private network" },
+                    { "id": 2, "answer": "To translate private IP addresses to a public IP address for outbound communication with the Internet" },
+                    { "id": 3, "answer": "To convert IPv4 addresses to IPv6 addresses for improved routing" },
+                    { "id": 4, "answer": "To enhance the security of devices by hiding their IP addresses from external networks" }
+                  ],
+                  "correct": 2
+                } 
               ]
               
             }
