@@ -1848,7 +1848,63 @@
                     { "id": 4, "answer": "172.16.0.0/8, 192.168.0.0/12, 10.0.0.0/16" }
                   ],
                   "correct": 1
+                },
+                {
+                  "id": 28,
+                  "title": "What action does a router take when it receives a packet and identifies the destination MAC address as its own?",
+                  "answers": [
+                    { "id": 1, "answer": "It immediately forwards the packet to the next router" },
+                    { "id": 2, "answer": "It strips away the data link layer encapsulation, leaving the IP datagram" },
+                    { "id": 3, "answer": "It drops the packet" },
+                    { "id": 4, "answer": "It sends the packet to the network management system" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 29,
+                  "title": "What action does a router take when it receives a packet and identifies the destination MAC address as its own?",
+                  "answers": [
+                    { "id": 1, "answer": "It immediately forwards the packet to the next router" },
+                    { "id": 2, "answer": "It strips away the data link layer encapsulation, leaving the IP datagram" },
+                    { "id": 3, "answer": "It drops the packet" },
+                    { "id": 4, "answer": "It sends the packet to the network management system" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 30,
+                  "title": "What information does the 'Destination Network' column in a routing table typically include?",
+                  "answers": [
+                    { "id": 1, "answer": "The router's IP address and default gateway" },
+                    { "id": 2, "answer": "The network ID and the netmask, defining the network’s address range" },
+                    { "id": 3, "answer": "The list of active network connections and their statuses" },
+                    { "id": 4, "answer": "The routing protocol used for network updates" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 31,
+                  "title": "How are Autonomous System Numbers (ASNs) different from IP addresses in terms of representation and usage?",
+                  "answers": [
+                    { "id": 1, "answer": "ASNs are split into sections to represent different parts of the network, while IP addresses are single decimal numbers" },
+                    { "id": 2, "answer": "ASNs are 32-bit numbers represented as a single decimal number, used to identify entire autonomous systems, while IP addresses are divided into sections representing network and host portions" },
+                    { "id": 3, "answer": "ASNs are used for managing individual devices, while IP addresses are used for routing data packets between ASes" },
+                    { "id": 4, "answer": "ASNs are frequently updated and changed, while IP addresses remain static" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id":32,
+                  "title": "What is the primary role of the Internet Assigned Numbers Authority (IANA) regarding Autonomous System Numbers (ASNs)?",
+                  "answers": [
+                    { "id": 1, "answer": "To allocate IP addresses to end-user devices" },
+                    { "id": 2, "answer": "To assign and manage Autonomous System Numbers (ASNs) for distinguishing different autonomous systems" },
+                    { "id": 3, "answer": "To provide network security solutions for organizations" },
+                    { "id": 4, "answer": "To monitor and control data traffic between different networks" }
+                  ],
+                  "correct": 2
                 }
+                
               ]
               
             }
