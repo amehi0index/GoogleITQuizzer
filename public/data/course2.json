@@ -1958,13 +1958,918 @@
                     { "id": 4, "answer": "Internet Assigned Numbers Authority (IANA)" }
                   ],
                   "correct": 2
-                }
-                
-                
-                
-              ]
-              
+                },
+                {
+                  "id": 25,
+                  "title": "What type of routing protocol is OSPF (Open Shortest Path First)?",
+                  "answers": [
+                    { "id": 1, "answer": "Distance Vector Protocol" },
+                    { "id": 2, "answer": "Link State Protocol" },
+                    { "id": 3, "answer": "Exterior Gateway Protocol" },
+                    { "id": 4, "answer": "Hybrid Protocol" }
+                  ],
+                  "correct": 2
+                } 
+              ] 
             }
+          ]
+        },
+        {
+          "id": "module3",
+          "title": "Module 3: The Transport and Application Layers",
+          "subModules": [
+            {
+              "id": "module1-1",
+              "title": "Transport Layer",
+              "questions": [
+                {
+                  "id": 1,
+                  "title": "What is the primary function of the transport layer in network communication?",
+                  "answers": [
+                    { "id": 1, "answer": "Establishing physical connections" },
+                    { "id": 2, "answer": "Routing packets between networks" },
+                    { "id": 3, "answer": "Ensuring data integrity and managing connections" },
+                    { "id": 4, "answer": "Encrypting data for security" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 2,
+                  "title": "What process allows the transport layer to direct traffic to different services on a networked computer?",
+                  "answers": [
+                    { "id": 1, "answer": "Encapsulation" },
+                    { "id": 2, "answer": "Multiplexing" },
+                    { "id": 3, "answer": "Fragmentation" },
+                    { "id": 4, "answer": "Routing" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 3,
+                  "title": "Which of the following protocols is known for being connection-oriented and reliable?",
+                  "answers": [
+                    { "id": 1, "answer": "UDP" },
+                    { "id": 2, "answer": "ICMP" },
+                    { "id": 3, "answer": "TCP" },
+                    { "id": 4, "answer": "ARP" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 4,
+                  "title": "What is the primary purpose of the three-way handshake in TCP?",
+                  "answers": [
+                    { "id": 1, "answer": "To establish a reliable connection" },
+                    { "id": 2, "answer": "To encrypt data packets" },
+                    { "id": 3, "answer": "To compress data for transmission" },
+                    { "id": 4, "answer": "To detect network errors" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 5,
+                  "title": "Which TCP flag is used to indicate that the sender has no more data to send?",
+                  "answers": [
+                    { "id": 1, "answer": "SYN" },
+                    { "id": 2, "answer": "ACK" },
+                    { "id": 3, "answer": "FIN" },
+                    { "id": 4, "answer": "RST" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 6,
+                  "title": "What does the ACK flag in TCP indicate?",
+                  "answers": [
+                    { "id": 1, "answer": "Data is being sent" },
+                    { "id": 2, "answer": "Data has been received" },
+                    { "id": 3, "answer": "The connection should be reset" },
+                    { "id": 4, "answer": "The connection is being established" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 7,
+                  "title": "In TCP, what field is used to verify the integrity of the data in a segment?",
+                  "answers": [
+                    { "id": 1, "answer": "Checksum" },
+                    { "id": 2, "answer": "Sequence Number" },
+                    { "id": 3, "answer": "Data Offset" },
+                    { "id": 4, "answer": "Window Size" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 8,
+                  "title": "What is the primary function of a port number in network communication?",
+                  "answers": [
+                    { "id": 1, "answer": "To identify the network interface" },
+                    { "id": 2, "answer": "To direct traffic to specific services" },
+                    { "id": 3, "answer": "To encrypt data packets" },
+                    { "id": 4, "answer": "To route data between networks" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 9,
+                  "title": "What does the SYN flag do in the TCP three-way handshake?",
+                  "answers": [
+                    { "id": 1, "answer": "Synchronizes sequence numbers" },
+                    { "id": 2, "answer": "Acknowledges receipt of data" },
+                    { "id": 3, "answer": "Signals that the connection should be closed" },
+                    { "id": 4, "answer": "Resets the connection" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 10,
+                  "title": "Which TCP socket state indicates that a connection is actively waiting for incoming connections?",
+                  "answers": [
+                    { "id": 1, "answer": "LISTEN" },
+                    { "id": 2, "answer": "ESTABLISHED" },
+                    { "id": 3, "answer": "CLOSE_WAIT" },
+                    { "id": 4, "answer": "SYN_SENT" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 11,
+                  "title": "What is a socket address composed of?",
+                  "answers": [
+                    { "id": 1, "answer": "IP address and port number" },
+                    { "id": 2, "answer": "MAC address and port number" },
+                    { "id": 3, "answer": "Domain name and port number" },
+                    { "id": 4, "answer": "IP address and MAC address" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 12,
+                  "title": "What type of protocol is UDP considered to be?",
+                  "answers": [
+                    { "id": 1, "answer": "Connection-oriented" },
+                    { "id": 2, "answer": "Connectionless" },
+                    { "id": 3, "answer": "Reliable" },
+                    { "id": 4, "answer": "Secure" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 13,
+                  "title": "In TCP, which field helps ensure that data is reassembled in the correct order?",
+                  "answers": [
+                    { "id": 1, "answer": "Sequence Number" },
+                    { "id": 2, "answer": "Acknowledgment Number" },
+                    { "id": 3, "answer": "Window Size" },
+                    { "id": 4, "answer": "Data Offset" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 14,
+                  "title": "Which TCP flag is used to reset a connection in case of errors?",
+                  "answers": [
+                    { "id": 1, "answer": "SYN" },
+                    { "id": 2, "answer": "FIN" },
+                    { "id": 3, "answer": "RST" },
+                    { "id": 4, "answer": "PSH" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 15,
+                  "title": "What is the purpose of firewalls operating at the transport layer?",
+                  "answers": [
+                    { "id": 1, "answer": "Blocking traffic based on IP addresses" },
+                    { "id": 2, "answer": "Filtering traffic based on port numbers" },
+                    { "id": 3, "answer": "Inspecting application layer traffic" },
+                    { "id": 4, "answer": "Managing routing between networks" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 16,
+                  "title": "Which protocol uses a four-way handshake to close a connection?",
+                  "answers": [
+                    { "id": 1, "answer": "UDP" },
+                    { "id": 2, "answer": "ICMP" },
+                    { "id": 3, "answer": "TCP" },
+                    { "id": 4, "answer": "ARP" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 17,
+                  "title": "In TCP, which state indicates that a connection is waiting for an acknowledgment after sending a FIN request?",
+                  "answers": [
+                    { "id": 1, "answer": "FIN_WAIT" },
+                    { "id": 2, "answer": "ESTABLISHED" },
+                    { "id": 3, "answer": "CLOSE_WAIT" },
+                    { "id": 4, "answer": "LISTEN" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 18,
+                  "title": "What does the 'Window Size' field in a TCP segment specify?",
+                  "answers": [
+                    { "id": 1, "answer": "The amount of data the sender can handle" },
+                    { "id": 2, "answer": "The maximum segment size" },
+                    { "id": 3, "answer": "The buffer size at the receiver" },
+                    { "id": 4, "answer": "The time-to-live for a packet" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 19,
+                  "title": "In which layer of the OSI model does the TCP protocol operate?",
+                  "answers": [
+                    { "id": 1, "answer": "Application Layer" },
+                    { "id": 2, "answer": "Transport Layer" },
+                    { "id": 3, "answer": "Network Layer" },
+                    { "id": 4, "answer": "Data Link Layer" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 20,
+                  "title": "Which protocol is used to dynamically assign IP addresses to devices on a network?",
+                  "answers": [
+                    { "id": 1, "answer": "ARP" },
+                    { "id": 2, "answer": "DNS" },
+                    { "id": 3, "answer": "DHCP" },
+                    { "id": 4, "answer": "NAT" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 21,
+                  "title": "Which field in an IPv4 header is used to determine the destination of a packet?",
+                  "answers": [
+                    { "id": 1, "answer": "Source IP Address" },
+                    { "id": 2, "answer": "Destination IP Address" },
+                    { "id": 3, "answer": "Time-to-Live" },
+                    { "id": 4, "answer": "Header Checksum" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 22,
+                  "title": "What does the Time-to-Live (TTL) field in an IP packet do?",
+                  "answers": [
+                    { "id": 1, "answer": "Determines the maximum time a packet can remain in the network" },
+                    { "id": 2, "answer": "Indicates the priority of the packet" },
+                    { "id": 3, "answer": "Specifies the size of the packet" },
+                    { "id": 4, "answer": "Defines the source of the packet" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 23,
+                  "title": "In CIDR, what is used to define the size of a network and its subnet mask?",
+                  "answers": [
+                    { "id": 1, "answer": "IP Address Class" },
+                    { "id": 2, "answer": "Subnet Mask" },
+                    { "id": 3, "answer": "Prefix Length" },
+                    { "id": 4, "answer": "Gateway Address" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 24,
+                  "title": "Which type of protocol is OSPF?",
+                  "answers": [
+                    { "id": 1, "answer": "Distance Vector" },
+                    { "id": 2, "answer": "Link State" },
+                    { "id": 3, "answer": "Hybrid" },
+                    { "id": 4, "answer": "Path Vector" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 25,
+                  "title": "What is the role of the Address Resolution Protocol (ARP)?",
+                  "answers": [
+                    { "id": 1, "answer": "Translates domain names to IP addresses" },
+                    { "id": 2, "answer": "Maps IP addresses to MAC addresses" },
+                    { "id": 3, "answer": "Manages IP address allocation" },
+                    { "id": 4, "answer": "Checks the validity of IP addresses" }
+                  ],
+                  "correct": 2
+                },
+                  {
+                    "id": 26,
+                    "title": "What is a port used for in network communication?",
+                    "answers": [
+                      { "id": 1, "answer": "To route data between networks" },
+                      { "id": 2, "answer": "To direct traffic to a specific service running on a networked computer" },
+                      { "id": 3, "answer": "To encrypt data packets" },
+                      { "id": 4, "answer": "To assign IP addresses to devices" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 27,
+                    "title": "What is a socket in the context of TCP/IP networking?",
+                    "answers": [
+                      { "id": 1, "answer": "A connection point between two networks" },
+                      { "id": 2, "answer": "An active port used by a service" },
+                      { "id": 3, "answer": "A network protocol for data encryption" },
+                      { "id": 4, "answer": "A type of IP address" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 28,
+                    "title": "Which of the following is a System Port?",
+                    "answers": [
+                      { "id": 1, "answer": "Port 80" },
+                      { "id": 2, "answer": "Port 1024" },
+                      { "id": 3, "answer": "Port 49152" },
+                      { "id": 4, "answer": "Port 65535" }
+                    ],
+                    "correct": 1
+                  },
+                  {
+                    "id": 29,
+                    "title": "Which port range is used for Ephemeral (Dynamic) Ports?",
+                    "answers": [
+                      { "id": 1, "answer": "1-1023" },
+                      { "id": 2, "answer": "1024-49151" },
+                      { "id": 3, "answer": "49152-65535" },
+                      { "id": 4, "answer": "65536-70000" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 30,
+                    "title": "What is the primary purpose of System Ports?",
+                    "answers": [
+                      { "id": 1, "answer": "For private transfers between clients" },
+                      { "id": 2, "answer": "For common applications like FTP and HTTP" },
+                      { "id": 3, "answer": "For temporary connections" },
+                      { "id": 4, "answer": "For unregistered vendor applications" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 31,
+                    "title": "Which port range is designated for User Ports?",
+                    "answers": [
+                      { "id": 1, "answer": "1-1023" },
+                      { "id": 2, "answer": "1024-49151" },
+                      { "id": 3, "answer": "49152-65535" },
+                      { "id": 4, "answer": "65536-70000" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 32,
+                    "title": "What is the role of Ephemeral Ports?",
+                    "answers": [
+                      { "id": 1, "answer": "For common network services" },
+                      { "id": 2, "answer": "For static connections to servers" },
+                      { "id": 3, "answer": "For temporary, private transfers used by clients" },
+                      { "id": 4, "answer": "For reserved system applications" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 33,
+                    "title": "What does a TCP segment specify regarding ports?",
+                    "answers": [
+                      { "id": 1, "answer": "Which ports are closed" },
+                      { "id": 2, "answer": "Which ports are used to establish a network connection" },
+                      { "id": 3, "answer": "Which IP addresses are blocked" },
+                      { "id": 4, "answer": "Which ports are reserved for future use" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 34,
+                    "title": "How does TCP ensure data integrity?",
+                    "answers": [
+                      { "id": 1, "answer": "By encrypting data before transmission" },
+                      { "id": 2, "answer": "By sending acknowledgments and using checksum verification" },
+                      { "id": 3, "answer": "By compressing data to reduce errors" },
+                      { "id": 4, "answer": "By splitting data into smaller packets" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 35,
+                    "title": "Which port range is reserved for System Ports?",
+                    "answers": [
+                      { "id": 1, "answer": "1-1023" },
+                      { "id": 2, "answer": "1024-49151" },
+                      { "id": 3, "answer": "49152-65535" },
+                      { "id": 4, "answer": "65536-70000" }
+                    ],
+                    "correct": 1
+                  },
+                  {
+                    "id": 36,
+                    "title": "Which type of ports are used exclusively by clients for temporary connections?",
+                    "answers": [
+                      { "id": 1, "answer": "System Ports" },
+                      { "id": 2, "answer": "User Ports" },
+                      { "id": 3, "answer": "Ephemeral Ports" },
+                      { "id": 4, "answer": "Reserved Ports" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 37,
+                    "title": "Why is it important to secure your ports?",
+                    "answers": [
+                      { "id": 1, "answer": "To prevent unauthorized access and malware" },
+                      { "id": 2, "answer": "To increase network speed" },
+                      { "id": 3, "answer": "To enhance data encryption" },
+                      { "id": 4, "answer": "To manage IP addresses" }
+                    ],
+                    "correct": 1
+                  },
+                  {
+                    "id": 38,
+                    "title": "Which port range is used for User Ports?",
+                    "answers": [
+                      { "id": 1, "answer": "1-1023" },
+                      { "id": 2, "answer": "1024-49151" },
+                      { "id": 3, "answer": "49152-65535" },
+                      { "id": 4, "answer": "65536-70000" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 39,
+                    "title": "What happens when a TCP segment activates a port?",
+                    "answers": [
+                      { "id": 1, "answer": "The port becomes a socket" },
+                      { "id": 2, "answer": "The port is closed" },
+                      { "id": 3, "answer": "The port is reserved for future use" },
+                      { "id": 4, "answer": "The port is deactivated" }
+                    ],
+                    "correct": 1
+                  },
+                  {
+                    "id": 40,
+                    "title": "How many total ports are available in TCP/IP networking?",
+                    "answers": [
+                      { "id": 1, "answer": "1024" },
+                      { "id": 2, "answer": "49152" },
+                      { "id": 3, "answer": "65535" },
+                      { "id": 4, "answer": "70000" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 41,
+                    "title": "Which ports are used by services for common applications like FTP and HTTP?",
+                    "answers": [
+                      { "id": 1, "answer": "User Ports" },
+                      { "id": 2, "answer": "Ephemeral Ports" },
+                      { "id": 3, "answer": "System Ports" },
+                      { "id": 4, "answer": "Reserved Ports" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 42,
+                    "title": "Which category of ports is not used for outbound traffic by modern operating systems?",
+                    "answers": [
+                      { "id": 1, "answer": "System Ports" },
+                      { "id": 2, "answer": "User Ports" },
+                      { "id": 3, "answer": "Ephemeral Ports" },
+                      { "id": 4, "answer": "Dynamic Ports" }
+                    ],
+                    "correct": 1
+                  },
+                  {
+                    "id": 43,
+                    "title": "What should you use to protect your network from unauthorized access and malware through ports?",
+                    "answers": [
+                      { "id": 1, "answer": "A router" },
+                      { "id": 2, "answer": "A firewall" },
+                      { "id": 3, "answer": "An encryption tool" },
+                      { "id": 4, "answer": "A load balancer" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 44,
+                    "title": "What kind of ports are mainly used by services to listen for incoming data requests?",
+                    "answers": [
+                      { "id": 1, "answer": "Ephemeral Ports" },
+                      { "id": 2, "answer": "System Ports" },
+                      { "id": 3, "answer": "User Ports" },
+                      { "id": 4, "answer": "Dynamic Ports" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 45,
+                    "title": "Which type of port is used to facilitate temporary private transfers between clients?",
+                    "answers": [
+                      { "id": 1, "answer": "System Ports" },
+                      { "id": 2, "answer": "User Ports" },
+                      { "id": 3, "answer": "Ephemeral Ports" },
+                      { "id": 4, "answer": "Reserved Ports" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 46,
+                    "title": "What is the maximum number of unique ports available for use in TCP/IP networking?",
+                    "answers": [
+                      { "id": 1, "answer": "1024" },
+                      { "id": 2, "answer": "49152" },
+                      { "id": 3, "answer": "65535" },
+                      { "id": 4, "answer": "70000" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 47,
+                    "title": "Which type of ports are registered by vendors for specific server applications?",
+                    "answers": [
+                      { "id": 1, "answer": "System Ports" },
+                      { "id": 2, "answer": "User Ports" },
+                      { "id": 3, "answer": "Ephemeral Ports" },
+                      { "id": 4, "answer": "Dynamic Ports" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 48,
+                    "title": "What type of port range is used for private and temporary connections by clients?",
+                    "answers": [
+                      { "id": 1, "answer": "1-1023" },
+                      { "id": 2, "answer": "1024-49151" },
+                      { "id": 3, "answer": "49152-65535" },
+                      { "id": 4, "answer": "65536-70000" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 49,
+                    "title": "What is the role of acknowledgments in TCP communication?",
+                    "answers": [
+                      { "id": 1, "answer": "To confirm receipt of data" },
+                      { "id": 2, "answer": "To compress data" },
+                      { "id": 3, "answer": "To encrypt data" },
+                      { "id": 4, "answer": "To split data into packets" }
+                    ],
+                    "correct": 1
+                  },
+                  {
+                    "id": 50,
+                    "title": "Which category of ports includes ports 1 through 1023?",
+                    "answers": [
+                      { "id": 1, "answer": "Ephemeral Ports" },
+                      { "id": 2, "answer": "User Ports" },
+                      { "id": 3, "answer": "System Ports" },
+                      { "id": 4, "answer": "Dynamic Ports" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 51,
+                    "title": "What is the function of a port in TCP/IP networking?",
+                    "answers": [
+                      { "id": 1, "answer": "To direct traffic to specific applications or services" },
+                      { "id": 2, "answer": "To assign IP addresses" },
+                      { "id": 3, "answer": "To encrypt data packets" },
+                      { "id": 4, "answer": "To manage network bandwidth" }
+                    ],
+                    "correct": 1
+                  },
+                  {
+                    "id": 52,
+                    "title": "What is the typical use of System Ports?",
+                    "answers": [
+                      { "id": 1, "answer": "For private client connections" },
+                      { "id": 2, "answer": "For common network services and applications" },
+                      { "id": 3, "answer": "For dynamic data transfers" },
+                      { "id": 4, "answer": "For unregistered vendor applications" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 53,
+                    "title": "Which category of ports is used by clients for temporary connections?",
+                    "answers": [
+                      { "id": 1, "answer": "System Ports" },
+                      { "id": 2, "answer": "User Ports" },
+                      { "id": 3, "answer": "Ephemeral Ports" },
+                      { "id": 4, "answer": "Reserved Ports" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 54,
+                    "title": "What should you do to secure your ports against unauthorized access?",
+                    "answers": [
+                      { "id": 1, "answer": "Use encryption" },
+                      { "id": 2, "answer": "Use a firewall" },
+                      { "id": 3, "answer": "Monitor network traffic" },
+                      { "id": 4, "answer": "Change port numbers frequently" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 55,
+                    "title": "What type of port range is used for services like FTP and HTTP?",
+                    "answers": [
+                      { "id": 1, "answer": "Ephemeral Ports" },
+                      { "id": 2, "answer": "User Ports" },
+                      { "id": 3, "answer": "System Ports" },
+                      { "id": 4, "answer": "Dynamic Ports" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 56,
+                    "title": "Which category of ports includes ports 49152 through 65535?",
+                    "answers": [
+                      { "id": 1, "answer": "System Ports" },
+                      { "id": 2, "answer": "User Ports" },
+                      { "id": 3, "answer": "Ephemeral Ports" },
+                      { "id": 4, "answer": "Reserved Ports" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 57,
+                    "title": "What is the primary purpose of User Ports?",
+                    "answers": [
+                      { "id": 1, "answer": "For private and dynamic connections" },
+                      { "id": 2, "answer": "For common network services" },
+                      { "id": 3, "answer": "For specific server applications registered by vendors" },
+                      { "id": 4, "answer": "For system and reserved services" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 58,
+                    "title": "How does TCP use checksum verification?",
+                    "answers": [
+                      { "id": 1, "answer": "To confirm the data integrity by comparing sent and received data" },
+                      { "id": 2, "answer": "To compress data packets" },
+                      { "id": 3, "answer": "To encrypt data during transmission" },
+                      { "id": 4, "answer": "To manage network bandwidth" }
+                    ],
+                    "correct": 1
+                  },
+                  {
+                    "id": 59,
+                    "title": "What range of ports is typically used for Ephemeral Ports?",
+                    "answers": [
+                      { "id": 1, "answer": "1-1023" },
+                      { "id": 2, "answer": "1024-49151" },
+                      { "id": 3, "answer": "49152-65535" },
+                      { "id": 4, "answer": "65536-70000" }
+                    ],
+                    "correct": 3
+                  },
+                  {
+                    "id": 60,
+                    "title": "What does the term 'socket' refer to in TCP/IP networking?",
+                    "answers": [
+                      { "id": 1, "answer": "A type of network protocol" },
+                      { "id": 2, "answer": "An active port used for data communication" },
+                      { "id": 3, "answer": "A connection point between networks" },
+                      { "id": 4, "answer": "A software program for managing data transfers" }
+                    ],
+                    "correct": 2
+                  }
+                ]
+             },
+	          {
+              "id": "module1-2",
+              "title": "Application Layer",
+              "questions": [
+                {
+                    "id": 1,
+                    "title": "What is the primary function of the Application Layer in networking?",
+                    "answers": [
+                        { "id": 1, "answer": "Establishing physical connections between devices" },
+                        { "id": 2, "answer": "Ensuring reliable data transfer between applications" },
+                        { "id": 3, "answer": "Handling data formatting and encryption" },
+                        { "id": 4, "answer": "Interacting with software applications to facilitate communication" }
+                    ],
+                    "correct": 4
+                },
+                {
+                    "id": 2,
+                    "title": "Which layer of the OSI model is responsible for managing sessions or connections between two applications?",
+                    "answers": [
+                        { "id": 1, "answer": "Transport Layer" },
+                        { "id": 2, "answer": "Network Layer" },
+                        { "id": 3, "answer": "Session Layer" },
+                        { "id": 4, "answer": "Application Layer" }
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id": 3,
+                    "title": "In the OSI model, which layer is responsible for translating data formats, encryption, and compression?",
+                    "answers": [
+                        { "id": 1, "answer": "Presentation Layer" },
+                        { "id": 2, "answer": "Session Layer" },
+                        { "id": 3, "answer": "Data Link Layer" },
+                        { "id": 4, "answer": "Application Layer" }
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 4,
+                    "title": "Which of the following protocols is used for web browsing?",
+                    "answers": [
+                        { "id": 1, "answer": "FTP" },
+                        { "id": 2, "answer": "HTTP" },
+                        { "id": 3, "answer": "SMTP" },
+                        { "id": 4, "answer": "IMAP" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 5,
+                    "title": "What is the primary difference between the five-layer and OSI models?",
+                    "answers": [
+                        { "id": 1, "answer": "The number of layers and their functions" },
+                        { "id": 2, "answer": "The OSI model includes additional layers for session and presentation" },
+                        { "id": 3, "answer": "The five-layer model is less detailed" },
+                        { "id": 4, "answer": "The five-layer model uses different protocols" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 6,
+                    "title": "In the TCP/IP model, which layer is responsible for ensuring reliable data transfer?",
+                    "answers": [
+                        { "id": 1, "answer": "Application Layer" },
+                        { "id": 2, "answer": "Transport Layer" },
+                        { "id": 3, "answer": "Network Layer" },
+                        { "id": 4, "answer": "Data Link Layer" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 7,
+                    "title": "Which layer of the OSI model is responsible for routing packets between different networks?",
+                    "answers": [
+                        { "id": 1, "answer": "Network Layer" },
+                        { "id": 2, "answer": "Transport Layer" },
+                        { "id": 3, "answer": "Data Link Layer" },
+                        { "id": 4, "answer": "Physical Layer" }
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 8,
+                    "title": "What is the role of a socket in TCP communication?",
+                    "answers": [
+                        { "id": 1, "answer": "To provide physical network connections" },
+                        { "id": 2, "answer": "To activate a port for data requests" },
+                        { "id": 3, "answer": "To encrypt data packets" },
+                        { "id": 4, "answer": "To translate data formats" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 9,
+                    "title": "Which layer handles data encapsulation into frames for physical transmission?",
+                    "answers": [
+                        { "id": 1, "answer": "Application Layer" },
+                        { "id": 2, "answer": "Transport Layer" },
+                        { "id": 3, "answer": "Network Layer" },
+                        { "id": 4, "answer": "Data Link Layer" }
+                    ],
+                    "correct": 4
+                },
+                {
+                    "id": 10,
+                    "title": "What is an ephemeral port?",
+                    "answers": [
+                        { "id": 1, "answer": "A port reserved for common applications" },
+                        { "id": 2, "answer": "A port used for private transfers by clients" },
+                        { "id": 3, "answer": "A port registered by vendors for specific applications" },
+                        { "id": 4, "answer": "A port used for secure communications" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 11,
+                    "title": "Which of the following protocols is used for sending emails?",
+                    "answers": [
+                        { "id": 1, "answer": "IMAP" },
+                        { "id": 2, "answer": "FTP" },
+                        { "id": 3, "answer": "SMTP" },
+                        { "id": 4, "answer": "HTTP" }
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id": 12,
+                    "title": "In which layer does the TCP three-way handshake occur?",
+                    "answers": [
+                        { "id": 1, "answer": "Application Layer" },
+                        { "id": 2, "answer": "Transport Layer" },
+                        { "id": 3, "answer": "Network Layer" },
+                        { "id": 4, "answer": "Data Link Layer" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 13,
+                    "title": "Which layer of the OSI model is responsible for addressing and routing packets?",
+                    "answers": [
+                        { "id": 1, "answer": "Session Layer" },
+                        { "id": 2, "answer": "Application Layer" },
+                        { "id": 3, "answer": "Network Layer" },
+                        { "id": 4, "answer": "Presentation Layer" }
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id": 14,
+                    "title": "What is the purpose of the ARP protocol?",
+                    "answers": [
+                        { "id": 1, "answer": "To resolve domain names to IP addresses" },
+                        { "id": 2, "answer": "To map IP addresses to MAC addresses" },
+                        { "id": 3, "answer": "To encrypt data packets" },
+                        { "id": 4, "answer": "To manage network sessions" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 15,
+                    "title": "Which port range is designated for System Ports?",
+                    "answers": [
+                        { "id": 1, "answer": "1-1023" },
+                        { "id": 2, "answer": "1024-49151" },
+                        { "id": 3, "answer": "49152-65535" },
+                        { "id": 4, "answer": "0-1023" }
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 16,
+                    "title": "Which layer is responsible for providing the logical addressing used for routing packets?",
+                    "answers": [
+                        { "id": 1, "answer": "Physical Layer" },
+                        { "id": 2, "answer": "Data Link Layer" },
+                        { "id": 3, "answer": "Network Layer" },
+                        { "id": 4, "answer": "Transport Layer" }
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id": 17,
+                    "title": "What type of port is used by clients for temporary connections?",
+                    "answers": [
+                        { "id": 1, "answer": "System Ports" },
+                        { "id": 2, "answer": "User Ports" },
+                        { "id": 3, "answer": "Ephemeral Ports" },
+                        { "id": 4, "answer": "Reserved Ports" }
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id": 18,
+                    "title": "Which OSI layer handles encryption and data translation?",
+                    "answers": [
+                        { "id": 1, "answer": "Session Layer" },
+                        { "id": 2, "answer": "Presentation Layer" },
+                        { "id": 3, "answer": "Transport Layer" },
+                        { "id": 4, "answer": "Data Link Layer" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 19,
+                    "title": "Which layer of the TCP/IP model handles error checking and correction?",
+                    "answers": [
+                        { "id": 1, "answer": "Network Layer" },
+                        { "id": 2, "answer": "Application Layer" },
+                        { "id": 3, "answer": "Transport Layer" },
+                        { "id": 4, "answer": "Data Link Layer" }
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id": 20,
+                    "title": "How does the OSI model differ from the TCP/IP model in terms of layer functionality?",
+                    "answers": [
+                        { "id": 1, "answer": "The OSI model has fewer layers" },
+                        { "id": 2, "answer": "The OSI model includes additional layers (Session and Presentation)" },
+                        { "id": 3, "answer": "The TCP/IP model is more detailed" },
+                        { "id": 4, "answer": "The OSI model focuses on practical implementation" }
+                    ],
+                    "correct": 2
+                }
+             ]            
+           }
           ]
         }
       ]
