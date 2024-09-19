@@ -2192,28 +2192,6 @@
                   "correct": 2
                 },
                 {
-                  "id": 20,
-                  "title": "Which protocol is used to dynamically assign IP addresses to devices on a network?",
-                  "answers": [
-                    { "id": 1, "answer": "ARP" },
-                    { "id": 2, "answer": "DNS" },
-                    { "id": 3, "answer": "DHCP" },
-                    { "id": 4, "answer": "NAT" }
-                  ],
-                  "correct": 3
-                },
-                {
-                  "id": 21,
-                  "title": "Which field in an IPv4 header is used to determine the destination of a packet?",
-                  "answers": [
-                    { "id": 1, "answer": "Source IP Address" },
-                    { "id": 2, "answer": "Destination IP Address" },
-                    { "id": 3, "answer": "Time-to-Live" },
-                    { "id": 4, "answer": "Header Checksum" }
-                  ],
-                  "correct": 2
-                },
-                {
                   "id": 22,
                   "title": "What does the Time-to-Live (TTL) field in an IP packet do?",
                   "answers": [
@@ -2223,17 +2201,6 @@
                     { "id": 4, "answer": "Defines the source of the packet" }
                   ],
                   "correct": 1
-                },
-                {
-                  "id": 23,
-                  "title": "In CIDR, what is used to define the size of a network and its subnet mask?",
-                  "answers": [
-                    { "id": 1, "answer": "IP Address Class" },
-                    { "id": 2, "answer": "Subnet Mask" },
-                    { "id": 3, "answer": "Prefix Length" },
-                    { "id": 4, "answer": "Gateway Address" }
-                  ],
-                  "correct": 3
                 },
                 {
                   "id": 24,
@@ -2410,17 +2377,6 @@
                       { "id": 4, "answer": "The port is deactivated" }
                     ],
                     "correct": 1
-                  },
-                  {
-                    "id": 40,
-                    "title": "How many total ports are available in TCP/IP networking?",
-                    "answers": [
-                      { "id": 1, "answer": "1024" },
-                      { "id": 2, "answer": "49152" },
-                      { "id": 3, "answer": "65535" },
-                      { "id": 4, "answer": "70000" }
-                    ],
-                    "correct": 3
                   },
                   {
                     "id": 41,
@@ -2641,7 +2597,30 @@
                       { "id": 4, "answer": "A software program for managing data transfers" }
                     ],
                     "correct": 2
+                  },
+                  {
+                    "id": 61,
+                    "title": "How many bits are used to represent TCP and UDP port numbers?",
+                    "answers": [
+                      { "id": 1, "answer": "8 bits" },
+                      { "id": 2, "answer": "16 bits" },
+                      { "id": 3, "answer": "32 bits" },
+                      { "id": 4, "answer": "64 bits" }
+                    ],
+                    "correct": 2
+                  },
+                  {
+                    "id": 62,
+                    "title": "What is the role of the PSH (Push) flag in TCP?",
+                    "answers": [
+                      { "id": 1, "answer": "Synchronize sequence numbers" },
+                      { "id": 2, "answer": "Push buffered data to the application immediately" },
+                      { "id": 3, "answer": "Finish the connection" },
+                      { "id": 4, "answer": "Acknowledge receipt of data" }
+                    ],
+                    "correct": 2
                   }
+                  
                 ]
              },
 	          {
@@ -2867,7 +2846,7 @@
                         { "id": 4, "answer": "The OSI model focuses on practical implementation" }
                     ],
                     "correct": 2
-                }
+                }  
              ]            
            }
           ]
