@@ -2850,6 +2850,823 @@
              ]            
            }
           ]
+        },
+        {
+          "id": "module4",
+          "title": "Module 4: Networking Services",
+          "subModules": [
+            {
+              "id": "module4-1",
+              "title": "Name Resolution",
+              "questions": [
+                {
+                    "id": 1,
+                    "title": "What is the primary purpose of DNS?",
+                    "answers": [
+                        { "id": 1, "answer": "To convert domain names into IP addresses" },
+                        { "id": 2, "answer": "To encrypt data" },
+                        { "id": 3, "answer": "To store website content" },
+                        { "id": 4, "answer": "To manage user accounts" }
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 2,
+                    "title": "Why do humans prefer domain names over IP addresses?",
+                    "answers": [
+                        { "id": 1, "answer": "IP addresses are easier to remember" },
+                        { "id": 2, "answer": "Domain names are more user-friendly" },
+                        { "id": 3, "answer": "IP addresses change frequently" },
+                        { "id": 4, "answer": "Domain names are shorter" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 3,
+                    "title": "What type of DNS server temporarily stores DNS lookups to speed up future queries?",
+                    "answers": [
+                        { "id": 1, "answer": "Authoritative Name Server" },
+                        { "id": 2, "answer": "Caching Name Server" },
+                        { "id": 3, "answer": "Recursive Name Server" },
+                        { "id": 4, "answer": "Root Name Server" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 4,
+                    "title": "Which protocol does DNS primarily use for queries?",
+                    "answers": [
+                        { "id": 1, "answer": "TCP" },
+                        { "id": 2, "answer": "UDP" },
+                        { "id": 3, "answer": "HTTP" },
+                        { "id": 4, "answer": "FTP" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 5,
+                    "title": "What does TTL stand for in DNS caching?",
+                    "answers": [
+                        { "id": 1, "answer": "Total Time Live" },
+                        { "id": 2, "answer": "Time To Live" },
+                        { "id": 3, "answer": "Transmission Time Limit" },
+                        { "id": 4, "answer": "Total Transmission Limit" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 6,
+                    "title": "What is a reverse proxy?",
+                    "answers": [
+                        { "id": 1, "answer": "A server that forwards requests to other servers" },
+                        { "id": 2, "answer": "A proxy that caches web pages" },
+                        { "id": 3, "answer": "A type of firewall" },
+                        { "id": 4, "answer": "A proxy that only serves local traffic" }
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 7,
+                    "title": "How does DNS handle changes in IP addresses?",
+                    "answers": [
+                        { "id": 1, "answer": "By requiring users to update their bookmarks" },
+                        { "id": 2, "answer": "By seamlessly updating the DNS record" },
+                        { "id": 3, "answer": "By creating new domain names" },
+                        { "id": 4, "answer": "By notifying users via email" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 8,
+                    "title": "What is the role of root name servers in DNS?",
+                    "answers": [
+                        { "id": 1, "answer": "To resolve all IP addresses" },
+                        { "id": 2, "answer": "To direct queries to TLD name servers" },
+                        { "id": 3, "answer": "To cache DNS responses" },
+                        { "id": 4, "answer": "To manage user accounts" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 9,
+                    "title": "What happens when a DNS query response is too large for UDP?",
+                    "answers": [
+                        { "id": 1, "answer": "The query fails" },
+                        { "id": 2, "answer": "TCP is used to complete the query" },
+                        { "id": 3, "answer": "The response is truncated" },
+                        { "id": 4, "answer": "The query is sent again" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 10,
+                    "title": "What is the main advantage of using caching in DNS?",
+                    "answers": [
+                        { "id": 1, "answer": "It reduces security risks" },
+                        { "id": 2, "answer": "It speeds up the browsing experience" },
+                        { "id": 3, "answer": "It increases the number of DNS queries" },
+                        { "id": 4, "answer": "It simplifies domain registration" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 11,
+                    "title": "Which component of DNS is responsible for the final IP address resolution?",
+                    "answers": [
+                        { "id": 1, "answer": "Root Name Server" },
+                        { "id": 2, "answer": "TLD Name Server" },
+                        { "id": 3, "answer": "Caching Name Server" },
+                        { "id": 4, "answer": "Authoritative Name Server" }
+                    ],
+                    "correct": 4
+                },
+                {
+                    "id": 12,
+                    "title": "Why is DNS critical to the internet?",
+                    "answers": [
+                        { "id": 1, "answer": "It stores all website content" },
+                        { "id": 2, "answer": "It ensures smooth connectivity without memorizing IPs" },
+                        { "id": 3, "answer": "It secures internet traffic" },
+                        { "id": 4, "answer": "It manages network devices" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 13,
+                    "title": "What does a recursive name server do?",
+                    "answers": [
+                        { "id": 1, "answer": "It caches DNS responses" },
+                        { "id": 2, "answer": "It performs the full DNS resolution process" },
+                        { "id": 3, "answer": "It manages user accounts" },
+                        { "id": 4, "answer": "It directs traffic to TLD servers" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 14,
+                    "title": "What is the benefit of geographic targeting in DNS?",
+                    "answers": [
+                        { "id": 1, "answer": "To restrict access to certain users" },
+                        { "id": 2, "answer": "To improve website security" },
+                        { "id": 3, "answer": "To reduce latency by connecting users to nearby servers" },
+                        { "id": 4, "answer": "To simplify domain registration" }
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id": 15,
+                    "title": "What type of queries does DNS primarily handle?",
+                    "answers": [
+                        { "id": 1, "answer": "Email queries" },
+                        { "id": 2, "answer": "Web traffic queries" },
+                        { "id": 3, "answer": "Database queries" },
+                        { "id": 4, "answer": "File transfer queries" }
+                    ],
+                    "correct": 2
+                }
+            ]
+            
+            },
+            {
+              "id": "module4-2",
+              "title": "Name Resolution in Practice",
+              "questions": [
+                {
+                    "id": 1,
+                    "title": "What is the final part of a domain name called?",
+                    "answers": [
+                        { "id": 1, "answer": "Subdomain" },
+                        { "id": 2, "answer": "Domain" },
+                        { "id": 3, "answer": "Top-Level Domain (TLD)" },
+                        { "id": 4, "answer": "Hostname" }
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id": 2,
+                    "title": "What is the purpose of the Top-Level Domain (TLD)?",
+                    "answers": [
+                        { "id": 1, "answer": "Indicates the highest level in the DNS hierarchy" },
+                        { "id": 2, "answer": "Identifies a specific service" },
+                        { "id": 3, "answer": "Provides a unique name" },
+                        { "id": 4, "answer": "Specifies a country" }
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 3,
+                    "title": "Who manages TLDs globally?",
+                    "answers": [
+                        { "id": 1, "answer": "IANA" },
+                        { "id": 2, "answer": "ICANN" },
+                        { "id": 3, "answer": "W3C" },
+                        { "id": 4, "answer": "NIST" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 4,
+                    "title": "What part of the domain name does 'google' represent in www.google.com?",
+                    "answers": [
+                        { "id": 1, "answer": "Top-Level Domain" },
+                        { "id": 2, "answer": "Subdomain" },
+                        { "id": 3, "answer": "Domain" },
+                        { "id": 4, "answer": "Hostname" }
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id": 5,
+                    "title": "What is a Fully Qualified Domain Name (FQDN)?",
+                    "answers": [
+                        { "id": 1, "answer": "A domain without a TLD" },
+                        { "id": 2, "answer": "The complete address required to locate a specific host" },
+                        { "id": 3, "answer": "A shorthand for domain names" },
+                        { "id": 4, "answer": "A type of subdomain" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 6,
+                    "title": "What is the character limit for each part of a domain name?",
+                    "answers": [
+                        { "id": 1, "answer": "50 characters" },
+                        { "id": 2, "answer": "63 characters" },
+                        { "id": 3, "answer": "255 characters" },
+                        { "id": 4, "answer": "75 characters" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 7,
+                    "title": "What do registrars do?",
+                    "answers": [
+                        { "id": 1, "answer": "Create subdomains" },
+                        { "id": 2, "answer": "Sell and register domain names" },
+                        { "id": 3, "answer": "Manage DNS servers" },
+                        { "id": 4, "answer": "Provide internet connectivity" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 8,
+                    "title": "What happens when a domain is queried?",
+                    "answers": [
+                        { "id": 1, "answer": "The IP address is retrieved directly" },
+                        { "id": 2, "answer": "The DNS resolver queries a root name server" },
+                        { "id": 3, "answer": "The query is sent to a web browser" },
+                        { "id": 4, "answer": "The domain is permanently cached" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 9,
+                    "title": "What does DNS stand for?",
+                    "answers": [
+                        { "id": 1, "answer": "Domain Name Service" },
+                        { "id": 2, "answer": "Domain Naming System" },
+                        { "id": 3, "answer": "Domain Name System" },
+                        { "id": 4, "answer": "Dynamic Name Service" }
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id": 10,
+                    "title": "What is a characteristic of a subdomain?",
+                    "answers": [
+                        { "id": 1, "answer": "It must be registered separately" },
+                        { "id": 2, "answer": "It can differentiate services under a domain" },
+                        { "id": 3, "answer": "It is always required for a domain" },
+                        { "id": 4, "answer": "It indicates the domain's age" }
+                    ],
+                    "correct": 2
+                },
+                [
+                  {
+                      "id": 11,
+                      "title": "What is the maximum number of levels of subdomains that DNS can technically support?",
+                      "answers": [
+                          { "id": 1, "answer": "63" },
+                          { "id": 2, "answer": "127" },
+                          { "id": 3, "answer": "255" },
+                          { "id": 4, "answer": "512" }
+                      ],
+                      "correct": 2
+                  },
+                  {
+                      "id": 12,
+                      "title": "What is a Fully Qualified Domain Name (FQDN)?",
+                      "answers": [
+                          { "id": 1, "answer": "A domain name without a TLD" },
+                          { "id": 2, "answer": "A complete domain name including subdomain and TLD" },
+                          { "id": 3, "answer": "Any domain name with multiple subdomains" },
+                          { "id": 4, "answer": "A temporary domain name" }
+                      ],
+                      "correct": 2
+                  },
+                  {
+                      "id": 13,
+                      "title": "What is the purpose of delegating authority in DNS zones?",
+                      "answers": [
+                          { "id": 1, "answer": "To simplify management and improve performance" },
+                          { "id": 2, "answer": "To create more subdomains" },
+                          { "id": 3, "answer": "To increase DNS query speeds" },
+                          { "id": 4, "answer": "To reduce the number of DNS servers" }
+                      ],
+                      "correct": 1
+                  },
+                  {
+                      "id": 14,
+                      "title": "What does the NS record specify in a zone file?",
+                      "answers": [
+                          { "id": 1, "answer": "The IP address of the zone" },
+                          { "id": 2, "answer": "The authoritative name servers for the zone" },
+                          { "id": 3, "answer": "The time-to-live for records" },
+                          { "id": 4, "answer": "The serial number of the zone file" }
+                      ],
+                      "correct": 2
+                  },
+                  {
+                      "id": 15,
+                      "title": "Why is the hierarchical structure of DNS zones important?",
+                      "answers": [
+                          { "id": 1, "answer": "It allows for better search engine rankings" },
+                          { "id": 2, "answer": "It ensures stability and security in name resolution" },
+                          { "id": 3, "answer": "It increases the number of domains available" },
+                          { "id": 4, "answer": "It reduces DNS lookup times" }
+                      ],
+                      "correct": 2
+                  }
+              ]
+              
+            ]
+            
+            },
+            {
+              "id": "module4-3",
+              "title": "Dynamic Host Configuration Protocol",
+              "questions": [
+                {
+                    "id": 1,
+                    "title": "What is the primary function of DHCP?",
+                    "answers": [
+                        { "id": 1, "answer": "To manually assign IP addresses to devices" },
+                        { "id": 2, "answer": "To automate the assignment of IP addresses and network settings" },
+                        { "id": 3, "answer": "To configure firewalls on a network" },
+                        { "id": 4, "answer": "To monitor network traffic" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 2,
+                    "title": "What are the key settings DHCP configures for a device?",
+                    "answers": [
+                        { "id": 1, "answer": "IP address, subnet mask, gateway, and DNS server" },
+                        { "id": 2, "answer": "IP address, MAC address, and device name" },
+                        { "id": 3, "answer": "Hostname, domain name, and firewall settings" },
+                        { "id": 4, "answer": "IP address, routing table, and NTP server" }
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 3,
+                    "title": "What does DHCP do to prevent IP conflicts?",
+                    "answers": [
+                        { "id": 1, "answer": "Automatically changes IP addresses" },
+                        { "id": 2, "answer": "Manages IP address distribution from a pool" },
+                        { "id": 3, "answer": "Requires manual approval for IP assignments" },
+                        { "id": 4, "answer": "Uses static IP addresses for all devices" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 4,
+                    "title": "Which of the following is a type of DHCP allocation?",
+                    "answers": [
+                        { "id": 1, "answer": "Static Allocation" },
+                        { "id": 2, "answer": "Dynamic Allocation" },
+                        { "id": 3, "answer": "Private Allocation" },
+                        { "id": 4, "answer": "Public Allocation" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 5,
+                    "title": "What does a DHCP lease represent?",
+                    "answers": [
+                        { "id": 1, "answer": "A permanent IP address assignment" },
+                        { "id": 2, "answer": "The expiration time of an assigned IP address" },
+                        { "id": 3, "answer": "A record of all IP addresses used in the network" },
+                        { "id": 4, "answer": "A backup of the DHCP server configuration" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 6,
+                    "title": "How does a DHCP client initially find a DHCP server?",
+                    "answers": [
+                        { "id": 1, "answer": "By sending a unicast message to the server" },
+                        { "id": 2, "answer": "By broadcasting a DHCP Discover message" },
+                        { "id": 3, "answer": "By searching a local database" },
+                        { "id": 4, "answer": "By using a DNS query" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 7,
+                    "title": "Which protocol does DHCP primarily use for communication?",
+                    "answers": [
+                        { "id": 1, "answer": "TCP" },
+                        { "id": 2, "answer": "UDP" },
+                        { "id": 3, "answer": "ICMP" },
+                        { "id": 4, "answer": "HTTP" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 8,
+                    "title": "What is the main advantage of using fixed allocation in DHCP?",
+                    "answers": [
+                        { "id": 1, "answer": "It provides random IP addresses" },
+                        { "id": 2, "answer": "It assigns the same IP address to a device based on its MAC address" },
+                        { "id": 3, "answer": "It prevents any IP address from being reused" },
+                        { "id": 4, "answer": "It requires manual input for every IP assignment" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 9,
+                    "title": "What can DHCP also configure besides IP addresses?",
+                    "answers": [
+                        { "id": 1, "answer": "Only gateway addresses" },
+                        { "id": 2, "answer": "Network Time Protocol (NTP) servers" },
+                        { "id": 3, "answer": "Static routes" },
+                        { "id": 4, "answer": "Firewall rules" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 10,
+                    "title": "How does DHCP contribute to network security?",
+                    "answers": [
+                        { "id": 1, "answer": "By automatically blocking unauthorized devices" },
+                        { "id": 2, "answer": "By using fixed allocation to restrict IP assignment" },
+                        { "id": 3, "answer": "By encrypting DHCP messages" },
+                        { "id": 4, "answer": "By ensuring all devices use static IP addresses" }
+                    ],
+                    "correct": 2
+                }
+            ]
+            
+            },
+            {
+              "id": "module4-4",
+              "title": "Network Address Translation",
+              "questions": [
+                {
+                    "id": 1,
+                    "title": "What is the primary purpose of Network Address Translation (NAT)?",
+                    "answers": [
+                        { "id": 1, "answer": "To assign static IP addresses" },
+                        { "id": 2, "answer": "To manage IP addresses and enhance security" },
+                        { "id": 3, "answer": "To monitor network traffic" },
+                        { "id": 4, "answer": "To speed up data transmission" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 2,
+                    "title": "How does NAT handle outbound IP datagrams?",
+                    "answers": [
+                        { "id": 1, "answer": "It forwards them without modification" },
+                        { "id": 2, "answer": "It modifies the source IP address" },
+                        { "id": 3, "answer": "It encrypts the data" },
+                        { "id": 4, "answer": "It assigns a new destination IP" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 3,
+                    "title": "What benefit does NAT provide in terms of IP address visibility?",
+                    "answers": [
+                        { "id": 1, "answer": "It reveals internal IP addresses" },
+                        { "id": 2, "answer": "It hides internal IP addresses" },
+                        { "id": 3, "answer": "It converts IP addresses to domain names" },
+                        { "id": 4, "answer": "It allows direct access to internal devices" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 4,
+                    "title": "What is port preservation in the context of NAT?",
+                    "answers": [
+                        { "id": 1, "answer": "Changing the source port for all outbound connections" },
+                        { "id": 2, "answer": "Maintaining the same source port for return traffic" },
+                        { "id": 3, "answer": "Blocking specific ports" },
+                        { "id": 4, "answer": "Assigning random ports to devices" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 5,
+                    "title": "What is one key advantage of using IPv6 over IPv4?",
+                    "answers": [
+                        { "id": 1, "answer": "IPv6 addresses are shorter" },
+                        { "id": 2, "answer": "IPv6 provides an inexhaustible number of addresses" },
+                        { "id": 3, "answer": "IPv6 uses less bandwidth" },
+                        { "id": 4, "answer": "IPv6 is easier to configure" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 6,
+                    "title": "What does IANA stand for?",
+                    "answers": [
+                        { "id": 1, "answer": "Internet Address Naming Authority" },
+                        { "id": 2, "answer": "Internet Assigned Numbers Authority" },
+                        { "id": 3, "answer": "International Network Association" },
+                        { "id": 4, "answer": "Internet Allocation Number Authority" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 7,
+                    "title": "Which organization manages regional internet resources within a geographical area?",
+                    "answers": [
+                        { "id": 1, "answer": "IANA" },
+                        { "id": 2, "answer": "RIR (Regional Internet Registry)" },
+                        { "id": 3, "answer": "ICANN" },
+                        { "id": 4, "answer": "IEEE" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 8,
+                    "title": "What event marked the exhaustion of the last unallocated /8 IPv4 addresses?",
+                    "answers": [
+                        { "id": 1, "answer": "February 3, 2011" },
+                        { "id": 2, "answer": "April 1, 2011" },
+                        { "id": 3, "answer": "September 1, 2012" },
+                        { "id": 4, "answer": "June 30, 2014" }
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 9,
+                    "title": "What is one method NAT uses to prevent port conflicts?",
+                    "answers": [
+                        { "id": 1, "answer": "By blocking duplicate ports" },
+                        { "id": 2, "answer": "By assigning unused ports to one of the devices" },
+                        { "id": 3, "answer": "By allowing only static ports" },
+                        { "id": 4, "answer": "By randomizing all ports" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 10,
+                    "title": "What does a DHCP lease represent?",
+                    "answers": [
+                        { "id": 1, "answer": "A temporary IP address assignment" },
+                        { "id": 2, "answer": "A permanent IP address assignment" },
+                        { "id": 3, "answer": "An IP address reserved for a specific device" },
+                        { "id": 4, "answer": "A record of IP address history" }
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 11,
+                    "title": "Which of the following best describes the NAT process for handling responses?",
+                    "answers": [
+                        { "id": 1, "answer": "It forwards responses without any modification" },
+                        { "id": 2, "answer": "It rewrites the destination IP address based on its table" },
+                        { "id": 3, "answer": "It ignores incoming responses" },
+                        { "id": 4, "answer": "It sends responses back to the originating external IP" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 12,
+                    "title": "What is a common limitation of IPv4?",
+                    "answers": [
+                        { "id": 1, "answer": "Limited address space" },
+                        { "id": 2, "answer": "Inability to route traffic" },
+                        { "id": 3, "answer": "Too many characters in the address" },
+                        { "id": 4, "answer": "Incompatibility with local networks" }
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 13,
+                    "title": "How does IPv6 solve the issues of IPv4 exhaustion?",
+                    "answers": [
+                        { "id": 1, "answer": "By using a 64-bit address scheme" },
+                        { "id": 2, "answer": "By using a 128-bit address scheme" },
+                        { "id": 3, "answer": "By recycling old addresses" },
+                        { "id": 4, "answer": "By limiting the number of connected devices" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 14,
+                    "title": "What is one method that organizations use to manage services behind NAT?",
+                    "answers": [
+                        { "id": 1, "answer": "Service Blocking" },
+                        { "id": 2, "answer": "Port Forwarding" },
+                        { "id": 3, "answer": "IP Filtering" },
+                        { "id": 4, "answer": "Address Binding" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 15,
+                    "title": "Which RIR covers the USA, Canada, and parts of the Caribbean?",
+                    "answers": [
+                        { "id": 1, "answer": "AFRINIC" },
+                        { "id": 2, "answer": "ARIN" },
+                        { "id": 3, "answer": "RIPE" },
+                        { "id": 4, "answer": "APNIC" }
+                    ],
+                    "correct": 2
+                }
+            ]
+            
+            },
+            {
+              "id": "module4-5",
+              "title": "VPNs and Proxies",
+              "questions": [
+                {
+                    "id": 1,
+                    "title": "What is the primary function of a VPN?",
+                    "answers": [
+                        { "id": 1, "answer": "To speed up internet connections" },
+                        { "id": 2, "answer": "To provide secure remote access to internal networks" },
+                        { "id": 3, "answer": "To block unwanted traffic" },
+                        { "id": 4, "answer": "To enhance network performance" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 2,
+                    "title": "What does tunneling in a VPN do?",
+                    "answers": [
+                        { "id": 1, "answer": "Creates a secure path for data transmission" },
+                        { "id": 2, "answer": "Increases the speed of data transfer" },
+                        { "id": 3, "answer": "Removes all headers from packets" },
+                        { "id": 4, "answer": "Splits data into smaller packets" }
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 3,
+                    "title": "How does encryption in a VPN enhance security?",
+                    "answers": [
+                        { "id": 1, "answer": "It compresses data" },
+                        { "id": 2, "answer": "It converts data into an unreadable format for unauthorized users" },
+                        { "id": 3, "answer": "It speeds up data transmission" },
+                        { "id": 4, "answer": "It monitors incoming traffic" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 4,
+                    "title": "What is a common requirement for VPN authentication?",
+                    "answers": [
+                        { "id": 1, "answer": "Username and password only" },
+                        { "id": 2, "answer": "Two-factor authentication (2FA)" },
+                        { "id": 3, "answer": "IP address verification only" },
+                        { "id": 4, "answer": "Biometric scanning" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 5,
+                    "title": "What distinguishes a remote access VPN from a site-to-site VPN?",
+                    "answers": [
+                        { "id": 1, "answer": "Remote access VPNs connect entire networks" },
+                        { "id": 2, "answer": "Remote access VPNs connect individual users to a private network" },
+                        { "id": 3, "answer": "Site-to-site VPNs are less secure" },
+                        { "id": 4, "answer": "Site-to-site VPNs are more expensive" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 6,
+                    "title": "What is the main purpose of a web proxy?",
+                    "answers": [
+                        { "id": 1, "answer": "To provide secure email services" },
+                        { "id": 2, "answer": "To cache web pages and improve performance" },
+                        { "id": 3, "answer": "To create VPN tunnels" },
+                        { "id": 4, "answer": "To manage network traffic" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 7,
+                    "title": "What is a reverse proxy primarily used for?",
+                    "answers": [
+                        { "id": 1, "answer": "To connect individual devices to the internet" },
+                        { "id": 2, "answer": "To distribute incoming requests to multiple servers" },
+                        { "id": 3, "answer": "To encrypt all outbound traffic" },
+                        { "id": 4, "answer": "To monitor user activity" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 8,
+                    "title": "Which of the following is NOT a benefit of using proxies?",
+                    "answers": [
+                        { "id": 1, "answer": "Anonymity" },
+                        { "id": 2, "answer": "Direct access to internal resources" },
+                        { "id": 3, "answer": "Content filtering" },
+                        { "id": 4, "answer": "Performance enhancements" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 9,
+                    "title": "How can proxies enhance network performance?",
+                    "answers": [
+                        { "id": 1, "answer": "By encrypting all traffic" },
+                        { "id": 2, "answer": "Through caching frequently accessed content" },
+                        { "id": 3, "answer": "By blocking all outgoing traffic" },
+                        { "id": 4, "answer": "By managing bandwidth limits" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 10,
+                    "title": "What kind of connectivity do site-to-site VPNs provide?",
+                    "answers": [
+                        { "id": 1, "answer": "Connection for individual devices to the internet" },
+                        { "id": 2, "answer": "Connectivity between entire networks" },
+                        { "id": 3, "answer": "Direct access to cloud services" },
+                        { "id": 4, "answer": "Peer-to-peer connections" }
+                    ],
+                    "correct": 2
+                },
+                [
+                  {
+                      "id": 11,
+                      "title": "What is the primary function of a gateway router?",
+                      "answers": [
+                          { "id": 1, "answer": "To connect different networks and manage traffic between them" },
+                          { "id": 2, "answer": "To provide Wi-Fi access to devices" },
+                          { "id": 3, "answer": "To cache web pages for faster access" },
+                          { "id": 4, "answer": "To encrypt all outgoing data" }
+                      ],
+                      "correct": 1
+                  },
+                  {
+                      "id": 12,
+                      "title": "How do gateway routers perform Network Address Translation (NAT)?",
+                      "answers": [
+                          { "id": 1, "answer": "By converting private IP addresses to a public IP address" },
+                          { "id": 2, "answer": "By encrypting all data packets" },
+                          { "id": 3, "answer": "By blocking all incoming traffic" },
+                          { "id": 4, "answer": "By assigning static IP addresses to devices" }
+                      ],
+                      "correct": 1
+                  },
+                  {
+                      "id": 13,
+                      "title": "What role do gateway routers play in network security?",
+                      "answers": [
+                          { "id": 1, "answer": "They monitor user activity and prevent all network access" },
+                          { "id": 2, "answer": "They filter out malicious traffic and manage incoming/outgoing data" },
+                          { "id": 3, "answer": "They only connect devices to the internet" },
+                          { "id": 4, "answer": "They manage Wi-Fi passwords for users" }
+                      ],
+                      "correct": 2
+                  },
+                  {
+                      "id": 14,
+                      "title": "Which statement is true about gateway routers?",
+                      "answers": [
+                          { "id": 1, "answer": "They only work with static IP addresses" },
+                          { "id": 2, "answer": "They can perform NAT and connect different networks" },
+                          { "id": 3, "answer": "They are only used in large organizations" },
+                          { "id": 4, "answer": "They provide end-to-end encryption for all traffic" }
+                      ],
+                      "correct": 2
+                  },
+                  {
+                      "id": 15,
+                      "title": "What happens when a gateway router receives a packet addressed to a different network?",
+                      "answers": [
+                          { "id": 1, "answer": "It drops the packet" },
+                          { "id": 2, "answer": "It modifies the destination IP and forwards it to the correct network" },
+                          { "id": 3, "answer": "It sends an error message back to the sender" },
+                          { "id": 4, "answer": "It caches the packet for later use" }
+                      ],
+                      "correct": 2
+                  }
+              ]
+              
+            ]
+            
+            }
+          ]
         }
       ]
     }
