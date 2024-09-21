@@ -3032,176 +3032,173 @@
               "title": "Name Resolution in Practice",
               "questions": [
                 {
-                    "id": 1,
-                    "title": "What is the final part of a domain name called?",
-                    "answers": [
-                        { "id": 1, "answer": "Subdomain" },
-                        { "id": 2, "answer": "Domain" },
-                        { "id": 3, "answer": "Top-Level Domain (TLD)" },
-                        { "id": 4, "answer": "Hostname" }
-                    ],
-                    "correct": 3
+                  "id": 1,
+                  "title": "What is the final part of a domain name called?",
+                  "answers": [
+                    { "id": 1, "answer": "Subdomain" },
+                    { "id": 2, "answer": "Domain" },
+                    { "id": 3, "answer": "Top-Level Domain (TLD)" },
+                    { "id": 4, "answer": "Hostname" }
+                  ],
+                  "correct": 3
                 },
                 {
-                    "id": 2,
-                    "title": "What is the purpose of the Top-Level Domain (TLD)?",
-                    "answers": [
-                        { "id": 1, "answer": "Indicates the highest level in the DNS hierarchy" },
-                        { "id": 2, "answer": "Identifies a specific service" },
-                        { "id": 3, "answer": "Provides a unique name" },
-                        { "id": 4, "answer": "Specifies a country" }
-                    ],
-                    "correct": 1
+                  "id": 2,
+                  "title": "What is the purpose of the Top-Level Domain (TLD)?",
+                  "answers": [
+                    { "id": 1, "answer": "Indicates the highest level in the DNS hierarchy" },
+                    { "id": 2, "answer": "Identifies a specific service" },
+                    { "id": 3, "answer": "Provides a unique name" },
+                    { "id": 4, "answer": "Specifies a country" }
+                  ],
+                  "correct": 1
                 },
                 {
-                    "id": 3,
-                    "title": "Who manages TLDs globally?",
-                    "answers": [
-                        { "id": 1, "answer": "IANA" },
-                        { "id": 2, "answer": "ICANN" },
-                        { "id": 3, "answer": "W3C" },
-                        { "id": 4, "answer": "NIST" }
-                    ],
-                    "correct": 2
+                  "id": 3,
+                  "title": "Who manages TLDs globally?",
+                  "answers": [
+                    { "id": 1, "answer": "IANA" },
+                    { "id": 2, "answer": "ICANN" },
+                    { "id": 3, "answer": "W3C" },
+                    { "id": 4, "answer": "NIST" }
+                  ],
+                  "correct": 2
                 },
                 {
-                    "id": 4,
-                    "title": "What part of the domain name does 'google' represent in www.google.com?",
-                    "answers": [
-                        { "id": 1, "answer": "Top-Level Domain" },
-                        { "id": 2, "answer": "Subdomain" },
-                        { "id": 3, "answer": "Domain" },
-                        { "id": 4, "answer": "Hostname" }
-                    ],
-                    "correct": 3
+                  "id": 4,
+                  "title": "What part of the domain name does 'google' represent in www.google.com?",
+                  "answers": [
+                    { "id": 1, "answer": "Top-Level Domain" },
+                    { "id": 2, "answer": "Subdomain" },
+                    { "id": 3, "answer": "Domain" },
+                    { "id": 4, "answer": "Hostname" }
+                  ],
+                  "correct": 3
                 },
                 {
-                    "id": 5,
-                    "title": "What is a Fully Qualified Domain Name (FQDN)?",
-                    "answers": [
-                        { "id": 1, "answer": "A domain without a TLD" },
-                        { "id": 2, "answer": "The complete address required to locate a specific host" },
-                        { "id": 3, "answer": "A shorthand for domain names" },
-                        { "id": 4, "answer": "A type of subdomain" }
-                    ],
-                    "correct": 2
+                  "id": 5,
+                  "title": "What is a Fully Qualified Domain Name (FQDN)?",
+                  "answers": [
+                    { "id": 1, "answer": "A domain without a TLD" },
+                    { "id": 2, "answer": "The complete address required to locate a specific host" },
+                    { "id": 3, "answer": "A shorthand for domain names" },
+                    { "id": 4, "answer": "A type of subdomain" }
+                  ],
+                  "correct": 2
                 },
                 {
-                    "id": 6,
-                    "title": "What is the character limit for each part of a domain name?",
-                    "answers": [
-                        { "id": 1, "answer": "50 characters" },
-                        { "id": 2, "answer": "63 characters" },
-                        { "id": 3, "answer": "255 characters" },
-                        { "id": 4, "answer": "75 characters" }
-                    ],
-                    "correct": 2
+                  "id": 6,
+                  "title": "What is the character limit for each part of a domain name?",
+                  "answers": [
+                    { "id": 1, "answer": "50 characters" },
+                    { "id": 2, "answer": "63 characters" },
+                    { "id": 3, "answer": "255 characters" },
+                    { "id": 4, "answer": "75 characters" }
+                  ],
+                  "correct": 2
                 },
                 {
-                    "id": 7,
-                    "title": "What do registrars do?",
-                    "answers": [
-                        { "id": 1, "answer": "Create subdomains" },
-                        { "id": 2, "answer": "Sell and register domain names" },
-                        { "id": 3, "answer": "Manage DNS servers" },
-                        { "id": 4, "answer": "Provide internet connectivity" }
-                    ],
-                    "correct": 2
+                  "id": 7,
+                  "title": "What do registrars do?",
+                  "answers": [
+                    { "id": 1, "answer": "Create subdomains" },
+                    { "id": 2, "answer": "Sell and register domain names" },
+                    { "id": 3, "answer": "Manage DNS servers" },
+                    { "id": 4, "answer": "Provide internet connectivity" }
+                  ],
+                  "correct": 2
                 },
                 {
-                    "id": 8,
-                    "title": "What happens when a domain is queried?",
-                    "answers": [
-                        { "id": 1, "answer": "The IP address is retrieved directly" },
-                        { "id": 2, "answer": "The DNS resolver queries a root name server" },
-                        { "id": 3, "answer": "The query is sent to a web browser" },
-                        { "id": 4, "answer": "The domain is permanently cached" }
-                    ],
-                    "correct": 2
+                  "id": 8,
+                  "title": "What happens when a domain is queried?",
+                  "answers": [
+                    { "id": 1, "answer": "The IP address is retrieved directly" },
+                    { "id": 2, "answer": "The DNS resolver queries a root name server" },
+                    { "id": 3, "answer": "The query is sent to a web browser" },
+                    { "id": 4, "answer": "The domain is permanently cached" }
+                  ],
+                  "correct": 2
                 },
                 {
-                    "id": 9,
-                    "title": "What does DNS stand for?",
-                    "answers": [
-                        { "id": 1, "answer": "Domain Name Service" },
-                        { "id": 2, "answer": "Domain Naming System" },
-                        { "id": 3, "answer": "Domain Name System" },
-                        { "id": 4, "answer": "Dynamic Name Service" }
-                    ],
-                    "correct": 3
+                  "id": 9,
+                  "title": "What does DNS stand for?",
+                  "answers": [
+                    { "id": 1, "answer": "Domain Name Service" },
+                    { "id": 2, "answer": "Domain Naming System" },
+                    { "id": 3, "answer": "Domain Name System" },
+                    { "id": 4, "answer": "Dynamic Name Service" }
+                  ],
+                  "correct": 3
                 },
                 {
-                    "id": 10,
-                    "title": "What is a characteristic of a subdomain?",
-                    "answers": [
-                        { "id": 1, "answer": "It must be registered separately" },
-                        { "id": 2, "answer": "It can differentiate services under a domain" },
-                        { "id": 3, "answer": "It is always required for a domain" },
-                        { "id": 4, "answer": "It indicates the domain's age" }
-                    ],
-                    "correct": 2
+                  "id": 10,
+                  "title": "What is a characteristic of a subdomain?",
+                  "answers": [
+                    { "id": 1, "answer": "It must be registered separately" },
+                    { "id": 2, "answer": "It can differentiate services under a domain" },
+                    { "id": 3, "answer": "It is always required for a domain" },
+                    { "id": 4, "answer": "It indicates the domain's age" }
+                  ],
+                  "correct": 2
                 },
-                [
-                  {
-                      "id": 11,
-                      "title": "What is the maximum number of levels of subdomains that DNS can technically support?",
-                      "answers": [
-                          { "id": 1, "answer": "63" },
-                          { "id": 2, "answer": "127" },
-                          { "id": 3, "answer": "255" },
-                          { "id": 4, "answer": "512" }
-                      ],
-                      "correct": 2
-                  },
-                  {
-                      "id": 12,
-                      "title": "What is a Fully Qualified Domain Name (FQDN)?",
-                      "answers": [
-                          { "id": 1, "answer": "A domain name without a TLD" },
-                          { "id": 2, "answer": "A complete domain name including subdomain and TLD" },
-                          { "id": 3, "answer": "Any domain name with multiple subdomains" },
-                          { "id": 4, "answer": "A temporary domain name" }
-                      ],
-                      "correct": 2
-                  },
-                  {
-                      "id": 13,
-                      "title": "What is the purpose of delegating authority in DNS zones?",
-                      "answers": [
-                          { "id": 1, "answer": "To simplify management and improve performance" },
-                          { "id": 2, "answer": "To create more subdomains" },
-                          { "id": 3, "answer": "To increase DNS query speeds" },
-                          { "id": 4, "answer": "To reduce the number of DNS servers" }
-                      ],
-                      "correct": 1
-                  },
-                  {
-                      "id": 14,
-                      "title": "What does the NS record specify in a zone file?",
-                      "answers": [
-                          { "id": 1, "answer": "The IP address of the zone" },
-                          { "id": 2, "answer": "The authoritative name servers for the zone" },
-                          { "id": 3, "answer": "The time-to-live for records" },
-                          { "id": 4, "answer": "The serial number of the zone file" }
-                      ],
-                      "correct": 2
-                  },
-                  {
-                      "id": 15,
-                      "title": "Why is the hierarchical structure of DNS zones important?",
-                      "answers": [
-                          { "id": 1, "answer": "It allows for better search engine rankings" },
-                          { "id": 2, "answer": "It ensures stability and security in name resolution" },
-                          { "id": 3, "answer": "It increases the number of domains available" },
-                          { "id": 4, "answer": "It reduces DNS lookup times" }
-                      ],
-                      "correct": 2
-                  }
+                {
+                  "id": 11,
+                  "title": "What is the maximum number of levels of subdomains that DNS can technically support?",
+                  "answers": [
+                    { "id": 1, "answer": "63" },
+                    { "id": 2, "answer": "127" },
+                    { "id": 3, "answer": "255" },
+                    { "id": 4, "answer": "512" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 12,
+                  "title": "What defines a complete domain name in the DNS hierarchy?",
+                  "answers": [
+                    { "id": 1, "answer": "A domain name without a TLD" },
+                    { "id": 2, "answer": "A complete domain name including subdomain and TLD" },
+                    { "id": 3, "answer": "Any domain name with multiple subdomains" },
+                    { "id": 4, "answer": "A temporary domain name" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 13,
+                  "title": "What is the purpose of delegating authority in DNS zones?",
+                  "answers": [
+                    { "id": 1, "answer": "To simplify management and improve performance" },
+                    { "id": 2, "answer": "To create more subdomains" },
+                    { "id": 3, "answer": "To increase DNS query speeds" },
+                    { "id": 4, "answer": "To reduce the number of DNS servers" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 14,
+                  "title": "What does the NS record specify in a zone file?",
+                  "answers": [
+                    { "id": 1, "answer": "The IP address of the zone" },
+                    { "id": 2, "answer": "The authoritative name servers for the zone" },
+                    { "id": 3, "answer": "The time-to-live for records" },
+                    { "id": 4, "answer": "The serial number of the zone file" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 15,
+                  "title": "Why is the hierarchical structure of DNS zones important?",
+                  "answers": [
+                    { "id": 1, "answer": "It allows for better search engine rankings" },
+                    { "id": 2, "answer": "It ensures stability and security in name resolution" },
+                    { "id": 3, "answer": "It increases the number of domains available" },
+                    { "id": 4, "answer": "It reduces DNS lookup times" }
+                  ],
+                  "correct": 2
+                }
               ]
-              
-            ]
-            
             },
+            
             {
               "id": "module4-3",
               "title": "Dynamic Host Configuration Protocol",
@@ -3605,7 +3602,7 @@
                     ],
                     "correct": 2
                 },
-                [
+                
                   {
                       "id": 11,
                       "title": "What is the primary function of a gateway router?",
@@ -3661,11 +3658,8 @@
                       ],
                       "correct": 2
                   }
-              ]
-              
-            ]
-            
-            }
+                ]
+              }
           ]
         }
       ]
