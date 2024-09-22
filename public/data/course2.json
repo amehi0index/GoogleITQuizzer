@@ -3195,7 +3195,193 @@
                     { "id": 4, "answer": "It reduces DNS lookup times" }
                   ],
                   "correct": 2
+                }, {
+                  "id": 16,
+                  "title": "What is the purpose of an A Record?",
+                  "answers": [
+                    { "id": 1, "answer": "Maps a domain to an IPv6 address" },
+                    { "id": 2, "answer": "Maps a domain to an IPv4 address" },
+                    { "id": 3, "answer": "Redirects traffic from one domain to another" },
+                    { "id": 4, "answer": "Directs email to the correct mail server" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 17,
+                  "title": "What is the function of an AAAA Record?",
+                  "answers": [
+                    { "id": 1, "answer": "Maps a domain to an IPv4 address" },
+                    { "id": 2, "answer": "Maps a domain to an IPv6 address" },
+                    { "id": 3, "answer": "Redirects traffic from one domain to another" },
+                    { "id": 4, "answer": "Directs email to the correct mail server" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id":18,
+                  "title": "What does a CNAME Record do?",
+                  "answers": [
+                    { "id": 1, "answer": "Maps a domain to an IPv4 address" },
+                    { "id": 2, "answer": "Redirects traffic from one domain to another domain" },
+                    { "id": 3, "answer": "Directs email to the correct mail server" },
+                    { "id": 4, "answer": "Defines the location of services other than mail" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 19,
+                  "title": "What is the role of an MX Record?",
+                  "answers": [
+                    { "id": 1, "answer": "Maps a domain to an IPv4 address" },
+                    { "id": 2, "answer": "Directs email to the correct mail server" },
+                    { "id": 3, "answer": "Redirects traffic from one domain to another domain" },
+                    { "id": 4, "answer": "Defines the location of services other than mail" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 20,
+                  "title": "What is an SRV Record used for?",
+                  "answers": [
+                    { "id": 1, "answer": "Maps a domain to an IPv6 address" },
+                    { "id": 2, "answer": "Directs email to the correct mail server" },
+                    { "id": 3, "answer": "Defines the location of services other than mail" },
+                    { "id": 4, "answer": "Stores machine-readable configuration data" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 21,
+                  "title": "What is the purpose of a TXT Record?",
+                  "answers": [
+                    { "id": 1, "answer": "Defines the location of services other than mail" },
+                    { "id": 2, "answer": "Stores machine-readable configuration data" },
+                    { "id": 3, "answer": "Directs email to the correct mail server" },
+                    { "id": 4, "answer": "Specifies the authoritative name servers for a domain" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id":22,
+                  "title": "What is the function of an NS Record?",
+                  "answers": [
+                    { "id": 1, "answer": "Maps a domain to an IPv4 address" },
+                    { "id": 2, "answer": "Specifies the authoritative name servers for a domain" },
+                    { "id": 3, "answer": "Directs email to the correct mail server" },
+                    { "id": 4, "answer": "Stores machine-readable configuration data" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 23,
+                  "title": "What is an SOA Record?",
+                  "answers": [
+                    { "id": 1, "answer": "Maps a domain to an IPv6 address" },
+                    { "id": 2, "answer": "Contains administrative information about the DNS zone" },
+                    { "id": 3, "answer": "Defines the location of services other than mail" },
+                    { "id": 4, "answer": "Specifies the authoritative name servers for a domain" }
+                  ],
+                  "correct": 2
+                },{
+                  "id": 24,
+                  "title": "What is a zone file?",
+                  "answers": [
+                    { "id": 1, "answer": "A configuration file that contains all DNS records for a specific zone" },
+                    { "id": 2, "answer": "A record for redirecting traffic from one domain to another" },
+                    { "id": 3, "answer": "A file that maps IPv6 addresses to domain names" },
+                    { "id": 4, "answer": "A server record that manages domain forwarding" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 25,
+                  "title": "What type of DNS record must every zone file contain?",
+                  "answers": [
+                    { "id": 1, "answer": "A Record" },
+                    { "id": 2, "answer": "NS Record" },
+                    { "id": 3, "answer": "SOA Record" },
+                    { "id": 4, "answer": "MX Record" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 26,
+                  "title": "What is the purpose of NS Records in a zone file?",
+                  "answers": [
+                    { "id": 1, "answer": "To map a domain name to an IP address" },
+                    { "id": 2, "answer": "To specify the authoritative name server for the zone" },
+                    { "id": 3, "answer": "To provide redundancy by specifying other name servers responsible for the zone" },
+                    { "id": 4, "answer": "To redirect traffic from one domain to another" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 27,
+                  "title": "Why is redundancy important in DNS zones?",
+                  "answers": [
+                    { "id": 1, "answer": "To increase the speed of DNS queries" },
+                    { "id": 2, "answer": "To ensure uninterrupted domain resolution even if one server fails" },
+                    { "id": 3, "answer": "To decrease the number of DNS records" },
+                    { "id": 4, "answer": "To allow DNS zones to be duplicated" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 28,
+                  "title": "What is the purpose of reverse lookup zones?",
+                  "answers": [
+                    { "id": 1, "answer": "To resolve domain names to IP addresses" },
+                    { "id": 2, "answer": "To store mail server configurations" },
+                    { "id": 3, "answer": "To resolve IP addresses back to domain names" },
+                    { "id": 4, "answer": "To provide redundancy for name server records" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 29,
+                  "title": "Which type of record is used in reverse lookup zones?",
+                  "answers": [
+                    { "id": 1, "answer": "A Record" },
+                    { "id": 2, "answer": "PTR Record" },
+                    { "id": 3, "answer": "MX Record" },
+                    { "id": 4, "answer": "SOA Record" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 30,
+                  "title": "What is a common use of reverse lookups?",
+                  "answers": [
+                    { "id": 1, "answer": "Verifying mail servers and network diagnostics" },
+                    { "id": 2, "answer": "Improving DNS query speed" },
+                    { "id": 3, "answer": "Mapping domain names to IPv6 addresses" },
+                    { "id": 4, "answer": "Balancing traffic between servers" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 31,
+                  "title": "What is the function of a PTR record in DNS?",
+                  "answers": [
+                    { "id": 1, "answer": "Maps an IP address to a Fully Qualified Domain Name (FQDN)" },
+                    { "id": 2, "answer": "Maps a domain name to an IPv4 address" },
+                    { "id": 3, "answer": "Redirects traffic from one domain to another" },
+                    { "id": 4, "answer": "Defines the authoritative name server for the zone" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 32,
+                  "title": "Why are DNS zones important?",
+                  "answers": [
+                    { "id": 1, "answer": "They provide a single point of control for all DNS records" },
+                    { "id": 2, "answer": "They allow for scalability, administrative control, and redundancy" },
+                    { "id": 3, "answer": "They eliminate the need for DNS servers" },
+                    { "id": 4, "answer": "They prevent unauthorized access to domain names" }
+                  ],
+                  "correct": 2
                 }
+                
               ]
             },
             
