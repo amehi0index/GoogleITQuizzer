@@ -3023,9 +3023,53 @@
                         { "id": 4, "answer": "File transfer queries" }
                     ],
                     "correct": 2
+                },
+                {
+                  "id": 16,
+                  "title": "Which of the following are types of DNS servers?",
+                  "answers": [
+                    { "id": 1, "answer": "Caching Name Server, Recursive Name Server, Root Name Server, TLD Name Server, Authoritative Name Server" },
+                    { "id": 2, "answer": "Only Root Name Server and Authoritative Name Server" },
+                    { "id": 3, "answer": "Recursive Name Server, TLD Name Server, and Caching Name Server only" },
+                    { "id": 4, "answer": "Root Name Server, TLD Name Server, and Authoritative Name Server only" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id":17,
+                  "title": "Which DNS server type provides the final IP address for the domain being queried?",
+                  "answers": [
+                    { "id": 1, "answer": "Caching Name Server" },
+                    { "id": 2, "answer": "Recursive Name Server" },
+                    { "id": 3, "answer": "Authoritative Name Server" },
+                    { "id": 4, "answer": "TLD Name Server" }
+                  ],
+                  "correct": 3
+                }, {
+                  "id":18,
+                  "title": "What is the primary function of a Caching Name Server?",
+                  "answers": [
+                    { "id": 1, "answer": "Store DNS lookups temporarily to speed up future queries" },
+                    { "id": 2, "answer": "Resolve domain names for the root zone" },
+                    { "id": 3, "answer": "Direct DNS queries to the appropriate Top-Level Domain (TLD) name server" },
+                    { "id": 4, "answer": "Provide the final IP address for a domain being queried" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id":19,
+                  "title": "What is the purpose of using Anycast with DNS root name servers?",
+                  "answers": [
+                    { "id": 1, "answer": "To ensure that traffic is directed to the closest or least congested server, improving performance and reliability" },
+                    { "id": 2, "answer": "To assign unique IP addresses to each root name server" },
+                    { "id": 3, "answer": "To cache DNS lookups for faster resolution in future queries" },
+                    { "id": 4, "answer": "To distribute domain names evenly across all root servers" }
+                  ],
+                  "correct": 1
                 }
-            ]
-            
+                
+                  
+              ]
             },
             {
               "id": "module4-2",
@@ -3498,7 +3542,74 @@
                         { "id": 4, "answer": "By ensuring all devices use static IP addresses" }
                     ],
                     "correct": 2
+                },
+                {
+                  "id": 11,
+                  "title": "What is the primary goal of the DHCP Discover message?",
+                  "answers": [
+                    { "id": 1, "answer": "To request an IP address from a DHCP server" },
+                    { "id": 2, "answer": "To release an IP address back to the server" },
+                    { "id": 3, "answer": "To inform other clients on the network of available IP addresses" },
+                    { "id": 4, "answer": "To assign a static IP address to the client" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id":12,
+                  "title": "What port does the DHCP Discover message use as the destination port?",
+                  "answers": [
+                    { "id": 1, "answer": "Port 80" },
+                    { "id": 2, "answer": "Port 68" },
+                    { "id": 3, "answer": "Port 67" },
+                    { "id": 4, "answer": "Port 53" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 13,
+                  "title": "Which IP address is used as the source IP in the DHCP Discover message?",
+                  "answers": [
+                    { "id": 1, "answer": "255.255.255.255" },
+                    { "id": 2, "answer": "0.0.0.0" },
+                    { "id": 3, "answer": "192.168.1.1" },
+                    { "id": 4, "answer": "10.0.0.1" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 14,
+                  "title": "Which action takes place after the DHCP server receives the DHCP Discover message?",
+                  "answers": [
+                    { "id": 1, "answer": "The DHCP server assigns a permanent IP address to the client" },
+                    { "id": 2, "answer": "The DHCP server broadcasts a DHCP Offer message with an IP address to the client" },
+                    { "id": 3, "answer": "The DHCP server terminates the client session" },
+                    { "id": 4, "answer": "The DHCP server updates the DNS records" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id":15,
+                  "title": "What is the purpose of the DHCP Request message sent by the client?",
+                  "answers": [
+                    { "id": 1, "answer": "To request an IP address again" },
+                    { "id": 2, "answer": "To reject the IP address offered" },
+                    { "id": 3, "answer": "To accept the offered IP address and request final configuration" },
+                    { "id": 4, "answer": "To acknowledge the receipt of the DHCP Offer message" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 16,
+                  "title": "What information does the DHCP Acknowledgment (ACK) message contain?",
+                  "answers": [
+                    { "id": 1, "answer": "The final IP address, subnet mask, and lease duration" },
+                    { "id": 2, "answer": "The DNS server's IP address" },
+                    { "id": 3, "answer": "The client's MAC address only" },
+                    { "id": 4, "answer": "An IP address and port number" }
+                  ],
+                  "correct": 1
                 }
+                
             ]
             
             },
@@ -3841,14 +3952,1379 @@
                           { "id": 2, "answer": "It modifies the destination IP and forwards it to the correct network" },
                           { "id": 3, "answer": "It sends an error message back to the sender" },
                           { "id": 4, "answer": "It caches the packet for later use" }
+                        ],
+                      "correct": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "module5",
+              "title": "Module 5: Connecting to the Internet",
+              "subModules": [
+                {
+                  "id": "module5-1",
+                  "title": "POTS and Dial-up",
+                  "questions": [
+                      {
+                          "id": 1,
+                          "title": "What historical need led to the development of networking technologies like POTS?",
+                          "answers": [
+                              { "id": 1, "answer": "To share data between computers" },
+                              { "id": 2, "answer": "To improve telephone communication" },
+                              { "id": 3, "answer": "To connect devices within a single room" },
+                              { "id": 4, "answer": "To replace manual data entry" }
+                          ],
+                          "correct": 1
+                      },
+                      {
+                          "id": 2,
+                          "title": "What is the Public Switched Telephone Network (PSTN) also known as?",
+                          "answers": [
+                              { "id": 1, "answer": "Plain Old Telephone Service (POTS)" },
+                              { "id": 2, "answer": "Digital Subscriber Line (DSL)" },
+                              { "id": 3, "answer": "Integrated Services Digital Network (ISDN)" },
+                              { "id": 4, "answer": "Fiber Optic Network" }
+                          ],
+                          "correct": 1
+                      },
+                      {
+                          "id": 3,
+                          "title": "What innovative network did Duke University graduate students create using POTS?",
+                          "answers": [
+                              { "id": 1, "answer": "Internet" },
+                              { "id": 2, "answer": "Usenet" },
+                              { "id": 3, "answer": "ARPANET" },
+                              { "id": 4, "answer": "Ethernet" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 4,
+                          "title": "How does a dial-up connection transfer data?",
+                          "answers": [
+                              { "id": 1, "answer": "Through fiber optic cables" },
+                              { "id": 2, "answer": "By dialing a phone number and using modems" },
+                              { "id": 3, "answer": "Over satellite connections" },
+                              { "id": 4, "answer": "Using Wi-Fi signals" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 5,
+                          "title": "What device converts computer data into audible signals for transmission over phone lines?",
+                          "answers": [
+                              { "id": 1, "answer": "Router" },
+                              { "id": 2, "answer": "Modem" },
+                              { "id": 3, "answer": "Switch" },
+                              { "id": 4, "answer": "Hub" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 6,
+                          "title": "What is the baud rate a measure of?",
+                          "answers": [
+                              { "id": 1, "answer": "Data storage capacity" },
+                              { "id": 2, "answer": "Transmission speed in bits per second" },
+                              { "id": 3, "answer": "Network latency" },
+                              { "id": 4, "answer": "Signal strength" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 7,
+                          "title": "What was the maximum speed of early modems in the 1950s?",
+                          "answers": [
+                              { "id": 1, "answer": "300 bps" },
+                              { "id": 2, "answer": "110 bps" },
+                              { "id": 3, "answer": "14.4 Kbps" },
+                              { "id": 4, "answer": "56 Kbps" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 8,
+                          "title": "Why did dial-up technology decline in popularity?",
+                          "answers": [
+                              { "id": 1, "answer": "It became too expensive" },
+                              { "id": 2, "answer": "The rise of broadband technology" },
+                              { "id": 3, "answer": "Users preferred satellite connections" },
+                              { "id": 4, "answer": "It was too complicated to use" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 9,
+                          "title": "Why is understanding POTS and dial-up important in IT today?",
+                          "answers": [
+                              { "id": 1, "answer": "They are widely used in urban areas" },
+                              { "id": 2, "answer": "They were foundational technologies for long-distance data communication" },
+                              { "id": 3, "answer": "They have the highest speeds available" },
+                              { "id": 4, "answer": "They are used for security purposes" }
+                          ],
+                          "correct": 2
+                      }
+                  ]
+                },
+                {
+                  "id": "module5-2",
+                  "title": "Broadband Connections",
+                  "questions": [
+                    {
+                      "id": 1,
+                      "title": "What is the purpose of the Point to Point Protocol (PPP) in broadband communications?",
+                      "answers": [
+                          { "id": 1, "answer": "To connect multiple devices" },
+                          { "id": 2, "answer": "To transmit data between two directly connected devices" },
+                          { "id": 3, "answer": "To provide internet access" },
+                          { "id": 4, "answer": "To encrypt data transmissions" }
                       ],
                       "correct": 2
-                  }
-                ]
+                  },
+                  {
+                      "id": 2,
+                      "title": "How does PPP differ from dial-up connections in terms of data transmission?",
+                      "answers": [
+                          { "id": 1, "answer": "PPP is slower" },
+                          { "id": 2, "answer": "PPP is used for high-traffic data transmissions" },
+                          { "id": 3, "answer": "Dial-up is more secure" },
+                          { "id": 4, "answer": "PPP does not support multiple connections" }
+                      ],
+                      "correct": 2
+                  },
+                  {
+                      "id": 3,
+                      "title": "What are the main configuration options available when setting up PPP?",
+                      "answers": [
+                          { "id": 1, "answer": "Encryption and compression" },
+                          { "id": 2, "answer": "Multilink connection and authentication" },
+                          { "id": 3, "answer": "Address assignment and routing" },
+                          { "id": 4, "answer": "Firewall settings and bandwidth management" }
+                      ],
+                      "correct": 2
+                  },
+                  {
+                      "id": 4,
+                      "title": "Describe the function of the Password Authentication Protocol (PAP) in PPP.",
+                      "answers": [
+                          { "id": 1, "answer": "To compress data" },
+                          { "id": 2, "answer": "To encrypt data" },
+                          { "id": 3, "answer": "To authenticate users via passwords" },
+                          { "id": 4, "answer": "To initiate connections" }
+                      ],
+                      "correct": 3
+                  },
+                  {
+                      "id": 5,
+                      "title": "What is the Challenge Handshake Authentication Protocol (CHAP), and how does it work?",
+                      "answers": [
+                          { "id": 1, "answer": "It uses a single password for authentication" },
+                          { "id": 2, "answer": "It performs a three-way handshake to verify identity" },
+                          { "id": 3, "answer": "It relies on static IP addresses" },
+                          { "id": 4, "answer": "It compresses data for faster transmission" }
+                      ],
+                      "correct": 2
+                  },
+                  {
+                      "id": 6,
+                      "title": "How does the Frame Check Sequence (FCS) contribute to error detection in PPP?",
+                      "answers": [
+                          { "id": 1, "answer": "It compresses data" },
+                          { "id": 2, "answer": "It verifies data integrity upon receipt" },
+                          { "id": 3, "answer": "It establishes connections" },
+                          { "id": 4, "answer": "It provides encryption" }
+                      ],
+                      "correct": 2
+                  },
+                  {
+                      "id": 7,
+                      "title": "What are the roles of the Network Control Protocol (NCP) and Link Control Protocol (LCP) in PPP?",
+                      "answers": [
+                          { "id": 1, "answer": "NCP negotiates configuration; LCP manages connections" },
+                          { "id": 2, "answer": "NCP compresses data; LCP encrypts transmissions" },
+                          { "id": 3, "answer": "NCP authenticates users; LCP monitors traffic" },
+                          { "id": 4, "answer": "NCP routes data; LCP establishes IP addresses" }
+                      ],
+                      "correct": 1
+                  },
+                  {
+                      "id": 8,
+                      "title": "Explain the encapsulation process in PPP and its importance.",
+                      "answers": [
+                          { "id": 1, "answer": "It adds headers and trailers for data interpretation" },
+                          { "id": 2, "answer": "It compresses the data for faster transmission" },
+                          { "id": 3, "answer": "It converts data into audio signals" },
+                          { "id": 4, "answer": "It initiates connections between devices" }
+                      ],
+                      "correct": 1
+                  },
+                  {
+                      "id": 9,
+                      "title": "How does Point to Point Protocol over Ethernet (PPPoE) enhance the functionality of PPP?",
+                      "answers": [
+                          { "id": 1, "answer": "It allows for multi-access connections" },
+                          { "id": 2, "answer": "It removes the need for authentication" },
+                          { "id": 3, "answer": "It eliminates the need for encapsulation" },
+                          { "id": 4, "answer": "It compresses data more effectively" }
+                      ],
+                      "correct": 1
+                  },
+                  {
+                      "id": 10,
+                      "title": "What is the discovery stage in PPPoE, and why is it necessary?",
+                      "answers": [
+                          { "id": 1, "answer": "To establish a connection between devices" },
+                          { "id": 2, "answer": "To identify the hardware address and session ID" },
+                          { "id": 3, "answer": "To compress data before transmission" },
+                          { "id": 4, "answer": "To authenticate users" }
+                      ],
+                      "correct": 2
+                  },
+                  {
+                      "id": 11,
+                      "title": "How does PPPoE handle authentication and data transmission differently than PPP?",
+                      "answers": [
+                          { "id": 1, "answer": "PPPoE uses multi-access connections" },
+                          { "id": 2, "answer": "PPPoE eliminates error detection" },
+                          { "id": 3, "answer": "PPPoE does not support encryption" },
+                          { "id": 4, "answer": "PPPoE requires static IP addresses" }
+                      ],
+                      "correct": 1
+                  },
+                  {
+                      "id": 12,
+                      "title": "What are the advantages of using PPPoE for DSL services?",
+                      "answers": [
+                          { "id": 1, "answer": "Increased speed and reliability" },
+                          { "id": 2, "answer": "Simplified network configuration" },
+                          { "id": 3, "answer": "Support for multiple devices on one connection" },
+                          { "id": 4, "answer": "All of the above" }
+                      ],
+                      "correct": 4
+                  },
+                  {
+                    "id": 13,
+                    "title": "What is the main characteristic of broadband connections compared to dial-up?",
+                    "answers": [
+                        { "id": 1, "answer": "They require reconnection with each use" },
+                        { "id": 2, "answer": "They are significantly slower" },
+                        { "id": 3, "answer": "They are 'always on' and faster" },
+                        { "id": 4, "answer": "They use telephone lines only" }
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id": 14,
+                    "title": "What technology did businesses widely adopt in the mid-1990s to enhance internet connectivity?",
+                    "answers": [
+                        { "id": 1, "answer": "Dial-up" },
+                        { "id": 2, "answer": "T-carrier systems" },
+                        { "id": 3, "answer": "Fiber optics" },
+                        { "id": 4, "answer": "ISDN" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 15,
+                    "title": "What are T1 lines capable of in terms of data transmission?",
+                    "answers": [
+                        { "id": 1, "answer": "24 simultaneous calls" },
+                        { "id": 2, "answer": "1.544 Mbps total" },
+                        { "id": 3, "answer": "Both 1 and 2" },
+                        { "id": 4, "answer": "None of the above" }
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id":16,
+                    "title": "How did broadband technology change the way people used the internet at home?",
+                    "answers": [
+                        { "id": 1, "answer": "It made online gaming impossible" },
+                        { "id": 2, "answer": "It enabled faster access to multimedia and complex web pages" },
+                        { "id": 3, "answer": "It limited internet usage to text-based sites" },
+                        { "id": 4, "answer": "It required more time to connect" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id":17,
+                    "title": "What is one significant limitation of dial-up connections?",
+                    "answers": [
+                        { "id": 1, "answer": "They are always on" },
+                        { "id": 2, "answer": "They can take a long time to download files" },
+                        { "id": 3, "answer": "They use fiber optic technology" },
+                        { "id": 4, "answer": "They are cheaper than broadband" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id":18,
+                    "title": "What is the maximum speed of a T3 line?",
+                    "answers": [
+                        { "id": 1, "answer": "1.544 Mbps" },
+                        { "id": 2, "answer": "44.736 Mbps" },
+                        { "id": 3, "answer": "100 Mbps" },
+                        { "id": 4, "answer": "10 Gbps" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id":19,
+                    "title": "What type of DSL provides faster download speeds than upload speeds?",
+                    "answers": [
+                        { "id": 1, "answer": "SDSL" },
+                        { "id": 2, "answer": "ADSL" },
+                        { "id": 3, "answer": "HDSL" },
+                        { "id": 4, "answer": "FTTH" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 20,
+                    "title": "What does the 'X' in FTTX represent?",
+                    "answers": [
+                        { "id": 1, "answer": "The type of cable used" },
+                        { "id": 2, "answer": "Different configurations for fiber connections" },
+                        { "id": 3, "answer": "The maximum speed of the connection" },
+                        { "id": 4, "answer": "A specific brand of fiber" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id":21,
+                    "title": "What technology uses shared bandwidth to connect multiple users?",
+                    "answers": [
+                        { "id": 1, "answer": "DSL" },
+                        { "id": 2, "answer": "Cable broadband" },
+                        { "id": 3, "answer": "Fiber optics" },
+                        { "id": 4, "answer": "Dial-up" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id":22,
+                    "title": "What is the primary benefit of fiber optics for internet connections?",
+                    "answers": [
+                        { "id": 1, "answer": "Lower costs" },
+                        { "id": 2, "answer": "Higher speeds and longer distance capabilities" },
+                        { "id": 3, "answer": "Compatibility with older technology" },
+                        { "id": 4, "answer": "Simpler installation" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 23,
+                    "title": "What is the role of DSLAM in DSL technology?",
+                    "answers": [
+                        { "id": 1, "answer": "To connect multiple DSL lines to the internet" },
+                        { "id": 2, "answer": "To convert fiber signals to copper signals" },
+                        { "id": 3, "answer": "To manage video streaming" },
+                        { "id": 4, "answer": "To provide wireless connectivity" }
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id":24,
+                    "title": "How did cable broadband initially leverage existing infrastructure?",
+                    "answers": [
+                        { "id": 1, "answer": "By using satellite technology" },
+                        { "id": 2, "answer": "By utilizing coaxial cables from cable TV" },
+                        { "id": 3, "answer": "By replacing telephone lines entirely" },
+                        { "id": 4, "answer": "By using fiber optic cables only" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id":25,
+                    "title": "What is the main difference between ADSL and SDSL?",
+                    "answers": [
+                        { "id": 1, "answer": "ADSL has equal speeds for upload and download" },
+                        { "id": 2, "answer": "SDSL has higher speeds overall" },
+                        { "id": 3, "answer": "ADSL has faster download speeds" },
+                        { "id": 4, "answer": "SDSL is only for residential use" }
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id":26,
+                    "title": "What does FTTH stand for?",
+                    "answers": [
+                        { "id": 1, "answer": "Fiber to the Hub" },
+                        { "id": 2, "answer": "Fiber to the Home" },
+                        { "id": 3, "answer": "Fiber to the Hospital" },
+                        { "id": 4, "answer": "Fiber to the Hotel" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id":27,
+                    "title": "Why have T-carrier technologies declined in modern use?",
+                    "answers": [
+                        { "id": 1, "answer": "They are too complex" },
+                        { "id": 2, "answer": "They are more expensive than broadband solutions" },
+                        { "id": 3, "answer": "They are outdated technology" },
+                        { "id": 4, "answer": "They provide slower speeds than fiber optics" }
+                    ],
+                    "correct": 2
+                }
+                  ]
+                },
+                {
+                  "id": "module5-3",
+                  "title": "WANs",
+                  "questions": [
+                    [
+                      {
+                          "id": 1,
+                          "title": "What is the primary function of a Wide Area Network (WAN)?",
+                          "answers": [
+                              { "id": 1, "answer": "Connects multiple LANs over long distances" },
+                              { "id": 2, "answer": "Provides wireless internet access" },
+                              { "id": 3, "answer": "Facilitates local file sharing" },
+                              { "id": 4, "answer": "Connects devices within a single building" }
+                          ],
+                          "correct": 1
+                      },
+                      {
+                          "id": 2,
+                          "title": "Which technology is commonly used for dedicated WAN connections?",
+                          "answers": [
+                              { "id": 1, "answer": "VPN" },
+                              { "id": 2, "answer": "Leased Lines" },
+                              { "id": 3, "answer": "Wi-Fi" },
+                              { "id": 4, "answer": "DSL" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 3,
+                          "title": "What does MPLS stand for?",
+                          "answers": [
+                              { "id": 1, "answer": "Multi-Protocol Local Switching" },
+                              { "id": 2, "answer": "Multi-Protocol Label Switching" },
+                              { "id": 3, "answer": "Maximum Packet Loss System" },
+                              { "id": 4, "answer": "Multi-Protocol Layer Security" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 4,
+                          "title": "Which of the following is a challenge associated with WANs?",
+                          "answers": [
+                              { "id": 1, "answer": "Limited geographical coverage" },
+                              { "id": 2, "answer": "High latency" },
+                              { "id": 3, "answer": "Easy management" },
+                              { "id": 4, "answer": "Low cost" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 5,
+                          "title": "What is one advantage of using a Point-to-Point VPN?",
+                          "answers": [
+                              { "id": 1, "answer": "Requires dedicated leased lines" },
+                              { "id": 2, "answer": "Offers high encryption standards" },
+                              { "id": 3, "answer": "Cost-effective compared to traditional WANs" },
+                              { "id": 4, "answer": "Requires complex setup" }
+                          ],
+                          "correct": 3
+                      },
+                      {
+                          "id": 6,
+                          "title": "Which technology is known for its high latency and is often used in remote areas?",
+                          "answers": [
+                              { "id": 1, "answer": "Leased Lines" },
+                              { "id": 2, "answer": "Satellite Connections" },
+                              { "id": 3, "answer": "Fiber Optics" },
+                              { "id": 4, "answer": "MPLS" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 7,
+                          "title": "What is a primary characteristic of WANs?",
+                          "answers": [
+                              { "id": 1, "answer": "Connects devices in a single location" },
+                              { "id": 2, "answer": "Utilizes various technologies for connectivity" },
+                              { "id": 3, "answer": "Operates exclusively on fiber optics" },
+                              { "id": 4, "answer": "Requires physical cables only" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 8,
+                          "title": "What do VPN tunnels allow users to do?",
+                          "answers": [
+                              { "id": 1, "answer": "Connect to public Wi-Fi securely" },
+                              { "id": 2, "answer": "Access resources as if on the same local network" },
+                              { "id": 3, "answer": "Eliminate the need for a router" },
+                              { "id": 4, "answer": "Increase internet speed" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 9,
+                          "title": "Which of the following is NOT a type of WAN technology?",
+                          "answers": [
+                              { "id": 1, "answer": "Frame Relay" },
+                              { "id": 2, "answer": "MPLS" },
+                              { "id": 3, "answer": "Ethernet" },
+                              { "id": 4, "answer": "Satellite Connections" }
+                          ],
+                          "correct": 3
+                      },
+                      {
+                          "id": 10,
+                          "title": "What is the purpose of network devices in establishing a VPN tunnel?",
+                          "answers": [
+                              { "id": 1, "answer": "To provide physical connections" },
+                              { "id": 2, "answer": "To create a secure communication channel" },
+                              { "id": 3, "answer": "To manage bandwidth" },
+                              { "id": 4, "answer": "To monitor internet usage" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                        "id": 11,
+                        "title": "What is the primary purpose of WAN protocols?",
+                        "answers": [
+                            { "id": 1, "answer": "To provide local area network services" },
+                            { "id": 2, "answer": "To manage data transmission over wide area networks" },
+                            { "id": 3, "answer": "To create cloud-based applications" },
+                            { "id": 4, "answer": "To enhance network security" }
+                        ],
+                        "correct": 2
+                    },
+                    {
+                        "id": 12,
+                        "title": "Which of the following is a method of data transmission used in WAN protocols?",
+                        "answers": [
+                            { "id": 1, "answer": "Circuit switching" },
+                            { "id": 2, "answer": "Packet switching" },
+                            { "id": 3, "answer": "Cloud computing" },
+                            { "id": 4, "answer": "Data warehousing" }
+                        ],
+                        "correct": 2
+                    },
+                    {
+                        "id": 13,
+                        "title": "What does SD-WAN stand for?",
+                        "answers": [
+                            { "id": 1, "answer": "Software-Defined Wide Area Network" },
+                            { "id": 2, "answer": "Synchronous Data Wide Area Network" },
+                            { "id": 3, "answer": "Single Data Wide Area Network" },
+                            { "id": 4, "answer": "Standardized Data Wide Area Network" }
+                        ],
+                        "correct": 1
+                    },
+                    {
+                        "id": 14,
+                        "title": "Which technology is used to prevent multiple copies of the same file from being stored on a WAN?",
+                        "answers": [
+                            { "id": 1, "answer": "Compression" },
+                            { "id": 2, "answer": "Deduplication" },
+                            { "id": 3, "answer": "Local caching" },
+                            { "id": 4, "answer": "Traffic shaping" }
+                        ],
+                        "correct": 2
+                    },
+                    {
+                        "id": 15,
+                        "title": "What is the main advantage of using a point-to-point VPN?",
+                        "answers": [
+                            { "id": 1, "answer": "Higher latency" },
+                            { "id": 2, "answer": "Cost-effectiveness" },
+                            { "id": 3, "answer": "Increased complexity" },
+                            { "id": 4, "answer": "More expensive leased lines" }
+                        ],
+                        "correct": 2
+                    },
+                    {
+                        "id": 16,
+                        "title": "What type of circuit is used for long-term data connections in WANs?",
+                        "answers": [
+                            { "id": 1, "answer": "Switched Virtual Circuits (SVCs)" },
+                            { "id": 2, "answer": "Permanent Virtual Circuits (PVCs)" },
+                            { "id": 3, "answer": "Asynchronous Transfer Mode (ATM)" },
+                            { "id": 4, "answer": "Frame Relay" }
+                        ],
+                        "correct": 2
+                    },
+                    {
+                        "id": 17,
+                        "title": "Which protocol is known for using small, fixed-sized cells for data transmission?",
+                        "answers": [
+                            { "id": 1, "answer": "Packet over SONET" },
+                            { "id": 2, "answer": "Frame Relay" },
+                            { "id": 3, "answer": "Asynchronous Transfer Mode (ATM)" },
+                            { "id": 4, "answer": "Multiprotocol Label Switching (MPLS)" }
+                        ],
+                        "correct": 3
+                    },
+                    {
+                        "id": 18,
+                        "title": "What is one challenge of implementing WANs?",
+                        "answers": [
+                            { "id": 1, "answer": "Low latency" },
+                            { "id": 2, "answer": "High cost" },
+                            { "id": 3, "answer": "Simplicity" },
+                            { "id": 4, "answer": "Easy management" }
+                        ],
+                        "correct": 2
+                    },
+                    {
+                        "id": 19,
+                        "title": "What technique can optimize network performance by controlling data flow?",
+                        "answers": [
+                            { "id": 1, "answer": "Compression" },
+                            { "id": 2, "answer": "Traffic shaping" },
+                            { "id": 3, "answer": "Protocol optimization" },
+                            { "id": 4, "answer": "Local caching" }
+                        ],
+                        "correct": 2
+                    },
+                    {
+                        "id": 20,
+                        "title": "What does MPLS stand for?",
+                        "answers": [
+                            { "id": 1, "answer": "Multiprotocol Label Switching" },
+                            { "id": 2, "answer": "Managed Packet Label Switching" },
+                            { "id": 3, "answer": "Multi-Layer Protocol Switching" },
+                            { "id": 4, "answer": "Multi-Protocol Link System" }
+                        ],
+                        "correct": 1
+                    }
+                  ]
+                  
+                  ]
+                },
+                {
+                  "id": "module5-4",
+                  "title": "Wireless Networking",
+                  "questions": [
+                      {
+                          "id": 1,
+                          "title": "What does WAP stand for in wireless networking?",
+                          "answers": [
+                              { "id": 1, "answer": "Wireless Access Point" },
+                              { "id": 2, "answer": "Wired Access Point" },
+                              { "id": 3, "answer": "Wireless Area Protocol" },
+                              { "id": 4, "answer": "Web Access Point" }
+                          ],
+                          "correct": 1
+                      },
+                      {
+                          "id": 2,
+                          "title": "Which frequency bands are primarily used for Wi-Fi?",
+                          "answers": [
+                              { "id": 1, "answer": "1 GHz and 2 GHz" },
+                              { "id": 2, "answer": "2.4 GHz and 5 GHz" },
+                              { "id": 3, "answer": "2.4 MHz and 5 MHz" },
+                              { "id": 4, "answer": "1.2 GHz and 3.6 GHz" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 3,
+                          "title": "What does the Frame Control Field in an 802.11 frame do?",
+                          "answers": [
+                              { "id": 1, "answer": "Determines the duration of the frame transmission" },
+                              { "id": 2, "answer": "Describes how the frame should be processed" },
+                              { "id": 3, "answer": "Stores the data being transmitted" },
+                              { "id": 4, "answer": "Indicates the destination MAC address" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 4,
+                          "title": "What is a key feature of ad-hoc networks?",
+                          "answers": [
+                              { "id": 1, "answer": "They rely on a central access point" },
+                              { "id": 2, "answer": "Devices communicate directly with each other" },
+                              { "id": 3, "answer": "They require extensive cabling" },
+                              { "id": 4, "answer": "They only operate on the 5 GHz band" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 5,
+                          "title": "What is the primary purpose of collision domains in wireless networks?",
+                          "answers": [
+                              { "id": 1, "answer": "To enhance signal strength" },
+                              { "id": 2, "answer": "To manage interference" },
+                              { "id": 3, "answer": "To prevent simultaneous transmissions" },
+                              { "id": 4, "answer": "To increase network capacity" }
+                          ],
+                          "correct": 3
+                      },
+                      {
+                          "id": 6,
+                          "title": "What does WEP stand for?",
+                          "answers": [
+                              { "id": 1, "answer": "Wireless Encryption Protocol" },
+                              { "id": 2, "answer": "Wired Equivalent Privacy" },
+                              { "id": 3, "answer": "Wireless Effective Protection" },
+                              { "id": 4, "answer": "Wired Encryption Protocol" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 7,
+                          "title": "Which of the following is a benefit of using mesh networks?",
+                          "answers": [
+                              { "id": 1, "answer": "Reduced complexity in setup" },
+                              { "id": 2, "answer": "Increased performance and coverage" },
+                              { "id": 3, "answer": "Dependence on a central access point" },
+                              { "id": 4, "answer": "Limited communication range" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 8,
+                          "title": "Which standard introduced the concept of Wi-Fi?",
+                          "answers": [
+                              { "id": 1, "answer": "IEEE 802.11" },
+                              { "id": 2, "answer": "IEEE 802.15" },
+                              { "id": 3, "answer": "IEEE 802.3" },
+                              { "id": 4, "answer": "IEEE 802.16" }
+                          ],
+                          "correct": 1
+                      },
+                      {
+                          "id": 9,
+                          "title": "What is the main function of a Wireless Access Point?",
+                          "answers": [
+                              { "id": 1, "answer": "To store data" },
+                              { "id": 2, "answer": "To connect wireless devices to a wired network" },
+                              { "id": 3, "answer": "To manage network traffic" },
+                              { "id": 4, "answer": "To encrypt data" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 10,
+                          "title": "What security protocol succeeded WEP?",
+                          "answers": [
+                              { "id": 1, "answer": "WPA" },
+                              { "id": 2, "answer": "SSL" },
+                              { "id": 3, "answer": "IPSec" },
+                              { "id": 4, "answer": "HTTPS" }
+                          ],
+                          "correct": 1
+                      },
+                      {
+                          "id": 11,
+                          "title": "What is a significant drawback of WEP?",
+                          "answers": [
+                              { "id": 1, "answer": "It uses a 256-bit key" },
+                              { "id": 2, "answer": "It is easily cracked" },
+                              { "id": 3, "answer": "It encrypts all data" },
+                              { "id": 4, "answer": "It provides too much security" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 12,
+                          "title": "In which scenario would ad-hoc networks be most useful?",
+                          "answers": [
+                              { "id": 1, "answer": "In a corporate office" },
+                              { "id": 2, "answer": "In disaster recovery situations" },
+                              { "id": 3, "answer": "In a home with wired connections" },
+                              { "id": 4, "answer": "In areas with high network density" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 13,
+                          "title": "Which of the following is NOT a characteristic of WLANs?",
+                          "answers": [
+                              { "id": 1, "answer": "Uses access points" },
+                              { "id": 2, "answer": "Connects to a wired network" },
+                              { "id": 3, "answer": "Requires physical cabling" },
+                              { "id": 4, "answer": "Allows mobility of devices" }
+                          ],
+                          "correct": 3
+                      },
+                      {
+                          "id": 14,
+                          "title": "Which channel widths are commonly used in Wi-Fi?",
+                          "answers": [
+                              { "id": 1, "answer": "10 MHz" },
+                              { "id": 2, "answer": "20 MHz" },
+                              { "id": 3, "answer": "30 MHz" },
+                              { "id": 4, "answer": "40 MHz" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                          "id": 15,
+                          "title": "What is the purpose of MAC address filtering?",
+                          "answers": [
+                              { "id": 1, "answer": "To encrypt data" },
+                              { "id": 2, "answer": "To restrict network access" },
+                              { "id": 3, "answer": "To improve signal strength" },
+                              { "id": 4, "answer": "To increase bandwidth" }
+                          ],
+                          "correct": 2
+                      },
+                      {
+                        "id": 16,
+                        "title": "What is the former name of Wi-Fi 6?",
+                        "answers": [
+                            { "id": 1, "answer": "802.11ac" },
+                            { "id": 2, "answer": "802.11n" },
+                            { "id": 3, "answer": "802.11ax" },
+                            { "id": 4, "answer": "802.11ad" }
+                        ],
+                        "correct": 3
+                    },
+                    {
+                        "id": 17,
+                        "title": "What is one of the key benefits of Wi-Fi 6?",
+                        "answers": [
+                            { "id": 1, "answer": "Reduced data rates" },
+                            { "id": 2, "answer": "Increased band capacity" },
+                            { "id": 3, "answer": "Slower connections" },
+                            { "id": 4, "answer": "Limited device connections" }
+                        ],
+                        "correct": 2
+                    },
+                    {
+                        "id": 18,
+                        "title": "How many input/output streams does Wi-Fi 6 support compared to Wi-Fi 5?",
+                        "answers": [
+                            { "id": 1, "answer": "4 by 4 to 4 by 4" },
+                            { "id": 2, "answer": "4 by 4 to 6 by 6" },
+                            { "id": 3, "answer": "4 by 4 to 8 by 8" },
+                            { "id": 4, "answer": "4 by 4 to 10 by 10" }
+                        ],
+                        "correct": 3
+                    },
+                    {
+                        "id": 19,
+                        "title": "What feature of Wi-Fi 6 improves battery life for connected devices?",
+                        "answers": [
+                            { "id": 1, "answer": "Channel sharing" },
+                            { "id": 2, "answer": "Target Wake Time (TWT)" },
+                            { "id": 3, "answer": "Multi-user MIMO" },
+                            { "id": 4, "answer": "Transmit beamforming" }
+                        ],
+                        "correct": 2
+                    },
+                    {
+                        "id": 20,
+                        "title": "What does Multi-user MIMO technology allow for?",
+                        "answers": [
+                            { "id": 1, "answer": "Slower data transmission" },
+                            { "id": 2, "answer": "Simultaneous data transfer for more clients" },
+                            { "id": 3, "answer": "Increased power consumption" },
+                            { "id": 4, "answer": "Limited device connectivity" }
+                        ],
+                        "correct": 2
+                    },
+                    {
+                        "id": 21,
+                        "title": "What is the channel width utilization for Wi-Fi 6?",
+                        "answers": [
+                            { "id": 1, "answer": "40 MHz" },
+                            { "id": 2, "answer": "80 MHz" },
+                            { "id": 3, "answer": "160 MHz" },
+                            { "id": 4, "answer": "320 MHz" }
+                        ],
+                        "correct": 3
+                    },
+                    {
+                        "id": 22,
+                        "title": "What modulation technique does Wi-Fi 6 utilize to encode more data?",
+                        "answers": [
+                            { "id": 1, "answer": "512 Quadrature Amplitude Modulation" },
+                            { "id": 2, "answer": "1024 Quadrature Amplitude Modulation" },
+                            { "id": 3, "answer": "2048 Quadrature Amplitude Modulation" },
+                            { "id": 4, "answer": "256 Quadrature Amplitude Modulation" }
+                        ],
+                        "correct": 2
+                    },
+                    {
+                        "id": 23,
+                        "title": "What does OFDMA stand for?",
+                        "answers": [
+                            { "id": 1, "answer": "Orthogonal Frequency Division Multiple Access" },
+                            { "id": 2, "answer": "Orthogonal Frequency Data Multiple Access" },
+                            { "id": 3, "answer": "Optimized Frequency Division Multiple Access" },
+                            { "id": 4, "answer": "Orthogonal Frequency Division Media Access" }
+                        ],
+                        "correct": 1
+                    },
+                    {
+                        "id":24,
+                        "title": "What is Wi-Fi 6E?",
+                        "answers": [
+                            { "id": 1, "answer": "A new security protocol" },
+                            { "id": 2, "answer": "An additional certification for Wi-Fi 6 that includes a 6 GHz band" },
+                            { "id": 3, "answer": "A type of hardware for networking" },
+                            { "id": 4, "answer": "A version of Wi-Fi 5" }
+                        ],
+                        "correct": 2
+                    },
+                    {
+                        "id":25,
+                        "title": "What advantage does Wi-Fi 6E provide?",
+                        "answers": [
+                            { "id": 1, "answer": "Fewer channels for broadcasting" },
+                            { "id": 2, "answer": "Slower streaming speeds" },
+                            { "id": 3, "answer": "More channels for high-definition video and virtual reality" },
+                            { "id": 4, "answer": "Limited device connections" }
+                        ],
+                        "correct": 3
+                    },
+                    {
+                      "id": 26,
+                      "title": "Which 802.11 standard was the first to support a maximum data rate of 54 Mbps?",
+                      "answers": [
+                          { "id": 1, "answer": "802.11a" },
+                          { "id": 2, "answer": "802.11b" },
+                          { "id": 3, "answer": "802.11g" },
+                          { "id": 4, "answer": "802.11n" }
+                      ],
+                      "correct": 1
+                  },
+                  {
+                      "id": 27,
+                      "title": "What is a significant advantage of the 5 GHz frequency band?",
+                      "answers": [
+                          { "id": 1, "answer": "Longer range" },
+                          { "id": 2, "answer": "Fewer interference problems" },
+                          { "id": 3, "answer": "Higher penetration through walls" },
+                          { "id": 4, "answer": "More overlapping channels" }
+                      ],
+                      "correct": 2
+                  },
+                  {
+                      "id": 28,
+                      "title": "What technology allows Wi-Fi 6 to serve multiple clients simultaneously?",
+                      "answers": [
+                          { "id": 1, "answer": "OFDMA" },
+                          { "id": 2, "answer": "TWT" },
+                          { "id": 3, "answer": "MIMO" },
+                          { "id": 4, "answer": "Beamforming" }
+                      ],
+                      "correct": 3
+                  },
+                  {
+                      "id": 29,
+                      "title": "Which of the following is NOT a feature of Wi-Fi 6E?",
+                      "answers": [
+                          { "id": 1, "answer": "Increased maximum data rates" },
+                          { "id": 2, "answer": "Support for 6 GHz frequency band" },
+                          { "id": 3, "answer": "Improved power efficiency" },
+                          { "id": 4, "answer": "More non-overlapping channels" }
+                      ],
+                      "correct": 3
+                  },
+                  {
+                      "id": 30,
+                      "title": "What is the main purpose of dynamic frequency selection (DFS)?",
+                      "answers": [
+                          { "id": 1, "answer": "Increase data transfer speeds" },
+                          { "id": 2, "answer": "Prevent interference with radar" },
+                          { "id": 3, "answer": "Enhance signal strength" },
+                          { "id": 4, "answer": "Reduce network congestion" }
+                      ],
+                      "correct": 2
+                  },
+                  {
+                      "id": 31,
+                      "title": "What maximum data rate does Wi-Fi 6 support on the 5 GHz frequency?",
+                      "answers": [
+                          { "id": 1, "answer": "2.4 Gbps" },
+                          { "id": 2, "answer": "4.8 Gbps" },
+                          { "id": 3, "answer": "10 Gbps" },
+                          { "id": 4, "answer": "1 Gbps" }
+                      ],
+                      "correct": 2
+                  },
+                  {
+                      "id": 32,
+                      "title": "Which Wi-Fi standard introduced support for WPA3 security protocols?",
+                      "answers": [
+                          { "id": 1, "answer": "802.11n" },
+                          { "id": 2, "answer": "802.11ac" },
+                          { "id": 3, "answer": "802.11ax" },
+                          { "id": 4, "answer": "802.11g" }
+                      ],
+                      "correct": 3
+                  },
+                  {
+                      "id": 33,
+                      "title": "What is the main disadvantage of the 5 GHz frequency band?",
+                      "answers": [
+                          { "id": 1, "answer": "Limited number of channels" },
+                          { "id": 2, "answer": "Shorter range" },
+                          { "id": 3, "answer": "Higher interference" },
+                          { "id": 4, "answer": "Slower data rates" }
+                      ],
+                      "correct": 2
+                  },
+                  {
+                      "id": 34,
+                      "title": "What advantage does the 2.4 GHz frequency band provide?",
+                      "answers": [
+                          { "id": 1, "answer": "Higher data rates" },
+                          { "id": 2, "answer": "Longer signal range" },
+                          { "id": 3, "answer": "More channels" },
+                          { "id": 4, "answer": "Less interference" }
+                      ],
+                      "correct": 2
+                  },
+                  {
+                      "id": 35,
+                      "title": "What technology does Wi-Fi 6 utilize for improved energy efficiency?",
+                      "answers": [
+                          { "id": 1, "answer": "OFDMA" },
+                          { "id": 2, "answer": "Target Wake Time" },
+                          { "id": 3, "answer": "Beamforming" },
+                          { "id": 4, "answer": "Channel bonding" }
+                      ],
+                      "correct": 2
+                  },{
+                    "id": 36,
+                    "title": "What is a common model used for IoT data transfer that involves requests and responses?",
+                    "answers": [
+                        { "id": 1, "answer": "Publish/Subscribe model" },
+                        { "id": 2, "answer": "Request/Response model" },
+                        { "id": 3, "answer": "Peer-to-Peer model" },
+                        { "id": 4, "answer": "Client-Server model" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 37,
+                    "title": "Which protocol is specifically designed for low-power IoT devices?",
+                    "answers": [
+                        { "id": 1, "answer": "HTTP/HTTPS" },
+                        { "id": 2, "answer": "MQTT" },
+                        { "id": 3, "answer": "AMQP" },
+                        { "id": 4, "answer": "CoAP" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 38,
+                    "title": "What protocol uses a publish/subscribe model for IoT communications?",
+                    "answers": [
+                        { "id": 1, "answer": "HTTP" },
+                        { "id": 2, "answer": "MQTT" },
+                        { "id": 3, "answer": "CoAP" },
+                        { "id": 4, "answer": "DDS" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 39,
+                    "title": "What is a key advantage of using AMQP?",
+                    "answers": [
+                        { "id": 1, "answer": "High speed" },
+                        { "id": 2, "answer": "Vendor lock-in" },
+                        { "id": 3, "answer": "Interoperability" },
+                        { "id": 4, "answer": "Simplicity" }
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id": 40,
+                    "title": "Which IoT protocol is designed for constrained nodes and networks?",
+                    "answers": [
+                        { "id": 1, "answer": "MQTT" },
+                        { "id": 2, "answer": "CoAP" },
+                        { "id": 3, "answer": "DDS" },
+                        { "id": 4, "answer": "HTTP" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 41,
+                    "title": "What does MQTT stand for?",
+                    "answers": [
+                        { "id": 1, "answer": "Message Queue Transport" },
+                        { "id": 2, "answer": "Message Queue Telemetry Transport" },
+                        { "id": 3, "answer": "Machine-to-Machine Telemetry Transport" },
+                        { "id": 4, "answer": "Multi-Quality Transport" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 42,
+                    "title": "Which protocol is known for its use in building automation and smart energy management?",
+                    "answers": [
+                        { "id": 1, "answer": "XMPP" },
+                        { "id": 2, "answer": "CoAP" },
+                        { "id": 3, "answer": "AMQP" },
+                        { "id": 4, "answer": "DDS" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 43,
+                    "title": "What is the primary communication model used by DDS?",
+                    "answers": [
+                        { "id": 1, "answer": "Request/Response" },
+                        { "id": 2, "answer": "Publish/Subscribe" },
+                        { "id": 3, "answer": "Point-to-Point" },
+                        { "id": 4, "answer": "Broadcast" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 44,
+                    "title": "What is a key characteristic of XMPP?",
+                    "answers": [
+                        { "id": 1, "answer": "Centralized" },
+                        { "id": 2, "answer": "Decentralized" },
+                        { "id": 3, "answer": "Proprietary" },
+                        { "id": 4, "answer": "Complex" }
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 45,
+                    "title": "Which protocol is used for asynchronous data transfers in distributed systems?",
+                    "answers": [
+                        { "id": 1, "answer": "REST" },
+                        { "id": 2, "answer": "M2M" },
+                        { "id": 3, "answer": "Message Oriented Protocols" },
+                        { "id": 4, "answer": "CoAP" }
+                    ],
+                    "correct": 3
+                },
+                {
+                  "id": 46,
+                  "title": "What does WPA3 primarily aim to replace?",
+                  "answers": [
+                      { "id": 1, "answer": "WPA1" },
+                      { "id": 2, "answer": "WPA2" },
+                      { "id": 3, "answer": "WEP" },
+                      { "id": 4, "answer": "WPS" }
+                  ],
+                  "correct": 2
+              },
+              {
+                  "id": 47,
+                  "title": "Which feature of WPA3-Personal helps users choose easier-to-remember passwords?",
+                  "answers": [
+                      { "id": 1, "answer": "Forward secrecy" },
+                      { "id": 2, "answer": "Natural password selection" },
+                      { "id": 3, "answer": "Simultaneous Authentication of Equals" },
+                      { "id": 4, "answer": "Stronger authentication" }
+                  ],
+                  "correct": 2
+              },
+              {
+                  "id": 48,
+                  "title": "What does Simultaneous Authentication of Equals (SAE) improve upon in WPA3?",
+                  "answers": [
+                      { "id": 1, "answer": "WPA2-Personal PSK handshake" },
+                      { "id": 2, "answer": "WPA2-Enterprise EAP" },
+                      { "id": 3, "answer": "WPA2's encryption method" },
+                      { "id": 4, "answer": "WPA1's security features" }
+                  ],
+                  "correct": 1
+              },
+              {
+                  "id": 49,
+                  "title": "What encryption strength does the Galois/Counter Mode Protocol (GCMP-256) provide?",
+                  "answers": [
+                      { "id": 1, "answer": "128-bit" },
+                      { "id": 2, "answer": "256-bit" },
+                      { "id": 3, "answer": "512-bit" },
+                      { "id": 4, "answer": "64-bit" }
+                  ],
+                  "correct": 2
+              },
+              {
+                  "id": 50,
+                  "title": "Which feature replaces the WPA2 EAP method in WPA3?",
+                  "answers": [
+                      { "id": 1, "answer": "Opportunistic Wireless Encryption (OWE)" },
+                      { "id": 2, "answer": "Simultaneous Authentication of Equals (SAE)" },
+                      { "id": 3, "answer": "Wi-Fi Device Provisioning Protocol (DPP)" },
+                      { "id": 4, "answer": "384-bit HMAC" }
+                  ],
+                  "correct": 1
+              },
+              {
+                  "id": 51,
+                  "title": "What is the purpose of the Wi-Fi Device Provisioning Protocol (DPP)?",
+                  "answers": [
+                      { "id": 1, "answer": "Encrypt data" },
+                      { "id": 2, "answer": "Provide passwordless Wi-Fi access" },
+                      { "id": 3, "answer": "Authenticate devices" },
+                      { "id": 4, "answer": "Manage network traffic" }
+                  ],
+                  "correct": 2
+              },
+              {
+                  "id": 52,
+                  "title": "What does the 384-bit Hashed Message Authentication Code (HMAC) do?",
+                  "answers": [
+                      { "id": 1, "answer": "Encrypt data" },
+                      { "id": 2, "answer": "Generate unique Wi-Fi passwords" },
+                      { "id": 3, "answer": "Verify message integrity" },
+                      { "id": 4, "answer": "Provide network access" }
+                  ],
+                  "correct": 3
+              },
+              {
+                  "id": 53,
+                  "title": "Which key management method is used in WPA3 for faster performance?",
+                  "answers": [
+                      { "id": 1, "answer": "4-way handshake" },
+                      { "id": 2, "answer": "ECDHE" },
+                      { "id": 3, "answer": "PSK" },
+                      { "id": 4, "answer": "SAE" }
+                  ],
+                  "correct": 2
+              },
+              {
+                  "id": 54,
+                  "title": "Which of the following is NOT a benefit of WPA3?",
+                  "answers": [
+                      { "id": 1, "answer": "Stronger authentication" },
+                      { "id": 2, "answer": "Legacy protocol replacement" },
+                      { "id": 3, "answer": "Faster internet speeds" },
+                      { "id": 4, "answer": "Protected Management Frames requirement" }
+                  ],
+                  "correct": 3
+              },
+              {
+                  "id": 55,
+                  "title": "What vulnerability does WPA3 address that was exploited in WPA2?",
+                  "answers": [
+                      { "id": 1, "answer": "Brute force attacks" },
+                      { "id": 2, "answer": "Key reinstallation attacks (KRACKs)" },
+                      { "id": 3, "answer": "Phishing attacks" },
+                      { "id": 4, "answer": "Denial of Service attacks" }
+                  ],
+                  "correct": 2
+              },
+              {
+                "id": 56,
+                "title": "What does IoT stand for?",
+                "answers": [
+                    { "id": 1, "answer": "Internet of Technology" },
+                    { "id": 2, "answer": "Internet of Things" },
+                    { "id": 3, "answer": "Integrated Online Tools" },
+                    { "id": 4, "answer": "Internal Operating Technology" }
+                ],
+                "correct": 2
+            },
+            {
+                "id": 57,
+                "title": "Which protocol is the most common for wireless IoT devices?",
+                "answers": [
+                    { "id": 1, "answer": "Bluetooth" },
+                    { "id": 2, "answer": "Wi-Fi" },
+                    { "id": 3, "answer": "Z-Wave" },
+                    { "id": 4, "answer": "LoRaWan" }
+                ],
+                "correct": 2
+            },
+            {
+                "id": 58,
+                "title": "What is a characteristic of ZigBee technology?",
+                "answers": [
+                    { "id": 1, "answer": "High power consumption" },
+                    { "id": 2, "answer": "Universal language for interoperability" },
+                    { "id": 3, "answer": "Requires proprietary gateways" },
+                    { "id": 4, "answer": "Limited range" }
+                ],
+                "correct": 2
+            },
+            {
+                "id": 59,
+                "title": "What frequency does Z-Wave operate on?",
+                "answers": [
+                    { "id": 1, "answer": "2.4 GHz" },
+                    { "id": 2, "answer": "900 MHz" },
+                    { "id": 3, "answer": "5 GHz" },
+                    { "id": 4, "answer": "13.56 MHz" }
+                ],
+                "correct": 2
+            },
+            {
+                "id": 60,
+                "title": "What type of network does a Wireless Mesh Network (WMN) use?",
+                "answers": [
+                    { "id": 1, "answer": "Centralized" },
+                    { "id": 2, "answer": "Decentralized" },
+                    { "id": 3, "answer": "Hybrid" },
+                    { "id": 4, "answer": "Static" }
+                ],
+                "correct": 2
+            },
+            {
+                "id": 61,
+                "title": "What is the maximum range of Bluetooth connections?",
+                "answers": [
+                    { "id": 1, "answer": "50 feet" },
+                    { "id": 2, "answer": "100 feet" },
+                    { "id": 3, "answer": "150 feet" },
+                    { "id": 4, "answer": "300 feet" }
+                ],
+                "correct": 2
+            },
+            {
+                "id": 62,
+                "title": "Which wireless technology operates at 13.56 MHz?",
+                "answers": [
+                    { "id": 1, "answer": "Bluetooth" },
+                    { "id": 2, "answer": "Wi-Fi" },
+                    { "id": 3, "answer": "NFC" },
+                    { "id": 4, "answer": "LoRaWan" }
+                ],
+                "correct": 3
+            },
+            {
+                "id": 63,
+                "title": "What advantage does LoRaWan provide?",
+                "answers": [
+                    { "id": 1, "answer": "High data transfer speed" },
+                    { "id": 2, "answer": "Long-range connectivity for IoT devices" },
+                    { "id": 3, "answer": "Short-range communications" },
+                    { "id": 4, "answer": "Low power consumption only" }
+                ],
+                "correct": 2
+            },
+            {
+                "id": 64,
+                "title": "What is one function of Near-Field Communication (NFC)?",
+                "answers": [
+                    { "id": 1, "answer": "Enable long-range data transfer" },
+                    { "id": 2, "answer": "Facilitate secure payment transactions" },
+                    { "id": 3, "answer": "Create mesh networks" },
+                    { "id": 4, "answer": "Connect devices over Bluetooth" }
+                ],
+                "correct": 2
+            },
+            {
+                "id": 65,
+                "title": "Which wireless protocol is best suited for short-distance Personal Area Networks (PANs)?",
+                "answers": [
+                    { "id": 1, "answer": "Wi-Fi" },
+                    { "id": 2, "answer": "Bluetooth" },
+                    { "id": 3, "answer": "LoRaWan" },
+                    { "id": 4, "answer": "Z-Wave" }
+                ],
+                "correct": 2
               }
-          ]
-        }
-      ]
-    }
+            
+            ] 
+          }
+        ]
+      }
+        
+    ]
   }
+}
   
