@@ -4119,16 +4119,17 @@
                       "correct": 2
                   },
                   {
-                      "id": 3,
-                      "title": "What are the main configuration options available when setting up PPP?",
-                      "answers": [
-                          { "id": 1, "answer": "Encryption and compression" },
-                          { "id": 2, "answer": "Multilink connection and authentication" },
-                          { "id": 3, "answer": "Address assignment and routing" },
-                          { "id": 4, "answer": "Firewall settings and bandwidth management" }
-                      ],
-                      "correct": 2
+                    "id": 3,
+                    "title": "What are the main configuration options available when setting up PPP?",
+                    "answers": [
+                        { "id": 1, "answer": "Multilink connection, compression, authentication, and error detection" },
+                        { "id": 2, "answer": "Encryption, compression, routing, and firewall settings" },
+                        { "id": 3, "answer": "Multilink connection, password management, routing, and bandwidth control" },
+                        { "id": 4, "answer": "Error detection, bandwidth management, compression, and routing" }
+                    ],
+                    "correct": 1
                   },
+                
                   {
                       "id": 4,
                       "title": "Describe the function of the Password Authentication Protocol (PAP) in PPP.",
@@ -4416,7 +4417,7 @@
                   "correct": 2
               },
               {
-                "id": 29,
+                "id":30,
                 "title": "What is the primary feature of High-bit-rate DSL (HDSL)?",
                 "answers": [
                     { "id": 1, "answer": "It provides speeds higher than 1.544 Mbps" },
@@ -4427,7 +4428,7 @@
                 "correct": 1
               },
               {
-                "id": 30,
+                "id": 31,
                 "title": "What does FTTN (Fiber to the Neighborhood) refer to in FTTX implementations?",
                 "answers": [
                     { "id": 1, "answer": "Fiber is delivered directly to individual homes" },
@@ -4438,7 +4439,7 @@
                 "correct": 2
               },
               {
-                "id": 31,
+                "id": 32,
                 "title": "In FTTX implementations, what does FTTB (Fiber to the Building) represent?",
                 "answers": [
                     { "id": 1, "answer": "Fiber runs directly to individual homes, bypassing any shared infrastructure" },
@@ -4447,6 +4448,50 @@
                     { "id": 4, "answer": "Fiber runs directly to a cabinet within the building, without using copper or coaxial cables" }
                 ],
                 "correct": 3
+              },
+              {
+                "id": 33,
+                "title": "What error detection mechanisms are used in PPP?",
+                "answers": [
+                    { "id": 1, "answer": "Frame Check Sequence (FCS) and looped link detection" },
+                    { "id": 2, "answer": "Encryption and data integrity checks" },
+                    { "id": 3, "answer": "Magic number validation and packet retransmission" },
+                    { "id": 4, "answer": "Authentication protocols and compression" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 34,
+                "title": "Which sub-protocols operate at the network layer in PPP?",
+                "answers": [
+                    { "id": 1, "answer": "Network Control Protocol (NCP) and Link Control Protocol (LCP)" },
+                    { "id": 2, "answer": "Challenge Handshake Authentication Protocol (CHAP) and Password Authentication Protocol (PAP)" },
+                    { "id": 3, "answer": "Frame Check Sequence (FCS) and compression" },
+                    { "id": 4, "answer": "Multilink Protocol (MLP) and error detection" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 35,
+                "title": "At which layer does Point-to-Point Protocol (PPP) operate?",
+                "answers": [
+                    { "id": 1, "answer": "Application layer" },
+                    { "id": 2, "answer": "Transport layer" },
+                    { "id": 3, "answer": "Data link layer" },
+                    { "id": 4, "answer": "Network layer" }
+                ],
+                "correct": 3
+            },
+            {
+              "id":36,
+              "title": "Which of the following correctly describes the structure of a Point-to-Point Protocol (PPP) frame?",
+              "answers": [
+                  { "id": 1, "answer": "A flag, address, control, protocol, data, and frame check sequence" },
+                  { "id": 2, "answer": "A header, payload, and trailer" },
+                  { "id": 3, "answer": "An encapsulation type, source address, destination address, and payload" },
+                  { "id": 4, "answer": "A start flag, data type, checksum, and end flag" }
+                ],
+               "correct": 1
               }
             ]
           },
