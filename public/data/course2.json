@@ -4375,7 +4375,6 @@
                   "id": "module5-3",
                   "title": "WANs",
                   "questions": [
-                    [
                       {
                           "id": 1,
                           "title": "What is the primary function of a Wide Area Network (WAN)?",
@@ -4598,7 +4597,6 @@
                     }
                   ]
                   
-                  ]
                 },
                 {
                   "id": "module5-4",
