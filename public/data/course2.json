@@ -4440,15 +4440,16 @@
               },
               {
                 "id": 32,
-                "title": "In FTTX implementations, what does FTTB (Fiber to the Building) represent?",
+                "title": "What does FTTB (Fiber to the Building) refer to in fiber optic networking?",
                 "answers": [
-                    { "id": 1, "answer": "Fiber runs directly to individual homes, bypassing any shared infrastructure" },
-                    { "id": 2, "answer": "Fiber is used to deliver data to a cabinet serving a neighborhood" },
-                    { "id": 3, "answer": "Fiber is delivered to a specific building, with copper used for internal connections" },
-                    { "id": 4, "answer": "Fiber runs directly to a cabinet within the building, without using copper or coaxial cables" }
+                    { "id": 1, "answer": "Fiber runs directly to individual residences" },
+                    { "id": 2, "answer": "Fiber is delivered to a neighborhood cabinet and then uses copper or coaxial cables" },
+                    { "id": 3, "answer": "Fiber is delivered to a specific building, with internal connections using twisted pair copper" },
+                    { "id": 4, "answer": "Fiber is used only for long-distance communication" }
                 ],
                 "correct": 3
               },
+            
               {
                 "id": 33,
                 "title": "What error detection mechanisms are used in PPP?",
@@ -4492,6 +4493,28 @@
                   { "id": 4, "answer": "A start flag, data type, checksum, and end flag" }
                 ],
                "correct": 1
+              },
+              {
+                "id":37,
+                "title": "What are the two sub-protocols used by the Point-to-Point Protocol (PPP) at the network layer to determine the physical path for data transmission?",
+                "answers": [
+                    { "id": 1, "answer": "Network Control Protocol (NCP) and Link Control Protocol (LCP)" },
+                    { "id": 2, "answer": "Transmission Control Protocol (TCP) and User Datagram Protocol (UDP)" },
+                    { "id": 3, "answer": "Internet Control Message Protocol (ICMP) and Address Resolution Protocol (ARP)" },
+                    { "id": 4, "answer": "Hypertext Transfer Protocol (HTTP) and File Transfer Protocol (FTP)" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 38,
+                "title": "What is the function of an ONT (Optical Network Terminator) in fiber optic networking?",
+                "answers": [
+                    { "id": 1, "answer": "It amplifies the optical signals for long-distance transmission" },
+                    { "id": 2, "answer": "It converts data from fiber network protocols to those compatible with traditional twisted pair copper networks" },
+                    { "id": 3, "answer": "It serves as a router for internal network connections" },
+                    { "id": 4, "answer": "It provides power to fiber optic cables" }
+                ],
+                "correct": 2
               }
             ]
           },
@@ -4696,6 +4719,61 @@
                             { "id": 4, "answer": "Local caching" }
                         ],
                         "correct": 2
+                    },
+                    {
+                      "id": 20,
+                      "title": "What defines a Wide Area Network (WAN)?",
+                      "answers": [
+                          { "id": 1, "answer": "A network that spans multiple physical locations and acts like a single network." },
+                          { "id": 2, "answer": "A network that connects devices within a single physical location." },
+                          { "id": 3, "answer": "A type of network that only uses wireless connections." },
+                          { "id": 4, "answer": "A network that uses only fiber optic cables." }
+                      ],
+                      "correct": 1
+                  },
+                  {
+                      "id": 21,
+                      "title": "What is required to connect two offices over a WAN?",
+                      "answers": [
+                          { "id": 1, "answer": "A direct cable connection between the two offices." },
+                          { "id": 2, "answer": "Contracting with an ISP for a link across the Internet." },
+                          { "id": 3, "answer": "Using a local area network (LAN) setup." },
+                          { "id": 4, "answer": "Setting up a mesh network." }
+                      ],
+                      "correct": 2
+                  },
+                  {
+                      "id": 22,
+                      "title": "What is the demarcation point in a WAN?",
+                      "answers": [
+                          { "id": 1, "answer": "The location where the WAN meets the Internet." },
+                          { "id": 2, "answer": "The endpoint of each local network where the ISP's network takes over." },
+                          { "id": 3, "answer": "The physical location of the router." },
+                          { "id": 4, "answer": "The point where data is transmitted between two devices." }
+                      ],
+                      "correct": 2
+                  },
+                  {
+                      "id": 23,
+                      "title": "What does the local loop refer to in a WAN?",
+                      "answers": [
+                          { "id": 1, "answer": "The connection between two local area networks." },
+                          { "id": 2, "answer": "The section between the demarcation point and the ISP’s core network." },
+                          { "id": 3, "answer": "The equipment used to connect to the Internet." },
+                          { "id": 4, "answer": "The physical cabling within a single building." }
+                      ],
+                      "correct": 2
+                  },
+                  {
+                      "id":24,
+                      "title": "Which of the following describes WAN protocols?",
+                      "answers": [
+                          { "id": 1, "answer": "Protocols that are only used in local area networks." },
+                          { "id": 2, "answer": "Protocols utilized at the data link layer to transport data between locations." },
+                          { "id": 3, "answer": "Protocols that only manage wireless connections." },
+                          { "id": 4, "answer": "Protocols that are specific to fiber optic networks." }
+                      ],
+                      "correct": 2
                     }
                   ]
                   
