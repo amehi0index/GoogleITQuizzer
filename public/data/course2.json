@@ -4065,7 +4065,31 @@
                               { "id": 4, "answer": "They are used for security purposes" }
                           ],
                           "correct": 2
-                      }
+                      },
+                      {
+                        "id": 10,
+                        "title": "What role did modems play in early data transmission over phone lines?",
+                        "answers": [
+                            { "id": 1, "answer": "They amplified electrical signals for transmission" },
+                            { "id": 2, "answer": "They converted binary data into audible wavelengths for transmission" },
+                            { "id": 3, "answer": "They provided wireless communication" },
+                            { "id": 4, "answer": "They encrypted data for secure communication" }
+                        ],
+                        "correct": 2
+                    },
+                    {
+                      "id": 11,
+                      "title": "What is the Public Switched Telephone Network (PSTN) commonly known as?",
+                      "answers": [
+                          { "id": 1, "answer": "Ethernet" },
+                          { "id": 2, "answer": "Broadband" },
+                          { "id": 3, "answer": "POTS (Plain Old Telephone Service)" },
+                          { "id": 4, "answer": "Fiber Optic Network" }
+                      ],
+                      "correct": 3
+                  }
+                  
+                    
                   ]
                 },
                 {
@@ -4368,210 +4392,254 @@
                         { "id": 4, "answer": "They provide slower speeds than fiber optics" }
                     ],
                     "correct": 2
-                }
-                  ]
                 },
                 {
-                  "id": "module5-3",
-                  "title": "WANs",
-                  "questions": [
-                      {
-                          "id": 1,
-                          "title": "What is the primary function of a Wide Area Network (WAN)?",
-                          "answers": [
-                              { "id": 1, "answer": "Connects multiple LANs over long distances" },
-                              { "id": 2, "answer": "Provides wireless internet access" },
-                              { "id": 3, "answer": "Facilitates local file sharing" },
-                              { "id": 4, "answer": "Connects devices within a single building" }
-                          ],
-                          "correct": 1
-                      },
-                      {
-                          "id": 2,
-                          "title": "Which technology is commonly used for dedicated WAN connections?",
-                          "answers": [
-                              { "id": 1, "answer": "VPN" },
-                              { "id": 2, "answer": "Leased Lines" },
-                              { "id": 3, "answer": "Wi-Fi" },
-                              { "id": 4, "answer": "DSL" }
-                          ],
-                          "correct": 2
-                      },
-                      {
-                          "id": 3,
-                          "title": "What does MPLS stand for?",
-                          "answers": [
-                              { "id": 1, "answer": "Multi-Protocol Local Switching" },
-                              { "id": 2, "answer": "Multi-Protocol Label Switching" },
-                              { "id": 3, "answer": "Maximum Packet Loss System" },
-                              { "id": 4, "answer": "Multi-Protocol Layer Security" }
-                          ],
-                          "correct": 2
-                      },
-                      {
-                          "id": 4,
-                          "title": "Which of the following is a challenge associated with WANs?",
-                          "answers": [
-                              { "id": 1, "answer": "Limited geographical coverage" },
-                              { "id": 2, "answer": "High latency" },
-                              { "id": 3, "answer": "Easy management" },
-                              { "id": 4, "answer": "Low cost" }
-                          ],
-                          "correct": 2
-                      },
-                      {
-                          "id": 5,
-                          "title": "What is one advantage of using a Point-to-Point VPN?",
-                          "answers": [
-                              { "id": 1, "answer": "Requires dedicated leased lines" },
-                              { "id": 2, "answer": "Offers high encryption standards" },
-                              { "id": 3, "answer": "Cost-effective compared to traditional WANs" },
-                              { "id": 4, "answer": "Requires complex setup" }
-                          ],
-                          "correct": 3
-                      },
-                      {
-                          "id": 6,
-                          "title": "Which technology is known for its high latency and is often used in remote areas?",
-                          "answers": [
-                              { "id": 1, "answer": "Leased Lines" },
-                              { "id": 2, "answer": "Satellite Connections" },
-                              { "id": 3, "answer": "Fiber Optics" },
-                              { "id": 4, "answer": "MPLS" }
-                          ],
-                          "correct": 2
-                      },
-                      {
-                          "id": 7,
-                          "title": "What is a primary characteristic of WANs?",
-                          "answers": [
-                              { "id": 1, "answer": "Connects devices in a single location" },
-                              { "id": 2, "answer": "Utilizes various technologies for connectivity" },
-                              { "id": 3, "answer": "Operates exclusively on fiber optics" },
-                              { "id": 4, "answer": "Requires physical cables only" }
-                          ],
-                          "correct": 2
-                      },
-                      {
-                          "id": 8,
-                          "title": "What do VPN tunnels allow users to do?",
-                          "answers": [
-                              { "id": 1, "answer": "Connect to public Wi-Fi securely" },
-                              { "id": 2, "answer": "Access resources as if on the same local network" },
-                              { "id": 3, "answer": "Eliminate the need for a router" },
-                              { "id": 4, "answer": "Increase internet speed" }
-                          ],
-                          "correct": 2
-                      },
-                      {
-                          "id": 9,
-                          "title": "Which of the following is NOT a type of WAN technology?",
-                          "answers": [
-                              { "id": 1, "answer": "Frame Relay" },
-                              { "id": 2, "answer": "MPLS" },
-                              { "id": 3, "answer": "Ethernet" },
-                              { "id": 4, "answer": "Satellite Connections" }
-                          ],
-                          "correct": 3
-                      },
-                      {
-                          "id": 10,
-                          "title": "What is the purpose of network devices in establishing a VPN tunnel?",
-                          "answers": [
-                              { "id": 1, "answer": "To provide physical connections" },
-                              { "id": 2, "answer": "To create a secure communication channel" },
-                              { "id": 3, "answer": "To manage bandwidth" },
-                              { "id": 4, "answer": "To monitor internet usage" }
-                          ],
-                          "correct": 2
-                      },
-                      {
-                        "id": 11,
-                        "title": "What is the primary purpose of WAN protocols?",
-                        "answers": [
-                            { "id": 1, "answer": "To provide local area network services" },
-                            { "id": 2, "answer": "To manage data transmission over wide area networks" },
-                            { "id": 3, "answer": "To create cloud-based applications" },
-                            { "id": 4, "answer": "To enhance network security" }
-                        ],
-                        "correct": 2
-                    },
-                    {
-                        "id": 12,
-                        "title": "Which of the following is a method of data transmission used in WAN protocols?",
-                        "answers": [
-                            { "id": 1, "answer": "Circuit switching" },
-                            { "id": 2, "answer": "Packet switching" },
-                            { "id": 3, "answer": "Cloud computing" },
-                            { "id": 4, "answer": "Data warehousing" }
-                        ],
-                        "correct": 2
-                    },
-                    {
-                        "id": 13,
-                        "title": "What does SD-WAN stand for?",
-                        "answers": [
-                            { "id": 1, "answer": "Software-Defined Wide Area Network" },
-                            { "id": 2, "answer": "Synchronous Data Wide Area Network" },
-                            { "id": 3, "answer": "Single Data Wide Area Network" },
-                            { "id": 4, "answer": "Standardized Data Wide Area Network" }
-                        ],
-                        "correct": 1
-                    },
-                    {
-                        "id": 14,
-                        "title": "Which technology is used to prevent multiple copies of the same file from being stored on a WAN?",
-                        "answers": [
-                            { "id": 1, "answer": "Compression" },
-                            { "id": 2, "answer": "Deduplication" },
-                            { "id": 3, "answer": "Local caching" },
-                            { "id": 4, "answer": "Traffic shaping" }
-                        ],
-                        "correct": 2
-                    },
-                    {
-                        "id": 15,
-                        "title": "What is the main advantage of using a point-to-point VPN?",
-                        "answers": [
-                            { "id": 1, "answer": "Higher latency" },
-                            { "id": 2, "answer": "Cost-effectiveness" },
-                            { "id": 3, "answer": "Increased complexity" },
-                            { "id": 4, "answer": "More expensive leased lines" }
-                        ],
-                        "correct": 2
-                    },
-                    {
-                        "id": 16,
-                        "title": "What type of circuit is used for long-term data connections in WANs?",
-                        "answers": [
-                            { "id": 1, "answer": "Switched Virtual Circuits (SVCs)" },
-                            { "id": 2, "answer": "Permanent Virtual Circuits (PVCs)" },
-                            { "id": 3, "answer": "Asynchronous Transfer Mode (ATM)" },
-                            { "id": 4, "answer": "Frame Relay" }
-                        ],
-                        "correct": 2
-                    },
-                    {
-                        "id": 17,
-                        "title": "Which protocol is known for using small, fixed-sized cells for data transmission?",
-                        "answers": [
-                            { "id": 1, "answer": "Packet over SONET" },
-                            { "id": 2, "answer": "Frame Relay" },
-                            { "id": 3, "answer": "Asynchronous Transfer Mode (ATM)" },
-                            { "id": 4, "answer": "Multiprotocol Label Switching (MPLS)" }
-                        ],
-                        "correct": 3
-                    },
-                    {
-                        "id": 18,
-                        "title": "What is one challenge of implementing WANs?",
-                        "answers": [
-                            { "id": 1, "answer": "Low latency" },
-                            { "id": 2, "answer": "High cost" },
-                            { "id": 3, "answer": "Simplicity" },
-                            { "id": 4, "answer": "Easy management" }
-                        ],
-                        "correct": 2
+                  "id": 28,
+                  "title": "What is the role of a Cable Modem Termination System (CMTS)?",
+                  "answers": [
+                      { "id": 1, "answer": "It connects multiple cable modems to the ISP’s core network" },
+                      { "id": 2, "answer": "It provides local area network services" },
+                      { "id": 3, "answer": "It is responsible for encrypting all data" },
+                      { "id": 4, "answer": "It converts analog signals to digital" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 29,
+                  "title": "What is a key characteristic of Symmetric Digital Subscriber Line (SDSL)?",
+                  "answers": [
+                      { "id": 1, "answer": "It provides faster download speeds than upload speeds" },
+                      { "id": 2, "answer": "It offers equal upload and download speeds" },
+                      { "id": 3, "answer": "It is primarily used by home users" },
+                      { "id": 4, "answer": "It can operate at speeds up to 100 Mbps" }
+                  ],
+                  "correct": 2
+              },
+              {
+                "id": 29,
+                "title": "What is the primary feature of High-bit-rate DSL (HDSL)?",
+                "answers": [
+                    { "id": 1, "answer": "It provides speeds higher than 1.544 Mbps" },
+                    { "id": 2, "answer": "It is a technology primarily used for wireless connections" },
+                    { "id": 3, "answer": "It offers the highest download speeds among all DSL types" },
+                    { "id": 4, "answer": "It only supports asymmetric data transfer" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 30,
+                "title": "What does FTTN (Fiber to the Neighborhood) refer to in FTTX implementations?",
+                "answers": [
+                    { "id": 1, "answer": "Fiber is delivered directly to individual homes" },
+                    { "id": 2, "answer": "Fiber is used to deliver data to a cabinet serving a neighborhood, with copper or coaxial cables used for the final connections" },
+                    { "id": 3, "answer": "Fiber runs directly to a specific building or basement" },
+                    { "id": 4, "answer": "Fiber is used only for internal connections within a building" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 31,
+                "title": "In FTTX implementations, what does FTTB (Fiber to the Building) represent?",
+                "answers": [
+                    { "id": 1, "answer": "Fiber runs directly to individual homes, bypassing any shared infrastructure" },
+                    { "id": 2, "answer": "Fiber is used to deliver data to a cabinet serving a neighborhood" },
+                    { "id": 3, "answer": "Fiber is delivered to a specific building, with copper used for internal connections" },
+                    { "id": 4, "answer": "Fiber runs directly to a cabinet within the building, without using copper or coaxial cables" }
+                ],
+                "correct": 3
+              }
+            ]
+          },
+          {
+            "id": "module5-3",
+            "title": "WANs",
+            "questions": [
+                {
+                  "id": 1,
+                  "title": "What is the primary function of a Wide Area Network (WAN)?",
+                  "answers": [
+                      { "id": 1, "answer": "Connects multiple LANs over long distances" },
+                      { "id": 2, "answer": "Provides wireless internet access" },
+                      { "id": 3, "answer": "Facilitates local file sharing" },
+                      { "id": 4, "answer": "Connects devices within a single building" }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": 2,
+                  "title": "Which technology is commonly used for dedicated WAN connections?",
+                  "answers": [
+                      { "id": 1, "answer": "VPN" },
+                      { "id": 2, "answer": "Leased Lines" },
+                      { "id": 3, "answer": "Wi-Fi" },
+                      { "id": 4, "answer": "DSL" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 3,
+                  "title": "What does MPLS stand for?",
+                  "answers": [
+                      { "id": 1, "answer": "Multi-Protocol Local Switching" },
+                      { "id": 2, "answer": "Multi-Protocol Label Switching" },
+                      { "id": 3, "answer": "Maximum Packet Loss System" },
+                      { "id": 4, "answer": "Multi-Protocol Layer Security" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 4,
+                  "title": "Which of the following is a challenge associated with WANs?",
+                  "answers": [
+                      { "id": 1, "answer": "Limited geographical coverage" },
+                      { "id": 2, "answer": "High latency" },
+                      { "id": 3, "answer": "Easy management" },
+                      { "id": 4, "answer": "Low cost" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 5,
+                  "title": "What is one advantage of using a Point-to-Point VPN?",
+                  "answers": [
+                      { "id": 1, "answer": "Requires dedicated leased lines" },
+                      { "id": 2, "answer": "Offers high encryption standards" },
+                      { "id": 3, "answer": "Cost-effective compared to traditional WANs" },
+                      { "id": 4, "answer": "Requires complex setup" }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": 6,
+                  "title": "Which technology is known for its high latency and is often used in remote areas?",
+                  "answers": [
+                      { "id": 1, "answer": "Leased Lines" },
+                      { "id": 2, "answer": "Satellite Connections" },
+                      { "id": 3, "answer": "Fiber Optics" },
+                      { "id": 4, "answer": "MPLS" }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": 7,
+                  "title": "What is a primary characteristic of WANs?",
+                  "answers": [
+                      { "id": 1, "answer": "Connects devices in a single location" },
+                      { "id": 2, "answer": "Utilizes various technologies for connectivity" },
+                      { "id": 3, "answer": "Operates exclusively on fiber optics" },
+                      { "id": 4, "answer": "Requires physical cables only" }
+                  ],
+                  "correct": 2
+                },
+              {
+                  "id": 8,
+                  "title": "What do VPN tunnels allow users to do?",
+                  "answers": [
+                      { "id": 1, "answer": "Connect to public Wi-Fi securely" },
+                      { "id": 2, "answer": "Access resources as if on the same local network" },
+                      { "id": 3, "answer": "Eliminate the need for a router" },
+                      { "id": 4, "answer": "Increase internet speed" }
+                  ],
+                  "correct": 2
+                },
+                {
+                    "id": 9,
+                    "title": "Which of the following is NOT a type of WAN technology?",
+                    "answers": [
+                        { "id": 1, "answer": "Frame Relay" },
+                        { "id": 2, "answer": "MPLS" },
+                        { "id": 3, "answer": "Ethernet" },
+                        { "id": 4, "answer": "Satellite Connections" }
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id": 10,
+                    "title": "What is the purpose of network devices in establishing a VPN tunnel?",
+                    "answers": [
+                        { "id": 1, "answer": "To provide physical connections" },
+                        { "id": 2, "answer": "To create a secure communication channel" },
+                        { "id": 3, "answer": "To manage bandwidth" },
+                        { "id": 4, "answer": "To monitor internet usage" }
+                    ],
+                    "correct": 2
+                },
+                {
+                  "id": 11,
+                  "title": "What is the primary purpose of WAN protocols?",
+                  "answers": [
+                      { "id": 1, "answer": "To provide local area network services" },
+                      { "id": 2, "answer": "To manage data transmission over wide area networks" },
+                      { "id": 3, "answer": "To create cloud-based applications" },
+                      { "id": 4, "answer": "To enhance network security" }
+                  ],
+                  "correct": 2
+              },
+              {
+                  "id": 12,
+                  "title": "Which of the following is a method of data transmission used in WAN protocols?",
+                  "answers": [
+                      { "id": 1, "answer": "Circuit switching" },
+                      { "id": 2, "answer": "Packet switching" },
+                      { "id": 3, "answer": "Cloud computing" },
+                      { "id": 4, "answer": "Data warehousing" }
+                  ],
+                  "correct": 2
+              },
+              {
+                  "id": 13,
+                  "title": "What does SD-WAN stand for?",
+                  "answers": [
+                      { "id": 1, "answer": "Software-Defined Wide Area Network" },
+                      { "id": 2, "answer": "Synchronous Data Wide Area Network" },
+                      { "id": 3, "answer": "Single Data Wide Area Network" },
+                      { "id": 4, "answer": "Standardized Data Wide Area Network" }
+                  ],
+                  "correct": 1
+              },
+              {
+                  "id": 14,
+                  "title": "Which technology is used to prevent multiple copies of the same file from being stored on a WAN?",
+                  "answers": [
+                      { "id": 1, "answer": "Compression" },
+                      { "id": 2, "answer": "Deduplication" },
+                      { "id": 3, "answer": "Local caching" },
+                      { "id": 4, "answer": "Traffic shaping" }
+                  ],
+                  "correct": 2
+              },
+              {
+                  "id": 15,
+                  "title": "What is the main advantage of using a point-to-point VPN?",
+                  "answers": [
+                      { "id": 1, "answer": "Higher latency" },
+                      { "id": 2, "answer": "Cost-effectiveness" },
+                      { "id": 3, "answer": "Increased complexity" },
+                      { "id": 4, "answer": "More expensive leased lines" }
+                  ],
+                  "correct": 2
+              },
+              {
+                  "id": 16,
+                  "title": "What type of circuit is used for long-term data connections in WANs?",
+                  "answers": [
+                      { "id": 1, "answer": "Switched Virtual Circuits (SVCs)" },
+                      { "id": 2, "answer": "Permanent Virtual Circuits (PVCs)" },
+                      { "id": 3, "answer": "Asynchronous Transfer Mode (ATM)" },
+                      { "id": 4, "answer": "Frame Relay" }
+                  ],
+                  "correct": 2
+              },
+              {
+                  "id": 17,
+                  "title": "Which protocol is known for using small, fixed-sized cells for data transmission?",
+                  "answers": [
+                      { "id": 1, "answer": "Packet over SONET" },
+                      { "id": 2, "answer": "Frame Relay" },
+                      { "id": 3, "answer": "Asynchronous Transfer Mode (ATM)" },
+                      { "id": 4, "answer": "Multiprotocol Label Switching (MPLS)" }
+                  ],
+                  "correct": 3
                     },
                     {
                         "id": 19,
@@ -4583,17 +4651,6 @@
                             { "id": 4, "answer": "Local caching" }
                         ],
                         "correct": 2
-                    },
-                    {
-                        "id": 20,
-                        "title": "What does MPLS stand for?",
-                        "answers": [
-                            { "id": 1, "answer": "Multiprotocol Label Switching" },
-                            { "id": 2, "answer": "Managed Packet Label Switching" },
-                            { "id": 3, "answer": "Multi-Layer Protocol Switching" },
-                            { "id": 4, "answer": "Multi-Protocol Link System" }
-                        ],
-                        "correct": 1
                     }
                   ]
                   
