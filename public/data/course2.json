@@ -5521,1134 +5521,1133 @@
               }
             
             ] 
+          }
+        ]
+      },{
+        "id": "module6",
+        "title": "Module 6: Troubleshooting and the Future of Networking",
+        "subModules": [
+          {
+            "id": "module6-1",
+            "title": "Verifying Connectivity",
+            "questions": [
+              {
+                "id": 1,
+                "title": "What is the primary purpose of ICMP in networking?",
+                "answers": [
+                  { "id": 1, "answer": "To transmit data packets" },
+                  { "id": 2, "answer": "To communicate errors regarding IP packet transmission" },
+                  { "id": 3, "answer": "To establish connections" },
+                  { "id": 4, "answer": "To encrypt data" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 2,
+                "title": "What does TTL stand for in networking?",
+                "answers": [
+                  { "id": 1, "answer": "Total Transmission Length" },
+                  { "id": 2, "answer": "Time to Live" },
+                  { "id": 3, "answer": "Transmission Time Limit" },
+                  { "id": 4, "answer": "Time to Load" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 3,
+                "title": "Which tool is used to test network connectivity using ICMP echo requests?",
+                "answers": [
+                  { "id": 1, "answer": "Traceroute" },
+                  { "id": 2, "answer": "Netcat" },
+                  { "id": 3, "answer": "Ping" },
+                  { "id": 4, "answer": "Pathping" }
+                ],
+                "correct": 3
+              },
+              {
+                "id": 4,
+                "title": "What type of information does a Traceroute command provide?",
+                "answers": [
+                  { "id": 1, "answer": "Only the destination IP" },
+                  { "id": 2, "answer": "The path taken by packets to reach a destination" },
+                  { "id": 3, "answer": "Only the round-trip time" },
+                  { "id": 4, "answer": "The data payload of the packets" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 5,
+                "title": "Which command is used in Windows to perform a Traceroute?",
+                "answers": [
+                  { "id": 1, "answer": "traceroute" },
+                  { "id": 2, "answer": "ping" },
+                  { "id": 3, "answer": "tracert" },
+                  { "id": 4, "answer": "netstat" }
+                ],
+                "correct": 3
+              },
+              {
+                "id": 6,
+                "title": "What does the 'ping' command output typically show?",
+                "answers": [
+                  { "id": 1, "answer": "Only the IP address of the destination" },
+                  { "id": 2, "answer": "Round-trip time and packet statistics" },
+                  { "id": 3, "answer": "The TTL value only" },
+                  { "id": 4, "answer": "The data size only" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 7,
+                "title": "What is the purpose of the '-z' flag in Netcat?",
+                "answers": [
+                  { "id": 1, "answer": "To increase the data size" },
+                  { "id": 2, "answer": "To check port status without sending data" },
+                  { "id": 3, "answer": "To enable verbose output" },
+                  { "id": 4, "answer": "To establish a persistent connection" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 8,
+                "title": "What does the 'Test-NetConnection' command do in Windows?",
+                "answers": [
+                  { "id": 1, "answer": "Only sends ICMP echo requests" },
+                  { "id": 2, "answer": "Checks connectivity to a host and port" },
+                  { "id": 3, "answer": "Only tests local network connections" },
+                  { "id": 4, "answer": "Monitors network traffic" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 9,
+                "title": "How does Traceroute determine the route taken by packets?",
+                "answers": [
+                  { "id": 1, "answer": "By using static routes" },
+                  { "id": 2, "answer": "By manipulating the TTL field" },
+                  { "id": 3, "answer": "By checking packet sizes" },
+                  { "id": 4, "answer": "By sending data packets" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 10,
+                "title": "What information is included in the ICMP packet structure?",
+                "answers": [
+                  { "id": 1, "answer": "Type, Code, Checksum, Data Payload" },
+                  { "id": 2, "answer": "Source IP, Destination IP, Payload" },
+                  { "id": 3, "answer": "Header Length, Options, Checksum" },
+                  { "id": 4, "answer": "Sequence Number, Acknowledgment Number" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 11,
+                "title": "What command is used in Linux to test port connectivity?",
+                "answers": [
+                  { "id": 1, "answer": "netstat" },
+                  { "id": 2, "answer": "nc" },
+                  { "id": 3, "answer": "ping" },
+                  { "id": 4, "answer": "traceroute" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 12,
+                "title": "Which utility continuously updates its output for real-time monitoring of network paths?",
+                "answers": [
+                  { "id": 1, "answer": "Traceroute" },
+                  { "id": 2, "answer": "MTR" },
+                  { "id": 3, "answer": "Ping" },
+                  { "id": 4, "answer": "Netcat" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 13,
+                "title": "What does 'nc' stand for in the netcat command?",
+                "answers": [
+                  { "id": 1, "answer": "Network Cat" },
+                  { "id": 2, "answer": "Network Concatenate" },
+                  { "id": 3, "answer": "Net Concatenate" },
+                  { "id": 4, "answer": "Network Connection" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 14,
+                "title": "What command is used to establish a TCP connection to a host using netcat?",
+                "answers": [
+                  { "id": 1, "answer": "nc -u <host> <port>" },
+                  { "id": 2, "answer": "nc -t <host> <port>" },
+                  { "id": 3, "answer": "nc <host> <port>" },
+                  { "id": 4, "answer": "nc -p <host> <port>" }
+                ],
+                "correct": 3
+              },
+              {
+                "id": 15,
+                "title": "What does the '-u' option do in the netcat command?",
+                "answers": [
+                  { "id": 1, "answer": "Establishes a TCP connection" },
+                  { "id": 2, "answer": "Opens a UDP connection" },
+                  { "id": 3, "answer": "Scans for open ports" },
+                  { "id": 4, "answer": "Enables verbose output" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 16,
+                "title": "What is the purpose of the '-z' option in netcat?",
+                "answers": [
+                  { "id": 1, "answer": "To establish a TCP connection" },
+                  { "id": 2, "answer": "To scan for open ports" },
+                  { "id": 3, "answer": "To prevent DNS lookup" },
+                  { "id": 4, "answer": "To execute a program" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 17,
+                "title": "What does the '-v' option signify in the netcat command?",
+                "answers": [
+                  { "id": 1, "answer": "Verbose output" },
+                  { "id": 2, "answer": "Zero input/output" },
+                  { "id": 3, "answer": "UDP connection" },
+                  { "id": 4, "answer": "Local port specification" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 18,
+                "title": "Which of the following commands would provide very verbose output using netcat?",
+                "answers": [
+                  { "id": 1, "answer": "nc -v <host> <port>" },
+                  { "id": 2, "answer": "nc -u <host> <port>" },
+                  { "id": 3, "answer": "nc -vv <host> <port>" },
+                  { "id": 4, "answer": "nc -p <host> <port>" }
+                ],
+                "correct": 3
+              },
+              {
+                "id": 19,
+                "title": "What does the '-e' option do in netcat?",
+                "answers": [
+                  { "id": 1, "answer": "Specifies a local port" },
+                  { "id": 2, "answer": "Executes a program after connection" },
+                  { "id": 3, "answer": "Opens a UDP connection" },
+                  { "id": 4, "answer": "Prevents DNS lookup" }
+                ],
+                "correct": 2
+              },
+              {
+                "id":20,
+                "title": "What is the main purpose of the Test-NetConnection command in Windows?",
+                "answers": [
+                  { "id": 1, "answer": "To test network connectivity" },
+                  { "id": 2, "answer": "To scan for open ports" },
+                  { "id": 3, "answer": "To establish UDP connections" },
+                  { "id": 4, "answer": "To execute a program" }
+                ],
+                "correct": 1
+              },
+              {
+                "id":21,
+                "title": "Which command tests TCP connectivity to a specific host and port in PowerShell?",
+                "answers": [
+                  { "id": 1, "answer": "Test-NetConnection -ComputerName <host> -Port <port>" },
+                  { "id": 2, "answer": "nc <host> <port>" },
+                  { "id": 3, "answer": "ping <host> -p <port>" },
+                  { "id": 4, "answer": "nc -z <host> <port>" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 22,
+                "title": "What does the '-InformationLevel Detailed' option do in Test-NetConnection?",
+                "answers": [
+                  { "id": 1, "answer": "Displays basic connection details" },
+                  { "id": 2, "answer": "Provides detailed diagnostic results" },
+                  { "id": 3, "answer": "Prevents DNS lookup" },
+                  { "id": 4, "answer": "Tests UDP connectivity" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 23,
+                "title": "In the Test-NetConnection command, which option performs route diagnostics?",
+                "answers": [
+                  { "id": 1, "answer": "-DiagnoseRouting" },
+                  { "id": 2, "answer": "-InformationLevel" },
+                  { "id": 3, "answer": "-ComputerName" },
+                  { "id": 4, "answer": "-Port" }
+                ],
+                "correct": 1
+              },
+              {
+                "id":24,
+                "title": "What is the significance of running Test-NetConnection with administrator privileges?",
+                "answers": [
+                  { "id": 1, "answer": "It allows for more detailed output" },
+                  { "id": 2, "answer": "It is required for route diagnostics" },
+                  { "id": 3, "answer": "It enables TCP connections" },
+                  { "id": 4, "answer": "It disables DNS lookup" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 25,
+                "title": "What command is used in Windows to copy files from one location to another?",
+                "answers": [
+                  { "id": 1, "answer": "xcopy" },
+                  { "id": 2, "answer": "copy" },
+                  { "id": 3, "answer": "robocopy" },
+                  { "id": 4, "answer": "cp" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 26,
+                "title": "In Linux, what is the equivalent command to Windows' 'copy'?",
+                "answers": [
+                  { "id": 1, "answer": "copy" },
+                  { "id": 2, "answer": "cp" },
+                  { "id": 3, "answer": "xcopy" },
+                  { "id": 4, "answer": "robocopy" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 27,
+                "title": "What switch would you use with 'xcopy' to include subdirectories in the copy operation?",
+                "answers": [
+                  { "id": 1, "answer": "/s" },
+                  { "id": 2, "answer": "/f" },
+                  { "id": 3, "answer": "/j" },
+                  { "id": 4, "answer": "/e" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 28,
+                "title": "Which command can be used to copy files while preserving their security settings?",
+                "answers": [
+                  { "id": 1, "answer": "xcopy" },
+                  { "id": 2, "answer": "copy" },
+                  { "id": 3, "answer": "robocopy" },
+                  { "id": 4, "answer": "cp" }
+                ],
+                "correct": 3
+              },
+              {
+                "id": 29,
+                "title": "What does the 'robocopy' command with the '/sec' switch do?",
+                "answers": [
+                  { "id": 1, "answer": "Copies files and their security settings" },
+                  { "id": 2, "answer": "Copies files only" },
+                  { "id": 3, "answer": "Moves files without security" },
+                  { "id": 4, "answer": "Deletes files securely" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 30,
+                "title": "What command checks both the file system and its metadata for errors in Windows?",
+                "answers": [
+                  { "id": 1, "answer": "fsck" },
+                  { "id": 2, "answer": "chkdsk" },
+                  { "id": 3, "answer": "sfc" },
+                  { "id": 4, "answer": "diskpart" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 31,
+                "title": "What does the 'chkdsk /f' command do?",
+                "answers": [
+                  { "id": 1, "answer": "Checks the drive without fixing issues" },
+                  { "id": 2, "answer": "Repairs issues found on the drive" },
+                  { "id": 3, "answer": "Formats the drive" },
+                  { "id": 4, "answer": "Displays disk information" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 32,
+                "title": "Which command is used to reset a drive and erase all the data?",
+                "answers": [
+                  { "id": 1, "answer": "chkdsk" },
+                  { "id": 2, "answer": "format" },
+                  { "id": 3, "answer": "diskpart" },
+                  { "id": 4, "answer": "sfc" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 33,
+                "title": "What command divides a hard drive into separate partitions?",
+                "answers": [
+                  { "id": 1, "answer": "format" },
+                  { "id": 2, "answer": "diskpart" },
+                  { "id": 3, "answer": "chkdsk" },
+                  { "id": 4, "answer": "sfc" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 34,
+                "title": "Which command shuts down the local computer or other computers on the network?",
+                "answers": [
+                  { "id": 1, "answer": "shutdown" },
+                  { "id": 2, "answer": "restart" },
+                  { "id": 3, "answer": "poweroff" },
+                  { "id": 4, "answer": "halt" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 35,
+                "title": "What does the 'winver' command do?",
+                "answers": [
+                  { "id": 1, "answer": "Displays current Windows version" },
+                  { "id": 2, "answer": "Updates Windows" },
+                  { "id": 3, "answer": "Installs Windows" },
+                  { "id": 4, "answer": "Restarts Windows" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 36,
+                "title": "Which command displays the current network configuration information in Windows?",
+                "answers": [
+                  { "id": 1, "answer": "ipconfig" },
+                  { "id": 2, "answer": "netstat" },
+                  { "id": 3, "answer": "ping" },
+                  { "id": 4, "answer": "tracert" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 37,
+                "title": "What command can you use to check the status of a connection to an address or the server speed?",
+                "answers": [
+                  { "id": 1, "answer": "ping" },
+                  { "id": 2, "answer": "pathping" },
+                  { "id": 3, "answer": "tracert" },
+                  { "id": 4, "answer": "ipconfig" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 38,
+                "title": "What command traces the route of a packet of data from the user's source computer to the destination system?",
+                "answers": [
+                  { "id": 1, "answer": "ping" },
+                  { "id": 2, "answer": "tracert" },
+                  { "id": 3, "answer": "pathping" },
+                  { "id": 4, "answer": "ipconfig" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 39,
+                "title": "What command displays statistics about network activity and configuration?",
+                "answers": [
+                  { "id": 1, "answer": "nslookup" },
+                  { "id": 2, "answer": "netstat" },
+                  { "id": 3, "answer": "hostname" },
+                  { "id": 4, "answer": "ipconfig" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 40,
+                "title": "What command is used to obtain DNS record information by sending queries to the domain name server?",
+                "answers": [
+                  { "id": 1, "answer": "nslookup" },
+                  { "id": 2, "answer": "netstat" },
+                  { "id": 3, "answer": "ping" },
+                  { "id": 4, "answer": "tracert" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 41,
+                "title": "What command is used to add or modify user accounts in Windows?",
+                "answers": [
+                  { "id": 1, "answer": "net user" },
+                  { "id": 2, "answer": "net accounts" },
+                  { "id": 3, "answer": "gpresult" },
+                  { "id": 4, "answer": "gpupdate" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 42,
+                "title": "What command is used to update group policy settings?",
+                "answers": [
+                  { "id": 1, "answer": "gpresult" },
+                  { "id": 2, "answer": "gpupdate" },
+                  { "id": 3, "answer": "net user" },
+                  { "id": 4, "answer": "net accounts" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 43,
+                "title": "What command displays the Resultant Set of Policy (RSoP) for a system?",
+                "answers": [
+                  { "id": 1, "answer": "gpresult" },
+                  { "id": 2, "answer": "gpupdate" },
+                  { "id": 3, "answer": "net user" },
+                  { "id": 4, "answer": "net accounts" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 44,
+                "title": "What command is used to open the Disk Management utility in Windows?",
+                "answers": [
+                  { "id": 1, "answer": "diskpart" },
+                  { "id": 2, "answer": "diskmgmt.msc" },
+                  { "id": 3, "answer": "diskutil" },
+                  { "id": 4, "answer": "parted" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 45,
+                "title": "Which command is used to change the directory in command prompt?",
+                "answers": [
+                  { "id": 1, "answer": "cd" },
+                  { "id": 2, "answer": "dir" },
+                  { "id": 3, "answer": "chdir" },
+                  { "id": 4, "answer": "ls" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 46,
+                "title": "What command displays a list of files and directories in the current directory?",
+                "answers": [
+                  { "id": 1, "answer": "ls" },
+                  { "id": 2, "answer": "dir" },
+                  { "id": 3, "answer": "list" },
+                  { "id": 4, "answer": "show" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 47,
+                "title": "Which command is used to terminate a process in Windows?",
+                "answers": [
+                  { "id": 1, "answer": "kill" },
+                  { "id": 2, "answer": "taskkill" },
+                  { "id": 3, "answer": "terminate" },
+                  { "id": 4, "answer": "end" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 48,
+                "title": "What command is used to find the MAC address of a computer?",
+                "answers": [
+                  { "id": 1, "answer": "getmac" },
+                  { "id": 2, "answer": "ipconfig" },
+                  { "id": 3, "answer": "netstat" },
+                  { "id": 4, "answer": "ping" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 49,
+                "title": "What command displays the current TCP/IP configuration?",
+                "answers": [
+                  { "id": 1, "answer": "ipconfig" },
+                  { "id": 2, "answer": "netstat" },
+                  { "id": 3, "answer": "tracert" },
+                  { "id": 4, "answer": "ping" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 50,
+                "title": "Which command is used to release and renew IP addresses in Windows?",
+                "answers": [
+                  { "id": 1, "answer": "ipconfig /release" },
+                  { "id": 2, "answer": "ipconfig /renew" },
+                  { "id": 3, "answer": "ipconfig /flushdns" },
+                  { "id": 4, "answer": "netsh" }
+                ],
+                "correct": 2
+              }
+            ]
           },
           {
-            "id": "module6",
-            "title": "Module 6: Troubleshooting and the Future of Networking",
-            "subModules": [
+            "id": "module6-2",
+            "title": "Digging into DNS",
+            "questions": [
               {
-                "id": "module6-1",
-                "title": "Verifying Connectivity",
-                "questions": [
-                  {
-                    "id": 1,
-                    "title": "What is the primary purpose of ICMP in networking?",
-                    "answers": [
-                      { "id": 1, "answer": "To transmit data packets" },
-                      { "id": 2, "answer": "To communicate errors regarding IP packet transmission" },
-                      { "id": 3, "answer": "To establish connections" },
-                      { "id": 4, "answer": "To encrypt data" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 2,
-                    "title": "What does TTL stand for in networking?",
-                    "answers": [
-                      { "id": 1, "answer": "Total Transmission Length" },
-                      { "id": 2, "answer": "Time to Live" },
-                      { "id": 3, "answer": "Transmission Time Limit" },
-                      { "id": 4, "answer": "Time to Load" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 3,
-                    "title": "Which tool is used to test network connectivity using ICMP echo requests?",
-                    "answers": [
-                      { "id": 1, "answer": "Traceroute" },
-                      { "id": 2, "answer": "Netcat" },
-                      { "id": 3, "answer": "Ping" },
-                      { "id": 4, "answer": "Pathping" }
-                    ],
-                    "correct": 3
-                  },
-                  {
-                    "id": 4,
-                    "title": "What type of information does a Traceroute command provide?",
-                    "answers": [
-                      { "id": 1, "answer": "Only the destination IP" },
-                      { "id": 2, "answer": "The path taken by packets to reach a destination" },
-                      { "id": 3, "answer": "Only the round-trip time" },
-                      { "id": 4, "answer": "The data payload of the packets" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 5,
-                    "title": "Which command is used in Windows to perform a Traceroute?",
-                    "answers": [
-                      { "id": 1, "answer": "traceroute" },
-                      { "id": 2, "answer": "ping" },
-                      { "id": 3, "answer": "tracert" },
-                      { "id": 4, "answer": "netstat" }
-                    ],
-                    "correct": 3
-                  },
-                  {
-                    "id": 6,
-                    "title": "What does the 'ping' command output typically show?",
-                    "answers": [
-                      { "id": 1, "answer": "Only the IP address of the destination" },
-                      { "id": 2, "answer": "Round-trip time and packet statistics" },
-                      { "id": 3, "answer": "The TTL value only" },
-                      { "id": 4, "answer": "The data size only" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 7,
-                    "title": "What is the purpose of the '-z' flag in Netcat?",
-                    "answers": [
-                      { "id": 1, "answer": "To increase the data size" },
-                      { "id": 2, "answer": "To check port status without sending data" },
-                      { "id": 3, "answer": "To enable verbose output" },
-                      { "id": 4, "answer": "To establish a persistent connection" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 8,
-                    "title": "What does the 'Test-NetConnection' command do in Windows?",
-                    "answers": [
-                      { "id": 1, "answer": "Only sends ICMP echo requests" },
-                      { "id": 2, "answer": "Checks connectivity to a host and port" },
-                      { "id": 3, "answer": "Only tests local network connections" },
-                      { "id": 4, "answer": "Monitors network traffic" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 9,
-                    "title": "How does Traceroute determine the route taken by packets?",
-                    "answers": [
-                      { "id": 1, "answer": "By using static routes" },
-                      { "id": 2, "answer": "By manipulating the TTL field" },
-                      { "id": 3, "answer": "By checking packet sizes" },
-                      { "id": 4, "answer": "By sending data packets" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 10,
-                    "title": "What information is included in the ICMP packet structure?",
-                    "answers": [
-                      { "id": 1, "answer": "Type, Code, Checksum, Data Payload" },
-                      { "id": 2, "answer": "Source IP, Destination IP, Payload" },
-                      { "id": 3, "answer": "Header Length, Options, Checksum" },
-                      { "id": 4, "answer": "Sequence Number, Acknowledgment Number" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 11,
-                    "title": "What command is used in Linux to test port connectivity?",
-                    "answers": [
-                      { "id": 1, "answer": "netstat" },
-                      { "id": 2, "answer": "nc" },
-                      { "id": 3, "answer": "ping" },
-                      { "id": 4, "answer": "traceroute" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 12,
-                    "title": "Which utility continuously updates its output for real-time monitoring of network paths?",
-                    "answers": [
-                      { "id": 1, "answer": "Traceroute" },
-                      { "id": 2, "answer": "MTR" },
-                      { "id": 3, "answer": "Ping" },
-                      { "id": 4, "answer": "Netcat" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 13,
-                    "title": "What does 'nc' stand for in the netcat command?",
-                    "answers": [
-                      { "id": 1, "answer": "Network Cat" },
-                      { "id": 2, "answer": "Network Concatenate" },
-                      { "id": 3, "answer": "Net Concatenate" },
-                      { "id": 4, "answer": "Network Connection" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 14,
-                    "title": "What command is used to establish a TCP connection to a host using netcat?",
-                    "answers": [
-                      { "id": 1, "answer": "nc -u <host> <port>" },
-                      { "id": 2, "answer": "nc -t <host> <port>" },
-                      { "id": 3, "answer": "nc <host> <port>" },
-                      { "id": 4, "answer": "nc -p <host> <port>" }
-                    ],
-                    "correct": 3
-                  },
-                  {
-                    "id": 15,
-                    "title": "What does the '-u' option do in the netcat command?",
-                    "answers": [
-                      { "id": 1, "answer": "Establishes a TCP connection" },
-                      { "id": 2, "answer": "Opens a UDP connection" },
-                      { "id": 3, "answer": "Scans for open ports" },
-                      { "id": 4, "answer": "Enables verbose output" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 16,
-                    "title": "What is the purpose of the '-z' option in netcat?",
-                    "answers": [
-                      { "id": 1, "answer": "To establish a TCP connection" },
-                      { "id": 2, "answer": "To scan for open ports" },
-                      { "id": 3, "answer": "To prevent DNS lookup" },
-                      { "id": 4, "answer": "To execute a program" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 17,
-                    "title": "What does the '-v' option signify in the netcat command?",
-                    "answers": [
-                      { "id": 1, "answer": "Verbose output" },
-                      { "id": 2, "answer": "Zero input/output" },
-                      { "id": 3, "answer": "UDP connection" },
-                      { "id": 4, "answer": "Local port specification" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 18,
-                    "title": "Which of the following commands would provide very verbose output using netcat?",
-                    "answers": [
-                      { "id": 1, "answer": "nc -v <host> <port>" },
-                      { "id": 2, "answer": "nc -u <host> <port>" },
-                      { "id": 3, "answer": "nc -vv <host> <port>" },
-                      { "id": 4, "answer": "nc -p <host> <port>" }
-                    ],
-                    "correct": 3
-                  },
-                  {
-                    "id": 19,
-                    "title": "What does the '-e' option do in netcat?",
-                    "answers": [
-                      { "id": 1, "answer": "Specifies a local port" },
-                      { "id": 2, "answer": "Executes a program after connection" },
-                      { "id": 3, "answer": "Opens a UDP connection" },
-                      { "id": 4, "answer": "Prevents DNS lookup" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id":20,
-                    "title": "What is the main purpose of the Test-NetConnection command in Windows?",
-                    "answers": [
-                      { "id": 1, "answer": "To test network connectivity" },
-                      { "id": 2, "answer": "To scan for open ports" },
-                      { "id": 3, "answer": "To establish UDP connections" },
-                      { "id": 4, "answer": "To execute a program" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id":21,
-                    "title": "Which command tests TCP connectivity to a specific host and port in PowerShell?",
-                    "answers": [
-                      { "id": 1, "answer": "Test-NetConnection -ComputerName <host> -Port <port>" },
-                      { "id": 2, "answer": "nc <host> <port>" },
-                      { "id": 3, "answer": "ping <host> -p <port>" },
-                      { "id": 4, "answer": "nc -z <host> <port>" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 22,
-                    "title": "What does the '-InformationLevel Detailed' option do in Test-NetConnection?",
-                    "answers": [
-                      { "id": 1, "answer": "Displays basic connection details" },
-                      { "id": 2, "answer": "Provides detailed diagnostic results" },
-                      { "id": 3, "answer": "Prevents DNS lookup" },
-                      { "id": 4, "answer": "Tests UDP connectivity" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 23,
-                    "title": "In the Test-NetConnection command, which option performs route diagnostics?",
-                    "answers": [
-                      { "id": 1, "answer": "-DiagnoseRouting" },
-                      { "id": 2, "answer": "-InformationLevel" },
-                      { "id": 3, "answer": "-ComputerName" },
-                      { "id": 4, "answer": "-Port" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id":24,
-                    "title": "What is the significance of running Test-NetConnection with administrator privileges?",
-                    "answers": [
-                      { "id": 1, "answer": "It allows for more detailed output" },
-                      { "id": 2, "answer": "It is required for route diagnostics" },
-                      { "id": 3, "answer": "It enables TCP connections" },
-                      { "id": 4, "answer": "It disables DNS lookup" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 25,
-                    "title": "What command is used in Windows to copy files from one location to another?",
-                    "answers": [
-                      { "id": 1, "answer": "xcopy" },
-                      { "id": 2, "answer": "copy" },
-                      { "id": 3, "answer": "robocopy" },
-                      { "id": 4, "answer": "cp" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 26,
-                    "title": "In Linux, what is the equivalent command to Windows' 'copy'?",
-                    "answers": [
-                      { "id": 1, "answer": "copy" },
-                      { "id": 2, "answer": "cp" },
-                      { "id": 3, "answer": "xcopy" },
-                      { "id": 4, "answer": "robocopy" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 27,
-                    "title": "What switch would you use with 'xcopy' to include subdirectories in the copy operation?",
-                    "answers": [
-                      { "id": 1, "answer": "/s" },
-                      { "id": 2, "answer": "/f" },
-                      { "id": 3, "answer": "/j" },
-                      { "id": 4, "answer": "/e" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 28,
-                    "title": "Which command can be used to copy files while preserving their security settings?",
-                    "answers": [
-                      { "id": 1, "answer": "xcopy" },
-                      { "id": 2, "answer": "copy" },
-                      { "id": 3, "answer": "robocopy" },
-                      { "id": 4, "answer": "cp" }
-                    ],
-                    "correct": 3
-                  },
-                  {
-                    "id": 29,
-                    "title": "What does the 'robocopy' command with the '/sec' switch do?",
-                    "answers": [
-                      { "id": 1, "answer": "Copies files and their security settings" },
-                      { "id": 2, "answer": "Copies files only" },
-                      { "id": 3, "answer": "Moves files without security" },
-                      { "id": 4, "answer": "Deletes files securely" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 30,
-                    "title": "What command checks both the file system and its metadata for errors in Windows?",
-                    "answers": [
-                      { "id": 1, "answer": "fsck" },
-                      { "id": 2, "answer": "chkdsk" },
-                      { "id": 3, "answer": "sfc" },
-                      { "id": 4, "answer": "diskpart" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 31,
-                    "title": "What does the 'chkdsk /f' command do?",
-                    "answers": [
-                      { "id": 1, "answer": "Checks the drive without fixing issues" },
-                      { "id": 2, "answer": "Repairs issues found on the drive" },
-                      { "id": 3, "answer": "Formats the drive" },
-                      { "id": 4, "answer": "Displays disk information" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 32,
-                    "title": "Which command is used to reset a drive and erase all the data?",
-                    "answers": [
-                      { "id": 1, "answer": "chkdsk" },
-                      { "id": 2, "answer": "format" },
-                      { "id": 3, "answer": "diskpart" },
-                      { "id": 4, "answer": "sfc" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 33,
-                    "title": "What command divides a hard drive into separate partitions?",
-                    "answers": [
-                      { "id": 1, "answer": "format" },
-                      { "id": 2, "answer": "diskpart" },
-                      { "id": 3, "answer": "chkdsk" },
-                      { "id": 4, "answer": "sfc" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 34,
-                    "title": "Which command shuts down the local computer or other computers on the network?",
-                    "answers": [
-                      { "id": 1, "answer": "shutdown" },
-                      { "id": 2, "answer": "restart" },
-                      { "id": 3, "answer": "poweroff" },
-                      { "id": 4, "answer": "halt" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 35,
-                    "title": "What does the 'winver' command do?",
-                    "answers": [
-                      { "id": 1, "answer": "Displays current Windows version" },
-                      { "id": 2, "answer": "Updates Windows" },
-                      { "id": 3, "answer": "Installs Windows" },
-                      { "id": 4, "answer": "Restarts Windows" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 36,
-                    "title": "Which command displays the current network configuration information in Windows?",
-                    "answers": [
-                      { "id": 1, "answer": "ipconfig" },
-                      { "id": 2, "answer": "netstat" },
-                      { "id": 3, "answer": "ping" },
-                      { "id": 4, "answer": "tracert" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 37,
-                    "title": "What command can you use to check the status of a connection to an address or the server speed?",
-                    "answers": [
-                      { "id": 1, "answer": "ping" },
-                      { "id": 2, "answer": "pathping" },
-                      { "id": 3, "answer": "tracert" },
-                      { "id": 4, "answer": "ipconfig" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 38,
-                    "title": "What command traces the route of a packet of data from the user's source computer to the destination system?",
-                    "answers": [
-                      { "id": 1, "answer": "ping" },
-                      { "id": 2, "answer": "tracert" },
-                      { "id": 3, "answer": "pathping" },
-                      { "id": 4, "answer": "ipconfig" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 39,
-                    "title": "What command displays statistics about network activity and configuration?",
-                    "answers": [
-                      { "id": 1, "answer": "nslookup" },
-                      { "id": 2, "answer": "netstat" },
-                      { "id": 3, "answer": "hostname" },
-                      { "id": 4, "answer": "ipconfig" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 40,
-                    "title": "What command is used to obtain DNS record information by sending queries to the domain name server?",
-                    "answers": [
-                      { "id": 1, "answer": "nslookup" },
-                      { "id": 2, "answer": "netstat" },
-                      { "id": 3, "answer": "ping" },
-                      { "id": 4, "answer": "tracert" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 41,
-                    "title": "What command is used to add or modify user accounts in Windows?",
-                    "answers": [
-                      { "id": 1, "answer": "net user" },
-                      { "id": 2, "answer": "net accounts" },
-                      { "id": 3, "answer": "gpresult" },
-                      { "id": 4, "answer": "gpupdate" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 42,
-                    "title": "What command is used to update group policy settings?",
-                    "answers": [
-                      { "id": 1, "answer": "gpresult" },
-                      { "id": 2, "answer": "gpupdate" },
-                      { "id": 3, "answer": "net user" },
-                      { "id": 4, "answer": "net accounts" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 43,
-                    "title": "What command displays the Resultant Set of Policy (RSoP) for a system?",
-                    "answers": [
-                      { "id": 1, "answer": "gpresult" },
-                      { "id": 2, "answer": "gpupdate" },
-                      { "id": 3, "answer": "net user" },
-                      { "id": 4, "answer": "net accounts" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 44,
-                    "title": "What command is used to open the Disk Management utility in Windows?",
-                    "answers": [
-                      { "id": 1, "answer": "diskpart" },
-                      { "id": 2, "answer": "diskmgmt.msc" },
-                      { "id": 3, "answer": "diskutil" },
-                      { "id": 4, "answer": "parted" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 45,
-                    "title": "Which command is used to change the directory in command prompt?",
-                    "answers": [
-                      { "id": 1, "answer": "cd" },
-                      { "id": 2, "answer": "dir" },
-                      { "id": 3, "answer": "chdir" },
-                      { "id": 4, "answer": "ls" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 46,
-                    "title": "What command displays a list of files and directories in the current directory?",
-                    "answers": [
-                      { "id": 1, "answer": "ls" },
-                      { "id": 2, "answer": "dir" },
-                      { "id": 3, "answer": "list" },
-                      { "id": 4, "answer": "show" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 47,
-                    "title": "Which command is used to terminate a process in Windows?",
-                    "answers": [
-                      { "id": 1, "answer": "kill" },
-                      { "id": 2, "answer": "taskkill" },
-                      { "id": 3, "answer": "terminate" },
-                      { "id": 4, "answer": "end" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 48,
-                    "title": "What command is used to find the MAC address of a computer?",
-                    "answers": [
-                      { "id": 1, "answer": "getmac" },
-                      { "id": 2, "answer": "ipconfig" },
-                      { "id": 3, "answer": "netstat" },
-                      { "id": 4, "answer": "ping" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 49,
-                    "title": "What command displays the current TCP/IP configuration?",
-                    "answers": [
-                      { "id": 1, "answer": "ipconfig" },
-                      { "id": 2, "answer": "netstat" },
-                      { "id": 3, "answer": "tracert" },
-                      { "id": 4, "answer": "ping" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 50,
-                    "title": "Which command is used to release and renew IP addresses in Windows?",
-                    "answers": [
-                      { "id": 1, "answer": "ipconfig /release" },
-                      { "id": 2, "answer": "ipconfig /renew" },
-                      { "id": 3, "answer": "ipconfig /flushdns" },
-                      { "id": 4, "answer": "netsh" }
-                    ],
-                    "correct": 2
-                  }
-                ]
+                "id": 1,
+                "title": "What is the purpose of the nslookup tool?",
+                "answers": [
+                  { "id": 1, "answer": "To monitor network traffic" },
+                  { "id": 2, "answer": "To translate hostnames into IP addresses" },
+                  { "id": 3, "answer": "To configure firewall settings" },
+                  { "id": 4, "answer": "To test Internet speed" }
+                ],
+                "correct": 2
               },
               {
-                "id": "module6-2",
-                "title": "Digging into DNS",
-                "questions": [
-                  {
-                    "id": 1,
-                    "title": "What is the purpose of the nslookup tool?",
-                    "answers": [
-                      { "id": 1, "answer": "To monitor network traffic" },
-                      { "id": 2, "answer": "To translate hostnames into IP addresses" },
-                      { "id": 3, "answer": "To configure firewall settings" },
-                      { "id": 4, "answer": "To test Internet speed" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 2,
-                    "title": "Which command would you use to query the IP address of a hostname?",
-                    "answers": [
-                      { "id": 1, "answer": "ping hostname" },
-                      { "id": 2, "answer": "nslookup hostname" },
-                      { "id": 3, "answer": "dig hostname" },
-                      { "id": 4, "answer": "traceroute hostname" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 3,
-                    "title": "What type of DNS record does an MX record represent?",
-                    "answers": [
-                      { "id": 1, "answer": "IP address" },
-                      { "id": 2, "answer": "Mail exchange" },
-                      { "id": 3, "answer": "Canonical name" },
-                      { "id": 4, "answer": "Name server" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 4,
-                    "title": "Which public DNS server IP address is associated with Google?",
-                    "answers": [
-                      { "id": 1, "answer": "4.2.2.1" },
-                      { "id": 2, "answer": "8.8.8.8" },
-                      { "id": 3, "answer": "1.1.1.1" },
-                      { "id": 4, "answer": "208.67.222.222" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 5,
-                    "title": "What is the primary role of DNS in networking?",
-                    "answers": [
-                      { "id": 1, "answer": "To store email data" },
-                      { "id": 2, "answer": "To translate domain names into IP addresses" },
-                      { "id": 3, "answer": "To manage network traffic" },
-                      { "id": 4, "answer": "To connect to databases" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 6,
-                    "title": "What does the command 'set type=MX' do in nslookup?",
-                    "answers": [
-                      { "id": 1, "answer": "Queries for mail exchange records" },
-                      { "id": 2, "answer": "Sets the DNS server" },
-                      { "id": 3, "answer": "Exits the interactive mode" },
-                      { "id": 4, "answer": "Shows detailed output" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 7,
-                    "title": "Why is it important to use trusted DNS providers?",
-                    "answers": [
-                      { "id": 1, "answer": "To avoid slow response times" },
-                      { "id": 2, "answer": "To prevent DNS hijacking" },
-                      { "id": 3, "answer": "To ensure higher availability" },
-                      { "id": 4, "answer": "To improve user experience" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 8,
-                    "title": "What does a TXT record in DNS typically store?",
-                    "answers": [
-                      { "id": 1, "answer": "IP addresses" },
-                      { "id": 2, "answer": "Miscellaneous text data" },
-                      { "id": 3, "answer": "DNS server information" },
-                      { "id": 4, "answer": "Domain ownership" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 9,
-                    "title": "What is the purpose of a host file?",
-                    "answers": [
-                      { "id": 1, "answer": "To map hostnames to IP addresses" },
-                      { "id": 2, "answer": "To store browser cache" },
-                      { "id": 3, "answer": "To configure network protocols" },
-                      { "id": 4, "answer": "To monitor network traffic" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 10,
-                    "title": "What is the loopback address for IPv4?",
-                    "answers": [
-                      { "id": 1, "answer": "192.168.0.1" },
-                      { "id": 2, "answer": "127.0.0.1" },
-                      { "id": 3, "answer": "10.0.0.1" },
-                      { "id": 4, "answer": "255.255.255.255" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 11,
-                    "title": "How do domain registrations expire?",
-                    "answers": [
-                      { "id": 1, "answer": "After 1-10 years" },
-                      { "id": 2, "answer": "Automatically renewed" },
-                      { "id": 3, "answer": "After payment is processed" },
-                      { "id": 4, "answer": "Upon changing the registrar" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 12,
-                    "title": "What is the primary function of an authoritative DNS server?",
-                    "answers": [
-                      { "id": 1, "answer": "To cache DNS records" },
-                      { "id": 2, "answer": "To provide DNS information for specific domains" },
-                      { "id": 3, "answer": "To monitor DNS traffic" },
-                      { "id": 4, "answer": "To manage network security" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 13,
-                    "title": "What is a potential risk of modifying host files?",
-                    "answers": [
-                      { "id": 1, "answer": "Increased network speed" },
-                      { "id": 2, "answer": "Redirecting traffic to malicious IP addresses" },
-                      { "id": 3, "answer": "Improving DNS lookup times" },
-                      { "id": 4, "answer": "Bypassing firewall restrictions" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 14,
-                    "title": "What do you need to initiate a domain transfer?",
-                    "answers": [
-                      { "id": 1, "answer": "Domain renewal fee" },
-                      { "id": 2, "answer": "A unique string for verification" },
-                      { "id": 3, "answer": "A new hosting plan" },
-                      { "id": 4, "answer": "An SSL certificate" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 15,
-                    "title": "Which command would you use to change the DNS server in nslookup?",
-                    "answers": [
-                      { "id": 1, "answer": "set server [IP]" },
-                      { "id": 2, "answer": "change server [IP]" },
-                      { "id": 3, "answer": "server [IP]" },
-                      { "id": 4, "answer": "modify server [IP]" }
-                    ],
-                    "correct": 3
-                  }
-                ]
+                "id": 2,
+                "title": "Which command would you use to query the IP address of a hostname?",
+                "answers": [
+                  { "id": 1, "answer": "ping hostname" },
+                  { "id": 2, "answer": "nslookup hostname" },
+                  { "id": 3, "answer": "dig hostname" },
+                  { "id": 4, "answer": "traceroute hostname" }
+                ],
+                "correct": 2
               },
               {
-                "id": "module6-3",
-                "title": "The Cloud",
-                "questions": [
-                  {
-                    "id": 1,
-                    "title": "What is the Cloud?",
-                    "answers": [
-                      { "id": 1, "answer": "A physical storage device" },
-                      { "id": 2, "answer": "A concept for on-demand computing resources" },
-                      { "id": 3, "answer": "A specific technology" },
-                      { "id": 4, "answer": "An outdated computing model" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 2,
-                    "title": "What role does hardware virtualization play in the Cloud?",
-                    "answers": [
-                      { "id": 1, "answer": "It eliminates the need for any physical hardware" },
-                      { "id": 2, "answer": "It allows multiple virtual machines to run on a single physical machine" },
-                      { "id": 3, "answer": "It reduces network latency" },
-                      { "id": 4, "answer": "It replaces hypervisors" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 3,
-                    "title": "What is a hypervisor?",
-                    "answers": [
-                      { "id": 1, "answer": "A physical server" },
-                      { "id": 2, "answer": "A type of cloud storage" },
-                      { "id": 3, "answer": "A software that manages virtual machines" },
-                      { "id": 4, "answer": "A network switch" }
-                    ],
-                    "correct": 3
-                  },
-                  {
-                    "id": 4,
-                    "title": "What is a public cloud?",
-                    "answers": [
-                      { "id": 1, "answer": "A cloud owned by a single organization" },
-                      { "id": 2, "answer": "A cloud where resources are rented from a service provider" },
-                      { "id": 3, "answer": "A hybrid of public and private clouds" },
-                      { "id": 4, "answer": "A local on-premises solution" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 5,
-                    "title": "What is the primary benefit of cloud computing?",
-                    "answers": [
-                      { "id": 1, "answer": "Mandatory hardware management" },
-                      { "id": 2, "answer": "Scalability and cost-efficiency" },
-                      { "id": 3, "answer": "High latency" },
-                      { "id": 4, "answer": "Fixed resource allocation" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 6,
-                    "title": "What does XaaS stand for?",
-                    "answers": [
-                      { "id": 1, "answer": "Extra as a Service" },
-                      { "id": 2, "answer": "Everything as a Service" },
-                      { "id": 3, "answer": "External as a Service" },
-                      { "id": 4, "answer": "Extensible as a Service" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 7,
-                    "title": "What is IaaS?",
-                    "answers": [
-                      { "id": 1, "answer": "Infrastructure as a Service" },
-                      { "id": 2, "answer": "Information as a Service" },
-                      { "id": 3, "answer": "Internet as a Service" },
-                      { "id": 4, "answer": "Integrated as a Service" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 8,
-                    "title": "What is a key benefit of SaaS?",
-                    "answers": [
-                      { "id": 1, "answer": "Requires local installation" },
-                      { "id": 2, "answer": "Managed updates and maintenance by providers" },
-                      { "id": 3, "answer": "High setup costs" },
-                      { "id": 4, "answer": "Limited accessibility" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 9,
-                    "title": "What does PaaS provide?",
-                    "answers": [
-                      { "id": 1, "answer": "Hardware resources only" },
-                      { "id": 2, "answer": "A platform for application development" },
-                      { "id": 3, "answer": "Storage solutions" },
-                      { "id": 4, "answer": "Network security" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 10,
-                    "title": "What is a significant advantage of cloud storage?",
-                    "answers": [
-                      { "id": 1, "answer": "Requires physical access to data" },
-                      { "id": 2, "answer": "Automatic backup features" },
-                      { "id": 3, "answer": "Higher management overhead" },
-                      { "id": 4, "answer": "Limited accessibility" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 11,
-                    "title": "What does geographic redundancy in cloud storage ensure?",
-                    "answers": [
-                      { "id": 1, "answer": "Data is stored in a single location" },
-                      { "id": 2, "answer": "Data duplication across different regions" },
-                      { "id": 3, "answer": "Faster data retrieval" },
-                      { "id": 4, "answer": "Data loss in case of a disaster" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 12,
-                    "title": "How does cloud storage contribute to cost management?",
-                    "answers": [
-                      { "id": 1, "answer": "Users pay for unused storage" },
-                      { "id": 2, "answer": "Users only pay for what they use" },
-                      { "id": 3, "answer": "Requires large upfront costs" },
-                      { "id": 4, "answer": "No impact on expenses" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 13,
-                    "title": "What does the term 'cloud computing' refer to?",
-                    "answers": [
-                      { "id": 1, "answer": "Storing data on local devices" },
-                      { "id": 2, "answer": "Remote access to computing resources over the internet" },
-                      { "id": 3, "answer": "Only using physical servers" },
-                      { "id": 4, "answer": "A type of on-premises software" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 14,
-                    "title": "Why is understanding cloud technologies important for IT support specialists?",
-                    "answers": [
-                      { "id": 1, "answer": "Cloud technologies are irrelevant to IT support" },
-                      { "id": 2, "answer": "Many organizations are migrating to the Cloud" },
-                      { "id": 3, "answer": "Physical hardware is always preferred" },
-                      { "id": 4, "answer": "Cloud services increase hardware complexity" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 15,
-                    "title": "What is one of the main benefits of using hybrid cloud models?",
-                    "answers": [
-                      { "id": 1, "answer": "Requires all resources to be public" },
-                      { "id": 2, "answer": "Combines flexibility of public and control of private clouds" },
-                      { "id": 3, "answer": "Exclusively for non-sensitive data" },
-                      { "id": 4, "answer": "Eliminates the need for any cloud services" }
-                    ],
-                    "correct": 2
-                  }
-                ]
+                "id": 3,
+                "title": "What type of DNS record does an MX record represent?",
+                "answers": [
+                  { "id": 1, "answer": "IP address" },
+                  { "id": 2, "answer": "Mail exchange" },
+                  { "id": 3, "answer": "Canonical name" },
+                  { "id": 4, "answer": "Name server" }
+                ],
+                "correct": 2
               },
               {
-                "id": "module6-4",
-                "title": "IPv6",
-                "questions": [
-                  {
-                    "id": 1,
-                    "title": "What is the primary reason for the development of IPv6?",
-                    "answers": [
-                      { "id": 1, "answer": "Increased data speed" },
-                      { "id": 2, "answer": "IPv4 address exhaustion" },
-                      { "id": 3, "answer": "Simplified packet structure" },
-                      { "id": 4, "answer": "Enhanced security features" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 2,
-                    "title": "How many bits does an IPv6 address consist of?",
-                    "answers": [
-                      { "id": 1, "answer": "32 bits" },
-                      { "id": 2, "answer": "64 bits" },
-                      { "id": 3, "answer": "128 bits" },
-                      { "id": 4, "answer": "256 bits" }
-                    ],
-                    "correct": 3
-                  },
-                  {
-                    "id": 3,
-                    "title": "Which of the following is a valid representation of an IPv6 address?",
-                    "answers": [
-                      { "id": 1, "answer": "192.168.1.1" },
-                      { "id": 2, "answer": "2001:0db8:0000:0042:0000:8a2e:0370:7334" },
-                      { "id": 3, "answer": "255.255.255.0" },
-                      { "id": 4, "answer": "10.0.0.1" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 4,
-                    "title": "What is the purpose of the Traffic Class field in an IPv6 header?",
-                    "answers": [
-                      { "id": 1, "answer": "To indicate the packet's source address" },
-                      { "id": 2, "answer": "To prioritize certain types of traffic" },
-                      { "id": 3, "answer": "To specify the payload length" },
-                      { "id": 4, "answer": "To denote the version of the protocol" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 5,
-                    "title": "What is the length of the IPv6 header?",
-                    "answers": [
-                      { "id": 1, "answer": "20 bytes" },
-                      { "id": 2, "answer": "40 bytes" },
-                      { "id": 3, "answer": "60 bytes" },
-                      { "id": 4, "answer": "80 bytes" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 6,
-                    "title": "Which address range is reserved for documentation and examples in IPv6?",
-                    "answers": [
-                      { "id": 1, "answer": "2001:0db8::" },
-                      { "id": 2, "answer": "FF00::" },
-                      { "id": 3, "answer": "FE80::" },
-                      { "id": 4, "answer": "::1" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 7,
-                    "title": "What does the Hop Limit field in an IPv6 header signify?",
-                    "answers": [
-                      { "id": 1, "answer": "Maximum data payload size" },
-                      { "id": 2, "answer": "Maximum number of hops before discarding" },
-                      { "id": 3, "answer": "Source address validity" },
-                      { "id": 4, "answer": "Destination address reachability" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 8,
-                    "title": "What is one of the methods for IPv6 and IPv4 coexistence?",
-                    "answers": [
-                      { "id": 1, "answer": "Dual stack implementation" },
-                      { "id": 2, "answer": "Exclusively using IPv6" },
-                      { "id": 3, "answer": "Eliminating IPv4 networks" },
-                      { "id": 4, "answer": "Restricting IPv4 usage" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 9,
-                    "title": "What does the term 'IPv4-mapped address' refer to?",
-                    "answers": [
-                      { "id": 1, "answer": "An address that only supports IPv4" },
-                      { "id": 2, "answer": "An address that allows IPv6 applications to communicate with IPv4 devices" },
-                      { "id": 3, "answer": "An address reserved for testing" },
-                      { "id": 4, "answer": "An address that can only be used internally" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 10,
-                    "title": "Which tunneling protocol allows IPv6 traffic to be encapsulated within IPv4 packets?",
-                    "answers": [
-                      { "id": 1, "answer": "6to4" },
-                      { "id": 2, "answer": "NAT" },
-                      { "id": 3, "answer": "TFTP" },
-                      { "id": 4, "answer": "DHCP" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 11,
-                    "title": "What is the primary reason for using tunneling protocols?",
-                    "answers": [
-                      { "id": 1, "answer": "To eliminate the need for IPv4" },
-                      { "id": 2, "answer": "To carry IPv6 traffic over an IPv4 network" },
-                      { "id": 3, "answer": "To improve internet speed" },
-                      { "id": 4, "answer": "To convert IPv4 addresses to IPv6" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 12,
-                    "title": "What does encapsulation involve in the context of tunneling?",
-                    "answers": [
-                      { "id": 1, "answer": "Transporting data packets in their original form" },
-                      { "id": 2, "answer": "Transporting a data packet inside another packet" },
-                      { "id": 3, "answer": "Removing headers from packets" },
-                      { "id": 4, "answer": "Splitting packets into smaller pieces" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 13,
-                    "title": "Which tunneling protocol encapsulates IPv6 packets inside an IPv4 packet without additional headers?",
-                    "answers": [
-                      { "id": 1, "answer": "Tunnel Setup Protocol (TSP)" },
-                      { "id": 2, "answer": "Anything in Anything (AYIYA)" },
-                      { "id": 3, "answer": "6in4/manual protocol" },
-                      { "id": 4, "answer": "Internet Control Message Protocol (ICMP)" }
-                    ],
-                    "correct": 3
-                  },
-                  {
-                    "id": 14,
-                    "title": "What is a key advantage of the Anything in Anything (AYIYA) protocol?",
-                    "answers": [
-                      { "id": 1, "answer": "It does not require any encapsulation" },
-                      { "id": 2, "answer": "It provides a stable tunnel through an IPv4 NAT" },
-                      { "id": 3, "answer": "It is the fastest tunneling method" },
-                      { "id": 4, "answer": "It automatically configures tunnel endpoints" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 15,
-                    "title": "What does the Tunnel Setup Protocol (TSP) specify?",
-                    "answers": [
-                      { "id": 1, "answer": "Rules for negotiating tunnel setup parameters" },
-                      { "id": 2, "answer": "Methods for encapsulating IPv4 only" },
-                      { "id": 3, "answer": "Performance metrics for IPv6 traffic" },
-                      { "id": 4, "answer": "The number of IPv4 addresses available" }
-                    ],
-                    "correct": 1
-                  },
-                  {
-                    "id": 16,
-                    "title": "What is the main challenge with the 6in4/manual protocol?",
-                    "answers": [
-                      { "id": 1, "answer": "It requires constant internet connectivity" },
-                      { "id": 2, "answer": "It often fails with network address translation (NAT)" },
-                      { "id": 3, "answer": "It is not widely supported" },
-                      { "id": 4, "answer": "It adds significant latency" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 17,
-                    "title": "Why was IPv6 developed?",
-                    "answers": [
-                      { "id": 1, "answer": "To simplify networking protocols" },
-                      { "id": 2, "answer": "To provide more addresses than IPv4" },
-                      { "id": 3, "answer": "To improve security features" },
-                      { "id": 4, "answer": "To enhance the speed of internet connections" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 18,
-                    "title": "What is a primary difference between IPv4 and IPv6 datagrams?",
-                    "answers": [
-                      { "id": 1, "answer": "IPv4 uses 64 bits; IPv6 uses 128 bits" },
-                      { "id": 2, "answer": "They have different structures" },
-                      { "id": 3, "answer": "IPv4 is faster than IPv6" },
-                      { "id": 4, "answer": "IPv4 supports more devices than IPv6" }
-                    ],
-                    "correct": 2
-                  },
-                  {
-                    "id": 19,
-                    "title": "What does IPv4 stand for?",
-                    "answers": [
-                      { "id": 1, "answer": "Internet Version 4" },
-                      { "id": 2, "answer": "Internal Protocol Version 4" },
-                      { "id": 3, "answer": "Internet Protocol Version 4" },
-                      { "id": 4, "answer": "Internal Version Protocol 4" }
-                    ],
-                    "correct": 3
-                  },
-                  {
-                    "id": 20,
-                    "title": "How many IPv4 addresses can exist?",
-                    "answers": [
-                      { "id": 1, "answer": "Approximately 4.2 billion" },
-                      { "id": 2, "answer": "Approximately 340 trillion" },
-                      { "id": 3, "answer": "Approximately 1 trillion" },
-                      { "id": 4, "answer": "Approximately 2 billion" }
-                    ],
-                    "correct": 1
-                  }
-                ]
+                "id": 4,
+                "title": "Which public DNS server IP address is associated with Google?",
+                "answers": [
+                  { "id": 1, "answer": "4.2.2.1" },
+                  { "id": 2, "answer": "8.8.8.8" },
+                  { "id": 3, "answer": "1.1.1.1" },
+                  { "id": 4, "answer": "208.67.222.222" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 5,
+                "title": "What is the primary role of DNS in networking?",
+                "answers": [
+                  { "id": 1, "answer": "To store email data" },
+                  { "id": 2, "answer": "To translate domain names into IP addresses" },
+                  { "id": 3, "answer": "To manage network traffic" },
+                  { "id": 4, "answer": "To connect to databases" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 6,
+                "title": "What does the command 'set type=MX' do in nslookup?",
+                "answers": [
+                  { "id": 1, "answer": "Queries for mail exchange records" },
+                  { "id": 2, "answer": "Sets the DNS server" },
+                  { "id": 3, "answer": "Exits the interactive mode" },
+                  { "id": 4, "answer": "Shows detailed output" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 7,
+                "title": "Why is it important to use trusted DNS providers?",
+                "answers": [
+                  { "id": 1, "answer": "To avoid slow response times" },
+                  { "id": 2, "answer": "To prevent DNS hijacking" },
+                  { "id": 3, "answer": "To ensure higher availability" },
+                  { "id": 4, "answer": "To improve user experience" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 8,
+                "title": "What does a TXT record in DNS typically store?",
+                "answers": [
+                  { "id": 1, "answer": "IP addresses" },
+                  { "id": 2, "answer": "Miscellaneous text data" },
+                  { "id": 3, "answer": "DNS server information" },
+                  { "id": 4, "answer": "Domain ownership" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 9,
+                "title": "What is the purpose of a host file?",
+                "answers": [
+                  { "id": 1, "answer": "To map hostnames to IP addresses" },
+                  { "id": 2, "answer": "To store browser cache" },
+                  { "id": 3, "answer": "To configure network protocols" },
+                  { "id": 4, "answer": "To monitor network traffic" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 10,
+                "title": "What is the loopback address for IPv4?",
+                "answers": [
+                  { "id": 1, "answer": "192.168.0.1" },
+                  { "id": 2, "answer": "127.0.0.1" },
+                  { "id": 3, "answer": "10.0.0.1" },
+                  { "id": 4, "answer": "255.255.255.255" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 11,
+                "title": "How do domain registrations expire?",
+                "answers": [
+                  { "id": 1, "answer": "After 1-10 years" },
+                  { "id": 2, "answer": "Automatically renewed" },
+                  { "id": 3, "answer": "After payment is processed" },
+                  { "id": 4, "answer": "Upon changing the registrar" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 12,
+                "title": "What is the primary function of an authoritative DNS server?",
+                "answers": [
+                  { "id": 1, "answer": "To cache DNS records" },
+                  { "id": 2, "answer": "To provide DNS information for specific domains" },
+                  { "id": 3, "answer": "To monitor DNS traffic" },
+                  { "id": 4, "answer": "To manage network security" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 13,
+                "title": "What is a potential risk of modifying host files?",
+                "answers": [
+                  { "id": 1, "answer": "Increased network speed" },
+                  { "id": 2, "answer": "Redirecting traffic to malicious IP addresses" },
+                  { "id": 3, "answer": "Improving DNS lookup times" },
+                  { "id": 4, "answer": "Bypassing firewall restrictions" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 14,
+                "title": "What do you need to initiate a domain transfer?",
+                "answers": [
+                  { "id": 1, "answer": "Domain renewal fee" },
+                  { "id": 2, "answer": "A unique string for verification" },
+                  { "id": 3, "answer": "A new hosting plan" },
+                  { "id": 4, "answer": "An SSL certificate" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 15,
+                "title": "Which command would you use to change the DNS server in nslookup?",
+                "answers": [
+                  { "id": 1, "answer": "set server [IP]" },
+                  { "id": 2, "answer": "change server [IP]" },
+                  { "id": 3, "answer": "server [IP]" },
+                  { "id": 4, "answer": "modify server [IP]" }
+                ],
+                "correct": 3
+              }
+            ]
+          },
+          {
+            "id": "module6-3",
+            "title": "The Cloud",
+            "questions": [
+              {
+                "id": 1,
+                "title": "What is the Cloud?",
+                "answers": [
+                  { "id": 1, "answer": "A physical storage device" },
+                  { "id": 2, "answer": "A concept for on-demand computing resources" },
+                  { "id": 3, "answer": "A specific technology" },
+                  { "id": 4, "answer": "An outdated computing model" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 2,
+                "title": "What role does hardware virtualization play in the Cloud?",
+                "answers": [
+                  { "id": 1, "answer": "It eliminates the need for any physical hardware" },
+                  { "id": 2, "answer": "It allows multiple virtual machines to run on a single physical machine" },
+                  { "id": 3, "answer": "It reduces network latency" },
+                  { "id": 4, "answer": "It replaces hypervisors" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 3,
+                "title": "What is a hypervisor?",
+                "answers": [
+                  { "id": 1, "answer": "A physical server" },
+                  { "id": 2, "answer": "A type of cloud storage" },
+                  { "id": 3, "answer": "A software that manages virtual machines" },
+                  { "id": 4, "answer": "A network switch" }
+                ],
+                "correct": 3
+              },
+              {
+                "id": 4,
+                "title": "What is a public cloud?",
+                "answers": [
+                  { "id": 1, "answer": "A cloud owned by a single organization" },
+                  { "id": 2, "answer": "A cloud where resources are rented from a service provider" },
+                  { "id": 3, "answer": "A hybrid of public and private clouds" },
+                  { "id": 4, "answer": "A local on-premises solution" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 5,
+                "title": "What is the primary benefit of cloud computing?",
+                "answers": [
+                  { "id": 1, "answer": "Mandatory hardware management" },
+                  { "id": 2, "answer": "Scalability and cost-efficiency" },
+                  { "id": 3, "answer": "High latency" },
+                  { "id": 4, "answer": "Fixed resource allocation" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 6,
+                "title": "What does XaaS stand for?",
+                "answers": [
+                  { "id": 1, "answer": "Extra as a Service" },
+                  { "id": 2, "answer": "Everything as a Service" },
+                  { "id": 3, "answer": "External as a Service" },
+                  { "id": 4, "answer": "Extensible as a Service" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 7,
+                "title": "What is IaaS?",
+                "answers": [
+                  { "id": 1, "answer": "Infrastructure as a Service" },
+                  { "id": 2, "answer": "Information as a Service" },
+                  { "id": 3, "answer": "Internet as a Service" },
+                  { "id": 4, "answer": "Integrated as a Service" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 8,
+                "title": "What is a key benefit of SaaS?",
+                "answers": [
+                  { "id": 1, "answer": "Requires local installation" },
+                  { "id": 2, "answer": "Managed updates and maintenance by providers" },
+                  { "id": 3, "answer": "High setup costs" },
+                  { "id": 4, "answer": "Limited accessibility" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 9,
+                "title": "What does PaaS provide?",
+                "answers": [
+                  { "id": 1, "answer": "Hardware resources only" },
+                  { "id": 2, "answer": "A platform for application development" },
+                  { "id": 3, "answer": "Storage solutions" },
+                  { "id": 4, "answer": "Network security" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 10,
+                "title": "What is a significant advantage of cloud storage?",
+                "answers": [
+                  { "id": 1, "answer": "Requires physical access to data" },
+                  { "id": 2, "answer": "Automatic backup features" },
+                  { "id": 3, "answer": "Higher management overhead" },
+                  { "id": 4, "answer": "Limited accessibility" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 11,
+                "title": "What does geographic redundancy in cloud storage ensure?",
+                "answers": [
+                  { "id": 1, "answer": "Data is stored in a single location" },
+                  { "id": 2, "answer": "Data duplication across different regions" },
+                  { "id": 3, "answer": "Faster data retrieval" },
+                  { "id": 4, "answer": "Data loss in case of a disaster" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 12,
+                "title": "How does cloud storage contribute to cost management?",
+                "answers": [
+                  { "id": 1, "answer": "Users pay for unused storage" },
+                  { "id": 2, "answer": "Users only pay for what they use" },
+                  { "id": 3, "answer": "Requires large upfront costs" },
+                  { "id": 4, "answer": "No impact on expenses" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 13,
+                "title": "What does the term 'cloud computing' refer to?",
+                "answers": [
+                  { "id": 1, "answer": "Storing data on local devices" },
+                  { "id": 2, "answer": "Remote access to computing resources over the internet" },
+                  { "id": 3, "answer": "Only using physical servers" },
+                  { "id": 4, "answer": "A type of on-premises software" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 14,
+                "title": "Why is understanding cloud technologies important for IT support specialists?",
+                "answers": [
+                  { "id": 1, "answer": "Cloud technologies are irrelevant to IT support" },
+                  { "id": 2, "answer": "Many organizations are migrating to the Cloud" },
+                  { "id": 3, "answer": "Physical hardware is always preferred" },
+                  { "id": 4, "answer": "Cloud services increase hardware complexity" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 15,
+                "title": "What is one of the main benefits of using hybrid cloud models?",
+                "answers": [
+                  { "id": 1, "answer": "Requires all resources to be public" },
+                  { "id": 2, "answer": "Combines flexibility of public and control of private clouds" },
+                  { "id": 3, "answer": "Exclusively for non-sensitive data" },
+                  { "id": 4, "answer": "Eliminates the need for any cloud services" }
+                ],
+                "correct": 2
+              }
+            ]
+          },
+          {
+            "id": "module6-4",
+            "title": "IPv6",
+            "questions": [
+              {
+                "id": 1,
+                "title": "What is the primary reason for the development of IPv6?",
+                "answers": [
+                  { "id": 1, "answer": "Increased data speed" },
+                  { "id": 2, "answer": "IPv4 address exhaustion" },
+                  { "id": 3, "answer": "Simplified packet structure" },
+                  { "id": 4, "answer": "Enhanced security features" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 2,
+                "title": "How many bits does an IPv6 address consist of?",
+                "answers": [
+                  { "id": 1, "answer": "32 bits" },
+                  { "id": 2, "answer": "64 bits" },
+                  { "id": 3, "answer": "128 bits" },
+                  { "id": 4, "answer": "256 bits" }
+                ],
+                "correct": 3
+              },
+              {
+                "id": 3,
+                "title": "Which of the following is a valid representation of an IPv6 address?",
+                "answers": [
+                  { "id": 1, "answer": "192.168.1.1" },
+                  { "id": 2, "answer": "2001:0db8:0000:0042:0000:8a2e:0370:7334" },
+                  { "id": 3, "answer": "255.255.255.0" },
+                  { "id": 4, "answer": "10.0.0.1" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 4,
+                "title": "What is the purpose of the Traffic Class field in an IPv6 header?",
+                "answers": [
+                  { "id": 1, "answer": "To indicate the packet's source address" },
+                  { "id": 2, "answer": "To prioritize certain types of traffic" },
+                  { "id": 3, "answer": "To specify the payload length" },
+                  { "id": 4, "answer": "To denote the version of the protocol" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 5,
+                "title": "What is the length of the IPv6 header?",
+                "answers": [
+                  { "id": 1, "answer": "20 bytes" },
+                  { "id": 2, "answer": "40 bytes" },
+                  { "id": 3, "answer": "60 bytes" },
+                  { "id": 4, "answer": "80 bytes" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 6,
+                "title": "Which address range is reserved for documentation and examples in IPv6?",
+                "answers": [
+                  { "id": 1, "answer": "2001:0db8::" },
+                  { "id": 2, "answer": "FF00::" },
+                  { "id": 3, "answer": "FE80::" },
+                  { "id": 4, "answer": "::1" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 7,
+                "title": "What does the Hop Limit field in an IPv6 header signify?",
+                "answers": [
+                  { "id": 1, "answer": "Maximum data payload size" },
+                  { "id": 2, "answer": "Maximum number of hops before discarding" },
+                  { "id": 3, "answer": "Source address validity" },
+                  { "id": 4, "answer": "Destination address reachability" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 8,
+                "title": "What is one of the methods for IPv6 and IPv4 coexistence?",
+                "answers": [
+                  { "id": 1, "answer": "Dual stack implementation" },
+                  { "id": 2, "answer": "Exclusively using IPv6" },
+                  { "id": 3, "answer": "Eliminating IPv4 networks" },
+                  { "id": 4, "answer": "Restricting IPv4 usage" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 9,
+                "title": "What does the term 'IPv4-mapped address' refer to?",
+                "answers": [
+                  { "id": 1, "answer": "An address that only supports IPv4" },
+                  { "id": 2, "answer": "An address that allows IPv6 applications to communicate with IPv4 devices" },
+                  { "id": 3, "answer": "An address reserved for testing" },
+                  { "id": 4, "answer": "An address that can only be used internally" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 10,
+                "title": "Which tunneling protocol allows IPv6 traffic to be encapsulated within IPv4 packets?",
+                "answers": [
+                  { "id": 1, "answer": "6to4" },
+                  { "id": 2, "answer": "NAT" },
+                  { "id": 3, "answer": "TFTP" },
+                  { "id": 4, "answer": "DHCP" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 11,
+                "title": "What is the primary reason for using tunneling protocols?",
+                "answers": [
+                  { "id": 1, "answer": "To eliminate the need for IPv4" },
+                  { "id": 2, "answer": "To carry IPv6 traffic over an IPv4 network" },
+                  { "id": 3, "answer": "To improve internet speed" },
+                  { "id": 4, "answer": "To convert IPv4 addresses to IPv6" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 12,
+                "title": "What does encapsulation involve in the context of tunneling?",
+                "answers": [
+                  { "id": 1, "answer": "Transporting data packets in their original form" },
+                  { "id": 2, "answer": "Transporting a data packet inside another packet" },
+                  { "id": 3, "answer": "Removing headers from packets" },
+                  { "id": 4, "answer": "Splitting packets into smaller pieces" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 13,
+                "title": "Which tunneling protocol encapsulates IPv6 packets inside an IPv4 packet without additional headers?",
+                "answers": [
+                  { "id": 1, "answer": "Tunnel Setup Protocol (TSP)" },
+                  { "id": 2, "answer": "Anything in Anything (AYIYA)" },
+                  { "id": 3, "answer": "6in4/manual protocol" },
+                  { "id": 4, "answer": "Internet Control Message Protocol (ICMP)" }
+                ],
+                "correct": 3
+              },
+              {
+                "id": 14,
+                "title": "What is a key advantage of the Anything in Anything (AYIYA) protocol?",
+                "answers": [
+                  { "id": 1, "answer": "It does not require any encapsulation" },
+                  { "id": 2, "answer": "It provides a stable tunnel through an IPv4 NAT" },
+                  { "id": 3, "answer": "It is the fastest tunneling method" },
+                  { "id": 4, "answer": "It automatically configures tunnel endpoints" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 15,
+                "title": "What does the Tunnel Setup Protocol (TSP) specify?",
+                "answers": [
+                  { "id": 1, "answer": "Rules for negotiating tunnel setup parameters" },
+                  { "id": 2, "answer": "Methods for encapsulating IPv4 only" },
+                  { "id": 3, "answer": "Performance metrics for IPv6 traffic" },
+                  { "id": 4, "answer": "The number of IPv4 addresses available" }
+                ],
+                "correct": 1
+              },
+              {
+                "id": 16,
+                "title": "What is the main challenge with the 6in4/manual protocol?",
+                "answers": [
+                  { "id": 1, "answer": "It requires constant internet connectivity" },
+                  { "id": 2, "answer": "It often fails with network address translation (NAT)" },
+                  { "id": 3, "answer": "It is not widely supported" },
+                  { "id": 4, "answer": "It adds significant latency" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 17,
+                "title": "Why was IPv6 developed?",
+                "answers": [
+                  { "id": 1, "answer": "To simplify networking protocols" },
+                  { "id": 2, "answer": "To provide more addresses than IPv4" },
+                  { "id": 3, "answer": "To improve security features" },
+                  { "id": 4, "answer": "To enhance the speed of internet connections" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 18,
+                "title": "What is a primary difference between IPv4 and IPv6 datagrams?",
+                "answers": [
+                  { "id": 1, "answer": "IPv4 uses 64 bits; IPv6 uses 128 bits" },
+                  { "id": 2, "answer": "They have different structures" },
+                  { "id": 3, "answer": "IPv4 is faster than IPv6" },
+                  { "id": 4, "answer": "IPv4 supports more devices than IPv6" }
+                ],
+                "correct": 2
+              },
+              {
+                "id": 19,
+                "title": "What does IPv4 stand for?",
+                "answers": [
+                  { "id": 1, "answer": "Internet Version 4" },
+                  { "id": 2, "answer": "Internal Protocol Version 4" },
+                  { "id": 3, "answer": "Internet Protocol Version 4" },
+                  { "id": 4, "answer": "Internal Version Protocol 4" }
+                ],
+                "correct": 3
+              },
+              {
+                "id": 20,
+                "title": "How many IPv4 addresses can exist?",
+                "answers": [
+                  { "id": 1, "answer": "Approximately 4.2 billion" },
+                  { "id": 2, "answer": "Approximately 340 trillion" },
+                  { "id": 3, "answer": "Approximately 1 trillion" },
+                  { "id": 4, "answer": "Approximately 2 billion" }
+                ],
+                "correct": 1
               }
             ]
           }
