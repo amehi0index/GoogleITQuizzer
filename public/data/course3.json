@@ -1,0 +1,247 @@
+{
+    "course": {
+        "title": "Operating Systems and You: Becoming a Power User",
+        "modules": [
+            {
+                "id": "module1",
+                "title": "Module 1: Navigating the System",
+                "subModules": [
+                    {
+                        "id": "module1-1",
+                        "title": "Basic Commands",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What character is used to separate directories in Windows paths?",
+                                "answers": [
+                                { "id": 1, "answer": "/" },
+                                { "id": 2, "answer": "\\" },
+                                { "id": 3, "answer": ":" },
+                                { "id": 4, "answer": "-" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 2,
+                                "title": "Which command is used to list files and directories in PowerShell?",
+                                "answers": [
+                                { "id": 1, "answer": "list" },
+                                { "id": 2, "answer": "dir" },
+                                { "id": 3, "answer": "ls" },
+                                { "id": 4, "answer": "show" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 3,
+                                "title": "In Windows, what does the term 'Size on Disk' refer to?",
+                                "answers": [
+                                { "id": 1, "answer": "The actual size of the file" },
+                                { "id": 2, "answer": "The amount of disk space the file occupies" },
+                                { "id": 3, "answer": "The amount of memory used by the file" },
+                                { "id": 4, "answer": "The file's size in bytes only" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "How do you view hidden files in Windows File Explorer?",
+                                "answers": [
+                                { "id": 1, "answer": "By using the command ls -a" },
+                                { "id": 2, "answer": "By checking the 'Hidden Items' option in the View tab" },
+                                { "id": 3, "answer": "By opening the file properties" },
+                                { "id": 4, "answer": "By using the command dir /hidden" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "What is the shortcut for the home directory in both PowerShell and Bash?",
+                                "answers": [
+                                { "id": 1, "answer": "*" },
+                                { "id": 2, "answer": "!" },
+                                { "id": 3, "answer": "~" },
+                                { "id": 4, "answer": "@" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 6,
+                                "title": "What command is used in Linux to display the contents of a directory?",
+                                "answers": [
+                                { "id": 1, "answer": "show" },
+                                { "id": 2, "answer": "list" },
+                                { "id": 3, "answer": "ls" },
+                                { "id": 4, "answer": "dir" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 7,
+                                "title": "Which command in PowerShell would you use to get help about a command?",
+                                "answers": [
+                                { "id": 1, "answer": "help <command>" },
+                                { "id": 2, "answer": "Get-Help <command>" },
+                                { "id": 3, "answer": "man <command>" },
+                                { "id": 4, "answer": "assist <command>" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 8,
+                                "title": "In Linux, how do you show hidden files using the ls command?",
+                                "answers": [
+                                { "id": 1, "answer": "ls -h" },
+                                { "id": 2, "answer": "ls --hidden" },
+                                { "id": 3, "answer": "ls -a" },
+                                { "id": 4, "answer": "ls /hidden" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is the purpose of the cd command?",
+                                "answers": [
+                                { "id": 1, "answer": "Change the display mode" },
+                                { "id": 2, "answer": "Change the directory" },
+                                { "id": 3, "answer": "Copy files" },
+                                { "id": 4, "answer": "Create directories" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 10,
+                                "title": "What command in Bash would you use to get help on a command?",
+                                "answers": [
+                                { "id": 1, "answer": "help <command>" },
+                                { "id": 2, "answer": "<command> --help" },
+                                { "id": 3, "answer": "man <command>" },
+                                { "id": 4, "answer": "info <command>" }
+                                ],
+                                "correct": 2
+                            }
+                        ]
+
+                    },
+                    {
+                        "id": "module1-2",
+                        "title": "File and Text Manipulation",
+                        "questions": [
+                            {
+                                "id": 11,
+                                "title": "What command is used in PowerShell to display the history of previously entered commands?",
+                                "answers": [
+                                    { "id": 1, "answer": "history" },
+                                    { "id": 2, "answer": "get-history" },
+                                    { "id": 3, "answer": "cmdhistory" },
+                                    { "id": 4, "answer": "show-history" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 12,
+                                "title": "How can you navigate through your command history in PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "Using Ctrl+N and Ctrl+P" },
+                                    { "id": 2, "answer": "Using up and down arrow keys" },
+                                    { "id": 3, "answer": "Typing 'navigate'" },
+                                    { "id": 4, "answer": "Using Alt+Arrow keys" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What keyboard shortcut allows you to search backward through your command history in PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "Ctrl-F" },
+                                    { "id": 2, "answer": "Ctrl-R" },
+                                    { "id": 3, "answer": "Shift-R" },
+                                    { "id": 4, "answer": "Alt-R" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 14,
+                                "title": "What does the command `clear` do in PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "Deletes all files" },
+                                    { "id": 2, "answer": "Refreshes the terminal screen" },
+                                    { "id": 3, "answer": "Shows command history" },
+                                    { "id": 4, "answer": "Ends the session" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 15,
+                                "title": "What is the purpose of the `cp` command in PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "To change permissions" },
+                                    { "id": 2, "answer": "To copy files and directories" },
+                                    { "id": 3, "answer": "To create new files" },
+                                    { "id": 4, "answer": "To remove files" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 16,
+                                "title": "How do you copy all `.jpg` files from the current directory to the Documents folder using PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "cp *.jpg ~/Documents/" },
+                                    { "id": 2, "answer": "cp *.jpg ~/Desktop/" },
+                                    { "id": 3, "answer": "copy *.jpg ~/Documents/" },
+                                    { "id": 4, "answer": "mv *.jpg ~/Documents/" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "What parameter do you use with the `cp` command to copy the contents of a directory, including subdirectories?",
+                                "answers": [
+                                    { "id": 1, "answer": "-Recurse" },
+                                    { "id": 2, "answer": "-Force" },
+                                    { "id": 3, "answer": "-Verbose" },
+                                    { "id": 4, "answer": "-Include" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "How can you see output for each file being copied when using the `cp` command?",
+                                "answers": [
+                                    { "id": 1, "answer": "-Verbose" },
+                                    { "id": 2, "answer": "-Recurse" },
+                                    { "id": 3, "answer": "-Output" },
+                                    { "id": 4, "answer": "-Details" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "What command is used to rename or move files in PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "Rename-Item" },
+                                    { "id": 2, "answer": "Move-Item" },
+                                    { "id": 3, "answer": "Change-Item" },
+                                    { "id": 4, "answer": "Shift-Item" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 20,
+                                "title": "How would you move a file named `yellow_document.txt` from the Desktop to the Documents folder?",
+                                "answers": [
+                                    { "id": 1, "answer": "mv ~/Desktop/yellow_document.txt ~/Documents/" },
+                                    { "id": 2, "answer": "move ~/Desktop/yellow_document.txt ~/Documents/" },
+                                    { "id": 3, "answer": "cp ~/Desktop/yellow_document.txt ~/Documents/" },
+                                    { "id": 4, "answer": "transfer ~/Desktop/yellow_document.txt ~/Documents/" }
+                                ],
+                                "correct": 1
+                            }
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
