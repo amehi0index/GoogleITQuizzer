@@ -119,15 +119,7 @@
                                 { "id": 4, "answer": "info <command>" }
                                 ],
                                 "correct": 2
-                            }
-                        ]
-
-                    },
-                    {
-                        "id": "module1-2",
-                        "title": "File and Text Manipulation",
-                        "questions": [
-                            {
+                            }, {
                                 "id": 11,
                                 "title": "What command is used in PowerShell to display the history of previously entered commands?",
                                 "answers": [
@@ -236,6 +228,486 @@
                                     { "id": 4, "answer": "transfer ~/Desktop/yellow_document.txt ~/Documents/" }
                                 ],
                                 "correct": 1
+                            },
+                            {
+                                "id": 21,
+                                "title": "In Bash, which of the following commands can be used to view a list of all files in the /home directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "ls -la ~" },
+                                    { "id": 2, "answer": "list -a /home" },
+                                    { "id": 3, "answer": "list -l -a /home" },
+                                    { "id": 4, "answer": "ls -la /home" }
+                                ],
+                                "correct": [4]
+                            },
+                            {
+                                "id": 22,
+                                "title": "In Bash, which of the following commands can be used to remove a directory named 'Miscellaneous Directory'?",
+                                "answers": [
+                                    { "id": 1, "answer": "rm Miscellaneous\\ Directory" },
+                                    { "id": 2, "answer": "rm -r Miscellaneous\\ Directory" },
+                                    { "id": 3, "answer": "rm -r Miscellaneous Directory" },
+                                    { "id": 4, "answer": "rm Miscellaneous Directory" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 23,
+                                "title": "Which command is used to display the current working directory in Bash?",
+                                "answers": [
+                                    { "id": 1, "answer": "pwd" },
+                                    { "id": 2, "answer": "cwd" },
+                                    { "id": 3, "answer": "ls" },
+                                    { "id": 4, "answer": "dir" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id":24,
+                                "title": "What does the '-r' option do when used with the 'rm' command in Bash?",
+                                "answers": [
+                                    { "id": 1, "answer": "Removes files recursively" },
+                                    { "id": 2, "answer": "Displays hidden files" },
+                                    { "id": 3, "answer": "Renames a directory" },
+                                    { "id": 4, "answer": "Moves files to another directory" }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+
+                    },
+                    {
+                        "id": "module1-2",
+                        "title": "File and Text Manipulation",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "In Windows, what is the default application to open text files?",
+                                "answers": [
+                                    { "id": 1, "answer": "WordPad" },
+                                    { "id": 2, "answer": "Notepad" },
+                                    { "id": 3, "answer": "Microsoft Word" },
+                                    { "id": 4, "answer": "Excel" }
+                                ],
+                                "correct": [2]
+                            },
+                            {
+                                "id": 2,
+                                "title": "Which command is used in PowerShell to view the entire contents of a file?",
+                                "answers": [
+                                    { "id": 1, "answer": "cat" },
+                                    { "id": 2, "answer": "show" },
+                                    { "id": 3, "answer": "list" },
+                                    { "id": 4, "answer": "view" }
+                                ],
+                                "correct": [1]
+                            },
+                            {
+                                "id": 3,
+                                "title": "What command allows you to view a file one page at a time in PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "more" },
+                                    { "id": 2, "answer": "less" },
+                                    { "id": 3, "answer": "cat" },
+                                    { "id": 4, "answer": "view" }
+                                ],
+                                "correct": [1]
+                            },
+                            {
+                                "id": 4,
+                                "title": "Which command is used to view the first 10 lines of a file in PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "top" },
+                                    { "id": 2, "answer": "head" },
+                                    { "id": 3, "answer": "cat" },
+                                    { "id": 4, "answer": "more" }
+                                ],
+                                "correct": [2]
+                            },
+                            {
+                                "id": 5,
+                                "title": "In Bash, which command is used to read and display the contents of a file?",
+                                "answers": [
+                                    { "id": 1, "answer": "cat" },
+                                    { "id": 2, "answer": "view" },
+                                    { "id": 3, "answer": "more" },
+                                    { "id": 4, "answer": "show" }
+                                ],
+                                "correct": [1]
+                            },
+                            {
+                                "id": 6,
+                                "title": "What command in Bash is preferred for viewing large files?",
+                                "answers": [
+                                    { "id": 1, "answer": "more" },
+                                    { "id": 2, "answer": "less" },
+                                    { "id": 3, "answer": "cat" },
+                                    { "id": 4, "answer": "head" }
+                                ],
+                                "correct": [2]
+                            },
+                            {
+                                "id": 7,
+                                "title": "What key combination allows you to search for a word in the less viewer?",
+                                "answers": [
+                                    { "id": 1, "answer": "?" },
+                                    { "id": 2, "answer": "/" },
+                                    { "id": 3, "answer": "s" },
+                                    { "id": 4, "answer": "f" }
+                                ],
+                                "correct": [2]
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is the main advantage of using Notepad++ over Notepad?",
+                                "answers": [
+                                    { "id": 1, "answer": "Faster loading times" },
+                                    { "id": 2, "answer": "Syntax highlighting" },
+                                    { "id": 3, "answer": "Less memory usage" },
+                                    { "id": 4, "answer": "Built-in spell check" }
+                                ],
+                                "correct": [2]
+                            },
+                            {
+                                "id": 9,
+                                "title": "How can you edit a file using Notepad++ from the command line?",
+                                "answers": [
+                                    { "id": 1, "answer": "notepad++ filename" },
+                                    { "id": 2, "answer": "start notepad++ filename" },
+                                    { "id": 3, "answer": "edit filename" },
+                                    { "id": 4, "answer": "open notepad++ filename" }
+                                ],
+                                "correct": [2]
+                            },
+                            {
+                                "id": 10,
+                                "title": "Which command allows you to view the last 10 lines of a file in PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "bottom" },
+                                    { "id": 2, "answer": "tail" },
+                                    { "id": 3, "answer": "end" },
+                                    { "id": 4, "answer": "last" }
+                                ],
+                                "correct": [2]
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is the purpose of the 'g' key in the less command?",
+                                "answers": [
+                                    { "id": 1, "answer": "Go to the end of the file" },
+                                    { "id": 2, "answer": "Go to the beginning of the file" },
+                                    { "id": 3, "answer": "Search for a word" },
+                                    { "id": 4, "answer": "Quit the viewer" }
+                                ],
+                                "correct": [2]
+                            },
+                            {
+                                "id": 12,
+                                "title": "What feature does Notepad++ offer that helps in editing code?",
+                                "answers": [
+                                    { "id": 1, "answer": "Line numbering" },
+                                    { "id": 2, "answer": "Syntax highlighting" },
+                                    { "id": 3, "answer": "Auto-save" },
+                                    { "id": 4, "answer": "All of the above" }
+                                ],
+                                "correct": [4]
+                            },
+                            {
+                                "id": 13,
+                                "title": "What command is used to open a file in the Nano text editor?",
+                                "answers": [
+                                    { "id": 1, "answer": "nano filename" },
+                                    { "id": 2, "answer": "open filename" },
+                                    { "id": 3, "answer": "edit filename" },
+                                    { "id": 4, "answer": "start filename" }
+                                ],
+                                "correct": [1]
+                            },
+                            {
+                                "id": 14,
+                                "title": "Which command in Nano is used to cut the current line?",
+                                "answers": [
+                                    { "id": 1, "answer": "Control X" },
+                                    { "id": 2, "answer": "Control K" },
+                                    { "id": 3, "answer": "Control C" },
+                                    { "id": 4, "answer": "Control V" }
+                                ],
+                                "correct": [2]
+                            },
+                            {
+                                "id": 15,
+                                "title": "What does the Control G command do in Nano?",
+                                "answers": [
+                                    { "id": 1, "answer": "Save the file" },
+                                    { "id": 2, "answer": "Open the help page" },
+                                    { "id": 3, "answer": "Cut the line" },
+                                    { "id": 4, "answer": "Exit the editor" }
+                                ],
+                                "correct": [2]
+                            },
+                            {
+                                "id": 16,
+                                "title": "How do you save changes in Nano?",
+                                "answers": [
+                                    { "id": 1, "answer": "Control S" },
+                                    { "id": 2, "answer": "Control X" },
+                                    { "id": 3, "answer": "Control Y" },
+                                    { "id": 4, "answer": "Control Z" }
+                                ],
+                                "correct": [1]
+                            },
+                            {
+                                "id": 17,
+                                "title": "What happens when you press Control X in Nano?",
+                                "answers": [
+                                    { "id": 1, "answer": "Cuts the current line" },
+                                    { "id": 2, "answer": "Saves and exits" },
+                                    { "id": 3, "answer": "Opens help" },
+                                    { "id": 4, "answer": "Copies the current line" }
+                                ],
+                                "correct": [2]
+                            },
+                            {
+                                "id": 18,
+                                "title": "Which command retrieves information about PowerShell commands?",
+                                "answers": [
+                                    { "id": 1, "answer": "Get-Info" },
+                                    { "id": 2, "answer": "Get-Command" },
+                                    { "id": 3, "answer": "Get-Help" },
+                                    { "id": 4, "answer": "Help-Get" }
+                                ],
+                                "correct": [3]
+                            },
+                            {
+                                "id": 19,
+                                "title": "What alias corresponds to the ls command in PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "Get-ChildItem" },
+                                    { "id": 2, "answer": "Get-File" },
+                                    { "id": 3, "answer": "List-Directory" },
+                                    { "id": 4, "answer": "Show-Items" }
+                                ],
+                                "correct": [1]
+                            },
+                            {
+                                "id": 20,
+                                "title": "What is the function of the Select-String command in PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "Lists files" },
+                                    { "id": 2, "answer": "Searches for text in files" },
+                                    { "id": 3, "answer": "Displays help" },
+                                    { "id": 4, "answer": "Copies text" }
+                                ],
+                                "correct": [2]
+                            },
+                            {
+                                "id": 21,
+                                "title": "What does the -Filter parameter do in PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "Specifies the directory" },
+                                    { "id": 2, "answer": "Filters results by name pattern" },
+                                    { "id": 3, "answer": "Sorts files" },
+                                    { "id": 4, "answer": "Displays help" }
+                                ],
+                                "correct": [2]
+                            },
+                            {
+                                "id": 22,
+                                "title": "Which command lists items in a directory using PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "Get-Items" },
+                                    { "id": 2, "answer": "List-Directory" },
+                                    { "id": 3, "answer": "Get-ChildItem" },
+                                    { "id": 4, "answer": "Show-Files" }
+                                ],
+                                "correct": [3]
+                            },
+                            {
+                                "id": 23,
+                                "title": "What should you do to search for text within a single document in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Press Ctrl + F" },
+                                    { "id": 2, "answer": "Press Ctrl + S" },
+                                    { "id": 3, "answer": "Use Search Bar" },
+                                    { "id": 4, "answer": "Use Find Menu" }
+                                ],
+                                "correct": [1]
+                            },
+                            {
+                                "id": 24,
+                                "title": "Which GUI option allows you to search by file name and modification date?",
+                                "answers": [
+                                    { "id": 1, "answer": "Windows Search Service" },
+                                    { "id": 2, "answer": "File Explorer" },
+                                    { "id": 3, "answer": "Task Manager" },
+                                    { "id": 4, "answer": "Control Panel" }
+                                ],
+                                "correct": [1]
+                            },
+                            {
+                                "id": 25,
+                                "title": "What is the purpose of indexing in Windows Search Service?",
+                                "answers": [
+                                    { "id": 1, "answer": "To search files by content quickly" },
+                                    { "id": 2, "answer": "To protect files" },
+                                    { "id": 3, "answer": "To sort files" },
+                                    { "id": 4, "answer": "To delete files" }
+                                ],
+                                "correct": [1]
+                            },
+                            {
+                                "id": 26,
+                                "title": "What command is used to search for specific file types in PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "Get-Item" },
+                                    { "id": 2, "answer": "Find-File" },
+                                    { "id": 3, "answer": "Get-ChildItem" },
+                                    { "id": 4, "answer": "Search-File" }
+                                ],
+                                "correct": [3]
+                            },
+                            {
+                                "id": 27,
+                                "title": "What is the result of using the command 'Get-ChildItem -Path \"C:\\Path\\To\\Directory\" -Recurse -Filter \"*.exe\"'?",
+                                "answers": [
+                                    { "id": 1, "answer": "Lists all files" },
+                                    { "id": 2, "answer": "Lists only executable files" },
+                                    { "id": 3, "answer": "Deletes executable files" },
+                                    { "id": 4, "answer": "Copies executable files" }
+                                ],
+                                "correct": [2]
+                            },
+                            {
+                                "id": 28,
+                                "title": "What command is used to search for a specific word in a file using grep?",
+                                "answers": [
+                                    { "id": 1, "answer": "find" },
+                                    { "id": 2, "answer": "search" },
+                                    { "id": 3, "answer": "grep" },
+                                    { "id": 4, "answer": "locate" }
+                                ],
+                                "correct": [3]
+                            },
+                            {
+                                "id": 29,
+                                "title": "Which wildcard is used in grep to search through multiple files?",
+                                "answers": [
+                                    { "id": 1, "answer": "?" },
+                                    { "id": 2, "answer": "*" },
+                                    { "id": 3, "answer": "#" },
+                                    { "id": 4, "answer": "!" }
+                                ],
+                                "correct": [2]
+                            },
+                            {
+                                "id": 30,
+                                "title": "What does the command 'grep \"cow\" farm_animals.txt' do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Creates a new file" },
+                                    { "id": 2, "answer": "Searches for 'cow' in farm_animals.txt" },
+                                    { "id": 3, "answer": "Lists all files in the directory" },
+                                    { "id": 4, "answer": "Displays contents of the file" }
+                                ],
+                                "correct": [2]
+                            },
+                            {
+                                "id": 31,
+                                "title": "In Windows PowerShell, what does the '>' operator do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Append output to a file" },
+                                    { "id": 2, "answer": "Redirect standard output to a file" },
+                                    { "id": 3, "answer": "Filter output" },
+                                    { "id": 4, "answer": "Display output on the screen" }
+                                ],
+                                "correct": [2]
+                            },
+                            {
+                                "id": 32,
+                                "title": "What is the purpose of the pipe operator '|' in command-line interfaces?",
+                                "answers": [
+                                    { "id": 1, "answer": "Terminate a command" },
+                                    { "id": 2, "answer": "Run multiple commands in parallel" },
+                                    { "id": 3, "answer": "Pass output of one command as input to another" },
+                                    { "id": 4, "answer": "Redirect output to a file" }
+                                ],
+                                "correct": [3]
+                            },
+                            {
+                                "id": 33,
+                                "title": "Which command redirects standard error to a file in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "2>" },
+                                    { "id": 2, "answer": ">" },
+                                    { "id": 3, "answer": "&>" },
+                                    { "id": 4, "answer": ">>" }
+                                ],
+                                "correct": [1]
+                            },
+                            {
+                                "id": 34,
+                                "title": "What does 'echo \"woof\" >> dog.txt' accomplish?",
+                                "answers": [
+                                    { "id": 1, "answer": "Creates a new file" },
+                                    { "id": 2, "answer": "Overwrites dog.txt with 'woof'" },
+                                    { "id": 3, "answer": "Appends 'woof' to dog.txt" },
+                                    { "id": 4, "answer": "Displays 'woof' in the terminal" }
+                                ],
+                                "correct": [3]
+                            },
+                            {
+                                "id": 35,
+                                "title": "How can you discard error messages in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "Using /dev/null" },
+                                    { "id": 2, "answer": "Using 2>" },
+                                    { "id": 3, "answer": "Using >" },
+                                    { "id": 4, "answer": "Using &>" }
+                                ],
+                                "correct": [1]
+                            },
+                            {
+                                "id": 36,
+                                "title": "What is the function of the command 'ls -la /etc | grep \"Bluetooth\"'?",
+                                "answers": [
+                                    { "id": 1, "answer": "List all files in /etc" },
+                                    { "id": 2, "answer": "Filter results for 'Bluetooth'" },
+                                    { "id": 3, "answer": "Create a new file" },
+                                    { "id": 4, "answer": "Both 1 and 2" }
+                                ],
+                                "correct": [4]
+                            },
+                            {
+                                "id": 37,
+                                "title": "In Linux, what does the command 'command < file_input.txt' do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Writes to a file" },
+                                    { "id": 2, "answer": "Reads input from a file" },
+                                    { "id": 3, "answer": "Displays contents of a file" },
+                                    { "id": 4, "answer": "Deletes a file" }
+                                ],
+                                "correct": [2]
+                            },
+                            {
+                                "id": 38,
+                                "title": "What does the 'select-string' cmdlet do in PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "Searches for a string in files" },
+                                    { "id": 2, "answer": "Displays contents of a file" },
+                                    { "id": 3, "answer": "Creates a new string" },
+                                    { "id": 4, "answer": "Filters output by date" }
+                                ],
+                                "correct": [1]
+                            },
+                            {
+                                "id": 39,
+                                "title": "What command is used to display a list of all files in a directory in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "show" },
+                                    { "id": 2, "answer": "ls" },
+                                    { "id": 3, "answer": "dir" },
+                                    { "id": 4, "answer": "list" }
+                                ],
+                                "correct": [2]
                             }
                             
                         ]
