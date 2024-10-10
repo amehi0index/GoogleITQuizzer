@@ -119,7 +119,8 @@
                                 { "id": 4, "answer": "info <command>" }
                                 ],
                                 "correct": 2
-                            }, {
+                            },
+                            {
                                 "id": 11,
                                 "title": "What command is used in PowerShell to display the history of previously entered commands?",
                                 "answers": [
@@ -289,7 +290,7 @@
                                     { "id": 3, "answer": "Microsoft Word" },
                                     { "id": 4, "answer": "Excel" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             },
                             {
                                 "id": 2,
@@ -300,7 +301,7 @@
                                     { "id": 3, "answer": "list" },
                                     { "id": 4, "answer": "view" }
                                 ],
-                                "correct": [1]
+                                "correct": 1
                             },
                             {
                                 "id": 3,
@@ -311,7 +312,7 @@
                                     { "id": 3, "answer": "cat" },
                                     { "id": 4, "answer": "view" }
                                 ],
-                                "correct": [1]
+                                "correct": 1
                             },
                             {
                                 "id": 4,
@@ -322,7 +323,7 @@
                                     { "id": 3, "answer": "cat" },
                                     { "id": 4, "answer": "more" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             },
                             {
                                 "id": 5,
@@ -333,7 +334,7 @@
                                     { "id": 3, "answer": "more" },
                                     { "id": 4, "answer": "show" }
                                 ],
-                                "correct": [1]
+                                "correct": 1
                             },
                             {
                                 "id": 6,
@@ -344,7 +345,7 @@
                                     { "id": 3, "answer": "cat" },
                                     { "id": 4, "answer": "head" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             },
                             {
                                 "id": 7,
@@ -355,7 +356,7 @@
                                     { "id": 3, "answer": "s" },
                                     { "id": 4, "answer": "f" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             },
                             {
                                 "id": 8,
@@ -366,7 +367,7 @@
                                     { "id": 3, "answer": "Less memory usage" },
                                     { "id": 4, "answer": "Built-in spell check" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             },
                             {
                                 "id": 9,
@@ -377,7 +378,7 @@
                                     { "id": 3, "answer": "edit filename" },
                                     { "id": 4, "answer": "open notepad++ filename" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             },
                             {
                                 "id": 10,
@@ -388,7 +389,7 @@
                                     { "id": 3, "answer": "end" },
                                     { "id": 4, "answer": "last" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             },
                             {
                                 "id": 11,
@@ -399,7 +400,7 @@
                                     { "id": 3, "answer": "Search for a word" },
                                     { "id": 4, "answer": "Quit the viewer" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             },
                             {
                                 "id": 12,
@@ -410,7 +411,7 @@
                                     { "id": 3, "answer": "Auto-save" },
                                     { "id": 4, "answer": "All of the above" }
                                 ],
-                                "correct": [4]
+                                "correct": 4
                             },
                             {
                                 "id": 13,
@@ -421,7 +422,7 @@
                                     { "id": 3, "answer": "edit filename" },
                                     { "id": 4, "answer": "start filename" }
                                 ],
-                                "correct": [1]
+                                "correct": 1
                             },
                             {
                                 "id": 14,
@@ -432,7 +433,7 @@
                                     { "id": 3, "answer": "Control C" },
                                     { "id": 4, "answer": "Control V" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             },
                             {
                                 "id": 15,
@@ -443,7 +444,7 @@
                                     { "id": 3, "answer": "Cut the line" },
                                     { "id": 4, "answer": "Exit the editor" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             },
                             {
                                 "id": 16,
@@ -454,7 +455,7 @@
                                     { "id": 3, "answer": "Control Y" },
                                     { "id": 4, "answer": "Control Z" }
                                 ],
-                                "correct": [1]
+                                "correct": 1
                             },
                             {
                                 "id": 17,
@@ -465,7 +466,7 @@
                                     { "id": 3, "answer": "Opens help" },
                                     { "id": 4, "answer": "Copies the current line" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             },
                             {
                                 "id": 18,
@@ -476,7 +477,7 @@
                                     { "id": 3, "answer": "Get-Help" },
                                     { "id": 4, "answer": "Help-Get" }
                                 ],
-                                "correct": [3]
+                                "correct": 3
                             },
                             {
                                 "id": 19,
@@ -487,7 +488,7 @@
                                     { "id": 3, "answer": "List-Directory" },
                                     { "id": 4, "answer": "Show-Items" }
                                 ],
-                                "correct": [1]
+                                "correct": 1
                             },
                             {
                                 "id": 20,
@@ -498,7 +499,7 @@
                                     { "id": 3, "answer": "Displays help" },
                                     { "id": 4, "answer": "Copies text" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             },
                             {
                                 "id": 21,
@@ -509,7 +510,7 @@
                                     { "id": 3, "answer": "Sorts files" },
                                     { "id": 4, "answer": "Displays help" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             },
                             {
                                 "id": 22,
@@ -520,7 +521,7 @@
                                     { "id": 3, "answer": "Get-ChildItem" },
                                     { "id": 4, "answer": "Show-Files" }
                                 ],
-                                "correct": [3]
+                                "correct": 3
                             },
                             {
                                 "id": 23,
@@ -531,7 +532,7 @@
                                     { "id": 3, "answer": "Use Search Bar" },
                                     { "id": 4, "answer": "Use Find Menu" }
                                 ],
-                                "correct": [1]
+                                "correct": 1
                             },
                             {
                                 "id": 24,
@@ -542,7 +543,7 @@
                                     { "id": 3, "answer": "Task Manager" },
                                     { "id": 4, "answer": "Control Panel" }
                                 ],
-                                "correct": [1]
+                                "correct": 1
                             },
                             {
                                 "id": 25,
@@ -553,7 +554,7 @@
                                     { "id": 3, "answer": "To sort files" },
                                     { "id": 4, "answer": "To delete files" }
                                 ],
-                                "correct": [1]
+                                "correct": 1
                             },
                             {
                                 "id": 26,
@@ -564,7 +565,7 @@
                                     { "id": 3, "answer": "Get-ChildItem" },
                                     { "id": 4, "answer": "Search-File" }
                                 ],
-                                "correct": [3]
+                                "correct": 3
                             },
                             {
                                 "id": 27,
@@ -575,7 +576,7 @@
                                     { "id": 3, "answer": "Deletes executable files" },
                                     { "id": 4, "answer": "Copies executable files" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             },
                             {
                                 "id": 28,
@@ -586,7 +587,7 @@
                                     { "id": 3, "answer": "grep" },
                                     { "id": 4, "answer": "locate" }
                                 ],
-                                "correct": [3]
+                                "correct": 3
                             },
                             {
                                 "id": 29,
@@ -597,7 +598,7 @@
                                     { "id": 3, "answer": "#" },
                                     { "id": 4, "answer": "!" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             },
                             {
                                 "id": 30,
@@ -608,7 +609,7 @@
                                     { "id": 3, "answer": "Lists all files in the directory" },
                                     { "id": 4, "answer": "Displays contents of the file" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             },
                             {
                                 "id": 31,
@@ -619,7 +620,7 @@
                                     { "id": 3, "answer": "Filter output" },
                                     { "id": 4, "answer": "Display output on the screen" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             },
                             {
                                 "id": 32,
@@ -630,7 +631,7 @@
                                     { "id": 3, "answer": "Pass output of one command as input to another" },
                                     { "id": 4, "answer": "Redirect output to a file" }
                                 ],
-                                "correct": [3]
+                                "correct": 3
                             },
                             {
                                 "id": 33,
@@ -641,29 +642,29 @@
                                     { "id": 3, "answer": "&>" },
                                     { "id": 4, "answer": ">>" }
                                 ],
-                                "correct": [1]
+                                "correct": 1
                             },
                             {
                                 "id": 34,
-                                "title": "What does 'echo \"woof\" >> dog.txt' accomplish?",
+                                "title": "What does the command 'chmod 755 script.sh' do?",
                                 "answers": [
-                                    { "id": 1, "answer": "Creates a new file" },
-                                    { "id": 2, "answer": "Overwrites dog.txt with 'woof'" },
-                                    { "id": 3, "answer": "Appends 'woof' to dog.txt" },
-                                    { "id": 4, "answer": "Displays 'woof' in the terminal" }
+                                    { "id": 1, "answer": "Changes the ownership of the file" },
+                                    { "id": 2, "answer": "Changes file permissions to read, write, and execute" },
+                                    { "id": 3, "answer": "Executes the script" },
+                                    { "id": 4, "answer": "Deletes the script" }
                                 ],
-                                "correct": [3]
+                                "correct": 2
                             },
                             {
                                 "id": 35,
-                                "title": "How can you discard error messages in Linux?",
+                                "title": "What command is used to change the current working directory in Unix/Linux?",
                                 "answers": [
-                                    { "id": 1, "answer": "Using /dev/null" },
-                                    { "id": 2, "answer": "Using 2>" },
-                                    { "id": 3, "answer": "Using >" },
-                                    { "id": 4, "answer": "Using &>" }
+                                    { "id": 1, "answer": "cd" },
+                                    { "id": 2, "answer": "dir" },
+                                    { "id": 3, "answer": "ls" },
+                                    { "id": 4, "answer": "pwd" }
                                 ],
-                                "correct": [1]
+                                "correct": 1
                             },
                             {
                                 "id": 36,
@@ -674,7 +675,7 @@
                                     { "id": 3, "answer": "Create a new file" },
                                     { "id": 4, "answer": "Both 1 and 2" }
                                 ],
-                                "correct": [4]
+                                "correct": 4
                             },
                             {
                                 "id": 37,
@@ -685,7 +686,7 @@
                                     { "id": 3, "answer": "Displays contents of a file" },
                                     { "id": 4, "answer": "Deletes a file" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             },
                             {
                                 "id": 38,
@@ -696,7 +697,7 @@
                                     { "id": 3, "answer": "Creates a new string" },
                                     { "id": 4, "answer": "Filters output by date" }
                                 ],
-                                "correct": [1]
+                                "correct": 1
                             },
                             {
                                 "id": 39,
@@ -707,10 +708,11 @@
                                     { "id": 3, "answer": "dir" },
                                     { "id": 4, "answer": "list" }
                                 ],
-                                "correct": [2]
+                                "correct": 2
                             }
-                            
+
                         ]
+
                     }
                 ]
             }
