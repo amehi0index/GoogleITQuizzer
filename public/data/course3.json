@@ -679,7 +679,7 @@
                             },
                             {
                                 "id": 37,
-                                "title": "In Linux, what does the command 'command < file_input.txt' do?",
+                                "title": "In Linux, what does the command 'cat < file_input.txt' do?",
                                 "answers": [
                                     { "id": 1, "answer": "Writes to a file" },
                                     { "id": 2, "answer": "Reads input from a file" },
@@ -709,13 +709,584 @@
                                     { "id": 4, "answer": "list" }
                                 ],
                                 "correct": 2
+                            },
+                            {
+                                "id": 40,
+                                "title": "How can you display hidden and system files using the `ls` command in PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "-Force" },
+                                    { "id": 2, "answer": "-Recurse" },
+                                    { "id": 3, "answer": "-Hidden" },
+                                    { "id": 4, "answer": "-ShowAll" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 41,
+                                "title": "Which command can be used to view the first 10 lines of a file called 'circles.txt'?",
+                                "answers": [
+                                    { "id": 1, "answer": "cat circles.txt -head 10" },
+                                    { "id": 2, "answer": "tail circles.txt -first 10" },
+                                    { "id": 3, "answer": "head circles.txt" },
+                                    { "id": 4, "answer": "cat circles.txt -show 10" }
+                                ],
+                                "correct": 1
                             }
+                            
 
                         ]
 
                     }
                 ]
+            },
+            {
+                "id": "module2",
+                "title": "Module 2: Operating Systems and You",
+                "subModules": [
+                    {
+                        "id": "module2-1",
+                        "title": "Users and Groups",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What tool is used to manage user accounts and groups in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Computer Management" },
+                                    { "id": 2, "answer": "Task Manager" },
+                                    { "id": 3, "answer": "Device Manager" },
+                                    { "id": 4, "answer": "Control Panel" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is the primary function of the Task Scheduler in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Automate tasks" },
+                                    { "id": 2, "answer": "Monitor system performance" },
+                                    { "id": 3, "answer": "Manage disk partitions" },
+                                    { "id": 4, "answer": "View system logs" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 3,
+                                "title": "Which user account in Windows is typically disabled by default for security?",
+                                "answers": [
+                                    { "id": 1, "answer": "Administrator account" },
+                                    { "id": 2, "answer": "Guest account" },
+                                    { "id": 3, "answer": "Standard user account" },
+                                    { "id": 4, "answer": "Power user account" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "Which PowerShell command is used to view all local user accounts?",
+                                "answers": [
+                                    { "id": 1, "answer": "Get-LocalUser" },
+                                    { "id": 2, "answer": "Get-UserAccounts" },
+                                    { "id": 3, "answer": "List-Users" },
+                                    { "id": 4, "answer": "Show-LocalAccounts" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 5,
+                                "title": "What does the User Account Control (UAC) in Windows do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Prevents unauthorized changes" },
+                                    { "id": 2, "answer": "Manages disk partitions" },
+                                    { "id": 3, "answer": "Automates system updates" },
+                                    { "id": 4, "answer": "Displays system logs" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "Which command is used to check the members of the 'Administrators' group in PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "Get-LocalGroupMember -Group 'Administrators'" },
+                                    { "id": 2, "answer": "Show-GroupMembers -Group 'Admin'" },
+                                    { "id": 3, "answer": "List-Admins" },
+                                    { "id": 4, "answer": "Get-GroupMember -Name 'Administrators'" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is the function of Active Directory in large organizations?",
+                                "answers": [
+                                    { "id": 1, "answer": "Manage user accounts centrally" },
+                                    { "id": 2, "answer": "Monitor system performance" },
+                                    { "id": 3, "answer": "Automate tasks" },
+                                    { "id": 4, "answer": "Manage local users" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "In Linux, which user has all privileges on the system?",
+                                "answers": [
+                                    { "id": 1, "answer": "Root user" },
+                                    { "id": 2, "answer": "Standard user" },
+                                    { "id": 3, "answer": "Super user" },
+                                    { "id": 4, "answer": "Guest user" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "Which command allows a user to execute a single command as root in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "sudo" },
+                                    { "id": 2, "answer": "su" },
+                                    { "id": 3, "answer": "runas" },
+                                    { "id": 4, "answer": "execute" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is the main difference between 'sudo' and 'su' in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "'sudo' executes a single command, while 'su' switches to the root user" },
+                                    { "id": 2, "answer": "'su' is safer than 'sudo'" },
+                                    { "id": 3, "answer": "'sudo' requires a password, while 'su' does not" },
+                                    { "id": 4, "answer": "'su' can only be used by root users" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 11,
+                                "title": "Which file in Linux contains user account information?",
+                                "answers": [
+                                    { "id": 1, "answer": "/etc/passwd" },
+                                    { "id": 2, "answer": "/etc/users" },
+                                    { "id": 3, "answer": "/etc/userdata" },
+                                    { "id": 4, "answer": "/etc/accounts" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 12,
+                                "title": "What information is stored in the /etc/group file in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "Group membership" },
+                                    { "id": 2, "answer": "User passwords" },
+                                    { "id": 3, "answer": "System processes" },
+                                    { "id": 4, "answer": "Kernel parameters" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "What does the GID stand for in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "Group ID" },
+                                    { "id": 2, "answer": "Global ID" },
+                                    { "id": 3, "answer": "General ID" },
+                                    { "id": 4, "answer": "Group Identifier" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "Which command in Linux provides temporary root privileges to a standard user?",
+                                "answers": [
+                                    { "id": 1, "answer": "sudo" },
+                                    { "id": 2, "answer": "su" },
+                                    { "id": 3, "answer": "exec" },
+                                    { "id": 4, "answer": "runas" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "What is a common reason for disabling the Guest account in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Security reasons" },
+                                    { "id": 2, "answer": "To improve performance" },
+                                    { "id": 3, "answer": "To enable multiple logins" },
+                                    { "id": 4, "answer": "To allow easy access" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "What does the 'Member of' tab in a user account settings show in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Groups the user is part of" },
+                                    { "id": 2, "answer": "Recent login history" },
+                                    { "id": 3, "answer": "Password history" },
+                                    { "id": 4, "answer": "System performance metrics" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "What is the purpose of the /etc/sudoers file in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "Defines user privileges for sudo" },
+                                    { "id": 2, "answer": "Stores user passwords" },
+                                    { "id": 3, "answer": "Lists all system processes" },
+                                    { "id": 4, "answer": "Manages group memberships" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "How can you quickly view the groups on a local machine in PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "Get-LocalGroup" },
+                                    { "id": 2, "answer": "List-Groups" },
+                                    { "id": 3, "answer": "Show-Groups" },
+                                    { "id": 4, "answer": "Get-GroupList" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "What command would you use to add a new user in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "useradd" },
+                                    { "id": 2, "answer": "adduser" },
+                                    { "id": 3, "answer": "newuser" },
+                                    { "id": 4, "answer": "createuser" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 20,
+                                "title": "In Linux, which command is used to delete a user account?",
+                                "answers": [
+                                    { "id": 1, "answer": "userdel" },
+                                    { "id": 2, "answer": "removeuser" },
+                                    { "id": 3, "answer": "deleteuser" },
+                                    { "id": 4, "answer": "deluser" }
+                                ],
+                                "correct": 1
+                            },
+
+                        {
+                            "id": 21,
+                            "title": "What is the primary purpose of passwords in IT support?",
+                            "answers": [
+                                { "id": 1, "answer": "To track user activity" },
+                                { "id": 2, "answer": "To secure user accounts and restrict unauthorized access" },
+                                { "id": 3, "answer": "To allow administrators access to user accounts" },
+                                { "id": 4, "answer": "To store personal data" }
+                            ],
+                            "correct": 2
+                        },
+                        {
+                            "id": 22,
+                            "title": "Should IT administrators have access to user passwords? Why or why not?",
+                            "answers": [
+                                { "id": 1, "answer": "Yes, to assist users" },
+                                { "id": 2, "answer": "No, only the user should know their password" },
+                                { "id": 3, "answer": "Yes, for security audits" },
+                                { "id": 4, "answer": "No, but they can reset passwords" }
+                            ],
+                            "correct": 2
+                        },
+                        {
+                            "id": 23,
+                            "title": "Which tool is used to reset a user's password in Windows?",
+                            "answers": [
+                                { "id": 1, "answer": "Task Manager" },
+                                { "id": 2, "answer": "Computer Management" },
+                                { "id": 3, "answer": "Control Panel" },
+                                { "id": 4, "answer": "Windows Explorer" }
+                            ],
+                            "correct": 2
+                        },
+                        {
+                            "id": 24,
+                            "title": "What is the effect of checking 'User must change password at next login'?",
+                            "answers": [
+                                { "id": 1, "answer": "The user can never change their password" },
+                                { "id": 2, "answer": "The user will be prompted to reset their password upon next login" },
+                                { "id": 3, "answer": "The password will be permanently deleted" },
+                                { "id": 4, "answer": "The password will be encrypted" }
+                            ],
+                            "correct": 2
+                        },
+                        {
+                            "id": 25,
+                            "title": "What happens if a user forgets their password and an administrator sets a new one manually?",
+                            "answers": [
+                                { "id": 1, "answer": "The user gains access to everything" },
+                                { "id": 2, "answer": "The user may lose access to encrypted files and saved passwords" },
+                                { "id": 3, "answer": "The old password remains active" },
+                                { "id": 4, "answer": "The user will be prompted to change it immediately" }
+                            ],
+                            "correct": 2
+                        },
+                        {
+                            "id": 26,
+                            "title": "What is the correct command syntax to change a user's password using PowerShell?",
+                            "answers": [
+                                { "id": 1, "answer": "net change [username] [password]" },
+                                { "id": 2, "answer": "net user [username] [password]" },
+                                { "id": 3, "answer": "passwd [username] [password]" },
+                                { "id": 4, "answer": "set password [username] [password]" }
+                            ],
+                            "correct": 2
+                        },
+                        {
+                            "id": 27,
+                            "title": "Why should you use the asterisk (*) when changing passwords in PowerShell?",
+                            "answers": [
+                                { "id": 1, "answer": "To log the password" },
+                                { "id": 2, "answer": "To prevent others from seeing the password" },
+                                { "id": 3, "answer": "To store it securely" },
+                                { "id": 4, "answer": "To automatically generate a password" }
+                            ],
+                            "correct": 2
+                        },
+                        {
+                            "id": 28,
+                            "title": "What command is used to enforce a password change on the next login in Windows?",
+                            "answers": [
+                                { "id": 1, "answer": "net user [username] /logonpasswordchange:yes" },
+                                { "id": 2, "answer": "net change [username] /force" },
+                                { "id": 3, "answer": "user change [username] /login" },
+                                { "id": 4, "answer": "net login [username] /forcepasswordchange" }
+                            ],
+                            "correct": 1
+                        },
+                        {
+                            "id": 29,
+                            "title": "In Linux, which command is used to change your own password?",
+                            "answers": [
+                                { "id": 1, "answer": "passwd" },
+                                { "id": 2, "answer": "change" },
+                                { "id": 3, "answer": "userpass" },
+                                { "id": 4, "answer": "chpasswd" }
+                            ],
+                            "correct": 1
+                        },
+                        {
+                            "id": 30,
+                            "title": "Where are passwords stored in Linux?",
+                            "answers": [
+                                { "id": 1, "answer": "/etc/passwd" },
+                                { "id": 2, "answer": "/etc/shadow" },
+                                { "id": 3, "answer": "/usr/bin/passwords" },
+                                { "id": 4, "answer": "/var/log/users" }
+                            ],
+                            "correct": 2
+                        },
+                        {
+                            "id": 31,
+                            "title": "What command is used to force a user to change their password in Linux?",
+                            "answers": [
+                                { "id": 1, "answer": "passwd -e [username]" },
+                                { "id": 2, "answer": "useradd -e [username]" },
+                                { "id": 3, "answer": "forcepass [username]" },
+                                { "id": 4, "answer": "passwd --expire [username]" }
+                            ],
+                            "correct": 1
+                        },
+                        {
+                            "id": 32,
+                            "title": "What is the main reason to avoid logging users' passwords?",
+                            "answers": [
+                                { "id": 1, "answer": "It is not necessary" },
+                                { "id": 2, "answer": "To prevent exposure of sensitive information" },
+                                { "id": 3, "answer": "To make password management easier" },
+                                { "id": 4, "answer": "To simplify user access" }
+                            ],
+                            "correct": 2
+                        },
+                        {
+                            "id": 33,
+                            "title": "What command allows a user to reset their own password in Linux?",
+                            "answers": [
+                                { "id": 1, "answer": "sudo reset" },
+                                { "id": 2, "answer": "passwd" },
+                                { "id": 3, "answer": "chpass" },
+                                { "id": 4, "answer": "resetpass" }
+                            ],
+                            "correct": 2
+                        },
+                        {
+                            "id": 34,
+                            "title": "What should you do after resetting someone else’s password?",
+                            "answers": [
+                                { "id": 1, "answer": "Inform the user" },
+                                { "id": 2, "answer": "Log the new password" },
+                                { "id": 3, "answer": "Use /logonpasswordchange" },
+                                { "id": 4, "answer": "Change the password again" }
+                            ],
+                            "correct": 3
+                        },
+                        {
+                            "id": 35,
+                            "title": "Which tool is used to add a user through the GUI in Windows?",
+                            "answers": [
+                                { "id": 1, "answer": "Task Manager" },
+                                { "id": 2, "answer": "Computer Management" },
+                                { "id": 3, "answer": "Control Panel" },
+                                { "id": 4, "answer": "User Accounts" }
+                            ],
+                            "correct": 2
+                        },
+                        {
+                            "id": 36,
+                            "title": "What information is required when creating a new user in Windows?",
+                            "answers": [
+                                { "id": 1, "answer": "Username and email" },
+                                { "id": 2, "answer": "Username, Full Name, and password" },
+                                { "id": 3, "answer": "Username and phone number" },
+                                { "id": 4, "answer": "Full Name and address" }
+                            ],
+                            "correct": 2
+                        },
+                        {
+                            "id": 37,
+                            "title": "What should you check to enhance security when adding a user in Windows?",
+                            "answers": [
+                                { "id": 1, "answer": "User must change password at next logon" },
+                                { "id": 2, "answer": "User can log in from any device" },
+                                { "id": 3, "answer": "User has admin privileges" },
+                                { "id": 4, "answer": "User can reset their password" }
+                            ],
+                            "correct": 1
+                        },
+                        {
+                            "id": 38,
+                            "title": "How do you remove a user account in Windows via the GUI?",
+                            "answers": [
+                                { "id": 1, "answer": "Right-click the user and select Delete" },
+                                { "id": 2, "answer": "Select the user and press Delete" },
+                                { "id": 3, "answer": "Use the Remove User button" },
+                                { "id": 4, "answer": "Go to Settings and select Remove" }
+                            ],
+                            "correct": 1
+                        },
+                        {
+                            "id": 39,
+                            "title": "What is the correct command to add a new user in Windows using CLI?",
+                            "answers": [
+                                { "id": 1, "answer": "add user [username]" },
+                                { "id": 2, "answer": "net user [username] /add" },
+                                { "id": 3, "answer": "user add [username]" },
+                                { "id": 4, "answer": "create user [username]" }
+                            ],
+                            "correct": 2
+                        },
+                        {
+                            "id": 40,
+                            "title": "What parameter do you use to force a user to change their password at first login in Windows?",
+                            "answers": [
+                                { "id": 1, "answer": "/passwordchange:yes" },
+                                { "id": 2, "answer": "/logonpasswordchange:yes" },
+                                { "id": 3, "answer": "/change:yes" },
+                                { "id": 4, "answer": "/enforcepassword" }
+                            ],
+                            "correct": 2
+                        },
+                        {
+                            "id": 41,
+                            "title": "How can you delete a user account in Windows using CLI?",
+                            "answers": [
+                                { "id": 1, "answer": "net user [username] /delete" },
+                                { "id": 2, "answer": "remove user [username]" },
+                                { "id": 3, "answer": "delete user [username]" },
+                                { "id": 4, "answer": "userdel [username]" }
+                            ],
+                            "correct": 1
+                        },
+                        {
+                            "id": 42,
+                            "title": "Which command is used to remove a user with PowerShell?",
+                            "answers": [
+                                { "id": 1, "answer": "Remove-LocalUser -Name [username]" },
+                                { "id": 2, "answer": "Delete-User -Name [username]" },
+                                { "id": 3, "answer": "Remove-User -Name [username]" },
+                                { "id": 4, "answer": "Remove-UserAccount -Name [username]" }
+                            ],
+                            "correct": 1
+                        },
+                        {
+                            "id": 43,
+                            "title": "What command is used in PowerShell to list all local users?",
+                            "answers": [
+                                { "id": 1, "answer": "Get-LocalUser" },
+                                { "id": 2, "answer": "List-Users" },
+                                { "id": 3, "answer": "Show-Users" },
+                                { "id": 4, "answer": "Get-UserList" }
+                            ],
+                            "correct": 1
+                        },
+                        {
+                            "id": 44,
+                            "title": "Which command is used to create a new user in Linux?",
+                            "answers": [
+                                { "id": 1, "answer": "sudo useradd [username]" },
+                                { "id": 2, "answer": "add user [username]" },
+                                { "id": 3, "answer": "create user [username]" },
+                                { "id": 4, "answer": "useradd [username]" }
+                            ],
+                            "correct": 1
+                        },
+                        {
+                            "id": 45,
+                            "title": "How do you set a password for a user in Linux after creation?",
+                            "answers": [
+                                { "id": 1, "answer": "passwd [username]" },
+                                { "id": 2, "answer": "userpass [username]" },
+                                { "id": 3, "answer": "setpass [username]" },
+                                { "id": 4, "answer": "password [username]" }
+                            ],
+                            "correct": 1
+                        },
+                        {
+                            "id": 46,
+                            "title": "What command forces a user to change their password at first login in Linux?",
+                            "answers": [
+                                { "id": 1, "answer": "sudo passwd -e [username]" },
+                                { "id": 2, "answer": "passwd -f [username]" },
+                                { "id": 3, "answer": "userpasswd -e [username]" },
+                                { "id": 4, "answer": "change -e [username]" }
+                            ],
+                            "correct": 1
+                        },
+                        {
+                            "id": 47,
+                            "title": "Which command is used to delete a user in Linux?",
+                            "answers": [
+                                { "id": 1, "answer": "sudo removeuser [username]" },
+                                { "id": 2, "answer": "sudo userdel [username]" },
+                                { "id": 3, "answer": "sudo deleteuser [username]" },
+                                { "id": 4, "answer": "sudo deluser [username]" }
+                            ],
+                            "correct": 2
+                        },
+                        {
+                            "id": 48,
+                            "title": "What is a key difference in mobile user accounts compared to traditional OS user accounts?",
+                            "answers": [
+                                { "id": 1, "answer": "They are more complex" },
+                                { "id": 2, "answer": "They are typically hidden from the end user" },
+                                { "id": 3, "answer": "They require constant re-authentication" },
+                                { "id": 4, "answer": "They do not exist" }
+                            ],
+                            "correct": 2
+                        }
+                                            ]
+                        
+                    },
+                    {
+                        "id": "module2-2",
+                        "title": "Permissions",
+                        "questions": []
+                    }
+                ]
             }
+            
         ]
     }
 }
