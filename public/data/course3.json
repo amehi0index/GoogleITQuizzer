@@ -1049,7 +1049,7 @@
                             "id": 28,
                             "title": "What command is used to enforce a password change on the next login in Windows?",
                             "answers": [
-                                { "id": 1, "answer": "net user [username] /logonpasswordchange:yes" },
+                                { "id": 1, "answer": "net user [username] /logonpasswordchg:yes" },
                                 { "id": 2, "answer": "net change [username] /force" },
                                 { "id": 3, "answer": "user change [username] /login" },
                                 { "id": 4, "answer": "net login [username] /forcepasswordchange" }
@@ -1182,7 +1182,7 @@
                             "title": "What parameter do you use to force a user to change their password at first login in Windows?",
                             "answers": [
                                 { "id": 1, "answer": "/passwordchange:yes" },
-                                { "id": 2, "answer": "/logonpasswordchange:yes" },
+                                { "id": 2, "answer": "/logonpasswordchg:yes" },
                                 { "id": 3, "answer": "/change:yes" },
                                 { "id": 4, "answer": "/enforcepassword" }
                             ],
@@ -1282,7 +1282,339 @@
                     {
                         "id": "module2-2",
                         "title": "Permissions",
-                        "questions": []
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is the purpose of file permissions in computer security?",
+                                "answers": [
+                                    { "id": 1, "answer": "Control access to files and directories" },
+                                    { "id": 2, "answer": "Increase file sizes" },
+                                    { "id": 3, "answer": "Delete unwanted files" },
+                                    { "id": 4, "answer": "Speed up file transfer" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "Which tool is used to manage Windows file permissions?",
+                                "answers": [
+                                    { "id": 1, "answer": "Access Control Lists (ACLs)" },
+                                    { "id": 2, "answer": "Group Policy Editor" },
+                                    { "id": 3, "answer": "Task Scheduler" },
+                                    { "id": 4, "answer": "Windows Defender" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 3,
+                                "title": "What does DACL stand for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Discretionary Access Control List" },
+                                    { "id": 2, "answer": "Dynamic Access Control List" },
+                                    { "id": 3, "answer": "Distributed Access Control List" },
+                                    { "id": 4, "answer": "Default Access Control List" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "Which permission allows you to read and execute a file?",
+                                "answers": [
+                                    { "id": 1, "answer": "Read & Execute" },
+                                    { "id": 2, "answer": "Write" },
+                                    { "id": 3, "answer": "Modify" },
+                                    { "id": 4, "answer": "Full Control" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 5,
+                                "title": "What does the 'Write' permission allow you to do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Modify a file" },
+                                    { "id": 2, "answer": "Delete files only" },
+                                    { "id": 3, "answer": "Read files only" },
+                                    { "id": 4, "answer": "Execute files" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "Which command is used in Windows to view and modify ACLs?",
+                                "answers": [
+                                    { "id": 1, "answer": "iCacls" },
+                                    { "id": 2, "answer": "Get-Acl" },
+                                    { "id": 3, "answer": "Set-Acl" },
+                                    { "id": 4, "answer": "FilePermissions" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "In Linux, what does the 'r' permission stand for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Read" },
+                                    { "id": 2, "answer": "Remove" },
+                                    { "id": 3, "answer": "Run" },
+                                    { "id": 4, "answer": "Rename" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "What does 'ls -l' display in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "File permissions" },
+                                    { "id": 2, "answer": "User accounts" },
+                                    { "id": 3, "answer": "Disk usage" },
+                                    { "id": 4, "answer": "Network connections" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "What does 'x' represent in Linux file permissions?",
+                                "answers": [
+                                    { "id": 1, "answer": "Execute" },
+                                    { "id": 2, "answer": "Expand" },
+                                    { "id": 3, "answer": "Extract" },
+                                    { "id": 4, "answer": "Export" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "Which permission includes Read, Execute, and Write permissions in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Modify" },
+                                    { "id": 2, "answer": "Read" },
+                                    { "id": 3, "answer": "Full Control" },
+                                    { "id": 4, "answer": "Write" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 11,
+                                "title": "Which checkbox can explicitly block a user from a permission in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Deny" },
+                                    { "id": 2, "answer": "Allow" },
+                                    { "id": 3, "answer": "Override" },
+                                    { "id": 4, "answer": "Restrict" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 12,
+                                "title": "What does CI stand for in Windows permissions?",
+                                "answers": [
+                                    { "id": 1, "answer": "Container Inherit" },
+                                    { "id": 2, "answer": "Common Inherit" },
+                                    { "id": 3, "answer": "Child Inherit" },
+                                    { "id": 4, "answer": "Class Inherit" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is the first character in the 'ls -l' output that indicates a directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "d" },
+                                    { "id": 2, "answer": "-" },
+                                    { "id": 3, "answer": "r" },
+                                    { "id": 4, "answer": "x" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "Which command would you use to grant modify permissions to a user named Devan?",
+                                "answers": [
+                                    { "id": 1, "answer": "iCacls 'C:\\vacation pictures' /grant 'Devan:(OI)(CI)M'" },
+                                    { "id": 2, "answer": "iCacls 'C:\\vacation pictures' /allow 'Devan:(OI)(CI)M'" },
+                                    { "id": 3, "answer": "Set-Acl 'C:\\vacation pictures' -User 'Devan' -Access 'Modify'" },
+                                    { "id": 4, "answer": "Grant 'C:\\vacation pictures' 'Devan' 'Modify'" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "In Linux, what are the three primary permissions?",
+                                "answers": [
+                                    { "id": 1, "answer": "Read, Write, Execute" },
+                                    { "id": 2, "answer": "View, Edit, Run" },
+                                    { "id": 3, "answer": "Open, Modify, Delete" },
+                                    { "id": 4, "answer": "Access, Change, Execute" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "What command is used to change file permissions in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "chmod" },
+                                    { "id": 2, "answer": "chown" },
+                                    { "id": 3, "answer": "chgrp" },
+                                    { "id": 4, "answer": "icacls" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "What does the command 'chmod u+x my_cool_file' do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Adds execute permission for the owner" },
+                                    { "id": 2, "answer": "Removes execute permission for the owner" },
+                                    { "id": 3, "answer": "Adds read permission for the owner" },
+                                    { "id": 4, "answer": "Changes the owner of the file" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "What numeric value represents 'Read' permission in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "4" },
+                                    { "id": 2, "answer": "2" },
+                                    { "id": 3, "answer": "1" },
+                                    { "id": 4, "answer": "0" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "Which command changes the owner of a file?",
+                                "answers": [
+                                    { "id": 1, "answer": "chown" },
+                                    { "id": 2, "answer": "chmod" },
+                                    { "id": 3, "answer": "chgrp" },
+                                    { "id": 4, "answer": "icacls" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 20,
+                                "title": "What does the Setuid permission allow?",
+                                "answers": [
+                                    { "id": 1, "answer": "Execute a file with the owner's permissions" },
+                                    { "id": 2, "answer": "Change the group ownership of a file" },
+                                    { "id": 3, "answer": "Read files only" },
+                                    { "id": 4, "answer": "Write files only" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 21,
+                                "title": "What does the Sticky Bit do in a directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "Only the file owner can delete or modify files" },
+                                    { "id": 2, "answer": "All users can delete any file" },
+                                    { "id": 3, "answer": "No one can modify any file" },
+                                    { "id": 4, "answer": "Only administrators can delete files" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 22,
+                                "title": "Which command shows special permissions via the command line in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "icacls" },
+                                    { "id": 2, "answer": "chmod" },
+                                    { "id": 3, "answer": "chown" },
+                                    { "id": 4, "answer": "ls -l" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 23,
+                                "title": "What does 'chmod 754 my_cool_file' represent for the owner?",
+                                "answers": [
+                                    { "id": 1, "answer": "Read, Write, Execute" },
+                                    { "id": 2, "answer": "Read, Execute" },
+                                    { "id": 3, "answer": "Write, Execute" },
+                                    { "id": 4, "answer": "Read, Write" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 24,
+                                "title": "What is the purpose of special permissions in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Fine-grained control over file access" },
+                                    { "id": 2, "answer": "Simple access to all files" },
+                                    { "id": 3, "answer": "Removing file access" },
+                                    { "id": 4, "answer": "Changing file ownership" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 25,
+                                "title": "Which special permission allows files to be executed with group permissions?",
+                                "answers": [
+                                    { "id": 1, "answer": "Setgid" },
+                                    { "id": 2, "answer": "Setuid" },
+                                    { "id": 3, "answer": "Sticky Bit" },
+                                    { "id": 4, "answer": "Execute Bit" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 26,
+                                "title": "How do you remove execute permission from the owner in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "chmod u-x my_cool_file" },
+                                    { "id": 2, "answer": "chmod u+x my_cool_file" },
+                                    { "id": 3, "answer": "chmod o-x my_cool_file" },
+                                    { "id": 4, "answer": "chmod g-x my_cool_file" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 27,
+                                "title": "What does the command 'chgrp best_group_ever my_cool_file' do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Changes the group ownership of the file" },
+                                    { "id": 2, "answer": "Changes the file permissions" },
+                                    { "id": 3, "answer": "Changes the file owner" },
+                                    { "id": 4, "answer": "Deletes the file" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 28,
+                                "title": "Which command can be used to grant permissions to the CREATOR OWNER in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Use the Advanced Security Settings" },
+                                    { "id": 2, "answer": "chown" },
+                                    { "id": 3, "answer": "chmod" },
+                                    { "id": 4, "answer": "icacls" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 29,
+                                "title": "Which permission allows users to create folders and append data in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "AD (Append Data)" },
+                                    { "id": 2, "answer": "WD (Write Data)" },
+                                    { "id": 3, "answer": "RD (Read Data)" },
+                                    { "id": 4, "answer": "FD (Full Control)" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 30,
+                                "title": "What permission allows users to synchronize their access in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "S (Synchronize)" },
+                                    { "id": 2, "answer": "R (Read)" },
+                                    { "id": 3, "answer": "W (Write)" },
+                                    { "id": 4, "answer": "X (Execute)" }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                        
                     }
                 ]
             }
