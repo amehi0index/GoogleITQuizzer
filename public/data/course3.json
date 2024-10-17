@@ -1612,6 +1612,303 @@
                                     { "id": 4, "answer": "X (Execute)" }
                                 ],
                                 "correct": 1
+                            },
+                            {
+                                "id": 31,
+                                "title": "What does 'Full Control' permission allow a user to do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Delete any files in the folder" },
+                                    { "id": 2, "answer": "Read files only" },
+                                    { "id": 3, "answer": "Modify files without restrictions" },
+                                    { "id": 4, "answer": "Create new users" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 32,
+                                "title": "Which special permission is inherited by folders but not files?",
+                                "answers": [
+                                    { "id": 1, "answer": "List Folder Contents" },
+                                    { "id": 2, "answer": "Read & Execute" },
+                                    { "id": 3, "answer": "Modify" },
+                                    { "id": 4, "answer": "Full Control" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 33,
+                                "title": "Which permission allows a user to create new files in a folder?",
+                                "answers": [
+                                    { "id": 1, "answer": "Create Files/Write Data" },
+                                    { "id": 2, "answer": "Modify" },
+                                    { "id": 3, "answer": "Read & Execute" },
+                                    { "id": 4, "answer": "Delete" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 34,
+                                "title": "What permission is necessary to delete subfolders and files?",
+                                "answers": [
+                                    { "id": 1, "answer": "Full Control" },
+                                    { "id": 2, "answer": "Modify" },
+                                    { "id": 3, "answer": "Read & Execute" },
+                                    { "id": 4, "answer": "Write" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 35,
+                                "title": "Which special permission allows reading the attributes of a file?",
+                                "answers": [
+                                    { "id": 1, "answer": "Read Attributes" },
+                                    { "id": 2, "answer": "Read Extended Attributes" },
+                                    { "id": 3, "answer": "List Folder/Read Data" },
+                                    { "id": 4, "answer": "Write Attributes" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 36,
+                                "title": "What does 'Traverse Folder/Execute File' permission allow a user to do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Navigate through folders to access files" },
+                                    { "id": 2, "answer": "Modify any file in the folder" },
+                                    { "id": 3, "answer": "Delete files only" },
+                                    { "id": 4, "answer": "Change permissions on files" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 37,
+                                "title": "What special permission allows a user to change the permissions of a file?",
+                                "answers": [
+                                    { "id": 1, "answer": "Change Permissions" },
+                                    { "id": 2, "answer": "Take Ownership" },
+                                    { "id": 3, "answer": "Full Control" },
+                                    { "id": 4, "answer": "Delete" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 38,
+                                "title": "What permission is needed to read the contents of a folder?",
+                                "answers": [
+                                    { "id": 1, "answer": "List Folder/Read Data" },
+                                    { "id": 2, "answer": "Modify" },
+                                    { "id": 3, "answer": "Full Control" },
+                                    { "id": 4, "answer": "Write" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 39,
+                                "title": "Which group does NOT get affected by permissions applied to the Everyone group by default?",
+                                "answers": [
+                                    { "id": 1, "answer": "Anonymous Logon group" },
+                                    { "id": 2, "answer": "Authenticated Users" },
+                                    { "id": 3, "answer": "Administrators" },
+                                    { "id": 4, "answer": "Guests" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 40,
+                                "title": "Which permission allows a user to synchronize access to a file?",
+                                "answers": [
+                                    { "id": 1, "answer": "Synchronize" },
+                                    { "id": 2, "answer": "Read" },
+                                    { "id": 3, "answer": "Write" },
+                                    { "id": 4, "answer": "Execute" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 41,
+                                "title": "What is the main difference between 'Read & Execute' and 'List Folder Contents' permissions?",
+                                "answers": [
+                                    { "id": 1, "answer": "Inheritance for files and folders" },
+                                    { "id": 2, "answer": "Permission levels" },
+                                    { "id": 3, "answer": "Ability to delete files" },
+                                    { "id": 4, "answer": "Ownership rights" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 42,
+                                "title": "Which permission allows a user to append data to a file?",
+                                "answers": [
+                                    { "id": 1, "answer": "Create Folders/Append Data" },
+                                    { "id": 2, "answer": "Write" },
+                                    { "id": 3, "answer": "Modify" },
+                                    { "id": 4, "answer": "Read" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 43,
+                                "title": "What does 'Write Extended Attributes' permission allow?",
+                                "answers": [
+                                    { "id": 1, "answer": "Modify extended attributes of a file" },
+                                    { "id": 2, "answer": "Delete files" },
+                                    { "id": 3, "answer": "Read files" },
+                                    { "id": 4, "answer": "Create new files" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 44,
+                                "title": "Which special permission allows reading permissions of a file?",
+                                "answers": [
+                                    { "id": 1, "answer": "Read Permissions" },
+                                    { "id": 2, "answer": "Full Control" },
+                                    { "id": 3, "answer": "Read Attributes" },
+                                    { "id": 4, "answer": "Write" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 45,
+                                "title": "What does an Access Control List (ACL) consist of?",
+                                "answers": [
+                                    { "id": 1, "answer": "Access Control Entries (ACE)" },
+                                    { "id": 2, "answer": "User Roles" },
+                                    { "id": 3, "answer": "File Permissions" },
+                                    { "id": 4, "answer": "User Groups" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 46,
+                                "title": "What is the purpose of a Discretionary Access Control List (DACL)?",
+                                "answers": [
+                                    { "id": 1, "answer": "Identify trustees allowed or denied access" },
+                                    { "id": 2, "answer": "Log access attempts to an object" },
+                                    { "id": 3, "answer": "Encrypt data" },
+                                    { "id": 4, "answer": "Manage user roles" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 47,
+                                "title": "What happens if a securable object does not have a DACL?",
+                                "answers": [
+                                    { "id": 1, "answer": "Full access is granted to everyone" },
+                                    { "id": 2, "answer": "All access is denied" },
+                                    { "id": 3, "answer": "Only administrators have access" },
+                                    { "id": 4, "answer": "Access is granted based on default permissions" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 48,
+                                "title": "How does the system determine access rights when an ACE is encountered?",
+                                "answers": [
+                                    { "id": 1, "answer": "Checks the ACEs in sequence" },
+                                    { "id": 2, "answer": "Grants access immediately" },
+                                    { "id": 3, "answer": "Checks the DACL first" },
+                                    { "id": 4, "answer": "Logs the access attempt" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 49,
+                                "title": "What is the function of a System Access Control List (SACL)?",
+                                "answers": [
+                                    { "id": 1, "answer": "Log access attempts to a secured object" },
+                                    { "id": 2, "answer": "Identify allowed users" },
+                                    { "id": 3, "answer": "Assign permissions to files" },
+                                    { "id": 4, "answer": "Control group access" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 50,
+                                "title": "What can an ACE in a SACL generate audit records for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Failed or successful access attempts" },
+                                    { "id": 2, "answer": "Only successful access attempts" },
+                                    { "id": 3, "answer": "File modifications only" },
+                                    { "id": 4, "answer": "User logins" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 51,
+                                "title": "Why should you not work directly with the contents of an ACL?",
+                                "answers": [
+                                    { "id": 1, "answer": "To ensure semantic correctness" },
+                                    { "id": 2, "answer": "To speed up processing" },
+                                    { "id": 3, "answer": "To avoid permission conflicts" },
+                                    { "id": 4, "answer": "To prevent unauthorized access" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 52,
+                                "title": "What is the recommended way to manipulate ACLs?",
+                                "answers": [
+                                    { "id": 1, "answer": "Use appropriate functions" },
+                                    { "id": 2, "answer": "Edit them manually" },
+                                    { "id": 3, "answer": "Copy and paste entries" },
+                                    { "id": 4, "answer": "Use third-party software" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 53,
+                                "title": "How do ACLs relate to Active Directory service objects?",
+                                "answers": [
+                                    { "id": 1, "answer": "Provide access control" },
+                                    { "id": 2, "answer": "Encrypt user data" },
+                                    { "id": 3, "answer": "Manage user accounts" },
+                                    { "id": 4, "answer": "Assign group policies" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 54,
+                                "title": "What does each ACE in an ACL identify?",
+                                "answers": [
+                                    { "id": 1, "answer": "A trustee and its access rights" },
+                                    { "id": 2, "answer": "A user group" },
+                                    { "id": 3, "answer": "A security level" },
+                                    { "id": 4, "answer": "A role type" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 55,
+                                "title": "Which type of access control entry denies access to a securable object?",
+                                "answers": [
+                                    { "id": 1, "answer": "DACL" },
+                                    { "id": 2, "answer": "SACL" },
+                                    { "id": 3, "answer": "Security descriptor" },
+                                    { "id": 4, "answer": "Trustee" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 56,
+                                "title": "What does a security descriptor contain?",
+                                "answers": [
+                                    { "id": 1, "answer": "DACL and SACL" },
+                                    { "id": 2, "answer": "User permissions" },
+                                    { "id": 3, "answer": "File attributes" },
+                                    { "id": 4, "answer": "User accounts" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 57,
+                                "title": "When is full access granted to an object by default?",
+                                "answers": [
+                                    { "id": 1, "answer": "When there is no DACL" },
+                                    { "id": 2, "answer": "When there are no ACEs" },
+                                    { "id": 3, "answer": "When the user is an administrator" },
+                                    { "id": 4, "answer": "When the object is public" }
+                                ],
+                                "correct": 1
                             }
                         ]
                         
