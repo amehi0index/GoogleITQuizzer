@@ -1317,17 +1317,6 @@
                                 "correct": 1
                             },
                             {
-                                "id": 4,
-                                "title": "Which permission allows you to read and execute a file?",
-                                "answers": [
-                                    { "id": 1, "answer": "Read & Execute" },
-                                    { "id": 2, "answer": "Write" },
-                                    { "id": 3, "answer": "Modify" },
-                                    { "id": 4, "answer": "Full Control" }
-                                ],
-                                "correct": 1
-                            },
-                            {
                                 "id": 5,
                                 "title": "What does the 'Write' permission allow you to do?",
                                 "answers": [
@@ -1379,17 +1368,6 @@
                                     { "id": 2, "answer": "Expand" },
                                     { "id": 3, "answer": "Extract" },
                                     { "id": 4, "answer": "Export" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 10,
-                                "title": "Which permission includes Read, Execute, and Write permissions in Windows?",
-                                "answers": [
-                                    { "id": 1, "answer": "Modify" },
-                                    { "id": 2, "answer": "Read" },
-                                    { "id": 3, "answer": "Full Control" },
-                                    { "id": 4, "answer": "Write" }
                                 ],
                                 "correct": 1
                             },
@@ -1592,17 +1570,6 @@
                                 "correct": 1
                             },
                             {
-                                "id": 29,
-                                "title": "Which permission allows users to create folders and append data in Windows?",
-                                "answers": [
-                                    { "id": 1, "answer": "AD (Append Data)" },
-                                    { "id": 2, "answer": "WD (Write Data)" },
-                                    { "id": 3, "answer": "RD (Read Data)" },
-                                    { "id": 4, "answer": "FD (Full Control)" }
-                                ],
-                                "correct": 1
-                            },
-                            {
                                 "id": 30,
                                 "title": "What permission allows users to synchronize their access in Windows?",
                                 "answers": [
@@ -1610,17 +1577,6 @@
                                     { "id": 2, "answer": "R (Read)" },
                                     { "id": 3, "answer": "W (Write)" },
                                     { "id": 4, "answer": "X (Execute)" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 31,
-                                "title": "What does 'Full Control' permission allow a user to do?",
-                                "answers": [
-                                    { "id": 1, "answer": "Delete any files in the folder" },
-                                    { "id": 2, "answer": "Read files only" },
-                                    { "id": 3, "answer": "Modify files without restrictions" },
-                                    { "id": 4, "answer": "Create new users" }
                                 ],
                                 "correct": 1
                             },
@@ -1647,17 +1603,6 @@
                                 "correct": 1
                             },
                             {
-                                "id": 34,
-                                "title": "What permission is necessary to delete subfolders and files?",
-                                "answers": [
-                                    { "id": 1, "answer": "Full Control" },
-                                    { "id": 2, "answer": "Modify" },
-                                    { "id": 3, "answer": "Read & Execute" },
-                                    { "id": 4, "answer": "Write" }
-                                ],
-                                "correct": 1
-                            },
-                            {
                                 "id": 35,
                                 "title": "Which special permission allows reading the attributes of a file?",
                                 "answers": [
@@ -1676,28 +1621,6 @@
                                     { "id": 2, "answer": "Modify any file in the folder" },
                                     { "id": 3, "answer": "Delete files only" },
                                     { "id": 4, "answer": "Change permissions on files" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 37,
-                                "title": "What special permission allows a user to change the permissions of a file?",
-                                "answers": [
-                                    { "id": 1, "answer": "Change Permissions" },
-                                    { "id": 2, "answer": "Take Ownership" },
-                                    { "id": 3, "answer": "Full Control" },
-                                    { "id": 4, "answer": "Delete" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 38,
-                                "title": "What permission is needed to read the contents of a folder?",
-                                "answers": [
-                                    { "id": 1, "answer": "List Folder/Read Data" },
-                                    { "id": 2, "answer": "Modify" },
-                                    { "id": 3, "answer": "Full Control" },
-                                    { "id": 4, "answer": "Write" }
                                 ],
                                 "correct": 1
                             },
@@ -1753,17 +1676,6 @@
                                     { "id": 2, "answer": "Delete files" },
                                     { "id": 3, "answer": "Read files" },
                                     { "id": 4, "answer": "Create new files" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 44,
-                                "title": "Which special permission allows reading permissions of a file?",
-                                "answers": [
-                                    { "id": 1, "answer": "Read Permissions" },
-                                    { "id": 2, "answer": "Full Control" },
-                                    { "id": 3, "answer": "Read Attributes" },
-                                    { "id": 4, "answer": "Write" }
                                 ],
                                 "correct": 1
                             },
@@ -1912,9 +1824,371 @@
                             }
                         ]
                         
+                    },
+                    {
+
+                    }
+                ]
+            },
+            {
+                "id": "module3",
+                "title": "Module 3: Package and Software Management",
+                "subModules": [
+                    {
+                        "id": "module3-1",
+                        "title": "Software Distribution",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is the most common file format for software packages in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "EXE" },
+                                    { "id": 2, "answer": "APPX" },
+                                    { "id": 3, "answer": "DEB" },
+                                    { "id": 4, "answer": "RPM" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What type of installer does an MSI file typically use?",
+                                "answers": [
+                                    { "id": 1, "answer": "Windows Installer" },
+                                    { "id": 2, "answer": "Custom Installer" },
+                                    { "id": 3, "answer": "Command-Line Installer" },
+                                    { "id": 4, "answer": "Silent Installer" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 3,
+                                "title": "Which command is used to install a DEB package in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "apt install" },
+                                    { "id": 2, "answer": "dpkg -i" },
+                                    { "id": 3, "answer": "rpm -i" },
+                                    { "id": 4, "answer": "yum install" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is a key advantage of using MSI files over custom EXE installers?",
+                                "answers": [
+                                    { "id": 1, "answer": "More customization options" },
+                                    { "id": 2, "answer": "Stricter installation rules" },
+                                    { "id": 3, "answer": "Faster installation" },
+                                    { "id": 4, "answer": "Smaller file size" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "What do APPX files package?",
+                                "answers": [
+                                    { "id": 1, "answer": "Desktop applications" },
+                                    { "id": 2, "answer": "UWP apps" },
+                                    { "id": 3, "answer": "Classic Windows apps" },
+                                    { "id": 4, "answer": "Linux applications" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 6,
+                                "title": "What command would you use to list installed Debian packages?",
+                                "answers": [
+                                    { "id": 1, "answer": "dpkg -l" },
+                                    { "id": 2, "answer": "apt list" },
+                                    { "id": 3, "answer": "dpkg --list" },
+                                    { "id": 4, "answer": "apt-cache pkgnames" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "Which of the following is NOT a reason to use command-line installation?",
+                                "answers": [
+                                    { "id": 1, "answer": "Automated installations" },
+                                    { "id": 2, "answer": "Complex user interfaces" },
+                                    { "id": 3, "answer": "Silent installations" },
+                                    { "id": 4, "answer": "Scripted deployments" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 8,
+                                "title": "What does code signing verify in mobile applications?",
+                                "answers": [
+                                    { "id": 1, "answer": "User data integrity" },
+                                    { "id": 2, "answer": "Developer's identity" },
+                                    { "id": 3, "answer": "App performance" },
+                                    { "id": 4, "answer": "Device compatibility" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 9,
+                                "title": "Which mobile OS uses the Google Play Store for app distribution?",
+                                "answers": [
+                                    { "id": 1, "answer": "iOS" },
+                                    { "id": 2, "answer": "Windows" },
+                                    { "id": 3, "answer": "Android" },
+                                    { "id": 4, "answer": "Linux" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is side-loading in mobile app management?",
+                                "answers": [
+                                    { "id": 1, "answer": "Installing from the app store" },
+                                    { "id": 2, "answer": "Direct installation without an app store" },
+                                    { "id": 3, "answer": "Using enterprise certificates" },
+                                    { "id": 4, "answer": "Remote installation via MDM" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is the command to remove a DEB package?",
+                                "answers": [
+                                    { "id": 1, "answer": "apt remove" },
+                                    { "id": 2, "answer": "dpkg -r" },
+                                    { "id": 3, "answer": "dpkg --remove" },
+                                    { "id": 4, "answer": "rpm -e" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "What is the main purpose of app stores?",
+                                "answers": [
+                                    { "id": 1, "answer": "Sell hardware" },
+                                    { "id": 2, "answer": "Distribute applications" },
+                                    { "id": 3, "answer": "Provide cloud storage" },
+                                    { "id": 4, "answer": "Manage device settings" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What does the pipe command (|) do in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "Combines files" },
+                                    { "id": 2, "answer": "Redirects output" },
+                                    { "id": 3, "answer": "Runs multiple commands" },
+                                    { "id": 4, "answer": "Passes output from one command to another" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 14,
+                                "title": "What type of files do Red Hat-based distributions use?",
+                                "answers": [
+                                    { "id": 1, "answer": "DEB files" },
+                                    { "id": 2, "answer": "RPM files" },
+                                    { "id": 3, "answer": "APPX files" },
+                                    { "id": 4, "answer": "EXE files" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 15,
+                                "title": "What does a standalone EXE installer typically include?",
+                                "answers": [
+                                    { "id": 1, "answer": "An MSI file only" },
+                                    { "id": 2, "answer": "Configuration files only" },
+                                    { "id": 3, "answer": "All necessary instructions" },
+                                    { "id": 4, "answer": "Source code" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 16,
+                                "title": "What is an archive?",
+                                "answers": [
+                                    { "id": 1, "answer": "A single file containing one or more compressed files" },
+                                    { "id": 2, "answer": "A type of installation package" },
+                                    { "id": 3, "answer": "A directory of multiple files" },
+                                    { "id": 4, "answer": "A backup of system files" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "Which of the following is NOT a common archive type?",
+                                "answers": [
+                                    { "id": 1, "answer": ".zip" },
+                                    { "id": 2, "answer": ".rar" },
+                                    { "id": 3, "answer": ".exe" },
+                                    { "id": 4, "answer": ".tar" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 18,
+                                "title": "What tool is commonly used for archiving and extracting files in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "WinRAR" },
+                                    { "id": 2, "answer": "7-Zip" },
+                                    { "id": 3, "answer": "PowerShell" },
+                                    { "id": 4, "answer": "File Explorer" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 19,
+                                "title": "What is the command to create a new zip archive in PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "Compress-Archive" },
+                                    { "id": 2, "answer": "New-ZipArchive" },
+                                    { "id": 3, "answer": "Create-Zip" },
+                                    { "id": 4, "answer": "Zip-File" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 20,
+                                "title": "In Linux, which command is used to extract a tar file?",
+                                "answers": [
+                                    { "id": 1, "answer": "tar -xf file.tar" },
+                                    { "id": 2, "answer": "7z e file.tar" },
+                                    { "id": 3, "answer": "gzip -d file.tar" },
+                                    { "id": 4, "answer": "zip -d file.tar" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 21,
+                                "title": "What is a software dependency?",
+                                "answers": [
+                                    { "id": 1, "answer": "A code that is not used by the software" },
+                                    { "id": 2, "answer": "Other code required for a program to function" },
+                                    { "id": 3, "answer": "A type of software installer" },
+                                    { "id": 4, "answer": "A library of source code" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 22,
+                                "title": "What do Dynamic Link Libraries (DLLs) allow in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Multiple programs to use the same code" },
+                                    { "id": 2, "answer": "Software to be installed without dependencies" },
+                                    { "id": 3, "answer": "Code to be hidden from users" },
+                                    { "id": 4, "answer": "Faster software installation" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 23,
+                                "title": "What does 'DLL Hell' refer to?",
+                                "answers": [
+                                    { "id": 1, "answer": "Issues with dynamic link libraries breaking compatibility" },
+                                    { "id": 2, "answer": "Errors caused by corrupted installation files" },
+                                    { "id": 3, "answer": "Problems with zip file extraction" },
+                                    { "id": 4, "answer": "Conflicts between archived files" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 24,
+                                "title": "Which package manager is used in Debian-based Linux distributions?",
+                                "answers": [
+                                    { "id": 1, "answer": "apt" },
+                                    { "id": 2, "answer": "yum" },
+                                    { "id": 3, "answer": "dpkg" },
+                                    { "id": 4, "answer": "choco" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 25,
+                                "title": "What command might you encounter when trying to install a package with unmet dependencies in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "Dependency problems prevent configuration" },
+                                    { "id": 2, "answer": "Package not found" },
+                                    { "id": 3, "answer": "Installation failed" },
+                                    { "id": 4, "answer": "Permission denied" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 26,
+                                "title": "How does a package manager simplify installation?",
+                                "answers": [
+                                    { "id": 1, "answer": "By automatically installing dependencies" },
+                                    { "id": 2, "answer": "By requiring fewer user inputs" },
+                                    { "id": 3, "answer": "By creating multiple archives" },
+                                    { "id": 4, "answer": "By preventing software updates" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 27,
+                                "title": "Which PowerShell command can be used to find a package and its dependencies?",
+                                "answers": [
+                                    { "id": 1, "answer": "Find-Package -IncludeDependencies" },
+                                    { "id": 2, "answer": "Search-Package" },
+                                    { "id": 3, "answer": "Get-Package -All" },
+                                    { "id": 4, "answer": "Locate-Package" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 28,
+                                "title": "What should you do if you encounter a dependency error while installing a package in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "Ignore the error" },
+                                    { "id": 2, "answer": "Manually install each required dependency" },
+                                    { "id": 3, "answer": "Reinstall the operating system" },
+                                    { "id": 4, "answer": "Use a different package manager" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 29,
+                                "title": "Which command can you use in Linux to extract files with 7-Zip?",
+                                "answers": [
+                                    { "id": 1, "answer": "7z x filename" },
+                                    { "id": 2, "answer": "7z extract filename" },
+                                    { "id": 3, "answer": "7z unzip filename" },
+                                    { "id": 4, "answer": "7z e filename" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 30,
+                                "title": "What is one advantage of archiving files?",
+                                "answers": [
+                                    { "id": 1, "answer": "Increased file size" },
+                                    { "id": 2, "answer": "Easier sharing of multiple files" },
+                                    { "id": 3, "answer": "Increased complexity in file management" },
+                                    { "id": 4, "answer": "Decreased security" }
+                                ],
+                                "correct": 2
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module3-2",
+                        "title": "Package Managers",
+                        "questions": []
+                    },
+                    {
+                        "id": "module3-3",
+                        "title": "In the Background",
+                        "questions": []
+                    },
+                    {
+                        "id": "module3-4",
+                        "title": "Device Softwaree Management",
+                        "questions": []
                     }
                 ]
             }
+     
             
         ]
     }
