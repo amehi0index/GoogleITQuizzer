@@ -1897,12 +1897,12 @@
                                 "id": 6,
                                 "title": "What command would you use to list installed Debian packages?",
                                 "answers": [
-                                    { "id": 1, "answer": "dpkg -l" },
+                                    { "id": 1, "answer": "dpkg -a" },
                                     { "id": 2, "answer": "apt list" },
                                     { "id": 3, "answer": "dpkg --list" },
                                     { "id": 4, "answer": "apt-cache pkgnames" }
                                 ],
-                                "correct": 1
+                                "correct": 3
                             },
                             {
                                 "id": 7,
@@ -1954,7 +1954,7 @@
                                 "answers": [
                                     { "id": 1, "answer": "apt remove" },
                                     { "id": 2, "answer": "dpkg -r" },
-                                    { "id": 3, "answer": "dpkg --remove" },
+                                    { "id": 3, "answer": "dpkg --delete" },
                                     { "id": 4, "answer": "rpm -e" }
                                 ],
                                 "correct": 2
@@ -2097,7 +2097,7 @@
                                 "answers": [
                                     { "id": 1, "answer": "apt" },
                                     { "id": 2, "answer": "yum" },
-                                    { "id": 3, "answer": "dpkg" },
+                                    { "id": 3, "answer": "dnf" },
                                     { "id": 4, "answer": "choco" }
                                 ],
                                 "correct": 1
@@ -2502,7 +2502,7 @@
                                 "id": 61,
                                 "title": "Which tool is used to manipulate .deb files behind the scenes when using dpkg?",
                                 "answers": [
-                                  { "id": 1, "answer": "dpkg-query" },
+                                  { "id": 1, "answer": "KPackage" },
                                   { "id": 2, "answer": "dpkg-deb" },
                                   { "id": 3, "answer": "APT" },
                                   { "id": 4, "answer": "rpm" }
@@ -2725,7 +2725,382 @@
                     {
                         "id": "module3-2",
                         "title": "Package Managers",
-                        "questions": []
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is the primary purpose of APT?",
+                                "answers": [
+                                  { "id": 1, "answer": "To manage packages in Linux" },
+                                  { "id": 2, "answer": "To compile source code" },
+                                  { "id": 3, "answer": "To manage user accounts" },
+                                  { "id": 4, "answer": "To monitor system processes" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 2,
+                                "title": "Which of the following commands installs the GIMP package using APT?",
+                                "answers": [
+                                  { "id": 1, "answer": "sudo apt remove gimp" },
+                                  { "id": 2, "answer": "sudo apt update gimp" },
+                                  { "id": 3, "answer": "sudo apt install gimp" },
+                                  { "id": 4, "answer": "sudo apt upgrade gimp" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 3,
+                                "title": "What does the command `sudo apt remove gimp` do?",
+                                "answers": [
+                                  { "id": 1, "answer": "Installs the GIMP package" },
+                                  { "id": 2, "answer": "Removes the GIMP package and unused dependencies" },
+                                  { "id": 3, "answer": "Updates the GIMP package" },
+                                  { "id": 4, "answer": "Lists available versions of GIMP" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 4,
+                                "title": "What does APT use to pull software packages?",
+                                "answers": [
+                                  { "id": 1, "answer": "Personal Package Archives (PPAs)" },
+                                  { "id": 2, "answer": "Package repositories" },
+                                  { "id": 3, "answer": "Compiled source code" },
+                                  { "id": 4, "answer": "Cloud storage" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 5,
+                                "title": "Where are repository links stored in Ubuntu?",
+                                "answers": [
+                                  { "id": 1, "answer": "/etc/apt/sources.list" },
+                                  { "id": 2, "answer": "/usr/local/bin" },
+                                  { "id": 3, "answer": "/var/lib/apt/lists" },
+                                  { "id": 4, "answer": "/home/user/repositories" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 6,
+                                "title": "What is a Personal Package Archive (PPA)?",
+                                "answers": [
+                                  { "id": 1, "answer": "A central server for official packages" },
+                                  { "id": 2, "answer": "A developer-hosted software distribution service" },
+                                  { "id": 3, "answer": "A system for rolling out system updates" },
+                                  { "id": 4, "answer": "A method for compiling software locally" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 7,
+                                "title": "Why should you be cautious when using PPAs?",
+                                "answers": [
+                                  { "id": 1, "answer": "They are not as vetted as official repositories" },
+                                  { "id": 2, "answer": "They only work for non-essential software" },
+                                  { "id": 3, "answer": "They require manual dependency management" },
+                                  { "id": 4, "answer": "They are automatically updated with the system" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 8,
+                                "title": "What does the command `sudo apt update` do?",
+                                "answers": [
+                                  { "id": 1, "answer": "Upgrades all installed packages" },
+                                  { "id": 2, "answer": "Downloads and installs a new package" },
+                                  { "id": 3, "answer": "Updates the list of available packages" },
+                                  { "id": 4, "answer": "Removes unused dependencies" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 9,
+                                "title": "Which command upgrades outdated packages on your system?",
+                                "answers": [
+                                  { "id": 1, "answer": "sudo apt update" },
+                                  { "id": 2, "answer": "sudo apt install" },
+                                  { "id": 3, "answer": "sudo apt remove" },
+                                  { "id": 4, "answer": "sudo apt upgrade" }
+                                ],
+                                "correct": 4
+                              },
+                              {
+                                "id": 10,
+                                "title": "How can you get a list of available APT commands?",
+                                "answers": [
+                                  { "id": 1, "answer": "sudo apt remove --help" },
+                                  { "id": 2, "answer": "apt --help" },
+                                  { "id": 3, "answer": "sudo apt list" },
+                                  { "id": 4, "answer": "sudo apt upgrade --commands" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 11,
+                                "title": "What best practice should you follow before installing new software?",
+                                "answers": [
+                                  { "id": 1, "answer": "Run apt remove to clear space" },
+                                  { "id": 2, "answer": "Run apt update to get the latest package versions" },
+                                  { "id": 3, "answer": "Run apt --help to check for updates" },
+                                  { "id": 4, "answer": "Run apt upgrade to uninstall old versions" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 12,
+                                "title": "Why is it important to run `sudo apt upgrade` regularly?",
+                                "answers": [
+                                  { "id": 1, "answer": "To install the latest versions of installed packages" },
+                                  { "id": 2, "answer": "To install new software packages" },
+                                  { "id": 3, "answer": "To remove unused dependencies" },
+                                  { "id": 4, "answer": "To download the latest software versions" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 13,
+                                "title": "What is the primary purpose of a Personal Package Archive (PPA)?",
+                                "answers": [
+                                  { "id": 1, "answer": "To store user files" },
+                                  { "id": 2, "answer": "To distribute software and updates directly to Ubuntu users" },
+                                  { "id": 3, "answer": "To manage user permissions" },
+                                  { "id": 4, "answer": "To create backups of system files" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 14,
+                                "title": "How does Launchpad function in relation to PPAs?",
+                                "answers": [
+                                  { "id": 1, "answer": "It installs packages directly" },
+                                  { "id": 2, "answer": "It builds binaries and hosts them in a custom apt repository" },
+                                  { "id": 3, "answer": "It manages user accounts" },
+                                  { "id": 4, "answer": "It deletes old packages" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 15,
+                                "title": "What happens to packages in a PPA if they are superseded by another version?",
+                                "answers": [
+                                  { "id": 1, "answer": "They are automatically deleted" },
+                                  { "id": 2, "answer": "They remain until manually removed" },
+                                  { "id": 3, "answer": "They are archived for future use" },
+                                  { "id": 4, "answer": "They become private packages" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 16,
+                                "title": "What is a restriction for PPAs regarding package binaries?",
+                                "answers": [
+                                  { "id": 1, "answer": "They must be pre-built binaries" },
+                                  { "id": 2, "answer": "They cannot contain any source code" },
+                                  { "id": 3, "answer": "Packages must be built from source" },
+                                  { "id": 4, "answer": "Only binary packages are allowed" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 17,
+                                "title": "How much disk space do new PPAs receive by default?",
+                                "answers": [
+                                  { "id": 1, "answer": "4 GiB" },
+                                  { "id": 2, "answer": "8 GiB" },
+                                  { "id": 3, "answer": "16 GiB" },
+                                  { "id": 4, "answer": "32 GiB" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 18,
+                                "title": "Which architectures are supported by default for builds in PPAs?",
+                                "answers": [
+                                  { "id": 1, "answer": "x86 and ARM" },
+                                  { "id": 2, "answer": "AMD64 and PPC" },
+                                  { "id": 3, "answer": "x86 and AMD64" },
+                                  { "id": 4, "answer": "ARM and PPC" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 19,
+                                "title": "What is the significance of the PPA's key generated by Launchpad?",
+                                "answers": [
+                                  { "id": 1, "answer": "It allows unlimited storage" },
+                                  { "id": 2, "answer": "It verifies the source of packages" },
+                                  { "id": 3, "answer": "It provides user access" },
+                                  { "id": 4, "answer": "It encrypts the packages" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 20,
+                                "title": "What must be done before using a PPA?",
+                                "answers": [
+                                  { "id": 1, "answer": "Create a backup of the system" },
+                                  { "id": 2, "answer": "Activate the PPA on your profile or team’s overview page" },
+                                  { "id": 3, "answer": "Install a specific software package" },
+                                  { "id": 4, "answer": "Contact Launchpad support" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 21,
+                                "title": "What happens when a PPA is deleted?",
+                                "answers": [
+                                  { "id": 1, "answer": "The packages remain accessible" },
+                                  { "id": 2, "answer": "All packages and the repository are removed from ppa.launchpad.net" },
+                                  { "id": 3, "answer": "The PPA can never be reused" },
+                                  { "id": 4, "answer": "It becomes a private PPA" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 22,
+                                "title": "What are private PPAs?",
+                                "answers": [
+                                  { "id": 1, "answer": "PPAs that are not accessible to anyone" },
+                                  { "id": 2, "answer": "PPAs available through CommercialHosting" },
+                                  { "id": 3, "answer": "PPAs that can only hold a single package" },
+                                  { "id": 4, "answer": "PPAs that have no restrictions" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 23,
+                                "title": "Which option is NOT a method for supporting multiple series in PPAs?",
+                                "answers": [
+                                  { "id": 1, "answer": "Build for the oldest release and forward binaries" },
+                                  { "id": 2, "answer": "Create a separate source package version for each release" },
+                                  { "id": 3, "answer": "Use only the latest release for all packages" },
+                                  { "id": 4, "answer": "Automate using source package recipes" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 24,
+                                "title": "How can upload permissions be granted in a PPA?",
+                                "answers": [
+                                  { "id": 1, "answer": "By adding users to the PPA-owning team" },
+                                  { "id": 2, "answer": "By using the ubuntu-archive-tools without adding to the team" },
+                                  { "id": 3, "answer": "By contacting Launchpad support" },
+                                  { "id": 4, "answer": "By creating a new PPA" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 25,
+                                "title": "What is NuGet?",
+                                "answers": [
+                                  { "id": 1, "answer": "A web development framework" },
+                                  { "id": 2, "answer": "A package manager for .NET software" },
+                                  { "id": 3, "answer": "A programming language" },
+                                  { "id": 4, "answer": "A database management system" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 26,
+                                "title": "Who developed NuGet?",
+                                "answers": [
+                                  { "id": 1, "answer": "Google" },
+                                  { "id": 2, "answer": "Microsoft and .NET Foundation" },
+                                  { "id": 3, "answer": "Oracle" },
+                                  { "id": 4, "answer": "Mozilla" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 27,
+                                "title": "When was NuGet initially released?",
+                                "answers": [
+                                  { "id": 1, "answer": "October 5, 2010" },
+                                  { "id": 2, "answer": "March 2011" },
+                                  { "id": 3, "answer": "August 13, 2024" },
+                                  { "id": 4, "answer": "January 1, 2015" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 28,
+                                "title": "What is the current stable release version of NuGet as of August 13, 2024?",
+                                "answers": [
+                                  { "id": 1, "answer": "5.0" },
+                                  { "id": 2, "answer": "6.0" },
+                                  { "id": 3, "answer": "6.11" },
+                                  { "id": 4, "answer": "7.0" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 29,
+                                "title": "What file extension do NuGet packages have?",
+                                "answers": [
+                                  { "id": 1, "answer": ".zip" },
+                                  { "id": 2, "answer": ".nupkg" },
+                                  { "id": 3, "answer": ".exe" },
+                                  { "id": 4, "answer": ".dll" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 30,
+                                "title": "What is Chocolatey?",
+                                "answers": [
+                                  { "id": 1, "answer": "A framework for building applications" },
+                                  { "id": 2, "answer": "A package manager for Windows" },
+                                  { "id": 3, "answer": "A database management system" },
+                                  { "id": 4, "answer": "A virtual machine platform" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 31,
+                                "title": "Who developed Chocolatey?",
+                                "answers": [
+                                  { "id": 1, "answer": "Microsoft" },
+                                  { "id": 2, "answer": "Rob Reynolds and Chocolatey Software, Inc." },
+                                  { "id": 3, "answer": "Red Hat" },
+                                  { "id": 4, "answer": "Canonical" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 32,
+                                "title": "What command is used to install a software package using Chocolatey?",
+                                "answers": [
+                                  { "id": 1, "answer": "choco add <package>" },
+                                  { "id": 2, "answer": "choco install <package>" },
+                                  { "id": 3, "answer": "choco get <package>" },
+                                  { "id": 4, "answer": "choco download <package>" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 33,
+                                "title": "What is `choco.exe`?",
+                                "answers": [
+                                  { "id": 1, "answer": "A graphical package manager" },
+                                  { "id": 2, "answer": "The command-line client for managing packages" },
+                                  { "id": 3, "answer": "A web-based package repository" },
+                                  { "id": 4, "answer": "An IDE for .NET development" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 34,
+                                "title": "What is a key feature of Chocolatey?",
+                                "answers": [
+                                  { "id": 1, "answer": "It can only install software manually." },
+                                  { "id": 2, "answer": "It automates installation, updating, and removal of software." },
+                                  { "id": 3, "answer": "It is a graphical user interface." },
+                                  { "id": 4, "answer": "It only works with open-source software." }
+                                ],
+                                "correct": 2
+                              }
+                        ]
                     },
                     {
                         "id": "module3-3",
