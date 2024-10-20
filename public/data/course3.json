@@ -2167,7 +2167,558 @@
                                     { "id": 4, "answer": "Decreased security" }
                                 ],
                                 "correct": 2
-                            }
+                            },
+                            {
+                                "id": 31,
+                                "title": "What does an installation package contain?",
+                                "answers": [
+                                    { "id": 1, "answer": "Only executable files" },
+                                    { "id": 2, "answer": "Only images and icons" },
+                                    { "id": 3, "answer": "All information needed to install software" },
+                                    { "id": 4, "answer": "Only source code files" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 32,
+                                "title": "What is the primary role of an .msi file in Windows software installation?",
+                                "answers": [
+                                    { "id": 1, "answer": "To manage user settings" },
+                                    { "id": 2, "answer": "To install, maintain, and remove programs" },
+                                    { "id": 3, "answer": "To create a backup of the system" },
+                                    { "id": 4, "answer": "To update the operating system" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 33,
+                                "title": "What is a Portable Executable (PE) format used for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Storing compressed files" },
+                                    { "id": 2, "answer": "Managing file permissions" },
+                                    { "id": 3, "answer": "Running Windows programs" },
+                                    { "id": 4, "answer": "Updating drivers" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 34,
+                                "title": "Which file extension is associated with a Portable Executable (PE)?",
+                                "answers": [
+                                    { "id": 1, "answer": ".msi" },
+                                    { "id": 2, "answer": ".exe" },
+                                    { "id": 3, "answer": ".zip" },
+                                    { "id": 4, "answer": ".bat" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 35,
+                                "title": "Which command is used to extract the contents of a self-extracting executable?",
+                                "answers": [
+                                    { "id": 1, "answer": "/quiet" },
+                                    { "id": 2, "answer": "/extract:[path]" },
+                                    { "id": 3, "answer": "/forcerestart" },
+                                    { "id": 4, "answer": "/lang:lcid" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 36,
+                                "title": "What does the /quiet option do when running a self-extracting executable?",
+                                "answers": [
+                                    { "id": 1, "answer": "Runs the package in silent mode" },
+                                    { "id": 2, "answer": "Logs the installation process" },
+                                    { "id": 3, "answer": "Forces a restart after installation" },
+                                    { "id": 4, "answer": "Sets the installation language" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 37,
+                                "title": "What is the function of the MakeAppx.exe tool in the Windows SDK?",
+                                "answers": [
+                                    { "id": 1, "answer": "Compresses files into a zip folder" },
+                                    { "id": 2, "answer": "Creates and extracts app packages" },
+                                    { "id": 3, "answer": "Deletes unwanted apps from the system" },
+                                    { "id": 4, "answer": "Installs apps from the Microsoft Store" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 38,
+                                "title": "Which of the following is NOT a valid command-line option for a self-extracting executable?",
+                                "answers": [
+                                    { "id": 1, "answer": "/norestart" },
+                                    { "id": 2, "answer": "/forcerestart" },
+                                    { "id": 3, "answer": "/extract" },
+                                    { "id": 4, "answer": "/uninstall" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 39,
+                                "title": "Which of the following describes the Microsoft Store?",
+                                "answers": [
+                                    { "id": 1, "answer": "A digital storefront for certified apps, games, and media" },
+                                    { "id": 2, "answer": "A file compression tool" },
+                                    { "id": 3, "answer": "A command-line software installer" },
+                                    { "id": 4, "answer": "An antivirus management tool" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 40,
+                                "title": "What is one advantage of using the Microsoft Store for installing software?",
+                                "answers": [
+                                    { "id": 1, "answer": "Software is automatically updated by default" },
+                                    { "id": 2, "answer": "Programs can be installed without any internet connection" },
+                                    { "id": 3, "answer": "All apps are open-source" },
+                                    { "id": 4, "answer": "It provides detailed error logs" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 41,
+                                "title": "What does an organization typically do to prevent unauthorized software installations?",
+                                "answers": [
+                                    { "id": 1, "answer": "Disable the Microsoft Store on user computers" },
+                                    { "id": 2, "answer": "Require users to install all updates manually" },
+                                    { "id": 3, "answer": "Disable all command-line options for installers" },
+                                    { "id": 4, "answer": "Use third-party app stores" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 42,
+                                "title": "Which file format is commonly associated with app packages created using MakeAppx.exe?",
+                                "answers": [
+                                    { "id": 1, "answer": ".exe" },
+                                    { "id": 2, "answer": ".msi" },
+                                    { "id": 3, "answer": ".appx" },
+                                    { "id": 4, "answer": ".iso" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 43,
+                                "title": "What is a Dynamic Link Library (DLL) file?",
+                                "answers": [
+                                    { "id": 1, "answer": "A type of device driver" },
+                                    { "id": 2, "answer": "A reusable module of code for Windows applications" },
+                                    { "id": 3, "answer": "A text document for logging system errors" },
+                                    { "id": 4, "answer": "A configuration file for hardware devices" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 44,
+                                "title": "Which of the following is an advantage of using DLL files?",
+                                "answers": [
+                                    { "id": 1, "answer": "They increase disk space usage" },
+                                    { "id": 2, "answer": "They provide reusable code for multiple applications" },
+                                    { "id": 3, "answer": "They slow down application performance" },
+                                    { "id": 4, "answer": "They eliminate the need for RAM" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 45,
+                                "title": "What type of file manages physical device operations in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": ".drv" },
+                                    { "id": 2, "answer": ".dll" },
+                                    { "id": 3, "answer": ".cpl" },
+                                    { "id": 4, "answer": ".ocx" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 46,
+                                "title": "What is the purpose of .ocx files in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "To manage system processes" },
+                                    { "id": 2, "answer": "To provide Active X controls" },
+                                    { "id": 3, "answer": "To manage Control Panel functions" },
+                                    { "id": 4, "answer": "To control disk usage" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 47,
+                                "title": "What happens when a DLL dependency is broken?",
+                                "answers": [
+                                    { "id": 1, "answer": "The application fails to run" },
+                                    { "id": 2, "answer": "The application runs faster" },
+                                    { "id": 3, "answer": "The operating system crashes" },
+                                    { "id": 4, "answer": "The DLL automatically updates" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 48,
+                                "title": "What is 'DLL hell'?",
+                                "answers": [
+                                    { "id": 1, "answer": "A problem caused by malware infecting DLL files" },
+                                    { "id": 2, "answer": "An issue where multiple apps require different versions of the same DLL" },
+                                    { "id": 3, "answer": "An error caused by missing DLL files" },
+                                    { "id": 4, "answer": "A situation where DLL files are duplicated" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 49,
+                                "title": "How can overwriting DLL files cause issues for applications?",
+                                "answers": [
+                                    { "id": 1, "answer": "It reduces application security" },
+                                    { "id": 2, "answer": "It can break other applications dependent on the DLL" },
+                                    { "id": 3, "answer": "It decreases system performance" },
+                                    { "id": 4, "answer": "It uses more system memory" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 50,
+                                "title": "What is Windows File Protection used for?",
+                                "answers": [
+                                    { "id": 1, "answer": "To block malware from accessing DLL files" },
+                                    { "id": 2, "answer": "To manage system permissions for DLL files" },
+                                    { "id": 3, "answer": "To control updates and deletions of system DLL files" },
+                                    { "id": 4, "answer": "To prevent applications from using shared DLL files" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 51,
+                                "title": "How does the .NET Framework help resolve 'DLL hell'?",
+                                "answers": [
+                                    { "id": 1, "answer": "By disabling DLL file sharing between applications" },
+                                    { "id": 2, "answer": "By allowing multiple versions of a DLL to coexist" },
+                                    { "id": 3, "answer": "By preventing new DLLs from being installed" },
+                                    { "id": 4, "answer": "By automatically rolling back DLL updates" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 52,
+                                "title": "What is stored in the Global Assembly Cache (GAC)?",
+                                "answers": [
+                                    { "id": 1, "answer": "Shared application settings" },
+                                    { "id": 2, "answer": "Private DLL files" },
+                                    { "id": 3, "answer": "Strong Name Assemblies of DLL files" },
+                                    { "id": 4, "answer": "Windows system logs" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 53,
+                                "title": "What are side-by-side assemblies?",
+                                "answers": [
+                                    { "id": 1, "answer": "A method for storing application configuration in the Windows registry" },
+                                    { "id": 2, "answer": "A resource collection available to applications during run time" },
+                                    { "id": 3, "answer": "A backup system for application settings" },
+                                    { "id": 4, "answer": "A way to roll back DLL updates automatically" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 54,
+                                "title": "Where are shared side-by-side assembly manifests stored?",
+                                "answers": [
+                                    { "id": 1, "answer": "In the Windows registry" },
+                                    { "id": 2, "answer": "In the Global Assembly Cache" },
+                                    { "id": 3, "answer": "In the WinSxS folder" },
+                                    { "id": 4, "answer": "In the application root folder" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 55,
+                                "title": "What information is typically found in a manifest file?",
+                                "answers": [
+                                    { "id": 1, "answer": "File permissions and user logs" },
+                                    { "id": 2, "answer": "Application dependencies and versioning data" },
+                                    { "id": 3, "answer": "Encryption keys and security tokens" },
+                                    { "id": 4, "answer": "Hardware configurations" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 56,
+                                "title": "Why is it important to understand side-by-side assemblies when troubleshooting application issues?",
+                                "answers": [
+                                    { "id": 1, "answer": "Because they are always stored in the Windows registry" },
+                                    { "id": 2, "answer": "Because application configuration settings may be in the manifest file" },
+                                    { "id": 3, "answer": "Because side-by-side assemblies often contain malware" },
+                                    { "id": 4, "answer": "Because they determine how much RAM an application uses" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 57,
+                                "title": "What is a Linux package?",
+                                "answers": [
+                                  { "id": 1, "answer": "A single file containing an operating system" },
+                                  { "id": 2, "answer": "A compressed software archive file containing necessary files for an application" },
+                                  { "id": 3, "answer": "A hardware component required to run Linux" },
+                                  { "id": 4, "answer": "A graphical interface for Linux" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 58,
+                                "title": "What is a package dependency?",
+                                "answers": [
+                                  { "id": 1, "answer": "A file required to uninstall a package" },
+                                  { "id": 2, "answer": "A package that other packages rely on to function" },
+                                  { "id": 3, "answer": "A Linux system file for installing applications" },
+                                  { "id": 4, "answer": "A GUI-based package manager" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 59,
+                                "title": "What is the correct dpkg command to install a package?",
+                                "answers": [
+                                  { "id": 1, "answer": "$ sudo dpkg -install packagename" },
+                                  { "id": 2, "answer": "$ sudo dpkg --list packagename" },
+                                  { "id": 3, "answer": "$ sudo dpkg --install packagename" },
+                                  { "id": 4, "answer": "$ sudo dpkg --remove packagename" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 60,
+                                "title": "Which of the following commands removes a package and all its files?",
+                                "answers": [
+                                  { "id": 1, "answer": "$ sudo dpkg --remove packagename" },
+                                  { "id": 2, "answer": "$ sudo dpkg --listfiles packagename" },
+                                  { "id": 3, "answer": "$ sudo dpkg --purge packagename" },
+                                  { "id": 4, "answer": "$ sudo dpkg --contents packagename" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 61,
+                                "title": "Which tool is used to manipulate .deb files behind the scenes when using dpkg?",
+                                "answers": [
+                                  { "id": 1, "answer": "dpkg-query" },
+                                  { "id": 2, "answer": "dpkg-deb" },
+                                  { "id": 3, "answer": "APT" },
+                                  { "id": 4, "answer": "rpm" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 62,
+                                "title": "What is the purpose of dpkg-query?",
+                                "answers": [
+                                  { "id": 1, "answer": "To install Linux packages" },
+                                  { "id": 2, "answer": "To provide information about installed packages" },
+                                  { "id": 3, "answer": "To manage package dependencies" },
+                                  { "id": 4, "answer": "To uninstall packages and their dependencies" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 63,
+                                "title": "Which package manager is the default for Debian-based systems?",
+                                "answers": [
+                                  { "id": 1, "answer": "yum" },
+                                  { "id": 2, "answer": "APT" },
+                                  { "id": 3, "answer": "rpm" },
+                                  { "id": 4, "answer": "dnf" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 64,
+                                "title": "Which command lists all installed packages in a system using dpkg?",
+                                "answers": [
+                                  { "id": 1, "answer": "$ sudo dpkg --list" },
+                                  { "id": 2, "answer": "$ sudo dpkg --purge" },
+                                  { "id": 3, "answer": "$ sudo dpkg --remove" },
+                                  { "id": 4, "answer": "$ sudo dpkg --contents" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 65,
+                                "title": "Which package manager is specific to RedHat-based systems?",
+                                "answers": [
+                                  { "id": 1, "answer": "APT" },
+                                  { "id": 2, "answer": "dpkg" },
+                                  { "id": 3, "answer": "yum" },
+                                  { "id": 4, "answer": "aptitude" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 66,
+                                "title": "What does a Linux repository provide?",
+                                "answers": [
+                                  { "id": 1, "answer": "Storage for Linux system files" },
+                                  { "id": 2, "answer": "A graphical interface for Linux" },
+                                  { "id": 3, "answer": "A remote storage location for Linux packages" },
+                                  { "id": 4, "answer": "A tool for uninstalling packages" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 67,
+                                "title": "What is the difference between a stand-alone package and a package with dependencies?",
+                                "answers": [
+                                  { "id": 1, "answer": "A stand-alone package contains everything needed to install and run, while a package with dependencies requires additional packages." },
+                                  { "id": 2, "answer": "A stand-alone package cannot be installed, but a package with dependencies can." },
+                                  { "id": 3, "answer": "A stand-alone package contains only binary files, while a package with dependencies contains only text files." },
+                                  { "id": 4, "answer": "A stand-alone package can only be installed in RedHat systems." }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 68,
+                                "title": "Which GUI-based package manager is integrated into the Ubuntu operating system?",
+                                "answers": [
+                                  { "id": 1, "answer": "aptitude" },
+                                  { "id": 2, "answer": "Synaptic Package Manager" },
+                                  { "id": 3, "answer": "KPackage" },
+                                  { "id": 4, "answer": "Ubuntu Software Center" }
+                                ],
+                                "correct": 4
+                              },
+                              {
+                                "id": 69,
+                                "title": "What does the tar command do?",
+                                "answers": [
+                                  { "id": 1, "answer": "Compress files" },
+                                  { "id": 2, "answer": "Convert files into an archive" },
+                                  { "id": 3, "answer": "Extract data from a database" },
+                                  { "id": 4, "answer": "Edit text files" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 70,
+                                "title": "Which option is required with tar to create an archive?",
+                                "answers": [
+                                  { "id": 1, "answer": "-c" },
+                                  { "id": 2, "answer": "-x" },
+                                  { "id": 3, "answer": "-t" },
+                                  { "id": 4, "answer": "-z" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 71,
+                                "title": "Which tar option should be used to extract an archive?",
+                                "answers": [
+                                  { "id": 1, "answer": "-f" },
+                                  { "id": 2, "answer": "-c" },
+                                  { "id": 3, "answer": "-x" },
+                                  { "id": 4, "answer": "-r" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 72,
+                                "title": "Which option is used with tar to display the files being archived?",
+                                "answers": [
+                                  { "id": 1, "answer": "-v" },
+                                  { "id": 2, "answer": "-r" },
+                                  { "id": 3, "answer": "-x" },
+                                  { "id": 4, "answer": "-f" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 73,
+                                "title": "Which tar option allows files to be added to an existing archive?",
+                                "answers": [
+                                  { "id": 1, "answer": "-x" },
+                                  { "id": 2, "answer": "-c" },
+                                  { "id": 3, "answer": "-f" },
+                                  { "id": 4, "answer": "-r" }
+                                ],
+                                "correct": 4
+                              },
+                              {
+                                "id": 74,
+                                "title": "What command would you use to archive all files in the current directory?",
+                                "answers": [
+                                  { "id": 1, "answer": "tar -cf *" },
+                                  { "id": 2, "answer": "tar -xvf *" },
+                                  { "id": 3, "answer": "tar -tf *" },
+                                  { "id": 4, "answer": "tar -rf *" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 75,
+                                "title": "How do you compress a tar file using bzip2?",
+                                "answers": [
+                                  { "id": 1, "answer": "tar -czvf" },
+                                  { "id": 2, "answer": "tar -xjvf" },
+                                  { "id": 3, "answer": "tar -cvjf" },
+                                  { "id": 4, "answer": "tar -tf" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 76,
+                                "title": "What does the -f option in tar specify?",
+                                "answers": [
+                                  { "id": 1, "answer": "The archive file to use" },
+                                  { "id": 2, "answer": "The compression type" },
+                                  { "id": 3, "answer": "The extraction method" },
+                                  { "id": 4, "answer": "The directory to archive" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 77,
+                                "title": "Which option allows you to list the contents of a tar archive without extracting?",
+                                "answers": [
+                                  { "id": 1, "answer": "-c" },
+                                  { "id": 2, "answer": "-x" },
+                                  { "id": 3, "answer": "-t" },
+                                  { "id": 4, "answer": "-r" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 78,
+                                "title": "Which tar option deletes specified files from an archive?",
+                                "answers": [
+                                  { "id": 1, "answer": "--delete" },
+                                  { "id": 2, "answer": "-r" },
+                                  { "id": 3, "answer": "-x" },
+                                  { "id": 4, "answer": "-tf" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 79,
+                                "title": "Which command would you use to extract a gzip-compressed tar file?",
+                                "answers": [
+                                  { "id": 1, "answer": "tar -xzvf file.tar.gz" },
+                                  { "id": 2, "answer": "tar -cvf file.tar.gz" },
+                                  { "id": 3, "answer": "tar -czvf file.tar.gz" },
+                                  { "id": 4, "answer": "tar -rf file.tar.gz" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 80,
+                                "title": "Which tar option can be used to get help on tar commands?",
+                                "answers": [
+                                  { "id": 1, "answer": "--help" },
+                                  { "id": 2, "answer": "--delete" },
+                                  { "id": 3, "answer": "-x" },
+                                  { "id": 4, "answer": "-v" }
+                                ],
+                                "correct": 1
+                              }
+                              
                         ]
                         
                     },
