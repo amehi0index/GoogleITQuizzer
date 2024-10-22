@@ -2786,7 +2786,7 @@
                                 "title": "What is a Personal Package Archive (PPA)?",
                                 "answers": [
                                   { "id": 1, "answer": "A central server for official packages" },
-                                  { "id": 2, "answer": "A developer-hosted software distribution service" },
+                                  { "id": 2, "answer": " A repository for distributing and managing software packages" },
                                   { "id": 3, "answer": "A system for rolling out system updates" },
                                   { "id": 4, "answer": "A method for compiling software locally" }
                                 ],
@@ -2881,17 +2881,6 @@
                                 "correct": 2
                               },
                               {
-                                "id": 15,
-                                "title": "What happens to packages in a PPA if they are superseded by another version?",
-                                "answers": [
-                                  { "id": 1, "answer": "They are automatically deleted" },
-                                  { "id": 2, "answer": "They remain until manually removed" },
-                                  { "id": 3, "answer": "They are archived for future use" },
-                                  { "id": 4, "answer": "They become private packages" }
-                                ],
-                                "correct": 2
-                              },
-                              {
                                 "id": 16,
                                 "title": "What is a restriction for PPAs regarding package binaries?",
                                 "answers": [
@@ -2954,17 +2943,6 @@
                                   { "id": 2, "answer": "All packages and the repository are removed from ppa.launchpad.net" },
                                   { "id": 3, "answer": "The PPA can never be reused" },
                                   { "id": 4, "answer": "It becomes a private PPA" }
-                                ],
-                                "correct": 2
-                              },
-                              {
-                                "id": 22,
-                                "title": "What are private PPAs?",
-                                "answers": [
-                                  { "id": 1, "answer": "PPAs that are not accessible to anyone" },
-                                  { "id": 2, "answer": "PPAs available through CommercialHosting" },
-                                  { "id": 3, "answer": "PPAs that can only hold a single package" },
-                                  { "id": 4, "answer": "PPAs that have no restrictions" }
                                 ],
                                 "correct": 2
                               },
@@ -3105,12 +3083,554 @@
                     {
                         "id": "module3-3",
                         "title": "In the Background",
-                        "questions": []
+                        "questions": [
+                            {
+                              "id": 1,
+                              "title": "Why is it important for IT professionals to understand what happens behind the scenes during software installation?",
+                              "answers": [
+                                { "id": 1, "answer": "To avoid installation errors" },
+                                { "id": 2, "answer": "To improve troubleshooting and system management" },
+                                { "id": 3, "answer": "To enhance software performance" },
+                                { "id": 4, "answer": "To reduce software size" }
+                              ],
+                              "correct": 2
+                            },
+                            {
+                              "id": 2,
+                              "title": "What issues might arise if a package modifies configuration files unexpectedly?",
+                              "answers": [
+                                { "id": 1, "answer": "Increased storage usage" },
+                                { "id": 2, "answer": "Conflicts with other software" },
+                                { "id": 3, "answer": "Inability to install updates" },
+                                { "id": 4, "answer": "All of the above" }
+                              ],
+                              "correct": 4
+                            },
+                            {
+                              "id": 3,
+                              "title": "How does the behavior of an EXE installer depend on the developer's design?",
+                              "answers": [
+                                { "id": 1, "answer": "It follows a standard installation process" },
+                                { "id": 2, "answer": "It can vary widely based on custom code" },
+                                { "id": 3, "answer": "It requires user intervention at every step" },
+                                { "id": 4, "answer": "It is always open source" }
+                              ],
+                              "correct": 2
+                            },
+                            {
+                              "id": 4,
+                              "title": "What are the limitations of most Windows software being distributed as closed source?",
+                              "answers": [
+                                { "id": 1, "answer": "Users cannot see the source code" },
+                                { "id": 2, "answer": "Users cannot modify the software" },
+                                { "id": 3, "answer": "Users cannot easily troubleshoot issues" },
+                                { "id": 4, "answer": "All of the above" }
+                              ],
+                              "correct": 4
+                            },
+                            {
+                              "id": 5,
+                              "title": "Which tool can be used to monitor the actions taken by an EXE installer?",
+                              "answers": [
+                                { "id": 1, "answer": "Task Manager" },
+                                { "id": 2, "answer": "Process Monitor" },
+                                { "id": 3, "answer": "Event Viewer" },
+                                { "id": 4, "answer": "Device Manager" }
+                              ],
+                              "correct": 2
+                            },
+                            {
+                              "id": 6,
+                              "title": "What must MSI files conform to in order for the Windows installer to interpret them correctly?",
+                              "answers": [
+                                { "id": 1, "answer": "A set of proprietary rules" },
+                                { "id": 2, "answer": "A specific schema and standards" },
+                                { "id": 3, "answer": "Open-source guidelines" },
+                                { "id": 4, "answer": "User-defined rules" }
+                              ],
+                              "correct": 2
+                            },
+                            {
+                              "id": 7,
+                              "title": "What types of information are contained in an MSI file?",
+                              "answers": [
+                                { "id": 1, "answer": "Installation instructions and required files" },
+                                { "id": 2, "answer": "User data and system settings" },
+                                { "id": 3, "answer": "Source code and documentation" },
+                                { "id": 4, "answer": "Error logs and performance metrics" }
+                              ],
+                              "correct": 1
+                            },
+                            {
+                              "id": 8,
+                              "title": "How does the Windows installer use the information in the MSI tables during installation?",
+                              "answers": [
+                                { "id": 1, "answer": "To determine installation size" },
+                                { "id": 2, "answer": "To allocate memory resources" },
+                                { "id": 3, "answer": "To manage file locations and configurations" },
+                                { "id": 4, "answer": "To create user accounts" }
+                              ],
+                              "correct": 3
+                            },
+                            {
+                              "id": 9,
+                              "title": "What is Orca, and what purpose does it serve in relation to MSI files?",
+                              "answers": [
+                                { "id": 1, "answer": "A tool for uninstalling software" },
+                                { "id": 2, "answer": "A database table editor for MSI packages" },
+                                { "id": 3, "answer": "A command-line package manager" },
+                                { "id": 4, "answer": "A performance monitoring tool" }
+                              ],
+                              "correct": 2
+                            },
+                            {
+                              "id": 10,
+                              "title": "Is prior programming knowledge required to use Orca effectively?",
+                              "answers": [
+                                { "id": 1, "answer": "Yes, it is necessary" },
+                                { "id": 2, "answer": "No, it is accessible for all users" },
+                                { "id": 3, "answer": "Only for advanced features" },
+                                { "id": 4, "answer": "Yes, it is a programming tool" }
+                              ],
+                              "correct": 2
+                            },
+                            {
+                              "id": 11,
+                              "title": "How does software installation in Linux differ from that in other operating systems?",
+                              "answers": [
+                                { "id": 1, "answer": "It requires more user intervention" },
+                                { "id": 2, "answer": "It is generally more straightforward" },
+                                { "id": 3, "answer": "It is exclusively command-line based" },
+                                { "id": 4, "answer": "It lacks package managers" }
+                              ],
+                              "correct": 2
+                            },
+                            {
+                              "id": 12,
+                              "title": "What are the general steps involved in installing software from source code in Linux?",
+                              "answers": [
+                                { "id": 1, "answer": "Compiling code and creating an installer" },
+                                { "id": 2, "answer": "Downloading pre-built binaries" },
+                                { "id": 3, "answer": "Extracting the archive and running a setup script" },
+                                { "id": 4, "answer": "Using a package manager to install software" }
+                              ],
+                              "correct": 3
+                            },
+                            {
+                              "id": 13,
+                              "title": "What types of files are typically included in a software package after extraction?",
+                              "answers": [
+                                { "id": 1, "answer": "Source code and installation logs" },
+                                { "id": 2, "answer": "Setup script, code, and README file" },
+                                { "id": 3, "answer": "Configuration files and binaries" },
+                                { "id": 4, "answer": "Documentation and licenses" }
+                              ],
+                              "correct": 2
+                            },
+                            {
+                              "id": 14,
+                              "title": "What is the purpose of the README file in a software package?",
+                              "answers": [
+                                { "id": 1, "answer": "To provide installation instructions" },
+                                { "id": 2, "answer": "To detail the software's features" },
+                                { "id": 3, "answer": "To offer troubleshooting tips" },
+                                { "id": 4, "answer": "To advise users to read it before proceeding" }
+                              ],
+                              "correct": 4
+                            },
+                            {
+                              "id": 15,
+                              "title": "What types of tasks might a setup script execute during the installation of a package?",
+                              "answers": [
+                                { "id": 1, "answer": "Creating user accounts" },
+                                { "id": 2, "answer": "Configuring network settings" },
+                                { "id": 3, "answer": "Compiling code and copying binaries" },
+                                { "id": 4, "answer": "Managing user permissions" }
+                              ],
+                              "correct": 3
+                            },
+                            {
+                              "id": 16,
+                              "title": "How do developers determine the necessary tasks for their software during installation?",
+                              "answers": [
+                                { "id": 1, "answer": "By following industry standards" },
+                                { "id": 2, "answer": "Based on user feedback" },
+                                { "id": 3, "answer": "Through trial and error" },
+                                { "id": 4, "answer": "By defining requirements for the software" }
+                              ],
+                              "correct": 4
+                            },
+                            {
+                              "id": 17,
+                              "title": "Why might users with knowledge of programming languages benefit from reading setup instructions?",
+                              "answers": [
+                                { "id": 1, "answer": "To modify the installation process" },
+                                { "id": 2, "answer": "To understand what the installation does" },
+                                { "id": 3, "answer": "To avoid installation errors" },
+                                { "id": 4, "answer": "To ensure compatibility with their system" }
+                              ],
+                              "correct": 2
+                            },
+                            {
+                              "id": 18,
+                              "title": "What is a key characteristic of software installation in Linux?",
+                              "answers": [
+                                { "id": 1, "answer": "It requires a graphical interface" },
+                                { "id": 2, "answer": "It often involves a setup script for automation" },
+                                { "id": 3, "answer": "It is always performed as root" },
+                                { "id": 4, "answer": "It does not support command-line installation" }
+                              ],
+                              "correct": 2
+                            }
+                          ]     
                     },
                     {
                         "id": "module3-4",
                         "title": "Device Softwaree Management",
-                        "questions": []
+                        "questions": [
+                            {
+                              "id": 1,
+                              "title": "What is the role of device drivers in an operating system?",
+                              "answers": [
+                                { "id": 1, "answer": "They help the CPU execute applications" },
+                                { "id": 2, "answer": "They manage communication between hardware devices and the OS" },
+                                { "id": 3, "answer": "They handle the graphical display of applications" },
+                                { "id": 4, "answer": "They are used to install operating systems" }
+                              ],
+                              "correct": 2
+                            },
+                            {
+                              "id": 2,
+                              "title": "How do you access Device Manager in Windows?",
+                              "answers": [
+                                { "id": 1, "answer": "By typing devmgmt.msc in the Run dialog box" },
+                                { "id": 2, "answer": "By typing device_driver.exe in the Command Prompt" },
+                                { "id": 3, "answer": "By pressing Ctrl + Alt + Del" },
+                                { "id": 4, "answer": "By searching 'Drivers' in the Start menu" }
+                              ],
+                              "correct": 1
+                            },
+                            {
+                              "id": 3,
+                              "title": "What is the function of the Plug and Play (PnP) system in Windows?",
+                              "answers": [
+                                { "id": 1, "answer": "It automatically assigns IP addresses to devices" },
+                                { "id": 2, "answer": "It helps in downloading device drivers from third-party websites" },
+                                { "id": 3, "answer": "It manages the connection and configuration of hardware devices" },
+                                { "id": 4, "answer": "It provides tools for software updates" }
+                              ],
+                              "correct": 3
+                            },
+                            {
+                              "id": 4,
+                              "title": "What does the 'Uninstall' option in Device Manager do?",
+                              "answers": [
+                                { "id": 1, "answer": "Removes the driver for the device" },
+                                { "id": 2, "answer": "Disables the device temporarily" },
+                                { "id": 3, "answer": "Updates the driver for the device" },
+                                { "id": 4, "answer": "Restarts the device automatically" }
+                              ],
+                              "correct": 1
+                            },
+                            {
+                              "id": 5,
+                              "title": "Where are device files stored in Linux?",
+                              "answers": [
+                                { "id": 1, "answer": "/var/log" },
+                                { "id": 2, "answer": "/etc/drivers" },
+                                { "id": 3, "answer": "/lib/devices" },
+                                { "id": 4, "answer": "/dev" }
+                              ],
+                              "correct": 4
+                            },
+                            {
+                              "id": 6,
+                              "title": "What type of devices transfer data character by character in Linux?",
+                              "answers": [
+                                { "id": 1, "answer": "Block devices" },
+                                { "id": 2, "answer": "Character devices" },
+                                { "id": 3, "answer": "Virtual devices" },
+                                { "id": 4, "answer": "Storage devices" }
+                              ],
+                              "correct": 2
+                            },
+                            {
+                              "id": 7,
+                              "title": "What does the 'C' character in the ls -l command output indicate in Linux?",
+                              "answers": [
+                                { "id": 1, "answer": "It indicates a block device" },
+                                { "id": 2, "answer": "It indicates a character device" },
+                                { "id": 3, "answer": "It indicates a compressed file" },
+                                { "id": 4, "answer": "It indicates a config file" }
+                              ],
+                              "correct": 2
+                            },
+                            {
+                              "id": 8,
+                              "title": "What are kernel modules in Linux?",
+                              "answers": [
+                                { "id": 1, "answer": "Extensions to the kernel that add functionality" },
+                                { "id": 2, "answer": "Backup copies of the kernel" },
+                                { "id": 3, "answer": "Configuration files for device drivers" },
+                                { "id": 4, "answer": "Files that store the user interface settings" }
+                              ],
+                              "correct": 1
+                            },
+                            {
+                              "id": 9,
+                              "title": "What is the Windows Update client responsible for?",
+                              "answers": [
+                                { "id": 1, "answer": "Downloading and applying operating system updates" },
+                                { "id": 2, "answer": "Managing hardware drivers" },
+                                { "id": 3, "answer": "Configuring network settings" },
+                                { "id": 4, "answer": "Optimizing system performance" }
+                              ],
+                              "correct": 1
+                            },
+                            {
+                              "id": 10,
+                              "title": "Why is it important to install OS security patches promptly?",
+                              "answers": [
+                                { "id": 1, "answer": "To improve system speed" },
+                                { "id": 2, "answer": "To prevent vulnerabilities from being exploited" },
+                                { "id": 3, "answer": "To update software interfaces" },
+                                { "id": 4, "answer": "To gain access to new device drivers" }
+                              ],
+                              "correct": 2
+                            },
+                            {
+                              "id": 11,
+                              "title": "How are Windows 10 updates different from earlier versions?",
+                              "answers": [
+                                { "id": 1, "answer": "They are cumulative, bundling all updates into one package" },
+                                { "id": 2, "answer": "They are optional and user-selectable" },
+                                { "id": 3, "answer": "They are smaller in size and more frequent" },
+                                { "id": 4, "answer": "They no longer require a restart" }
+                              ],
+                              "correct": 1
+                            },
+                            {
+                              "id": 12,
+                              "title": "What command is used to check the current kernel version in Linux?",
+                              "answers": [
+                                { "id": 1, "answer": "lsb_release -a" },
+                                { "id": 2, "answer": "uname -r" },
+                                { "id": 3, "answer": "kernelcheck -v" },
+                                { "id": 4, "answer": "apt kernel -version" }
+                              ],
+                              "correct": 2
+                            },
+                            {
+                              "id": 13,
+                              "title": "What command is used to install kernel updates in Linux?",
+                              "answers": [
+                                { "id": 1, "answer": "apt kernel-upgrade" },
+                                { "id": 2, "answer": "sudo apt install kernel" },
+                                { "id": 3, "answer": "sudo apt full-upgrade" },
+                                { "id": 4, "answer": "update-kernel" }
+                              ],
+                              "correct": 3
+                            },
+                            {
+                              "id": 14,
+                              "title": "Where can you configure how Windows updates are managed?",
+                              "answers": [
+                                { "id": 1, "answer": "Control Panel > Security" },
+                                { "id": 2, "answer": "Settings > Windows Update" },
+                                { "id": 3, "answer": "Device Manager > Updates" },
+                                { "id": 4, "answer": "System > Security Settings" }
+                              ],
+                              "correct": 2
+                            },
+                            {
+                              "id": 15,
+                              "title": "How does Windows Update manage updates in Windows 10?",
+                              "answers": [
+                                { "id": 1, "answer": "It requires user confirmation for every update" },
+                                { "id": 2, "answer": "It allows the user to choose individual updates" },
+                                { "id": 3, "answer": "It downloads and installs updates in cumulative packages" },
+                                { "id": 4, "answer": "It downloads all updates but waits for manual installation" }
+                              ],
+                              "correct": 3
+                            },
+                            {
+                                "id": 16,
+                                "title": "Where are devices recognized by the Linux OS located?",
+                                "answers": [
+                                  { "id": 1, "answer": "/etc" },
+                                  { "id": 2, "answer": "/dev" },
+                                  { "id": 3, "answer": "/home" },
+                                  { "id": 4, "answer": "/bin" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 17,
+                                "title": "What type of device is /dev/sda in Linux?",
+                                "answers": [
+                                  { "id": 1, "answer": "First SCSI drive" },
+                                  { "id": 2, "answer": "Optical disk drive" },
+                                  { "id": 3, "answer": "USB device" },
+                                  { "id": 4, "answer": "Printer" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 18,
+                                "title": "Which of the following is an example of a block device?",
+                                "answers": [
+                                  { "id": 1, "answer": "Keyboard" },
+                                  { "id": 2, "answer": "Monitor" },
+                                  { "id": 3, "answer": "USB drive" },
+                                  { "id": 4, "answer": "Printer" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 19,
+                                "title": "What is a key characteristic of character devices?",
+                                "answers": [
+                                  { "id": 1, "answer": "They transfer data in blocks" },
+                                  { "id": 2, "answer": "They transfer data one character at a time" },
+                                  { "id": 3, "answer": "They store data permanently" },
+                                  { "id": 4, "answer": "They cannot interact with processes" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 20,
+                                "title": "Which Linux device category is used for inter-process communication?",
+                                "answers": [
+                                  { "id": 1, "answer": "Block devices" },
+                                  { "id": 2, "answer": "Character devices" },
+                                  { "id": 3, "answer": "Pipe devices" },
+                                  { "id": 4, "answer": "Socket devices" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 21,
+                                "title": "What does the udev device manager in Linux do?",
+                                "answers": [
+                                  { "id": 1, "answer": "Manually installs drivers" },
+                                  { "id": 2, "answer": "Automatically creates and removes device files" },
+                                  { "id": 3, "answer": "Searches for device hardware IDs" },
+                                  { "id": 4, "answer": "Scans for security updates" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 22,
+                                "title": "Which Linux command can be used to add or modify a printer?",
+                                "answers": [
+                                  { "id": 1, "answer": "lpstat" },
+                                  { "id": 2, "answer": "lpadmin" },
+                                  { "id": 3, "answer": "lsscsi" },
+                                  { "id": 4, "answer": "lsusb" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 23,
+                                "title": "Which user interface in Linux is covered for installing printers?",
+                                "answers": [
+                                  { "id": 1, "answer": "XFCE" },
+                                  { "id": 2, "answer": "KDE" },
+                                  { "id": 3, "answer": "GNOME" },
+                                  { "id": 4, "answer": "Cinnamon" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 24,
+                                "title": "Which command lists devices installed on the USB bus?",
+                                "answers": [
+                                  { "id": 1, "answer": "lsusb" },
+                                  { "id": 2, "answer": "lpadmin" },
+                                  { "id": 3, "answer": "lsblk" },
+                                  { "id": 4, "answer": "lsscsi" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 25,
+                                "title": "What is a PostScript Printer Description (PPD) file used for in Linux?",
+                                "answers": [
+                                  { "id": 1, "answer": "To install the CUPS service" },
+                                  { "id": 2, "answer": "To describe and configure a printer driver" },
+                                  { "id": 3, "answer": "To automatically detect USB devices" },
+                                  { "id": 4, "answer": "To manage kernel modules" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 26,
+                                "title": "Which directory in Linux contains device files?",
+                                "answers": [
+                                  { "id": 1, "answer": "/etc" },
+                                  { "id": 2, "answer": "/dev" },
+                                  { "id": 3, "answer": "/usr" },
+                                  { "id": 4, "answer": "/var" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 27,
+                                "title": "Which command lists devices installed on the PCI bus?",
+                                "answers": [
+                                  { "id": 1, "answer": "lpstat" },
+                                  { "id": 2, "answer": "lsblk" },
+                                  { "id": 3, "answer": "lspci" },
+                                  { "id": 4, "answer": "dmesg" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 28,
+                                "title": "What does the lpstat command do in Linux?",
+                                "answers": [
+                                  { "id": 1, "answer": "Lists all printers and their status" },
+                                  { "id": 2, "answer": "Lists all SCSI devices" },
+                                  { "id": 3, "answer": "Lists all block devices" },
+                                  { "id": 4, "answer": "Lists all USB devices" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 29,
+                                "title": "Where are printer drivers installed using the lpadmin command stored?",
+                                "answers": [
+                                  { "id": 1, "answer": "/usr/share/cups/model/" },
+                                  { "id": 2, "answer": "/dev/usb" },
+                                  { "id": 3, "answer": "/etc/printing" },
+                                  { "id": 4, "answer": "/lib/modules/drivers/" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 30,
+                                "title": "Which command displays kernel messages related to device detection?",
+                                "answers": [
+                                  { "id": 1, "answer": "dmesg" },
+                                  { "id": 2, "answer": "lsusb" },
+                                  { "id": 3, "answer": "lspci" },
+                                  { "id": 4, "answer": "lpadmin" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 31,
+                                "title": "What is the first thing Windows does when a new device is connected?",
+                                "answers": [
+                                  { "id": 1, "answer": "Searches for the driver in Windows Update" },
+                                  { "id": 2, "answer": "Checks for software updates" },
+                                  { "id": 3, "answer": "Asks the device for its Hardware ID" },
+                                  { "id": 4, "answer": "Prompts the user for device installation" }
+                                ],
+                                "correct": 3
+                              }
+                          ]
+                          
                     }
                 ]
             }
