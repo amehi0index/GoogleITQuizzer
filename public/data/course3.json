@@ -3628,7 +3628,315 @@
                                   { "id": 4, "answer": "Prompts the user for device installation" }
                                 ],
                                 "correct": 3
-                              }
+                              },
+                              {
+                                "id": 32,
+                                "title": "What is the main function of the Windows Update Client service?",
+                                "answers": [
+                                  { "id": 1, "answer": "To manage user accounts" },
+                                  { "id": 2, "answer": "To download and install updates and patches" },
+                                  { "id": 3, "answer": "To optimize system performance" },
+                                  { "id": 4, "answer": "To control device drivers" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 33,
+                                "title": "Which type of update addresses critical bugs that are not security-related?",
+                                "answers": [
+                                  { "id": 1, "answer": "Definition updates" },
+                                  { "id": 2, "answer": "Critical updates" },
+                                  { "id": 3, "answer": "Security updates" },
+                                  { "id": 4, "answer": "Feature packs" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 34,
+                                "title": "What type of updates contain security patches for vulnerabilities?",
+                                "answers": [
+                                  { "id": 1, "answer": "Driver updates" },
+                                  { "id": 2, "answer": "General updates" },
+                                  { "id": 3, "answer": "Security updates" },
+                                  { "id": 4, "answer": "Service packs" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 35,
+                                "title": "What are service packs in Windows Update?",
+                                "answers": [
+                                  { "id": 1, "answer": "Collections of security updates only" },
+                                  { "id": 2, "answer": "Bundles of tested updates and new fixes" },
+                                  { "id": 3, "answer": "Updates that add new features" },
+                                  { "id": 4, "answer": "Updates that require a complete OS reinstall" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 36,
+                                "title": "What is a characteristic of automatic updates in Windows 10 and 11?",
+                                "answers": [
+                                  { "id": 1, "answer": "They can be turned off completely" },
+                                  { "id": 2, "answer": "They install updates only when prompted by the user" },
+                                  { "id": 3, "answer": "They can be paused for up to 35 days" },
+                                  { "id": 4, "answer": "They require manual installation every month" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 37,
+                                "title": "What happens to critical vulnerabilities that pose an active threat?",
+                                "answers": [
+                                  { "id": 1, "answer": "They should be patched as soon as possible" },
+                                  { "id": 2, "answer": "They can be ignored for a while" },
+                                  { "id": 3, "answer": "They are automatically patched by Windows" },
+                                  { "id": 4, "answer": "They need to be reported to Microsoft" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 38,
+                                "title": "How can a user manually prompt for updates in Windows?",
+                                "answers": [
+                                  { "id": 1, "answer": "By restarting the computer" },
+                                  { "id": 2, "answer": "By checking the Windows Update tool" },
+                                  { "id": 3, "answer": "By installing a new application" },
+                                  { "id": 4, "answer": "By running a system scan" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 39,
+                                "title": "Which update type collects all new security updates from a given month?",
+                                "answers": [
+                                  { "id": 1, "answer": "Update rollups" },
+                                  { "id": 2, "answer": "Service packs" },
+                                  { "id": 3, "answer": "Security-only updates" },
+                                  { "id": 4, "answer": "Feature packs" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 40,
+                                "title": "What is the role of driver updates in Windows Update?",
+                                "answers": [
+                                  { "id": 1, "answer": "They provide new OS versions" },
+                                  { "id": 2, "answer": "They control input and output of devices" },
+                                  { "id": 3, "answer": "They fix security vulnerabilities" },
+                                  { "id": 4, "answer": "They optimize system performance" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 41,
+                                "title": "What does the Windows Update Client do?",
+                                "answers": [
+                                  { "id": 1, "answer": "Monitors system performance" },
+                                  { "id": 2, "answer": "Scans for hardware changes" },
+                                  { "id": 3, "answer": "Checks for updates and patches" },
+                                  { "id": 4, "answer": "Manages user accounts" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 42,
+                                "title": "What is the significance of keeping Windows systems up to date?",
+                                "answers": [
+                                  { "id": 1, "answer": "To avoid software crashes" },
+                                  { "id": 2, "answer": "To improve battery life" },
+                                  { "id": 3, "answer": "To ensure top performance and security" },
+                                  { "id": 4, "answer": "To reduce system memory usage" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 43,
+                                "title": "Which update type typically adds new product functionality to Windows?",
+                                "answers": [
+                                  { "id": 1, "answer": "Feature packs" },
+                                  { "id": 2, "answer": "Critical updates" },
+                                  { "id": 3, "answer": "Driver updates" },
+                                  { "id": 4, "answer": "Security updates" }
+                                ],
+                                "correct": 1
+                              },
+                              {
+                                "id": 44,
+                                "title": "What is a potential consequence of ignoring security updates?",
+                                "answers": [
+                                  { "id": 1, "answer": "Increased system performance" },
+                                  { "id": 2, "answer": "Improved battery life" },
+                                  { "id": 3, "answer": "Heightened security vulnerabilities" },
+                                  { "id": 4, "answer": "Reduced software compatibility" }
+                                ],
+                                "correct": 3
+                              },
+                              {
+                                "id": 45,
+                                "title": "What are update rollups in Windows Update?",
+                                "answers": [
+                                  { "id": 1, "answer": "Collections of all updates released in a year" },
+                                  { "id": 2, "answer": "Sets of tested hotfixes and updates for a specific area" },
+                                  { "id": 3, "answer": "Major OS upgrades" },
+                                  { "id": 4, "answer": "Updates that cannot be installed automatically" }
+                                ],
+                                "correct": 2
+                              },
+                              {
+                                "id": 46,
+                                "title": "What is the primary function of the Linux kernel?",
+                                "answers": [
+                                    { "id": 1, "answer": "It manages network connections." },
+                                    { "id": 2, "answer": "It controls the interface between hardware and processes." },
+                                    { "id": 3, "answer": "It provides a graphical user interface." },
+                                    { "id": 4, "answer": "It installs software packages." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 47,
+                                "title": "How many main jobs does the Linux kernel have?",
+                                "answers": [
+                                    { "id": 1, "answer": "Two" },
+                                    { "id": 2, "answer": "Three" },
+                                    { "id": 3, "answer": "Four" },
+                                    { "id": 4, "answer": "Five" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 48,
+                                "title": "Which command is used to update the list of system packages in Ubuntu?",
+                                "answers": [
+                                    { "id": 1, "answer": "apt-get install" },
+                                    { "id": 2, "answer": "apt-get update" },
+                                    { "id": 3, "answer": "apt-get upgrade" },
+                                    { "id": 4, "answer": "apt-get refresh" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 49,
+                                "title": "What does the 'apt-get upgrade' command do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Updates the list of available packages." },
+                                    { "id": 2, "answer": "Downloads and installs updated versions of packages." },
+                                    { "id": 3, "answer": "Uninstalls outdated packages." },
+                                    { "id": 4, "answer": "Checks for security vulnerabilities." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 50,
+                                "title": "What is the function of memory management in the Linux kernel?",
+                                "answers": [
+                                    { "id": 1, "answer": "Tracks CPU usage." },
+                                    { "id": 2, "answer": "Monitors network activity." },
+                                    { "id": 3, "answer": "Manages the allocation of memory." },
+                                    { "id": 4, "answer": "Handles user permissions." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 51,
+                                "title": "What does the Ubuntu Update Manager do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Manages software installation only." },
+                                    { "id": 2, "answer": "Automatically checks for and installs updates." },
+                                    { "id": 3, "answer": "Provides command-line tools for updates." },
+                                    { "id": 4, "answer": "Creates backups of the operating system." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 52,
+                                "title": "What is the primary benefit of keeping the Linux kernel updated?",
+                                "answers": [
+                                    { "id": 1, "answer": "To install new software." },
+                                    { "id": 2, "answer": "To ensure compatibility with all devices." },
+                                    { "id": 3, "answer": "To apply security patches and new features." },
+                                    { "id": 4, "answer": "To enhance the graphical interface." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 53,
+                                "title": "Which command prompts you for a password before updating package lists?",
+                                "answers": [
+                                    { "id": 1, "answer": "sudo apt-get update" },
+                                    { "id": 2, "answer": "apt-get upgrade" },
+                                    { "id": 3, "answer": "apt-get install" },
+                                    { "id": 4, "answer": "sudo apt-get remove" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 54,
+                                "title": "What type of devices can Linux be used on?",
+                                "answers": [
+                                    { "id": 1, "answer": "Only personal computers" },
+                                    { "id": 2, "answer": "Embedded devices and supercomputers" },
+                                    { "id": 3, "answer": "Mobile devices only" },
+                                    { "id": 4, "answer": "Only servers" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 55,
+                                "title": "What does the term 'open-source' mean in the context of Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "The source code is publicly available and can be modified." },
+                                    { "id": 2, "answer": "The software can only be used for free." },
+                                    { "id": 3, "answer": "The software cannot be redistributed." },
+                                    { "id": 4, "answer": "The software is owned by a single company." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 56,
+                                "title": "Which Ubuntu command is used to manually check for updates?",
+                                "answers": [
+                                    { "id": 1, "answer": "apt update" },
+                                    { "id": 2, "answer": "apt check" },
+                                    { "id": 3, "answer": "apt search" },
+                                    { "id": 4, "answer": "apt refresh" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 57,
+                                "title": "How often does the Update Manager check for security updates in Ubuntu?",
+                                "answers": [
+                                    { "id": 1, "answer": "Daily" },
+                                    { "id": 2, "answer": "Weekly" },
+                                    { "id": 3, "answer": "Monthly" },
+                                    { "id": 4, "answer": "Hourly" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 58,
+                                "title": "What should you do to ensure top performance and security for your Linux system?",
+                                "answers": [
+                                    { "id": 1, "answer": "Update regularly." },
+                                    { "id": 2, "answer": "Limit network access." },
+                                    { "id": 3, "answer": "Use only command-line tools." },
+                                    { "id": 4, "answer": "Avoid installing new software." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 59,
+                                "title": "What role does the kernel play in process management?",
+                                "answers": [
+                                    { "id": 1, "answer": "It allocates memory to processes." },
+                                    { "id": 2, "answer": "It determines which processes can use the CPU." },
+                                    { "id": 3, "answer": "It interacts with the user interface." },
+                                    { "id": 4, "answer": "It stores user data." }
+                                ],
+                                "correct": 2
+                            }
                           ]
                           
                     }
