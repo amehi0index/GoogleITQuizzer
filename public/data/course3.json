@@ -3941,6 +3941,623 @@
                           
                     }
                 ]
+            },
+            {
+                "id": "module4",
+                "title": "Module 4: Filesystems",
+                "subModules": [
+                    {
+                        "id": "module4-1",
+                        "title": "Filesystem Types",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is the primary function of a file system?",
+                                "answers": [
+                                    { "id": 1, "answer": "To organize and manage files on a storage device." },
+                                    { "id": 2, "answer": "To provide security for user data." },
+                                    { "id": 3, "answer": "To manage network connections." },
+                                    { "id": 4, "answer": "To run applications." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "Which file system is the default for Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "ext4" },
+                                    { "id": 2, "answer": "FAT32" },
+                                    { "id": 3, "answer": "NTFS" },
+                                    { "id": 4, "answer": "exFAT" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 3,
+                                "title": "What file system is commonly used by Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "NTFS" },
+                                    { "id": 2, "answer": "ext4" },
+                                    { "id": 3, "answer": "FAT32" },
+                                    { "id": 4, "answer": "HFS+" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is a limitation of the FAT32 file system?",
+                                "answers": [
+                                    { "id": 1, "answer": "Maximum file size of 4GB." },
+                                    { "id": 2, "answer": "Maximum partition size of 256GB." },
+                                    { "id": 3, "answer": "Incompatibility with macOS." },
+                                    { "id": 4, "answer": "No support for SSDs." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 5,
+                                "title": "Which file system allows for the use of larger files than FAT32?",
+                                "answers": [
+                                    { "id": 1, "answer": "NTFS" },
+                                    { "id": 2, "answer": "FAT16" },
+                                    { "id": 3, "answer": "exFAT" },
+                                    { "id": 4, "answer": "ext3" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is a partition?",
+                                "answers": [
+                                    { "id": 1, "answer": "A piece of a disk that acts like a separate disk." },
+                                    { "id": 2, "answer": "A type of file system." },
+                                    { "id": 3, "answer": "A method of organizing files." },
+                                    { "id": 4, "answer": "A backup copy of files." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "What does a partition table do?",
+                                "answers": [
+                                    { "id": 1, "answer": "It formats the disk." },
+                                    { "id": 2, "answer": "It provides information on how the disk is structured." },
+                                    { "id": 3, "answer": "It manages user permissions." },
+                                    { "id": 4, "answer": "It installs operating systems." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is the maximum volume size supported by MBR?",
+                                "answers": [
+                                    { "id": 1, "answer": "2 TB" },
+                                    { "id": 2, "answer": "4 TB" },
+                                    { "id": 3, "answer": "8 TB" },
+                                    { "id": 4, "answer": "16 TB" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "Which partition table supports more than 2 TB volume sizes?",
+                                "answers": [
+                                    { "id": 1, "answer": "MBR" },
+                                    { "id": 2, "answer": "GPT" },
+                                    { "id": 3, "answer": "FAT32" },
+                                    { "id": 4, "answer": "ext4" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 10,
+                                "title": "How do you access Disk Management in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Right-click on 'This PC' and select 'Manage'." },
+                                    { "id": 2, "answer": "Open Control Panel and select 'Disk Management'." },
+                                    { "id": 3, "answer": "Type 'diskmgmt.msc' in the Run dialog." },
+                                    { "id": 4, "answer": "Open the Command Prompt and type 'disk management'." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 11,
+                                "title": "What command is used to clean a disk in Diskpart?",
+                                "answers": [
+                                    { "id": 1, "answer": "format" },
+                                    { "id": 2, "answer": "clean" },
+                                    { "id": 3, "answer": "delete" },
+                                    { "id": 4, "answer": "remove" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "What happens when you format a USB drive?",
+                                "answers": [
+                                    { "id": 1, "answer": "It installs a new operating system." },
+                                    { "id": 2, "answer": "It removes all data and sets up a new file system." },
+                                    { "id": 3, "answer": "It makes the drive read-only." },
+                                    { "id": 4, "answer": "It increases the storage capacity." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is the purpose of unmounting a filesystem?",
+                                "answers": [
+                                    { "id": 1, "answer": "To prevent data loss during disconnection." },
+                                    { "id": 2, "answer": "To delete the filesystem." },
+                                    { "id": 3, "answer": "To format the disk." },
+                                    { "id": 4, "answer": "To update the operating system." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "What does NTFS allow that FAT32 does not?",
+                                "answers": [
+                                    { "id": 1, "answer": "Support for larger file sizes." },
+                                    { "id": 2, "answer": "Encryption of files." },
+                                    { "id": 3, "answer": "Automatic disk error checking." },
+                                    { "id": 4, "answer": "All of the above." }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 15,
+                                "title": "How can you mount a filesystem to a folder in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "By using Disk Management." },
+                                    { "id": 2, "answer": "By formatting the folder." },
+                                    { "id": 3, "answer": "By renaming the folder." },
+                                    { "id": 4, "answer": "By changing folder permissions." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "What is the purpose of partitioning a disk in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "To organize files on a disk." },
+                                    { "id": 2, "answer": "To create separate storage areas." },
+                                    { "id": 3, "answer": "To improve disk performance." },
+                                    { "id": 4, "answer": "To backup data." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 17,
+                                "title": "What command is used to view connected disks with Parted?",
+                                "answers": [
+                                    { "id": 1, "answer": "sudo list disks" },
+                                    { "id": 2, "answer": "sudo parted -l" },
+                                    { "id": 3, "answer": "sudo view disks" },
+                                    { "id": 4, "answer": "sudo display disks" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 18,
+                                "title": "How can you start the Parted tool on a specific disk?",
+                                "answers": [
+                                    { "id": 1, "answer": "sudo start parted /dev/sdb" },
+                                    { "id": 2, "answer": "sudo parted /dev/sdb" },
+                                    { "id": 3, "answer": "sudo open parted /dev/sdb" },
+                                    { "id": 4, "answer": "sudo run parted /dev/sdb" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 19,
+                                "title": "What command is used to set a partition label in Parted?",
+                                "answers": [
+                                    { "id": 1, "answer": "setlabel gpt" },
+                                    { "id": 2, "answer": "mklabel gpt" },
+                                    { "id": 3, "answer": "label gpt" },
+                                    { "id": 4, "answer": "partitionlabel gpt" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 20,
+                                "title": "What command is used to create a new partition in Parted?",
+                                "answers": [
+                                    { "id": 1, "answer": "create partition" },
+                                    { "id": 2, "answer": "make partition" },
+                                    { "id": 3, "answer": "mkpart" },
+                                    { "id": 4, "answer": "new partition" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 21,
+                                "title": "What parameters are required when creating a partition with the mkpart command?",
+                                "answers": [
+                                    { "id": 1, "answer": "File system type and size." },
+                                    { "id": 2, "answer": "Partition type, file system, start, and end." },
+                                    { "id": 3, "answer": "Disk name and partition number." },
+                                    { "id": 4, "answer": "Only the start point." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 22,
+                                "title": "How do 1 KiB and 1 KB differ in terms of byte measurement?",
+                                "answers": [
+                                    { "id": 1, "answer": "1 KiB is 1024 bytes; 1 KB is 1000 bytes." },
+                                    { "id": 2, "answer": "1 KiB is 1000 bytes; 1 KB is 1024 bytes." },
+                                    { "id": 3, "answer": "Both are equal in measurement." },
+                                    { "id": 4, "answer": "1 KiB is larger than 1 KB." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 23,
+                                "title": "What command is used to format a partition to ext4 in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "sudo format ext4 /dev/sdb1" },
+                                    { "id": 2, "answer": "sudo mkfs -t ext4 /dev/sdb1" },
+                                    { "id": 3, "answer": "sudo format -t ext4 /dev/sdb1" },
+                                    { "id": 4, "answer": "sudo ext4format /dev/sdb1" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 24,
+                                "title": "Why is formatting a partition necessary after creation?",
+                                "answers": [
+                                    { "id": 1, "answer": "To ensure it is recognized by the OS." },
+                                    { "id": 2, "answer": "To improve disk performance." },
+                                    { "id": 3, "answer": "To protect data." },
+                                    { "id": 4, "answer": "To remove existing data." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 25,
+                                "title": "What is a mount point in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "A file on the disk." },
+                                    { "id": 2, "answer": "A directory where a filesystem is accessible." },
+                                    { "id": 3, "answer": "A type of filesystem." },
+                                    { "id": 4, "answer": "An error state for drives." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 26,
+                                "title": "What command do you use to mount a partition to a directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "sudo mount /mnt/my_usb" },
+                                    { "id": 2, "answer": "sudo attach /dev/sdb1 /mnt/my_usb" },
+                                    { "id": 3, "answer": "sudo mount /dev/sdb1 /mnt/my_usb" },
+                                    { "id": 4, "answer": "sudo link /dev/sdb1 /mnt/my_usb" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 27,
+                                "title": "What command is used to unmount a filesystem?",
+                                "answers": [
+                                    { "id": 1, "answer": "sudo remove /mnt/my_usb" },
+                                    { "id": 2, "answer": "sudo umount /mnt/my_usb" },
+                                    { "id": 3, "answer": "sudo detach /mnt/my_usb" },
+                                    { "id": 4, "answer": "sudo unmount /mnt/my_usb" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 28,
+                                "title": "What is crucial to do before physically disconnecting a drive?",
+                                "answers": [
+                                    { "id": 1, "answer": "Ensure the drive is empty." },
+                                    { "id": 2, "answer": "Unmount the filesystem." },
+                                    { "id": 3, "answer": "Format the drive." },
+                                    { "id": 4, "answer": "Shut down the computer." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 29,
+                                "title": "What is the purpose of virtual memory in an operating system?",
+                                "answers": [
+                                    { "id": 1, "answer": "To extend physical memory using disk space." },
+                                    { "id": 2, "answer": "To increase processing speed." },
+                                    { "id": 3, "answer": "To manage user permissions." },
+                                    { "id": 4, "answer": "To create shortcuts for files." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 30,
+                                "title": "How does the paging mechanism work in virtual memory management?",
+                                "answers": [
+                                    { "id": 1, "answer": "It copies less frequently used data to disk storage." },
+                                    { "id": 2, "answer": "It deletes data from RAM permanently." },
+                                    { "id": 3, "answer": "It creates new applications in RAM." },
+                                    { "id": 4, "answer": "It prevents data from being accessed." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 31,
+                                "title": "What file is used to store pages saved to disk in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "pagefile.sys" },
+                                    { "id": 2, "answer": "swapfile.sys" },
+                                    { "id": 3, "answer": "memory.sys" },
+                                    { "id": 4, "answer": "virtualmemory.sys" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 32,
+                                "title": "What is a recommended minimum paging file size for 64-bit Windows 7?",
+                                "answers": [
+                                    { "id": 1, "answer": "At least 1x the amount of installed RAM." },
+                                    { "id": 2, "answer": "Twice the amount of installed RAM." },
+                                    { "id": 3, "answer": "Half the amount of installed RAM." },
+                                    { "id": 4, "answer": "No minimum requirement." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id":33,
+                                "title": "What command is used to create a swap partition in Linux using parted?",
+                                "answers": [
+                                    { "id": 1, "answer": "parted /dev/sdb mkpart primary linux-swap 5GiB 100%" },
+                                    { "id": 2, "answer": "swapoff /dev/sdb2" },
+                                    { "id": 3, "answer": "mkswap /dev/sdb2" },
+                                    { "id": 4, "answer": "sudo swapon /dev/sdb2" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 34,
+                                "title": "Which command is used to enable swap space in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "sudo swapon /dev/sdb2" },
+                                    { "id": 2, "answer": "mkswap /dev/sdb2" },
+                                    { "id": 3, "answer": "parted /dev/sdb mkpart primary linux-swap 5GiB 100%" },
+                                    { "id": 4, "answer": "swapoff /dev/sdb2" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id":35,
+                                "title": "What is the primary function of the NTFS file system in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "To manage file data and metadata." },
+                                    { "id": 2, "answer": "To enhance graphical user interface." },
+                                    { "id": 3, "answer": "To increase network performance." },
+                                    { "id": 4, "answer": "To create virtual memory." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id":36,
+                                "title": "What does the Master File Table (MFT) in NTFS contain?",
+                                "answers": [
+                                    { "id": 1, "answer": "Metadata about files." },
+                                    { "id": 2, "answer": "Only file data." },
+                                    { "id": 3, "answer": "A list of user accounts." },
+                                    { "id": 4, "answer": "System configuration settings." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id":37,
+                                "title": "What is a symbolic link in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "A file that references another file or directory." },
+                                    { "id": 2, "answer": "A backup of a file." },
+                                    { "id": 3, "answer": "A temporary file." },
+                                    { "id": 4, "answer": "A hidden file." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id":38,
+                                "title": "How are hard links different from symbolic links in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Hard links point to the file record number in the MFT." },
+                                    { "id": 2, "answer": "Hard links are temporary files." },
+                                    { "id": 3, "answer": "Hard links can only reference folders." },
+                                    { "id": 4, "answer": "Hard links can be deleted without affecting the original file." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id":39,
+                                "title": "What is an inode in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "A data structure that stores metadata about files." },
+                                    { "id": 2, "answer": "A type of file system." },
+                                    { "id": 3, "answer": "A command used for creating links." },
+                                    { "id": 4, "answer": "A file data type." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id":40,
+                                "title": "What happens to a soft link if the original file is deleted in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "It breaks and becomes a dangling link." },
+                                    { "id": 2, "answer": "It remains intact and continues to function." },
+                                    { "id": 3, "answer": "It converts to a hard link." },
+                                    { "id": 4, "answer": "It automatically links to a backup." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 41,
+                                "title": "What command is used to create a hard link in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "ln <target_file> <hard_link_name>" },
+                                    { "id": 2, "answer": "ln -s <target_file> <soft_link_name>" },
+                                    { "id": 3, "answer": "mklink <target_file> <hard_link_name>" },
+                                    { "id": 4, "answer": "create_hardlink <target_file>" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 42,
+                                "title": "What does the command 'ls -l' display in relation to hard links in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "The hard link count associated with a file." },
+                                    { "id": 2, "answer": "The file data." },
+                                    { "id": 3, "answer": "The file permissions." },
+                                    { "id": 4, "answer": "The inode number." }
+                                ],
+                                "correct": 1
+                            },{
+                                "id": 43,
+                                "title": "What utility in Windows helps free up disk space by deleting temporary files?",
+                                "answers": [
+                                    { "id": 1, "answer": "Disk Management Console" },
+                                    { "id": 2, "answer": "Disk Cleanup" },
+                                    { "id": 3, "answer": "Defragmenter" },
+                                    { "id": 4, "answer": "Disk Usage (DU)" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 44,
+                                "title": "Which command in Linux displays the disk usage of a specific directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "df" },
+                                    { "id": 2, "answer": "du" },
+                                    { "id": 3, "answer": "ls" },
+                                    { "id": 4, "answer": "free" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 45,
+                                "title": "What does the command 'df -h' do in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "Displays the disk usage of a specific directory." },
+                                    { "id": 2, "answer": "Shows the amount of free space available on the system." },
+                                    { "id": 3, "answer": "Checks the file system for errors." },
+                                    { "id": 4, "answer": "Displays all mounted filesystems." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 46,
+                                "title": "What is the purpose of the Disk Defragmenter tool in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "To delete temporary files." },
+                                    { "id": 2, "answer": "To optimize disk performance by reorganizing files." },
+                                    { "id": 3, "answer": "To check for disk errors." },
+                                    { "id": 4, "answer": "To compress old files." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 47,
+                                "title": "What is the primary function of the 'chkdsk' command in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "To check and repair disk corruption." },
+                                    { "id": 2, "answer": "To delete temporary files." },
+                                    { "id": 3, "answer": "To display disk usage." },
+                                    { "id": 4, "answer": "To defragment the disk." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 48,
+                                "title": "What happens if you unplug a USB drive before the system finishes writing data?",
+                                "answers": [
+                                    { "id": 1, "answer": "Nothing, it's always safe to remove." },
+                                    { "id": 2, "answer": "Data corruption may occur." },
+                                    { "id": 3, "answer": "The data will be securely saved." },
+                                    { "id": 4, "answer": "The USB drive will be automatically ejected." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 49,
+                                "title": "What is the purpose of the 'fsutil repair query C:' command in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "To repair disk corruption." },
+                                    { "id": 2, "answer": "To check the status of self-healing in NTFS." },
+                                    { "id": 3, "answer": "To delete temporary files." },
+                                    { "id": 4, "answer": "To defragment the disk." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 50,
+                                "title": "In Linux, what does the 'fsck' command do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Checks and repairs file systems." },
+                                    { "id": 2, "answer": "Displays disk usage." },
+                                    { "id": 3, "answer": "Deletes temporary files." },
+                                    { "id": 4, "answer": "Defragments the file system." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 51,
+                                "title": "What is a primary benefit of using the Disk Usage (DU) utility in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Visual representation of disk usage." },
+                                    { "id": 2, "answer": "Command-line disk usage information for scripting." },
+                                    { "id": 3, "answer": "Automatic disk cleanup." },
+                                    { "id": 4, "answer": "Defragmenting the disk." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 52,
+                                "title": "Why is Linux generally better at managing disk fragmentation than Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "It has built-in defragmentation tools." },
+                                    { "id": 2, "answer": "It uses a different file system architecture." },
+                                    { "id": 3, "answer": "It runs defragmentation daily." },
+                                    { "id": 4, "answer": "It automatically compresses files." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 53,
+                                "title": "What is the purpose of the TRIM command in SSDs?",
+                                "answers": [
+                                    { "id": 1, "answer": "To defragment the disk." },
+                                    { "id": 2, "answer": "To reclaim unused space." },
+                                    { "id": 3, "answer": "To check for disk errors." },
+                                    { "id": 4, "answer": "To compress old files." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 54,
+                                "title": "What does 'used space' refer to in the Disk Management Console?",
+                                "answers": [
+                                    { "id": 1, "answer": "The amount of disk space currently in use." },
+                                    { "id": 2, "answer": "The total disk capacity." },
+                                    { "id": 3, "answer": "The amount of free space available." },
+                                    { "id": 4, "answer": "The size of the recycle bin." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 55,
+                                "title": "What is the primary risk of not safely ejecting a USB drive?",
+                                "answers": [
+                                    { "id": 1, "answer": "Data corruption." },
+                                    { "id": 2, "answer": "Slower file transfers." },
+                                    { "id": 3, "answer": "Increased battery usage." },
+                                    { "id": 4, "answer": "Loss of data encryption." }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                        
+                    }
+                ]
             }
      
             
