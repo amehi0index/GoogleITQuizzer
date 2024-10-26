@@ -4558,6 +4558,595 @@
                         
                     }
                 ]
+            },
+            {
+                
+                "id": "module5",
+                "title": "Module 5:Process Management",
+                "subModules": [
+                    {
+                        "id": "module5-1",
+                        "title": "Life of a Process",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is a program?",
+                                "answers": [
+                                    { "id": 1, "answer": "A set of instructions executed by a computer." },
+                                    { "id": 2, "answer": "An instance of a running application." },
+                                    { "id": 3, "answer": "A type of hardware." },
+                                    { "id": 4, "answer": "A file format for data storage." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "How does a process differ from a program?",
+                                "answers": [
+                                    { "id": 1, "answer": "A process is a running instance of a program." },
+                                    { "id": 2, "answer": "A process is a type of software." },
+                                    { "id": 3, "answer": "A process can only run on Linux." },
+                                    { "id": 4, "answer": "A process is the same as a file." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 3,
+                                "title": "What hardware resources do processes typically use?",
+                                "answers": [
+                                    { "id": 1, "answer": "CPU and RAM." },
+                                    { "id": 2, "answer": "Graphics card only." },
+                                    { "id": 3, "answer": "Storage space only." },
+                                    { "id": 4, "answer": "Network bandwidth only." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "Why can unresponsive processes affect system performance?",
+                                "answers": [
+                                    { "id": 1, "answer": "They can consume excessive resources." },
+                                    { "id": 2, "answer": "They automatically delete files." },
+                                    { "id": 3, "answer": "They make the system faster." },
+                                    { "id": 4, "answer": "They encrypt files." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 5,
+                                "title": "What is a Process ID (PID)?",
+                                "answers": [
+                                    { "id": 1, "answer": "A unique identifier for a process." },
+                                    { "id": 2, "answer": "The name of a program." },
+                                    { "id": 3, "answer": "The location of a file." },
+                                    { "id": 4, "answer": "A type of hardware component." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "What role does the kernel play in process management?",
+                                "answers": [
+                                    { "id": 1, "answer": "It allocates resources to processes." },
+                                    { "id": 2, "answer": "It runs user applications." },
+                                    { "id": 3, "answer": "It creates files." },
+                                    { "id": 4, "answer": "It installs software." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "What are visible processes?",
+                                "answers": [
+                                    { "id": 1, "answer": "Processes started by the user." },
+                                    { "id": 2, "answer": "Processes running in the background." },
+                                    { "id": 3, "answer": "Processes that are automatically managed." },
+                                    { "id": 4, "answer": "Processes that do not require memory." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "What are background processes?",
+                                "answers": [
+                                    { "id": 1, "answer": "Processes not directly interacted with by users." },
+                                    { "id": 2, "answer": "Processes that cannot run." },
+                                    { "id": 3, "answer": "Processes that delete files." },
+                                    { "id": 4, "answer": "Processes that only run in safe mode." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is the first non-kernel user mode process that starts during the Windows boot process?",
+                                "answers": [
+                                    { "id": 1, "answer": "Session Manager Subsystem (smss.exe)." },
+                                    { "id": 2, "answer": "Windows Explorer." },
+                                    { "id": 3, "answer": "Task Manager." },
+                                    { "id": 4, "answer": "Command Prompt." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is the parent-child relationship in process creation?",
+                                "answers": [
+                                    { "id": 1, "answer": "Each new process needs a parent process to create it." },
+                                    { "id": 2, "answer": "Child processes cannot run independently." },
+                                    { "id": 3, "answer": "Parent processes can be deleted without consequence." },
+                                    { "id": 4, "answer": "Child processes inherit their parent's name." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 11,
+                                "title": "How does a child process inherit settings from its parent process?",
+                                "answers": [
+                                    { "id": 1, "answer": "By copying environment variables and settings." },
+                                    { "id": 2, "answer": "By generating a new configuration file." },
+                                    { "id": 3, "answer": "By deleting its own settings." },
+                                    { "id": 4, "answer": "By merging with the parent process." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 12,
+                                "title": "What command is used in the command prompt to terminate a process using its PID?",
+                                "answers": [
+                                    { "id": 1, "answer": "taskkill." },
+                                    { "id": 2, "answer": "kill." },
+                                    { "id": 3, "answer": "end." },
+                                    { "id": 4, "answer": "stop." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is the init process in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "The first process started by the kernel." },
+                                    { "id": 2, "answer": "A user application." },
+                                    { "id": 3, "answer": "A type of file." },
+                                    { "id": 4, "answer": "A graphical interface." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "How does the parent-child relationship work in Linux processes?",
+                                "answers": [
+                                    { "id": 1, "answer": "Every process originates from another process." },
+                                    { "id": 2, "answer": "Processes do not interact with each other." },
+                                    { "id": 3, "answer": "All processes are independent." },
+                                    { "id": 4, "answer": "Processes are only created at boot." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "What happens to processes once they complete their tasks in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "They automatically terminate and release resources." },
+                                    { "id": 2, "answer": "They remain running indefinitely." },
+                                    { "id": 3, "answer": "They must be manually deleted." },
+                                    { "id": 4, "answer": "They enter sleep mode." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "What happens to the resources used by a process upon its termination in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "They are released back to the kernel." },
+                                    { "id": 2, "answer": "They are lost permanently." },
+                                    { "id": 3, "answer": "They are given to the parent process." },
+                                    { "id": 4, "answer": "They are stored in a temporary file." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "What is the role of daemon processes?",
+                                "answers": [
+                                    { "id": 1, "answer": "To perform background tasks essential for system functions." },
+                                    { "id": 2, "answer": "To run user applications directly." },
+                                    { "id": 3, "answer": "To manage hardware resources." },
+                                    { "id": 4, "answer": "To delete unnecessary files." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "What does it mean for a process to be unresponsive?",
+                                "answers": [
+                                    { "id": 1, "answer": "It is not responding to user input." },
+                                    { "id": 2, "answer": "It is using too much disk space." },
+                                    { "id": 3, "answer": "It has been deleted." },
+                                    { "id": 4, "answer": "It is automatically updating." }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module5-2",
+                        "title": "Managing Processes",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is a process in an operating system?",
+                                "answers": [
+                                    { "id": 1, "answer": "An executable program that is currently running." },
+                                    { "id": 2, "answer": "A file stored on disk." },
+                                    { "id": 3, "answer": "A type of software installation." },
+                                    { "id": 4, "answer": "A method of managing memory." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "How can you open Task Manager in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "By pressing Ctrl + Shift + Esc." },
+                                    { "id": 2, "answer": "By typing 'taskmgr' in the Run dialog." },
+                                    { "id": 3, "answer": "By right-clicking the taskbar." },
+                                    { "id": 4, "answer": "All of the above." }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 3,
+                                "title": "What information is shown in the Processes tab of Task Manager?",
+                                "answers": [
+                                    { "id": 1, "answer": "Only the CPU usage." },
+                                    { "id": 2, "answer": "Running processes and their resource usage." },
+                                    { "id": 3, "answer": "Only system-level processes." },
+                                    { "id": 4, "answer": "The total number of installed applications." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is the purpose of the 'taskkill' command in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "To list all running processes." },
+                                    { "id": 2, "answer": "To terminate a specified process." },
+                                    { "id": 3, "answer": "To restart a process." },
+                                    { "id": 4, "answer": "To open Task Manager." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "What does the 'ps' command do in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "Displays a list of running processes." },
+                                    { "id": 2, "answer": "Kills a process." },
+                                    { "id": 3, "answer": "Starts a new process." },
+                                    { "id": 4, "answer": "Updates the system." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is indicated by the PID in a process list?",
+                                "answers": [
+                                    { "id": 1, "answer": "Process ID." },
+                                    { "id": 2, "answer": "Process Interface Descriptor." },
+                                    { "id": 3, "answer": "Process Identity Document." },
+                                    { "id": 4, "answer": "Personal Identification Number." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "How can you filter processes in Linux to find a specific one?",
+                                "answers": [
+                                    { "id": 1, "answer": "By using the 'grep' command." },
+                                    { "id": 2, "answer": "By changing system settings." },
+                                    { "id": 3, "answer": "By restarting the computer." },
+                                    { "id": 4, "answer": "By using 'ls' command." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is the init process in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "The first process started by the kernel." },
+                                    { "id": 2, "answer": "A process to manage user sessions." },
+                                    { "id": 3, "answer": "A graphical user interface." },
+                                    { "id": 4, "answer": "A tool for managing files." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "What happens when a process terminates in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "It releases all its resources." },
+                                    { "id": 2, "answer": "It continues running in the background." },
+                                    { "id": 3, "answer": "It requires a system reboot." },
+                                    { "id": 4, "answer": "It creates a log file." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "What signal is commonly used to interrupt a running process?",
+                                "answers": [
+                                    { "id": 1, "answer": "SIGINT." },
+                                    { "id": 2, "answer": "SIGTERM." },
+                                    { "id": 3, "answer": "SIGHUP." },
+                                    { "id": 4, "answer": "SIGKILL." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 11,
+                                "title": "How can you terminate a process using the command line in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "By using the 'kill' command." },
+                                    { "id": 2, "answer": "By using the 'ls' command." },
+                                    { "id": 3, "answer": "By using the 'cat' command." },
+                                    { "id": 4, "answer": "By using the 'echo' command." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 12,
+                                "title": "What is the significance of background processes?",
+                                "answers": [
+                                    { "id": 1, "answer": "They run without user interaction." },
+                                    { "id": 2, "answer": "They consume all system resources." },
+                                    { "id": 3, "answer": "They are only for system updates." },
+                                    { "id": 4, "answer": "They always display a GUI." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "What happens when you press Ctrl+C during a command?",
+                                "answers": [
+                                    { "id": 1, "answer": "SIGINT is sent to the process." },
+                                    { "id": 2, "answer": "The command is ignored." },
+                                    { "id": 3, "answer": "The system crashes." },
+                                    { "id": 4, "answer": "The command runs in the background." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "What is the purpose of the kill command?",
+                                "answers": [
+                                    { "id": 1, "answer": "To send signals to processes." },
+                                    { "id": 2, "answer": "To create new processes." },
+                                    { "id": 3, "answer": "To list running processes." },
+                                    { "id": 4, "answer": "To update system files." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "What is the difference between SIGTERM and SIGKILL?",
+                                "answers": [
+                                    { "id": 1, "answer": "SIGTERM allows graceful termination; SIGKILL does not." },
+                                    { "id": 2, "answer": "SIGTERM is faster than SIGKILL." },
+                                    { "id": 3, "answer": "SIGTERM is used for suspending processes." },
+                                    { "id": 4, "answer": "SIGKILL can be sent to system processes only." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "How do you forcibly terminate a process?",
+                                "answers": [
+                                    { "id": 1, "answer": "Using kill -KILL <PID>" },
+                                    { "id": 2, "answer": "Using kill -TERM <PID>" },
+                                    { "id": 3, "answer": "Using kill -STOP <PID>" },
+                                    { "id": 4, "answer": "Using kill -SUSPEND <PID>" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "What does the SIGTSTP signal do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Suspends a process." },
+                                    { "id": 2, "answer": "Terminates a process." },
+                                    { "id": 3, "answer": "Resumes a process." },
+                                    { "id": 4, "answer": "Forces a process to stop." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "How can you check the status of processes?",
+                                "answers": [
+                                    { "id": 1, "answer": "Using ps -x" },
+                                    { "id": 2, "answer": "Using top -u" },
+                                    { "id": 3, "answer": "Using ls -l" },
+                                    { "id": 4, "answer": "Using df -h" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "What command is used to resume a suspended process?",
+                                "answers": [
+                                    { "id": 1, "answer": "kill -CONT <PID>" },
+                                    { "id": 2, "answer": "kill -RESUME <PID>" },
+                                    { "id": 3, "answer": "kill -START <PID>" },
+                                    { "id": 4, "answer": "kill -RESUME <PID>" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 20,
+                                "title": "What is Process Explorer?",
+                                "answers": [
+                                    { "id": 1, "answer": "A utility to manage processes in Windows." },
+                                    { "id": 2, "answer": "A command-line tool for Linux." },
+                                    { "id": 3, "answer": "An application for creating software." },
+                                    { "id": 4, "answer": "A virus protection tool." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 21,
+                                "title": "What does the top pane of Process Explorer display?",
+                                "answers": [
+                                    { "id": 1, "answer": "Currently active processes." },
+                                    { "id": 2, "answer": "System resources." },
+                                    { "id": 3, "answer": "User accounts." },
+                                    { "id": 4, "answer": "Disk usage statistics." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 22,
+                                "title": "How can you search for a process in Process Explorer?",
+                                "answers": [
+                                    { "id": 1, "answer": "Using Ctrl + F." },
+                                    { "id": 2, "answer": "Using Alt + S." },
+                                    { "id": 3, "answer": "Using Ctrl + P." },
+                                    { "id": 4, "answer": "Using Shift + S." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 23,
+                                "title": "What does the 'Kill Process Tree' option do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Terminates a process and all its child processes." },
+                                    { "id": 2, "answer": "Restarts the selected process." },
+                                    { "id": 3, "answer": "Suspends the selected process." },
+                                    { "id": 4, "answer": "Pauses the entire system." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 24,
+                                "title": "What is the app switcher used for in mobile operating systems?",
+                                "answers": [
+                                    { "id": 1, "answer": "To view and manage running apps." },
+                                    { "id": 2, "answer": "To uninstall apps." },
+                                    { "id": 3, "answer": "To change system settings." },
+                                    { "id": 4, "answer": "To upgrade the operating system." }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module5-3",
+                        "title": "Process Utilization",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is the primary purpose of resource monitoring in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "To manage system resources and processes." },
+                                    { "id": 2, "answer": "To uninstall applications." },
+                                    { "id": 3, "answer": "To upgrade system hardware." },
+                                    { "id": 4, "answer": "To perform system backups." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "Where can you access the Resource Monitor in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "In the Start Menu." },
+                                    { "id": 2, "answer": "In the Control Panel." },
+                                    { "id": 3, "answer": "In Task Manager." },
+                                    { "id": 4, "answer": "In the command prompt." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 3,
+                                "title": "What does the Overview Tab in Resource Monitor display?",
+                                "answers": [
+                                    { "id": 1, "answer": "All system resources." },
+                                    { "id": 2, "answer": "Only CPU usage." },
+                                    { "id": 3, "answer": "Only memory usage." },
+                                    { "id": 4, "answer": "Network statistics." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is the function of the Get-Process cmdlet in PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "To display running processes." },
+                                    { "id": 2, "answer": "To stop a process." },
+                                    { "id": 3, "answer": "To start a new process." },
+                                    { "id": 4, "answer": "To monitor disk usage." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id":5,
+                                "title": "What does the top command do in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "Displays the top processes using system resources." },
+                                    { "id": 2, "answer": "Lists all installed packages." },
+                                    { "id": 3, "answer": "Shows system logs." },
+                                    { "id": 4, "answer": "Controls hardware settings." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id":6,
+                                "title": "What does the uptime command in Linux show?",
+                                "answers": [
+                                    { "id": 1, "answer": "System uptime and load averages." },
+                                    { "id": 2, "answer": "Current CPU usage." },
+                                    { "id": 3, "answer": "Running processes." },
+                                    { "id": 4, "answer": "Memory allocation." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id":7,
+                                "title": "What is the purpose of the LSOF command in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "Lists open files and the processes using them." },
+                                    { "id": 2, "answer": "Displays system resource usage." },
+                                    { "id": 3, "answer": "Manages user accounts." },
+                                    { "id": 4, "answer": "Configures network settings." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id":8,
+                                "title": "What key feature does Process Explorer provide in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Detailed performance insights for processes." },
+                                    { "id": 2, "answer": "Only CPU usage statistics." },
+                                    { "id": 3, "answer": "System hardware diagnostics." },
+                                    { "id": 4, "answer": "Network performance monitoring." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "What can you do with the 'Kill Process' option in Process Explorer?",
+                                "answers": [
+                                    { "id": 1, "answer": "Terminate the selected process." },
+                                    { "id": 2, "answer": "Suspend the selected process." },
+                                    { "id": 3, "answer": "Restart the selected process." },
+                                    { "id": 4, "answer": "Change the priority of the selected process." }
+                                ],
+                                "correct": 1
+                            }
+                            
+                        ]
+                    }
+                ]
             }
      
             
