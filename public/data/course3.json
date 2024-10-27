@@ -5479,39 +5479,6 @@
                                 "correct": 1
                             },
                             {
-                                "id": 16,
-                                "title": "What is a virtual instance in VirtualBox?",
-                                "answers": [
-                                    { "id": 1, "answer": "A type of physical machine" },
-                                    { "id": 2, "answer": "A single virtual machine managed by virtualization software" },
-                                    { "id": 3, "answer": "A backup of a physical machine" },
-                                    { "id": 4, "answer": "An application installed on a computer" }
-                                ],
-                                "correct": 2
-                            },
-                            {
-                                "id": 17,
-                                "title": "What are the steps to create a new VM in VirtualBox?",
-                                "answers": [
-                                    { "id": 1, "answer": "Download the software and restart the computer" },
-                                    { "id": 2, "answer": "Open VirtualBox and click the New button" },
-                                    { "id": 3, "answer": "Open PowerShell and type the command" },
-                                    { "id": 4, "answer": "Use a terminal command to create a VM" }
-                                ],
-                                "correct": 2
-                            },
-                            {
-                                "id": 18,
-                                "title": "What is the purpose of the 'VBoxManage' command?",
-                                "answers": [
-                                    { "id": 1, "answer": "To manage file transfers" },
-                                    { "id": 2, "answer": "To manage virtual machines from the command line" },
-                                    { "id": 3, "answer": "To create backups of VMs" },
-                                    { "id": 4, "answer": "To configure network settings" }
-                                ],
-                                "correct": 2
-                            },
-                            {
                                 "id": 19,
                                 "title": "What command do you use to check running apps on iOS?",
                                 "answers": [
@@ -5587,14 +5554,293 @@
                                     { "id": 4, "answer": "check /var/log" }
                                 ],
                                 "correct": 1
+                            },
+                            {
+                                "id": 26,
+                                "title": "What is SSH?",
+                                "answers": [
+                                    { "id": 1, "answer": "A file transfer protocol" },
+                                    { "id": 2, "answer": "A network protocol that gives users a secure way to access a computer over an unsecured network" },
+                                    { "id": 3, "answer": "A programming language" },
+                                    { "id": 4, "answer": "A type of malware" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 27,
+                                "title": "Which of the following is an open-source version of SSH tools?",
+                                "answers": [
+                                    { "id": 1, "answer": "SecureCRT" },
+                                    { "id": 2, "answer": "PuTTY" },
+                                    { "id": 3, "answer": "OpenSSH" },
+                                    { "id": 4, "answer": "MobaXterm" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 28,
+                                "title": "When was OpenSSH added to Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "2010" },
+                                    { "id": 2, "answer": "2018" },
+                                    { "id": 3, "answer": "2015" },
+                                    { "id": 4, "answer": "2020" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 29,
+                                "title": "Which SSH client is known for being a terminal emulator and supporting Telnet, SSH, and SCP?",
+                                "answers": [
+                                    { "id": 1, "answer": "PuTTY" },
+                                    { "id": 2, "answer": "SmarTTY" },
+                                    { "id": 3, "answer": "SecureCRT" },
+                                    { "id": 4, "answer": "mRemoteNG" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 30,
+                                "title": "Which feature is NOT provided by PuTTY?",
+                                "answers": [
+                                    { "id": 1, "answer": "Telnet" },
+                                    { "id": 2, "answer": "SSH" },
+                                    { "id": 3, "answer": "Rlogin" },
+                                    { "id": 4, "answer": "HTTP/HTTPS" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 31,
+                                "title": "What are the primary protocols supported by SecureCRT?",
+                                "answers": [
+                                    { "id": 1, "answer": "SSH1, SSH2, Telnet, and Telnet/SSL" },
+                                    { "id": 2, "answer": "SSH, Rlogin, and raw socket connection" },
+                                    { "id": 3, "answer": "SSH, Telnet, and HTTP" },
+                                    { "id": 4, "answer": "SCP, SSH, and VNC" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 32,
+                                "title": "Which SSH client is known for a multi-tabbed interface and auto-completion features?",
+                                "answers": [
+                                    { "id": 1, "answer": "PuTTY" },
+                                    { "id": 2, "answer": "SecureCRT" },
+                                    { "id": 3, "answer": "SmarTTY" },
+                                    { "id": 4, "answer": "mRemoteNG" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 33,
+                                "title": "Which of the following is a feature of mRemoteNG?",
+                                "answers": [
+                                    { "id": 1, "answer": "X11 forwarding" },
+                                    { "id": 2, "answer": "Tabbed interface for multiple connections" },
+                                    { "id": 3, "answer": "File panel and package management" },
+                                    { "id": 4, "answer": "Auto-completion" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 34,
+                                "title": "What protocols are supported by mRemoteNG?",
+                                "answers": [
+                                    { "id": 1, "answer": "SSH, X11, RDP, and VNC" },
+                                    { "id": 2, "answer": "RDP, VNC, SSH, Telnet, HTTP/HTTPS, rlogin, Raw Socket Connections, Powershell remoting" },
+                                    { "id": 3, "answer": "SSH1, SSH2, Telnet, and Telnet/SSL" },
+                                    { "id": 4, "answer": "SSH and SCP" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 35,
+                                "title": "Which SSH client includes an embedded X server and X11 forwarding?",
+                                "answers": [
+                                    { "id": 1, "answer": "PuTTY" },
+                                    { "id": 2, "answer": "SecureCRT" },
+                                    { "id": 3, "answer": "SmarTTY" },
+                                    { "id": 4, "answer": "MobaXterm" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 36,
+                                "title": "Which protocol is not supported by PuTTY?",
+                                "answers": [
+                                    { "id": 1, "answer": "SSH" },
+                                    { "id": 2, "answer": "RDP" },
+                                    { "id": 3, "answer": "Telnet" },
+                                    { "id": 4, "answer": "Rlogin" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 37,
+                                "title": "What is the purpose of SSH?",
+                                "answers": [
+                                    { "id": 1, "answer": "To connect to websites securely" },
+                                    { "id": 2, "answer": "To give users a secure way to access a computer over an unsecured network" },
+                                    { "id": 3, "answer": "To transfer large files over the internet" },
+                                    { "id": 4, "answer": "To manage databases remotely" }
+                                ],
+                                "correct": 2
                             }
+                            
                         ]
                         
 	                },
                     {
                         "id": "module6-2",
                         "title": "Virtualization",
-                        "questions": []
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is a virtual machine (VM)?",
+                                "answers": [
+                                    { "id": 1, "answer": "A physical computer" },
+                                    { "id": 2, "answer": "A simulated computer environment" },
+                                    { "id": 3, "answer": "A type of cloud service" },
+                                    { "id": 4, "answer": "A network protocol" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is the operating system that runs on your physical computer called?",
+                                "answers": [
+                                    { "id": 1, "answer": "Guest OS" },
+                                    { "id": 2, "answer": "Host OS" },
+                                    { "id": 3, "answer": "Virtual OS" },
+                                    { "id": 4, "answer": "Remote OS" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "What are operating systems running inside a VM called?",
+                                "answers": [
+                                    { "id": 1, "answer": "Guest OS" },
+                                    { "id": 2, "answer": "Host OS" },
+                                    { "id": 3, "answer": "Virtual OS" },
+                                    { "id": 4, "answer": "Remote OS" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "Which of the following is NOT an advantage of using VMs?",
+                                "answers": [
+                                    { "id": 1, "answer": "Experimenting with different operating systems" },
+                                    { "id": 2, "answer": "Safe testing environment" },
+                                    { "id": 3, "answer": "Reduction in hardware costs" },
+                                    { "id": 4, "answer": "Increased physical storage space" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 5,
+                                "title": "How does VM software allocate resources to virtualized environments?",
+                                "answers": [
+                                    { "id": 1, "answer": "By using physical resources directly" },
+                                    { "id": 2, "answer": "By creating virtual resources from physical resources" },
+                                    { "id": 3, "answer": "By sharing resources with other physical machines" },
+                                    { "id": 4, "answer": "By connecting to a cloud service" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 6,
+                                "title": "Which VM software runs on Windows, Linux, Macintosh, and Solaris hosts?",
+                                "answers": [
+                                    { "id": 1, "answer": "Hyper-V" },
+                                    { "id": 2, "answer": "VMware" },
+                                    { "id": 3, "answer": "VirtualBox" },
+                                    { "id": 4, "answer": "Red Hat Virtualization" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 7,
+                                "title": "Which VM software is Microsoft's virtualization platform?",
+                                "answers": [
+                                    { "id": 1, "answer": "VirtualBox" },
+                                    { "id": 2, "answer": "VMware" },
+                                    { "id": 3, "answer": "Hyper-V" },
+                                    { "id": 4, "answer": "Red Hat Virtualization" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 8,
+                                "title": "Which VM software runs on Windows, Linux, and macOS hosts and is freely available for non-commercial use?",
+                                "answers": [
+                                    { "id": 1, "answer": "VirtualBox" },
+                                    { "id": 2, "answer": "Hyper-V" },
+                                    { "id": 3, "answer": "VMware Workstation Player" },
+                                    { "id": 4, "answer": "Red Hat Virtualization" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 9,
+                                "title": "Which VM software is a business-oriented platform developed for virtualization in enterprise computing contexts?",
+                                "answers": [
+                                    { "id": 1, "answer": "VirtualBox" },
+                                    { "id": 2, "answer": "Hyper-V" },
+                                    { "id": 3, "answer": "VMware" },
+                                    { "id": 4, "answer": "Red Hat Virtualization" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 10,
+                                "title": "What key advantage of VMs allows you to run many VMs on a single host?",
+                                "answers": [
+                                    { "id": 1, "answer": "Improved graphical performance" },
+                                    { "id": 2, "answer": "Increased physical storage" },
+                                    { "id": 3, "answer": "Efficient use of hardware resources" },
+                                    { "id": 4, "answer": "Enhanced network connectivity" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is the purpose of the 'VBoxManage' command?",
+                                "answers": [
+                                    { "id": 1, "answer": "To manage file transfers" },
+                                    { "id": 2, "answer": "To manage virtual machines from the command line" },
+                                    { "id": 3, "answer": "To create backups of VMs" },
+                                    { "id": 4, "answer": "To configure network settings" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "What is a virtual instance in VirtualBox?",
+                                "answers": [
+                                    { "id": 1, "answer": "A type of physical machine" },
+                                    { "id": 2, "answer": "A single virtual machine managed by virtualization software" },
+                                    { "id": 3, "answer": "A backup of a physical machine" },
+                                    { "id": 4, "answer": "An application installed on a computer" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What are the steps to create a new VM in VirtualBox?",
+                                "answers": [
+                                    { "id": 1, "answer": "Download the software and restart the computer" },
+                                    { "id": 2, "answer": "Open VirtualBox and click the New button" },
+                                    { "id": 3, "answer": "Open PowerShell and type the command" },
+                                    { "id": 4, "answer": "Use a terminal command to create a VM" }
+                                ],
+                                "correct": 2
+                            }
+                         
+                        ]
+                        
 	                },
                     {
                         "id": "module6-3",
@@ -6046,6 +6292,160 @@
                                     { "id": 4, "answer": "To back up user files" }
                                 ],
                                 "correct": 2
+                            },
+                            {
+                                "id": 16,
+                                "title": "What is the primary purpose of Windows Update?",
+                                "answers": [
+                                    { "id": 1, "answer": "To install new software applications" },
+                                    { "id": 2, "answer": "To find and install operating system patches and updates" },
+                                    { "id": 3, "answer": "To enhance system performance" },
+                                    { "id": 4, "answer": "To manage user accounts" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 17,
+                                "title": "Which tool is used to optimize drive performance by reducing fragmentation?",
+                                "answers": [
+                                    { "id": 1, "answer": "Disk Cleanup" },
+                                    { "id": 2, "answer": "Disk Defragmenter" },
+                                    { "id": 3, "answer": "CHKDSK" },
+                                    { "id": 4, "answer": "Event Viewer" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 18,
+                                "title": "What does the CHKDSK command do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Repairs damaged files" },
+                                    { "id": 2, "answer": "Scans for and repairs bad sectors on hard drives" },
+                                    { "id": 3, "answer": "Defragments the hard drive" },
+                                    { "id": 4, "answer": "Clears temporary files" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 19,
+                                "title": "What is the purpose of the Event Viewer?",
+                                "answers": [
+                                    { "id": 1, "answer": "To monitor system events and errors" },
+                                    { "id": 2, "answer": "To manage user accounts" },
+                                    { "id": 3, "answer": "To optimize system performance" },
+                                    { "id": 4, "answer": "To uninstall applications" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 20,
+                                "title": "Which tool is recommended for modifying system startup settings?",
+                                "answers": [
+                                    { "id": 1, "answer": "Task Manager" },
+                                    { "id": 2, "answer": "System Configuration (msconfig)" },
+                                    { "id": 3, "answer": "Disk Management" },
+                                    { "id": 4, "answer": "Event Viewer" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 21,
+                                "title": "What should you do first if your computer is running slowly?",
+                                "answers": [
+                                    { "id": 1, "answer": "Reboot the computer" },
+                                    { "id": 2, "answer": "Run Disk Cleanup" },
+                                    { "id": 3, "answer": "Install more RAM" },
+                                    { "id": 4, "answer": "Check for virus infections" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 22,
+                                "title": "In Safe Mode, what is typically disabled?",
+                                "answers": [
+                                    { "id": 1, "answer": "Basic drivers" },
+                                    { "id": 2, "answer": "Third-party applications and services" },
+                                    { "id": 3, "answer": "Windows Update" },
+                                    { "id": 4, "answer": "Device Manager" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 23,
+                                "title": "If you encounter a blue screen error, what should you do first?",
+                                "answers": [
+                                    { "id": 1, "answer": "Restart the computer" },
+                                    { "id": 2, "answer": "Check the power supply" },
+                                    { "id": 3, "answer": "Update all drivers" },
+                                    { "id": 4, "answer": "Contact technical support" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 24,
+                                "title": "What is a common first step for troubleshooting hardware problems?",
+                                "answers": [
+                                    { "id": 1, "answer": "Check the OEM’s website for updates" },
+                                    { "id": 2, "answer": "Replace the hardware" },
+                                    { "id": 3, "answer": "Run Disk Cleanup" },
+                                    { "id": 4, "answer": "Reboot the computer" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 25,
+                                "title": "Which utility helps remove temporary files from Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Disk Cleanup" },
+                                    { "id": 2, "answer": "Optimize Drives" },
+                                    { "id": 3, "answer": "Event Viewer" },
+                                    { "id": 4, "answer": "System Configuration" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 26,
+                                "title": "How can you access the Windows Troubleshoot menu in Windows 11?",
+                                "answers": [
+                                    { "id": 1, "answer": "Control Panel" },
+                                    { "id": 2, "answer": "Start > Settings > System > Troubleshoot" },
+                                    { "id": 3, "answer": "Task Manager" },
+                                    { "id": 4, "answer": "Command Prompt" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 27,
+                                "title": "What is the primary use of the Registry Editor (regedit)?",
+                                "answers": [
+                                    { "id": 1, "answer": "To change system settings" },
+                                    { "id": 2, "answer": "To manage user accounts" },
+                                    { "id": 3, "answer": "To monitor events" },
+                                    { "id": 4, "answer": "To defragment the hard drive" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 28,
+                                "title": "What should be checked if a peripheral device is not working?",
+                                "answers": [
+                                    { "id": 1, "answer": "Power and connections" },
+                                    { "id": 2, "answer": "The software update history" },
+                                    { "id": 3, "answer": "System performance logs" },
+                                    { "id": 4, "answer": "Internet connection" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 29,
+                                "title": "How can you troubleshoot audio problems in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Check sound settings and run the audio troubleshooter" },
+                                    { "id": 2, "answer": "Reinstall Windows" },
+                                    { "id": 3, "answer": "Update the operating system" },
+                                    { "id": 4, "answer": "Reset the computer" }
+                                ],
+                                "correct": 1
                             }
                         ]
                         
