@@ -5142,11 +5142,916 @@
                                     { "id": 4, "answer": "Change the priority of the selected process." }
                                 ],
                                 "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is the primary function of the Client-Server Runtime Subsystem (csrss.exe) in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Handles the Windows GUI and command-line console." },
+                                    { "id": 2, "answer": "Manages user sessions." },
+                                    { "id": 3, "answer": "Performs system backups." },
+                                    { "id": 4, "answer": "Uninstalls applications." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id":11,
+                                "title": "What is the first non-kernel user mode process that starts when Windows boots up?",
+                                "answers": [
+                                    { "id": 1, "answer": "Session Manager Subsystem (smss.exe)." },
+                                    { "id": 2, "answer": "Client-Server Runtime Subsystem (csrss.exe)." },
+                                    { "id": 3, "answer": "Windows Logon Process (winlogon.exe)." },
+                                    { "id": 4, "answer": "Task Manager (taskmgr.exe)." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id":12,
+                                "title": "What is the role of the Session Manager Subsystem (smss.exe) during the boot process?",
+                                "answers": [
+                                    { "id": 1, "answer": "Sets up initial configurations for the OS to work." },
+                                    { "id": 2, "answer": "Starts the task manager." },
+                                    { "id": 3, "answer": "Handles the Windows GUI and command-line console." },
+                                    { "id": 4, "answer": "Manages user profiles." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "Which processes are started by smss.exe during the Windows boot process?",
+                                "answers": [
+                                    { "id": 1, "answer": "winlogon.exe and csrss.exe." },
+                                    { "id": 2, "answer": "explorer.exe and taskmgr.exe." },
+                                    { "id": 3, "answer": "svchost.exe and lsass.exe." },
+                                    { "id": 4, "answer": "cmd.exe and notepad.exe." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "What does 'load' in Linux refer to?",
+                                "answers": [
+                                    { "id": 1, "answer": "Memory usage" },
+                                    { "id": 2, "answer": "Disk I/O" },
+                                    { "id": 3, "answer": "Processes running or waiting to run" },
+                                    { "id": 4, "answer": "Network traffic" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 15,
+                                "title": "What is the load value for an idle system in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "0" },
+                                    { "id": 2, "answer": "1" },
+                                    { "id": 3, "answer": "2" },
+                                    { "id": 4, "answer": "3" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "How is the load average calculated in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "Using the percentage of CPU usage" },
+                                    { "id": 2, "answer": "Finding the load over a given period of time" },
+                                    { "id": 3, "answer": "Measuring memory consumption" },
+                                    { "id": 4, "answer": "Checking disk usage" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 17,
+                                "title": "Which command can you use to check the load average in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "top" },
+                                    { "id": 2, "answer": "ps" },
+                                    { "id": 3, "answer": "uptime" },
+                                    { "id": 4, "answer": "df" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 18,
+                                "title": "What does a load average value of 0.03 for the last minute indicate?",
+                                "answers": [
+                                    { "id": 1, "answer": "3% of the CPU was used over the last minute" },
+                                    { "id": 2, "answer": "3 processes were running over the last minute" },
+                                    { "id": 3, "answer": "0.03% of the CPU was used over the last minute" },
+                                    { "id": 4, "answer": "The system was idle" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "Which command provides an in-depth view of resource usage in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "ls" },
+                                    { "id": 2, "answer": "df" },
+                                    { "id": 3, "answer": "top" },
+                                    { "id": 4, "answer": "du" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 20,
+                                "title": "What does the 'Running' state in the top command output indicate?",
+                                "answers": [
+                                    { "id": 1, "answer": "Processes currently handling requests and having CPU access" },
+                                    { "id": 2, "answer": "Processes awaiting resources" },
+                                    { "id": 3, "answer": "Processes that are ending and releasing resources" },
+                                    { "id": 4, "answer": "Processes waiting for their parent process to release resources" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 21,
+                                "title": "What does the 'Zombie' state in the top command output represent?",
+                                "answers": [
+                                    { "id": 1, "answer": "Processes that have been terminated" },
+                                    { "id": 2, "answer": "Processes waiting for their parent process to release resources" },
+                                    { "id": 3, "answer": "Processes currently handling requests" },
+                                    { "id": 4, "answer": "Processes that are sleeping" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 22,
+                                "title": "Why is it important to monitor resource usage in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "To ensure memory is not overused" },
+                                    { "id": 2, "answer": "To ensure the CPU is not overused" },
+                                    { "id": 3, "answer": "To ensure disk space is not overused" },
+                                    { "id": 4, "answer": "To ensure network bandwidth is not overused" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 23,
+                                "title": "What does the 'Sleeping' state in the top command output indicate?",
+                                "answers": [
+                                    { "id": 1, "answer": "Processes currently handling requests" },
+                                    { "id": 2, "answer": "Processes awaiting resources in their normal state" },
+                                    { "id": 3, "answer": "Processes that are ending and releasing resources" },
+                                    { "id": 4, "answer": "Processes that have been terminated" }
+                                ],
+                                "correct": 2
                             }
+                            
+                            
                             
                         ]
                     }
                 ]
+            },
+            {
+                
+                "id": "module6",
+                "title": "Module 6: Operating Systems in Practice",
+                "subModules": [
+                    {
+                        "id": "module6-1",
+                        "title": "Remote Access",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is PuTTY?",
+                                "answers": [
+                                    { "id": 1, "answer": "A text editor for Windows" },
+                                    { "id": 2, "answer": "A web browser" },
+                                    { "id": 3, "answer": "A free, open-source software for making remote connections using several network protocols" },
+                                    { "id": 4, "answer": "An antivirus program" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is the default port number for SSH connections in PuTTY?",
+                                "answers": [
+                                    { "id": 1, "answer": "21" },
+                                    { "id": 2, "answer": "22" },
+                                    { "id": 3, "answer": "80" },
+                                    { "id": 4, "answer": "443" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "How can you install PuTTY on your computer?",
+                                "answers": [
+                                    { "id": 1, "answer": "By using Windows Update" },
+                                    { "id": 2, "answer": "By downloading it from the PuTTY website" },
+                                    { "id": 3, "answer": "Through the Microsoft Store" },
+                                    { "id": 4, "answer": "By executing a command in Command Prompt" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "What command is used to launch PuTTY from the command line?",
+                                "answers": [
+                                    { "id": 1, "answer": "putty" },
+                                    { "id": 2, "answer": "launch-putty" },
+                                    { "id": 3, "answer": "run-putty" },
+                                    { "id": 4, "answer": "execute-putty" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 5,
+                                "title": "What is Plink in relation to PuTTY?",
+                                "answers": [
+                                    { "id": 1, "answer": "A graphical interface for PuTTY" },
+                                    { "id": 2, "answer": "A built-in command-line tool for making remote SSH connections" },
+                                    { "id": 3, "answer": "A plugin for PuTTY" },
+                                    { "id": 4, "answer": "An alternative to PuTTY" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 6,
+                                "title": "What does RDP stand for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Remote Desktop Protocol" },
+                                    { "id": 2, "answer": "Remote Data Protocol" },
+                                    { "id": 3, "answer": "Remote Device Protocol" },
+                                    { "id": 4, "answer": "Rapid Data Processing" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "How can you enable RDP on a Windows machine?",
+                                "answers": [
+                                    { "id": 1, "answer": "By editing the registry" },
+                                    { "id": 2, "answer": "By right-clicking This PC and selecting Properties" },
+                                    { "id": 3, "answer": "Through Control Panel > Network and Internet" },
+                                    { "id": 4, "answer": "By running a command in PowerShell" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is the command to launch the Remote Desktop Connection client?",
+                                "answers": [
+                                    { "id": 1, "answer": "rdp" },
+                                    { "id": 2, "answer": "mstsc" },
+                                    { "id": 3, "answer": "connect" },
+                                    { "id": 4, "answer": "remote-desktop" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 9,
+                                "title": "What are some security implications of using RDP?",
+                                "answers": [
+                                    { "id": 1, "answer": "Connections are always secure" },
+                                    { "id": 2, "answer": "Only trusted users should be allowed" },
+                                    { "id": 3, "answer": "RDP cannot be used in corporate environments" },
+                                    { "id": 4, "answer": "RDP is completely risk-free" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is SCP?",
+                                "answers": [
+                                    { "id": 1, "answer": "A command used in Linux to copy files between computers on a network" },
+                                    { "id": 2, "answer": "A type of security protocol" },
+                                    { "id": 3, "answer": "A graphical file transfer application" },
+                                    { "id": 4, "answer": "A method for sending email attachments" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is the basic command structure for using SCP to copy files?",
+                                "answers": [
+                                    { "id": 1, "answer": "scp [source_file] [destination]" },
+                                    { "id": 2, "answer": "scp [user@hostname:source_file] [destination]" },
+                                    { "id": 3, "answer": "scp [options] [source_file] [user@hostname:destination_path]" },
+                                    { "id": 4, "answer": "scp [user@hostname:destination] [source_file]" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 12,
+                                "title": "What are the benefits of using SCP for file transfers?",
+                                "answers": [
+                                    { "id": 1, "answer": "It is free and open-source" },
+                                    { "id": 2, "answer": "It uses SSH for secure file transfer" },
+                                    { "id": 3, "answer": "It is only available on Linux" },
+                                    { "id": 4, "answer": "It can transfer files only within the same network" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is PSCP?",
+                                "answers": [
+                                    { "id": 1, "answer": "A graphical file transfer tool" },
+                                    { "id": 2, "answer": "A command-line tool included with the PuTTY package" },
+                                    { "id": 3, "answer": "A plugin for PuTTY" },
+                                    { "id": 4, "answer": "A protocol for remote connections" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 14,
+                                "title": "How do you share a folder on Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "By using the command prompt" },
+                                    { "id": 2, "answer": "By right-clicking on the folder and selecting Share with" },
+                                    { "id": 3, "answer": "Through Windows Settings only" },
+                                    { "id": 4, "answer": "By dragging the folder to the shared network" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 15,
+                                "title": "What does the `net share` command do?",
+                                "answers": [
+                                    { "id": 1, "answer": "It lists shared folders on the network" },
+                                    { "id": 2, "answer": "It creates a new user account" },
+                                    { "id": 3, "answer": "It shares a folder from the command line" },
+                                    { "id": 4, "answer": "It deletes a network connection" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "What is a virtual instance in VirtualBox?",
+                                "answers": [
+                                    { "id": 1, "answer": "A type of physical machine" },
+                                    { "id": 2, "answer": "A single virtual machine managed by virtualization software" },
+                                    { "id": 3, "answer": "A backup of a physical machine" },
+                                    { "id": 4, "answer": "An application installed on a computer" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 17,
+                                "title": "What are the steps to create a new VM in VirtualBox?",
+                                "answers": [
+                                    { "id": 1, "answer": "Download the software and restart the computer" },
+                                    { "id": 2, "answer": "Open VirtualBox and click the New button" },
+                                    { "id": 3, "answer": "Open PowerShell and type the command" },
+                                    { "id": 4, "answer": "Use a terminal command to create a VM" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 18,
+                                "title": "What is the purpose of the 'VBoxManage' command?",
+                                "answers": [
+                                    { "id": 1, "answer": "To manage file transfers" },
+                                    { "id": 2, "answer": "To manage virtual machines from the command line" },
+                                    { "id": 3, "answer": "To create backups of VMs" },
+                                    { "id": 4, "answer": "To configure network settings" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 19,
+                                "title": "What command do you use to check running apps on iOS?",
+                                "answers": [
+                                    { "id": 1, "answer": "Settings > Battery" },
+                                    { "id": 2, "answer": "Settings > General" },
+                                    { "id": 3, "answer": "Home > Apps" },
+                                    { "id": 4, "answer": "Control Center" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 20,
+                                "title": "What is the purpose of managing battery consumption on mobile devices?",
+                                "answers": [
+                                    { "id": 1, "answer": "To extend battery life" },
+                                    { "id": 2, "answer": "To increase app performance" },
+                                    { "id": 3, "answer": "To enable background processes" },
+                                    { "id": 4, "answer": "To reduce screen brightness" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 21,
+                                "title": "How can you close misbehaving apps on Android?",
+                                "answers": [
+                                    { "id": 1, "answer": "By restarting the device" },
+                                    { "id": 2, "answer": "By accessing the Recent Apps screen and swiping them away" },
+                                    { "id": 3, "answer": "Through the battery settings" },
+                                    { "id": 4, "answer": "By uninstalling them" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 22,
+                                "title": "What does the 'Sleep' state in mobile devices indicate?",
+                                "answers": [
+                                    { "id": 1, "answer": "The device is powered off" },
+                                    { "id": 2, "answer": "The device is in a low-power mode" },
+                                    { "id": 3, "answer": "The device is fully operational" },
+                                    { "id": 4, "answer": "The device is connected to Wi-Fi" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 23,
+                                "title": "What is the purpose of logs in operating systems?",
+                                "answers": [
+                                    { "id": 1, "answer": "To store user files" },
+                                    { "id": 2, "answer": "To help troubleshoot and monitor system activity" },
+                                    { "id": 3, "answer": "To improve graphics performance" },
+                                    { "id": 4, "answer": "To manage network connections" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 24,
+                                "title": "Where can you typically find logs in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "In the Control Panel" },
+                                    { "id": 2, "answer": "In the Event Viewer" },
+                                    { "id": 3, "answer": "In the Task Manager" },
+                                    { "id": 4, "answer": "In the File Explorer" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 25,
+                                "title": "What command do you use in Linux to view system logs?",
+                                "answers": [
+                                    { "id": 1, "answer": "cat /var/log/syslog" },
+                                    { "id": 2, "answer": "view /logs" },
+                                    { "id": 3, "answer": "ls /logs" },
+                                    { "id": 4, "answer": "check /var/log" }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                        
+	                },
+                    {
+                        "id": "module6-2",
+                        "title": "Virtualization",
+                        "questions": []
+	                },
+                    {
+                        "id": "module6-3",
+                        "title": "Logging",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is the purpose of system logs?",
+                                "answers": [
+                                    { "id": 1, "answer": "To record events that occur on the system" },
+                                    { "id": 2, "answer": "To monitor network traffic" },
+                                    { "id": 3, "answer": "To store user data" },
+                                    { "id": 4, "answer": "To run background processes" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "Where are Linux logs typically stored?",
+                                "answers": [
+                                    { "id": 1, "answer": "/var/log" },
+                                    { "id": 2, "answer": "/etc/log" },
+                                    { "id": 3, "answer": "/usr/bin" },
+                                    { "id": 4, "answer": "/home/log" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 3,
+                                "title": "What is the function of the Windows Event Viewer?",
+                                "answers": [
+                                    { "id": 1, "answer": "To log events on Windows machines" },
+                                    { "id": 2, "answer": "To manage hardware devices" },
+                                    { "id": 3, "answer": "To install software" },
+                                    { "id": 4, "answer": "To control user permissions" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "What command is used to view real-time logs in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "tail -f /var/log/syslog" },
+                                    { "id": 2, "answer": "cat /var/log/syslog" },
+                                    { "id": 3, "answer": "view /var/log/syslog" },
+                                    { "id": 4, "answer": "check /var/log/syslog" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 5,
+                                "title": "Which log file in Linux contains kernel messages?",
+                                "answers": [
+                                    { "id": 1, "answer": "/var/log/kern.log" },
+                                    { "id": 2, "answer": "/var/log/syslog" },
+                                    { "id": 3, "answer": "/var/log/auth.log" },
+                                    { "id": 4, "answer": "/var/log/dmesg" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is the significance of timestamps in log entries?",
+                                "answers": [
+                                    { "id": 1, "answer": "They indicate when an event occurred" },
+                                    { "id": 2, "answer": "They provide user information" },
+                                    { "id": 3, "answer": "They show log file size" },
+                                    { "id": 4, "answer": "They display the logging level" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "What type of information can you find in the Windows Security Log?",
+                                "answers": [
+                                    { "id": 1, "answer": "Access attempts to the computer" },
+                                    { "id": 2, "answer": "Kernel messages" },
+                                    { "id": 3, "answer": "System errors" },
+                                    { "id": 4, "answer": "Application crashes" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is log rotation in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "Managing log file size by creating new files" },
+                                    { "id": 2, "answer": "Compressing log files" },
+                                    { "id": 3, "answer": "Deleting old log files" },
+                                    { "id": 4, "answer": "Backing up log files" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "Which command can you use to search for keywords in a log file?",
+                                "answers": [
+                                    { "id": 1, "answer": "grep" },
+                                    { "id": 2, "answer": "find" },
+                                    { "id": 3, "answer": "search" },
+                                    { "id": 4, "answer": "list" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "What type of events does the System Log in Windows track?",
+                                "answers": [
+                                    { "id": 1, "answer": "Driver issues during startup" },
+                                    { "id": 2, "answer": "User logins" },
+                                    { "id": 3, "answer": "Application errors" },
+                                    { "id": 4, "answer": "Network activity" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is the primary purpose of logging?",
+                                "answers": [
+                                    { "id": 1, "answer": "To track system activity and errors" },
+                                    { "id": 2, "answer": "To improve software performance" },
+                                    { "id": 3, "answer": "To manage user access" },
+                                    { "id": 4, "answer": "To back up data" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 12,
+                                "title": "Which log file would you check first for troubleshooting user issues in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "/var/log/syslog" },
+                                    { "id": 2, "answer": "/var/log/auth.log" },
+                                    { "id": 3, "answer": "/var/log/kern.log" },
+                                    { "id": 4, "answer": "/var/log/dmesg" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "What does a critical logging level indicate?",
+                                "answers": [
+                                    { "id": 1, "answer": "A serious error requiring immediate attention" },
+                                    { "id": 2, "answer": "A warning that may not need action" },
+                                    { "id": 3, "answer": "General information about system activity" },
+                                    { "id": 4, "answer": "Successful operation logs" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "What does the command 'dmesg' display in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "Kernel messages" },
+                                    { "id": 2, "answer": "User logins" },
+                                    { "id": 3, "answer": "Network connections" },
+                                    { "id": 4, "answer": "Application errors" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "How can you filter logs in the Windows Event Viewer?",
+                                "answers": [
+                                    { "id": 1, "answer": "By creating a custom view" },
+                                    { "id": 2, "answer": "By searching by user" },
+                                    { "id": 3, "answer": "By time zone" },
+                                    { "id": 4, "answer": "By application type" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "What is a common troubleshooting practice when using logs?",
+                                "answers": [
+                                    { "id": 1, "answer": "Searching for specific keywords" },
+                                    { "id": 2, "answer": "Reading every line sequentially" },
+                                    { "id": 3, "answer": "Deleting old logs" },
+                                    { "id": 4, "answer": "Backing up logs before analysis" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "What is the main advantage of centralized logging?",
+                                "answers": [
+                                    { "id": 1, "answer": "Easier analysis of log data from multiple systems" },
+                                    { "id": 2, "answer": "Faster log file access" },
+                                    { "id": 3, "answer": "Reduced log file size" },
+                                    { "id": 4, "answer": "Improved security of logs" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "What can the 'tail' command do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Show the last few lines of a file" },
+                                    { "id": 2, "answer": "Edit a file" },
+                                    { "id": 3, "answer": "Delete a file" },
+                                    { "id": 4, "answer": "Copy a file" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "In Windows, what does the Application Log record?",
+                                "answers": [
+                                    { "id": 1, "answer": "Events logged by applications" },
+                                    { "id": 2, "answer": "System hardware failures" },
+                                    { "id": 3, "answer": "Network connection attempts" },
+                                    { "id": 4, "answer": "Security-related events" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 20,
+                                "title": "Which command would you use to archive old log files in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "tar" },
+                                    { "id": 2, "answer": "zip" },
+                                    { "id": 3, "answer": "cp" },
+                                    { "id": 4, "answer": "mv" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 21,
+                                "title": "What kind of data is typically logged in a web server log?",
+                                "answers": [
+                                    { "id": 1, "answer": "HTTP requests and responses" },
+                                    { "id": 2, "answer": "Network errors" },
+                                    { "id": 3, "answer": "Operating system events" },
+                                    { "id": 4, "answer": "User logins" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 22,
+                                "title": "What tool can be used for log analysis in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Log Parser" },
+                                    { "id": 2, "answer": "Disk Cleanup" },
+                                    { "id": 3, "answer": "Event Viewer" },
+                                    { "id": 4, "answer": "Task Manager" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 23,
+                                "title": "What is the 'logger' command used for in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "To create log entries" },
+                                    { "id": 2, "answer": "To delete log files" },
+                                    { "id": 3, "answer": "To view logs" },
+                                    { "id": 4, "answer": "To rotate logs" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 24,
+                                "title": "How can you secure log files in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "By setting appropriate permissions" },
+                                    { "id": 2, "answer": "By encrypting them" },
+                                    { "id": 3, "answer": "By backing them up" },
+                                    { "id": 4, "answer": "By compressing them" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 25,
+                                "title": "What is the purpose of a log analysis tool?",
+                                "answers": [
+                                    { "id": 1, "answer": "To interpret and visualize log data" },
+                                    { "id": 2, "answer": "To delete old log files" },
+                                    { "id": 3, "answer": "To store log files securely" },
+                                    { "id": 4, "answer": "To monitor system performance" }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                        
+	                },
+                    {
+                        "id": "module6-4",
+                        "title": "Operating System Deployment",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What does imaging refer to in OS installation?",
+                                "answers": [
+                                    { "id": 1, "answer": "Creating a copy of the OS and settings" },
+                                    { "id": 2, "answer": "Upgrading the operating system" },
+                                    { "id": 3, "answer": "Formatting a hard drive" },
+                                    { "id": 4, "answer": "Backing up user data" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is the benefit of using disk cloning tools?",
+                                "answers": [
+                                    { "id": 1, "answer": "They create backups of individual files" },
+                                    { "id": 2, "answer": "They simplify the imaging process" },
+                                    { "id": 3, "answer": "They allow for online data storage" },
+                                    { "id": 4, "answer": "They reduce software installation time" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "Which tool is an open-source disk cloning solution?",
+                                "answers": [
+                                    { "id": 1, "answer": "Symantec Ghost" },
+                                    { "id": 2, "answer": "Clonezilla" },
+                                    { "id": 3, "answer": "Acronis True Image" },
+                                    { "id": 4, "answer": "Norton Backup" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "What command is used in Linux to clone a disk with dd?",
+                                "answers": [
+                                    { "id": 1, "answer": "clone /dev/sdX" },
+                                    { "id": 2, "answer": "dd if=/dev/sdx of=/path/to/image.img" },
+                                    { "id": 3, "answer": "copy /dev/sdX" },
+                                    { "id": 4, "answer": "backup /dev/sdX" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "What does a factory reset do to a mobile device?",
+                                "answers": [
+                                    { "id": 1, "answer": "Restores the device to original factory settings" },
+                                    { "id": 2, "answer": "Upgrades the operating system" },
+                                    { "id": 3, "answer": "Removes only user-installed applications" },
+                                    { "id": 4, "answer": "Clears cache files only" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "What should be done before performing a factory reset?",
+                                "answers": [
+                                    { "id": 1, "answer": "Back up important data" },
+                                    { "id": 2, "answer": "Install the latest OS updates" },
+                                    { "id": 3, "answer": "Uninstall all applications" },
+                                    { "id": 4, "answer": "Reset the device settings" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is an Over-the-Air (OTA) update?",
+                                "answers": [
+                                    { "id": 1, "answer": "A method for updating device firmware directly" },
+                                    { "id": 2, "answer": "An offline update method" },
+                                    { "id": 3, "answer": "A type of software installation from USB" },
+                                    { "id": 4, "answer": "A method for restoring factory settings" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "Which of the following best describes reflashing?",
+                                "answers": [
+                                    { "id": 1, "answer": "Restoring a device from a backup" },
+                                    { "id": 2, "answer": "Overwriting the operating system from a computer" },
+                                    { "id": 3, "answer": "Performing a factory reset" },
+                                    { "id": 4, "answer": "Updating application software only" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is the purpose of hardware standardization in OS deployment?",
+                                "answers": [
+                                    { "id": 1, "answer": "To reduce deployment complexity" },
+                                    { "id": 2, "answer": "To increase hardware diversity" },
+                                    { "id": 3, "answer": "To allow for custom settings" },
+                                    { "id": 4, "answer": "To support legacy systems" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is the main advantage of using imaging software for OS deployment?",
+                                "answers": [
+                                    { "id": 1, "answer": "It can only be used on one device" },
+                                    { "id": 2, "answer": "It ensures consistency across installations" },
+                                    { "id": 3, "answer": "It requires minimal user intervention" },
+                                    { "id": 4, "answer": "It is more expensive than traditional methods" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "What can happen to data on expansion storage during a factory reset?",
+                                "answers": [
+                                    { "id": 1, "answer": "It is always erased" },
+                                    { "id": 2, "answer": "It may not be erased" },
+                                    { "id": 3, "answer": "It is automatically backed up" },
+                                    { "id": 4, "answer": "It is encrypted by default" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "What is the main function of disk cloning tools?",
+                                "answers": [
+                                    { "id": 1, "answer": "To create exact copies of disks" },
+                                    { "id": 2, "answer": "To repair corrupted disks" },
+                                    { "id": 3, "answer": "To monitor disk health" },
+                                    { "id": 4, "answer": "To resize partitions" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is a common use case for performing a factory reset?",
+                                "answers": [
+                                    { "id": 1, "answer": "To fix software bugs" },
+                                    { "id": 2, "answer": "Before selling or giving away the device" },
+                                    { "id": 3, "answer": "To upgrade the operating system" },
+                                    { "id": 4, "answer": "To recover deleted files" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 14,
+                                "title": "Which of the following is a potential risk of factory resets?",
+                                "answers": [
+                                    { "id": 1, "answer": "Device becomes unusable" },
+                                    { "id": 2, "answer": "Loss of data if not backed up" },
+                                    { "id": 3, "answer": "Device is always wiped clean" },
+                                    { "id": 4, "answer": "Hardware issues become apparent" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 15,
+                                "title": "What is the main role of imaging software in IT support?",
+                                "answers": [
+                                    { "id": 1, "answer": "To speed up hardware repairs" },
+                                    { "id": 2, "answer": "To facilitate mass deployment of OS" },
+                                    { "id": 3, "answer": "To maintain network security" },
+                                    { "id": 4, "answer": "To back up user files" }
+                                ],
+                                "correct": 2
+                            }
+                        ]
+                        
+	                }
+			
+                ] 
             }
      
             
