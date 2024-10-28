@@ -3,11 +3,11 @@
         "title": "System Administration and IT Infra Services",
         "modules": [
             {
-                "id": "module4",
+                "id": "module1",
                 "title": "Module 1: What is System Administration? ",
                 "subModules": [
                     {
-                        "id": "module4-1",
+                        "id": "module1-1",
                         "title": "Intro to System Administration",
                         "questions": [
                             {
@@ -289,7 +289,7 @@
                         
                     },
                     {
-                        "id": "module4-2",
+                        "id": "module1-2",
                         "title": "Sys Admin Tasks",
                         "questions": [
                             {
@@ -681,7 +681,7 @@
                         
                     },
                     {
-                        "id": "module4-3",
+                        "id": "module1-3",
                         "title": "Applying Changes",
                         "questions": [
                             {
@@ -958,12 +958,1348 @@
                                     { "id": 4, "answer": "To complicate procedures." }
                                 ],
                                 "correct": 2
+                            },
+                            {
+                                "id": 26,
+                                "title": "What is the purpose of recording your actions during system changes?",
+                                "answers": [
+                                    { "id": 1, "answer": "To ensure no changes are made." },
+                                    { "id": 2, "answer": "To have a clear plan and document actions taken." },
+                                    { "id": 3, "answer": "To make the system harder to manage." },
+                                    { "id": 4, "answer": "To avoid using command-line tools." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 27,
+                                "title": "Which command is used in Linux to record a session?",
+                                "answers": [
+                                    { "id": 1, "answer": "log" },
+                                    { "id": 2, "answer": "script" },
+                                    { "id": 3, "answer": "record" },
+                                    { "id": 4, "answer": "capture" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 28,
+                                "title": "What command should you use in Windows to start recording a session?",
+                                "answers": [
+                                    { "id": 1, "answer": "Start-Session" },
+                                    { "id": 2, "answer": "Begin-Transcript" },
+                                    { "id": 3, "answer": "Start-Transcript" },
+                                    { "id": 4, "answer": "Record-Session" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 29,
+                                "title": "What is a recommended tool for recording graphical sessions on Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "OBS" },
+                                    { "id": 2, "answer": "recordMyDesktop" },
+                                    { "id": 3, "answer": "VLC" },
+                                    { "id": 4, "answer": "Photoshop" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 30,
+                                "title": "What is the primary purpose of IT change management?",
+                                "answers": [
+                                    { "id": 1, "answer": "To enforce strict control over all IT systems." },
+                                    { "id": 2, "answer": "To plan, communicate, and implement technical changes effectively." },
+                                    { "id": 3, "answer": "To reduce the number of changes in IT systems." },
+                                    { "id": 4, "answer": "To allow any team member to make changes at any time." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 31,
+                                "title": "What should be included in a change management plan?",
+                                "answers": [
+                                    { "id": 1, "answer": "Only the expected outcomes." },
+                                    { "id": 2, "answer": "A list of all IT systems affected." },
+                                    { "id": 3, "answer": "The names of all employees in the IT department." },
+                                    { "id": 4, "answer": "Details of previous changes made." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 32,
+                                "title": "What is a change rollback plan?",
+                                "answers": [
+                                    { "id": 1, "answer": "A plan to permanently delete all previous configurations." },
+                                    { "id": 2, "answer": "A procedure to restore systems to their original state after a failed change." },
+                                    { "id": 3, "answer": "A strategy for implementing new changes without testing." },
+                                    { "id": 4, "answer": "A guideline for approving changes." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 33,
+                                "title": "What does 'change priority' refer to?",
+                                "answers": [
+                                    { "id": 1, "answer": "The time it takes to implement the change." },
+                                    { "id": 2, "answer": "The urgency of the change based on its impact." },
+                                    { "id": 3, "answer": "The number of changes scheduled at one time." },
+                                    { "id": 4, "answer": "The department responsible for the change." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 34,
+                                "title": "Who typically reviews change management plans for approval?",
+                                "answers": [
+                                    { "id": 1, "answer": "The IT Support staff alone." },
+                                    { "id": 2, "answer": "Change Advisory Board (CAB) and management teams." },
+                                    { "id": 3, "answer": "Only the end users affected." },
+                                    { "id": 4, "answer": "External auditors only." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 35,
+                                "title": "What is the benefit of conducting user acceptance testing?",
+                                "answers": [
+                                    { "id": 1, "answer": "To finalize the technical documentation." },
+                                    { "id": 2, "answer": "To ensure the changes meet user needs and expectations." },
+                                    { "id": 3, "answer": "To restrict access to the new systems." },
+                                    { "id": 4, "answer": "To increase the workload of the IT staff." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 36,
+                                "title": "What is one of the common reasons for making IT changes?",
+                                "answers": [
+                                    { "id": 1, "answer": "To remove old hardware without replacement." },
+                                    { "id": 2, "answer": "To apply operating system and software updates." },
+                                    { "id": 3, "answer": "To ensure all employees have the same permissions." },
+                                    { "id": 4, "answer": "To make IT systems more complex." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 37,
+                                "title": "Why is it important to document all planned changes?",
+                                "answers": [
+                                    { "id": 1, "answer": "To avoid having to repeat the changes." },
+                                    { "id": 2, "answer": "To provide a record for future reference and accountability." },
+                                    { "id": 3, "answer": "To impress management with detailed reports." },
+                                    { "id": 4, "answer": "To ensure changes can be made faster next time." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 38,
+                                "title": "What role does a Change Advisory Board (CAB) play in change management?",
+                                "answers": [
+                                    { "id": 1, "answer": "They deny all proposed changes." },
+                                    { "id": 2, "answer": "They oversee and approve change management plans." },
+                                    { "id": 3, "answer": "They perform technical changes themselves." },
+                                    { "id": 4, "answer": "They handle user training exclusively." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 39,
+                                "title": "What is a key aspect of the change management communication process?",
+                                "answers": [
+                                    { "id": 1, "answer": "Hiding information to prevent confusion." },
+                                    { "id": 2, "answer": "Informing affected staff about changes and service outages." },
+                                    { "id": 3, "answer": "Only notifying upper management." },
+                                    { "id": 4, "answer": "Communicating changes only after they are implemented." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 40,
+                                "title": "What should be included in the 'scope of the change'?",
+                                "answers": [
+                                    { "id": 1, "answer": "A list of all locations and systems affected by the change." },
+                                    { "id": 2, "answer": "Only the names of the people involved." },
+                                    { "id": 3, "answer": "An overview of the IT department's structure." },
+                                    { "id": 4, "answer": "The budget for future IT projects." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 41,
+                                "title": "What is the anticipated impact of changes?",
+                                "answers": [
+                                    { "id": 1, "answer": "The expected outcomes of a change and its effects on the systems." },
+                                    { "id": 2, "answer": "The financial cost associated with the change." },
+                                    { "id": 3, "answer": "The time taken to approve the change." },
+                                    { "id": 4, "answer": "The satisfaction of the IT staff." }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                        
+                    }
+                ]
+            },
+            {
+                "id": "module2",
+                "title": "Module 2: Network and Infra Services ",
+                "subModules": [
+                    {
+                        "id": "module2-1",
+                        "title": "Intro to Infrastructure Services",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What are IT Infrastructure Services?",
+                                "answers": [
+                                    { "id": 1, "answer": "Services that keep a company operational." },
+                                    { "id": 2, "answer": "Only services related to email." },
+                                    { "id": 3, "answer": "Services that do not include network management." },
+                                    { "id": 4, "answer": "None of the above." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "How does the management of IT services differ between small and large companies?",
+                                "answers": [
+                                    { "id": 1, "answer": "Small companies always have a team of sysadmins." },
+                                    { "id": 2, "answer": "Large companies may have specialized teams, while small companies often have a single person managing all services." },
+                                    { "id": 3, "answer": "Small companies do not need IT services." },
+                                    { "id": 4, "answer": "Both small and large companies have the same management structure." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "What is a key goal for someone setting up IT infrastructure as the sole IT staff member?",
+                                "answers": [
+                                    { "id": 1, "answer": "To create a complex system requiring multiple teams." },
+                                    { "id": 2, "answer": "To learn how to set up essential IT infrastructure." },
+                                    { "id": 3, "answer": "To focus solely on cloud service options." },
+                                    { "id": 4, "answer": "To ignore on-premises infrastructure." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "What are the benefits of using Cloud Services?",
+                                "answers": [
+                                    { "id": 1, "answer": "Increased need for on-premise infrastructure." },
+                                    { "id": 2, "answer": "Complicated management processes." },
+                                    { "id": 3, "answer": "Easy access and simplified management." },
+                                    { "id": 4, "answer": "Only available to large companies." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 5,
+                                "title": "What does Infrastructure as a Service (IaaS) provide?",
+                                "answers": [
+                                    { "id": 1, "answer": "Physical servers to manage." },
+                                    { "id": 2, "answer": "Pre-configured virtual machines." },
+                                    { "id": 3, "answer": "On-premises software installation." },
+                                    { "id": 4, "answer": "Networking hardware." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 6,
+                                "title": "Which of the following is a characteristic of Networking as a Service (NaaS)?",
+                                "answers": [
+                                    { "id": 1, "answer": "Requires physical hardware." },
+                                    { "id": 2, "answer": "Outsources networking infrastructure." },
+                                    { "id": 3, "answer": "Only available for large enterprises." },
+                                    { "id": 4, "answer": "Handles on-site network security only." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is Software as a Service (SaaS)?",
+                                "answers": [
+                                    { "id": 1, "answer": "Software that must be installed on each device." },
+                                    { "id": 2, "answer": "Web-based software provided as a service." },
+                                    { "id": 3, "answer": "Software that is only available offline." },
+                                    { "id": 4, "answer": "Custom software developed for each client." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is Platform as a Service (PaaS)?",
+                                "answers": [
+                                    { "id": 1, "answer": "A platform for building, storing, and serving applications." },
+                                    { "id": 2, "answer": "Physical servers for application hosting." },
+                                    { "id": 3, "answer": "A service that only focuses on networking." },
+                                    { "id": 4, "answer": "An outdated service model." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is Directory as a Service (DaaS)?",
+                                "answers": [
+                                    { "id": 1, "answer": "On-premises directory services." },
+                                    { "id": 2, "answer": "Cloud-based directory services for access management." },
+                                    { "id": 3, "answer": "A service for managing physical directories." },
+                                    { "id": 4, "answer": "A type of hardware for directory management." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is a key takeaway regarding physical infrastructure and Cloud services?",
+                                "answers": [
+                                    { "id": 1, "answer": "Physical infrastructure is unnecessary." },
+                                    { "id": 2, "answer": "Understanding physical infrastructure is essential before using Cloud alternatives." },
+                                    { "id": 3, "answer": "Cloud services are always better than physical infrastructure." },
+                                    { "id": 4, "answer": "Physical and Cloud infrastructures are identical." }
+                                ],
+                                "correct": 2
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module2-2",
+                        "title": "Physical Infrastructure Services",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What are IT Infrastructure Services?",
+                                "answers": [
+                                    { "id": 1, "answer": "Services that keep a company operational." },
+                                    { "id": 2, "answer": "Only services related to email." },
+                                    { "id": 3, "answer": "Services that do not include network management." },
+                                    { "id": 4, "answer": "None of the above." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is a key advantage of server operating systems over desktop operating systems?",
+                                "answers": [
+                                    { "id": 1, "answer": "They are cheaper." },
+                                    { "id": 2, "answer": "They provide enhanced security features." },
+                                    { "id": 3, "answer": "They are easier to use." },
+                                    { "id": 4, "answer": "They require more maintenance." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "What does virtualization allow you to do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Run multiple physical servers." },
+                                    { "id": 2, "answer": "Run multiple virtual instances on one physical server." },
+                                    { "id": 3, "answer": "Increase the hardware costs." },
+                                    { "id": 4, "answer": "Improve the performance of each individual service." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "Which of the following is a benefit of using virtualization?",
+                                "answers": [
+                                    { "id": 1, "answer": "Higher performance compared to dedicated hardware." },
+                                    { "id": 2, "answer": "Increased hardware costs." },
+                                    { "id": 3, "answer": "More efficient resource allocation." },
+                                    { "id": 4, "answer": "Requires more maintenance." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 5,
+                                "title": "What is a potential point of failure in dedicated hardware setups?",
+                                "answers": [
+                                    { "id": 1, "answer": "If one server fails, all services on it are impacted." },
+                                    { "id": 2, "answer": "Virtual machines can migrate without issues." },
+                                    { "id": 3, "answer": "Redundant servers are always available." },
+                                    { "id": 4, "answer": "They do not require maintenance." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is the purpose of Remote Access in IT infrastructure management?",
+                                "answers": [
+                                    { "id": 1, "answer": "To perform maintenance from anywhere." },
+                                    { "id": 2, "answer": "To restrict access to physical servers." },
+                                    { "id": 3, "answer": "To install software only on local machines." },
+                                    { "id": 4, "answer": "To eliminate the need for IT staff." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "Which tool is commonly used for remote access on Windows machines?",
+                                "answers": [
+                                    { "id": 1, "answer": "OpenSSH." },
+                                    { "id": 2, "answer": "PuTTY." },
+                                    { "id": 3, "answer": "Linux Terminal." },
+                                    { "id": 4, "answer": "None of the above." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is one requirement for setting up Remote Access on Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "Installing a gaming application." },
+                                    { "id": 2, "answer": "Installing the SSH server." },
+                                    { "id": 3, "answer": "Disabling firewalls." },
+                                    { "id": 4, "answer": "Using a desktop environment." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is a significant cost benefit of virtualization?",
+                                "answers": [
+                                    { "id": 1, "answer": "Each service requires its own hardware." },
+                                    { "id": 2, "answer": "It reduces hardware costs by maximizing resource usage." },
+                                    { "id": 3, "answer": "Virtualization requires less software." },
+                                    { "id": 4, "answer": "It eliminates the need for any servers." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is an advantage of redundant servers?",
+                                "answers": [
+                                    { "id": 1, "answer": "They can improve system performance." },
+                                    { "id": 2, "answer": "They ensure higher availability by reducing failure points." },
+                                    { "id": 3, "answer": "They eliminate the need for maintenance." },
+                                    { "id": 4, "answer": "They are always cheaper than single servers." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "Which operating system is specifically designed for server tasks?",
+                                "answers": [
+                                    { "id": 1, "answer": "Windows 10." },
+                                    { "id": 2, "answer": "Ubuntu Desktop." },
+                                    { "id": 3, "answer": "Windows Server." },
+                                    { "id": 4, "answer": "Linux Mint." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 12,
+                                "title": "What is one disadvantage of using a desktop OS for server tasks?",
+                                "answers": [
+                                    { "id": 1, "answer": "Lacks certain server-oriented features." },
+                                    { "id": 2, "answer": "Requires less maintenance." },
+                                    { "id": 3, "answer": "More efficient handling of network connections." },
+                                    { "id": 4, "answer": "Supports more RAM." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is the primary function of a server in a network?",
+                                "answers": [
+                                    { "id": 1, "answer": "To connect clients to the internet." },
+                                    { "id": 2, "answer": "To provide services to client machines." },
+                                    { "id": 3, "answer": "To store only user data." },
+                                    { "id": 4, "answer": "To run desktop applications." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 14,
+                                "title": "What does the acronym IaaS stand for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Infrastructure as a Service." },
+                                    { "id": 2, "answer": "Internet as a Service." },
+                                    { "id": 3, "answer": "Information as a Service." },
+                                    { "id": 4, "answer": "Interface as a Service." }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module2-3",
+                        "title": "Network Services",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is FTP (File Transfer Protocol)?",
+                                "answers": [
+                                    { "id": 1, "answer": "A legacy protocol for transferring files over the internet without encryption." },
+                                    { "id": 2, "answer": "A secure method for transferring files over SSH." },
+                                    { "id": 3, "answer": "A simplified file transfer protocol that does not require authentication." },
+                                    { "id": 4, "answer": "A protocol used exclusively for email transfer." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is the primary advantage of SFTP over FTP?",
+                                "answers": [
+                                    { "id": 1, "answer": "SFTP is faster than FTP." },
+                                    { "id": 2, "answer": "SFTP encrypts data during transfer." },
+                                    { "id": 3, "answer": "SFTP does not require a client." },
+                                    { "id": 4, "answer": "SFTP is a legacy protocol." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "What is TFTP primarily used for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Transferring sensitive files securely." },
+                                    { "id": 2, "answer": "Transferring non-sensitive, generic files." },
+                                    { "id": 3, "answer": "Transferring files over encrypted channels." },
+                                    { "id": 4, "answer": "Transferring web content." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is PXE Boot?",
+                                "answers": [
+                                    { "id": 1, "answer": "A method to boot a system via network access." },
+                                    { "id": 2, "answer": "A protocol for secure file transfer." },
+                                    { "id": 3, "answer": "A method for transferring files over the internet." },
+                                    { "id": 4, "answer": "A system for managing internal networks." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 5,
+                                "title": "What does NTP stand for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Network Transfer Protocol." },
+                                    { "id": 2, "answer": "Network Time Protocol." },
+                                    { "id": 3, "answer": "Network Transfer Process." },
+                                    { "id": 4, "answer": "Network Time Process." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 6,
+                                "title": "Why is consistent time important in IT environments?",
+                                "answers": [
+                                    { "id": 1, "answer": "It prevents data inconsistencies and security issues." },
+                                    { "id": 2, "answer": "It helps in transferring files more quickly." },
+                                    { "id": 3, "answer": "It allows for easier access to web services." },
+                                    { "id": 4, "answer": "It is only necessary for internal communication." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is an intranet?",
+                                "answers": [
+                                    { "id": 1, "answer": "An internal network exclusive to a company." },
+                                    { "id": 2, "answer": "A public network accessible to everyone." },
+                                    { "id": 3, "answer": "A type of web server." },
+                                    { "id": 4, "answer": "An external email service." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is the role of a proxy server?",
+                                "answers": [
+                                    { "id": 1, "answer": "Acts as an intermediary between a company's network and the Internet." },
+                                    { "id": 2, "answer": "Directly connects users to the Internet." },
+                                    { "id": 3, "answer": "Serves as a web server for hosting websites." },
+                                    { "id": 4, "answer": "Stores files for external access." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is DNS?",
+                                "answers": [
+                                    { "id": 1, "answer": "Domain Name Service." },
+                                    { "id": 2, "answer": "Domain Name System." },
+                                    { "id": 3, "answer": "Dynamic Network Service." },
+                                    { "id": 4, "answer": "Direct Name System." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is the main function of DNS?",
+                                "answers": [
+                                    { "id": 1, "answer": "To translate domain names into IP addresses." },
+                                    { "id": 2, "answer": "To transfer files over the internet." },
+                                    { "id": 3, "answer": "To provide internet access." },
+                                    { "id": 4, "answer": "To secure network communications." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 11,
+                                "title": "Why would an organization set up its own DNS server?",
+                                "answers": [
+                                    { "id": 1, "answer": "To have full control over domain management." },
+                                    { "id": 2, "answer": "To eliminate the need for a web server." },
+                                    { "id": 3, "answer": "To automatically manage email services." },
+                                    { "id": 4, "answer": "To reduce internet speed." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 12,
+                                "title": "What is a benefit of a hybrid NTP setup?",
+                                "answers": [
+                                    { "id": 1, "answer": "It allows for faster file transfers." },
+                                    { "id": 2, "answer": "It combines local management with public server accuracy." },
+                                    { "id": 3, "answer": "It eliminates the need for a local server." },
+                                    { "id": 4, "answer": "It simplifies DNS management." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is one of the uses of internal DNS?",
+                                "answers": [
+                                    { "id": 1, "answer": "Mapping internal computers to IP addresses." },
+                                    { "id": 2, "answer": "Transferring files over the internet." },
+                                    { "id": 3, "answer": "Monitoring internet traffic." },
+                                    { "id": 4, "answer": "Encrypting data transfers." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "What advantage does a proxy server provide in an organization?",
+                                "answers": [
+                                    { "id": 1, "answer": "It improves network privacy and security." },
+                                    { "id": 2, "answer": "It speeds up internet connection." },
+                                    { "id": 3, "answer": "It provides direct internet access to all employees." },
+                                    { "id": 4, "answer": "It acts as a backup for all files." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "What is the purpose of FTP?",
+                                "answers": [
+                                    { "id": 1, "answer": "To transfer files over the internet." },
+                                    { "id": 2, "answer": "To encrypt data during transmission." },
+                                    { "id": 3, "answer": "To provide real-time communication." },
+                                    { "id": 4, "answer": "To manage network resources." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "What does SFTP stand for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Secure File Transfer Protocol." },
+                                    { "id": 2, "answer": "Simple File Transfer Protocol." },
+                                    { "id": 3, "answer": "Standard File Transfer Protocol." },
+                                    { "id": 4, "answer": "System File Transfer Protocol." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "What is TFTP primarily used for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Transferring sensitive files." },
+                                    { "id": 2, "answer": "Transferring generic files." },
+                                    { "id": 3, "answer": "Encrypting data." },
+                                    { "id": 4, "answer": "Remote desktop access." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 18,
+                                "title": "What does NTP stand for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Network Time Protocol." },
+                                    { "id": 2, "answer": "Network Transmission Protocol." },
+                                    { "id": 3, "answer": "Network Transfer Protocol." },
+                                    { "id": 4, "answer": "Network Testing Protocol." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "What is one primary benefit of a local NTP server?",
+                                "answers": [
+                                    { "id": 1, "answer": "Eliminates the need for internet access." },
+                                    { "id": 2, "answer": "Provides full control over synchronization." },
+                                    { "id": 3, "answer": "Requires no configuration." },
+                                    { "id": 4, "answer": "Is easier to set up than a public server." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 20,
+                                "title": "What is an intranet?",
+                                "answers": [
+                                    { "id": 1, "answer": "An internal network exclusive to a company." },
+                                    { "id": 2, "answer": "A public network accessible to everyone." },
+                                    { "id": 3, "answer": "A type of internet browser." },
+                                    { "id": 4, "answer": "A server used for external communications." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 21,
+                                "title": "What is a proxy server used for?",
+                                "answers": [
+                                    { "id": 1, "answer": "To act as an intermediary between users and the internet." },
+                                    { "id": 2, "answer": "To store files locally." },
+                                    { "id": 3, "answer": "To enhance internet speed." },
+                                    { "id": 4, "answer": "To monitor email communications." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 22,
+                                "title": "What does DNS stand for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Domain Name System." },
+                                    { "id": 2, "answer": "Dynamic Network Service." },
+                                    { "id": 3, "answer": "Data Network System." },
+                                    { "id": 4, "answer": "Direct Name Service." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 23,
+                                "title": "What is the main function of DNS?",
+                                "answers": [
+                                    { "id": 1, "answer": "To translate domain names into IP addresses." },
+                                    { "id": 2, "answer": "To provide secure file transfers." },
+                                    { "id": 3, "answer": "To manage IP address assignments." },
+                                    { "id": 4, "answer": "To monitor network traffic." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 24,
+                                "title": "What is the benefit of setting up your own DNS server?",
+                                "answers": [
+                                    { "id": 1, "answer": "Greater control over domain name management." },
+                                    { "id": 2, "answer": "Eliminates the need for internet access." },
+                                    { "id": 3, "answer": "Reduces server costs to zero." },
+                                    { "id": 4, "answer": "Simplifies network configuration." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 25,
+                                "title": "What is the primary purpose of DHCP?",
+                                "answers": [
+                                    { "id": 1, "answer": "To assign IP addresses to devices on a network." },
+                                    { "id": 2, "answer": "To manage file transfers." },
+                                    { "id": 3, "answer": "To provide time synchronization." },
+                                    { "id": 4, "answer": "To monitor network security." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 26,
+                                "title": "What does a DHCP server do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Leases IP addresses to client devices." },
+                                    { "id": 2, "answer": "Translates domain names into IP addresses." },
+                                    { "id": 3, "answer": "Provides internet access." },
+                                    { "id": 4, "answer": "Manages local file storage." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 27,
+                                "title": "How does DHCP integrate with DNS?",
+                                "answers": [
+                                    { "id": 1, "answer": "By automatically updating DNS mappings when IP addresses change." },
+                                    { "id": 2, "answer": "By providing internet access to devices." },
+                                    { "id": 3, "answer": "By translating IP addresses into domain names." },
+                                    { "id": 4, "answer": "By configuring network traffic." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 28,
+                                "title": "What is a limitation of using local hosts files for name resolution?",
+                                "answers": [
+                                    { "id": 1, "answer": "They do not scale well for larger networks." },
+                                    { "id": 2, "answer": "They are not secure." },
+                                    { "id": 3, "answer": "They require constant internet access." },
+                                    { "id": 4, "answer": "They are prone to system crashes." }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module2-4",
+                        "title": "Troubleshooting Network Services",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is the first step in troubleshooting DNS issues?",
+                                "answers": [
+                                    { "id": 1, "answer": "Check network connection." },
+                                    { "id": 2, "answer": "Verify DNS functionality with NS Lookup." },
+                                    { "id": 3, "answer": "Review the hosts file." },
+                                    { "id": 4, "answer": "Test direct IP access." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "Which command is used to verify DNS functionality?",
+                                "answers": [
+                                    { "id": 1, "answer": "ping" },
+                                    { "id": 2, "answer": "nslookup" },
+                                    { "id": 3, "answer": "tracert" },
+                                    { "id": 4, "answer": "dig" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "What command can be used to test direct IP access to a website?",
+                                "answers": [
+                                    { "id": 1, "answer": "ping" },
+                                    { "id": 2, "answer": "nslookup" },
+                                    { "id": 3, "answer": "tracert" },
+                                    { "id": 4, "answer": "accessing the IP in a browser" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 4,
+                                "title": "Where is the hosts file located in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "/etc/hosts" },
+                                    { "id": 2, "answer": "C:\\Windows\\System32\\drivers\\etc\\hosts" },
+                                    { "id": 3, "answer": "/usr/local/etc/hosts" },
+                                    { "id": 4, "answer": "/var/log/hosts" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 5,
+                                "title": "What should you do after editing the hosts file?",
+                                "answers": [
+                                    { "id": 1, "answer": "Restart your computer." },
+                                    { "id": 2, "answer": "Save changes and restart your web browser." },
+                                    { "id": 3, "answer": "Flush the DNS cache." },
+                                    { "id": 4, "answer": "Log out of your user account." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is a common initial assumption when a hostname cannot be resolved?",
+                                "answers": [
+                                    { "id": 1, "answer": "The network connection is down." },
+                                    { "id": 2, "answer": "The website is offline." },
+                                    { "id": 3, "answer": "The DNS server is unresponsive." },
+                                    { "id": 4, "answer": "The browser is malfunctioning." }
+                                ],
+                                "correct": 1
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "id": "module2-5",
+                        "title": "Managing System Services",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What command is used to check the status of the NTP service in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "service ntp status" },
+                                    { "id": 2, "answer": "ntp status" },
+                                    { "id": 3, "answer": "check ntp status" },
+                                    { "id": 4, "answer": "status ntp service" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is the purpose of the NTP daemon?",
+                                "answers": [
+                                    { "id": 1, "answer": "Synchronizes the system clock with standard time." },
+                                    { "id": 2, "answer": "Manages user authentication." },
+                                    { "id": 3, "answer": "Monitors system performance." },
+                                    { "id": 4, "answer": "Backs up system files." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 3,
+                                "title": "How can you stop the NTP service in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "sudo service ntp stop" },
+                                    { "id": 2, "answer": "service ntp halt" },
+                                    { "id": 3, "answer": "stop ntp" },
+                                    { "id": 4, "answer": "sudo stop ntp service" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "What command is used to start the NTP service in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "sudo service ntp start" },
+                                    { "id": 2, "answer": "service ntp begin" },
+                                    { "id": 3, "answer": "start ntp" },
+                                    { "id": 4, "answer": "sudo start ntp service" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 5,
+                                "title": "What is the command to restart the NTP service in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "sudo service ntp restart" },
+                                    { "id": 2, "answer": "restart ntp" },
+                                    { "id": 3, "answer": "service ntp reload" },
+                                    { "id": 4, "answer": "sudo restart ntp service" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "Which command checks the status of the Windows Update Service?",
+                                "answers": [
+                                    { "id": 1, "answer": "Get-Service wuauserv" },
+                                    { "id": 2, "answer": "Check-Service wuauserv" },
+                                    { "id": 3, "answer": "Service wuauserv status" },
+                                    { "id": 4, "answer": "Get-Service WindowsUpdate" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is required to start or stop the Windows Update Service?",
+                                "answers": [
+                                    { "id": 1, "answer": "Administrative privileges" },
+                                    { "id": 2, "answer": "User privileges" },
+                                    { "id": 3, "answer": "Network permissions" },
+                                    { "id": 4, "answer": "System configuration" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "How do you start the Windows Update Service?",
+                                "answers": [
+                                    { "id": 1, "answer": "Start-Service wuauserv" },
+                                    { "id": 2, "answer": "Get-Service wuauserv start" },
+                                    { "id": 3, "answer": "Run-Service wuauserv" },
+                                    { "id": 4, "answer": "Enable-Service wuauserv" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "What command is used to stop the Windows Update Service?",
+                                "answers": [
+                                    { "id": 1, "answer": "Stop-Service wuauserv" },
+                                    { "id": 2, "answer": "Get-Service wuauserv stop" },
+                                    { "id": 3, "answer": "End-Service wuauserv" },
+                                    { "id": 4, "answer": "Stop-Service WindowsUpdate" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "Which command provides detailed information about the Windows Update Service?",
+                                "answers": [
+                                    { "id": 1, "answer": "Get-Service wuauserv | Format-List *" },
+                                    { "id": 2, "answer": "Get-Service wuauserv -Detailed" },
+                                    { "id": 3, "answer": "Show-Service wuauserv" },
+                                    { "id": 4, "answer": "Get-Service wuauserv info" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 11,
+                                "title": "What does the operating system do regarding services and daemons?",
+                                "answers": [
+                                    { "id": 1, "answer": "Ensures they are running without user intervention." },
+                                    { "id": 2, "answer": "Requires users to start and stop them manually." },
+                                    { "id": 3, "answer": "Automatically installs them every boot." },
+                                    { "id": 4, "answer": "Sends alerts if they stop." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 12,
+                                "title": "What must system administrators do to configure services?",
+                                "answers": [
+                                    { "id": 1, "answer": "Edit configuration files." },
+                                    { "id": 2, "answer": "Reinstall the service." },
+                                    { "id": 3, "answer": "Delete existing services." },
+                                    { "id": 4, "answer": "Run diagnostic tools." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "How can you view all registered services on a Windows system?",
+                                "answers": [
+                                    { "id": 1, "answer": "By running the Get-Service command in PowerShell." },
+                                    { "id": 2, "answer": "By accessing the Windows Registry." },
+                                    { "id": 3, "answer": "By using the Services Management Console." },
+                                    { "id": 4, "answer": "By opening the Control Panel." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "What administrative privilege is required to start or stop services in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "No privileges are required." },
+                                    { "id": 2, "answer": "Regular user privileges." },
+                                    { "id": 3, "answer": "Administrative privileges." },
+                                    { "id": 4, "answer": "Guest privileges." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 15,
+                                "title": "What command is used to stop a running service in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "Stop-Service <service_name>" },
+                                    { "id": 2, "answer": "Get-Service <service_name>" },
+                                    { "id": 3, "answer": "Start-Service <service_name>" },
+                                    { "id": 4, "answer": "Restart-Service <service_name>" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "Where are service configuration settings primarily stored in Windows?",
+                                "answers": [
+                                    { "id": 1, "answer": "In the Windows Registry." },
+                                    { "id": 2, "answer": "In the /etc directory." },
+                                    { "id": 3, "answer": "In the Control Panel." },
+                                    { "id": 4, "answer": "In a text file." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "What is the command to install the vsftpd service in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "apt install vsftpd" },
+                                    { "id": 2, "answer": "install vsftpd" },
+                                    { "id": 3, "answer": "service vsftpd install" },
+                                    { "id": 4, "answer": "sudo install vsftpd" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "How do you check the status of the vsftpd service in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "service vsftpd status" },
+                                    { "id": 2, "answer": "check vsftpd status" },
+                                    { "id": 3, "answer": "status vsftpd" },
+                                    { "id": 4, "answer": "get vsftpd status" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "What must you change in the vsftpd configuration file to allow anonymous connections?",
+                                "answers": [
+                                    { "id": 1, "answer": "Change anonymous_enable from NO to YES." },
+                                    { "id": 2, "answer": "Change allow_anonymous from false to true." },
+                                    { "id": 3, "answer": "Add allow_anonymous_access = true." },
+                                    { "id": 4, "answer": "Modify anonymous_login to yes." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 20,
+                                "title": "What command is used to reload the vsftpd service after changing the configuration?",
+                                "answers": [
+                                    { "id": 1, "answer": "sudo service vsftpd reload" },
+                                    { "id": 2, "answer": "service vsftpd restart" },
+                                    { "id": 3, "answer": "reload vsftpd" },
+                                    { "id": 4, "answer": "sudo vsftpd reload" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 21,
+                                "title": "What is the first step to enable Internet Information Services (IIS) on a Windows machine?",
+                                "answers": [
+                                    { "id": 1, "answer": "Open Control Panel and navigate to Programs." },
+                                    { "id": 2, "answer": "Run the Get-IIS command." },
+                                    { "id": 3, "answer": "Access the Windows Registry." },
+                                    { "id": 4, "answer": "Open Windows PowerShell." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 22,
+                                "title": "What URL do you enter in a web browser to verify the default website served by IIS?",
+                                "answers": [
+                                    { "id": 1, "answer": "http://localhost" },
+                                    { "id": 2, "answer": "http://127.0.0.1" },
+                                    { "id": 3, "answer": "http://example.com" },
+                                    { "id": 4, "answer": "http://mywebsite" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 23,
+                                "title": "What is the command used to add a new website in IIS Manager?",
+                                "answers": [
+                                    { "id": 1, "answer": "Right-click on Sites and select Add Website." },
+                                    { "id": 2, "answer": "Click on Add New Site." },
+                                    { "id": 3, "answer": "Use the command line to add a website." },
+                                    { "id": 4, "answer": "Select New Site from the menu." }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module2-6",
+                        "title": "Configuring Network Services",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is the primary purpose of dnsmasq?",
+                                "answers": [
+                                    { "id": 1, "answer": "To provide DNS, DHCP, TFTP, and PXE services." },
+                                    { "id": 2, "answer": "To act as a firewall for networks." },
+                                    { "id": 3, "answer": "To manage network bandwidth." },
+                                    { "id": 4, "answer": "To monitor network traffic." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "Which command is used to install dnsmasq on a Debian-based system?",
+                                "answers": [
+                                    { "id": 1, "answer": "sudo apt install dnsmasq" },
+                                    { "id": 2, "answer": "sudo install dnsmasq" },
+                                    { "id": 3, "answer": "apt-get dnsmasq install" },
+                                    { "id": 4, "answer": "dnf install dnsmasq" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 3,
+                                "title": "What is the basic functionality of dnsmasq after installation?",
+                                "answers": [
+                                    { "id": 1, "answer": "It provides a DNS query cache." },
+                                    { "id": 2, "answer": "It runs as a web server." },
+                                    { "id": 3, "answer": "It installs security patches." },
+                                    { "id": 4, "answer": "It monitors network traffic." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "How can you query the local dnsmasq service for the IP address of a domain?",
+                                "answers": [
+                                    { "id": 1, "answer": "Using the dig command with @localhost." },
+                                    { "id": 2, "answer": "Using nslookup command." },
+                                    { "id": 3, "answer": "Using the host command." },
+                                    { "id": 4, "answer": "Using traceroute command." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 5,
+                                "title": "What does the @localhost part in the dig command specify?",
+                                "answers": [
+                                    { "id": 1, "answer": "It directs the query to the local DNS server." },
+                                    { "id": 2, "answer": "It specifies an external DNS server." },
+                                    { "id": 3, "answer": "It indicates a cache server." },
+                                    { "id": 4, "answer": "It shows the query is for a local file." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is the command to stop the current dnsmasq service?",
+                                "answers": [
+                                    { "id": 1, "answer": "sudo service dnsmasq stop" },
+                                    { "id": 2, "answer": "sudo systemctl stop dnsmasq" },
+                                    { "id": 3, "answer": "sudo kill dnsmasq" },
+                                    { "id": 4, "answer": "sudo dnsmasq --stop" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "What does the -d flag do when starting dnsmasq?",
+                                "answers": [
+                                    { "id": 1, "answer": "Runs dnsmasq in debug mode." },
+                                    { "id": 2, "answer": "Disables logging." },
+                                    { "id": 3, "answer": "Starts the service in the background." },
+                                    { "id": 4, "answer": "Clears the DNS cache." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "What will dnsmasq do for a domain queried for the first time?",
+                                "answers": [
+                                    { "id": 1, "answer": "Forward it to the configured DNS server." },
+                                    { "id": 2, "answer": "Respond with an error." },
+                                    { "id": 3, "answer": "Cache the answer without querying." },
+                                    { "id": 4, "answer": "Ignore the request." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "How can you create a file for authoritative answers in dnsmasq?",
+                                "answers": [
+                                    { "id": 1, "answer": "By listing internal hostnames and IPs." },
+                                    { "id": 2, "answer": "By editing the dnsmasq configuration." },
+                                    { "id": 3, "answer": "By modifying the /etc/hosts file directly." },
+                                    { "id": 4, "answer": "By using a GUI tool." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is the command to check if dnsmasq recognizes an internal host?",
+                                "answers": [
+                                    { "id": 1, "answer": "dig oxygen.local @localhost" },
+                                    { "id": 2, "answer": "dig oxygen.local" },
+                                    { "id": 3, "answer": "nslookup oxygen.local" },
+                                    { "id": 4, "answer": "host oxygen.local" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 11,
+                                "title": "What response will dnsmasq give for a hostname not in its list?",
+                                "answers": [
+                                    { "id": 1, "answer": "Forward the query to the configured DNS server." },
+                                    { "id": 2, "answer": "Return an NXDOMAIN response." },
+                                    { "id": 3, "answer": "Respond with an internal error." },
+                                    { "id": 4, "answer": "Ignore the request." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 12,
+                                "title": "What is one of the roles of dnsmasq as a DHCP server?",
+                                "answers": [
+                                    { "id": 1, "answer": "Assign IP addresses to clients." },
+                                    { "id": 2, "answer": "Monitor network traffic." },
+                                    { "id": 3, "answer": "Act as a firewall." },
+                                    { "id": 4, "answer": "Provide file sharing." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "What must you configure for dnsmasq to listen on a specific interface?",
+                                "answers": [
+                                    { "id": 1, "answer": "Specify the interface in the configuration." },
+                                    { "id": 2, "answer": "Run it with sudo." },
+                                    { "id": 3, "answer": "Edit the hosts file." },
+                                    { "id": 4, "answer": "Use the dig command." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "What command starts dnsmasq with DHCP configuration?",
+                                "answers": [
+                                    { "id": 1, "answer": "sudo dnsmasq -d -q -C dhcp.config" },
+                                    { "id": 2, "answer": "sudo service dnsmasq start" },
+                                    { "id": 3, "answer": "sudo dnsmasq --start" },
+                                    { "id": 4, "answer": "sudo dnsmasq --run" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "What command can be used to run a DHCP client to request an IP address?",
+                                "answers": [
+                                    { "id": 1, "answer": "sudo dhclient -i eth_cli -v" },
+                                    { "id": 2, "answer": "dhcp-client eth_cli" },
+                                    { "id": 3, "answer": "sudo ip request eth_cli" },
+                                    { "id": 4, "answer": "sudo dhclient -r" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "What command checks the assigned IP address on a DHCP client?",
+                                "answers": [
+                                    { "id": 1, "answer": "ip address show eth_cli" },
+                                    { "id": 2, "answer": "ifconfig eth_cli" },
+                                    { "id": 3, "answer": "ip addr show" },
+                                    { "id": 4, "answer": "show ip eth_cli" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "What is one key takeaway when using dnsmasq?",
+                                "answers": [
+                                    { "id": 1, "answer": "Test in a safe environment." },
+                                    { "id": 2, "answer": "Use it for large networks." },
+                                    { "id": 3, "answer": "Run it without configuration." },
+                                    { "id": 4, "answer": "Monitor traffic actively." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "What happens when you restart dnsmasq?",
+                                "answers": [
+                                    { "id": 1, "answer": "Cached records are cleared." },
+                                    { "id": 2, "answer": "Configurations are reset." },
+                                    { "id": 3, "answer": "All queries are lost." },
+                                    { "id": 4, "answer": "Logs are erased." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "Which of the following can dnsmasq help mitigate?",
+                                "answers": [
+                                    { "id": 1, "answer": "DNS amplification attacks." },
+                                    { "id": 2, "answer": "Malware attacks." },
+                                    { "id": 3, "answer": "Data breaches." },
+                                    { "id": 4, "answer": "Phishing attacks." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 20,
+                                "title": "What configuration file is commonly used for dnsmasq?",
+                                "answers": [
+                                    { "id": 1, "answer": "/etc/dnsmasq.conf" },
+                                    { "id": 2, "answer": "/etc/resolv.conf" },
+                                    { "id": 3, "answer": "/etc/network/interfaces" },
+                                    { "id": 4, "answer": "/etc/hosts" }
+                                ],
+                                "correct": 1
                             }
                         ]
                         
                     }
                 ]
             }
+
         ]
     }
 }
