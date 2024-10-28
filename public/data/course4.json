@@ -3,501 +3,501 @@
         "title": "System Administration and IT Infra Services",
         "modules": [
             {
-                "id": "module1",
+                "id": "module4",
                 "title": "Module 1: What is System Administration? ",
                 "subModules": [
                     {
-                        "id": "module1-1",
+                        "id": "module4-1",
                         "title": "Intro to System Administration",
                         "questions": [
                             {
                                 "id": 1,
                                 "title": "What is Systems Administration?",
                                 "answers": [
-                                    { "id": 1, "answer": "Managing and maintaining software and hardware." },
-                                    { "id": 2, "answer": "Overseeing employee productivity." },
-                                    { "id": 3, "answer": "Implementing marketing strategies." },
-                                    { "id": 4, "answer": "None of the above." }
+                                    { "id": 1, "answer": "Managing an organization's IT infrastructure." },
+                                    { "id": 2, "answer": "Developing software applications." },
+                                    { "id": 3, "answer": "Conducting market research." },
+                                    { "id": 4, "answer": "Designing user interfaces." }
                                 ],
                                 "correct": 1
                             },
                             {
                                 "id": 2,
-                                "title": "Why is IT infrastructure important for organizations?",
+                                "title": "What does IT infrastructure include?",
                                 "answers": [
-                                    { "id": 1, "answer": "It is only important for large organizations." },
-                                    { "id": 2, "answer": "It supports employee operations and business functions." },
-                                    { "id": 3, "answer": "It helps in social media marketing." },
-                                    { "id": 4, "answer": "It has no real importance." }
+                                    { "id": 1, "answer": "Only software." },
+                                    { "id": 2, "answer": "Hardware, software, networks, and services." },
+                                    { "id": 3, "answer": "Only hardware and networks." },
+                                    { "id": 4, "answer": "Only services and applications." }
                                 ],
                                 "correct": 2
                             },
                             {
                                 "id": 3,
-                                "title": "What is one primary responsibility of a Systems Administrator?",
+                                "title": "Why is IT infrastructure important for employee operations?",
                                 "answers": [
-                                    { "id": 1, "answer": "To handle customer service inquiries." },
-                                    { "id": 2, "answer": "To manage IT infrastructure and prevent disasters." },
-                                    { "id": 3, "answer": "To develop software applications." },
-                                    { "id": 4, "answer": "To perform market analysis." }
+                                    { "id": 1, "answer": "It provides access to social media." },
+                                    { "id": 2, "answer": "Employees need computers and internet access to perform their tasks." },
+                                    { "id": 3, "answer": "It helps in organizing office events." },
+                                    { "id": 4, "answer": "It ensures employees are always online." }
                                 ],
                                 "correct": 2
                             },
                             {
                                 "id": 4,
-                                "title": "What day is dedicated to appreciating the hard work of Sysadmins?",
+                                "title": "What does a systems administrator (Sysadmin) do?",
                                 "answers": [
-                                    { "id": 1, "answer": "Sysadmin Recognition Day." },
-                                    { "id": 2, "answer": "Employee Appreciation Day." },
-                                    { "id": 3, "answer": "Sysadmin Appreciation Day." },
-                                    { "id": 4, "answer": "IT Professionals Day." }
+                                    { "id": 1, "answer": "Develops new software." },
+                                    { "id": 2, "answer": "Prevents IT disasters and maintains security." },
+                                    { "id": 3, "answer": "Manages employee HR issues." },
+                                    { "id": 4, "answer": "Designs websites." }
                                 ],
-                                "correct": 3
+                                "correct": 2
                             },
                             {
                                 "id": 5,
-                                "title": "How do responsibilities of a Sysadmin differ in small vs. large organizations?",
+                                "title": "What is Sysadmin Appreciation Day?",
                                 "answers": [
-                                    { "id": 1, "answer": "Small organizations have no Sysadmins." },
-                                    { "id": 2, "answer": "In small organizations, one Sysadmin manages everything." },
-                                    { "id": 3, "answer": "Large organizations have more flexible roles." },
-                                    { "id": 4, "answer": "There is no difference." }
+                                    { "id": 1, "answer": "A day to celebrate software developers." },
+                                    { "id": 2, "answer": "A day dedicated to appreciating the work of sysadmins." },
+                                    { "id": 3, "answer": "A day for IT training." },
+                                    { "id": 4, "answer": "A day to promote cybersecurity awareness." }
                                 ],
                                 "correct": 2
                             },
                             {
                                 "id": 6,
-                                "title": "What additional skills might a Sysadmin need for larger organizations?",
+                                "title": "How do responsibilities of a sysadmin vary in different organizations?",
                                 "answers": [
-                                    { "id": 1, "answer": "Basic computer skills." },
-                                    { "id": 2, "answer": "Automation and configuration management." },
-                                    { "id": 3, "answer": "Sales techniques." },
-                                    { "id": 4, "answer": "Graphic design." }
+                                    { "id": 1, "answer": "They always remain the same." },
+                                    { "id": 2, "answer": "Small organizations may have one sysadmin manage everything." },
+                                    { "id": 3, "answer": "Only large organizations require sysadmins." },
+                                    { "id": 4, "answer": "They are the same in small and large organizations." }
                                 ],
                                 "correct": 2
                             },
                             {
                                 "id": 7,
-                                "title": "What role do servers play in IT services?",
+                                "title": "What is the primary focus of the course on systems administration?",
                                 "answers": [
-                                    { "id": 1, "answer": "They are used for physical storage only." },
-                                    { "id": 2, "answer": "They store and run IT services." },
-                                    { "id": 3, "answer": "They are irrelevant to IT." },
-                                    { "id": 4, "answer": "They are used solely for gaming." }
+                                    { "id": 1, "answer": "Managing IT infrastructure for large organizations." },
+                                    { "id": 2, "answer": "Managing IT infrastructure for small organizations." },
+                                    { "id": 3, "answer": "Developing software solutions." },
+                                    { "id": 4, "answer": "Providing IT training." }
                                 ],
                                 "correct": 2
                             },
                             {
                                 "id": 8,
-                                "title": "What is a common type of server that stores web content?",
+                                "title": "What is a server?",
                                 "answers": [
-                                    { "id": 1, "answer": "Web server." },
-                                    { "id": 2, "answer": "Email server." },
-                                    { "id": 3, "answer": "Database server." },
-                                    { "id": 4, "answer": "SSH server." }
+                                    { "id": 1, "answer": "A type of application." },
+                                    { "id": 2, "answer": "A machine or software that provides services to clients." },
+                                    { "id": 3, "answer": "A storage device." },
+                                    { "id": 4, "answer": "A network protocol." }
                                 ],
-                                "correct": 1
+                                "correct": 2
                             },
                             {
                                 "id": 9,
-                                "title": "How can a server provide services to multiple clients simultaneously?",
+                                "title": "What are web servers used for?",
                                 "answers": [
-                                    { "id": 1, "answer": "By using a single IP address." },
-                                    { "id": 2, "answer": "By managing requests and connections." },
-                                    { "id": 3, "answer": "By disconnecting previous clients." },
-                                    { "id": 4, "answer": "By storing data on local machines." }
+                                    { "id": 1, "answer": "To provide email services." },
+                                    { "id": 2, "answer": "To store and serve content to clients via the internet." },
+                                    { "id": 3, "answer": "To store databases." },
+                                    { "id": 4, "answer": "To manage hardware." }
                                 ],
                                 "correct": 2
                             },
                             {
                                 "id": 10,
-                                "title": "What distinguishes a tower server from other server types?",
+                                "title": "How can a server provide services?",
                                 "answers": [
-                                    { "id": 1, "answer": "It is mounted flat." },
-                                    { "id": 2, "answer": "It resembles a desktop computer." },
-                                    { "id": 3, "answer": "It is only used for gaming." },
-                                    { "id": 4, "answer": "It has no customization options." }
+                                    { "id": 1, "answer": "To only one client at a time." },
+                                    { "id": 2, "answer": "Simultaneously to multiple clients." },
+                                    { "id": 3, "answer": "Only to local machines." },
+                                    { "id": 4, "answer": "Only during business hours." }
                                 ],
                                 "correct": 2
                             },
                             {
                                 "id": 11,
-                                "title": "What is the purpose of a KVM switch?",
+                                "title": "What is a KVM switch used for?",
                                 "answers": [
-                                    { "id": 1, "answer": "To connect multiple monitors." },
-                                    { "id": 2, "answer": "To control multiple servers with one keyboard, monitor, and mouse." },
-                                    { "id": 3, "answer": "To store data." },
-                                    { "id": 4, "answer": "To enhance graphics performance." }
+                                    { "id": 1, "answer": "To connect to the internet." },
+                                    { "id": 2, "answer": "To control multiple servers using one set of peripherals." },
+                                    { "id": 3, "answer": "To back up data." },
+                                    { "id": 4, "answer": "To monitor network traffic." }
                                 ],
                                 "correct": 2
                             },
                             {
                                 "id": 12,
-                                "title": "What is cloud computing?",
+                                "title": "What is a common misconception about the Cloud?",
                                 "answers": [
-                                    { "id": 1, "answer": "A physical server." },
-                                    { "id": 2, "answer": "A network of servers providing services over the internet." },
-                                    { "id": 3, "answer": "A local storage solution." },
-                                    { "id": 4, "answer": "A method for installing software." }
+                                    { "id": 1, "answer": "It is a physical device." },
+                                    { "id": 2, "answer": "It is just a magical place for data." },
+                                    { "id": 3, "answer": "It requires no security." },
+                                    { "id": 4, "answer": "It is only for large companies." }
                                 ],
                                 "correct": 2
                             },
                             {
                                 "id": 13,
-                                "title": "What is a common misconception about the cloud?",
+                                "title": "What is cloud computing?",
                                 "answers": [
-                                    { "id": 1, "answer": "It requires physical servers." },
-                                    { "id": 2, "answer": "It is a magical entity dispersing data." },
-                                    { "id": 3, "answer": "It is always secure." },
-                                    { "id": 4, "answer": "It does not require internet access." }
+                                    { "id": 1, "answer": "Storing data on a local hard drive." },
+                                    { "id": 2, "answer": "Accessing data and applications via the internet." },
+                                    { "id": 3, "answer": "Downloading software to personal computers." },
+                                    { "id": 4, "answer": "Using USB drives for storage." }
                                 ],
                                 "correct": 2
                             },
                             {
                                 "id": 14,
-                                "title": "What are some benefits of using cloud services?",
+                                "title": "What are data centers?",
                                 "answers": [
-                                    { "id": 1, "answer": "Local storage requirements." },
-                                    { "id": 2, "answer": "Flexibility and scalability." },
-                                    { "id": 3, "answer": "Increased manual workload." },
-                                    { "id": 4, "answer": "Decreased security." }
+                                    { "id": 1, "answer": "Places where software is developed." },
+                                    { "id": 2, "answer": "Facilities housing servers." },
+                                    { "id": 3, "answer": "Locations for user training." },
+                                    { "id": 4, "answer": "Networking hubs." }
                                 ],
                                 "correct": 2
                             },
                             {
                                 "id": 15,
-                                "title": "What are some drawbacks of using cloud services?",
+                                "title": "How do large companies manage data centers?",
                                 "answers": [
-                                    { "id": 1, "answer": "No ongoing costs." },
-                                    { "id": 2, "answer": "Subscription costs can add up over time." },
-                                    { "id": 3, "answer": "Complete independence from service providers." },
+                                    { "id": 1, "answer": "They typically rent space in data centers." },
+                                    { "id": 2, "answer": "They own their own data centers." },
+                                    { "id": 3, "answer": "They do not use data centers." },
+                                    { "id": 4, "answer": "They rely on external vendors for data storage." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 16,
+                                "title": "What is a potential drawback of cloud services?",
+                                "answers": [
+                                    { "id": 1, "answer": "High upfront costs." },
+                                    { "id": 2, "answer": "Dependence on external service providers." },
+                                    { "id": 3, "answer": "Unlimited storage." },
                                     { "id": 4, "answer": "Guaranteed uptime." }
                                 ],
                                 "correct": 2
                             },
                             {
-                                "id": 16,
-                                "title": "What is a best practice for ensuring data availability?",
-                                "answers": [
-                                    { "id": 1, "answer": "Relying solely on cloud backups." },
-                                    { "id": 2, "answer": "Maintaining both cloud and physical backups." },
-                                    { "id": 3, "answer": "Never backing up data." },
-                                    { "id": 4, "answer": "Using only physical storage." }
-                                ],
-                                "correct": 2
-                            },
-                            {
                                 "id": 17,
-                                "title": "What should organizations consider when deciding between cloud services and physical servers?",
+                                "title": "What should you consider when weighing cloud vs. physical servers?",
                                 "answers": [
-                                    { "id": 1, "answer": "Only the initial setup cost." },
+                                    { "id": 1, "answer": "Only the cost." },
                                     { "id": 2, "answer": "Reliability, cost, and responsibility." },
-                                    { "id": 3, "answer": "The number of employees." },
-                                    { "id": 4, "answer": "Only the type of hardware used." }
+                                    { "id": 3, "answer": "Only the speed of services." },
+                                    { "id": 4, "answer": "The number of employees." }
                                 ],
                                 "correct": 2
                             },
                             {
                                 "id": 18,
-                                "title": "What is a crucial element in maintaining security policies in small organizations?",
+                                "title": "What is a recommended backup strategy?",
                                 "answers": [
-                                    { "id": 1, "answer": "Allowing all users to install software." },
-                                    { "id": 2, "answer": "Establishing software installation restrictions." },
-                                    { "id": 3, "answer": "Ignoring updates." },
-                                    { "id": 4, "answer": "Disabling firewalls." }
+                                    { "id": 1, "answer": "Only using cloud backup." },
+                                    { "id": 2, "answer": "Maintaining both cloud and physical backups." },
+                                    { "id": 3, "answer": "Never backing up data." },
+                                    { "id": 4, "answer": "Using only physical backups." }
                                 ],
                                 "correct": 2
                             },
                             {
                                 "id": 19,
-                                "title": "Why is user training important in IT policy implementation?",
+                                "title": "What is the role of a network administrator?",
                                 "answers": [
-                                    { "id": 1, "answer": "Users should remain uninformed." },
-                                    { "id": 2, "answer": "Informed users reduce security risks." },
-                                    { "id": 3, "answer": "Training is not necessary." },
-                                    { "id": 4, "answer": "Training increases risks." }
+                                    { "id": 1, "answer": "Develops software applications." },
+                                    { "id": 2, "answer": "Manages network infrastructure." },
+                                    { "id": 3, "answer": "Handles HR matters." },
+                                    { "id": 4, "answer": "Designs user interfaces." }
                                 ],
                                 "correct": 2
                             },
                             {
                                 "id": 20,
-                                "title": "What can regular audits of IT systems help identify?",
+                                "title": "What is virtualization?",
                                 "answers": [
-                                    { "id": 1, "answer": "Successful system performance." },
-                                    { "id": 2, "answer": "Areas of potential improvement." },
-                                    { "id": 3, "answer": "Unnecessary expenditures." },
-                                    { "id": 4, "answer": "No changes." }
+                                    { "id": 1, "answer": "Running multiple operating systems on a single hardware system." },
+                                    { "id": 2, "answer": "Creating physical backups." },
+                                    { "id": 3, "answer": "Connecting to the internet." },
+                                    { "id": 4, "answer": "Upgrading hardware." }
                                 ],
-                                "correct": 2
+                                "correct": 1
                             },
                             {
                                 "id": 21,
-                                "title": "What role does documentation play in systems administration?",
+                                "title": "What are hypervisors?",
                                 "answers": [
-                                    { "id": 1, "answer": "It is not needed." },
-                                    { "id": 2, "answer": "It aids in troubleshooting and knowledge sharing." },
-                                    { "id": 3, "answer": "It creates confusion." },
-                                    { "id": 4, "answer": "It hinders progress." }
+                                    { "id": 1, "answer": "Hardware devices." },
+                                    { "id": 2, "answer": "Software that creates virtual machines." },
+                                    { "id": 3, "answer": "Networking tools." },
+                                    { "id": 4, "answer": "Storage devices." }
                                 ],
                                 "correct": 2
                             },
                             {
                                 "id": 22,
-                                "title": "What is the impact of outdated software on security?",
+                                "title": "What is the primary benefit of virtualization?",
                                 "answers": [
-                                    { "id": 1, "answer": "It enhances security." },
-                                    { "id": 2, "answer": "It can lead to vulnerabilities." },
-                                    { "id": 3, "answer": "It has no effect." },
-                                    { "id": 4, "answer": "It improves performance." }
+                                    { "id": 1, "answer": "Increased physical space." },
+                                    { "id": 2, "answer": "More efficient use of hardware resources." },
+                                    { "id": 3, "answer": "Simplified software development." },
+                                    { "id": 4, "answer": "Easier user management." }
                                 ],
                                 "correct": 2
                             },
                             {
                                 "id": 23,
-                                "title": "What is a primary function of a firewall?",
+                                "title": "What is the purpose of network security?",
                                 "answers": [
-                                    { "id": 1, "answer": "To allow all traffic." },
-                                    { "id": 2, "answer": "To control incoming and outgoing network traffic." },
-                                    { "id": 3, "answer": "To enhance internet speed." },
-                                    { "id": 4, "answer": "To block all applications." }
+                                    { "id": 1, "answer": "To ensure everyone has access." },
+                                    { "id": 2, "answer": "To protect networks from unauthorized access." },
+                                    { "id": 3, "answer": "To monitor network traffic." },
+                                    { "id": 4, "answer": "To develop applications." }
                                 ],
                                 "correct": 2
                             },
                             {
                                 "id": 24,
-                                "title": "Why is network monitoring important?",
+                                "title": "What is an effective way to secure a network?",
                                 "answers": [
-                                    { "id": 1, "answer": "It increases downtime." },
-                                    { "id": 2, "answer": "It helps identify issues before they escalate." },
-                                    { "id": 3, "answer": "It is a waste of resources." },
-                                    { "id": 4, "answer": "It has no practical use." }
+                                    { "id": 1, "answer": "Using weak passwords." },
+                                    { "id": 2, "answer": "Implementing strong passwords and firewall rules." },
+                                    { "id": 3, "answer": "Allowing open access to all users." },
+                                    { "id": 4, "answer": "Neglecting software updates." }
                                 ],
                                 "correct": 2
                             },
                             {
                                 "id": 25,
-                                "title": "What does user access control help with?",
+                                "title": "What is the benefit of regular software updates?",
                                 "answers": [
-                                    { "id": 1, "answer": "Limiting access to sensitive information." },
-                                    { "id": 2, "answer": "Granting unrestricted access to all users." },
-                                    { "id": 3, "answer": "It is not necessary." },
-                                    { "id": 4, "answer": "Only allowing admin access." }
+                                    { "id": 1, "answer": "They are unnecessary." },
+                                    { "id": 2, "answer": "They help fix vulnerabilities and improve performance." },
+                                    { "id": 3, "answer": "They slow down systems." },
+                                    { "id": 4, "answer": "They complicate user tasks." }
                                 ],
-                                "correct": 1
+                                "correct": 2
                             }
                         ]
                         
                     },
                     {
-                        "id": "module1-2",
-                        "title": "Systems Administration Tasks",
+                        "id": "module4-2",
+                        "title": "Sys Admin Tasks",
                         "questions": [
                             {
                                 "id": 1,
-                                "title": "What is the primary responsibility of a sysadmin regarding user accounts?",
+                                "title": "Should users be allowed to install software on their own devices?",
                                 "answers": [
-                                    { "id": 1, "answer": "Creating user accounts." },
-                                    { "id": 2, "answer": "Designing websites." },
-                                    { "id": 3, "answer": "Writing code." },
-                                    { "id": 4, "answer": "Managing marketing campaigns." }
+                                    { "id": 1, "answer": "Yes, it enhances productivity." },
+                                    { "id": 2, "answer": "No, it minimizes the risk of malicious software." },
+                                    { "id": 3, "answer": "Only for specific software." },
+                                    { "id": 4, "answer": "Only during work hours." }
                                 ],
-                                "correct": 1
+                                "correct": 2
                             },
                             {
                                 "id": 2,
-                                "title": "What should be done when an employee leaves the organization?",
+                                "title": "What is a key element of a good password policy?",
                                 "answers": [
-                                    { "id": 1, "answer": "Remove their user account." },
-                                    { "id": 2, "answer": "Keep their account active." },
-                                    { "id": 3, "answer": "Transfer their account to another user." },
-                                    { "id": 4, "answer": "Change their password." }
+                                    { "id": 1, "answer": "Passwords should be at least eight characters long." },
+                                    { "id": 2, "answer": "Passwords can be simple if changed frequently." },
+                                    { "id": 3, "answer": "Passwords should avoid the use of symbols." },
+                                    { "id": 4, "answer": "Passwords should be easy to remember." }
                                 ],
                                 "correct": 1
                             },
                             {
                                 "id": 3,
-                                "title": "What is a standardized image used for?",
+                                "title": "Should users be able to view non-work-related websites like Facebook?",
                                 "answers": [
-                                    { "id": 1, "answer": "To maintain consistency across user machines." },
-                                    { "id": 2, "answer": "To improve graphic design." },
-                                    { "id": 3, "answer": "To create promotional materials." },
-                                    { "id": 4, "answer": "To manage social media." }
+                                    { "id": 1, "answer": "Yes, to promote the company on social media." },
+                                    { "id": 2, "answer": "No, to ensure productivity and security." },
+                                    { "id": 3, "answer": "It depends on the organization’s goals and culture." },
+                                    { "id": 4, "answer": "Only during lunch breaks." }
                                 ],
-                                "correct": 1
+                                "correct": 3
                             },
                             {
                                 "id": 4,
-                                "title": "What is involved in the procurement of new hardware?",
+                                "title": "Should a device password be set on company phones?",
                                 "answers": [
-                                    { "id": 1, "answer": "Acquiring new devices for employees." },
-                                    { "id": 2, "answer": "Writing software code." },
-                                    { "id": 3, "answer": "Creating marketing strategies." },
-                                    { "id": 4, "answer": "Setting up user accounts." }
+                                    { "id": 1, "answer": "No, it is not necessary." },
+                                    { "id": 2, "answer": "Yes, to protect sensitive company information." },
+                                    { "id": 3, "answer": "Only for high-level employees." },
+                                    { "id": 4, "answer": "Only if the employee requests it." }
                                 ],
-                                "correct": 1
+                                "correct": 2
                             },
                             {
                                 "id": 5,
-                                "title": "What is the purpose of imaging computers with a base image?",
+                                "title": "Where should policy documentation be stored?",
                                 "answers": [
-                                    { "id": 1, "answer": "To ensure all machines have the same configuration." },
-                                    { "id": 2, "answer": "To increase file storage." },
-                                    { "id": 3, "answer": "To improve internet speed." },
-                                    { "id": 4, "answer": "To create backups." }
+                                    { "id": 1, "answer": "In a central, easily accessible location." },
+                                    { "id": 2, "answer": "On each employee’s personal computer." },
+                                    { "id": 3, "answer": "In a secure, but hard-to-access location." },
+                                    { "id": 4, "answer": "Only in printed form." }
                                 ],
                                 "correct": 1
                             },
                             {
                                 "id": 6,
-                                "title": "Why is regular maintenance important for user machines?",
+                                "title": "What should company policy documentation include?",
                                 "answers": [
-                                    { "id": 1, "answer": "To ensure they operate with the latest secure software." },
-                                    { "id": 2, "answer": "To increase battery life." },
-                                    { "id": 3, "answer": "To enhance graphics performance." },
-                                    { "id": 4, "answer": "To reduce power consumption." }
+                                    { "id": 1, "answer": "Only security guidelines." },
+                                    { "id": 2, "answer": "Detailed descriptions of each policy and routine procedures." },
+                                    { "id": 3, "answer": "Only compliance requirements." },
+                                    { "id": 4, "answer": "Only IT infrastructure services." }
                                 ],
-                                "correct": 1
+                                "correct": 2
                             },
                             {
                                 "id": 7,
-                                "title": "What does batch updating help sysadmins do?",
+                                "title": "Why are regular password changes recommended?",
                                 "answers": [
-                                    { "id": 1, "answer": "Streamline the update process." },
-                                    { "id": 2, "answer": "Increase system crashes." },
-                                    { "id": 3, "answer": "Remove all installed software." },
-                                    { "id": 4, "answer": "Disable security features." }
+                                    { "id": 1, "answer": "To annoy employees." },
+                                    { "id": 2, "answer": "To enhance security." },
+                                    { "id": 3, "answer": "To ensure passwords are forgotten." },
+                                    { "id": 4, "answer": "To make it harder for employees to log in." }
                                 ],
-                                "correct": 1
+                                "correct": 2
                             },
                             {
                                 "id": 8,
-                                "title": "What is a critical consideration when planning updates?",
+                                "title": "What is a key responsibility of IT support specialists?",
                                 "answers": [
-                                    { "id": 1, "answer": "Identifying suitable times for downtime." },
-                                    { "id": 2, "answer": "Making updates during work hours." },
-                                    { "id": 3, "answer": "Ignoring user feedback." },
-                                    { "id": 4, "answer": "Avoiding documentation." }
+                                    { "id": 1, "answer": "Overseeing essential IT infrastructure services." },
+                                    { "id": 2, "answer": "Managing only file storage." },
+                                    { "id": 3, "answer": "Ignoring network access issues." },
+                                    { "id": 4, "answer": "Updating software only once a year." }
                                 ],
                                 "correct": 1
                             },
                             {
                                 "id": 9,
-                                "title": "What is essential for maintaining system integrity?",
+                                "title": "Why should mobile devices have remote wipe capabilities?",
                                 "answers": [
-                                    { "id": 1, "answer": "Routine security updates." },
-                                    { "id": 2, "answer": "Ignoring software patches." },
-                                    { "id": 3, "answer": "Reducing network security." },
-                                    { "id": 4, "answer": "Uninstalling antivirus software." }
+                                    { "id": 1, "answer": "To make it easier to reset devices." },
+                                    { "id": 2, "answer": "To protect sensitive company information if the device is lost or stolen." },
+                                    { "id": 3, "answer": "To remove unnecessary apps." },
+                                    { "id": 4, "answer": "To avoid installing new apps." }
                                 ],
-                                "correct": 1
+                                "correct": 2
                             },
                             {
                                 "id": 10,
-                                "title": "What role do vendor relationships play for sysadmins?",
+                                "title": "Why is regular security patching important?",
                                 "answers": [
-                                    { "id": 1, "answer": "They help procure necessary hardware." },
-                                    { "id": 2, "answer": "They assist in user training." },
-                                    { "id": 3, "answer": "They manage employee schedules." },
-                                    { "id": 4, "answer": "They handle financial audits." }
+                                    { "id": 1, "answer": "To address vulnerabilities." },
+                                    { "id": 2, "answer": "To increase software features." },
+                                    { "id": 3, "answer": "To reduce the need for updates." },
+                                    { "id": 4, "answer": "To slow down the system." }
                                 ],
                                 "correct": 1
                             },
                             {
                                 "id": 11,
-                                "title": "How should a sysadmin handle troubleshooting issues?",
+                                "title": "What should a sysadmin do when a user leaves the organization?",
                                 "answers": [
-                                    { "id": 1, "answer": "Ask probing questions to isolate problems." },
-                                    { "id": 2, "answer": "Ignore user complaints." },
-                                    { "id": 3, "answer": "Focus only on major issues." },
-                                    { "id": 4, "answer": "Close support tickets without resolution." }
+                                    { "id": 1, "answer": "Deactivate the user's account." },
+                                    { "id": 2, "answer": "Keep the account active." },
+                                    { "id": 3, "answer": "Change the user's password." },
+                                    { "id": 4, "answer": "Transfer the account to another user." }
                                 ],
                                 "correct": 1
                             },
                             {
                                 "id": 12,
-                                "title": "What is the significance of customer service skills for sysadmins?",
+                                "title": "What is an essential part of hardware lifecycle management?",
                                 "answers": [
-                                    { "id": 1, "answer": "They help maintain good user relationships." },
-                                    { "id": 2, "answer": "They are irrelevant to the job." },
-                                    { "id": 3, "answer": "They are only needed during emergencies." },
-                                    { "id": 4, "answer": "They decrease troubleshooting efficiency." }
+                                    { "id": 1, "answer": "Properly decommissioning old hardware." },
+                                    { "id": 2, "answer": "Ignoring hardware failures." },
+                                    { "id": 3, "answer": "Buying the latest model without planning." },
+                                    { "id": 4, "answer": "Keeping all hardware indefinitely." }
                                 ],
                                 "correct": 1
                             },
                             {
                                 "id": 13,
-                                "title": "What does a ticketing system help with?",
+                                "title": "What is a key benefit of batch updates?",
                                 "answers": [
-                                    { "id": 1, "answer": "Tracking and prioritizing requests for assistance." },
-                                    { "id": 2, "answer": "Deleting old files." },
-                                    { "id": 3, "answer": "Replacing hardware." },
-                                    { "id": 4, "answer": "Ignoring user requests." }
+                                    { "id": 1, "answer": "Reduces time spent on managing updates." },
+                                    { "id": 2, "answer": "Eliminates the need for updates." },
+                                    { "id": 3, "answer": "Increases downtime for users." },
+                                    { "id": 4, "answer": "Requires immediate updates for every new release." }
                                 ],
                                 "correct": 1
                             },
                             {
                                 "id": 14,
-                                "title": "Why is disaster preparedness crucial in IT?",
+                                "title": "What should be prioritized when applying updates?",
                                 "answers": [
-                                    { "id": 1, "answer": "Failures are inevitable and must be planned for." },
-                                    { "id": 2, "answer": "It is a waste of time." },
-                                    { "id": 3, "answer": "It is only important for large companies." },
-                                    { "id": 4, "answer": "It prevents all failures." }
+                                    { "id": 1, "answer": "Critical security patches." },
+                                    { "id": 2, "answer": "Minor feature updates." },
+                                    { "id": 3, "answer": "User interface changes." },
+                                    { "id": 4, "answer": "Visual enhancements." }
                                 ],
                                 "correct": 1
                             },
                             {
                                 "id": 15,
-                                "title": "What is an effective strategy for data backup?",
+                                "title": "Why is documentation important for sysadmins?",
                                 "answers": [
-                                    { "id": 1, "answer": "Routine backups to secure locations." },
-                                    { "id": 2, "answer": "Backing up data only when convenient." },
-                                    { "id": 3, "answer": "Storing backups in the same location as primary data." },
-                                    { "id": 4, "answer": "Ignoring data backup." }
+                                    { "id": 1, "answer": "It helps ensure clarity and accessibility of policies." },
+                                    { "id": 2, "answer": "It's optional and not necessary." },
+                                    { "id": 3, "answer": "It increases confusion among employees." },
+                                    { "id": 4, "answer": "It has no impact on operations." }
                                 ],
                                 "correct": 1
                             },
                             {
                                 "id": 16,
-                                "title": "What should sysadmins do with obsolete hardware?",
+                                "title": "What is a key responsibility when managing phone systems?",
                                 "answers": [
-                                    { "id": 1, "answer": "Plan for recycling or proper disposal." },
-                                    { "id": 2, "answer": "Leave it unused in storage." },
-                                    { "id": 3, "answer": "Sell it without proper wiping." },
-                                    { "id": 4, "answer": "Continue using it indefinitely." }
+                                    { "id": 1, "answer": "Setup and configuration." },
+                                    { "id": 2, "answer": "Ignoring phone line issues." },
+                                    { "id": 3, "answer": "Replacing phones every year." },
+                                    { "id": 4, "answer": "Outsourcing all phone management." }
                                 ],
                                 "correct": 1
                             },
                             {
                                 "id": 17,
-                                "title": "What is a key benefit of automated provisioning methods?",
+                                "title": "What should be done with a computer that is too old?",
                                 "answers": [
-                                    { "id": 1, "answer": "They reduce setup time significantly." },
-                                    { "id": 2, "answer": "They eliminate the need for training." },
-                                    { "id": 3, "answer": "They require manual intervention." },
-                                    { "id": 4, "answer": "They increase complexity." }
+                                    { "id": 1, "answer": "Determine recycling options." },
+                                    { "id": 2, "answer": "Continue using it indefinitely." },
+                                    { "id": 3, "answer": "Sell it without checking condition." },
+                                    { "id": 4, "answer": "Ignore its age." }
                                 ],
                                 "correct": 1
                             },
                             {
                                 "id": 18,
-                                "title": "What is a crucial aspect of managing printers?",
+                                "title": "What is a crucial step in disaster recovery?",
                                 "answers": [
-                                    { "id": 1, "answer": "Ensuring they are functioning correctly." },
-                                    { "id": 2, "answer": "Ignoring error messages." },
-                                    { "id": 3, "answer": "Increasing their price." },
-                                    { "id": 4, "answer": "Decreasing their usage." }
+                                    { "id": 1, "answer": "Routine backups to a secure location." },
+                                    { "id": 2, "answer": "Backing up data only when needed." },
+                                    { "id": 3, "answer": "Ignoring disaster preparedness." },
+                                    { "id": 4, "answer": "Storing backups in the same location as primary data." }
                                 ],
                                 "correct": 1
                             },
                             {
                                 "id": 19,
-                                "title": "What should be included in a disaster recovery plan?",
+                                "title": "What is a key skill for troubleshooting?",
                                 "answers": [
-                                    { "id": 1, "answer": "Clear steps for recovery after a failure." },
-                                    { "id": 2, "answer": "Only a list of hardware." },
-                                    { "id": 3, "answer": "A schedule for software updates." },
-                                    { "id": 4, "answer": "Unrelated business goals." }
+                                    { "id": 1, "answer": "Asking probing questions." },
+                                    { "id": 2, "answer": "Avoiding communication with users." },
+                                    { "id": 3, "answer": "Rushing to conclusions." },
+                                    { "id": 4, "answer": "Ignoring user input." }
                                 ],
                                 "correct": 1
                             },
@@ -511,6 +511,453 @@
                                     { "id": 4, "answer": "Making random guesses about failures." }
                                 ],
                                 "correct": 1
+                            },
+                            {
+                                "id": 21,
+                                "title": "What is the first step in the vendor life-cycle management process?",
+                                "answers": [
+                                    { "id": 1, "answer": "Vendor evaluation and selection." },
+                                    { "id": 2, "answer": "Vendor identification and engagement." },
+                                    { "id": 3, "answer": "Vendor onboarding." },
+                                    { "id": 4, "answer": "Vendor risk management." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 22,
+                                "title": "What document is typically used to inform vendors of service needs and solicit proposals?",
+                                "answers": [
+                                    { "id": 1, "answer": "Service Level Agreement (SLA)." },
+                                    { "id": 2, "answer": "Purchase Order (PO)." },
+                                    { "id": 3, "answer": "Request for Proposal (RFP)." },
+                                    { "id": 4, "answer": "Statement of Work (SoW)." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 23,
+                                "title": "Which phase involves the evaluation and selection of vendors based on their proposals?",
+                                "answers": [
+                                    { "id": 1, "answer": "Pre-contract phase." },
+                                    { "id": 2, "answer": "Contract delivery phase." },
+                                    { "id": 3, "answer": "Post-contract phase." },
+                                    { "id": 4, "answer": "Risk management phase." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 24,
+                                "title": "Which factor is NOT typically considered during vendor evaluation?",
+                                "answers": [
+                                    { "id": 1, "answer": "Vendor's business history." },
+                                    { "id": 2, "answer": "Vendor's ratings and quality." },
+                                    { "id": 3, "answer": "Vendor's advertising budget." },
+                                    { "id": 4, "answer": "Vendor's expertise and skills." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 25,
+                                "title": "What is created to define performance criteria, milestones, and deliverables for the vendor?",
+                                "answers": [
+                                    { "id": 1, "answer": "Service Level Agreement (SLA)." },
+                                    { "id": 2, "answer": "Purchase Order (PO)." },
+                                    { "id": 3, "answer": "Request for Proposal (RFP)." },
+                                    { "id": 4, "answer": "Statement of Work (SoW)." }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 26,
+                                "title": "What is the purpose of the vendor onboarding process?",
+                                "answers": [
+                                    { "id": 1, "answer": "To finalize the vendor's contract." },
+                                    { "id": 2, "answer": "To record vendor information and provide necessary access and training." },
+                                    { "id": 3, "answer": "To evaluate vendor proposals." },
+                                    { "id": 4, "answer": "To manage vendor performance." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 27,
+                                "title": "Which phase involves monitoring vendor performance and managing risks?",
+                                "answers": [
+                                    { "id": 1, "answer": "Pre-contract phase." },
+                                    { "id": 2, "answer": "Contract delivery phase." },
+                                    { "id": 3, "answer": "Post-contract phase." },
+                                    { "id": 4, "answer": "Vendor engagement phase." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 28,
+                                "title": "What is a key activity during the contract delivery phase?",
+                                "answers": [
+                                    { "id": 1, "answer": "Vendor qualification and risk mitigation." },
+                                    { "id": 2, "answer": "Vendor onboarding." },
+                                    { "id": 3, "answer": "Performance management monitoring." },
+                                    { "id": 4, "answer": "Requesting vendor proposals." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 29,
+                                "title": "Why is it important to have a contingency plan for supply chain risks?",
+                                "answers": [
+                                    { "id": 1, "answer": "To ensure vendor proposals are accurate." },
+                                    { "id": 2, "answer": "To prevent project disruptions if the supply chain is affected." },
+                                    { "id": 3, "answer": "To reduce the cost of vendor services." },
+                                    { "id": 4, "answer": "To evaluate vendor performance." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 30,
+                                "title": "What should be included in a vendor's performance review?",
+                                "answers": [
+                                    { "id": 1, "answer": "Advertising budget." },
+                                    { "id": 2, "answer": "Customer service responsiveness." },
+                                    { "id": 3, "answer": "Contract negotiation terms." },
+                                    { "id": 4, "answer": "Offboarding checklist." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 31,
+                                "title": "Which phase includes the offboarding process?",
+                                "answers": [
+                                    { "id": 1, "answer": "Pre-contract phase." },
+                                    { "id": 2, "answer": "Contract delivery phase." },
+                                    { "id": 3, "answer": "Post-contract phase." },
+                                    { "id": 4, "answer": "Vendor engagement phase." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 32,
+                                "title": "What should be done during the vendor offboarding process?",
+                                "answers": [
+                                    { "id": 1, "answer": "Request vendor proposals." },
+                                    { "id": 2, "answer": "Negotiate a statement of work." },
+                                    { "id": 3, "answer": "Ensure all contractual obligations are met." },
+                                    { "id": 4, "answer": "Evaluate vendor performance." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 33,
+                                "title": "What is the purpose of maintaining detailed records of vendor warranties?",
+                                "answers": [
+                                    { "id": 1, "answer": "To reduce the cost of vendor services." },
+                                    { "id": 2, "answer": "To ensure all stakeholders are aware of warranty terms and expiration dates." },
+                                    { "id": 3, "answer": "To finalize the vendor's contract." },
+                                    { "id": 4, "answer": "To manage vendor performance." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 34,
+                                "title": "What is a best practice for maintaining healthy vendor relationships?",
+                                "answers": [
+                                    { "id": 1, "answer": "Developing a communication plan with frequent check-ins." },
+                                    { "id": 2, "answer": "Reducing the cost of vendor services." },
+                                    { "id": 3, "answer": "Finalizing the vendor's contract." },
+                                    { "id": 4, "answer": "Requesting vendor proposals." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 35,
+                                "title": "What is an essential aspect of vendor risk management during a project?",
+                                "answers": [
+                                    { "id": 1, "answer": "Evaluating vendor proposals." },
+                                    { "id": 2, "answer": "Monitoring and analyzing potential risks." },
+                                    { "id": 3, "answer": "Onboarding the vendor." },
+                                    { "id": 4, "answer": "Developing a communication plan." }
+                                ],
+                                "correct": 2
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module4-3",
+                        "title": "Applying Changes",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is a key principle for using administrative rights responsibly?",
+                                "answers": [
+                                    { "id": 1, "answer": "Use administrative rights at all times." },
+                                    { "id": 2, "answer": "Use administrative rights only when necessary." },
+                                    { "id": 3, "answer": "Always log in as an administrator." },
+                                    { "id": 4, "answer": "Use them for browsing the web." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 2,
+                                "title": "What should you avoid doing while logged in as an administrator?",
+                                "answers": [
+                                    { "id": 1, "answer": "Updating software." },
+                                    { "id": 2, "answer": "Performing non-administrative tasks." },
+                                    { "id": 3, "answer": "Running system diagnostics." },
+                                    { "id": 4, "answer": "Monitoring logs." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "What is a recommended practice after completing administrative tasks?",
+                                "answers": [
+                                    { "id": 1, "answer": "Leave the session open for future use." },
+                                    { "id": 2, "answer": "Minimize the session and continue working." },
+                                    { "id": 3, "answer": "Close the session immediately." },
+                                    { "id": 4, "answer": "Log out of the system." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 4,
+                                "title": "What does the `sudo` command allow you to do in Linux?",
+                                "answers": [
+                                    { "id": 1, "answer": "Execute commands as a normal user." },
+                                    { "id": 2, "answer": "Execute commands as an administrator." },
+                                    { "id": 3, "answer": "Change the password for the current user." },
+                                    { "id": 4, "answer": "Delete user accounts." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "What should be documented before executing actions with administrative rights?",
+                                "answers": [
+                                    { "id": 1, "answer": "The history of the system." },
+                                    { "id": 2, "answer": "Steps taken for execution." },
+                                    { "id": 3, "answer": "User preferences." },
+                                    { "id": 4, "answer": "Installed applications." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 6,
+                                "title": "Why is it important to respect others' privacy while using administrative rights?",
+                                "answers": [
+                                    { "id": 1, "answer": "It is not important." },
+                                    { "id": 2, "answer": "To maintain trust and ethical standards." },
+                                    { "id": 3, "answer": "Because it is required by law." },
+                                    { "id": 4, "answer": "To avoid technical issues." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 7,
+                                "title": "What should you do if a change made with administrative rights causes issues?",
+                                "answers": [
+                                    { "id": 1, "answer": "Ignore the problem." },
+                                    { "id": 2, "answer": "Reboot the system without checks." },
+                                    { "id": 3, "answer": "Revert changes as planned." },
+                                    { "id": 4, "answer": "Make additional changes." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is a test environment used for?",
+                                "answers": [
+                                    { "id": 1, "answer": "To run live services." },
+                                    { "id": 2, "answer": "To test changes without impacting users." },
+                                    { "id": 3, "answer": "To backup data." },
+                                    { "id": 4, "answer": "To train new staff." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is the purpose of canary deployment?",
+                                "answers": [
+                                    { "id": 1, "answer": "To deploy changes to all servers at once." },
+                                    { "id": 2, "answer": "To test changes on a small group of servers first." },
+                                    { "id": 3, "answer": "To revert changes quickly." },
+                                    { "id": 4, "answer": "To monitor user activity." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 10,
+                                "title": "What should be prioritized when fixing IT problems?",
+                                "answers": [
+                                    { "id": 1, "answer": "Minor annoyances." },
+                                    { "id": 2, "answer": "Critical issues impacting users." },
+                                    { "id": 3, "answer": "Aesthetic changes." },
+                                    { "id": 4, "answer": "Non-urgent tasks." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "How should changes be documented?",
+                                "answers": [
+                                    { "id": 1, "answer": "Keep documentation to a minimum." },
+                                    { "id": 2, "answer": "Document all steps and findings." },
+                                    { "id": 3, "answer": "Only document changes made in production." },
+                                    { "id": 4, "answer": "Documentation is unnecessary." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "What is the best practice for testing changes before production deployment?",
+                                "answers": [
+                                    { "id": 1, "answer": "Skip testing for minor changes." },
+                                    { "id": 2, "answer": "Use a test instance." },
+                                    { "id": 3, "answer": "Test in the production environment." },
+                                    { "id": 4, "answer": "Test only if downtime occurs." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What should be done after applying a fix to an IT issue?",
+                                "answers": [
+                                    { "id": 1, "answer": "Confirm the fix resolves the issue." },
+                                    { "id": 2, "answer": "Ignore the issue." },
+                                    { "id": 3, "answer": "Document it later." },
+                                    { "id": 4, "answer": "Make more changes immediately." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "Why is it important to test all changes, regardless of their perceived significance?",
+                                "answers": [
+                                    { "id": 1, "answer": "To ensure user satisfaction." },
+                                    { "id": 2, "answer": "To prevent unexpected issues." },
+                                    { "id": 3, "answer": "To impress management." },
+                                    { "id": 4, "answer": "To reduce documentation." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 15,
+                                "title": "What defines mission-critical services?",
+                                "answers": [
+                                    { "id": 1, "answer": "Services that are not important." },
+                                    { "id": 2, "answer": "Services essential for business operations." },
+                                    { "id": 3, "answer": "Services that can go offline anytime." },
+                                    { "id": 4, "answer": "Services that have minimal user impact." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 16,
+                                "title": "How can the impact of downtime be managed?",
+                                "answers": [
+                                    { "id": 1, "answer": "Ignore user agreements." },
+                                    { "id": 2, "answer": "Schedule maintenance during agreed times." },
+                                    { "id": 3, "answer": "Inform users after changes." },
+                                    { "id": 4, "answer": "Make changes without notifying anyone." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 17,
+                                "title": "What is the primary reason for keeping detailed records of troubleshooting steps?",
+                                "answers": [
+                                    { "id": 1, "answer": "To waste time." },
+                                    { "id": 2, "answer": "To help in resolving similar issues in the future." },
+                                    { "id": 3, "answer": "To impress management." },
+                                    { "id": 4, "answer": "To keep the logs short." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 18,
+                                "title": "What is the significance of assessing risk before making changes?",
+                                "answers": [
+                                    { "id": 1, "answer": "It is not necessary." },
+                                    { "id": 2, "answer": "To evaluate the potential impact on users." },
+                                    { "id": 3, "answer": "To comply with regulations." },
+                                    { "id": 4, "answer": "To reduce time spent on changes." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 19,
+                                "title": "What does a rollback plan entail?",
+                                "answers": [
+                                    { "id": 1, "answer": "Steps to abandon a project." },
+                                    { "id": 2, "answer": "A plan for restoring previous states if needed." },
+                                    { "id": 3, "answer": "Steps to escalate an issue." },
+                                    { "id": 4, "answer": "A list of completed tasks." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 20,
+                                "title": "Why is continuous monitoring important after changes are made?",
+                                "answers": [
+                                    { "id": 1, "answer": "It is not necessary." },
+                                    { "id": 2, "answer": "To ensure the changes work as intended." },
+                                    { "id": 3, "answer": "To increase workload." },
+                                    { "id": 4, "answer": "To avoid user feedback." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 21,
+                                "title": "What is a possible consequence of not managing administrative rights carefully?",
+                                "answers": [
+                                    { "id": 1, "answer": "Increased security." },
+                                    { "id": 2, "answer": "Potential security breaches." },
+                                    { "id": 3, "answer": "Better system performance." },
+                                    { "id": 4, "answer": "No impact at all." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 22,
+                                "title": "What is the benefit of involving users in the change process?",
+                                "answers": [
+                                    { "id": 1, "answer": "They should not be involved." },
+                                    { "id": 2, "answer": "To gather feedback and reduce resistance." },
+                                    { "id": 3, "answer": "To increase downtime." },
+                                    { "id": 4, "answer": "To complicate processes." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 23,
+                                "title": "What role does communication play during the change process?",
+                                "answers": [
+                                    { "id": 1, "answer": "It is not needed." },
+                                    { "id": 2, "answer": "To keep users informed and manage expectations." },
+                                    { "id": 3, "answer": "To make changes more confusing." },
+                                    { "id": 4, "answer": "To delay processes." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 24,
+                                "title": "What should be prioritized during software updates?",
+                                "answers": [
+                                    { "id": 1, "answer": "Only installing optional updates." },
+                                    { "id": 2, "answer": "Installing critical updates first." },
+                                    { "id": 3, "answer": "Avoiding updates entirely." },
+                                    { "id": 4, "answer": "Installing updates during peak hours." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 25,
+                                "title": "What is the purpose of user feedback after a change?",
+                                "answers": [
+                                    { "id": 1, "answer": "To ignore user concerns." },
+                                    { "id": 2, "answer": "To assess the effectiveness of the change." },
+                                    { "id": 3, "answer": "To create more work." },
+                                    { "id": 4, "answer": "To complicate procedures." }
+                                ],
+                                "correct": 2
                             }
                         ]
                         
