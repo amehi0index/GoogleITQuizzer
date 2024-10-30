@@ -2298,6 +2298,1087 @@
                         
                     }
                 ]
+            },
+            {
+                "id": "module3",
+                "title": "Module 3: Software and Platform Services? ",
+                "subModules": [
+                    {
+                        "id": "module3-1",
+                        "title": "Software Services",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is the primary purpose of communication services in an organization?",
+                                "answers": [
+                                    { "id": 1, "answer": "Facilitate communication" },
+                                    { "id": 2, "answer": "Manage software updates" },
+                                    { "id": 3, "answer": "Enhance cybersecurity" },
+                                    { "id": 4, "answer": "Track project progress" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "Which of the following is an example of an enterprise chat application?",
+                                "answers": [
+                                    { "id": 1, "answer": "IRC" },
+                                    { "id": 2, "answer": "Slack" },
+                                    { "id": 3, "answer": "SMS" },
+                                    { "id": 4, "answer": "Telegram" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "What protocol is known for its extensibility in instant messaging?",
+                                "answers": [
+                                    { "id": 1, "answer": "IRC" },
+                                    { "id": 2, "answer": "XMPP" },
+                                    { "id": 3, "answer": "SMTP" },
+                                    { "id": 4, "answer": "POP3" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "Why is instant communication important for team collaboration?",
+                                "answers": [
+                                    { "id": 1, "answer": "It saves time" },
+                                    { "id": 2, "answer": "It allows for personal chats" },
+                                    { "id": 3, "answer": "It enhances team collaboration" },
+                                    { "id": 4, "answer": "It replaces emails" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 5,
+                                "title": "What is the primary role of security services in IT infrastructure?",
+                                "answers": [
+                                    { "id": 1, "answer": "Enhance productivity" },
+                                    { "id": 2, "answer": "Protect IT infrastructure" },
+                                    { "id": 3, "answer": "Facilitate communication" },
+                                    { "id": 4, "answer": "Manage software updates" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 6,
+                                "title": "Which of the following is a benefit of data encryption?",
+                                "answers": [
+                                    { "id": 1, "answer": "Faster data access" },
+                                    { "id": 2, "answer": "Data integrity" },
+                                    { "id": 3, "answer": "User authentication" },
+                                    { "id": 4, "answer": "Data security in transit" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is the main difference between HTTP and HTTPS?",
+                                "answers": [
+                                    { "id": 1, "answer": "HTTPS is faster" },
+                                    { "id": 2, "answer": "HTTP uses SSL/TLS for security" },
+                                    { "id": 3, "answer": "HTTPS encrypts data" },
+                                    { "id": 4, "answer": "HTTP is secure" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 8,
+                                "title": "Which protocol is used primarily for sending emails?",
+                                "answers": [
+                                    { "id": 1, "answer": "IMAP" },
+                                    { "id": 2, "answer": "POP3" },
+                                    { "id": 3, "answer": "SMTP" },
+                                    { "id": 4, "answer": "XMPP" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is the main advantage of using IMAP over POP3?",
+                                "answers": [
+                                    { "id": 1, "answer": "Saves server storage" },
+                                    { "id": 2, "answer": "Supports multiple devices" },
+                                    { "id": 3, "answer": "Is faster" },
+                                    { "id": 4, "answer": "Is more secure" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is a significant consideration for self-managed email servers?",
+                                "answers": [
+                                    { "id": 1, "answer": "Lower costs" },
+                                    { "id": 2, "answer": "More control" },
+                                    { "id": 3, "answer": "Less maintenance" },
+                                    { "id": 4, "answer": "Ease of setup" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "What type of software includes tools for document sharing and task management?",
+                                "answers": [
+                                    { "id": 1, "answer": "Development tools" },
+                                    { "id": 2, "answer": "Productivity software" },
+                                    { "id": 3, "answer": "Graphic editing tools" },
+                                    { "id": 4, "answer": "Finance software" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "What are the typical restrictions of consumer software licenses?",
+                                "answers": [
+                                    { "id": 1, "answer": "Unlimited usage" },
+                                    { "id": 2, "answer": "Specific individual usage" },
+                                    { "id": 3, "answer": "Multiple installations allowed" },
+                                    { "id": 4, "answer": "Free to modify" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What advantage does cloud software offer to organizations?",
+                                "answers": [
+                                    { "id": 1, "answer": "Less secure" },
+                                    { "id": 2, "answer": "Access across devices" },
+                                    { "id": 3, "answer": "Requires on-premises hardware" },
+                                    { "id": 4, "answer": "Higher upfront costs" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 14,
+                                "title": "What is the primary goal of software management services?",
+                                "answers": [
+                                    { "id": 1, "answer": "Manage employee performance" },
+                                    { "id": 2, "answer": "Assist in software deployment and updates" },
+                                    { "id": 3, "answer": "Create software from scratch" },
+                                    { "id": 4, "answer": "Provide internet services" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 15,
+                                "title": "What does the process of enabling HTTPS on a web server require?",
+                                "answers": [
+                                    { "id": 1, "answer": "A web server" },
+                                    { "id": 2, "answer": "A digital certificate" },
+                                    { "id": 3, "answer": "A static IP address" },
+                                    { "id": 4, "answer": "A backup server" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 16,
+                                "title": "What protocol is the predecessor to TLS?",
+                                "answers": [
+                                    { "id": 1, "answer": "HTTP" },
+                                    { "id": 2, "answer": "SSL" },
+                                    { "id": 3, "answer": "SCP" },
+                                    { "id": 4, "answer": "IMAP" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 17,
+                                "title": "What is a key responsibility of IT support specialists regarding software licenses?",
+                                "answers": [
+                                    { "id": 1, "answer": "Ensure compliance" },
+                                    { "id": 2, "answer": "Develop new software" },
+                                    { "id": 3, "answer": "Sell software licenses" },
+                                    { "id": 4, "answer": "Limit user access" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "Which protocol is widely adopted for securing communications in web browsing?",
+                                "answers": [
+                                    { "id": 1, "answer": "FTP" },
+                                    { "id": 2, "answer": "SMTP" },
+                                    { "id": 3, "answer": "TLS" },
+                                    { "id": 4, "answer": "HTTP" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 19,
+                                "title": "Why is the role of security important across all levels of IT infrastructure?",
+                                "answers": [
+                                    { "id": 1, "answer": "To boost sales" },
+                                    { "id": 2, "answer": "To ensure data integrity and compliance" },
+                                    { "id": 3, "answer": "To facilitate software installation" },
+                                    { "id": 4, "answer": "To promote teamwork" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 20,
+                                "title": "What is a common feature of productivity tools in organizations?",
+                                "answers": [
+                                    { "id": 1, "answer": "Email integration" },
+                                    { "id": 2, "answer": "Time tracking" },
+                                    { "id": 3, "answer": "Instant messaging" },
+                                    { "id": 4, "answer": "Project management" }
+                                ],
+                                "correct": 4
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module3-2",
+                        "title": "File Services",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What are file services?",
+                                "answers": [
+                                    { "id": 1, "answer": "Tools for software development" },
+                                    { "id": 2, "answer": "Systems for sharing and accessing files within an organization" },
+                                    { "id": 3, "answer": "Hardware components of a computer" },
+                                    { "id": 4, "answer": "Internet browsing applications" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 2,
+                                "title": "Why are file services essential for organizations?",
+                                "answers": [
+                                    { "id": 1, "answer": "They improve internet speed." },
+                                    { "id": 2, "answer": "They provide a central location for file storage and management." },
+                                    { "id": 3, "answer": "They replace physical office spaces." },
+                                    { "id": 4, "answer": "They enable video conferencing." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "What is a key benefit of on-premises file storage servers?",
+                                "answers": [
+                                    { "id": 1, "answer": "They require no maintenance." },
+                                    { "id": 2, "answer": "They allow centralized file storage." },
+                                    { "id": 3, "answer": "They are cheaper than cloud solutions." },
+                                    { "id": 4, "answer": "They eliminate the need for internet access." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "Which of the following is an advantage of cloud file storage?",
+                                "answers": [
+                                    { "id": 1, "answer": "Limited access from multiple locations" },
+                                    { "id": 2, "answer": "Requires dedicated hardware" },
+                                    { "id": 3, "answer": "Scalable as storage needs grow" },
+                                    { "id": 4, "answer": "Higher latency compared to on-premises storage" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 5,
+                                "title": "What does NFS stand for in file services?",
+                                "answers": [
+                                    { "id": 1, "answer": "Network File System" },
+                                    { "id": 2, "answer": "Network File Sharing" },
+                                    { "id": 3, "answer": "Non-Fatal System" },
+                                    { "id": 4, "answer": "Network Functional Service" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is a limitation of the FAT32 file system?",
+                                "answers": [
+                                    { "id": 1, "answer": "No compatibility with Windows" },
+                                    { "id": 2, "answer": "No support for large files" },
+                                    { "id": 3, "answer": "Only compatible with Linux" },
+                                    { "id": 4, "answer": "Requires a dedicated server" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is Samba primarily used for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Web hosting" },
+                                    { "id": 2, "answer": "Centralized file sharing and management" },
+                                    { "id": 3, "answer": "Data encryption" },
+                                    { "id": 4, "answer": "Video streaming" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 8,
+                                "title": "Which of the following is a benefit of using Network Attached Storage (NAS)?",
+                                "answers": [
+                                    { "id": 1, "answer": "Requires complex setup" },
+                                    { "id": 2, "answer": "Provides ample storage space" },
+                                    { "id": 3, "answer": "Limits user access" },
+                                    { "id": 4, "answer": "Only accessible locally" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is one key risk associated with mobile devices?",
+                                "answers": [
+                                    { "id": 1, "answer": "High battery life" },
+                                    { "id": 2, "answer": "Data loss due to damage or theft" },
+                                    { "id": 3, "answer": "Always being connected to Wi-Fi" },
+                                    { "id": 4, "answer": "Limited app availability" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 10,
+                                "title": "What does synchronization (syncing) of data ensure?",
+                                "answers": [
+                                    { "id": 1, "answer": "Data is lost permanently" },
+                                    { "id": 2, "answer": "The same data exists in multiple locations" },
+                                    { "id": 3, "answer": "Data is only stored on the device" },
+                                    { "id": 4, "answer": "Only text data can be synced" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is the importance of backing up app data on mobile devices?",
+                                "answers": [
+                                    { "id": 1, "answer": "To enhance app performance" },
+                                    { "id": 2, "answer": "To ensure data can be recovered if lost" },
+                                    { "id": 3, "answer": "To reduce battery consumption" },
+                                    { "id": 4, "answer": "To improve internet speed" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "What type of data should be prioritized for syncing in a business environment?",
+                                "answers": [
+                                    { "id": 1, "answer": "Games and entertainment" },
+                                    { "id": 2, "answer": "Business emails and calendars" },
+                                    { "id": 3, "answer": "Personal photos" },
+                                    { "id": 4, "answer": "Social media updates" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "Which of the following is a feature of cloud sync?",
+                                "answers": [
+                                    { "id": 1, "answer": "Manual syncing only" },
+                                    { "id": 2, "answer": "Automatic syncing or backups at regular intervals" },
+                                    { "id": 3, "answer": "Requires physical storage" },
+                                    { "id": 4, "answer": "Only available on iOS" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 14,
+                                "title": "What can happen if a user loses access to their mobile device?",
+                                "answers": [
+                                    { "id": 1, "answer": "Increased app performance" },
+                                    { "id": 2, "answer": "Significant data loss" },
+                                    { "id": 3, "answer": "Enhanced device security" },
+                                    { "id": 4, "answer": "Improved network speed" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 15,
+                                "title": "Which storage solution is optimized for file storage and allows multiple users access?",
+                                "answers": [
+                                    { "id": 1, "answer": "NAS" },
+                                    { "id": 2, "answer": "Desktop computer" },
+                                    { "id": 3, "answer": "USB drive" },
+                                    { "id": 4, "answer": "External hard drive" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "What should IT support specialists ensure regarding critical data?",
+                                "answers": [
+                                    { "id": 1, "answer": "It is stored on a single device." },
+                                    { "id": 2, "answer": "It is accessible from multiple locations." },
+                                    { "id": 3, "answer": "It is not backed up." },
+                                    { "id": 4, "answer": "It is not shared." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 17,
+                                "title": "What does the SMB protocol relate to?",
+                                "answers": [
+                                    { "id": 1, "answer": "Network file sharing" },
+                                    { "id": 2, "answer": "Video streaming" },
+                                    { "id": 3, "answer": "Database management" },
+                                    { "id": 4, "answer": "Operating system installation" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "Which technology allows files to be shared over a network among multiple users?",
+                                "answers": [
+                                    { "id": 1, "answer": "Email" },
+                                    { "id": 2, "answer": "Network File System (NFS)" },
+                                    { "id": 3, "answer": "Web browsers" },
+                                    { "id": 4, "answer": "Personal cloud storage" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 19,
+                                "title": "What feature of mobile devices enhances data security?",
+                                "answers": [
+                                    { "id": 1, "answer": "Public Wi-Fi connections" },
+                                    { "id": 2, "answer": "Biometric authentication" },
+                                    { "id": 3, "answer": "Unrestricted app downloads" },
+                                    { "id": 4, "answer": "Insecure app permissions" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 20,
+                                "title": "What type of storage solution is suitable for collaborative projects?",
+                                "answers": [
+                                    { "id": 1, "answer": "Single-user external hard drive" },
+                                    { "id": 2, "answer": "Collaborative cloud storage" },
+                                    { "id": 3, "answer": "Personal USB drive" },
+                                    { "id": 4, "answer": "Local storage on personal devices" }
+                                ],
+                                "correct": 2
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module3-3",
+                        "title": "Print Services",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "Why is centralized management of printers important in organizations?",
+                                "answers": [
+                                    { "id": 1, "answer": "It increases printer costs." },
+                                    { "id": 2, "answer": "It simplifies printer administration." },
+                                    { "id": 3, "answer": "It eliminates the need for printers." },
+                                    { "id": 4, "answer": "It allows for more printers to be added." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is the primary role of a print server?",
+                                "answers": [
+                                    { "id": 1, "answer": "To manage file storage." },
+                                    { "id": 2, "answer": "To facilitate centralized management of printers." },
+                                    { "id": 3, "answer": "To handle email communications." },
+                                    { "id": 4, "answer": "To monitor network security." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "Which print server software is commonly used in Linux environments?",
+                                "answers": [
+                                    { "id": 1, "answer": "Windows Print Server" },
+                                    { "id": 2, "answer": "CUPS" },
+                                    { "id": 3, "answer": "Active Directory" },
+                                    { "id": 4, "answer": "LPR" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is a benefit of using cloud printing solutions?",
+                                "answers": [
+                                    { "id": 1, "answer": "Requires local setup for all users." },
+                                    { "id": 2, "answer": "Prints can be sent from anywhere with internet access." },
+                                    { "id": 3, "answer": "Limits printer access to a single device." },
+                                    { "id": 4, "answer": "Increases paper usage." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "What is the typical number of printers for organizations with fewer than 100 employees?",
+                                "answers": [
+                                    { "id": 1, "answer": "1-2 commercial printers." },
+                                    { "id": 2, "answer": "3-5 commercial printers." },
+                                    { "id": 3, "answer": "No printers needed." },
+                                    { "id": 4, "answer": "10-15 commercial printers." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "Which Windows feature needs to be enabled for print services?",
+                                "answers": [
+                                    { "id": 1, "answer": "Print and Document Services." },
+                                    { "id": 2, "answer": "Network File Sharing." },
+                                    { "id": 3, "answer": "Remote Desktop Services." },
+                                    { "id": 4, "answer": "Active Directory." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "How can printers be added to client machines in a network?",
+                                "answers": [
+                                    { "id": 1, "answer": "By manually configuring each printer." },
+                                    { "id": 2, "answer": "By searching for the printer server name." },
+                                    { "id": 3, "answer": "By using a USB connection only." },
+                                    { "id": 4, "answer": "By disabling network discovery." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 8,
+                                "title": "What type of information can commercial printers provide for management?",
+                                "answers": [
+                                    { "id": 1, "answer": "User preferences." },
+                                    { "id": 2, "answer": "Low toner levels." },
+                                    { "id": 3, "answer": "Network speed." },
+                                    { "id": 4, "answer": "Software updates." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 9,
+                                "title": "What does automation of printer setup explore in an organization?",
+                                "answers": [
+                                    { "id": 1, "answer": "Manual installation of drivers." },
+                                    { "id": 2, "answer": "Directory services for automatic installation." },
+                                    { "id": 3, "answer": "Physical relocation of printers." },
+                                    { "id": 4, "answer": "Temporary printer setups." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 10,
+                                "title": "Which of the following is a characteristic of cloud printing?",
+                                "answers": [
+                                    { "id": 1, "answer": "Requires local software installation." },
+                                    { "id": 2, "answer": "Simplifies the printing process." },
+                                    { "id": 3, "answer": "Limits printing to office premises." },
+                                    { "id": 4, "answer": "Increases network congestion." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is one key advantage of using a print server?",
+                                "answers": [
+                                    { "id": 1, "answer": "Reduces printing costs." },
+                                    { "id": 2, "answer": "Facilitates driver deployment." },
+                                    { "id": 3, "answer": "Increases printer downtime." },
+                                    { "id": 4, "answer": "Limits printer accessibility." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "What is the first step in setting up a Windows Print Server?",
+                                "answers": [
+                                    { "id": 1, "answer": "Disable firewall." },
+                                    { "id": 2, "answer": "Enable Print and Document Services." },
+                                    { "id": 3, "answer": "Install printer drivers." },
+                                    { "id": 4, "answer": "Connect printers physically." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is the role of diagnostics information from printers?",
+                                "answers": [
+                                    { "id": 1, "answer": "Provides user details." },
+                                    { "id": 2, "answer": "Helps in troubleshooting and maintenance." },
+                                    { "id": 3, "answer": "Tracks document history." },
+                                    { "id": 4, "answer": "Manages printer locations." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 14,
+                                "title": "What should organizations consider when choosing cloud printing solutions?",
+                                "answers": [
+                                    { "id": 1, "answer": "The physical size of printers." },
+                                    { "id": 2, "answer": "Ease of configuration." },
+                                    { "id": 3, "answer": "Internet speed only." },
+                                    { "id": 4, "answer": "Number of employees." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 15,
+                                "title": "Which of the following is NOT a benefit of centralized printer management?",
+                                "answers": [
+                                    { "id": 1, "answer": "Improved security." },
+                                    { "id": 2, "answer": "Increased management efficiency." },
+                                    { "id": 3, "answer": "Higher operational costs." },
+                                    { "id": 4, "answer": "Better resource allocation." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 16,
+                                "title": "What happens if an organization does not use a print server?",
+                                "answers": [
+                                    { "id": 1, "answer": "Increased cost of ink." },
+                                    { "id": 2, "answer": "Complicated printer management." },
+                                    { "id": 3, "answer": "More efficient printing." },
+                                    { "id": 4, "answer": "Simplified driver installation." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 17,
+                                "title": "What advantage does a cloud printing solution offer over traditional printing?",
+                                "answers": [
+                                    { "id": 1, "answer": "Requires a permanent office setup." },
+                                    { "id": 2, "answer": "No need for local drivers." },
+                                    { "id": 3, "answer": "Only works with one specific device." },
+                                    { "id": 4, "answer": "Limits access to only Wi-Fi connections." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 18,
+                                "title": "How can automation improve printer management?",
+                                "answers": [
+                                    { "id": 1, "answer": "By eliminating printers." },
+                                    { "id": 2, "answer": "By ensuring consistent driver installations." },
+                                    { "id": 3, "answer": "By increasing manual setup." },
+                                    { "id": 4, "answer": "By complicating user access." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 19,
+                                "title": "What is a common challenge for large organizations regarding printing?",
+                                "answers": [
+                                    { "id": 1, "answer": "Having too few printers." },
+                                    { "id": 2, "answer": "High printing volumes." },
+                                    { "id": 3, "answer": "Lack of digital solutions." },
+                                    { "id": 4, "answer": "Increased color printing." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 20,
+                                "title": "What is essential for maintaining smooth operations in printer management?",
+                                "answers": [
+                                    { "id": 1, "answer": "Ignoring printer diagnostics." },
+                                    { "id": 2, "answer": "Regularly updating drivers and configurations." },
+                                    { "id": 3, "answer": "Using only local printers." },
+                                    { "id": 4, "answer": "Disabling network access." }
+                                ],
+                                "correct": 2
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module3-4",
+                        "title": "Platform Services",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What are platform services?",
+                                "answers": [
+                                    { "id": 1, "answer": "Services for managing infrastructure." },
+                                    { "id": 2, "answer": "Development environments that abstract underlying systems." },
+                                    { "id": 3, "answer": "Tools for web browsing." },
+                                    { "id": 4, "answer": "Software for hardware maintenance." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 2,
+                                "title": "Why are web servers important for businesses today?",
+                                "answers": [
+                                    { "id": 1, "answer": "They only store images." },
+                                    { "id": 2, "answer": "They serve as a backup for user data." },
+                                    { "id": 3, "answer": "They provide a digital presence for promoting services." },
+                                    { "id": 4, "answer": "They manage network traffic." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 3,
+                                "title": "What is the primary function of a web server?",
+                                "answers": [
+                                    { "id": 1, "answer": "To create software applications." },
+                                    { "id": 2, "answer": "To serve content to clients over the Internet." },
+                                    { "id": 3, "answer": "To store files locally." },
+                                    { "id": 4, "answer": "To manage hardware resources." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is sent back to the browser after a web server processes an HTTP request?",
+                                "answers": [
+                                    { "id": 1, "answer": "An HTML error message." },
+                                    { "id": 2, "answer": "An HTTP response with the requested content." },
+                                    { "id": 3, "answer": "A server status update." },
+                                    { "id": 4, "answer": "A cookie." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "Which software is one of the most widely used web server applications?",
+                                "answers": [
+                                    { "id": 1, "answer": "IIS" },
+                                    { "id": 2, "answer": "Apache HTTP Server" },
+                                    { "id": 3, "answer": "Nginx" },
+                                    { "id": 4, "answer": "Tomcat" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 6,
+                                "title": "What command is used to install Apache on a Linux system?",
+                                "answers": [
+                                    { "id": 1, "answer": "sudo apt-get update" },
+                                    { "id": 2, "answer": "sudo install apache2" },
+                                    { "id": 3, "answer": "sudo apt-get install apache2" },
+                                    { "id": 4, "answer": "install apache" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 7,
+                                "title": "How can you access the web server locally after installation?",
+                                "answers": [
+                                    { "id": 1, "answer": "http://localhost" },
+                                    { "id": 2, "answer": "http://192.168.1.1" },
+                                    { "id": 3, "answer": "http://server-name" },
+                                    { "id": 4, "answer": "http://myserver.com" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is necessary to make a server accessible globally?",
+                                "answers": [
+                                    { "id": 1, "answer": "Install a firewall." },
+                                    { "id": 2, "answer": "Configure DNS settings." },
+                                    { "id": 3, "answer": "Use local IP addresses." },
+                                    { "id": 4, "answer": "Disable network access." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is the primary purpose of a database in web applications?",
+                                "answers": [
+                                    { "id": 1, "answer": "To store user information." },
+                                    { "id": 2, "answer": "To manage server resources." },
+                                    { "id": 3, "answer": "To serve web pages." },
+                                    { "id": 4, "answer": "To process HTTP requests." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "What language is commonly used to interact with databases?",
+                                "answers": [
+                                    { "id": 1, "answer": "HTML" },
+                                    { "id": 2, "answer": "CSS" },
+                                    { "id": 3, "answer": "SQL" },
+                                    { "id": 4, "answer": "JavaScript" }
+                                ],
+                                "correct": 3
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module3-5",
+                        "title": "Troubleshooting Platform Services",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What do HTTP status codes indicate?",
+                                "answers": [
+                                    { "id": 1, "answer": "The speed of the web server" },
+                                    { "id": 2, "answer": "The result of an HTTP request" },
+                                    { "id": 3, "answer": "The size of the response data" },
+                                    { "id": 4, "answer": "The type of web browser used" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 2,
+                                "title": "What does a 404 status code represent?",
+                                "answers": [
+                                    { "id": 1, "answer": "Internal Server Error" },
+                                    { "id": 2, "answer": "Not Found" },
+                                    { "id": 3, "answer": "Bad Request" },
+                                    { "id": 4, "answer": "Service Unavailable" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "Which status code indicates a successful request?",
+                                "answers": [
+                                    { "id": 1, "answer": "200" },
+                                    { "id": 2, "answer": "404" },
+                                    { "id": 3, "answer": "500" },
+                                    { "id": 4, "answer": "403" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "What does the 403 status code indicate?",
+                                "answers": [
+                                    { "id": 1, "answer": "Unauthorized" },
+                                    { "id": 2, "answer": "Forbidden" },
+                                    { "id": 3, "answer": "Not Found" },
+                                    { "id": 4, "answer": "Internal Server Error" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "What tool can be used to diagnose web issues in browsers?",
+                                "answers": [
+                                    { "id": 1, "answer": "Text Editor" },
+                                    { "id": 2, "answer": "Developer Tools" },
+                                    { "id": 3, "answer": "FTP Client" },
+                                    { "id": 4, "answer": "Email Client" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 6,
+                                "title": "Which code indicates that the server is temporarily unable to handle the request?",
+                                "answers": [
+                                    { "id": 1, "answer": "200" },
+                                    { "id": 2, "answer": "400" },
+                                    { "id": 3, "answer": "500" },
+                                    { "id": 4, "answer": "503" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 7,
+                                "title": "What does the 500 status code signify?",
+                                "answers": [
+                                    { "id": 1, "answer": "Not Found" },
+                                    { "id": 2, "answer": "Bad Request" },
+                                    { "id": 3, "answer": "Internal Server Error" },
+                                    { "id": 4, "answer": "OK" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 8,
+                                "title": "Which of the following is NOT a client-side error code?",
+                                "answers": [
+                                    { "id": 1, "answer": "400" },
+                                    { "id": 2, "answer": "404" },
+                                    { "id": 3, "answer": "200" },
+                                    { "id": 4, "answer": "401" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 9,
+                                "title": "When should you look up an HTTP status code?",
+                                "answers": [
+                                    { "id": 1, "answer": "When it is unfamiliar" },
+                                    { "id": 2, "answer": "Only if it's a 200" },
+                                    { "id": 3, "answer": "When troubleshooting network issues" },
+                                    { "id": 4, "answer": "Never" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is the first step in troubleshooting web server issues?",
+                                "answers": [
+                                    { "id": 1, "answer": "Check the physical server" },
+                                    { "id": 2, "answer": "Inspect HTTP status codes" },
+                                    { "id": 3, "answer": "Reboot the server" },
+                                    { "id": 4, "answer": "Check for software updates" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "What does the term 'response structure' refer to in HTTP?",
+                                "answers": [
+                                    { "id": 1, "answer": "The method used to send data" },
+                                    { "id": 2, "answer": "The format of data sent by the client" },
+                                    { "id": 3, "answer": "The way the server processes requests" },
+                                    { "id": 4, "answer": "The information sent back by the server" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 12,
+                                "title": "Which HTTP status code indicates a bad request?",
+                                "answers": [
+                                    { "id": 1, "answer": "200" },
+                                    { "id": 2, "answer": "400" },
+                                    { "id": 3, "answer": "401" },
+                                    { "id": 4, "answer": "500" }
+                                ],
+                                "correct": 2
+                            }
+                        ]
+                    },
+                    {
+                        "id": "module3-6",
+                        "title": "Managing Cloud Resources",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What does SaaS stand for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Software as a Service" },
+                                    { "id": 2, "answer": "Service as a Software" },
+                                    { "id": 3, "answer": "System as a Service" },
+                                    { "id": 4, "answer": "Software and Services" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is an example of IaaS?",
+                                "answers": [
+                                    { "id": 1, "answer": "Gmail" },
+                                    { "id": 2, "answer": "Dropbox" },
+                                    { "id": 3, "answer": "Amazon EC2" },
+                                    { "id": 4, "answer": "Microsoft Office 365" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 3,
+                                "title": "What are ephemeral storage resources in cloud computing?",
+                                "answers": [
+                                    { "id": 1, "answer": "Permanent storage for VMs" },
+                                    { "id": 2, "answer": "Short-lived local disks of VMs" },
+                                    { "id": 3, "answer": "Backup storage solutions" },
+                                    { "id": 4, "answer": "Storage for database management" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is a hybrid cloud?",
+                                "answers": [
+                                    { "id": 1, "answer": "A public cloud" },
+                                    { "id": 2, "answer": "A private cloud" },
+                                    { "id": 3, "answer": "A mix of public and private clouds" },
+                                    { "id": 4, "answer": "A cloud managed by third parties" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 5,
+                                "title": "Why is autoscaling important in cloud services?",
+                                "answers": [
+                                    { "id": 1, "answer": "It helps reduce server costs" },
+                                    { "id": 2, "answer": "It prevents server overload" },
+                                    { "id": 3, "answer": "It improves server security" },
+                                    { "id": 4, "answer": "It provides permanent storage" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is the role of a load balancer in cloud infrastructure?",
+                                "answers": [
+                                    { "id": 1, "answer": "To provide data backup" },
+                                    { "id": 2, "answer": "To distribute requests among VMs" },
+                                    { "id": 3, "answer": "To secure cloud storage" },
+                                    { "id": 4, "answer": "To monitor cloud services" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 7,
+                                "title": "What should be considered when choosing cloud services over physical hardware?",
+                                "answers": [
+                                    { "id": 1, "answer": "Cost efficiency" },
+                                    { "id": 2, "answer": "Maintenance costs" },
+                                    { "id": 3, "answer": "Hardware lifespan" },
+                                    { "id": 4, "answer": "Power consumption" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "What does a region in cloud services refer to?",
+                                "answers": [
+                                    { "id": 1, "answer": "A single data center" },
+                                    { "id": 2, "answer": "A geographical area with multiple zones" },
+                                    { "id": 3, "answer": "A virtual machine setup" },
+                                    { "id": 4, "answer": "A type of cloud service" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 9,
+                                "title": "Which cloud deployment model is managed by the organization itself?",
+                                "answers": [
+                                    { "id": 1, "answer": "Public Cloud" },
+                                    { "id": 2, "answer": "Hybrid Cloud" },
+                                    { "id": 3, "answer": "Private Cloud" },
+                                    { "id": 4, "answer": "Community Cloud" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is a key benefit of cloud services regarding geographical reach?",
+                                "answers": [
+                                    { "id": 1, "answer": "Reduces hardware costs" },
+                                    { "id": 2, "answer": "Enhances service delivery" },
+                                    { "id": 3, "answer": "Simplifies software updates" },
+                                    { "id": 4, "answer": "Increases data privacy" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "What should organizations do to stay updated in cloud technology?",
+                                "answers": [
+                                    { "id": 1, "answer": "Ignore new developments" },
+                                    { "id": 2, "answer": "Regularly review service agreements" },
+                                    { "id": 3, "answer": "Keep informed about the latest developments" },
+                                    { "id": 4, "answer": "Use outdated technology" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 12,
+                                "title": "Which type of cloud service is best for applications that require minimal customization?",
+                                "answers": [
+                                    { "id": 1, "answer": "IaaS" },
+                                    { "id": 2, "answer": "SaaS" },
+                                    { "id": 3, "answer": "PaaS" },
+                                    { "id": 4, "answer": "Hybrid Cloud" }
+                                ],
+                                "correct": 2
+                            }
+                            
+                        ]
+                    }
+                ]
             }
 
         ]
