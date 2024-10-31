@@ -2367,7 +2367,7 @@
                                 "title": "Which of the following is a benefit of data encryption?",
                                 "answers": [
                                     { "id": 1, "answer": "Faster data access" },
-                                    { "id": 2, "answer": "Data integrity" },
+                                    { "id": 2, "answer": "Data translation" },
                                     { "id": 3, "answer": "User authentication" },
                                     { "id": 4, "answer": "Data security in transit" }
                                 ],
@@ -2526,6 +2526,171 @@
                                     { "id": 4, "answer": "Project management" }
                                 ],
                                 "correct": 4
+                            },
+                            {
+                                "id": 21,
+                                "title": "What is spam typically defined as?",
+                                "answers": [
+                                    { "id": 1, "answer": "Solicited messages from friends" },
+                                    { "id": 2, "answer": "Unsolicited messages sent to multiple recipients" },
+                                    { "id": 3, "answer": "Automated responses to customer inquiries" },
+                                    { "id": 4, "answer": "Messages with only images" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 22,
+                                "title": "Why is spam a security concern for organizations?",
+                                "answers": [
+                                    { "id": 1, "answer": "It can slow down mail servers and steal information" },
+                                    { "id": 2, "answer": "It leads to increased productivity" },
+                                    { "id": 3, "answer": "It improves server performance" },
+                                    { "id": 4, "answer": "It only affects social media accounts" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 23,
+                                "title": "What is the primary goal of phishing emails?",
+                                "answers": [
+                                    { "id": 1, "answer": "To send promotional offers" },
+                                    { "id": 2, "answer": "To trick recipients into providing personal information" },
+                                    { "id": 3, "answer": "To ask recipients to participate in surveys" },
+                                    { "id": 4, "answer": "To share general news updates" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 24,
+                                "title": "Which famous phishing scam asks victims to help transfer royal funds?",
+                                "answers": [
+                                    { "id": 1, "answer": "Lottery scam" },
+                                    { "id": 2, "answer": "Nigerian royalty scam" },
+                                    { "id": 3, "answer": "Fake charity scam" },
+                                    { "id": 4, "answer": "Tech support scam" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 25,
+                                "title": "What type of spam involves short clickbait messages followed by a link?",
+                                "answers": [
+                                    { "id": 1, "answer": "Phishing email" },
+                                    { "id": 2, "answer": "Text spam" },
+                                    { "id": 3, "answer": "Email spoofing" },
+                                    { "id": 4, "answer": "Robocalls" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 26,
+                                "title": "How does email spoofing deceive recipients?",
+                                "answers": [
+                                    { "id": 1, "answer": "By using realistic email addresses" },
+                                    { "id": 2, "answer": "By avoiding any email headers" },
+                                    { "id": 3, "answer": "By using stolen logos and forged 'From' addresses" },
+                                    { "id": 4, "answer": "By only sending messages without subject lines" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 27,
+                                "title": "Which type of spoofing scam involves fake job opportunities?",
+                                "answers": [
+                                    { "id": 1, "answer": "Robocalls" },
+                                    { "id": 2, "answer": "Lottery scams" },
+                                    { "id": 3, "answer": "Fake job opportunity emails" },
+                                    { "id": 4, "answer": "Tech support scams" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 28,
+                                "title": "What is the purpose of robocalls in spam attacks?",
+                                "answers": [
+                                    { "id": 1, "answer": "To provide customer support" },
+                                    { "id": 2, "answer": "To test phone numbers for legitimacy" },
+                                    { "id": 3, "answer": "To schedule appointments" },
+                                    { "id": 4, "answer": "To collect feedback" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 29,
+                                "title": "Which spam call scam involved impersonation of the IRS?",
+                                "answers": [
+                                    { "id": 1, "answer": "Fake bank alerts" },
+                                    { "id": 2, "answer": "Tax extortion scam" },
+                                    { "id": 3, "answer": "Tech support scam" },
+                                    { "id": 4, "answer": "Prize giveaway" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 30,
+                                "title": "What is DKIM used for in spam management?",
+                                "answers": [
+                                    { "id": 1, "answer": "Encrypting email attachments" },
+                                    { "id": 2, "answer": "Verifying the identity of email senders" },
+                                    { "id": 3, "answer": "Filtering spam messages" },
+                                    { "id": 4, "answer": "Blocking all unsolicited emails" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 31,
+                                "title": "How does Sender Policy Framework (SPF) help prevent spam?",
+                                "answers": [
+                                    { "id": 1, "answer": "It blocks all external emails" },
+                                    { "id": 2, "answer": "It controls which IPs can send emails for a domain" },
+                                    { "id": 3, "answer": "It encrypts outgoing messages" },
+                                    { "id": 4, "answer": "It monitors recipient replies" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 32,
+                                "title": "What is the purpose of DMARC in spam prevention?",
+                                "answers": [
+                                    { "id": 1, "answer": "To manage sender replies" },
+                                    { "id": 2, "answer": "To encrypt email content" },
+                                    { "id": 3, "answer": "To define actions based on DKIM and SPF checks" },
+                                    { "id": 4, "answer": "To block all phishing emails" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 33,
+                                "title": "Which platform commonly provides tools like DKIM, SPF, and DMARC?",
+                                "answers": [
+                                    { "id": 1, "answer": "Windows Server" },
+                                    { "id": 2, "answer": "Google Workspace" },
+                                    { "id": 3, "answer": "Amazon AWS" },
+                                    { "id": 4, "answer": "Linux Mail Server" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 34,
+                                "title": "What should be done if an email fails DKIM verification?",
+                                "answers": [
+                                    { "id": 1, "answer": "Forward to all users" },
+                                    { "id": 2, "answer": "Designate as spam" },
+                                    { "id": 3, "answer": "Ignore it" },
+                                    { "id": 4, "answer": "Report it to the sender" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 35,
+                                "title": "Which email authentication method adds a cryptographic key in the email header?",
+                                "answers": [
+                                    { "id": 1, "answer": "SPF" },
+                                    { "id": 2, "answer": "DKIM" },
+                                    { "id": 3, "answer": "DMARC" },
+                                    { "id": 4, "answer": "SSL" }
+                                ],
+                                "correct": 2
                             }
                         ]
                         
@@ -2980,6 +3145,171 @@
                                     { "id": 4, "answer": "Disabling network access." }
                                 ],
                                 "correct": 2
+                            },
+                            {
+                                "id": 21,
+                                "title": "What is Printer Control Language (PCL) primarily known for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Being device-independent" },
+                                    { "id": 2, "answer": "Being created by Adobe" },
+                                    { "id": 3, "answer": "Being used mainly on Macintosh systems" },
+                                    { "id": 4, "answer": "Being device-dependent" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 22,
+                                "title": "Which printing language is device-independent?",
+                                "answers": [
+                                    { "id": 1, "answer": "Printer Control Language (PCL)" },
+                                    { "id": 2, "answer": "PostScript (PS)" },
+                                    { "id": 3, "answer": "HTML" },
+                                    { "id": 4, "answer": "CSS" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 23,
+                                "title": "Who created PostScript, a common printing language?",
+                                "answers": [
+                                    { "id": 1, "answer": "Adobe" },
+                                    { "id": 2, "answer": "Microsoft" },
+                                    { "id": 3, "answer": "Apple" },
+                                    { "id": 4, "answer": "Hewlett-Packard" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 24,
+                                "title": "Which configuration setting controls the direction in which a document is printed?",
+                                "answers": [
+                                    { "id": 1, "answer": "Print Quality" },
+                                    { "id": 2, "answer": "Orientation" },
+                                    { "id": 3, "answer": "Duplex" },
+                                    { "id": 4, "answer": "Tray Settings" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 25,
+                                "title": "What does 'Duplex' printing mean?",
+                                "answers": [
+                                    { "id": 1, "answer": "Printing in color" },
+                                    { "id": 2, "answer": "Printing on both sides of the paper" },
+                                    { "id": 3, "answer": "Printing at high resolution" },
+                                    { "id": 4, "answer": "Printing in landscape orientation" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 26,
+                                "title": "Which setting tells the printer which paper tray to use?",
+                                "answers": [
+                                    { "id": 1, "answer": "Print Quality" },
+                                    { "id": 2, "answer": "Orientation" },
+                                    { "id": 3, "answer": "Tray Settings" },
+                                    { "id": 4, "answer": "Duplex" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 27,
+                                "title": "What does a higher DPI setting indicate in printer settings?",
+                                "answers": [
+                                    { "id": 1, "answer": "Lower print quality" },
+                                    { "id": 2, "answer": "Higher print quality" },
+                                    { "id": 3, "answer": "Landscape orientation" },
+                                    { "id": 4, "answer": "Single-sided printing" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 28,
+                                "title": "What is the purpose of network scan services?",
+                                "answers": [
+                                    { "id": 1, "answer": "To print directly to a local printer" },
+                                    { "id": 2, "answer": "To enable scanning directly to a network location or email" },
+                                    { "id": 3, "answer": "To improve print quality" },
+                                    { "id": 4, "answer": "To allow printer sharing over the internet" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 29,
+                                "title": "Which protocol allows a scanned document to be shared as a network resource?",
+                                "answers": [
+                                    { "id": 1, "answer": "HTTP" },
+                                    { "id": 2, "answer": "FTP" },
+                                    { "id": 3, "answer": "SMTP" },
+                                    { "id": 4, "answer": "Server Message Block (SMB)" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 30,
+                                "title": "What is a common use of audit logs in printer security?",
+                                "answers": [
+                                    { "id": 1, "answer": "Tracking paper usage" },
+                                    { "id": 2, "answer": "Recording print activity by user and time" },
+                                    { "id": 3, "answer": "Improving print quality" },
+                                    { "id": 4, "answer": "Blocking unauthorized emails" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 31,
+                                "title": "Which printer security feature requires a user to scan a badge to complete a print job?",
+                                "answers": [
+                                    { "id": 1, "answer": "Secured Print" },
+                                    { "id": 2, "answer": "User Authentication" },
+                                    { "id": 3, "answer": "Audit Logs" },
+                                    { "id": 4, "answer": "Badge Access" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 32,
+                                "title": "What is an advantage of sharing a printer on a network?",
+                                "answers": [
+                                    { "id": 1, "answer": "Reduces the need for multiple local printers" },
+                                    { "id": 2, "answer": "Limits printer access to a single user" },
+                                    { "id": 3, "answer": "Requires less printer maintenance" },
+                                    { "id": 4, "answer": "Increases paper usage" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 33,
+                                "title": "Which feature enables a user to enter a code at the printer to complete a print job?",
+                                "answers": [
+                                    { "id": 1, "answer": "Audit Log" },
+                                    { "id": 2, "answer": "Badge Access" },
+                                    { "id": 3, "answer": "Secured Print" },
+                                    { "id": 4, "answer": "User Authentication" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 34,
+                                "title": "In printer security, what is user authentication commonly used for?",
+                                "answers": [
+                                    { "id": 1, "answer": "To improve print quality" },
+                                    { "id": 2, "answer": "To track print supply usage" },
+                                    { "id": 3, "answer": "To restrict access to authorized users only" },
+                                    { "id": 4, "answer": "To prevent color printing" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 35,
+                                "title": "Which setting in basic printer configuration refers to whether the printer uses portrait or landscape orientation?",
+                                "answers": [
+                                    { "id": 1, "answer": "Orientation" },
+                                    { "id": 2, "answer": "Duplex" },
+                                    { "id": 3, "answer": "Print Quality" },
+                                    { "id": 4, "answer": "Tray Settings" }
+                                ],
+                                "correct": 1
                             }
                         ]
                         
@@ -3097,6 +3427,171 @@
                                     { "id": 4, "answer": "JavaScript" }
                                 ],
                                 "correct": 3
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is the primary role of a load balancer?",
+                                "answers": [
+                                    { "id": 1, "answer": "Storing data" },
+                                    { "id": 2, "answer": "Routing network traffic" },
+                                    { "id": 3, "answer": "Encrypting data" },
+                                    { "id": 4, "answer": "Backing up files" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "Which type of load balancer operates at the application layer (HTTP/HTTPS) of the OSI model?",
+                                "answers": [
+                                    { "id": 1, "answer": "Network Load Balancer" },
+                                    { "id": 2, "answer": "Application Load Balancer" },
+                                    { "id": 3, "answer": "Classic Load Balancer" },
+                                    { "id": 4, "answer": "Gateway Load Balancer" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What key function does a load balancer perform to prevent any single server from becoming overwhelmed?",
+                                "answers": [
+                                    { "id": 1, "answer": "Traffic Distribution" },
+                                    { "id": 2, "answer": "Firewall Management" },
+                                    { "id": 3, "answer": "Data Encryption" },
+                                    { "id": 4, "answer": "File Storage" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "In which type of environment is an active-active cluster commonly used?",
+                                "answers": [
+                                    { "id": 1, "answer": "Cloud environments" },
+                                    { "id": 2, "answer": "Physical environments" },
+                                    { "id": 3, "answer": "Hybrid environments" },
+                                    { "id": 4, "answer": "Virtual environments" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 15,
+                                "title": "What does SSL/TLS provide for network communication?",
+                                "answers": [
+                                    { "id": 1, "answer": "Data storage" },
+                                    { "id": 2, "answer": "Encrypted communication" },
+                                    { "id": 3, "answer": "Traffic distribution" },
+                                    { "id": 4, "answer": "Authentication services" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 16,
+                                "title": "Which company offers the Elastic Load Balancer (ELB) service?",
+                                "answers": [
+                                    { "id": 1, "answer": "Google Cloud" },
+                                    { "id": 2, "answer": "Amazon Web Services (AWS)" },
+                                    { "id": 3, "answer": "Microsoft Azure" },
+                                    { "id": 4, "answer": "IBM Cloud" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 17,
+                                "title": "Which component in a load balancing environment typically includes the disk storage systems?",
+                                "answers": [
+                                    { "id": 1, "answer": "Front end" },
+                                    { "id": 2, "answer": "Back end" },
+                                    { "id": 3, "answer": "Client" },
+                                    { "id": 4, "answer": "Listener" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 18,
+                                "title": "Which term refers to a computer or program that sends requests to a server?",
+                                "answers": [
+                                    { "id": 1, "answer": "Server" },
+                                    { "id": 2, "answer": "Client" },
+                                    { "id": 3, "answer": "Listener" },
+                                    { "id": 4, "answer": "Host" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 19,
+                                "title": "What does an Application Delivery Controller (ADC) manage?",
+                                "answers": [
+                                    { "id": 1, "answer": "Application storage" },
+                                    { "id": 2, "answer": "Network encryption" },
+                                    { "id": 3, "answer": "Traffic between clients and server pools" },
+                                    { "id": 4, "answer": "Data backup" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 20,
+                                "title": "Which layer of the OSI model does a Gateway Load Balancer operate on?",
+                                "answers": [
+                                    { "id": 1, "answer": "Application layer" },
+                                    { "id": 2, "answer": "Transport layer" },
+                                    { "id": 3, "answer": "Network layer" },
+                                    { "id": 4, "answer": "Data link layer" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 21,
+                                "title": "What type of load balancer operates at the transport layer of the OSI model?",
+                                "answers": [
+                                    { "id": 1, "answer": "Application Load Balancer" },
+                                    { "id": 2, "answer": "Network Load Balancer" },
+                                    { "id": 3, "answer": "Classic Load Balancer" },
+                                    { "id": 4, "answer": "Gateway Load Balancer" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 22,
+                                "title": "What is 'Path-based routing' used for in load balancing?",
+                                "answers": [
+                                    { "id": 1, "answer": "Distributes traffic based on URL paths" },
+                                    { "id": 2, "answer": "Encrypts network traffic" },
+                                    { "id": 3, "answer": "Authenticates users" },
+                                    { "id": 4, "answer": "Compresses data" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 23,
+                                "title": "Which load balancing component is responsible for monitoring client requests?",
+                                "answers": [
+                                    { "id": 1, "answer": "Client" },
+                                    { "id": 2, "answer": "Host" },
+                                    { "id": 3, "answer": "Listener" },
+                                    { "id": 4, "answer": "Server pool" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 24,
+                                "title": "What is a 'pool' in the context of load balancing?",
+                                "answers": [
+                                    { "id": 1, "answer": "A backup server" },
+                                    { "id": 2, "answer": "A grouping of similar servers" },
+                                    { "id": 3, "answer": "A client application" },
+                                    { "id": 4, "answer": "A type of data storage" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 25,
+                                "title": "Which load balancing type can handle millions of requests per second?",
+                                "answers": [
+                                    { "id": 1, "answer": "Application Load Balancer" },
+                                    { "id": 2, "answer": "Gateway Load Balancer" },
+                                    { "id": 3, "answer": "Classic Load Balancer" },
+                                    { "id": 4, "answer": "Network Load Balancer" }
+                                ],
+                                "correct": 4
                             }
                         ]
                         
@@ -3377,6 +3872,1554 @@
                             }
                             
                         ]
+                    }
+                ]
+            },
+            {
+                "id": "module4",
+                "title": "Module 4: Directory Services",
+                "subModules": [
+                    {
+                        "id": "module4-1",
+                        "title": "Intro to Directory Services",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is a directory server?",
+                                "answers": [
+                                    { "id": 1, "answer": "A database for user accounts only" },
+                                    { "id": 2, "answer": "A service for organizing and looking up network resources" },
+                                    { "id": 3, "answer": "A type of web server" },
+                                    { "id": 4, "answer": "A local file storage solution" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is one of the primary purposes of a directory server?",
+                                "answers": [
+                                    { "id": 1, "answer": "To store data locally" },
+                                    { "id": 2, "answer": "To centralize information management" },
+                                    { "id": 3, "answer": "To act as a backup server" },
+                                    { "id": 4, "answer": "To provide internet access" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "What does replication in a directory server provide?",
+                                "answers": [
+                                    { "id": 1, "answer": "Increased storage capacity" },
+                                    { "id": 2, "answer": "Data copying across multiple servers" },
+                                    { "id": 3, "answer": "Faster internet connections" },
+                                    { "id": 4, "answer": "Local data storage" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is an Organizational Unit (OU) in a directory server?",
+                                "answers": [
+                                    { "id": 1, "answer": "A type of user account" },
+                                    { "id": 2, "answer": "A container for organizing objects" },
+                                    { "id": 3, "answer": "A server role" },
+                                    { "id": 4, "answer": "A network protocol" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "How do sub-OUs inherit characteristics in a directory server?",
+                                "answers": [
+                                    { "id": 1, "answer": "From their parent OUs" },
+                                    { "id": 2, "answer": "From all other OUs" },
+                                    { "id": 3, "answer": "From individual user accounts" },
+                                    { "id": 4, "answer": "Through replication only" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is one responsibility of a systems administrator regarding directory services?",
+                                "answers": [
+                                    { "id": 1, "answer": "Designing websites" },
+                                    { "id": 2, "answer": "Setting up and configuring the directory server" },
+                                    { "id": 3, "answer": "Developing software applications" },
+                                    { "id": 4, "answer": "Managing database backups" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is the X.500 Directory Standard?",
+                                "answers": [
+                                    { "id": 1, "answer": "A protocol for secure communications" },
+                                    { "id": 2, "answer": "An international standard for directory services" },
+                                    { "id": 3, "answer": "A local file storage system" },
+                                    { "id": 4, "answer": "A type of programming language" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 8,
+                                "title": "Which protocol is the main one for accessing directories in the X.500 standard?",
+                                "answers": [
+                                    { "id": 1, "answer": "Directory Access Protocol (DAP)" },
+                                    { "id": 2, "answer": "Lightweight Directory Access Protocol (LDAP)" },
+                                    { "id": 3, "answer": "File Transfer Protocol (FTP)" },
+                                    { "id": 4, "answer": "Simple Mail Transfer Protocol (SMTP)" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is LDAP?",
+                                "answers": [
+                                    { "id": 1, "answer": "A database management system" },
+                                    { "id": 2, "answer": "A protocol for accessing directory services" },
+                                    { "id": 3, "answer": "A programming language" },
+                                    { "id": 4, "answer": "A type of operating system" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is Microsoft Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "An email service" },
+                                    { "id": 2, "answer": "A customized implementation of directory services for Windows" },
+                                    { "id": 3, "answer": "A web hosting service" },
+                                    { "id": 4, "answer": "A programming framework" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "Which of the following is an open-source implementation of LDAP?",
+                                "answers": [
+                                    { "id": 1, "answer": "Oracle Directory Server" },
+                                    { "id": 2, "answer": "OpenLDAP" },
+                                    { "id": 3, "answer": "Microsoft Active Directory" },
+                                    { "id": 4, "answer": "IBM Directory Server" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "What advantage does centralized management of user accounts provide?",
+                                "answers": [
+                                    { "id": 1, "answer": "Increased security" },
+                                    { "id": 2, "answer": "Simplified administration" },
+                                    { "id": 3, "answer": "Faster internet speeds" },
+                                    { "id": 4, "answer": "Local data storage" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is the purpose of the Directory System Protocol (DSP)?",
+                                "answers": [
+                                    { "id": 1, "answer": "Accessing files on a server" },
+                                    { "id": 2, "answer": "Facilitating communication within the directory system" },
+                                    { "id": 3, "answer": "Encrypting directory data" },
+                                    { "id": 4, "answer": "Backing up directory data" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 14,
+                                "title": "Which feature allows directory services to adapt to organizational needs?",
+                                "answers": [
+                                    { "id": 1, "answer": "Static structure" },
+                                    { "id": 2, "answer": "Flexibility in creating new object types" },
+                                    { "id": 3, "answer": "Limited user accounts" },
+                                    { "id": 4, "answer": "Reduced access options" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 15,
+                                "title": "What role does a systems administrator play in the replication of directory services?",
+                                "answers": [
+                                    { "id": 1, "answer": "Monitoring user activity" },
+                                    { "id": 2, "answer": "Setting up and maintaining replication" },
+                                    { "id": 3, "answer": "Developing network protocols" },
+                                    { "id": 4, "answer": "Managing local storage" }
+                                ],
+                                "correct": 2
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module4-2",
+                        "title": "Centralized Management",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is centralized management?",
+                                "answers": [
+                                    { "id": 1, "answer": "Managing individual user accounts separately" },
+                                    { "id": 2, "answer": "A system for coordinating IT resources across an organization" },
+                                    { "id": 3, "answer": "A method for storing data locally" },
+                                    { "id": 4, "answer": "An application for email management" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is the primary responsibility of a systems administrator?",
+                                "answers": [
+                                    { "id": 1, "answer": "Developing new software applications" },
+                                    { "id": 2, "answer": "Administering systems to ensure availability for organizational functions" },
+                                    { "id": 3, "answer": "Managing financial records" },
+                                    { "id": 4, "answer": "Designing user interfaces" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "Which of the following is a key task of a systems administrator?",
+                                "answers": [
+                                    { "id": 1, "answer": "Creating marketing strategies" },
+                                    { "id": 2, "answer": "Managing servers and keeping them updated" },
+                                    { "id": 3, "answer": "Writing documentation for users" },
+                                    { "id": 4, "answer": "Conducting employee interviews" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "What does centralized management systems provide?",
+                                "answers": [
+                                    { "id": 1, "answer": "Instructions to specific user accounts only" },
+                                    { "id": 2, "answer": "Instructions to all parts of the IT infrastructure" },
+                                    { "id": 3, "answer": "Detailed reports on network activity" },
+                                    { "id": 4, "answer": "Backup solutions for personal computers" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "What is the main purpose of directory services in centralized management?",
+                                "answers": [
+                                    { "id": 1, "answer": "To organize files on local computers" },
+                                    { "id": 2, "answer": "To centralize authentication, authorization, and accounting (AAA)" },
+                                    { "id": 3, "answer": "To manage financial transactions" },
+                                    { "id": 4, "answer": "To monitor employee productivity" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 6,
+                                "title": "How does centralized AAA benefit user access?",
+                                "answers": [
+                                    { "id": 1, "answer": "It requires multiple logins for different resources" },
+                                    { "id": 2, "answer": "Decisions on access are made centrally" },
+                                    { "id": 3, "answer": "It eliminates the need for user accounts" },
+                                    { "id": 4, "answer": "It stores user passwords in different locations" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is Role-Based Access Control (RBAC)?",
+                                "answers": [
+                                    { "id": 1, "answer": "Managing individual user access" },
+                                    { "id": 2, "answer": "Using user groups based on roles" },
+                                    { "id": 3, "answer": "Granting access to all users" },
+                                    { "id": 4, "answer": "Creating unique access for each user" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 8,
+                                "title": "How do logon scripts assist in centralized management?",
+                                "answers": [
+                                    { "id": 1, "answer": "They run manually each time a user logs on" },
+                                    { "id": 2, "answer": "They automatically configure settings upon user logon" },
+                                    { "id": 3, "answer": "They are used for data storage" },
+                                    { "id": 4, "answer": "They provide software updates" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is the benefit of simplifying permissions management with RBAC?",
+                                "answers": [
+                                    { "id": 1, "answer": "Easier to grant access to individual users" },
+                                    { "id": 2, "answer": "Requires more administrative work" },
+                                    { "id": 3, "answer": "Simplifies management of user groups based on roles" },
+                                    { "id": 4, "answer": "Eliminates the need for any access controls" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 10,
+                                "title": "Why is it important to keep servers updated?",
+                                "answers": [
+                                    { "id": 1, "answer": "To ensure they are only used during business hours" },
+                                    { "id": 2, "answer": "To maintain security and performance" },
+                                    { "id": 3, "answer": "To reduce the amount of data stored" },
+                                    { "id": 4, "answer": "To simplify the user experience" }
+                                ],
+                                "correct": 2
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module4-3",
+                        "title": "LDAP",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What does LDAP stand for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Lightweight Directory Access Protocol" },
+                                    { "id": 2, "answer": "Large Data Access Protocol" },
+                                    { "id": 3, "answer": "Local Directory Access Protocol" },
+                                    { "id": 4, "answer": "Linked Data Access Protocol" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is the primary purpose of LDAP?",
+                                "answers": [
+                                    { "id": 1, "answer": "To access and manage information in directory services" },
+                                    { "id": 2, "answer": "To create databases" },
+                                    { "id": 3, "answer": "To host websites" },
+                                    { "id": 4, "answer": "To perform data analytics" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 3,
+                                "title": "Which of the following is a popular implementation of LDAP?",
+                                "answers": [
+                                    { "id": 1, "answer": "PostgreSQL" },
+                                    { "id": 2, "answer": "OpenLDAP" },
+                                    { "id": 3, "answer": "MySQL" },
+                                    { "id": 4, "answer": "MongoDB" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is the Bind operation used for in LDAP?",
+                                "answers": [
+                                    { "id": 1, "answer": "To delete an entry" },
+                                    { "id": 2, "answer": "To authenticate clients to the directory server" },
+                                    { "id": 3, "answer": "To modify an entry" },
+                                    { "id": 4, "answer": "To add a new entry" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "What is a Distinguished Name (DN) in LDAP?",
+                                "answers": [
+                                    { "id": 1, "answer": "A unique identifier for each entry" },
+                                    { "id": 2, "answer": "A type of LDAP operation" },
+                                    { "id": 3, "answer": "A group of entries" },
+                                    { "id": 4, "answer": "A security protocol" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "What does CN stand for in an LDAP entry?",
+                                "answers": [
+                                    { "id": 1, "answer": "Common Name" },
+                                    { "id": 2, "answer": "Corporate Name" },
+                                    { "id": 3, "answer": "Common Node" },
+                                    { "id": 4, "answer": "Central Name" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "Which of the following is NOT a common LDAP operation?",
+                                "answers": [
+                                    { "id": 1, "answer": "Add" },
+                                    { "id": 2, "answer": "Delete" },
+                                    { "id": 3, "answer": "Modify" },
+                                    { "id": 4, "answer": "Compile" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is SASL authentication in LDAP?",
+                                "answers": [
+                                    { "id": 1, "answer": "Simple Authentication and Security Layer" },
+                                    { "id": 2, "answer": "Secure Access and Security Layer" },
+                                    { "id": 3, "answer": "Standard Authentication and Security Layer" },
+                                    { "id": 4, "answer": "Simple Access Security Layer" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "Which of the following describes Simple Authentication?",
+                                "answers": [
+                                    { "id": 1, "answer": "Requires directory entry name and password" },
+                                    { "id": 2, "answer": "Uses public keys for authentication" },
+                                    { "id": 3, "answer": "Requires no credentials" },
+                                    { "id": 4, "answer": "Uses biometric data for authentication" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is a key benefit of using encrypted data during authentication?",
+                                "answers": [
+                                    { "id": 1, "answer": "It improves the speed of authentication" },
+                                    { "id": 2, "answer": "It prevents unauthorized access" },
+                                    { "id": 3, "answer": "It simplifies user credentials" },
+                                    { "id": 4, "answer": "It allows for anonymous access" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is Kerberos?",
+                                "answers": [
+                                    { "id": 1, "answer": "A network authentication protocol" },
+                                    { "id": 2, "answer": "A type of database" },
+                                    { "id": 3, "answer": "A web application framework" },
+                                    { "id": 4, "answer": "An encryption algorithm" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 12,
+                                "title": "After successful authentication in LDAP, what determines user access?",
+                                "answers": [
+                                    { "id": 1, "answer": "Permissions granted by the server" },
+                                    { "id": 2, "answer": "User preferences" },
+                                    { "id": 3, "answer": "Random selection" },
+                                    { "id": 4, "answer": "Time of access" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is the primary analogy used to explain LDAP authentication?",
+                                "answers": [
+                                    { "id": 1, "answer": "Public vs. private phone directories" },
+                                    { "id": 2, "answer": "Online shopping" },
+                                    { "id": 3, "answer": "Banking transactions" },
+                                    { "id": 4, "answer": "Social media accounts" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "What do attributes in an LDAP entry consist of?",
+                                "answers": [
+                                    { "id": 1, "answer": "Key-value pairs" },
+                                    { "id": 2, "answer": "Single values only" },
+                                    { "id": 3, "answer": "Unique identifiers only" },
+                                    { "id": 4, "answer": "Encrypted data only" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "What is the purpose of the Modify operation in LDAP?",
+                                "answers": [
+                                    { "id": 1, "answer": "To change existing entries" },
+                                    { "id": 2, "answer": "To create a new entry" },
+                                    { "id": 3, "answer": "To authenticate clients" },
+                                    { "id": 4, "answer": "To delete an entry" }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module4-4",
+                        "title": "Active Directory",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "A directory service for managing networks of computers" },
+                                    { "id": 2, "answer": "A type of software application" },
+                                    { "id": 3, "answer": "A database management system" },
+                                    { "id": 4, "answer": "An operating system feature" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What protocol does Active Directory primarily use?",
+                                "answers": [
+                                    { "id": 1, "answer": "LDAP" },
+                                    { "id": 2, "answer": "HTTP" },
+                                    { "id": 3, "answer": "FTP" },
+                                    { "id": 4, "answer": "SMTP" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 3,
+                                "title": "What are Group Policy Objects (GPOs) used for in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "Managing Windows machine configurations" },
+                                    { "id": 2, "answer": "Creating user accounts" },
+                                    { "id": 3, "answer": "Installing software" },
+                                    { "id": 4, "answer": "Providing network security" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is the primary function of a Domain Controller (DC)?",
+                                "answers": [
+                                    { "id": 1, "answer": "To manage network traffic" },
+                                    { "id": 2, "answer": "To authenticate users and computers" },
+                                    { "id": 3, "answer": "To run applications" },
+                                    { "id": 4, "answer": "To store files" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "What is an Organizational Unit (OU) in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "A type of security group" },
+                                    { "id": 2, "answer": "A container for organizing objects" },
+                                    { "id": 3, "answer": "A type of user account" },
+                                    { "id": 4, "answer": "A network policy" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 6,
+                                "title": "What does the term 'forest' refer to in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "A group of user accounts" },
+                                    { "id": 2, "answer": "A collection of one or more domains" },
+                                    { "id": 3, "answer": "A type of server" },
+                                    { "id": 4, "answer": "A group policy setting" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 7,
+                                "title": "Which of the following is a default group in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "Domain Users" },
+                                    { "id": 2, "answer": "Network Administrators" },
+                                    { "id": 3, "answer": "System Operators" },
+                                    { "id": 4, "answer": "Backup Operators" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is the purpose of the Administrator account in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "To create user accounts" },
+                                    { "id": 2, "answer": "To manage the AD domain" },
+                                    { "id": 3, "answer": "To monitor network activity" },
+                                    { "id": 4, "answer": "To backup data" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is a key feature of Domain Admin accounts?",
+                                "answers": [
+                                    { "id": 1, "answer": "Limited access to resources" },
+                                    { "id": 2, "answer": "High privileges to make changes in AD" },
+                                    { "id": 3, "answer": "Ability to manage only local machines" },
+                                    { "id": 4, "answer": "Access to external networks" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 10,
+                                "title": "What happens when a computer joins an Active Directory domain?",
+                                "answers": [
+                                    { "id": 1, "answer": "A computer account is created in AD" },
+                                    { "id": 2, "answer": "The computer is deleted from the network" },
+                                    { "id": 3, "answer": "All user data is erased" },
+                                    { "id": 4, "answer": "A new GPO is applied" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 11,
+                                "title": "What should be done with Domain Admin accounts during regular activities?",
+                                "answers": [
+                                    { "id": 1, "answer": "Use them for day-to-day tasks" },
+                                    { "id": 2, "answer": "Avoid using them for regular tasks" },
+                                    { "id": 3, "answer": "Delete them after use" },
+                                    { "id": 4, "answer": "Share them among users" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "What is the best practice for managing user accounts in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "Create as many accounts as possible" },
+                                    { "id": 2, "answer": "Properly manage user accounts" },
+                                    { "id": 3, "answer": "Ignore account maintenance" },
+                                    { "id": 4, "answer": "Limit user access to only one resource" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What does the term 'replication' refer to in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "Copying data between Domain Controllers" },
+                                    { "id": 2, "answer": "Removing data from AD" },
+                                    { "id": 3, "answer": "Creating backups of the database" },
+                                    { "id": 4, "answer": "Setting up user accounts" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "What is the purpose of Flexible Single Master Operations (FSMO)?",
+                                "answers": [
+                                    { "id": 1, "answer": "To control user authentication" },
+                                    { "id": 2, "answer": "To manage changes that affect the AD database" },
+                                    { "id": 3, "answer": "To create groups and users" },
+                                    { "id": 4, "answer": "To monitor network traffic" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 15,
+                                "title": "What is the significance of the SAM Account Name?",
+                                "answers": [
+                                    { "id": 1, "answer": "It is used to identify users in the domain" },
+                                    { "id": 2, "answer": "It is a password for user accounts" },
+                                    { "id": 3, "answer": "It defines group permissions" },
+                                    { "id": 4, "answer": "It is a display name for users" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "What is a bulk account creation method in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "Using scripts to automate account creation" },
+                                    { "id": 2, "answer": "Creating accounts one at a time" },
+                                    { "id": 3, "answer": "Removing old accounts" },
+                                    { "id": 4, "answer": "Changing account passwords" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "What is L. Dot Notation used for in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "To describe the full path of an object" },
+                                    { "id": 2, "answer": "To create user accounts" },
+                                    { "id": 3, "answer": "To manage GPOs" },
+                                    { "id": 4, "answer": "To set permissions on files" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "Which tool is primarily used for managing Active Directory tasks?",
+                                "answers": [
+                                    { "id": 1, "answer": "Active Directory Administrative Center (ADAC)" },
+                                    { "id": 2, "answer": "Task Manager" },
+                                    { "id": 3, "answer": "Event Viewer" },
+                                    { "id": 4, "answer": "Windows Explorer" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "What is the purpose of security groups in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "To manage permissions for resources" },
+                                    { "id": 2, "answer": "To create user accounts" },
+                                    { "id": 3, "answer": "To monitor network activity" },
+                                    { "id": 4, "answer": "To manage network traffic" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 20,
+                                "title": "What is the function of the Global Catalog in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "To provide a searchable, partial representation of all objects" },
+                                    { "id": 2, "answer": "To store user passwords" },
+                                    { "id": 3, "answer": "To control network access" },
+                                    { "id": 4, "answer": "To create backups of AD data" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 21,
+                                "title": "What is the primary purpose of security groups in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "To grant or deny access to resources" },
+                                    { "id": 2, "answer": "To create user accounts" },
+                                    { "id": 3, "answer": "To manage network traffic" },
+                                    { "id": 4, "answer": "To monitor user activity" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 22,
+                                "title": "Which of the following is an example of a security group in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "Domain Users" },
+                                    { "id": 2, "answer": "Email Distribution List" },
+                                    { "id": 3, "answer": "Guest User" },
+                                    { "id": 4, "answer": "External Contacts" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 23,
+                                "title": "What is the main limitation of distribution groups in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "They cannot contain user accounts." },
+                                    { "id": 2, "answer": "They cannot be used for resource permissions." },
+                                    { "id": 3, "answer": "They cannot send emails." },
+                                    { "id": 4, "answer": "They cannot be deleted." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 24,
+                                "title": "What is the purpose of domain local groups in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "To assign permissions to resources within the domain." },
+                                    { "id": 2, "answer": "To group users for email distribution." },
+                                    { "id": 3, "answer": "To manage user roles across domains." },
+                                    { "id": 4, "answer": "To enforce password policies." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 25,
+                                "title": "What is the function of global groups in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "To group accounts into roles within a single domain." },
+                                    { "id": 2, "answer": "To assign permissions to resources across domains." },
+                                    { "id": 3, "answer": "To provide email distribution lists." },
+                                    { "id": 4, "answer": "To manage security policies." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 26,
+                                "title": "What is the purpose of universal groups in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "To group global roles across multiple domains." },
+                                    { "id": 2, "answer": "To assign permissions within a single domain." },
+                                    { "id": 3, "answer": "To create email distribution lists." },
+                                    { "id": 4, "answer": "To manage local resources." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 27,
+                                "title": "What is a use case for creating parent groups in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "To manage multiple roles by adding existing groups as members." },
+                                    { "id": 2, "answer": "To enforce stricter password policies." },
+                                    { "id": 3, "answer": "To create email lists for user communication." },
+                                    { "id": 4, "answer": "To assign permissions to individual users." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 28,
+                                "title": "Which command is used to add a user to a group in Active Directory using PowerShell?",
+                                "answers": [
+                                    { "id": 1, "answer": "Add-ADGroupMember" },
+                                    { "id": 2, "answer": "New-ADGroupMember" },
+                                    { "id": 3, "answer": "Set-ADGroupMember" },
+                                    { "id": 4, "answer": "Remove-ADGroupMember" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 29,
+                                "title": "What is a common issue related to user passwords in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "Users forget their passwords frequently." },
+                                    { "id": 2, "answer": "Passwords are stored in plain text." },
+                                    { "id": 3, "answer": "Users have too many passwords." },
+                                    { "id": 4, "answer": "Password complexity is too low." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 30,
+                                "title": "How does Active Directory store user passwords?",
+                                "answers": [
+                                    { "id": 1, "answer": "As a one-way cryptographic hash." },
+                                    { "id": 2, "answer": "In plain text format." },
+                                    { "id": 3, "answer": "Encrypted with user-specific keys." },
+                                    { "id": 4, "answer": "In a database with user access logs." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 33,
+                                "title": "What command is used in PowerShell to join a computer to a domain?",
+                                "answers": [
+                                    { "id": 1, "answer": "Join-Computer" },
+                                    { "id": 2, "answer": "Add-Computer" },
+                                    { "id": 3, "answer": "Connect-Computer" },
+                                    { "id": 4, "answer": "Domain-Join" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 34,
+                                "title": "What happens when you successfully join a computer to a domain?",
+                                "answers": [
+                                    { "id": 1, "answer": "A user account is created in the local machine." },
+                                    { "id": 2, "answer": "A computer account is created in Active Directory." },
+                                    { "id": 3, "answer": "The computer is automatically updated." },
+                                    { "id": 4, "answer": "The computer's performance increases." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 35,
+                                "title": "What is the purpose of Active Directory functional levels?",
+                                "answers": [
+                                    { "id": 1, "answer": "To define the features supported within the domain." },
+                                    { "id": 2, "answer": "To enhance the security of user accounts." },
+                                    { "id": 3, "answer": "To manage network traffic." },
+                                    { "id": 4, "answer": "To monitor system performance." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 36,
+                                "title": "Which command can be used to check the functional level of the domain?",
+                                "answers": [
+                                    { "id": 1, "answer": "Get-DomainLevel" },
+                                    { "id": 2, "answer": "Get-ADDomain" },
+                                    { "id": 3, "answer": "Get-ForestLevel" },
+                                    { "id": 4, "answer": "Check-FunctionalLevel" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 37,
+                                "title": "What is a Group Policy Object (GPO)?",
+                                "answers": [
+                                    { "id": 1, "answer": "A setting that affects only one user." },
+                                    { "id": 2, "answer": "A collection of policies applied to AD objects." },
+                                    { "id": 3, "answer": "A method of sharing files across the network." },
+                                    { "id": 4, "answer": "A type of user account in Active Directory." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 38,
+                                "title": "What can GPOs enforce?",
+                                "answers": [
+                                    { "id": 1, "answer": "User preferences only." },
+                                    { "id": 2, "answer": "Security settings and software installations." },
+                                    { "id": 3, "answer": "Network configurations only." },
+                                    { "id": 4, "answer": "File sharing permissions only." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 39,
+                                "title": "How often are GPO policies reapplied by default?",
+                                "answers": [
+                                    { "id": 1, "answer": "Every 15 minutes." },
+                                    { "id": 2, "answer": "Every 30 minutes." },
+                                    { "id": 3, "answer": "Every 90 minutes." },
+                                    { "id": 4, "answer": "Every 120 minutes." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 40,
+                                "title": "What is the role of SYSVOL in Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "To store user data." },
+                                    { "id": 2, "answer": "To contain scripts and settings for GPOs." },
+                                    { "id": 3, "answer": "To manage network traffic." },
+                                    { "id": 4, "answer": "To host user profiles." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 41,
+                                "title": "What is the difference between policies and preferences in GPOs?",
+                                "answers": [
+                                    { "id": 1, "answer": "Policies cannot be changed by users; preferences can." },
+                                    { "id": 2, "answer": "Preferences are enforced settings; policies are not." },
+                                    { "id": 3, "answer": "Policies are only for computers; preferences are only for users." },
+                                    { "id": 4, "answer": "There is no difference." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 42,
+                                "title": "What is a key benefit of linking GPOs to Organizational Units (OUs)?",
+                                "answers": [
+                                    { "id": 1, "answer": "It allows for centralized management." },
+                                    { "id": 2, "answer": "It applies policies selectively to specific users or computers." },
+                                    { "id": 3, "answer": "It enhances network performance." },
+                                    { "id": 4, "answer": "It secures user passwords." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 43,
+                                "title": "What is GPMC used for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Creating and viewing Group Policy Objects." },
+                                    { "id": 2, "answer": "Monitoring network traffic." },
+                                    { "id": 3, "answer": "Managing user accounts." },
+                                    { "id": 4, "answer": "Installing software remotely." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 44,
+                                "title": "How can you access GPMC?",
+                                "answers": [
+                                    { "id": 1, "answer": "Through the command line using gpmc.msc." },
+                                    { "id": 2, "answer": "By using the Windows Registry." },
+                                    { "id": 3, "answer": "Only via the Control Panel." },
+                                    { "id": 4, "answer": "Through the Task Manager." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 45,
+                                "title": "What do WMI Filters in GPMC do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Define targeting rules for GPOs." },
+                                    { "id": 2, "answer": "Control network access." },
+                                    { "id": 3, "answer": "Manage software installations." },
+                                    { "id": 4, "answer": "Backup GPOs." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 46,
+                                "title": "What is the Default Domain Policy linked to?",
+                                "answers": [
+                                    { "id": 1, "answer": "The Domain Controllers OU." },
+                                    { "id": 2, "answer": "The entire domain." },
+                                    { "id": 3, "answer": "Individual user accounts." },
+                                    { "id": 4, "answer": "A specific Organizational Unit." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 47,
+                                "title": "What does the Default Domain Controller Policy apply to?",
+                                "answers": [
+                                    { "id": 1, "answer": "All users in the domain." },
+                                    { "id": 2, "answer": "Only the Domain Controllers." },
+                                    { "id": 3, "answer": "Member servers." },
+                                    { "id": 4, "answer": "Client workstations." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 48,
+                                "title": "What should you do before editing a GPO?",
+                                "answers": [
+                                    { "id": 1, "answer": "Run a virus scan." },
+                                    { "id": 2, "answer": "Backup the GPO." },
+                                    { "id": 3, "answer": "Notify all users." },
+                                    { "id": 4, "answer": "Log off all users." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 49,
+                                "title": "How can you restore a GPO from backup?",
+                                "answers": [
+                                    { "id": 1, "answer": "By creating a new GPO." },
+                                    { "id": 2, "answer": "Using the restore option in GPMC." },
+                                    { "id": 3, "answer": "Manually copying settings." },
+                                    { "id": 4, "answer": "Editing the existing GPO." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 50,
+                                "title": "What is the purpose of creating a Testing OU?",
+                                "answers": [
+                                    { "id": 1, "answer": "To run production workloads." },
+                                    { "id": 2, "answer": "To test changes before applying to production." },
+                                    { "id": 3, "answer": "To store deleted accounts." },
+                                    { "id": 4, "answer": "To archive old policies." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 51,
+                                "title": "What happens when you link a GPO to an OU?",
+                                "answers": [
+                                    { "id": 1, "answer": "It applies to all computers in the domain." },
+                                    { "id": 2, "answer": "It only applies to users and computers in that OU." },
+                                    { "id": 3, "answer": "It cannot be unlinked." },
+                                    { "id": 4, "answer": "It duplicates all settings." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 52,
+                                "title": "What are preferences in GPOs?",
+                                "answers": [
+                                    { "id": 1, "answer": "Settings that cannot be changed by users." },
+                                    { "id": 2, "answer": "Settings that users can modify." },
+                                    { "id": 3, "answer": "Mandatory policies enforced every time." },
+                                    { "id": 4, "answer": "Temporary settings that expire." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 53,
+                                "title": "What does the Account Lockout Threshold policy control?",
+                                "answers": [
+                                    { "id": 1, "answer": "Minimum password length." },
+                                    { "id": 2, "answer": "Number of failed login attempts before locking an account." },
+                                    { "id": 3, "answer": "User account expiration." },
+                                    { "id": 4, "answer": "Password complexity requirements." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 54,
+                                "title": "Which tool can be used to check which GPOs are applied to users and computers?",
+                                "answers": [
+                                    { "id": 1, "answer": "Group Policy Results." },
+                                    { "id": 2, "answer": "Event Viewer." },
+                                    { "id": 3, "answer": "Task Manager." },
+                                    { "id": 4, "answer": "Network Monitor." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 55,
+                                "title": "What should you do after editing a policy in GPO?",
+                                "answers": [
+                                    { "id": 1, "answer": "Log off the server." },
+                                    { "id": 2, "answer": "Click Apply or OK to save changes." },
+                                    { "id": 3, "answer": "Notify all users immediately." },
+                                    { "id": 4, "answer": "Restart the server." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 56,
+                                "title": "What is the SYSVOL folder used for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Storing user files." },
+                                    { "id": 2, "answer": "Containing GPO scripts and settings." },
+                                    { "id": 3, "answer": "Backing up user data." },
+                                    { "id": 4, "answer": "Monitoring network traffic." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 57,
+                                "title": "How often are GPO policies reapplied by default?",
+                                "answers": [
+                                    { "id": 1, "answer": "Every 15 minutes." },
+                                    { "id": 2, "answer": "Every 30 minutes." },
+                                    { "id": 3, "answer": "Every 90 minutes." },
+                                    { "id": 4, "answer": "Only on startup." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 58,
+                                "title": "What is Advanced Group Policy Management (AGPM)?",
+                                "answers": [
+                                    { "id": 1, "answer": "A tool for monitoring network traffic." },
+                                    { "id": 2, "answer": "A feature for version control and safety in GPO management." },
+                                    { "id": 3, "answer": "An application for remote access." },
+                                    { "id": 4, "answer": "A utility for backup and restore operations." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 59,
+                                "title": "What is the primary purpose of creating specific GPOs?",
+                                "answers": [
+                                    { "id": 1, "answer": "To create user accounts." },
+                                    { "id": 2, "answer": "To address specific needs such as security settings." },
+                                    { "id": 3, "answer": "To manage network traffic." },
+                                    { "id": 4, "answer": "To enhance hardware performance." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 60,
+                                "title": "In what order are GPOs applied according to their specificity?",
+                                "answers": [
+                                    { "id": 1, "answer": "Domain level, then site level, then OU level." },
+                                    { "id": 2, "answer": "OU level, then domain level, then site level." },
+                                    { "id": 3, "answer": "Site level, then domain level, then OU level." },
+                                    { "id": 4, "answer": "OU level, then site level, then domain level." }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 61,
+                                "title": "What happens when multiple GPOs apply to a user or computer?",
+                                "answers": [
+                                    { "id": 1, "answer": "The first GPO wins regardless." },
+                                    { "id": 2, "answer": "The last GPO that modifies any specific setting wins." },
+                                    { "id": 3, "answer": "All GPOs are ignored." },
+                                    { "id": 4, "answer": "The most restrictive GPO wins." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 62,
+                                "title": "How can you check GPO precedence in Group Policy Management Console (GPMC)?",
+                                "answers": [
+                                    { "id": 1, "answer": "By viewing the security logs." },
+                                    { "id": 2, "answer": "By navigating to the target OU and reviewing the Group Policy Inheritance tab." },
+                                    { "id": 3, "answer": "By checking the event viewer." },
+                                    { "id": 4, "answer": "By accessing the Active Directory Users and Computers console." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 63,
+                                "title": "What does the Resultant Set of Policy (RSoP) report help to determine?",
+                                "answers": [
+                                    { "id": 1, "answer": "Which users are logged into the domain." },
+                                    { "id": 2, "answer": "Which GPOs are applied to a specific user or computer." },
+                                    { "id": 3, "answer": "Network connectivity issues." },
+                                    { "id": 4, "answer": "The status of the domain controllers." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 64,
+                                "title": "What can cause authentication issues when logging into the domain?",
+                                "answers": [
+                                    { "id": 1, "answer": "Network connectivity issues." },
+                                    { "id": 2, "answer": "Expired passwords." },
+                                    { "id": 3, "answer": "Both 1 and 2." },
+                                    { "id": 4, "answer": "Inadequate hardware resources." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 65,
+                                "title": "What is the maximum allowable time discrepancy for Kerberos authentication?",
+                                "answers": [
+                                    { "id": 1, "answer": "1 minute." },
+                                    { "id": 2, "answer": "5 minutes." },
+                                    { "id": 3, "answer": "15 minutes." },
+                                    { "id": 4, "answer": "30 minutes." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 66,
+                                "title": "How can you force a time synchronization on a Windows domain computer?",
+                                "answers": [
+                                    { "id": 1, "answer": "Using the command 'sync-time'." },
+                                    { "id": 2, "answer": "Using the command 'w32tm /resync'." },
+                                    { "id": 3, "answer": "Restarting the computer." },
+                                    { "id": 4, "answer": "Updating the time zone settings." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 67,
+                                "title": "What is a common reason for GPOs failing to apply?",
+                                "answers": [
+                                    { "id": 1, "answer": "Fast logon optimization." },
+                                    { "id": 2, "answer": "Excessive network bandwidth." },
+                                    { "id": 3, "answer": "Overly complex OU structures." },
+                                    { "id": 4, "answer": "User account control settings." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 68,
+                                "title": "Which command can be used to force the immediate application of GPOs?",
+                                "answers": [
+                                    { "id": 1, "answer": "gpupdate /force." },
+                                    { "id": 2, "answer": "gpresult /force." },
+                                    { "id": 3, "answer": "gpoapply /force." },
+                                    { "id": 4, "answer": "update-gpo /force." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 69,
+                                "title": "What should you check if a user reports a missing mapped network drive?",
+                                "answers": [
+                                    { "id": 1, "answer": "The user's password." },
+                                    { "id": 2, "answer": "Network connectivity." },
+                                    { "id": 3, "answer": "Group Policy settings." },
+                                    { "id": 4, "answer": "Local firewall settings." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 70,
+                                "title": "What does RSoP stand for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Resultant Set of Permissions." },
+                                    { "id": 2, "answer": "Resultant Set of Policies." },
+                                    { "id": 3, "answer": "Real-time Set of Policies." },
+                                    { "id": 4, "answer": "Remote Set of Policies." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 71,
+                                "title": "What could indicate a failed replication of GPO changes?",
+                                "answers": [
+                                    { "id": 1, "answer": "All domain controllers are in sync." },
+                                    { "id": 2, "answer": "Different computers have inconsistent views of directory objects." },
+                                    { "id": 3, "answer": "User passwords are not updating." },
+                                    { "id": 4, "answer": "Network bandwidth is too high." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 72,
+                                "title": "What command provides a summary report of applied GPOs for a user?",
+                                "answers": [
+                                    { "id": 1, "answer": "gpresult /H." },
+                                    { "id": 2, "answer": "gpresult /R." },
+                                    { "id": 3, "answer": "gpoapply /summary." },
+                                    { "id": 4, "answer": "gporesult /summary." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 73,
+                                "title": "Which of the following is a common issue that can affect GPO application?",
+                                "answers": [
+                                    { "id": 1, "answer": "Local firewall settings." },
+                                    { "id": 2, "answer": "Incorrect time settings." },
+                                    { "id": 3, "answer": "Network congestion." },
+                                    { "id": 4, "answer": "All of the above." }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 74,
+                                "title": "Which tool is used to manage Group Policy in a Windows environment?",
+                                "answers": [
+                                    { "id": 1, "answer": "Active Directory Users and Computers." },
+                                    { "id": 2, "answer": "Group Policy Management Console (GPMC)." },
+                                    { "id": 3, "answer": "Windows PowerShell." },
+                                    { "id": 4, "answer": "Event Viewer." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 75,
+                                "title": "What can be a reason for a user to be unable to log into a domain?",
+                                "answers": [
+                                    { "id": 1, "answer": "DNS issues." },
+                                    { "id": 2, "answer": "Local account lockout." },
+                                    { "id": 3, "answer": "Incorrect password." },
+                                    { "id": 4, "answer": "All of the above." }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 76,
+                                "title": "What is the primary purpose of Mobile Device Management (MDM)?",
+                                "answers": [
+                                    { "id": 1, "answer": "To manage and secure mobile devices." },
+                                    { "id": 2, "answer": "To create mobile applications." },
+                                    { "id": 3, "answer": "To increase device battery life." },
+                                    { "id": 4, "answer": "To enhance network performance." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 77,
+                                "title": "Which setting can MDM profiles pre-configure on mobile devices?",
+                                "answers": [
+                                    { "id": 1, "answer": "User account settings." },
+                                    { "id": 2, "answer": "Wireless networks." },
+                                    { "id": 3, "answer": "Operating system updates." },
+                                    { "id": 4, "answer": "Device warranty." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 78,
+                                "title": "What is a capability of MDM regarding device security?",
+                                "answers": [
+                                    { "id": 1, "answer": "Disable device usage." },
+                                    { "id": 2, "answer": "Enable device storage encryption." },
+                                    { "id": 3, "answer": "Limit app downloads." },
+                                    { "id": 4, "answer": "Increase screen brightness." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 79,
+                                "title": "What action can MDM perform if a device is lost or stolen?",
+                                "answers": [
+                                    { "id": 1, "answer": "Track the device location." },
+                                    { "id": 2, "answer": "Perform a remote wipe." },
+                                    { "id": 3, "answer": "Lock the device physically." },
+                                    { "id": 4, "answer": "Change the device password." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 80,
+                                "title": "What is essential for protecting data on mobile devices through MDM?",
+                                "answers": [
+                                    { "id": 1, "answer": "Remote wipe capability." },
+                                    { "id": 2, "answer": "Wi-Fi connectivity." },
+                                    { "id": 3, "answer": "Bluetooth pairing." },
+                                    { "id": 4, "answer": "User training." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 81,
+                                "title": "How are devices typically enrolled in an MDM system?",
+                                "answers": [
+                                    { "id": 1, "answer": "By signing into the EMM system." },
+                                    { "id": 2, "answer": "By connecting to Wi-Fi." },
+                                    { "id": 3, "answer": "By installing apps from the app store." },
+                                    { "id": 4, "answer": "By restarting the device." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 82,
+                                "title": "Which mobile operating systems can MDM manage policies for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Only Android." },
+                                    { "id": 2, "answer": "Only iOS." },
+                                    { "id": 3, "answer": "Both Android and iOS." },
+                                    { "id": 4, "answer": "Windows Phone only." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 83,
+                                "title": "What type of system is used to create and distribute MDM policies?",
+                                "answers": [
+                                    { "id": 1, "answer": "Enterprise Mobility Management (EMM) system." },
+                                    { "id": 2, "answer": "Cloud storage system." },
+                                    { "id": 3, "answer": "Local server." },
+                                    { "id": 4, "answer": "Network monitoring tool." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 84,
+                                "title": "What benefit do MDM profiles provide during device setup?",
+                                "answers": [
+                                    { "id": 1, "answer": "Increase app storage." },
+                                    { "id": 2, "answer": "Automate the installation of applications." },
+                                    { "id": 3, "answer": "Improve device aesthetics." },
+                                    { "id": 4, "answer": "Enable public sharing." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 85,
+                                "title": "Which of the following is NOT a capability of MDM?",
+                                "answers": [
+                                    { "id": 1, "answer": "Automatically install applications." },
+                                    { "id": 2, "answer": "Enforce security settings." },
+                                    { "id": 3, "answer": "Conduct software development." },
+                                    { "id": 4, "answer": "Pre-configure device settings." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 86,
+                                "title": "Why is remote wipe capability important in MDM?",
+                                "answers": [
+                                    { "id": 1, "answer": "To reset the device to factory settings." },
+                                    { "id": 2, "answer": "To prevent data loss during updates." },
+                                    { "id": 3, "answer": "To enhance user experience." },
+                                    { "id": 4, "answer": "To enforce app updates." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 87,
+                                "title": "What type of data can MDM protect on a mobile device?",
+                                "answers": [
+                                    { "id": 1, "answer": "User-installed apps." },
+                                    { "id": 2, "answer": "Personal data and corporate data." },
+                                    { "id": 3, "answer": "Device hardware components." },
+                                    { "id": 4, "answer": "Physical device location." }
+                                ],
+                                "correct": 2
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module4-5",
+                        "title": "OpenLDAP",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is OpenLDAP primarily used for?",
+                                "answers": [
+                                    { "id": 1, "answer": "File storage." },
+                                    { "id": 2, "answer": "Directory service." },
+                                    { "id": 3, "answer": "Email management." },
+                                    { "id": 4, "answer": "Web hosting." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 2,
+                                "title": "Which protocol does OpenLDAP use?",
+                                "answers": [
+                                    { "id": 1, "answer": "HTTP." },
+                                    { "id": 2, "answer": "LDAP." },
+                                    { "id": 3, "answer": "FTP." },
+                                    { "id": 4, "answer": "TCP." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "What is the main advantage of OpenLDAP over Active Directory?",
+                                "answers": [
+                                    { "id": 1, "answer": "Better user interface." },
+                                    { "id": 2, "answer": "Open-source availability." },
+                                    { "id": 3, "answer": "Enhanced security." },
+                                    { "id": 4, "answer": "Higher performance." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is the purpose of LDIF files in OpenLDAP?",
+                                "answers": [
+                                    { "id": 1, "answer": "To configure server settings." },
+                                    { "id": 2, "answer": "To add, modify, or remove entries." },
+                                    { "id": 3, "answer": "To backup data." },
+                                    { "id": 4, "answer": "To optimize performance." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "Which command is used to add a new entry in OpenLDAP?",
+                                "answers": [
+                                    { "id": 1, "answer": "ldapdelete." },
+                                    { "id": 2, "answer": "ldapmodify." },
+                                    { "id": 3, "answer": "ldapsearch." },
+                                    { "id": 4, "answer": "ldapadd." }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is required to enroll a device in OpenLDAP?",
+                                "answers": [
+                                    { "id": 1, "answer": "User credentials." },
+                                    { "id": 2, "answer": "Database configuration." },
+                                    { "id": 3, "answer": "Network access." },
+                                    { "id": 4, "answer": "All of the above." }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 7,
+                                "title": "What command is used to search for entries in OpenLDAP?",
+                                "answers": [
+                                    { "id": 1, "answer": "ldapadd." },
+                                    { "id": 2, "answer": "ldapsearch." },
+                                    { "id": 3, "answer": "ldapmodify." },
+                                    { "id": 4, "answer": "ldapdelete." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 8,
+                                "title": "What does the 'cn' in an LDAP entry typically represent?",
+                                "answers": [
+                                    { "id": 1, "answer": "Common Name." },
+                                    { "id": 2, "answer": "Country Name." },
+                                    { "id": 3, "answer": "Corporate Name." },
+                                    { "id": 4, "answer": "Contact Number." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "Which operating systems can OpenLDAP be installed on?",
+                                "answers": [
+                                    { "id": 1, "answer": "Linux only." },
+                                    { "id": 2, "answer": "Windows only." },
+                                    { "id": 3, "answer": "Linux, macOS, and Windows." },
+                                    { "id": 4, "answer": "Linux and UNIX only." }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 10,
+                                "title": "What command is used to modify existing entries in OpenLDAP?",
+                                "answers": [
+                                    { "id": 1, "answer": "ldapadd." },
+                                    { "id": 2, "answer": "ldapmodify." },
+                                    { "id": 3, "answer": "ldapsearch." },
+                                    { "id": 4, "answer": "ldapdelete." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "What does OpenLDAP help manage within an organization?",
+                                "answers": [
+                                    { "id": 1, "answer": "Only user accounts." },
+                                    { "id": 2, "answer": "Devices and users." },
+                                    { "id": 3, "answer": "Applications only." },
+                                    { "id": 4, "answer": "Network settings." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "What does the command 'ldapdelete' do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Deletes entries from the directory." },
+                                    { "id": 2, "answer": "Adds new entries." },
+                                    { "id": 3, "answer": "Modifies existing entries." },
+                                    { "id": 4, "answer": "Searches for entries." }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                        
                     }
                 ]
             }
