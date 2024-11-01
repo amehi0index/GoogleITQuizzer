@@ -5422,6 +5422,914 @@
                         
                     }
                 ]
+            },
+            {
+                "id": "module5",
+                "title": "Module 5: Data Recovery and Backups",
+                "subModules": [
+                    {
+                        "id": "module5-1",
+                        "title": "Planning For Data Recovery",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is Data Recovery?",
+                                "answers": [
+                                    { "id": 1, "answer": "The process of restoring lost data due to unexpected events." },
+                                    { "id": 2, "answer": "The process of deleting unnecessary files." },
+                                    { "id": 3, "answer": "The process of creating backups." },
+                                    { "id": 4, "answer": "The process of organizing data." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What can cause data loss?",
+                                "answers": [
+                                    { "id": 1, "answer": "Hardware damage" },
+                                    { "id": 2, "answer": "Malware attacks" },
+                                    { "id": 3, "answer": "Accidental deletions" },
+                                    { "id": 4, "answer": "All of the above" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 3,
+                                "title": "Why is a backup strategy important?",
+                                "answers": [
+                                    { "id": 1, "answer": "To ensure data availability and protection." },
+                                    { "id": 2, "answer": "To enhance system performance." },
+                                    { "id": 3, "answer": "To reduce power consumption." },
+                                    { "id": 4, "answer": "To simplify software installations." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is a post-mortem analysis?",
+                                "answers": [
+                                    { "id": 1, "answer": "A review process after a data loss event." },
+                                    { "id": 2, "answer": "A method for creating backups." },
+                                    { "id": 3, "answer": "A type of malware." },
+                                    { "id": 4, "answer": "A performance improvement strategy." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 5,
+                                "title": "What does the 3-2-1 backup strategy entail?",
+                                "answers": [
+                                    { "id": 1, "answer": "Three copies of data, two on different media, one offsite." },
+                                    { "id": 2, "answer": "Two copies of data, one on-site, one off-site." },
+                                    { "id": 3, "answer": "One copy of data stored in the cloud." },
+                                    { "id": 4, "answer": "Three copies of data stored on the same device." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is the primary advantage of off-site backups?",
+                                "answers": [
+                                    { "id": 1, "answer": "Faster access to data." },
+                                    { "id": 2, "answer": "Protection against local disasters." },
+                                    { "id": 3, "answer": "Lower cost." },
+                                    { "id": 4, "answer": "Easier maintenance." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 7,
+                                "title": "Which of the following is a common backup tool?",
+                                "answers": [
+                                    { "id": 1, "answer": "rsync" },
+                                    { "id": 2, "answer": "Google Docs" },
+                                    { "id": 3, "answer": "Photoshop" },
+                                    { "id": 4, "answer": "Notepad" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "What should be included in regular backups?",
+                                "answers": [
+                                    { "id": 1, "answer": "Financial data" },
+                                    { "id": 2, "answer": "System configurations" },
+                                    { "id": 3, "answer": "Customer data" },
+                                    { "id": 4, "answer": "All of the above" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is a disadvantage of on-site backups?",
+                                "answers": [
+                                    { "id": 1, "answer": "Requires external storage." },
+                                    { "id": 2, "answer": "Vulnerable to local disasters." },
+                                    { "id": 3, "answer": "Slower access to data." },
+                                    { "id": 4, "answer": "Requires internet connection." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 10,
+                                "title": "Which encryption method is recommended for data transmission?",
+                                "answers": [
+                                    { "id": 1, "answer": "AES" },
+                                    { "id": 2, "answer": "TLS" },
+                                    { "id": 3, "answer": "RSA" },
+                                    { "id": 4, "answer": "MD5" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is the purpose of archiving older data?",
+                                "answers": [
+                                    { "id": 1, "answer": "To make it easily accessible." },
+                                    { "id": 2, "answer": "To reduce storage costs." },
+                                    { "id": 3, "answer": "To improve system performance." },
+                                    { "id": 4, "answer": "To enhance security." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "What is a hybrid backup approach?",
+                                "answers": [
+                                    { "id": 1, "answer": "Using only cloud storage." },
+                                    { "id": 2, "answer": "Combining on-site and off-site backups." },
+                                    { "id": 3, "answer": "Backing up data to tape drives." },
+                                    { "id": 4, "answer": "Using multiple software solutions." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is the function of Apple Time Machine?",
+                                "answers": [
+                                    { "id": 1, "answer": "A backup solution for macOS." },
+                                    { "id": 2, "answer": "A cloud storage service." },
+                                    { "id": 3, "answer": "A system optimization tool." },
+                                    { "id": 4, "answer": "A file sharing application." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "What should be done after a data loss event?",
+                                "answers": [
+                                    { "id": 1, "answer": "Conduct a post-mortem analysis." },
+                                    { "id": 2, "answer": "Ignore the incident." },
+                                    { "id": 3, "answer": "Delete old backups." },
+                                    { "id": 4, "answer": "Upgrade hardware immediately." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "What is the importance of monitoring backup logs?",
+                                "answers": [
+                                    { "id": 1, "answer": "To identify successful backups only." },
+                                    { "id": 2, "answer": "To catch errors and rectify them immediately." },
+                                    { "id": 3, "answer": "To reduce backup frequency." },
+                                    { "id": 4, "answer": "To avoid storing too much data." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 16,
+                                "title": "What does bandwidth consideration affect?",
+                                "answers": [
+                                    { "id": 1, "answer": "The cost of software licenses." },
+                                    { "id": 2, "answer": "The time it takes to transmit data." },
+                                    { "id": 3, "answer": "The speed of computer hardware." },
+                                    { "id": 4, "answer": "The capacity of storage devices." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 17,
+                                "title": "Why is data encryption important for backups?",
+                                "answers": [
+                                    { "id": 1, "answer": "To prevent unauthorized access." },
+                                    { "id": 2, "answer": "To improve performance." },
+                                    { "id": 3, "answer": "To simplify data recovery." },
+                                    { "id": 4, "answer": "To reduce storage requirements." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "What is a key benefit of regular data backups?",
+                                "answers": [
+                                    { "id": 1, "answer": "Minimizes data loss." },
+                                    { "id": 2, "answer": "Increases hardware lifespan." },
+                                    { "id": 3, "answer": "Improves software performance." },
+                                    { "id": 4, "answer": "Reduces internet usage." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "What is a potential consequence of not having a backup strategy?",
+                                "answers": [
+                                    { "id": 1, "answer": "Increased efficiency." },
+                                    { "id": 2, "answer": "Higher risk of permanent data loss." },
+                                    { "id": 3, "answer": "Reduced costs." },
+                                    { "id": 4, "answer": "Simplified data management." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 20,
+                                "title": "What is the first step in designing a data backup and recovery plan?",
+                                "answers": [
+                                    { "id": 1, "answer": "Identify critical data for backup." },
+                                    { "id": 2, "answer": "Choose backup software." },
+                                    { "id": 3, "answer": "Set a budget." },
+                                    { "id": 4, "answer": "Schedule backups." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 21,
+                                "title": "Why is it important to test backups regularly?",
+                                "answers": [
+                                    { "id": 1, "answer": "To ensure backups are valid and restorable." },
+                                    { "id": 2, "answer": "To increase backup storage." },
+                                    { "id": 3, "answer": "To minimize backup frequency." },
+                                    { "id": 4, "answer": "To avoid documentation." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 22,
+                                "title": "What does a disaster recovery test involve?",
+                                "answers": [
+                                    { "id": 1, "answer": "Simulating disaster scenarios." },
+                                    { "id": 2, "answer": "Upgrading hardware." },
+                                    { "id": 3, "answer": "Increasing storage capacity." },
+                                    { "id": 4, "answer": "Testing user passwords." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 23,
+                                "title": "What is the primary goal of backup documentation?",
+                                "answers": [
+                                    { "id": 1, "answer": "To make restoration procedures clear." },
+                                    { "id": 2, "answer": "To confuse team members." },
+                                    { "id": 3, "answer": "To waste storage space." },
+                                    { "id": 4, "answer": "To avoid training users." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 24,
+                                "title": "How often should disaster recovery testing be conducted?",
+                                "answers": [
+                                    { "id": 1, "answer": "At least once a year." },
+                                    { "id": 2, "answer": "Every month." },
+                                    { "id": 3, "answer": "Only after a data loss." },
+                                    { "id": 4, "answer": "Never." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 25,
+                                "title": "What is the advantage of differential backups?",
+                                "answers": [
+                                    { "id": 1, "answer": "They back up only changed data since the last full backup." },
+                                    { "id": 2, "answer": "They back up all data every time." },
+                                    { "id": 3, "answer": "They are the fastest type of backup." },
+                                    { "id": 4, "answer": "They require no storage space." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 26,
+                                "title": "What is a potential risk of using only single-disk backups?",
+                                "answers": [
+                                    { "id": 1, "answer": "If the disk fails, all data may be lost." },
+                                    { "id": 2, "answer": "They take too long to restore." },
+                                    { "id": 3, "answer": "They are too expensive." },
+                                    { "id": 4, "answer": "They can only store small files." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 27,
+                                "title": "What does RAID stand for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Redundant Array of Independent Disks." },
+                                    { "id": 2, "answer": "Rapid Access of Integrated Drives." },
+                                    { "id": 3, "answer": "Random Access of Independent Disks." },
+                                    { "id": 4, "answer": "Reduced Array of Information Data." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 28,
+                                "title": "Which backup strategy only backs up data that has changed since the last backup?",
+                                "answers": [
+                                    { "id": 1, "answer": "Incremental backup." },
+                                    { "id": 2, "answer": "Full backup." },
+                                    { "id": 3, "answer": "Differential backup." },
+                                    { "id": 4, "answer": "Mirror backup." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 29,
+                                "title": "What is a key benefit of using cloud services for user backups?",
+                                "answers": [
+                                    { "id": 1, "answer": "Automatic synchronization of files." },
+                                    { "id": 2, "answer": "Increased data loss risk." },
+                                    { "id": 3, "answer": "Complex setup." },
+                                    { "id": 4, "answer": "Higher storage costs." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 30,
+                                "title": "What should IT support specialists do regarding user backups?",
+                                "answers": [
+                                    { "id": 1, "answer": "Assist users in configuring effective backup systems." },
+                                    { "id": 2, "answer": "Ignore user backup needs." },
+                                    { "id": 3, "answer": "Only focus on infrastructure backups." },
+                                    { "id": 4, "answer": "Limit user access to backup systems." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 31,
+                                "title": "Why is it important to educate users about data backups?",
+                                "answers": [
+                                    { "id": 1, "answer": "To prevent data loss from accidental incidents." },
+                                    { "id": 2, "answer": "To make backups more complex." },
+                                    { "id": 3, "answer": "To reduce storage needs." },
+                                    { "id": 4, "answer": "To limit their understanding of technology." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 32,
+                                "title": "What is one challenge of backing up user data?",
+                                "answers": [
+                                    { "id": 1, "answer": "Diverse client devices." },
+                                    { "id": 2, "answer": "Too few client devices." },
+                                    { "id": 3, "answer": "Lack of important files." },
+                                    { "id": 4, "answer": "Excessive storage space." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 33,
+                                "title": "What should be done if an incremental backup is missing or corrupt?",
+                                "answers": [
+                                    { "id": 1, "answer": "Data recovery may be incomplete." },
+                                    { "id": 2, "answer": "No action is needed." },
+                                    { "id": 3, "answer": "Data will be fully restored." },
+                                    { "id": 4, "answer": "The backup process should be paused." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 34,
+                                "title": "What type of backup includes unmodified content of all files?",
+                                "answers": [
+                                    { "id": 1, "answer": "Full backup." },
+                                    { "id": 2, "answer": "Incremental backup." },
+                                    { "id": 3, "answer": "Differential backup." },
+                                    { "id": 4, "answer": "User backup." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 35,
+                                "title": "What is a downside of compressed backups?",
+                                "answers": [
+                                    { "id": 1, "answer": "Restoration requires decompression." },
+                                    { "id": 2, "answer": "They take up too much space." },
+                                    { "id": 3, "answer": "They cannot be automated." },
+                                    { "id": 4, "answer": "They increase data loss risk." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 36,
+                                "title": "What does a robust disaster recovery plan help an organization do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Recover swiftly from data loss incidents." },
+                                    { "id": 2, "answer": "Ignore data loss events." },
+                                    { "id": 3, "answer": "Increase data loss risk." },
+                                    { "id": 4, "answer": "Reduce the need for backups." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 37,
+                                "title": "Which backup method is considered the most efficient for storage space?",
+                                "answers": [
+                                    { "id": 1, "answer": "Incremental backup." },
+                                    { "id": 2, "answer": "Full backup." },
+                                    { "id": 3, "answer": "Differential backup." },
+                                    { "id": 4, "answer": "Mirror backup." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 38,
+                                "title": "What is the first step in any backup strategy?",
+                                "answers": [
+                                    { "id": 1, "answer": "Identify critical data." },
+                                    { "id": 2, "answer": "Choose storage location." },
+                                    { "id": 3, "answer": "Schedule regular backups." },
+                                    { "id": 4, "answer": "Purchase hardware." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 39,
+                                "title": "What is a RAID array used for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Combining multiple disks for redundancy." },
+                                    { "id": 2, "answer": "Creating a backup of data." },
+                                    { "id": 3, "answer": "Storing user files only." },
+                                    { "id": 4, "answer": "Reducing power consumption." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 40,
+                                "title": "What should a comprehensive backup strategy include?",
+                                "answers": [
+                                    { "id": 1, "answer": "Regular testing and documentation." },
+                                    { "id": 2, "answer": "Only full backups." },
+                                    { "id": 3, "answer": "No need for user involvement." },
+                                    { "id": 4, "answer": "Ignoring storage limits." }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                        
+                    },
+
+                    {
+                        "id": "module5-2",
+                        "title": "Disaster Recovery Plans",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is a disaster recovery plan (DRP)?",
+                                "answers": [
+                                    { "id": 1, "answer": "A documented set of procedures for responding to emergencies." },
+                                    { "id": 2, "answer": "A plan for marketing strategies." },
+                                    { "id": 3, "answer": "A financial investment strategy." },
+                                    { "id": 4, "answer": "A customer service protocol." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is the primary goal of a disaster recovery plan?",
+                                "answers": [
+                                    { "id": 1, "answer": "Minimize system downtime." },
+                                    { "id": 2, "answer": "Increase sales." },
+                                    { "id": 3, "answer": "Enhance marketing efforts." },
+                                    { "id": 4, "answer": "Train employees." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 3,
+                                "title": "What type of measure is taken before a disaster to minimize impact?",
+                                "answers": [
+                                    { "id": 1, "answer": "Preventive measures." },
+                                    { "id": 2, "answer": "Corrective measures." },
+                                    { "id": 3, "answer": "Detection measures." },
+                                    { "id": 4, "answer": "Response measures." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "Which of the following is an example of a preventive measure?",
+                                "answers": [
+                                    { "id": 1, "answer": "Regular backups." },
+                                    { "id": 2, "answer": "Power outage alerts." },
+                                    { "id": 3, "answer": "Post-disaster analysis." },
+                                    { "id": 4, "answer": "Employee training sessions." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 5,
+                                "title": "What should be included in a risk assessment?",
+                                "answers": [
+                                    { "id": 1, "answer": "Analyzing potential threats." },
+                                    { "id": 2, "answer": "Developing marketing strategies." },
+                                    { "id": 3, "answer": "Creating employee schedules." },
+                                    { "id": 4, "answer": "Setting budget goals." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "What does RTO stand for in a disaster recovery context?",
+                                "answers": [
+                                    { "id": 1, "answer": "Recovery Time Objective." },
+                                    { "id": 2, "answer": "Recovery Target Outcome." },
+                                    { "id": 3, "answer": "Response Time Objective." },
+                                    { "id": 4, "answer": "Resource Time Optimization." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "What should be done regularly to ensure the effectiveness of a DRP?",
+                                "answers": [
+                                    { "id": 1, "answer": "Conduct drills and simulations." },
+                                    { "id": 2, "answer": "Increase marketing budget." },
+                                    { "id": 3, "answer": "Limit communication." },
+                                    { "id": 4, "answer": "Focus on sales only." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is a key component of a disaster recovery plan?",
+                                "answers": [
+                                    { "id": 1, "answer": "Clear documentation of procedures." },
+                                    { "id": 2, "answer": "High employee turnover." },
+                                    { "id": 3, "answer": "Ignoring data loss risks." },
+                                    { "id": 4, "answer": "Maximizing profit margins." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is the importance of employee training in a DRP?",
+                                "answers": [
+                                    { "id": 1, "answer": "To ensure staff know their roles during a disaster." },
+                                    { "id": 2, "answer": "To prepare them for new marketing strategies." },
+                                    { "id": 3, "answer": "To reduce operational costs." },
+                                    { "id": 4, "answer": "To increase their sales skills." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "Why should a DRP be regularly reviewed?",
+                                "answers": [
+                                    { "id": 1, "answer": "To incorporate new technologies and lessons learned." },
+                                    { "id": 2, "answer": "To increase employee workload." },
+                                    { "id": 3, "answer": "To reduce training costs." },
+                                    { "id": 4, "answer": "To maximize profits." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is one of the corrective measures in a DRP?",
+                                "answers": [
+                                    { "id": 1, "answer": "Restoring lost data." },
+                                    { "id": 2, "answer": "Conducting market analysis." },
+                                    { "id": 3, "answer": "Increasing production." },
+                                    { "id": 4, "answer": "Cutting employee hours." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 12,
+                                "title": "What type of backups should be implemented as preventive measures?",
+                                "answers": [
+                                    { "id": 1, "answer": "Regular, automated backups." },
+                                    { "id": 2, "answer": "Infrequent manual backups." },
+                                    { "id": 3, "answer": "Backups only during office hours." },
+                                    { "id": 4, "answer": "No backups needed." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is the purpose of environmental controls in a DRP?",
+                                "answers": [
+                                    { "id": 1, "answer": "To monitor server conditions." },
+                                    { "id": 2, "answer": "To enhance marketing strategies." },
+                                    { "id": 3, "answer": "To reduce training costs." },
+                                    { "id": 4, "answer": "To increase sales revenue." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "What should a communication plan during a disaster include?",
+                                "answers": [
+                                    { "id": 1, "answer": "Informing stakeholders." },
+                                    { "id": 2, "answer": "Focusing only on internal communications." },
+                                    { "id": 3, "answer": "Avoiding updates to clients." },
+                                    { "id": 4, "answer": "Reducing contact with employees." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "What is an essential part of formulating response strategies?",
+                                "answers": [
+                                    { "id": 1, "answer": "Outlining immediate response procedures." },
+                                    { "id": 2, "answer": "Cutting costs." },
+                                    { "id": 3, "answer": "Eliminating employee roles." },
+                                    { "id": 4, "answer": "Increasing marketing budgets." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "What should be done after a disaster recovery drill?",
+                                "answers": [
+                                    { "id": 1, "answer": "Assess the effectiveness of the response." },
+                                    { "id": 2, "answer": "Ignore the results." },
+                                    { "id": 3, "answer": "Change nothing in the DRP." },
+                                    { "id": 4, "answer": "Focus solely on profit margins." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "Why are post-disaster evaluations important?",
+                                "answers": [
+                                    { "id": 1, "answer": "To identify areas for improvement." },
+                                    { "id": 2, "answer": "To blame employees for mistakes." },
+                                    { "id": 3, "answer": "To avoid training sessions." },
+                                    { "id": 4, "answer": "To cut operational costs." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "What role do monitoring tools play in a DRP?",
+                                "answers": [
+                                    { "id": 1, "answer": "To detect anomalies and alert the team." },
+                                    { "id": 2, "answer": "To increase marketing efforts." },
+                                    { "id": 3, "answer": "To reduce staff interactions." },
+                                    { "id": 4, "answer": "To ignore potential issues." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "What is a key aspect of maintaining a DRP?",
+                                "answers": [
+                                    { "id": 1, "answer": "Comprehensive documentation." },
+                                    { "id": 2, "answer": "Minimal employee involvement." },
+                                    { "id": 3, "answer": "Limited communication with stakeholders." },
+                                    { "id": 4, "answer": "Avoiding reviews." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 20,
+                                "title": "What is a potential threat that should be identified in a risk assessment?",
+                                "answers": [
+                                    { "id": 1, "answer": "Natural disasters." },
+                                    { "id": 2, "answer": "Employee satisfaction." },
+                                    { "id": 3, "answer": "Marketing trends." },
+                                    { "id": 4, "answer": "Profit loss." }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": "module5-3",
+                        "title": "Post-Mortems",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is the primary purpose of a post-mortem report?",
+                                "answers": [
+                                    { "id": 1, "answer": "To analyze performance after an incident." },
+                                    { "id": 2, "answer": "To assign blame to individuals." },
+                                    { "id": 3, "answer": "To celebrate successes." },
+                                    { "id": 4, "answer": "To document policies." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What should be emphasized in a post-mortem report?",
+                                "answers": [
+                                    { "id": 1, "answer": "Learning over blame." },
+                                    { "id": 2, "answer": "Punishment for mistakes." },
+                                    { "id": 3, "answer": "Strict adherence to protocols." },
+                                    { "id": 4, "answer": "Financial implications." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 3,
+                                "title": "What is a key component of a post-mortem report?",
+                                "answers": [
+                                    { "id": 1, "answer": "Incident summary." },
+                                    { "id": 2, "answer": "Financial report." },
+                                    { "id": 3, "answer": "Employee satisfaction survey." },
+                                    { "id": 4, "answer": "Marketing analysis." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "What should be included in the detailed timeline of events?",
+                                "answers": [
+                                    { "id": 1, "answer": "Chronological account of key events." },
+                                    { "id": 2, "answer": "Financial expenditures." },
+                                    { "id": 3, "answer": "Employee performance reviews." },
+                                    { "id": 4, "answer": "Marketing strategies." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 5,
+                                "title": "What is a root cause analysis aimed at identifying?",
+                                "answers": [
+                                    { "id": 1, "answer": "The reasons behind an incident." },
+                                    { "id": 2, "answer": "The best marketing strategies." },
+                                    { "id": 3, "answer": "Employee productivity." },
+                                    { "id": 4, "answer": "Customer satisfaction." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "What should be documented in the resolution and recovery efforts section?",
+                                "answers": [
+                                    { "id": 1, "answer": "Steps taken to recover from the incident." },
+                                    { "id": 2, "answer": "Employee performance metrics." },
+                                    { "id": 3, "answer": "Market trends." },
+                                    { "id": 4, "answer": "Company policies." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is one of the action items for improvement?",
+                                "answers": [
+                                    { "id": 1, "answer": "Improvements in response handling." },
+                                    { "id": 2, "answer": "Increasing employee salaries." },
+                                    { "id": 3, "answer": "Revising marketing strategies." },
+                                    { "id": 4, "answer": "Hiring more staff." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "Why is it important to recognize successes in a post-mortem report?",
+                                "answers": [
+                                    { "id": 1, "answer": "To highlight effective systems." },
+                                    { "id": 2, "answer": "To assign blame." },
+                                    { "id": 3, "answer": "To increase profits." },
+                                    { "id": 4, "answer": "To reduce staffing." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "What should be the focus when sharing a post-mortem report?",
+                                "answers": [
+                                    { "id": 1, "answer": "Promoting a culture of learning." },
+                                    { "id": 2, "answer": "Assigning blame." },
+                                    { "id": 3, "answer": "Increasing profits." },
+                                    { "id": 4, "answer": "Reducing staffing." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is the benefit of conducting post-mortems in an organization?",
+                                "answers": [
+                                    { "id": 1, "answer": "Fostering a culture of learning." },
+                                    { "id": 2, "answer": "Increasing employee turnover." },
+                                    { "id": 3, "answer": "Reducing budgets." },
+                                    { "id": 4, "answer": "Focusing solely on profits." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 11,
+                                "title": "What should be documented in the incident summary?",
+                                "answers": [
+                                    { "id": 1, "answer": "Impact of the incident." },
+                                    { "id": 2, "answer": "Marketing strategies." },
+                                    { "id": 3, "answer": "Employee feedback." },
+                                    { "id": 4, "answer": "Financial projections." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 12,
+                                "title": "What is the importance of sharing post-mortem reports with other teams?",
+                                "answers": [
+                                    { "id": 1, "answer": "Helps recognize similar issues." },
+                                    { "id": 2, "answer": "To assign blame." },
+                                    { "id": 3, "answer": "To increase profits." },
+                                    { "id": 4, "answer": "To reduce staffing." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "How can a post-mortem report help in building a resilient organization?",
+                                "answers": [
+                                    { "id": 1, "answer": "By encouraging learning from mistakes." },
+                                    { "id": 2, "answer": "By increasing employee turnover." },
+                                    { "id": 3, "answer": "By focusing solely on profits." },
+                                    { "id": 4, "answer": "By reducing budgets." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "What is a potential outcome of conducting regular post-mortems?",
+                                "answers": [
+                                    { "id": 1, "answer": "Improved incident response." },
+                                    { "id": 2, "answer": "Increased fear of making mistakes." },
+                                    { "id": 3, "answer": "Reduced innovation." },
+                                    { "id": 4, "answer": "Higher costs." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "What should a post-mortem report's root cause analysis aim to achieve?",
+                                "answers": [
+                                    { "id": 1, "answer": "Understanding the reasons behind the incident." },
+                                    { "id": 2, "answer": "Assigning blame." },
+                                    { "id": 3, "answer": "Increasing profits." },
+                                    { "id": 4, "answer": "Focusing on marketing." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "Why is it crucial to emphasize learning in post-mortem reports?",
+                                "answers": [
+                                    { "id": 1, "answer": "To promote a culture of accountability." },
+                                    { "id": 2, "answer": "To reduce employee morale." },
+                                    { "id": 3, "answer": "To increase costs." },
+                                    { "id": 4, "answer": "To focus on profits." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "What aspect should not be overlooked in a post-mortem report?",
+                                "answers": [
+                                    { "id": 1, "answer": "Timeliness of notifications." },
+                                    { "id": 2, "answer": "Financial performance." },
+                                    { "id": 3, "answer": "Employee satisfaction." },
+                                    { "id": 4, "answer": "Market trends." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "What is an effective strategy for fostering a healthy culture regarding mistakes?",
+                                "answers": [
+                                    { "id": 1, "answer": "Embracing post-mortems." },
+                                    { "id": 2, "answer": "Avoiding discussions about errors." },
+                                    { "id": 3, "answer": "Reducing innovation." },
+                                    { "id": 4, "answer": "Increasing punishment." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "What should action items in a post-mortem report aim to address?",
+                                "answers": [
+                                    { "id": 1, "answer": "Preventing similar incidents." },
+                                    { "id": 2, "answer": "Increasing employee turnover." },
+                                    { "id": 3, "answer": "Reducing marketing efforts." },
+                                    { "id": 4, "answer": "Focusing on profits." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 20,
+                                "title": "What is the overall goal of a post-mortem process?",
+                                "answers": [
+                                    { "id": 1, "answer": "To improve future performance." },
+                                    { "id": 2, "answer": "To blame individuals." },
+                                    { "id": 3, "answer": "To increase costs." },
+                                    { "id": 4, "answer": "To focus on profits." }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                        
+                    }
+
+                ]
             }
 
         ]
