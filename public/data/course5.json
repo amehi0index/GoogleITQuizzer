@@ -1,0 +1,807 @@
+{
+    "course": {
+        "title": "IT Security: Defense against the Digital Dark Arts",
+        "modules": [
+            {
+                "id": "module1",
+                "title": "Module 1: Understanding Security Threats ",
+                "subModules": [
+                    {
+                        "id": "module1-2",
+                        "title": "Malicious Software",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What does the acronym CIA stand for in information security?",
+                                "answers": [
+                                    { "id": 1, "answer": "Confidentiality, Integrity, Availability" },
+                                    { "id": 2, "answer": "Control, Information, Access" },
+                                    { "id": 3, "answer": "Computing, Internet, Authentication" },
+                                    { "id": 4, "answer": "Confidentiality, Information, Accessibility" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is the principle of confidentiality?",
+                                "answers": [
+                                    { "id": 1, "answer": "Ensuring data is accurate" },
+                                    { "id": 2, "answer": "Keeping information hidden from unauthorized access" },
+                                    { "id": 3, "answer": "Making data accessible to everyone" },
+                                    { "id": 4, "answer": "Preventing data loss" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "Why is integrity important in data management?",
+                                "answers": [
+                                    { "id": 1, "answer": "It ensures data is available" },
+                                    { "id": 2, "answer": "It keeps data confidential" },
+                                    { "id": 3, "answer": "It ensures data remains accurate and untampered" },
+                                    { "id": 4, "answer": "It prevents unauthorized access" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 4,
+                                "title": "What does availability ensure in information security?",
+                                "answers": [
+                                    { "id": 1, "answer": "Information is stored securely" },
+                                    { "id": 2, "answer": "Information is accessible to authorized users when needed" },
+                                    { "id": 3, "answer": "Information is encrypted" },
+                                    { "id": 4, "answer": "Information is backed up" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "What is a risk in information security?",
+                                "answers": [
+                                    { "id": 1, "answer": "A flaw in a system" },
+                                    { "id": 2, "answer": "The potential for loss or damage when an attack occurs" },
+                                    { "id": 3, "answer": "A type of malicious software" },
+                                    { "id": 4, "answer": "An unauthorized access attempt" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is a vulnerability?",
+                                "answers": [
+                                    { "id": 1, "answer": "A potential threat to a system" },
+                                    { "id": 2, "answer": "A flaw or weakness in a system that can be exploited" },
+                                    { "id": 3, "answer": "A method of unauthorized access" },
+                                    { "id": 4, "answer": "A type of hacker" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is an exploit?",
+                                "answers": [
+                                    { "id": 1, "answer": "A type of malware" },
+                                    { "id": 2, "answer": "A software or code used to take advantage of a vulnerability" },
+                                    { "id": 3, "answer": "A security policy" },
+                                    { "id": 4, "answer": "A method of encryption" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is a black hat hacker?",
+                                "answers": [
+                                    { "id": 1, "answer": "An ethical hacker" },
+                                    { "id": 2, "answer": "A malicious actor who exploits systems for harmful purposes" },
+                                    { "id": 3, "answer": "A security consultant" },
+                                    { "id": 4, "answer": "A software developer" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 9,
+                                "title": "What does ransomware do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Steals user data" },
+                                    { "id": 2, "answer": "Encrypts data and demands payment for its release" },
+                                    { "id": 3, "answer": "Displays unwanted advertisements" },
+                                    { "id": 4, "answer": "Monitors user activity" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is a worm in the context of malware?",
+                                "answers": [
+                                    { "id": 1, "answer": "A program that requires user action to spread" },
+                                    { "id": 2, "answer": "Self-replicating malware that spreads independently" },
+                                    { "id": 3, "answer": "A type of adware" },
+                                    { "id": 4, "answer": "Malware that encrypts files" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is spyware?",
+                                "answers": [
+                                    { "id": 1, "answer": "Malware that encrypts user files" },
+                                    { "id": 2, "answer": "Software that monitors user activity and sends data to another party" },
+                                    { "id": 3, "answer": "A type of adware" },
+                                    { "id": 4, "answer": "A security tool" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "What defines a zero-day vulnerability?",
+                                "answers": [
+                                    { "id": 1, "answer": "A vulnerability that is known to the vendor" },
+                                    { "id": 2, "answer": "A vulnerability that is known to attackers but not to the vendor" },
+                                    { "id": 3, "answer": "A vulnerability that has been patched" },
+                                    { "id": 4, "answer": "A vulnerability that is easily fixed" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is the primary purpose of adware?",
+                                "answers": [
+                                    { "id": 1, "answer": "To steal personal information" },
+                                    { "id": 2, "answer": "To display advertisements and collect user data" },
+                                    { "id": 3, "answer": "To encrypt files" },
+                                    { "id": 4, "answer": "To create botnets" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 14,
+                                "title": "What is a botnet?",
+                                "answers": [
+                                    { "id": 1, "answer": "A type of virus" },
+                                    { "id": 2, "answer": "A network of compromised computers controlled by an attacker" },
+                                    { "id": 3, "answer": "A software tool for ethical hacking" },
+                                    { "id": 4, "answer": "A security software suite" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 15,
+                                "title": "What is a backdoor in cybersecurity?",
+                                "answers": [
+                                    { "id": 1, "answer": "A legitimate access point for users" },
+                                    { "id": 2, "answer": "A hidden method for bypassing regular authentication" },
+                                    { "id": 3, "answer": "A type of malware" },
+                                    { "id": 4, "answer": "A security measure" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 16,
+                                "title": "What is a rootkit?",
+                                "answers": [
+                                    { "id": 1, "answer": "A tool used for ethical hacking" },
+                                    { "id": 2, "answer": "Software that provides unauthorized access to a system" },
+                                    { "id": 3, "answer": "Malware that hides its presence from detection" },
+                                    { "id": 4, "answer": "A type of virus" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 17,
+                                "title": "What is a logic bomb?",
+                                "answers": [
+                                    { "id": 1, "answer": "A type of spyware" },
+                                    { "id": 2, "answer": "Malware that executes under specific conditions" },
+                                    { "id": 3, "answer": "A harmless program" },
+                                    { "id": 4, "answer": "A type of worm" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 18,
+                                "title": "What is the significance of understanding security threats?",
+                                "answers": [
+                                    { "id": 1, "answer": "To ignore potential risks" },
+                                    { "id": 2, "answer": "To build effective security measures" },
+                                    { "id": 3, "answer": "To encourage lax security practices" },
+                                    { "id": 4, "answer": "To increase vulnerability" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 19,
+                                "title": "What is one way to prevent malware infections?",
+                                "answers": [
+                                    { "id": 1, "answer": "Opening email attachments from unknown sources" },
+                                    { "id": 2, "answer": "Regularly updating software" },
+                                    { "id": 3, "answer": "Ignoring security updates" },
+                                    { "id": 4, "answer": "Using weak passwords" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 20,
+                                "title": "Why is user education important in cybersecurity?",
+                                "answers": [
+                                    { "id": 1, "answer": "To reduce the chances of data breaches" },
+                                    { "id": 2, "answer": "To promote the use of weak passwords" },
+                                    { "id": 3, "answer": "To discourage best security practices" },
+                                    { "id": 4, "answer": "To limit system access" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 21,
+                                "title": "What can result from a security breach?",
+                                "answers": [
+                                    { "id": 1, "answer": "Improved system performance" },
+                                    { "id": 2, "answer": "Financial loss and data theft" },
+                                    { "id": 3, "answer": "Increased user trust" },
+                                    { "id": 4, "answer": "Enhanced data integrity" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 22,
+                                "title": "What is the role of antivirus software?",
+                                "answers": [
+                                    { "id": 1, "answer": "To monitor network traffic" },
+                                    { "id": 2, "answer": "To detect and remove malware" },
+                                    { "id": 3, "answer": "To encrypt sensitive data" },
+                                    { "id": 4, "answer": "To create backups" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 23,
+                                "title": "What is a common characteristic of Trojans?",
+                                "answers": [
+                                    { "id": 1, "answer": "They self-replicate" },
+                                    { "id": 2, "answer": "They disguise themselves as legitimate software" },
+                                    { "id": 3, "answer": "They monitor user activity" },
+                                    { "id": 4, "answer": "They encrypt files" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 24,
+                                "title": "How can regular system updates contribute to security?",
+                                "answers": [
+                                    { "id": 1, "answer": "By introducing new vulnerabilities" },
+                                    { "id": 2, "answer": "By fixing known security flaws" },
+                                    { "id": 3, "answer": "By making systems slower" },
+                                    { "id": 4, "answer": "By disabling security features" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 25,
+                                "title": "What does a strong password policy help to achieve?",
+                                "answers": [
+                                    { "id": 1, "answer": "Easier access to systems" },
+                                    { "id": 2, "answer": "Reduction of unauthorized access" },
+                                    { "id": 3, "answer": "More frequent password changes" },
+                                    { "id": 4, "answer": "Increased complexity of user accounts" }
+                                ],
+                                "correct": 2
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module1-3",
+                        "title": "Network Attacks",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is DNS cache poisoning?",
+                                "answers": [
+                                    { "id": 1, "answer": "Redirecting users to compromised servers" },
+                                    { "id": 2, "answer": "Encrypting data during transmission" },
+                                    { "id": 3, "answer": "Monitoring user activity" },
+                                    { "id": 4, "answer": "Blocking access to certain websites" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "How does DNS cache poisoning work?",
+                                "answers": [
+                                    { "id": 1, "answer": "By inserting fake DNS records into a DNS server's cache" },
+                                    { "id": 2, "answer": "By encrypting data packets" },
+                                    { "id": 3, "answer": "By flooding the server with requests" },
+                                    { "id": 4, "answer": "By installing malware on user devices" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 3,
+                                "title": "What is a risk associated with DNS cache poisoning?",
+                                "answers": [
+                                    { "id": 1, "answer": "Increased network speed" },
+                                    { "id": 2, "answer": "Data theft and financial damage" },
+                                    { "id": 3, "answer": "Enhanced data integrity" },
+                                    { "id": 4, "answer": "Improved user privacy" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is a Man-in-the-Middle (MitM) attack?",
+                                "answers": [
+                                    { "id": 1, "answer": "An attack where the attacker directly communicates with the target" },
+                                    { "id": 2, "answer": "An attack where the attacker intercepts and alters communications" },
+                                    { "id": 3, "answer": "An attack that uses malware to gain access" },
+                                    { "id": 4, "answer": "An attack that crashes a target server" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "What is session hijacking?",
+                                "answers": [
+                                    { "id": 1, "answer": "Gaining unauthorized access by stealing session tokens" },
+                                    { "id": 2, "answer": "Intercepting DNS queries" },
+                                    { "id": 3, "answer": "Flooding a network with traffic" },
+                                    { "id": 4, "answer": "Exploiting software vulnerabilities" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is a rogue access point?",
+                                "answers": [
+                                    { "id": 1, "answer": "A legitimate wireless network" },
+                                    { "id": 2, "answer": "An unauthorized wireless access point" },
+                                    { "id": 3, "answer": "A secured network" },
+                                    { "id": 4, "answer": "A type of firewall" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is an evil twin attack?",
+                                "answers": [
+                                    { "id": 1, "answer": "An attack that disables legitimate networks" },
+                                    { "id": 2, "answer": "Creating a fake Wi-Fi network to intercept data" },
+                                    { "id": 3, "answer": "Hacking into a server directly" },
+                                    { "id": 4, "answer": "Installing malware on a user's device" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 8,
+                                "title": "What does a Denial-of-Service (DoS) attack aim to do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Steal user data" },
+                                    { "id": 2, "answer": "Overwhelm a service to make it unavailable" },
+                                    { "id": 3, "answer": "Monitor network traffic" },
+                                    { "id": 4, "answer": "Encrypt data for ransom" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is a common method used in DoS attacks?",
+                                "answers": [
+                                    { "id": 1, "answer": "Sending an excessive number of requests" },
+                                    { "id": 2, "answer": "Encrypting data" },
+                                    { "id": 3, "answer": "Installing backdoors" },
+                                    { "id": 4, "answer": "Using VPNs for anonymity" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is a Ping of Death (PoD) attack?",
+                                "answers": [
+                                    { "id": 1, "answer": "A flood of ICMP echo requests" },
+                                    { "id": 2, "answer": "A malformed oversized ping packet" },
+                                    { "id": 3, "answer": "A type of phishing attack" },
+                                    { "id": 4, "answer": "An attack that uses Trojan horses" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is a SYN flood attack?",
+                                "answers": [
+                                    { "id": 1, "answer": "A type of phishing attack" },
+                                    { "id": 2, "answer": "A TCP connection attack that leaves connections half-open" },
+                                    { "id": 3, "answer": "A method to gain unauthorized access" },
+                                    { "id": 4, "answer": "A type of malware" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "What is a Distributed Denial-of-Service (DDoS) attack?",
+                                "answers": [
+                                    { "id": 1, "answer": "An attack from a single machine" },
+                                    { "id": 2, "answer": "An attack using multiple machines to flood a target" },
+                                    { "id": 3, "answer": "A type of malware" },
+                                    { "id": 4, "answer": "A method to encrypt data" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What was a significant impact of the DYN DDoS attack?",
+                                "answers": [
+                                    { "id": 1, "answer": "Increased website performance" },
+                                    { "id": 2, "answer": "Downtime for major websites" },
+                                    { "id": 3, "answer": "Enhanced security for ISPs" },
+                                    { "id": 4, "answer": "Improved user trust" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 14,
+                                "title": "What is one way to mitigate DDoS attacks?",
+                                "answers": [
+                                    { "id": 1, "answer": "Ignore the attack" },
+                                    { "id": 2, "answer": "Implement traffic filtering" },
+                                    { "id": 3, "answer": "Use weak passwords" },
+                                    { "id": 4, "answer": "Disable firewalls" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 15,
+                                "title": "Why is user awareness important in preventing network attacks?",
+                                "answers": [
+                                    { "id": 1, "answer": "To reduce the chances of unauthorized access" },
+                                    { "id": 2, "answer": "To promote weak passwords" },
+                                    { "id": 3, "answer": "To limit access to trusted sites" },
+                                    { "id": 4, "answer": "To encourage software piracy" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "What role does HTTPS play in security?",
+                                "answers": [
+                                    { "id": 1, "answer": "It is used for web hosting" },
+                                    { "id": 2, "answer": "It encrypts data during transmission" },
+                                    { "id": 3, "answer": "It monitors network traffic" },
+                                    { "id": 4, "answer": "It stores user passwords" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 17,
+                                "title": "What is DNSSEC?",
+                                "answers": [
+                                    { "id": 1, "answer": "A protocol for securing DNS data" },
+                                    { "id": 2, "answer": "A type of malware" },
+                                    { "id": 3, "answer": "A method for network monitoring" },
+                                    { "id": 4, "answer": "A tool for website performance" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "How can organizations protect against MitM attacks?",
+                                "answers": [
+                                    { "id": 1, "answer": "By ignoring suspicious activity" },
+                                    { "id": 2, "answer": "By using strong encryption methods" },
+                                    { "id": 3, "answer": "By limiting user access" },
+                                    { "id": 4, "answer": "By disabling all network connections" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 19,
+                                "title": "What is the primary goal of cybersecurity measures?",
+                                "answers": [
+                                    { "id": 1, "answer": "To ensure user convenience" },
+                                    { "id": 2, "answer": "To protect data confidentiality, integrity, and availability" },
+                                    { "id": 3, "answer": "To monitor user behavior" },
+                                    { "id": 4, "answer": "To increase network speed" }
+                                ],
+                                "correct": 2
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module1-4",
+                        "title": "Other Attacks",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is an injection attack?",
+                                "answers": [
+                                    { "id": 1, "answer": "Inserting malicious code into an application" },
+                                    { "id": 2, "answer": "Phishing for sensitive information" },
+                                    { "id": 3, "answer": "Using brute force to guess passwords" },
+                                    { "id": 4, "answer": "Stealing data through physical access" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is Cross-Site Scripting (XSS)?",
+                                "answers": [
+                                    { "id": 1, "answer": "An attack on database servers" },
+                                    { "id": 2, "answer": "Inserting malicious scripts into web pages" },
+                                    { "id": 3, "answer": "Intercepting network traffic" },
+                                    { "id": 4, "answer": "Exploiting software vulnerabilities" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "What is SQL Injection?",
+                                "answers": [
+                                    { "id": 1, "answer": "Injecting malicious SQL queries into a database" },
+                                    { "id": 2, "answer": "Manipulating web traffic" },
+                                    { "id": 3, "answer": "Executing scripts on a client-side" },
+                                    { "id": 4, "answer": "Creating phishing emails" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "How can you prevent SQL Injection?",
+                                "answers": [
+                                    { "id": 1, "answer": "Use complex passwords" },
+                                    { "id": 2, "answer": "Implement parameterized queries" },
+                                    { "id": 3, "answer": "Install antivirus software" },
+                                    { "id": 4, "answer": "Limit user access to data" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "What is a brute force attack?",
+                                "answers": [
+                                    { "id": 1, "answer": "Using social engineering techniques" },
+                                    { "id": 2, "answer": "Testing all possible combinations to crack a password" },
+                                    { "id": 3, "answer": "Exploiting software vulnerabilities" },
+                                    { "id": 4, "answer": "Redirecting users to fake websites" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is a dictionary attack?",
+                                "answers": [
+                                    { "id": 1, "answer": "Using common words to guess passwords" },
+                                    { "id": 2, "answer": "Injecting SQL queries into a database" },
+                                    { "id": 3, "answer": "Interfering with network traffic" },
+                                    { "id": 4, "answer": "Stealing data through phishing" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is phishing?",
+                                "answers": [
+                                    { "id": 1, "answer": "A technique to steal sensitive information" },
+                                    { "id": 2, "answer": "An attack on computer hardware" },
+                                    { "id": 3, "answer": "Exploiting user accounts" },
+                                    { "id": 4, "answer": "Encrypting user data" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "What does social engineering rely on?",
+                                "answers": [
+                                    { "id": 1, "answer": "Exploiting software bugs" },
+                                    { "id": 2, "answer": "Manipulating human psychology" },
+                                    { "id": 3, "answer": "Using complex algorithms" },
+                                    { "id": 4, "answer": "Overloading systems" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is two-factor authentication?",
+                                "answers": [
+                                    { "id": 1, "answer": "Using two passwords for one account" },
+                                    { "id": 2, "answer": "Requiring a second form of verification" },
+                                    { "id": 3, "answer": "Encrypting user passwords" },
+                                    { "id": 4, "answer": "Creating backup accounts" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is the purpose of a firewall?",
+                                "answers": [
+                                    { "id": 1, "answer": "To speed up network connections" },
+                                    { "id": 2, "answer": "To block unauthorized access to a network" },
+                                    { "id": 3, "answer": "To increase internet speed" },
+                                    { "id": 4, "answer": "To monitor user activity" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "What does 'data encryption' accomplish?",
+                                "answers": [
+                                    { "id": 1, "answer": "Hides data from unauthorized users" },
+                                    { "id": 2, "answer": "Increases data transfer speed" },
+                                    { "id": 3, "answer": "Backs up data" },
+                                    { "id": 4, "answer": "Compresses files" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 12,
+                                "title": "What is malware?",
+                                "answers": [
+                                    { "id": 1, "answer": "Malicious software designed to harm systems" },
+                                    { "id": 2, "answer": "A type of database" },
+                                    { "id": 3, "answer": "A network security tool" },
+                                    { "id": 4, "answer": "Software for backup purposes" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is a 'zero-day' vulnerability?",
+                                "answers": [
+                                    { "id": 1, "answer": "A vulnerability with no known patch" },
+                                    { "id": 2, "answer": "A flaw discovered after an attack" },
+                                    { "id": 3, "answer": "A type of malware" },
+                                    { "id": 4, "answer": "A security protocol" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "What is endpoint security?",
+                                "answers": [
+                                    { "id": 1, "answer": "Protecting individual devices on a network" },
+                                    { "id": 2, "answer": "Securing the server room" },
+                                    { "id": 3, "answer": "Monitoring network traffic" },
+                                    { "id": 4, "answer": "Backup solutions for data" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "What is the primary goal of cybersecurity measures?",
+                                "answers": [
+                                    { "id": 1, "answer": "To ensure user convenience" },
+                                    { "id": 2, "answer": "To protect data confidentiality, integrity, and availability" },
+                                    { "id": 3, "answer": "To monitor user behavior" },
+                                    { "id": 4, "answer": "To increase network speed" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 16,
+                                "title": "What is the purpose of a security audit?",
+                                "answers": [
+                                    { "id": 1, "answer": "To improve system performance" },
+                                    { "id": 2, "answer": "To evaluate and improve security measures" },
+                                    { "id": 3, "answer": "To train employees" },
+                                    { "id": 4, "answer": "To increase data storage" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 17,
+                                "title": "What does the term 'threat vector' refer to?",
+                                "answers": [
+                                    { "id": 1, "answer": "A method used by attackers to breach security" },
+                                    { "id": 2, "answer": "A type of virus" },
+                                    { "id": 3, "answer": "A form of encryption" },
+                                    { "id": 4, "answer": "A network protocol" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "What is an access control list (ACL)?",
+                                "answers": [
+                                    { "id": 1, "answer": "A list of users and their access rights" },
+                                    { "id": 2, "answer": "A type of software bug" },
+                                    { "id": 3, "answer": "A method of data compression" },
+                                    { "id": 4, "answer": "A network speed measurement" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "What is the purpose of regular password updates?",
+                                "answers": [
+                                    { "id": 1, "answer": "To comply with company policies" },
+                                    { "id": 2, "answer": "To reduce the risk of unauthorized access" },
+                                    { "id": 3, "answer": "To make passwords easier to remember" },
+                                    { "id": 4, "answer": "To improve network speed" }
+                                ],
+                                "correct": 2
+                            }
+                        ]
+                        
+                    }
+
+                ]
+            },
+            {
+                "id": "module2",
+                "title": "Module 2: Pelcgbybtl",
+                "subModules": [
+                    {
+                        "id": "module2-1",
+                        "title": "Symmetric Encryption",
+                        "questions": [
+                        ]
+                    },
+                    {
+                        "id": "module2-2",
+                        "title": "Public Key or Asymmetric Encryption",
+                        "questions": [
+                        ]
+                    },
+                    {
+                        "id": "module2-3",
+                        "title": "Hashing",
+                        "questions": [
+                        ]
+                    },
+                    {
+                        "id": "module2-4",
+                        "title": "Cryptography Applications",
+                        "questions": [
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "module3",
+                "title": "Module 3: Authentication, Authorization, Accounting",
+                "subModules": [
+                    {
+                        "id": "module3-1",
+                        "title": "Authentication",
+                        "questions": [
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "module4",
+                "title": "Module 4: Securing your Networks",
+                "subModules": [
+                    {
+                        "id": "module4-1",
+                        "title": "Secure Network Architecture",
+                        "questions": [
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "module5",
+                "title": "Module 5: Defense in Depth",
+                "subModules": [
+                    {
+                        "id": "module5-1",
+                        "title": "System Hardening",
+                        "questions": [
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "module6",
+                "title": "Module 6: Creating a Company Culture for Security",
+                "subModules": [
+                    {
+                        "id": "module6-1",
+                        "title": "Risk in the Workplace",
+                        "questions": [
+                        ]
+                    }
+                ]
+            }
+        ]
+
+    }
+}
