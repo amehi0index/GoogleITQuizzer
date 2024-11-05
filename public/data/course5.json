@@ -731,25 +731,1019 @@
                         "id": "module2-1",
                         "title": "Symmetric Encryption",
                         "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is the main purpose of cryptography?",
+                                "answers": [
+                                    { "id": 1, "answer": "To obscure data" },
+                                    { "id": 2, "answer": "To ensure data integrity" },
+                                    { "id": 3, "answer": "To enable secret communication" },
+                                    { "id": 4, "answer": "To improve data transfer speed" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is encryption?",
+                                "answers": [
+                                    { "id": 1, "answer": "The process of making data readable" },
+                                    { "id": 2, "answer": "The process of converting plaintext into ciphertext" },
+                                    { "id": 3, "answer": "The process of deleting data" },
+                                    { "id": 4, "answer": "The process of analyzing frequency in data" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "What is decryption?",
+                                "answers": [
+                                    { "id": 1, "answer": "Converting ciphertext back into plaintext" },
+                                    { "id": 2, "answer": "Concealing data" },
+                                    { "id": 3, "answer": "Creating new ciphertext" },
+                                    { "id": 4, "answer": "Transforming data into a hash" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is a cipher?",
+                                "answers": [
+                                    { "id": 1, "answer": "The key used for encryption" },
+                                    { "id": 2, "answer": "A method for transforming plaintext" },
+                                    { "id": 3, "answer": "The output of encryption" },
+                                    { "id": 4, "answer": "The algorithm for hashing data" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "What does Kerckhoff's Principle state?",
+                                "answers": [
+                                    { "id": 1, "answer": "The key should be kept secret" },
+                                    { "id": 2, "answer": "The algorithm should be kept secret" },
+                                    { "id": 3, "answer": "Security relies on key secrecy, not algorithm secrecy" },
+                                    { "id": 4, "answer": "All cryptosystems are unbreakable" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is Shannon's Maxim?",
+                                "answers": [
+                                    { "id": 1, "answer": "The security relies on the key, not the algorithm" },
+                                    { "id": 2, "answer": "All encryption is flawed" },
+                                    { "id": 3, "answer": "Security is guaranteed by complexity" },
+                                    { "id": 4, "answer": "Keys should be changed frequently" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is steganography?",
+                                "answers": [
+                                    { "id": 1, "answer": "The practice of coding messages" },
+                                    { "id": 2, "answer": "Hiding information in plain sight" },
+                                    { "id": 3, "answer": "Analyzing encrypted messages" },
+                                    { "id": 4, "answer": "The study of cryptography" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is a substitution cipher?",
+                                "answers": [
+                                    { "id": 1, "answer": "Replacing parts of plaintext with ciphertext" },
+                                    { "id": 2, "answer": "Reversing the ciphertext" },
+                                    { "id": 3, "answer": "Using multiple keys for encryption" },
+                                    { "id": 4, "answer": "Encrypting data in fixed-size blocks" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is the Caesar cipher?",
+                                "answers": [
+                                    { "id": 1, "answer": "A type of hashing algorithm" },
+                                    { "id": 2, "answer": "A substitution cipher with fixed letter shifts" },
+                                    { "id": 3, "answer": "A method of hiding messages" },
+                                    { "id": 4, "answer": "A block cipher for secure communication" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is ROT13?",
+                                "answers": [
+                                    { "id": 1, "answer": "A type of block cipher" },
+                                    { "id": 2, "answer": "A specific Caesar cipher with a shift of 13" },
+                                    { "id": 3, "answer": "A form of steganography" },
+                                    { "id": 4, "answer": "An advanced symmetric encryption algorithm" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is a stream cipher?",
+                                "answers": [
+                                    { "id": 1, "answer": "Processes data in fixed-size blocks" },
+                                    { "id": 2, "answer": "Encrypts data one character or digit at a time" },
+                                    { "id": 3, "answer": "Replaces characters in plaintext" },
+                                    { "id": 4, "answer": "Uses multiple keys for security" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "What is a block cipher?",
+                                "answers": [
+                                    { "id": 1, "answer": "Processes data one character at a time" },
+                                    { "id": 2, "answer": "Encrypts data in fixed-size blocks" },
+                                    { "id": 3, "answer": "Is always less secure than stream ciphers" },
+                                    { "id": 4, "answer": "Uses a single key for encryption and decryption" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is the Data Encryption Standard (DES)?",
+                                "answers": [
+                                    { "id": 1, "answer": "A modern encryption standard" },
+                                    { "id": 2, "answer": "A symmetric block cipher developed in the 1970s" },
+                                    { "id": 3, "answer": "A type of asymmetric encryption" },
+                                    { "id": 4, "answer": "An obsolete hashing algorithm" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 14,
+                                "title": "What is the Advanced Encryption Standard (AES)?",
+                                "answers": [
+                                    { "id": 1, "answer": "A block cipher with a block size of 128 bits" },
+                                    { "id": 2, "answer": "A type of public key encryption" },
+                                    { "id": 3, "answer": "An outdated encryption standard" },
+                                    { "id": 4, "answer": "A method for securing passwords" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "What is Rivest Cipher 4 (RC4)?",
+                                "answers": [
+                                    { "id": 1, "answer": "A block cipher with fixed key sizes" },
+                                    { "id": 2, "answer": "A symmetric stream cipher known for speed" },
+                                    { "id": 3, "answer": "A form of asymmetric encryption" },
+                                    { "id": 4, "answer": "A hashing algorithm for data integrity" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 16,
+                                "title": "What is a key in symmetric encryption?",
+                                "answers": [
+                                    { "id": 1, "answer": "The algorithm used for encryption" },
+                                    { "id": 2, "answer": "A value used for both encryption and decryption" },
+                                    { "id": 3, "answer": "The output of the encryption process" },
+                                    { "id": 4, "answer": "A method of hiding messages" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 17,
+                                "title": "What is an Initialization Vector (IV)?",
+                                "answers": [
+                                    { "id": 1, "answer": "A type of encryption key" },
+                                    { "id": 2, "answer": "A random value added to the key to ensure security" },
+                                    { "id": 3, "answer": "A part of the hashing process" },
+                                    { "id": 4, "answer": "A method for compressing data" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 18,
+                                "title": "What is the importance of key management?",
+                                "answers": [
+                                    { "id": 1, "answer": "To increase the complexity of algorithms" },
+                                    { "id": 2, "answer": "To prevent unauthorized access to encrypted data" },
+                                    { "id": 3, "answer": "To enhance data transfer speeds" },
+                                    { "id": 4, "answer": "To simplify encryption processes" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 19,
+                                "title": "What is the role of hardware acceleration in encryption?",
+                                "answers": [
+                                    { "id": 1, "answer": "To simplify encryption algorithms" },
+                                    { "id": 2, "answer": "To enhance computational speed during encryption tasks" },
+                                    { "id": 3, "answer": "To eliminate the need for keys" },
+                                    { "id": 4, "answer": "To improve data integrity" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 20,
+                                "title": "What is the relationship between symmetric key encryption and security?",
+                                "answers": [
+                                    { "id": 1, "answer": "It is inherently insecure" },
+                                    { "id": 2, "answer": "The security relies on the secrecy of the key" },
+                                    { "id": 3, "answer": "It does not require key management" },
+                                    { "id": 4, "answer": "It is only used in non-secure communications" }
+                                ],
+                                "correct": 2
+                            }
                         ]
+                        
                     },
                     {
                         "id": "module2-2",
                         "title": "Public Key or Asymmetric Encryption",
                         "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is the main characteristic of asymmetric encryption?",
+                                "answers": [
+                                    { "id": 1, "answer": "It uses the same key for encryption and decryption." },
+                                    { "id": 2, "answer": "It uses different keys for encryption and decryption." },
+                                    { "id": 3, "answer": "It relies on hashing algorithms." },
+                                    { "id": 4, "answer": "It is faster than symmetric encryption." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 2,
+                                "title": "In asymmetric encryption, what does the private key do?",
+                                "answers": [
+                                    { "id": 1, "answer": "It encrypts messages." },
+                                    { "id": 2, "answer": "It decrypts messages." },
+                                    { "id": 3, "answer": "It is shared openly." },
+                                    { "id": 4, "answer": "It verifies digital signatures." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "What do Suzanne and Darryl exchange in the key exchange process?",
+                                "answers": [
+                                    { "id": 1, "answer": "Private keys" },
+                                    { "id": 2, "answer": "Public keys" },
+                                    { "id": 3, "answer": "Ciphertext" },
+                                    { "id": 4, "answer": "Digital signatures" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is a digital signature used for in asymmetric cryptography?",
+                                "answers": [
+                                    { "id": 1, "answer": "To encrypt the message" },
+                                    { "id": 2, "answer": "To authenticate the message" },
+                                    { "id": 3, "answer": "To generate public keys" },
+                                    { "id": 4, "answer": "To exchange private keys" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "Which of the following is a key benefit of asymmetric cryptography?",
+                                "answers": [
+                                    { "id": 1, "answer": "It requires less computational power" },
+                                    { "id": 2, "answer": "It provides non-repudiation" },
+                                    { "id": 3, "answer": "It is faster than symmetric cryptography" },
+                                    { "id": 4, "answer": "It uses the same key for encryption and decryption" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is the purpose of a Message Authentication Code (MAC)?",
+                                "answers": [
+                                    { "id": 1, "answer": "To encrypt messages" },
+                                    { "id": 2, "answer": "To authenticate messages" },
+                                    { "id": 3, "answer": "To generate public keys" },
+                                    { "id": 4, "answer": "To create digital signatures" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is RSA in the context of asymmetric encryption?",
+                                "answers": [
+                                    { "id": 1, "answer": "A symmetric encryption algorithm" },
+                                    { "id": 2, "answer": "A method for key exchange" },
+                                    { "id": 3, "answer": "An asymmetric cryptography system" },
+                                    { "id": 4, "answer": "A hashing algorithm" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 8,
+                                "title": "What does the Diffie-Hellman key exchange allow parties to do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Encrypt messages without sharing secret keys" },
+                                    { "id": 2, "answer": "Create digital signatures" },
+                                    { "id": 3, "answer": "Encrypt messages with the same key" },
+                                    { "id": 4, "answer": "Generate random keys" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is the primary purpose of elliptic curve cryptography (ECC)?",
+                                "answers": [
+                                    { "id": 1, "answer": "To provide faster encryption with smaller keys" },
+                                    { "id": 2, "answer": "To generate large random numbers" },
+                                    { "id": 3, "answer": "To replace symmetric key algorithms" },
+                                    { "id": 4, "answer": "To facilitate digital signatures" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "Which of the following describes the main advantage of ECC over RSA?",
+                                "answers": [
+                                    { "id": 1, "answer": "ECC requires larger key sizes" },
+                                    { "id": 2, "answer": "ECC provides stronger security with smaller key sizes" },
+                                    { "id": 3, "answer": "ECC is easier to implement" },
+                                    { "id": 4, "answer": "ECC is faster than symmetric algorithms" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is the role of the public key in asymmetric encryption?",
+                                "answers": [
+                                    { "id": 1, "answer": "It decrypts messages" },
+                                    { "id": 2, "answer": "It encrypts messages" },
+                                    { "id": 3, "answer": "It is kept secret" },
+                                    { "id": 4, "answer": "It verifies digital signatures" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "Which algorithm is commonly used for digital signatures?",
+                                "answers": [
+                                    { "id": 1, "answer": "HMAC" },
+                                    { "id": 2, "answer": "RSA" },
+                                    { "id": 3, "answer": "AES" },
+                                    { "id": 4, "answer": "DES" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is a key feature of HMAC?",
+                                "answers": [
+                                    { "id": 1, "answer": "It uses a symmetric key for both generation and verification" },
+                                    { "id": 2, "answer": "It requires a public key for generation" },
+                                    { "id": 3, "answer": "It is faster than digital signatures" },
+                                    { "id": 4, "answer": "It encrypts the message" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "What does non-repudiation in asymmetric cryptography mean?",
+                                "answers": [
+                                    { "id": 1, "answer": "The sender cannot deny sending the message" },
+                                    { "id": 2, "answer": "The message cannot be altered" },
+                                    { "id": 3, "answer": "The message is encrypted" },
+                                    { "id": 4, "answer": "The keys are exchanged securely" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "What is the purpose of using a hybrid approach in cryptography?",
+                                "answers": [
+                                    { "id": 1, "answer": "To combine the benefits of asymmetric and symmetric encryption" },
+                                    { "id": 2, "answer": "To replace asymmetric encryption entirely" },
+                                    { "id": 3, "answer": "To simplify key management" },
+                                    { "id": 4, "answer": "To ensure only one key is used" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "What is a common use case for public key cryptography?",
+                                "answers": [
+                                    { "id": 1, "answer": "Securing email communications" },
+                                    { "id": 2, "answer": "Encrypting large data files" },
+                                    { "id": 3, "answer": "Generating passwords" },
+                                    { "id": 4, "answer": "Creating symmetric keys" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "How does the Diffie-Hellman method primarily enhance security?",
+                                "answers": [
+                                    { "id": 1, "answer": "By encrypting messages" },
+                                    { "id": 2, "answer": "By allowing secure key exchange" },
+                                    { "id": 3, "answer": "By creating digital signatures" },
+                                    { "id": 4, "answer": "By managing symmetric keys" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 18,
+                                "title": "Which of the following best describes digital signatures?",
+                                "answers": [
+                                    { "id": 1, "answer": "They encrypt messages for confidentiality" },
+                                    { "id": 2, "answer": "They authenticate the sender's identity" },
+                                    { "id": 3, "answer": "They replace public keys" },
+                                    { "id": 4, "answer": "They are used to generate MACs" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 19,
+                                "title": "What is a key consideration when implementing asymmetric encryption?",
+                                "answers": [
+                                    { "id": 1, "answer": "The public key should remain private" },
+                                    { "id": 2, "answer": "The private key must be kept secure" },
+                                    { "id": 3, "answer": "Only symmetric encryption should be used" },
+                                    { "id": 4, "answer": "Keys should be shared freely" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 20,
+                                "title": "What does ECC stand for in the context of cryptography?",
+                                "answers": [
+                                    { "id": 1, "answer": "Elliptical Curve Cryptography" },
+                                    { "id": 2, "answer": "Elliptic Curve Cryptography" },
+                                    { "id": 3, "answer": "Electromagnetic Curve Cryptography" },
+                                    { "id": 4, "answer": "Electronic Curve Cryptography" }
+                                ],
+                                "correct": 2
+                            }
                         ]
+                        
                     },
                     {
                         "id": "module2-3",
                         "title": "Hashing",
                         "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is the primary purpose of hashing?",
+                                "answers": [
+                                    { "id": 1, "answer": "To encrypt data" },
+                                    { "id": 2, "answer": "To map data to a fixed-size output" },
+                                    { "id": 3, "answer": "To compress data" },
+                                    { "id": 4, "answer": "To encode data" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 2,
+                                "title": "Which property of hash functions ensures that the same input produces the same output?",
+                                "answers": [
+                                    { "id": 1, "answer": "Deterministic" },
+                                    { "id": 2, "answer": "Fast computation" },
+                                    { "id": 3, "answer": "Collision resistance" },
+                                    { "id": 4, "answer": "Uniqueness" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 3,
+                                "title": "What does collision resistance in hash functions refer to?",
+                                "answers": [
+                                    { "id": 1, "answer": "Two different inputs producing the same output" },
+                                    { "id": 2, "answer": "The ability to reverse a hash" },
+                                    { "id": 3, "answer": "The same input producing different outputs" },
+                                    { "id": 4, "answer": "The hash being the same size regardless of input" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "What type of hash function is MD5?",
+                                "answers": [
+                                    { "id": 1, "answer": "Symmetric encryption" },
+                                    { "id": 2, "answer": "Cryptographic hash function" },
+                                    { "id": 3, "answer": "Asymmetric encryption" },
+                                    { "id": 4, "answer": "Public key infrastructure" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "What is the output size of an MD5 hash?",
+                                "answers": [
+                                    { "id": 1, "answer": "128 bits" },
+                                    { "id": 2, "answer": "160 bits" },
+                                    { "id": 3, "answer": "256 bits" },
+                                    { "id": 4, "answer": "512 bits" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "Which vulnerability led to the recommendation to stop using MD5 for cryptographic applications?",
+                                "answers": [
+                                    { "id": 1, "answer": "Slow computation speed" },
+                                    { "id": 2, "answer": "Hash collisions" },
+                                    { "id": 3, "answer": "Key management issues" },
+                                    { "id": 4, "answer": "Lack of uniqueness" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is the main difference between a Message Integrity Check (MIC) and a Message Authentication Code (MAC)?",
+                                "answers": [
+                                    { "id": 1, "answer": "MIC uses secret keys, while MAC does not." },
+                                    { "id": 2, "answer": "MAC uses secret keys, while MIC does not." },
+                                    { "id": 3, "answer": "Both use the same method." },
+                                    { "id": 4, "answer": "MIC is for data integrity, while MAC is for confidentiality." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is a rainbow table attack?",
+                                "answers": [
+                                    { "id": 1, "answer": "A method to brute-force passwords" },
+                                    { "id": 2, "answer": "A precomputed table of hashes for lookup" },
+                                    { "id": 3, "answer": "An attack that uses salt to hide passwords" },
+                                    { "id": 4, "answer": "An algorithm for hashing" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 9,
+                                "title": "What does salting a password achieve?",
+                                "answers": [
+                                    { "id": 1, "answer": "Increases the password length" },
+                                    { "id": 2, "answer": "Makes passwords easier to remember" },
+                                    { "id": 3, "answer": "Ensures unique hashes for identical passwords" },
+                                    { "id": 4, "answer": "Encrypts the password" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 10,
+                                "title": "Which hash function was developed as a successor to MD5?",
+                                "answers": [
+                                    { "id": 1, "answer": "SHA-1" },
+                                    { "id": 2, "answer": "SHA-2" },
+                                    { "id": 3, "answer": "RC4" },
+                                    { "id": 4, "answer": "AES" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is an avalanche effect in hashing?",
+                                "answers": [
+                                    { "id": 1, "answer": "Minor changes in input result in minor changes in output" },
+                                    { "id": 2, "answer": "Minor changes in input result in major changes in output" },
+                                    { "id": 3, "answer": "The output size changes with the input size" },
+                                    { "id": 4, "answer": "All outputs are the same for similar inputs" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "Why is it important to avoid storing passwords in plain text?",
+                                "answers": [
+                                    { "id": 1, "answer": "It's more convenient for users" },
+                                    { "id": 2, "answer": "It allows for easier recovery of forgotten passwords" },
+                                    { "id": 3, "answer": "It prevents unauthorized access if the database is compromised" },
+                                    { "id": 4, "answer": "It increases the speed of logins" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 13,
+                                "title": "What type of attack can be mitigated by increasing the salt length in password hashing?",
+                                "answers": [
+                                    { "id": 1, "answer": "Brute force attacks" },
+                                    { "id": 2, "answer": "Phishing attacks" },
+                                    { "id": 3, "answer": "Rainbow table attacks" },
+                                    { "id": 4, "answer": "Man-in-the-middle attacks" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 14,
+                                "title": "What is the purpose of using hashing in password storage?",
+                                "answers": [
+                                    { "id": 1, "answer": "To encrypt the password" },
+                                    { "id": 2, "answer": "To create a fixed-length representation of the password" },
+                                    { "id": 3, "answer": "To compress the password" },
+                                    { "id": 4, "answer": "To make passwords easier to manage" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 15,
+                                "title": "What is SHA-1 known for?",
+                                "answers": [
+                                    { "id": 1, "answer": "It is a fast hashing algorithm without vulnerabilities" },
+                                    { "id": 2, "answer": "It is widely used and has known vulnerabilities" },
+                                    { "id": 3, "answer": "It was the first hash function ever created" },
+                                    { "id": 4, "answer": "It is a symmetric encryption algorithm" }
+                                ],
+                                "correct": 2
+                            }
                         ]
+                        
                     },
                     {
                         "id": "module2-4",
                         "title": "Cryptography Applications",
                         "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is the main purpose of Public Key Infrastructure (PKI)?",
+                                "answers": [
+                                    { "id": 1, "answer": "To encrypt messages." },
+                                    { "id": 2, "answer": "To secure communications and verify identities." },
+                                    { "id": 3, "answer": "To generate keys." },
+                                    { "id": 4, "answer": "To store passwords." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 2,
+                                "title": "What does a digital certificate contain?",
+                                "answers": [
+                                    { "id": 1, "answer": "The private key of an entity." },
+                                    { "id": 2, "answer": "The public key and information about the entity." },
+                                    { "id": 3, "answer": "Only the entity's name." },
+                                    { "id": 4, "answer": "A digital signature from the user." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "What role does a Certificate Authority (CA) play in PKI?",
+                                "answers": [
+                                    { "id": 1, "answer": "It generates encryption keys." },
+                                    { "id": 2, "answer": "It issues and signs digital certificates." },
+                                    { "id": 3, "answer": "It verifies passwords." },
+                                    { "id": 4, "answer": "It manages user accounts." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is the purpose of a Certificate Revocation List (CRL)?",
+                                "answers": [
+                                    { "id": 1, "answer": "To store all public keys." },
+                                    { "id": 2, "answer": "To list certificates that are no longer valid." },
+                                    { "id": 3, "answer": "To verify the identity of users." },
+                                    { "id": 4, "answer": "To issue new certificates." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "What is a self-signed certificate?",
+                                "answers": [
+                                    { "id": 1, "answer": "A certificate signed by a trusted CA." },
+                                    { "id": 2, "answer": "A certificate signed by the entity that created it." },
+                                    { "id": 3, "answer": "A certificate with no expiration." },
+                                    { "id": 4, "answer": "A certificate used for testing only." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 6,
+                                "title": "What does the term 'chain of trust' refer to in PKI?",
+                                "answers": [
+                                    { "id": 1, "answer": "The process of encrypting data." },
+                                    { "id": 2, "answer": "The relationship of trust between entities." },
+                                    { "id": 3, "answer": "The storage of all public keys." },
+                                    { "id": 4, "answer": "The method of generating keys." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 7,
+                                "title": "Which standard defines the format of digital certificates?",
+                                "answers": [
+                                    { "id": 1, "answer": "X.509" },
+                                    { "id": 2, "answer": "SHA-1" },
+                                    { "id": 3, "answer": "PKCS#12" },
+                                    { "id": 4, "answer": "AES" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "What does a root certificate authority do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Issues intermediate certificates." },
+                                    { "id": 2, "answer": "Manages user accounts." },
+                                    { "id": 3, "answer": "Generates public keys." },
+                                    { "id": 4, "answer": "Verifies software integrity." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is the web of trust?",
+                                "answers": [
+                                    { "id": 1, "answer": "A centralized model for managing certificates." },
+                                    { "id": 2, "answer": "A decentralized model where individuals sign each other's keys." },
+                                    { "id": 3, "answer": "A system for tracking digital signatures." },
+                                    { "id": 4, "answer": "A method for encrypting communications." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 10,
+                                "title": "What does a digital signature in a certificate verify?",
+                                "answers": [
+                                    { "id": 1, "answer": "The authenticity of the entity." },
+                                    { "id": 2, "answer": "The length of the public key." },
+                                    { "id": 3, "answer": "The expiration date of the certificate." },
+                                    { "id": 4, "answer": "The strength of the encryption." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is the main function of a Registration Authority (RA)?",
+                                "answers": [
+                                    { "id": 1, "answer": "To issue digital certificates." },
+                                    { "id": 2, "answer": "To verify identities of entities requesting certificates." },
+                                    { "id": 3, "answer": "To manage user accounts." },
+                                    { "id": 4, "answer": "To encrypt data." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "What is an SSL/TLS server certificate used for?",
+                                "answers": [
+                                    { "id": 1, "answer": "To verify the integrity of software." },
+                                    { "id": 2, "answer": "To authenticate a web server to a client." },
+                                    { "id": 3, "answer": "To encrypt emails." },
+                                    { "id": 4, "answer": "To manage user accounts." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What does the 'not before' field in a certificate indicate?",
+                                "answers": [
+                                    { "id": 1, "answer": "When the certificate is created." },
+                                    { "id": 2, "answer": "When the certificate becomes valid." },
+                                    { "id": 3, "answer": "When the certificate expires." },
+                                    { "id": 4, "answer": "The issuer's signature." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 14,
+                                "title": "What is the purpose of a key signing party?",
+                                "answers": [
+                                    { "id": 1, "answer": "To generate new encryption keys." },
+                                    { "id": 2, "answer": "To verify and sign each other's public keys." },
+                                    { "id": 3, "answer": "To revoke certificates." },
+                                    { "id": 4, "answer": "To store keys securely." }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 15,
+                                "title": "What is an end-entity or leaf certificate?",
+                                "answers": [
+                                    { "id": 1, "answer": "A certificate with no CA authority." },
+                                    { "id": 2, "answer": "A root certificate." },
+                                    { "id": 3, "answer": "A self-signed certificate." },
+                                    { "id": 4, "answer": "An intermediate certificate." }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "What does HTTPS stand for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Hypertext Transfer Protocol Secure" },
+                                    { "id": 2, "answer": "Hypertext Transmission Protocol Secure" },
+                                    { "id": 3, "answer": "High Transfer Protocol Secure" },
+                                    { "id": 4, "answer": "Hyper Transfer Protocol Secure" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "What protocol does HTTPS use for secure communications?",
+                                "answers": [
+                                    { "id": 1, "answer": "SSL" },
+                                    { "id": 2, "answer": "TCP" },
+                                    { "id": 3, "answer": "HTTP" },
+                                    { "id": 4, "answer": "UDP" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "What is the purpose of the TLS handshake process?",
+                                "answers": [
+                                    { "id": 1, "answer": "To establish a secure connection between client and server" },
+                                    { "id": 2, "answer": "To authenticate the user" },
+                                    { "id": 3, "answer": "To transmit data securely" },
+                                    { "id": 4, "answer": "To encrypt data" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "What does SSH stand for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Secure Shell" },
+                                    { "id": 2, "answer": "Safe Shell" },
+                                    { "id": 3, "answer": "Secure Socket Host" },
+                                    { "id": 4, "answer": "Safe Socket Handler" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 20,
+                                "title": "What is the primary use of PGP?",
+                                "answers": [
+                                    { "id": 1, "answer": "Encrypted email communications" },
+                                    { "id": 2, "answer": "File compression" },
+                                    { "id": 3, "answer": "Web hosting" },
+                                    { "id": 4, "answer": "Video streaming" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 21,
+                                "title": "Which algorithm was originally used by PGP?",
+                                "answers": [
+                                    { "id": 1, "answer": "RSA" },
+                                    { "id": 2, "answer": "AES" },
+                                    { "id": 3, "answer": "DSA" },
+                                    { "id": 4, "answer": "SHA" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 22,
+                                "title": "What is a VPN?",
+                                "answers": [
+                                    { "id": 1, "answer": "Virtual Private Network" },
+                                    { "id": 2, "answer": "Variable Protocol Network" },
+                                    { "id": 3, "answer": "Virtual Public Network" },
+                                    { "id": 4, "answer": "Visual Private Network" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 23,
+                                "title": "What does IPsec provide?",
+                                "answers": [
+                                    { "id": 1, "answer": "Secure communication over IP networks" },
+                                    { "id": 2, "answer": "Database management" },
+                                    { "id": 3, "answer": "Web hosting security" },
+                                    { "id": 4, "answer": "User authentication" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 24,
+                                "title": "What is the main function of a Trusted Platform Module (TPM)?",
+                                "answers": [
+                                    { "id": 1, "answer": "To provide secure generation of cryptographic keys" },
+                                    { "id": 2, "answer": "To store user passwords" },
+                                    { "id": 3, "answer": "To manage network traffic" },
+                                    { "id": 4, "answer": "To encrypt web traffic" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 25,
+                                "title": "Which encryption method does Full Disk Encryption (FDE) use?",
+                                "answers": [
+                                    { "id": 1, "answer": "Encrypting the entire contents of a storage device" },
+                                    { "id": 2, "answer": "Encrypting only individual files" },
+                                    { "id": 3, "answer": "Using only password protection" },
+                                    { "id": 4, "answer": "Encrypting network traffic" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 26,
+                                "title": "What is the purpose of data binding in TPM?",
+                                "answers": [
+                                    { "id": 1, "answer": "Linking encrypted data to the TPM" },
+                                    { "id": 2, "answer": "Storing user data securely" },
+                                    { "id": 3, "answer": "Generating random keys" },
+                                    { "id": 4, "answer": "Managing disk encryption" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 27,
+                                "title": "What does the 'ChangeCipherSpec' message indicate in the TLS handshake?",
+                                "answers": [
+                                    { "id": 1, "answer": "That the server should switch to secure communication" },
+                                    { "id": 2, "answer": "That the client is ready to send data" },
+                                    { "id": 3, "answer": "That the server is closing the connection" },
+                                    { "id": 4, "answer": "That the session is terminated" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 28,
+                                "title": "Which mode does IPsec use to encrypt only the payload of the IP packet?",
+                                "answers": [
+                                    { "id": 1, "answer": "Transport Mode" },
+                                    { "id": 2, "answer": "Tunnel Mode" },
+                                    { "id": 3, "answer": "Secure Mode" },
+                                    { "id": 4, "answer": "Data Mode" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 29,
+                                "title": "Which protocol is often combined with IPsec for added data confidentiality?",
+                                "answers": [
+                                    { "id": 1, "answer": "L2TP" },
+                                    { "id": 2, "answer": "SSH" },
+                                    { "id": 3, "answer": "TLS" },
+                                    { "id": 4, "answer": "HTTPS" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 30,
+                                "title": "What is a characteristic of OpenVPN?",
+                                "answers": [
+                                    { "id": 1, "answer": "Utilizes SSL/TLS for securing network traffic" },
+                                    { "id": 2, "answer": "Operates only over TCP" },
+                                    { "id": 3, "answer": "Requires a special client application" },
+                                    { "id": 4, "answer": "Uses only one authentication method" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 31,
+                                "title": "Which term describes the unique RSA key in a TPM?",
+                                "answers": [
+                                    { "id": 1, "answer": "Unique secret RSA key" },
+                                    { "id": 2, "answer": "Public key" },
+                                    { "id": 3, "answer": "Encryption key" },
+                                    { "id": 4, "answer": "Access key" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 32,
+                                "title": "What is the primary role of a Certificate Authority (CA)?",
+                                "answers": [
+                                    { "id": 1, "answer": "To issue and sign digital certificates" },
+                                    { "id": 2, "answer": "To generate encryption keys" },
+                                    { "id": 3, "answer": "To authenticate users" },
+                                    { "id": 4, "answer": "To manage network traffic" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 33,
+                                "title": "What does forward secrecy protect?",
+                                "answers": [
+                                    { "id": 1, "answer": "Past session keys from being compromised" },
+                                    { "id": 2, "answer": "Current session keys from being compromised" },
+                                    { "id": 3, "answer": "All encryption keys" },
+                                    { "id": 4, "answer": "Future session keys from being compromised" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 34,
+                                "title": "What is the primary purpose of random number generation in cryptography?",
+                                "answers": [
+                                    { "id": 1, "answer": "Key creation and security functions" },
+                                    { "id": 2, "answer": "Data compression" },
+                                    { "id": 3, "answer": "Network management" },
+                                    { "id": 4, "answer": "User authentication" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 35,
+                                "title": "What are secure elements designed to do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Store cryptographic keys securely" },
+                                    { "id": 2, "answer": "Manage user passwords" },
+                                    { "id": 3, "answer": "Encrypt web traffic" },
+                                    { "id": 4, "answer": "Monitor network traffic" }
+                                ],
+                                "correct": 1
+                            }
                         ]
+                        
                     }
                 ]
             },
