@@ -1293,7 +1293,7 @@
                                     { "id": 3, "answer": "RC4" },
                                     { "id": 4, "answer": "AES" }
                                 ],
-                                "correct": 2
+                                "correct": 1
                             },
                             {
                                 "id": 11,
@@ -1542,7 +1542,7 @@
                                     { "id": 3, "answer": "HTTP" },
                                     { "id": 4, "answer": "UDP" }
                                 ],
-                                "correct": 1
+                                "correct": 2
                             },
                             {
                                 "id": 18,
@@ -1755,7 +1755,1144 @@
                         "id": "module3-1",
                         "title": "Authentication",
                         "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is the purpose of authentication?",
+                                "answers": [
+                                    { "id": 1, "answer": "Verifying an entity’s claimed identity" },
+                                    { "id": 2, "answer": "Determining access rights to resources" },
+                                    { "id": 3, "answer": "Storing encrypted data" },
+                                    { "id": 4, "answer": "Encrypting web traffic" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is the main difference between identification and authentication?",
+                                "answers": [
+                                    { "id": 1, "answer": "Identification is proving the identity, while authentication is uniquely describing an entity" },
+                                    { "id": 2, "answer": "Identification is uniquely describing an entity, while authentication is proving the identity" },
+                                    { "id": 3, "answer": "Identification is used for authentication, while authentication is used for authorization" },
+                                    { "id": 4, "answer": "There is no difference between identification and authentication" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "Which of the following is a characteristic of a strong password?",
+                                "answers": [
+                                    { "id": 1, "answer": "Short length" },
+                                    { "id": 2, "answer": "Simple words" },
+                                    { "id": 3, "answer": "Long, complex, and includes special characters" },
+                                    { "id": 4, "answer": "Only using lowercase letters" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is the security-usability trade-off with password policies?",
+                                "answers": [
+                                    { "id": 1, "answer": "More complex passwords are easier to remember" },
+                                    { "id": 2, "answer": "Usable passwords may be less secure, while secure ones may be hard to remember" },
+                                    { "id": 3, "answer": "Password policies don't impact usability" },
+                                    { "id": 4, "answer": "Complex passwords are always easier to use" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "Which of the following is a risk of frequent password rotation?",
+                                "answers": [
+                                    { "id": 1, "answer": "It encourages secure password storage" },
+                                    { "id": 2, "answer": "It may encourage insecure practices, like writing down passwords" },
+                                    { "id": 3, "answer": "It improves user convenience" },
+                                    { "id": 4, "answer": "It guarantees password strength" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 6,
+                                "title": "What are the components of multifactor authentication (MFA)?",
+                                "answers": [
+                                    { "id": 1, "answer": "Only something you know" },
+                                    { "id": 2, "answer": "Something you know, something you have, and something you are" },
+                                    { "id": 3, "answer": "Only something you have" },
+                                    { "id": 4, "answer": "Only something you are" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is a Time-Based One-Time Password (TOTP)?",
+                                "answers": [
+                                    { "id": 1, "answer": "A one-time password generated using an incrementing counter" },
+                                    { "id": 2, "answer": "A one-time password generated using a secret seed value and time" },
+                                    { "id": 3, "answer": "A password that is valid for a fixed duration" },
+                                    { "id": 4, "answer": "A password sent via SMS" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is a major security issue with SMS-based OTPs?",
+                                "answers": [
+                                    { "id": 1, "answer": "They can be intercepted or redirected by attackers" },
+                                    { "id": 2, "answer": "They are always invalid after 30 seconds" },
+                                    { "id": 3, "answer": "They require expensive phone plans" },
+                                    { "id": 4, "answer": "They cannot be used for two-factor authentication" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is one of the main advantages of physical tokens in MFA?",
+                                "answers": [
+                                    { "id": 1, "answer": "They are convenient but less secure" },
+                                    { "id": 2, "answer": "They enhance security by requiring possession of a physical device" },
+                                    { "id": 3, "answer": "They are always immune to phishing attacks" },
+                                    { "id": 4, "answer": "They do not require any user interaction" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is one of the challenges with using smartphone apps for OTPs?",
+                                "answers": [
+                                    { "id": 1, "answer": "They are less secure than physical tokens" },
+                                    { "id": 2, "answer": "They can cause issues if the phone is lost or damaged" },
+                                    { "id": 3, "answer": "They cannot generate OTPs for multiple accounts" },
+                                    { "id": 4, "answer": "They eliminate the need for MFA" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is one way to protect biometric data in authentication systems?",
+                                "answers": [
+                                    { "id": 1, "answer": "Store biometric data directly" },
+                                    { "id": 2, "answer": "Hash biometric data to protect privacy" },
+                                    { "id": 3, "answer": "Encrypt biometric data and store it on a local server" },
+                                    { "id": 4, "answer": "Transmit biometric data in plaintext" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 12,
+                                "title": "Which of the following is a common method of spoofing biometric authentication?",
+                                "answers": [
+                                    { "id": 1, "answer": "Using encrypted biometric data" },
+                                    { "id": 2, "answer": "Using a photo to spoof facial recognition" },
+                                    { "id": 3, "answer": "Using a fingerprint scanner with depth detection" },
+                                    { "id": 4, "answer": "Using a secure token" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is U2F (Universal Second Factor) designed to prevent?",
+                                "answers": [
+                                    { "id": 1, "answer": "Phishing attacks" },
+                                    { "id": 2, "answer": "Password theft" },
+                                    { "id": 3, "answer": "Token theft" },
+                                    { "id": 4, "answer": "All of the above" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "How does U2F protect against phishing attacks?",
+                                "answers": [
+                                    { "id": 1, "answer": "By requiring a physical tap to authenticate" },
+                                    { "id": 2, "answer": "By generating random passwords" },
+                                    { "id": 3, "answer": "By using voice recognition" },
+                                    { "id": 4, "answer": "By requiring an OTP sent via SMS" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "What type of cryptography does a U2F security key use?",
+                                "answers": [
+                                    { "id": 1, "answer": "Symmetric cryptography" },
+                                    { "id": 2, "answer": "Asymmetric public-key cryptography" },
+                                    { "id": 3, "answer": "Hashing algorithms" },
+                                    { "id": 4, "answer": "Elliptic curve cryptography" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 16,
+                                "title": "What does the registration process for a U2F security key involve?",
+                                "answers": [
+                                    { "id": 1, "answer": "The key generates a unique key pair, with the public key registered" },
+                                    { "id": 2, "answer": "The server generates a unique key pair for the key" },
+                                    { "id": 3, "answer": "The user enters a PIN for registration" },
+                                    { "id": 4, "answer": "The key generates a one-time password" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "Which of the following is a common use case for client certificates?",
+                                "answers": [
+                                    { "id": 1, "answer": "To authenticate users to online services" },
+                                    { "id": 2, "answer": "To authenticate servers to clients" },
+                                    { "id": 3, "answer": "To secure VPN connections" },
+                                    { "id": 4, "answer": "To secure user login passwords" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 18,
+                                "title": "What is mutual authentication in the context of certificates?",
+                                "answers": [
+                                    { "id": 1, "answer": "It allows clients to verify the server's identity" },
+                                    { "id": 2, "answer": "It allows clients and servers to verify each other's identity" },
+                                    { "id": 3, "answer": "It involves using a password to authenticate users" },
+                                    { "id": 4, "answer": "It involves hashing client data for security" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 19,
+                                "title": "What is a Certificate Authority (CA) responsible for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Issuing and signing certificates" },
+                                    { "id": 2, "answer": "Encrypting all client communications" },
+                                    { "id": 3, "answer": "Monitoring the integrity of client data" },
+                                    { "id": 4, "answer": "Storing private keys" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 20,
+                                "title": "What does a Certificate Revocation List (CRL) contain?",
+                                "answers": [
+                                    { "id": 1, "answer": "A list of certificates issued by the CA" },
+                                    { "id": 2, "answer": "A list of revoked certificates" },
+                                    { "id": 3, "answer": "A list of trusted certificate authorities" },
+                                    { "id": 4, "answer": "A list of expired certificates" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 21,
+                                "title": "What does the private key possession verification process for certificates involve?",
+                                "answers": [
+                                    { "id": 1, "answer": "Verifying the user’s possession of the public key" },
+                                    { "id": 2, "answer": "Verifying the user’s possession of the private key" },
+                                    { "id": 3, "answer": "Verifying the certificate’s expiration date" },
+                                    { "id": 4, "answer": "Verifying the server’s digital signature" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 22,
+                                "title": "What is the purpose of expiration dates in certificates?",
+                                "answers": [
+                                    { "id": 1, "answer": "To limit the time a certificate is valid" },
+                                    { "id": 2, "answer": "To ensure certificates are never used" },
+                                    { "id": 3, "answer": "To verify the certificate's authenticity" },
+                                    { "id": 4, "answer": "To authenticate the certificate issuer" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 23,
+                                "title": "What is the role of a Certificate Authority (CA) in certificate verification?",
+                                "answers": [
+                                    { "id": 1, "answer": "To ensure the server is properly configured" },
+                                    { "id": 2, "answer": "To issue and sign certificates, establishing trust" },
+                                    { "id": 3, "answer": "To encrypt user data" },
+                                    { "id": 4, "answer": "To monitor server traffic" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 24,
+                                "title": "What does the Certificate Authority’s public key verify in a signed certificate?",
+                                "answers": [
+                                    { "id": 1, "answer": "The validity of the certificate" },
+                                    { "id": 2, "answer": "The expiration date of the certificate" },
+                                    { "id": 3, "answer": "The private key possession" },
+                                    { "id": 4, "answer": "The authenticity of the issuer's signature" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 25,
+                                "title": "What is the purpose of mutual authentication in certificate-based systems?",
+                                "answers": [
+                                    { "id": 1, "answer": "It allows the server to verify the client’s identity" },
+                                    { "id": 2, "answer": "It allows the client to verify the server’s identity" },
+                                    { "id": 3, "answer": "It allows both client and server to verify each other's identities" },
+                                    { "id": 4, "answer": "It prevents unauthorized servers from accessing the system" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 26,
+                                "title": "What is the primary purpose of RADIUS?",
+                                "answers": [
+                                    { "id": 1, "answer": "Authentication, Authorization, and Accounting services" },
+                                    { "id": 2, "answer": "Encrypting network traffic" },
+                                    { "id": 3, "answer": "Storing user credentials" },
+                                    { "id": 4, "answer": "Monitoring network devices" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 27,
+                                "title": "Which protocol is supported by RADIUS for authentication?",
+                                "answers": [
+                                    { "id": 1, "answer": "EAP (Extensible Authentication Protocol)" },
+                                    { "id": 2, "answer": "TLS (Transport Layer Security)" },
+                                    { "id": 3, "answer": "SSH (Secure Shell)" },
+                                    { "id": 4, "answer": "FTP (File Transfer Protocol)" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 28,
+                                "title": "What does a Network Access Server (NAS) do in the RADIUS process?",
+                                "answers": [
+                                    { "id": 1, "answer": "Relays client credentials to the RADIUS server" },
+                                    { "id": 2, "answer": "Validates credentials for RADIUS authentication" },
+                                    { "id": 3, "answer": "Generates session keys for encrypted communication" },
+                                    { "id": 4, "answer": "Stores authentication information" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 29,
+                                "title": "Which of the following is NOT a possible source for validating RADIUS credentials?",
+                                "answers": [
+                                    { "id": 1, "answer": "SQL databases" },
+                                    { "id": 2, "answer": "Kerberos" },
+                                    { "id": 3, "answer": "Flat files" },
+                                    { "id": 4, "answer": "Active Directory" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 30,
+                                "title": "Which of the following is a possible response from a RADIUS server after evaluating a request?",
+                                "answers": [
+                                    { "id": 1, "answer": "Access-Accept" },
+                                    { "id": 2, "answer": "Access-Grant" },
+                                    { "id": 3, "answer": "Access-Confirm" },
+                                    { "id": 4, "answer": "Access-Denied" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 31,
+                                "title": "What is the primary function of Kerberos?",
+                                "answers": [
+                                    { "id": 1, "answer": "Authenticate users and services using tickets" },
+                                    { "id": 2, "answer": "Encrypt web traffic between users and services" },
+                                    { "id": 3, "answer": "Provide email security" },
+                                    { "id": 4, "answer": "Monitor server performance" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 32,
+                                "title": "Which of the following encryption algorithms does Kerberos support?",
+                                "answers": [
+                                    { "id": 1, "answer": "AES (Advanced Encryption Standard)" },
+                                    { "id": 2, "answer": "RSA" },
+                                    { "id": 3, "answer": "3DES" },
+                                    { "id": 4, "answer": "Blowfish" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 33,
+                                "title": "What does a Ticket Granting Ticket (TGT) represent in Kerberos?",
+                                "answers": [
+                                    { "id": 1, "answer": "A ticket for accessing specific services" },
+                                    { "id": 2, "answer": "A user’s initial authentication ticket" },
+                                    { "id": 3, "answer": "A session key for encrypted communication" },
+                                    { "id": 4, "answer": "A request for a new session key" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 34,
+                                "title": "What is required to authenticate a user to a service using Kerberos?",
+                                "answers": [
+                                    { "id": 1, "answer": "A Ticket Granting Ticket (TGT)" },
+                                    { "id": 2, "answer": "A username and password" },
+                                    { "id": 3, "answer": "A public key and private key pair" },
+                                    { "id": 4, "answer": "A one-time password" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 35,
+                                "title": "What is the role of the Ticket Granting Service (TGS) in Kerberos?",
+                                "answers": [
+                                    { "id": 1, "answer": "To issue the initial Ticket Granting Ticket (TGT)" },
+                                    { "id": 2, "answer": "To authenticate the user to external services" },
+                                    { "id": 3, "answer": "To generate session keys for encrypted communication" },
+                                    { "id": 4, "answer": "To issue service-specific tickets for access" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 36,
+                                "title": "How does Kerberos verify mutual authentication between the client and server?",
+                                "answers": [
+                                    { "id": 1, "answer": "By comparing session keys between both parties" },
+                                    { "id": 2, "answer": "By verifying the authenticity of the TGT" },
+                                    { "id": 3, "answer": "By using a timestamp encrypted with the session key" },
+                                    { "id": 4, "answer": "By matching public and private keys" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 37,
+                                "title": "Which of the following is a limitation of Kerberos?",
+                                "answers": [
+                                    { "id": 1, "answer": "It relies on a single point of failure" },
+                                    { "id": 2, "answer": "It does not support encryption of communication" },
+                                    { "id": 3, "answer": "It cannot be used in cloud computing environments" },
+                                    { "id": 4, "answer": "It requires physical tokens for authentication" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 38,
+                                "title": "What is required for Kerberos authentication to function correctly?",
+                                "answers": [
+                                    { "id": 1, "answer": "Clock synchronization between client and server" },
+                                    { "id": 2, "answer": "Public and private key pairs for both client and server" },
+                                    { "id": 3, "answer": "An active internet connection for real-time authentication" },
+                                    { "id": 4, "answer": "A dedicated authentication server" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 39,
+                                "title": "Which of the following is a challenge of using Kerberos in cloud environments?",
+                                "answers": [
+                                    { "id": 1, "answer": "Trust model limitations" },
+                                    { "id": 2, "answer": "Unreliable network connections" },
+                                    { "id": 3, "answer": "Lack of encryption support" },
+                                    { "id": 4, "answer": "Incompatibility with multi-factor authentication" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 40,
+                                "title": "How does Kerberos improve security in authentication?",
+                                "answers": [
+                                    { "id": 1, "answer": "By using symmetric encryption to prevent eavesdropping" },
+                                    { "id": 2, "answer": "By using asymmetric encryption for stronger keys" },
+                                    { "id": 3, "answer": "By using a password-based system for all users" },
+                                    { "id": 4, "answer": "By limiting access to specific services only" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 41,
+                                "title": "Which version of Kerberos was released in 1993?",
+                                "answers": [
+                                    { "id": 1, "answer": "Version 5" },
+                                    { "id": 2, "answer": "Version 4" },
+                                    { "id": 3, "answer": "Version 3" },
+                                    { "id": 4, "answer": "Version 2" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 42,
+                                "title": "Which service is heavily dependent on Kerberos for authentication in Microsoft environments?",
+                                "answers": [
+                                    { "id": 1, "answer": "Active Directory" },
+                                    { "id": 2, "answer": "Exchange Server" },
+                                    { "id": 3, "answer": "SQL Server" },
+                                    { "id": 4, "answer": "SharePoint Server" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 43,
+                                "title": "Which of the following would cause Kerberos authentication to fail?",
+                                "answers": [
+                                    { "id": 1, "answer": "Clock synchronization issues" },
+                                    { "id": 2, "answer": "Expired user passwords" },
+                                    { "id": 3, "answer": "Untrusted IP addresses" },
+                                    { "id": 4, "answer": "Incorrect TGT session keys" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 44,
+                                "title": "What type of encryption does Kerberos use for securing messages?",
+                                "answers": [
+                                    { "id": 1, "answer": "Symmetric encryption" },
+                                    { "id": 2, "answer": "Asymmetric encryption" },
+                                    { "id": 3, "answer": "Hashing" },
+                                    { "id": 4, "answer": "Elliptic curve encryption" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 45,
+                                "title": "Which type of authentication is used by Kerberos to prove mutual trust between the client and server?",
+                                "answers": [
+                                    { "id": 1, "answer": "Mutual authentication" },
+                                    { "id": 2, "answer": "Password-based authentication" },
+                                    { "id": 3, "answer": "Certificate-based authentication" },
+                                    { "id": 4, "answer": "Challenge-response authentication" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 46,
+                                "title": "What is the primary use of TACACS+?",
+                                "answers": [
+                                    { "id": 1, "answer": "Managing administrative access to network devices" },
+                                    { "id": 2, "answer": "Providing Wi-Fi network access" },
+                                    { "id": 3, "answer": "Handling email encryption" },
+                                    { "id": 4, "answer": "Securing cloud-based systems" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 47,
+                                "title": "What does TACACS+ provide that RADIUS does not?",
+                                "answers": [
+                                    { "id": 1, "answer": "Granular authorization control" },
+                                    { "id": 2, "answer": "Encrypted communication" },
+                                    { "id": 3, "answer": "Network access control" },
+                                    { "id": 4, "answer": "Accountability for users" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 48,
+                                "title": "Which of the following is NOT a feature of TACACS+?",
+                                "answers": [
+                                    { "id": 1, "answer": "Encryption of the entire communication" },
+                                    { "id": 2, "answer": "Single sign-on capabilities" },
+                                    { "id": 3, "answer": "Granular control over device access" },
+                                    { "id": 4, "answer": "Detailed accounting of device actions" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 49,
+                                "title": "TACACS+ is primarily used for managing access to which type of devices?",
+                                "answers": [
+                                    { "id": 1, "answer": "Network infrastructure devices" },
+                                    { "id": 2, "answer": "End-user devices" },
+                                    { "id": 3, "answer": "Client-facing web servers" },
+                                    { "id": 4, "answer": "Cloud computing platforms" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 50,
+                                "title": "What type of access does TACACS+ manage?",
+                                "answers": [
+                                    { "id": 1, "answer": "Administrative access" },
+                                    { "id": 2, "answer": "Network traffic access" },
+                                    { "id": 3, "answer": "Public access" },
+                                    { "id": 4, "answer": "Secure file transfer access" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 51,
+                                "title": "What year was TACACS+ released as an open standard?",
+                                "answers": [
+                                    { "id": 1, "answer": "1993" },
+                                    { "id": 2, "answer": "1990" },
+                                    { "id": 3, "answer": "1997" },
+                                    { "id": 4, "answer": "2000" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 52,
+                                "title": "Which protocol is TACACS+ commonly compared to for network access control?",
+                                "answers": [
+                                    { "id": 1, "answer": "RADIUS" },
+                                    { "id": 2, "answer": "LDAP" },
+                                    { "id": 3, "answer": "SSL/TLS" },
+                                    { "id": 4, "answer": "SSH" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 53,
+                                "title": "Which of the following is a security concern when using Single Sign-On (SSO)?",
+                                "answers": [
+                                    { "id": 1, "answer": "Single point of attack" },
+                                    { "id": 2, "answer": "Multiple credential storage" },
+                                    { "id": 3, "answer": "Password expiration" },
+                                    { "id": 4, "answer": "Lack of password complexity" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 54,
+                                "title": "What does a session token allow a user to do in an SSO system?",
+                                "answers": [
+                                    { "id": 1, "answer": "Access multiple services without re-authenticating" },
+                                    { "id": 2, "answer": "Bypass multi-factor authentication" },
+                                    { "id": 3, "answer": "Encrypt passwords for storage" },
+                                    { "id": 4, "answer": "Store personal credentials securely" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 55,
+                                "title": "What is one benefit of using Single Sign-On (SSO)?",
+                                "answers": [
+                                    { "id": 1, "answer": "Reduces password-related support requests" },
+                                    { "id": 2, "answer": "Improves password complexity" },
+                                    { "id": 3, "answer": "Encrypts all communications" },
+                                    { "id": 4, "answer": "Eliminates the need for network firewalls" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 56,
+                                "title": "Which of the following is a potential risk of SSO token theft?",
+                                "answers": [
+                                    { "id": 1, "answer": "Unauthorized access to all linked services" },
+                                    { "id": 2, "answer": "Loss of encryption keys" },
+                                    { "id": 3, "answer": "Decreased password strength" },
+                                    { "id": 4, "answer": "Malware infection on the client machine" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 57,
+                                "title": "What is OpenID used for in Single Sign-On systems?",
+                                "answers": [
+                                    { "id": 1, "answer": "Allowing authentication via third-party providers" },
+                                    { "id": 2, "answer": "Generating encryption keys" },
+                                    { "id": 3, "answer": "Providing VPN access" },
+                                    { "id": 4, "answer": "Securing user passwords" }
+                                ],
+                                "correct": 1
+                            }
                         ]
+                        
+                    },
+                    {
+                        "id": "module3-2",
+                        "title": "Authorization",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is OpenID used for in Single Sign-On systems?",
+                                "answers": [
+                                    { "id": 1, "answer": "Allowing authentication via third-party providers" },
+                                    { "id": 2, "answer": "Generating encryption keys" },
+                                    { "id": 3, "answer": "Providing VPN access" },
+                                    { "id": 4, "answer": "Securing user passwords" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is OAuth used for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Authentication of users" },
+                                    { "id": 2, "answer": "Authorization and access delegation" },
+                                    { "id": 3, "answer": "Encrypting user credentials" },
+                                    { "id": 4, "answer": "Providing network access" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "What does OAuth allow third-party services to do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Access a user's resources without exposing credentials" },
+                                    { "id": 2, "answer": "Encrypt user passwords" },
+                                    { "id": 3, "answer": "Authenticate users directly" },
+                                    { "id": 4, "answer": "Generate session tokens" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "Which of the following is a risk associated with OAuth?",
+                                "answers": [
+                                    { "id": 1, "answer": "Phishing attacks exploiting OAuth tokens" },
+                                    { "id": 2, "answer": "Overexposure of user credentials" },
+                                    { "id": 3, "answer": "Credential theft via network interception" },
+                                    { "id": 4, "answer": "Uncontrolled access to user accounts" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 5,
+                                "title": "What is the role of the Ticket Granting Service (TGS) in Kerberos?",
+                                "answers": [
+                                    { "id": 1, "answer": "It issues a Ticket Granting Ticket (TGT)" },
+                                    { "id": 2, "answer": "It encrypts user credentials" },
+                                    { "id": 3, "answer": "It grants access to services" },
+                                    { "id": 4, "answer": "It verifies client-server identity" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 6,
+                                "title": "What does Kerberos use to authenticate users and services?",
+                                "answers": [
+                                    { "id": 1, "answer": "Authentication tickets" },
+                                    { "id": 2, "answer": "User passwords directly" },
+                                    { "id": 3, "answer": "Encryption keys" },
+                                    { "id": 4, "answer": "Session tokens" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "Which protocol is used by TACACS+ to manage device administration?",
+                                "answers": [
+                                    { "id": 1, "answer": "Authentication, Authorization, and Accounting (AAA)" },
+                                    { "id": 2, "answer": "Secure Socket Layer (SSL)" },
+                                    { "id": 3, "answer": "Internet Protocol Security (IPsec)" },
+                                    { "id": 4, "answer": "Transport Layer Security (TLS)" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is one key difference between RADIUS and TACACS+?",
+                                "answers": [
+                                    { "id": 1, "answer": "TACACS+ encrypts the entire communication" },
+                                    { "id": 2, "answer": "RADIUS is used for network access, TACACS+ for device administration" },
+                                    { "id": 3, "answer": "TACACS+ uses password-based authentication" },
+                                    { "id": 4, "answer": "RADIUS is used for managing high-value targets" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 9,
+                                "title": "Which of the following is NOT a feature of TACACS+?",
+                                "answers": [
+                                    { "id": 1, "answer": "Encrypting the entire communication" },
+                                    { "id": 2, "answer": "Providing detailed accounting for device administration" },
+                                    { "id": 3, "answer": "Providing detailed control over user access rights" },
+                                    { "id": 4, "answer": "Offering multi-factor authentication support" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is the purpose of an Access Control List (ACL)?",
+                                "answers": [
+                                    { "id": 1, "answer": "To define permissions for objects within a system" },
+                                    { "id": 2, "answer": "To manage device authentication" },
+                                    { "id": 3, "answer": "To encrypt user data" },
+                                    { "id": 4, "answer": "To monitor network traffic" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is an example of an Access Control Entry (ACE) in a file system?",
+                                "answers": [
+                                    { "id": 1, "answer": "Defining read, write, or execute permissions for users or groups" },
+                                    { "id": 2, "answer": "Encrypting files for authorized users" },
+                                    { "id": 3, "answer": "Blocking external network access" },
+                                    { "id": 4, "answer": "Tracking user logins" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 12,
+                                "title": "What do network ACLs control?",
+                                "answers": [
+                                    { "id": 1, "answer": "Access to routers, switches, and firewalls" },
+                                    { "id": 2, "answer": "Internal network access" },
+                                    { "id": 3, "answer": "User authentication" },
+                                    { "id": 4, "answer": "Encryption of communication channels" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is the function of OAuth tokens?",
+                                "answers": [
+                                    { "id": 1, "answer": "Granting third-party access to specified resources" },
+                                    { "id": 2, "answer": "Encrypting user credentials" },
+                                    { "id": 3, "answer": "Verifying user identity" },
+                                    { "id": 4, "answer": "Monitoring network access" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "What is a potential vulnerability when using OAuth?",
+                                "answers": [
+                                    { "id": 1, "answer": "Stolen tokens allowing attackers access" },
+                                    { "id": 2, "answer": "Password exposure through phishing" },
+                                    { "id": 3, "answer": "Uncontrolled access to network infrastructure" },
+                                    { "id": 4, "answer": "Malware exploiting session cookies" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "What feature does TACACS+ offer for device administration?",
+                                "answers": [
+                                    { "id": 1, "answer": "Granular control over what commands users can execute" },
+                                    { "id": 2, "answer": "Encryption of passwords only" },
+                                    { "id": 3, "answer": "Multi-factor authentication" },
+                                    { "id": 4, "answer": "Access to network storage devices" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "What happens when a user is not authorized in a Kerberos system?",
+                                "answers": [
+                                    { "id": 1, "answer": "The user is denied access to the requested service" },
+                                    { "id": 2, "answer": "The user is granted a limited-access ticket" },
+                                    { "id": 3, "answer": "The user must re-authenticate" },
+                                    { "id": 4, "answer": "The system escalates the authentication attempt" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "Which of the following is a limitation of Kerberos?",
+                                "answers": [
+                                    { "id": 1, "answer": "Requires strict time synchronization between client and server" },
+                                    { "id": 2, "answer": "Relies on a third-party authentication provider" },
+                                    { "id": 3, "answer": "Does not support mutual authentication" },
+                                    { "id": 4, "answer": "Requires physical security of user devices" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "What is one of the primary goals of an access control system?",
+                                "answers": [
+                                    { "id": 1, "answer": "Enforcing security policies" },
+                                    { "id": 2, "answer": "Granting unrestricted access to resources" },
+                                    { "id": 3, "answer": "Simplifying the login process" },
+                                    { "id": 4, "answer": "Encrypting communication between users" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "Which of the following is an example of a challenge-response authentication method?",
+                                "answers": [
+                                    { "id": 1, "answer": "TACACS+" },
+                                    { "id": 2, "answer": "Password-based authentication" },
+                                    { "id": 3, "answer": "Biometric authentication" },
+                                    { "id": 4, "answer": "OAuth" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 20,
+                                "title": "What is an example of fine-grained authorization?",
+                                "answers": [
+                                    { "id": 1, "answer": "TACACS+ allowing different levels of access for different users" },
+                                    { "id": 2, "answer": "OAuth granting access based on user consent" },
+                                    { "id": 3, "answer": "Password complexity rules" },
+                                    { "id": 4, "answer": "Role-based access control (RBAC)" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 21,
+                                "title": "What is a common method used to unlock a mobile device using the user's unique biometric feature?",
+                                "answers": [
+                                    { "id": 1, "answer": "Fingerprint recognition" },
+                                    { "id": 2, "answer": "Password input" },
+                                    { "id": 3, "answer": "Pattern lock" },
+                                    { "id": 4, "answer": "PIN code" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 22,
+                                "title": "What is a key benefit of using remote wipe for mobile devices?",
+                                "answers": [
+                                    { "id": 1, "answer": "It allows the user to track the device location" },
+                                    { "id": 2, "answer": "It erases sensitive data from a lost or stolen device" },
+                                    { "id": 3, "answer": "It improves device performance" },
+                                    { "id": 4, "answer": "It updates the operating system" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 23,
+                                "title": "Which type of attack involves sending fraudulent emails or SMS messages to deceive users into sharing sensitive information?",
+                                "answers": [
+                                    { "id": 1, "answer": "Phishing" },
+                                    { "id": 2, "answer": "Malware" },
+                                    { "id": 3, "answer": "Man-in-the-middle" },
+                                    { "id": 4, "answer": "Brute force" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 24,
+                                "title": "What security measure ensures that data remains protected when a mobile device is lost or stolen?",
+                                "answers": [
+                                    { "id": 1, "answer": "Device encryption" },
+                                    { "id": 2, "answer": "Screen lock" },
+                                    { "id": 3, "answer": "Remote wipe" },
+                                    { "id": 4, "answer": "Firewall" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 25,
+                                "title": "What is a common security risk associated with using open Wi-Fi networks on mobile devices?",
+                                "answers": [
+                                    { "id": 1, "answer": "Insecure data transmission" },
+                                    { "id": 2, "answer": "Increased battery consumption" },
+                                    { "id": 3, "answer": "Reduced signal strength" },
+                                    { "id": 4, "answer": "Slower internet speeds" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 26,
+                                "title": "What type of security threat can be caused by malicious applications on mobile devices?",
+                                "answers": [
+                                    { "id": 1, "answer": "Data theft" },
+                                    { "id": 2, "answer": "Increased network speed" },
+                                    { "id": 3, "answer": "Battery optimization" },
+                                    { "id": 4, "answer": "Device performance enhancement" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 27,
+                                "title": "What is the purpose of failed login attempt restrictions on mobile devices?",
+                                "answers": [
+                                    { "id": 1, "answer": "To lock the device after too many unsuccessful attempts" },
+                                    { "id": 2, "answer": "To disable the screen lock temporarily" },
+                                    { "id": 3, "answer": "To speed up the login process" },
+                                    { "id": 4, "answer": "To encrypt the device data" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 28,
+                                "title": "What mobile security measure helps ensure that data is regularly backed up and can be restored remotely if necessary?",
+                                "answers": [
+                                    { "id": 1, "answer": "Remote backup applications" },
+                                    { "id": 2, "answer": "Screen locks" },
+                                    { "id": 3, "answer": "Firewall protection" },
+                                    { "id": 4, "answer": "Malware scanning" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 29,
+                                "title": "Which of the following can be a consequence of poor update habits on mobile devices?",
+                                "answers": [
+                                    { "id": 1, "answer": "Increased vulnerability to security exploits" },
+                                    { "id": 2, "answer": "Improved battery performance" },
+                                    { "id": 3, "answer": "Faster internet speeds" },
+                                    { "id": 4, "answer": "Lower device storage usage" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 30,
+                                "title": "What should IT departments do to ensure mobile security policies are effective?",
+                                "answers": [
+                                    { "id": 1, "answer": "Communicate and ensure user adherence to the policies" },
+                                    { "id": 2, "answer": "Only create policies without enforcing them" },
+                                    { "id": 3, "answer": "Use minimal security measures to reduce complexity" },
+                                    { "id": 4, "answer": "Avoid communicating the policies to end users" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 31,
+                                "title": "What is the role of firewalls in mobile security?",
+                                "answers": [
+                                    { "id": 1, "answer": "To check incoming network traffic and block unwanted access" },
+                                    { "id": 2, "answer": "To encrypt all device data" },
+                                    { "id": 3, "answer": "To increase battery life" },
+                                    { "id": 4, "answer": "To enable faster data transfers" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 32,
+                                "title": "Which of the following is an important mobile security practice for protecting user data?",
+                                "answers": [
+                                    { "id": 1, "answer": "Device encryption" },
+                                    { "id": 2, "answer": "Disabling the Wi-Fi connection" },
+                                    { "id": 3, "answer": "Using multiple user accounts" },
+                                    { "id": 4, "answer": "Disabling software updates" }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module3-3",
+                        "title": "Accounting",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is the primary purpose of accounting in security?",
+                                "answers": [
+                                    { "id": 1, "answer": "Tracking user access and actions" },
+                                    { "id": 2, "answer": "Encrypting user data" },
+                                    { "id": 3, "answer": "Managing device authentication" },
+                                    { "id": 4, "answer": "Blocking unauthorized network access" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "Which of the following is a feature of TACACS+ accounting?",
+                                "answers": [
+                                    { "id": 1, "answer": "Tracking session duration" },
+                                    { "id": 2, "answer": "Recording system configuration reloads" },
+                                    { "id": 3, "answer": "Monitoring user location" },
+                                    { "id": 4, "answer": "Enforcing data transfer limits" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "Which protocol tracks session details such as duration and client location?",
+                                "answers": [
+                                    { "id": 1, "answer": "TACACS+" },
+                                    { "id": 2, "answer": "RADIUS" },
+                                    { "id": 3, "answer": "Kerberos" },
+                                    { "id": 4, "answer": "OAuth" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "What kind of data does RADIUS accounting typically track?",
+                                "answers": [
+                                    { "id": 1, "answer": "Websites visited" },
+                                    { "id": 2, "answer": "Session duration" },
+                                    { "id": 3, "answer": "Command execution logs" },
+                                    { "id": 4, "answer": "User authentication details" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 5,
+                                "title": "What type of data does RADIUS accounting NOT typically track?",
+                                "answers": [
+                                    { "id": 1, "answer": "Client location" },
+                                    { "id": 2, "answer": "Bandwidth usage" },
+                                    { "id": 3, "answer": "Websites visited" },
+                                    { "id": 4, "answer": "Session duration" }
+                                ],
+                                "correct": 3
+                            },
+                            {
+                                "id": 6,
+                                "title": "How does RADIUS accounting handle session tracking?",
+                                "answers": [
+                                    { "id": 1, "answer": "It uses periodic accounting messages" },
+                                    { "id": 2, "answer": "It only tracks session start and end times" },
+                                    { "id": 3, "answer": "It tracks specific websites visited" },
+                                    { "id": 4, "answer": "It logs user authentication failures" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is the primary use case for RADIUS accounting?",
+                                "answers": [
+                                    { "id": 1, "answer": "Tracking actions performed on network devices" },
+                                    { "id": 2, "answer": "Session billing for ISPs" },
+                                    { "id": 3, "answer": "Managing user permissions on applications" },
+                                    { "id": 4, "answer": "Monitoring device health and status" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 8,
+                                "title": "What does TACACS+ accounting track during a user session?",
+                                "answers": [
+                                    { "id": 1, "answer": "The websites visited by the user" },
+                                    { "id": 2, "answer": "The commands executed in privileged mode" },
+                                    { "id": 3, "answer": "The client’s location" },
+                                    { "id": 4, "answer": "Session duration" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 9,
+                                "title": "Which of the following is NOT a typical use of RADIUS accounting?",
+                                "answers": [
+                                    { "id": 1, "answer": "Tracking session duration" },
+                                    { "id": 2, "answer": "Tracking client location" },
+                                    { "id": 3, "answer": "Tracking resource usage" },
+                                    { "id": 4, "answer": "Tracking websites visited" }
+                                ],
+                                "correct": 4
+                            },
+                            {
+                                "id": 10,
+                                "title": "Which of the following is an example of TACACS+ accounting?",
+                                "answers": [
+                                    { "id": 1, "answer": "Tracking bandwidth usage during a session" },
+                                    { "id": 2, "answer": "Logging reboots of network devices" },
+                                    { "id": 3, "answer": "Tracking session start and end times" },
+                                    { "id": 4, "answer": "Tracking the websites visited" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 11,
+                                "title": "How can RADIUS accounting be used for billing?",
+                                "answers": [
+                                    { "id": 1, "answer": "By tracking session durations and data usage" },
+                                    { "id": 2, "answer": "By tracking commands executed during a session" },
+                                    { "id": 3, "answer": "By logging user authentication failures" },
+                                    { "id": 4, "answer": "By monitoring network device health" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 12,
+                                "title": "What event triggers the start of RADIUS accounting?",
+                                "answers": [
+                                    { "id": 1, "answer": "When a session begins" },
+                                    { "id": 2, "answer": "When a user successfully authenticates" },
+                                    { "id": 3, "answer": "When a user logs out" },
+                                    { "id": 4, "answer": "When a user changes their password" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "What does an accounting request packet sent by RADIUS contain?",
+                                "answers": [
+                                    { "id": 1, "answer": "Event records of the session" },
+                                    { "id": 2, "answer": "Authentication credentials" },
+                                    { "id": 3, "answer": "User commands executed" },
+                                    { "id": 4, "answer": "Session duration details" }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                        
                     }
                 ]
             },
