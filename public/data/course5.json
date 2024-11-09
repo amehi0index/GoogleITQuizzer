@@ -2008,17 +2008,8 @@
                                 ],
                                 "correct": 2
                             },
-                            {
-                                "id": 24,
-                                "title": "What does the Certificate Authority’s public key verify in a signed certificate?",
-                                "answers": [
-                                    { "id": 1, "answer": "The validity of the certificate" },
-                                    { "id": 2, "answer": "The expiration date of the certificate" },
-                                    { "id": 3, "answer": "The private key possession" },
-                                    { "id": 4, "answer": "The authenticity of the issuer's signature" }
-                                ],
-                                "correct": 4
-                            },
+                            
+                            
                             {
                                 "id": 25,
                                 "title": "What is the purpose of mutual authentication in certificate-based systems?",
@@ -2064,16 +2055,17 @@
                                 "correct": 1
                             },
                             {
-                                "id": 29,
+                                "id": 30,
                                 "title": "Which of the following is NOT a possible source for validating RADIUS credentials?",
                                 "answers": [
                                     { "id": 1, "answer": "SQL databases" },
                                     { "id": 2, "answer": "Kerberos" },
                                     { "id": 3, "answer": "Flat files" },
-                                    { "id": 4, "answer": "Active Directory" }
+                                    { "id": 4, "answer": "DNS servers" }
                                 ],
-                                "correct": 2
+                                "correct": 4
                             },
+                            
                             {
                                 "id": 30,
                                 "title": "Which of the following is a possible response from a RADIUS server after evaluating a request?",
@@ -2904,7 +2896,902 @@
                         "id": "module4-1",
                         "title": "Secure Network Architecture",
                         "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is the purpose of disabling unnecessary services in network hardening?",
+                                "answers": [
+                                    { "id": 1, "answer": "To reduce potential vulnerabilities" },
+                                    { "id": 2, "answer": "To speed up network traffic" },
+                                    { "id": 3, "answer": "To simplify network management" },
+                                    { "id": 4, "answer": "To improve device performance" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What does the Implicit Deny Principle involve?",
+                                "answers": [
+                                    { "id": 1, "answer": "Denying access by default unless explicitly allowed" },
+                                    { "id": 2, "answer": "Allowing all access unless explicitly denied" },
+                                    { "id": 3, "answer": "Whitelisting all services" },
+                                    { "id": 4, "answer": "Explicitly defining access controls" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 3,
+                                "title": "Which of the following is an essential part of network traffic monitoring?",
+                                "answers": [
+                                    { "id": 1, "answer": "Baseline network traffic" },
+                                    { "id": 2, "answer": "Allowing all traffic" },
+                                    { "id": 3, "answer": "Blocking unknown traffic" },
+                                    { "id": 4, "answer": "Disabling firewall logging" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "What is the purpose of log normalization in network security?",
+                                "answers": [
+                                    { "id": 1, "answer": "To standardize logs from various systems" },
+                                    { "id": 2, "answer": "To delete old logs" },
+                                    { "id": 3, "answer": "To ignore duplicate log entries" },
+                                    { "id": 4, "answer": "To encrypt all logs" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 5,
+                                "title": "Which tool is commonly used for log aggregation and analysis?",
+                                "answers": [
+                                    { "id": 1, "answer": "Splunk" },
+                                    { "id": 2, "answer": "Wireshark" },
+                                    { "id": 3, "answer": "OpenVAS" },
+                                    { "id": 4, "answer": "Nessus" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is the role of flood guards in network security?",
+                                "answers": [
+                                    { "id": 1, "answer": "To protect against DoS attacks" },
+                                    { "id": 2, "answer": "To monitor network traffic" },
+                                    { "id": 3, "answer": "To manage network traffic flow" },
+                                    { "id": 4, "answer": "To block unauthorized devices" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is the function of network segmentation in security?",
+                                "answers": [
+                                    { "id": 1, "answer": "To separate networks based on device types or purposes" },
+                                    { "id": 2, "answer": "To combine multiple networks into a single one" },
+                                    { "id": 3, "answer": "To allow unrestricted traffic flow" },
+                                    { "id": 4, "answer": "To disable access controls" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "What type of attack does DHCP snooping help prevent?",
+                                "answers": [
+                                    { "id": 1, "answer": "Rogue DHCP server attacks" },
+                                    { "id": 2, "answer": "SQL injection attacks" },
+                                    { "id": 3, "answer": "Cross-site scripting attacks" },
+                                    { "id": 4, "answer": "Phishing attacks" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "What does Dynamic ARP Inspection (DAI) help prevent?",
+                                "answers": [
+                                    { "id": 1, "answer": "ARP spoofing" },
+                                    { "id": 2, "answer": "Denial of Service attacks" },
+                                    { "id": 3, "answer": "Man-in-the-middle attacks" },
+                                    { "id": 4, "answer": "Password cracking" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "What does IP Source Guard (IPSG) help prevent?",
+                                "answers": [
+                                    { "id": 1, "answer": "IP spoofing" },
+                                    { "id": 2, "answer": "Network congestion" },
+                                    { "id": 3, "answer": "Data leakage" },
+                                    { "id": 4, "answer": "Routing errors" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 11,
+                                "title": "What does 802.1X authentication provide for network security?",
+                                "answers": [
+                                    { "id": 1, "answer": "Secure network access control" },
+                                    { "id": 2, "answer": "Data encryption" },
+                                    { "id": 3, "answer": "Firewall management" },
+                                    { "id": 4, "answer": "Traffic filtering" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 12,
+                                "title": "What type of certificates are used in EAP-TLS authentication?",
+                                "answers": [
+                                    { "id": 1, "answer": "Client-side certificates" },
+                                    { "id": 2, "answer": "Server-side certificates" },
+                                    { "id": 3, "answer": "Self-signed certificates" },
+                                    { "id": 4, "answer": "Wildcard certificates" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is the primary function of a network firewall?",
+                                "answers": [
+                                    { "id": 1, "answer": "To control traffic flow across a network" },
+                                    { "id": 2, "answer": "To store network configurations" },
+                                    { "id": 3, "answer": "To encrypt network traffic" },
+                                    { "id": 4, "answer": "To provide remote access to a network" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "What type of firewall is deployed on individual devices?",
+                                "answers": [
+                                    { "id": 1, "answer": "Host-based firewall" },
+                                    { "id": 2, "answer": "Network-based firewall" },
+                                    { "id": 3, "answer": "Application firewall" },
+                                    { "id": 4, "answer": "Proxy firewall" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "What is the purpose of a Site-to-Site VPN?",
+                                "answers": [
+                                    { "id": 1, "answer": "To link two remote networks securely" },
+                                    { "id": 2, "answer": "To provide secure remote access to users" },
+                                    { "id": 3, "answer": "To filter web traffic" },
+                                    { "id": 4, "answer": "To provide encryption for data at rest" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "What is the role of a reverse proxy in network security?",
+                                "answers": [
+                                    { "id": 1, "answer": "To provide secure access to internal web services" },
+                                    { "id": 2, "answer": "To block unauthorized traffic" },
+                                    { "id": 3, "answer": "To act as a firewall" },
+                                    { "id": 4, "answer": "To encrypt network data" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "What is the function of a web proxy?",
+                                "answers": [
+                                    { "id": 1, "answer": "To control access to external websites" },
+                                    { "id": 2, "answer": "To provide encrypted communication" },
+                                    { "id": 3, "answer": "To monitor network traffic" },
+                                    { "id": 4, "answer": "To secure VPN connections" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "What is one of the key benefits of VPNs?",
+                                "answers": [
+                                    { "id": 1, "answer": "Encrypting data between networks or clients" },
+                                    { "id": 2, "answer": "Providing content filtering" },
+                                    { "id": 3, "answer": "Blocking all inbound traffic" },
+                                    { "id": 4, "answer": "Monitoring user activity" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "What is a primary function of proxies in network security?",
+                                "answers": [
+                                    { "id": 1, "answer": "To filter and log web traffic" },
+                                    { "id": 2, "answer": "To provide secure email access" },
+                                    { "id": 3, "answer": "To control access to internal servers" },
+                                    { "id": 4, "answer": "To enforce encryption policies" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 20,
+                                "title": "Why should organizations use both network-based and host-based firewalls?",
+                                "answers": [
+                                    { "id": 1, "answer": "To provide comprehensive protection" },
+                                    { "id": 2, "answer": "To reduce network latency" },
+                                    { "id": 3, "answer": "To monitor network traffic" },
+                                    { "id": 4, "answer": "To encrypt network traffic" }
+                                ],
+                                "correct": 1
+                            }
                         ]
+                        
+                    },
+                    {
+                        "id": "module4-2",
+                        "title": "Wireless Security",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What encryption mechanism does WEP use?",
+                                "answers": [
+                                    { "id": 1, "answer": "RC4 stream cipher" },
+                                    { "id": 2, "answer": "AES cipher" },
+                                    { "id": 3, "answer": "3DES cipher" },
+                                    { "id": 4, "answer": "Blowfish cipher" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What is the primary weakness of WEP encryption?",
+                                "answers": [
+                                    { "id": 1, "answer": "Short key length" },
+                                    { "id": 2, "answer": "Weak IV and key reuse" },
+                                    { "id": 3, "answer": "Lack of encryption" },
+                                    { "id": 4, "answer": "No key management" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 3,
+                                "title": "What is the purpose of the Initialization Vector (IV) in WEP?",
+                                "answers": [
+                                    { "id": 1, "answer": "To make the encryption more secure" },
+                                    { "id": 2, "answer": "To prevent key reuse" },
+                                    { "id": 3, "answer": "To authenticate devices" },
+                                    { "id": 4, "answer": "To generate encryption keys" }
+                                ],
+                                "correct": 2
+                            },
+                            {
+                                "id": 4,
+                                "title": "Which of the following is an authentication mode used in WEP?",
+                                "answers": [
+                                    { "id": 1, "answer": "Open System Authentication" },
+                                    { "id": 2, "answer": "PKI Authentication" },
+                                    { "id": 3, "answer": "RADIUS Authentication" },
+                                    { "id": 4, "answer": "OAuth Authentication" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 5,
+                                "title": "Which wireless security protocol replaced WEP as a short-term solution?",
+                                "answers": [
+                                    { "id": 1, "answer": "WPA" },
+                                    { "id": 2, "answer": "WPA2" },
+                                    { "id": 3, "answer": "WPS" },
+                                    { "id": 4, "answer": "WPA3" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is the key feature of WPA’s Temporal Key Integrity Protocol (TKIP)?",
+                                "answers": [
+                                    { "id": 1, "answer": "Improved encryption key mixing" },
+                                    { "id": 2, "answer": "Enhanced firewall security" },
+                                    { "id": 3, "answer": "Secure packet authentication" },
+                                    { "id": 4, "answer": "Faster data transfer rates" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "What does the PBKDF2 process in WPA do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Derives an encryption key from the pre-shared key" },
+                                    { "id": 2, "answer": "Generates the network’s SSID" },
+                                    { "id": 3, "answer": "Secures the Wi-Fi password" },
+                                    { "id": 4, "answer": "Enables WPS authentication" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "Which of the following is a method used in WPS for secure authentication?",
+                                "answers": [
+                                    { "id": 1, "answer": "Push Button" },
+                                    { "id": 2, "answer": "Pre-shared key exchange" },
+                                    { "id": 3, "answer": "RADIUS server" },
+                                    { "id": 4, "answer": "Password Hashing" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "What is a key vulnerability in the WPS PIN authentication method?",
+                                "answers": [
+                                    { "id": 1, "answer": "Limited number of possible PINs" },
+                                    { "id": 2, "answer": "Insecure hashing of the PIN" },
+                                    { "id": 3, "answer": "Lack of encryption" },
+                                    { "id": 4, "answer": "Weak passphrase complexity" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "What type of attack can compromise the WPS PIN method?",
+                                "answers": [
+                                    { "id": 1, "answer": "Brute-force attacks" },
+                                    { "id": 2, "answer": "Dictionary attacks" },
+                                    { "id": 3, "answer": "Man-in-the-middle attacks" },
+                                    { "id": 4, "answer": "Cross-site scripting" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is the main advantage of WPA2 over WPA?",
+                                "answers": [
+                                    { "id": 1, "answer": "Use of AES and CCMP for encryption" },
+                                    { "id": 2, "answer": "Shorter key lengths" },
+                                    { "id": 3, "answer": "Use of TKIP" },
+                                    { "id": 4, "answer": "Less complex configuration" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 12,
+                                "title": "Which encryption method does WPA2 use instead of RC4?",
+                                "answers": [
+                                    { "id": 1, "answer": "AES" },
+                                    { "id": 2, "answer": "RC5" },
+                                    { "id": 3, "answer": "Blowfish" },
+                                    { "id": 4, "answer": "RSA" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "What is the purpose of the Four-Way Handshake in WPA2?",
+                                "answers": [
+                                    { "id": 1, "answer": "To authenticate clients and establish a secure key" },
+                                    { "id": 2, "answer": "To encrypt data using AES" },
+                                    { "id": 3, "answer": "To exchange encryption keys" },
+                                    { "id": 4, "answer": "To prevent replay attacks" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "What is the Group Transient Key (GTK) in WPA2 used for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Encrypting multicast/broadcast traffic" },
+                                    { "id": 2, "answer": "Authenticating client devices" },
+                                    { "id": 3, "answer": "Securing the WPA2 password" },
+                                    { "id": 4, "answer": "Generating the Pairwise Transient Key" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "Which WPA2 mode uses a pre-shared key for client authentication?",
+                                "answers": [
+                                    { "id": 1, "answer": "WPA2-Personal" },
+                                    { "id": 2, "answer": "WPA2-Enterprise" },
+                                    { "id": 3, "answer": "WPA2-TLS" },
+                                    { "id": 4, "answer": "WPA2-PSK" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "What attack can compromise WPA2's Four-Way Handshake?",
+                                "answers": [
+                                    { "id": 1, "answer": "Brute-force attack" },
+                                    { "id": 2, "answer": "Phishing attack" },
+                                    { "id": 3, "answer": "Man-in-the-middle attack" },
+                                    { "id": 4, "answer": "Dictionary attack" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "What makes WPA2 susceptible to brute-force attacks?",
+                                "answers": [
+                                    { "id": 1, "answer": "Weak password or poor key management" },
+                                    { "id": 2, "answer": "Insecure encryption algorithms" },
+                                    { "id": 3, "answer": "Use of public key cryptography" },
+                                    { "id": 4, "answer": "Insufficient key length" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "Which wireless security method is considered the most secure option?",
+                                "answers": [
+                                    { "id": 1, "answer": "802.1X with EAP-TLS" },
+                                    { "id": 2, "answer": "WPA2 with AES" },
+                                    { "id": 3, "answer": "WEP" },
+                                    { "id": 4, "answer": "WPA with TKIP" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "Which protocol does WPA2 use for authentication in enterprise settings?",
+                                "answers": [
+                                    { "id": 1, "answer": "EAP (Extensible Authentication Protocol)" },
+                                    { "id": 2, "answer": "RADIUS" },
+                                    { "id": 3, "answer": "TLS" },
+                                    { "id": 4, "answer": "SAML" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 20,
+                                "title": "What does WPA3 improve over WPA2?",
+                                "answers": [
+                                    { "id": 1, "answer": "Improved password-based authentication and better encryption" },
+                                    { "id": 2, "answer": "Faster data rates and increased coverage" },
+                                    { "id": 3, "answer": "Reduced encryption overhead" },
+                                    { "id": 4, "answer": "Simplified configuration process" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 21,
+                                "title": "What is the primary benefit of WPA3's Dragonfly key exchange?",
+                                "answers": [
+                                    { "id": 1, "answer": "Protection against offline dictionary attacks" },
+                                    { "id": 2, "answer": "Stronger encryption using RSA" },
+                                    { "id": 3, "answer": "Improved AES encryption strength" },
+                                    { "id": 4, "answer": "Faster data transfer rates" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 22,
+                                "title": "Which feature does WPA3 offer for public Wi-Fi networks?",
+                                "answers": [
+                                    { "id": 1, "answer": "Opportunistic Wireless Encryption (OWE)" },
+                                    { "id": 2, "answer": "Guest Access VPN" },
+                                    { "id": 3, "answer": "Dynamic Group Keying" },
+                                    { "id": 4, "answer": "Mesh Networking" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 23,
+                                "title": "What does the Wi-Fi Protected Setup (WPS) method simplify?",
+                                "answers": [
+                                    { "id": 1, "answer": "Adding new devices to a Wi-Fi network" },
+                                    { "id": 2, "answer": "Encrypting wireless communication" },
+                                    { "id": 3, "answer": "Setting up a WPA2 password" },
+                                    { "id": 4, "answer": "Securing router firmware" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 24,
+                                "title": "Why is WPS vulnerable to brute-force attacks?",
+                                "answers": [
+                                    { "id": 1, "answer": "The PIN has only 10,000 possible combinations" },
+                                    { "id": 2, "answer": "It does not encrypt data properly" },
+                                    { "id": 3, "answer": "It uses weak cryptography" },
+                                    { "id": 4, "answer": "It uses short passwords" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 25,
+                                "title": "What is the role of WPA2's Pairwise Transient Key (PTK)?",
+                                "answers": [
+                                    { "id": 1, "answer": "Encrypting unicast traffic between devices" },
+                                    { "id": 2, "answer": "Protecting the network's SSID" },
+                                    { "id": 3, "answer": "Securely authenticating users" },
+                                    { "id": 4, "answer": "Encrypting multicast traffic" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 26,
+                                "title": "How does WPA2 handle key management for secure communication?",
+                                "answers": [
+                                    { "id": 1, "answer": "Using a pair of unique keys per session" },
+                                    { "id": 2, "answer": "Using a shared password for all users" },
+                                    { "id": 3, "answer": "Using a centrally stored key" },
+                                    { "id": 4, "answer": "Using static keys" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 27,
+                                "title": "Which wireless security protocol uses CCMP for encryption?",
+                                "answers": [
+                                    { "id": 1, "answer": "WPA2" },
+                                    { "id": 2, "answer": "WPA" },
+                                    { "id": 3, "answer": "WEP" },
+                                    { "id": 4, "answer": "WPA3" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 28,
+                                "title": "What is the main purpose of the WPA3 Enhanced Open feature?",
+                                "answers": [
+                                    { "id": 1, "answer": "Securing open networks with encryption" },
+                                    { "id": 2, "answer": "Preventing unauthorized access to Wi-Fi networks" },
+                                    { "id": 3, "answer": "Simplifying user authentication" },
+                                    { "id": 4, "answer": "Improving signal strength" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 29,
+                                "title": "What kind of devices are most susceptible to WPS PIN brute-force attacks?",
+                                "answers": [
+                                    { "id": 1, "answer": "Older routers and IoT devices" },
+                                    { "id": 2, "answer": "Modern smartphones" },
+                                    { "id": 3, "answer": "Desktops with WPA2 security" },
+                                    { "id": 4, "answer": "Laptops with WPA3 security" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 30,
+                                "title": "What is a recommended best practice for securing a WPA2 Wi-Fi network?",
+                                "answers": [
+                                    { "id": 1, "answer": "Use a strong, complex passphrase" },
+                                    { "id": 2, "answer": "Disable SSID broadcast" },
+                                    { "id": 3, "answer": "Use WPS for authentication" },
+                                    { "id": 4, "answer": "Set the router to a default password" }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "id": "module4-3",
+                        "title": "Network Monitoring",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "title": "What is packet sniffing?",
+                                "answers": [
+                                    { "id": 1, "answer": "The process of intercepting and analyzing network packets" },
+                                    { "id": 2, "answer": "The process of encrypting network traffic" },
+                                    { "id": 3, "answer": "The process of managing network resources" },
+                                    { "id": 4, "answer": "The process of setting up firewalls" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 2,
+                                "title": "What does promiscuous mode allow a network interface to do?",
+                                "answers": [
+                                    { "id": 1, "answer": "Process all packets it can see, regardless of destination address" },
+                                    { "id": 2, "answer": "Block all non-local traffic" },
+                                    { "id": 3, "answer": "Only process packets addressed to the device" },
+                                    { "id": 4, "answer": "Disable packet capture for security purposes" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 3,
+                                "title": "What is required to enable promiscuous mode?",
+                                "answers": [
+                                    { "id": 1, "answer": "Admin or root privileges" },
+                                    { "id": 2, "answer": "User-level access" },
+                                    { "id": 3, "answer": "No special privileges" },
+                                    { "id": 4, "answer": "Only a network interface card" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 4,
+                                "title": "Why can't a switch capture traffic not destined for the device?",
+                                "answers": [
+                                    { "id": 1, "answer": "A switch only sends packets to specific devices" },
+                                    { "id": 2, "answer": "A switch encrypts non-destination packets" },
+                                    { "id": 3, "answer": "A switch drops all non-destination packets" },
+                                    { "id": 4, "answer": "A switch processes all incoming packets" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 5,
+                                "title": "What is port mirroring used for?",
+                                "answers": [
+                                    { "id": 1, "answer": "Copying packets from one port or VLAN to another for monitoring" },
+                                    { "id": 2, "answer": "Encrypting network traffic" },
+                                    { "id": 3, "answer": "Blocking unauthorized network access" },
+                                    { "id": 4, "answer": "Managing network traffic routing" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 6,
+                                "title": "What is the primary limitation when capturing traffic on a switch?",
+                                "answers": [
+                                    { "id": 1, "answer": "You can only capture traffic destined for your device" },
+                                    { "id": 2, "answer": "You cannot capture encrypted packets" },
+                                    { "id": 3, "answer": "You can only capture unicast traffic" },
+                                    { "id": 4, "answer": "You can capture all traffic regardless of destination" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 7,
+                                "title": "What is the purpose of using a hub for network traffic capture?",
+                                "answers": [
+                                    { "id": 1, "answer": "To allow traffic capture from multiple devices" },
+                                    { "id": 2, "answer": "To increase network throughput" },
+                                    { "id": 3, "answer": "To route traffic between devices" },
+                                    { "id": 4, "answer": "To encrypt traffic for security" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 8,
+                                "title": "What is monitor mode in wireless packet capture?",
+                                "answers": [
+                                    { "id": 1, "answer": "A mode that allows capturing all wireless traffic regardless of destination" },
+                                    { "id": 2, "answer": "A mode that captures traffic only addressed to the device" },
+                                    { "id": 3, "answer": "A mode that encrypts all captured traffic" },
+                                    { "id": 4, "answer": "A mode that prevents interference from other devices" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 9,
+                                "title": "What tools can handle monitor mode for wireless packet capture?",
+                                "answers": [
+                                    { "id": 1, "answer": "Aircrack-ng and Kismet" },
+                                    { "id": 2, "answer": "Wireshark and tcpdump" },
+                                    { "id": 3, "answer": "NetFlow and Ntop" },
+                                    { "id": 4, "answer": "WiFi Analyzer and PingPlotter" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 10,
+                                "title": "What is a limitation of capturing encrypted wireless packets?",
+                                "answers": [
+                                    { "id": 1, "answer": "The payloads cannot be decoded without the network password" },
+                                    { "id": 2, "answer": "The packets are not visible in monitor mode" },
+                                    { "id": 3, "answer": "The packets are discarded during capture" },
+                                    { "id": 4, "answer": "Only the header information is captured" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 11,
+                                "title": "What is the main feature of Wireshark compared to tcpdump?",
+                                "answers": [
+                                    { "id": 1, "answer": "Wireshark is a graphical tool with more detailed protocol analysis" },
+                                    { "id": 2, "answer": "Wireshark is limited to capturing only Ethernet traffic" },
+                                    { "id": 3, "answer": "Wireshark is a command-line tool like tcpdump" },
+                                    { "id": 4, "answer": "Wireshark cannot capture encrypted traffic" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 12,
+                                "title": "What is a key feature of tcpdump?",
+                                "answers": [
+                                    { "id": 1, "answer": "It is a command-line tool for packet capture and analysis" },
+                                    { "id": 2, "answer": "It provides advanced protocol decoding in graphical form" },
+                                    { "id": 3, "answer": "It can only capture traffic in promiscuous mode" },
+                                    { "id": 4, "answer": "It requires a GUI to function properly" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 13,
+                                "title": "What feature of tcpdump allows you to view packet data in hexadecimal?",
+                                "answers": [
+                                    { "id": 1, "answer": "The -X flag" },
+                                    { "id": 2, "answer": "The -A flag" },
+                                    { "id": 3, "answer": "The -R flag" },
+                                    { "id": 4, "answer": "The -T flag" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 14,
+                                "title": "What is a key advantage of using Wireshark for traffic analysis?",
+                                "answers": [
+                                    { "id": 1, "answer": "It can decode encrypted packets if encryption keys are available" },
+                                    { "id": 2, "answer": "It is only useful for low-level packet analysis" },
+                                    { "id": 3, "answer": "It does not require any special hardware" },
+                                    { "id": 4, "answer": "It supports fewer protocols than tcpdump" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 15,
+                                "title": "What is the role of IDS/IPS systems in network security?",
+                                "answers": [
+                                    { "id": 1, "answer": "To detect and prevent malicious traffic" },
+                                    { "id": 2, "answer": "To route network traffic efficiently" },
+                                    { "id": 3, "answer": "To encrypt all traffic" },
+                                    { "id": 4, "answer": "To monitor network performance" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 16,
+                                "title": "How does an Intrusion Detection System (IDS) differ from an Intrusion Prevention System (IPS)?",
+                                "answers": [
+                                    { "id": 1, "answer": "IDS detects and alerts, while IPS detects and blocks traffic" },
+                                    { "id": 2, "answer": "IDS encrypts traffic, while IPS routes traffic" },
+                                    { "id": 3, "answer": "IDS can only monitor traffic, while IPS can analyze applications" },
+                                    { "id": 4, "answer": "IDS actively blocks traffic, while IPS does not" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 17,
+                                "title": "What is a common feature of both IDS and IPS?",
+                                "answers": [
+                                    { "id": 1, "answer": "Both analyze network traffic for suspicious activity" },
+                                    { "id": 2, "answer": "Both require manual updates" },
+                                    { "id": 3, "answer": "Both rely on hardware firewalls to function" },
+                                    { "id": 4, "answer": "Both focus on preventing denial-of-service attacks" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 18,
+                                "title": "What is a packet capture filter?",
+                                "answers": [
+                                    { "id": 1, "answer": "A method to capture only relevant traffic based on set criteria" },
+                                    { "id": 2, "answer": "A tool that blocks unwanted network traffic" },
+                                    { "id": 3, "answer": "A way to prioritize traffic" },
+                                    { "id": 4, "answer": "A feature to prevent packet interception" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 19,
+                                "title": "What is a common use case for packet sniffing?",
+                                "answers": [
+                                    { "id": 1, "answer": "Network troubleshooting and performance analysis" },
+                                    { "id": 2, "answer": "Encrypting traffic" },
+                                    { "id": 3, "answer": "Routing traffic between devices" },
+                                    { "id": 4, "answer": "Blocking malicious traffic" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 20,
+                                "title": "What is the role of a network analyzer in traffic monitoring?",
+                                "answers": [
+                                    { "id": 1, "answer": "It captures and analyzes packets to detect issues or anomalies" },
+                                    { "id": 2, "answer": "It blocks malicious traffic" },
+                                    { "id": 3, "answer": "It encrypts data between two endpoints" },
+                                    { "id": 4, "answer": "It routes traffic to ensure better performance" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 21,
+                                "title": "What is the impact of packet capture tools on network performance?",
+                                "answers": [
+                                    { "id": 1, "answer": "They may cause a slight degradation depending on traffic volume" },
+                                    { "id": 2, "answer": "They completely block traffic" },
+                                    { "id": 3, "answer": "They increase network bandwidth significantly" },
+                                    { "id": 4, "answer": "They do not affect performance" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 22,
+                                "title": "What is a challenge when using Wireshark for wireless packet capture?",
+                                "answers": [
+                                    { "id": 1, "answer": "Capturing encrypted packets without the encryption key" },
+                                    { "id": 2, "answer": "It requires manual configuration of IP addresses" },
+                                    { "id": 3, "answer": "It cannot capture multicast traffic" },
+                                    { "id": 4, "answer": "It requires a physical connection to the network" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 23,
+                                "title": "What is the difference between unicast and broadcast traffic?",
+                                "answers": [
+                                    { "id": 1, "answer": "Unicast is sent to a specific device, broadcast to all devices" },
+                                    { "id": 2, "answer": "Unicast is encrypted, broadcast is not" },
+                                    { "id": 3, "answer": "Unicast is faster than broadcast" },
+                                    { "id": 4, "answer": "Unicast is sent via the internet, broadcast is local" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 24,
+                                "title": "What is the purpose of a MAC address in network traffic?",
+                                "answers": [
+                                    { "id": 1, "answer": "To uniquely identify devices on a local network" },
+                                    { "id": 2, "answer": "To encrypt traffic between devices" },
+                                    { "id": 3, "answer": "To route traffic between different networks" },
+                                    { "id": 4, "answer": "To monitor traffic for security" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 25,
+                                "title": "What is the primary advantage of using tcpdump over Wireshark?",
+                                "answers": [
+                                    { "id": 1, "answer": "It is a command-line tool, making it lightweight and scriptable" },
+                                    { "id": 2, "answer": "It can analyze encrypted traffic in real-time" },
+                                    { "id": 3, "answer": "It is more accurate than Wireshark" },
+                                    { "id": 4, "answer": "It is easier to use than Wireshark" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 26,
+                                "title": "What is the role of a packet sniffer in a security breach investigation?",
+                                "answers": [
+                                    { "id": 1, "answer": "It helps identify unauthorized access or data exfiltration" },
+                                    { "id": 2, "answer": "It blocks all malicious traffic" },
+                                    { "id": 3, "answer": "It provides detailed network performance metrics" },
+                                    { "id": 4, "answer": "It encrypts intercepted traffic for analysis" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 27,
+                                "title": "What is an example of an issue you might investigate using a packet analyzer?",
+                                "answers": [
+                                    { "id": 1, "answer": "Network performance bottlenecks or unauthorized traffic" },
+                                    { "id": 2, "answer": "Network hardware failures" },
+                                    { "id": 3, "answer": "DNS server misconfiguration" },
+                                    { "id": 4, "answer": "Firewall rule misconfiguration" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 28,
+                                "title": "What is a key advantage of using packet capture tools in troubleshooting?",
+                                "answers": [
+                                    { "id": 1, "answer": "They allow for real-time traffic analysis and issue identification" },
+                                    { "id": 2, "answer": "They prevent all network disruptions during troubleshooting" },
+                                    { "id": 3, "answer": "They do not require any network configuration" },
+                                    { "id": 4, "answer": "They eliminate the need for further network monitoring" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 29,
+                                "title": "What is an essential step before using packet sniffers on a network?",
+                                "answers": [
+                                    { "id": 1, "answer": "Ensure you have proper authorization" },
+                                    { "id": 2, "answer": "Configure all devices to the same IP address" },
+                                    { "id": 3, "answer": "Disable all network security protocols" },
+                                    { "id": 4, "answer": "Ensure the network is entirely secure" }
+                                ],
+                                "correct": 1
+                            },
+                            {
+                                "id": 30,
+                                "title": "What is the primary function of a network protocol analyzer?",
+                                "answers": [
+                                    { "id": 1, "answer": "To capture and analyze network traffic for troubleshooting or security" },
+                                    { "id": 2, "answer": "To encrypt data packets for secure transmission" },
+                                    { "id": 3, "answer": "To block malicious network connections" },
+                                    { "id": 4, "answer": "To route traffic between networks" }
+                                ],
+                                "correct": 1
+                            }
+                        ]
+                        
                     }
                 ]
             },
