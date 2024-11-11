@@ -14,20 +14,20 @@
                                 "id": 1,
                                 "title": "What does the acronym CIA stand for in information security?",
                                 "answers": [
-                                    { "id": 1, "answer": "Confidentiality, Integrity, Availability" },
-                                    { "id": 2, "answer": "Control, Information, Access" },
-                                    { "id": 3, "answer": "Computing, Internet, Authentication" },
-                                    { "id": 4, "answer": "Confidentiality, Information, Accessibility" }
+                                    { "id": 1, "answer": "Control, Information, Access" },
+                                    { "id": 2, "answer": "Confidentiality, Information, Accessibility" },
+                                    { "id": 3, "answer": "Confidentiality, Integrity, Availability" },
+                                    { "id": 4, "answer": "Computing, Internet, Authentication" }
                                 ],
-                                "correct": 1
+                                "correct": 3
                             },
                             {
                                 "id": 2,
                                 "title": "What is the principle of confidentiality?",
                                 "answers": [
-                                    { "id": 1, "answer": "Ensuring data is accurate" },
+                                    { "id": 1, "answer": "Making data accessible to everyone" },
                                     { "id": 2, "answer": "Keeping information hidden from unauthorized access" },
-                                    { "id": 3, "answer": "Making data accessible to everyone" },
+                                    { "id": 3, "answer": "Ensuring data is accurate" },
                                     { "id": 4, "answer": "Preventing data loss" }
                                 ],
                                 "correct": 2
@@ -36,10 +36,10 @@
                                 "id": 3,
                                 "title": "Why is integrity important in data management?",
                                 "answers": [
-                                    { "id": 1, "answer": "It ensures data is available" },
+                                    { "id": 1, "answer": "It prevents unauthorized access" },
                                     { "id": 2, "answer": "It keeps data confidential" },
                                     { "id": 3, "answer": "It ensures data remains accurate and untampered" },
-                                    { "id": 4, "answer": "It prevents unauthorized access" }
+                                    { "id": 4, "answer": "It ensures data is available" }
                                 ],
                                 "correct": 3
                             },
@@ -48,20 +48,20 @@
                                 "title": "What does availability ensure in information security?",
                                 "answers": [
                                     { "id": 1, "answer": "Information is stored securely" },
-                                    { "id": 2, "answer": "Information is accessible to authorized users when needed" },
-                                    { "id": 3, "answer": "Information is encrypted" },
-                                    { "id": 4, "answer": "Information is backed up" }
+                                    { "id": 2, "answer": "Information is encrypted" },
+                                    { "id": 3, "answer": "Information is backed up" },
+                                    { "id": 4, "answer": "Information is accessible to authorized users when needed" }
                                 ],
-                                "correct": 2
+                                "correct": 4
                             },
                             {
                                 "id": 5,
                                 "title": "What is a risk in information security?",
                                 "answers": [
-                                    { "id": 1, "answer": "A flaw in a system" },
+                                    { "id": 1, "answer": "An unauthorized access attempt" },
                                     { "id": 2, "answer": "The potential for loss or damage when an attack occurs" },
-                                    { "id": 3, "answer": "A type of malicious software" },
-                                    { "id": 4, "answer": "An unauthorized access attempt" }
+                                    { "id": 3, "answer": "A flaw in a system" },
+                                    { "id": 4, "answer": "A type of malicious software" }
                                 ],
                                 "correct": 2
                             },
@@ -70,19 +70,19 @@
                                 "title": "What is a vulnerability?",
                                 "answers": [
                                     { "id": 1, "answer": "A potential threat to a system" },
-                                    { "id": 2, "answer": "A flaw or weakness in a system that can be exploited" },
+                                    { "id": 2, "answer": "A type of hacker" },
                                     { "id": 3, "answer": "A method of unauthorized access" },
-                                    { "id": 4, "answer": "A type of hacker" }
+                                    { "id": 4, "answer": "A flaw or weakness in a system that can be exploited" }
                                 ],
-                                "correct": 2
+                                "correct": 4
                             },
                             {
                                 "id": 7,
                                 "title": "What is an exploit?",
                                 "answers": [
-                                    { "id": 1, "answer": "A type of malware" },
+                                    { "id": 1, "answer": "A security policy" },
                                     { "id": 2, "answer": "A software or code used to take advantage of a vulnerability" },
-                                    { "id": 3, "answer": "A security policy" },
+                                    { "id": 3, "answer": "A type of malware" },
                                     { "id": 4, "answer": "A method of encryption" }
                                 ],
                                 "correct": 2
@@ -91,10 +91,10 @@
                                 "id": 8,
                                 "title": "What is a black hat hacker?",
                                 "answers": [
-                                    { "id": 1, "answer": "An ethical hacker" },
+                                    { "id": 1, "answer": "A software developer" },
                                     { "id": 2, "answer": "A malicious actor who exploits systems for harmful purposes" },
-                                    { "id": 3, "answer": "A security consultant" },
-                                    { "id": 4, "answer": "A software developer" }
+                                    { "id": 3, "answer": "An ethical hacker" },
+                                    { "id": 4, "answer": "A security consultant" }
                                 ],
                                 "correct": 2
                             },
@@ -102,76 +102,76 @@
                                 "id": 9,
                                 "title": "What does ransomware do?",
                                 "answers": [
-                                    { "id": 1, "answer": "Steals user data" },
-                                    { "id": 2, "answer": "Encrypts data and demands payment for its release" },
-                                    { "id": 3, "answer": "Displays unwanted advertisements" },
+                                    { "id": 1, "answer": "Encrypts data and demands payment for its release" },
+                                    { "id": 2, "answer": "Displays unwanted advertisements" },
+                                    { "id": 3, "answer": "Steals user data" },
                                     { "id": 4, "answer": "Monitors user activity" }
                                 ],
-                                "correct": 2
+                                "correct": 1
                             },
                             {
                                 "id": 10,
                                 "title": "What is a worm in the context of malware?",
                                 "answers": [
-                                    { "id": 1, "answer": "A program that requires user action to spread" },
-                                    { "id": 2, "answer": "Self-replicating malware that spreads independently" },
-                                    { "id": 3, "answer": "A type of adware" },
-                                    { "id": 4, "answer": "Malware that encrypts files" }
+                                    { "id": 1, "answer": "A type of adware" },
+                                    { "id": 2, "answer": "A program that requires user action to spread" },
+                                    { "id": 3, "answer": "Malware that encrypts files" },
+                                    { "id": 4, "answer": "Self-replicating malware that spreads independently" }
                                 ],
-                                "correct": 2
+                                "correct": 4
                             },
                             {
                                 "id": 11,
                                 "title": "What is spyware?",
                                 "answers": [
                                     { "id": 1, "answer": "Malware that encrypts user files" },
-                                    { "id": 2, "answer": "Software that monitors user activity and sends data to another party" },
+                                    { "id": 2, "answer": "A security tool" },
                                     { "id": 3, "answer": "A type of adware" },
-                                    { "id": 4, "answer": "A security tool" }
+                                    { "id": 4, "answer": "Software that monitors user activity and sends data to another party" }
                                 ],
-                                "correct": 2
+                                "correct": 4
                             },
                             {
                                 "id": 12,
                                 "title": "What defines a zero-day vulnerability?",
                                 "answers": [
                                     { "id": 1, "answer": "A vulnerability that is known to the vendor" },
-                                    { "id": 2, "answer": "A vulnerability that is known to attackers but not to the vendor" },
-                                    { "id": 3, "answer": "A vulnerability that has been patched" },
+                                    { "id": 2, "answer": "A vulnerability that has been patched" },
+                                    { "id": 3, "answer": "A vulnerability that is known to attackers but not to the vendor" },
                                     { "id": 4, "answer": "A vulnerability that is easily fixed" }
                                 ],
-                                "correct": 2
+                                "correct": 3
                             },
                             {
                                 "id": 13,
                                 "title": "What is the primary purpose of adware?",
                                 "answers": [
-                                    { "id": 1, "answer": "To steal personal information" },
-                                    { "id": 2, "answer": "To display advertisements and collect user data" },
-                                    { "id": 3, "answer": "To encrypt files" },
-                                    { "id": 4, "answer": "To create botnets" }
+                                    { "id": 1, "answer": "To encrypt files" },
+                                    { "id": 2, "answer": "To create botnets" },
+                                    { "id": 3, "answer": "To display advertisements and collect user data" },
+                                    { "id": 4, "answer": "To steal personal information" }
                                 ],
-                                "correct": 2
+                                "correct": 3
                             },
                             {
                                 "id": 14,
                                 "title": "What is a botnet?",
                                 "answers": [
-                                    { "id": 1, "answer": "A type of virus" },
-                                    { "id": 2, "answer": "A network of compromised computers controlled by an attacker" },
-                                    { "id": 3, "answer": "A software tool for ethical hacking" },
-                                    { "id": 4, "answer": "A security software suite" }
+                                    { "id": 1, "answer": "A security software suite" },
+                                    { "id": 2, "answer": "A type of virus" },
+                                    { "id": 3, "answer": "A network of compromised computers controlled by an attacker" },
+                                    { "id": 4, "answer": "A software tool for ethical hacking" }
                                 ],
-                                "correct": 2
+                                "correct": 3
                             },
                             {
                                 "id": 15,
                                 "title": "What is a backdoor in cybersecurity?",
                                 "answers": [
-                                    { "id": 1, "answer": "A legitimate access point for users" },
+                                    { "id": 1, "answer": "A security measure" },
                                     { "id": 2, "answer": "A hidden method for bypassing regular authentication" },
-                                    { "id": 3, "answer": "A type of malware" },
-                                    { "id": 4, "answer": "A security measure" }
+                                    { "id": 3, "answer": "A legitimate access point for users" },
+                                    { "id": 4, "answer": "A type of malware" }
                                 ],
                                 "correct": 2
                             },
@@ -179,10 +179,10 @@
                                 "id": 16,
                                 "title": "What is a rootkit?",
                                 "answers": [
-                                    { "id": 1, "answer": "A tool used for ethical hacking" },
+                                    { "id": 1, "answer": "A type of virus" },
                                     { "id": 2, "answer": "Software that provides unauthorized access to a system" },
                                     { "id": 3, "answer": "Malware that hides its presence from detection" },
-                                    { "id": 4, "answer": "A type of virus" }
+                                    { "id": 4, "answer": "A tool used for ethical hacking" }
                                 ],
                                 "correct": 3
                             },
@@ -190,9 +190,9 @@
                                 "id": 17,
                                 "title": "What is a logic bomb?",
                                 "answers": [
-                                    { "id": 1, "answer": "A type of spyware" },
+                                    { "id": 1, "answer": "A harmless program" },
                                     { "id": 2, "answer": "Malware that executes under specific conditions" },
-                                    { "id": 3, "answer": "A harmless program" },
+                                    { "id": 3, "answer": "A type of spyware" },
                                     { "id": 4, "answer": "A type of worm" }
                                 ],
                                 "correct": 2
@@ -201,21 +201,21 @@
                                 "id": 18,
                                 "title": "What is the significance of understanding security threats?",
                                 "answers": [
-                                    { "id": 1, "answer": "To ignore potential risks" },
-                                    { "id": 2, "answer": "To build effective security measures" },
+                                    { "id": 1, "answer": "To increase vulnerability" },
+                                    { "id": 2, "answer": "To ignore potential risks" },
                                     { "id": 3, "answer": "To encourage lax security practices" },
-                                    { "id": 4, "answer": "To increase vulnerability" }
+                                    { "id": 4, "answer": "To build effective security measures" }
                                 ],
-                                "correct": 2
+                                "correct": 4
                             },
                             {
                                 "id": 19,
                                 "title": "What is one way to prevent malware infections?",
                                 "answers": [
-                                    { "id": 1, "answer": "Opening email attachments from unknown sources" },
+                                    { "id": 1, "answer": "Using weak passwords" },
                                     { "id": 2, "answer": "Regularly updating software" },
                                     { "id": 3, "answer": "Ignoring security updates" },
-                                    { "id": 4, "answer": "Using weak passwords" }
+                                    { "id": 4, "answer": "Opening email attachments from unknown sources" }
                                 ],
                                 "correct": 2
                             },
@@ -223,56 +223,56 @@
                                 "id": 20,
                                 "title": "Why is user education important in cybersecurity?",
                                 "answers": [
-                                    { "id": 1, "answer": "To reduce the chances of data breaches" },
+                                    { "id": 1, "answer": "To limit system access" },
                                     { "id": 2, "answer": "To promote the use of weak passwords" },
-                                    { "id": 3, "answer": "To discourage best security practices" },
-                                    { "id": 4, "answer": "To limit system access" }
+                                    { "id": 3, "answer": "To reduce the chances of data breaches" },
+                                    { "id": 4, "answer": "To discourage best security practices" }
                                 ],
-                                "correct": 1
+                                "correct": 3
                             },
                             {
                                 "id": 21,
                                 "title": "What can result from a security breach?",
                                 "answers": [
                                     { "id": 1, "answer": "Improved system performance" },
-                                    { "id": 2, "answer": "Financial loss and data theft" },
-                                    { "id": 3, "answer": "Increased user trust" },
-                                    { "id": 4, "answer": "Enhanced data integrity" }
+                                    { "id": 2, "answer": "Increased user trust" },
+                                    { "id": 3, "answer": "Enhanced data integrity" },
+                                    { "id": 4, "answer": "Financial loss and data theft" }
                                 ],
-                                "correct": 2
+                                "correct": 4
                             },
                             {
                                 "id": 22,
                                 "title": "What is the role of antivirus software?",
                                 "answers": [
                                     { "id": 1, "answer": "To monitor network traffic" },
-                                    { "id": 2, "answer": "To detect and remove malware" },
-                                    { "id": 3, "answer": "To encrypt sensitive data" },
-                                    { "id": 4, "answer": "To create backups" }
+                                    { "id": 2, "answer": "To encrypt sensitive data" },
+                                    { "id": 3, "answer": "To create backups" },
+                                    { "id": 4, "answer": "To detect and remove malware" }
                                 ],
-                                "correct": 2
+                                "correct": 4
                             },
                             {
                                 "id": 23,
                                 "title": "What is a common characteristic of Trojans?",
                                 "answers": [
-                                    { "id": 1, "answer": "They self-replicate" },
-                                    { "id": 2, "answer": "They disguise themselves as legitimate software" },
-                                    { "id": 3, "answer": "They monitor user activity" },
-                                    { "id": 4, "answer": "They encrypt files" }
+                                    { "id": 1, "answer": "They monitor user activity" },
+                                    { "id": 2, "answer": "They self-replicate" },
+                                    { "id": 3, "answer": "They encrypt files" },
+                                    { "id": 4, "answer": "They disguise themselves as legitimate software" }
                                 ],
-                                "correct": 2
+                                "correct": 4
                             },
                             {
                                 "id": 24,
                                 "title": "How can regular system updates contribute to security?",
                                 "answers": [
                                     { "id": 1, "answer": "By introducing new vulnerabilities" },
-                                    { "id": 2, "answer": "By fixing known security flaws" },
-                                    { "id": 3, "answer": "By making systems slower" },
-                                    { "id": 4, "answer": "By disabling security features" }
+                                    { "id": 2, "answer": "By disabling security features" },
+                                    { "id": 3, "answer": "By fixing known security flaws" },
+                                    { "id": 4, "answer": "By making systems slower" }
                                 ],
-                                "correct": 2
+                                "correct": 3
                             },
                             {
                                 "id": 25,
@@ -301,7 +301,7 @@
                                     { "id": 3, "answer": "Monitoring user activity" },
                                     { "id": 4, "answer": "Blocking access to certain websites" }
                                 ],
-                                "correct": 1
+                                "correct": 4
                             },
                             {
                                 "id": 2,
@@ -312,7 +312,7 @@
                                     { "id": 3, "answer": "By flooding the server with requests" },
                                     { "id": 4, "answer": "By installing malware on user devices" }
                                 ],
-                                "correct": 1
+                                "correct": 3
                             },
                             {
                                 "id": 3,
@@ -323,7 +323,7 @@
                                     { "id": 3, "answer": "Enhanced data integrity" },
                                     { "id": 4, "answer": "Improved user privacy" }
                                 ],
-                                "correct": 2
+                                "correct": 4
                             },
                             {
                                 "id": 4,
@@ -334,7 +334,7 @@
                                     { "id": 3, "answer": "An attack that uses malware to gain access" },
                                     { "id": 4, "answer": "An attack that crashes a target server" }
                                 ],
-                                "correct": 2
+                                "correct": 1
                             },
                             {
                                 "id": 5,
@@ -345,7 +345,7 @@
                                     { "id": 3, "answer": "Flooding a network with traffic" },
                                     { "id": 4, "answer": "Exploiting software vulnerabilities" }
                                 ],
-                                "correct": 1
+                                "correct": 4
                             },
                             {
                                 "id": 6,
@@ -356,7 +356,7 @@
                                     { "id": 3, "answer": "A secured network" },
                                     { "id": 4, "answer": "A type of firewall" }
                                 ],
-                                "correct": 2
+                                "correct": 3
                             },
                             {
                                 "id": 7,
@@ -367,7 +367,7 @@
                                     { "id": 3, "answer": "Hacking into a server directly" },
                                     { "id": 4, "answer": "Installing malware on a user's device" }
                                 ],
-                                "correct": 2
+                                "correct": 1
                             },
                             {
                                 "id": 8,
@@ -378,7 +378,7 @@
                                     { "id": 3, "answer": "Monitor network traffic" },
                                     { "id": 4, "answer": "Encrypt data for ransom" }
                                 ],
-                                "correct": 2
+                                "correct": 3
                             },
                             {
                                 "id": 9,
@@ -389,7 +389,7 @@
                                     { "id": 3, "answer": "Installing backdoors" },
                                     { "id": 4, "answer": "Using VPNs for anonymity" }
                                 ],
-                                "correct": 1
+                                "correct": 2
                             },
                             {
                                 "id": 10,
@@ -400,7 +400,7 @@
                                     { "id": 3, "answer": "A type of phishing attack" },
                                     { "id": 4, "answer": "An attack that uses Trojan horses" }
                                 ],
-                                "correct": 2
+                                "correct": 1
                             },
                             {
                                 "id": 11,
@@ -411,7 +411,7 @@
                                     { "id": 3, "answer": "A method to gain unauthorized access" },
                                     { "id": 4, "answer": "A type of malware" }
                                 ],
-                                "correct": 2
+                                "correct": 3
                             },
                             {
                                 "id": 12,
@@ -422,7 +422,7 @@
                                     { "id": 3, "answer": "A type of malware" },
                                     { "id": 4, "answer": "A method to encrypt data" }
                                 ],
-                                "correct": 2
+                                "correct": 3
                             },
                             {
                                 "id": 13,
@@ -433,7 +433,7 @@
                                     { "id": 3, "answer": "Enhanced security for ISPs" },
                                     { "id": 4, "answer": "Improved user trust" }
                                 ],
-                                "correct": 2
+                                "correct": 1
                             },
                             {
                                 "id": 14,
@@ -444,7 +444,7 @@
                                     { "id": 3, "answer": "Use weak passwords" },
                                     { "id": 4, "answer": "Disable firewalls" }
                                 ],
-                                "correct": 2
+                                "correct": 1
                             },
                             {
                                 "id": 15,
@@ -455,7 +455,7 @@
                                     { "id": 3, "answer": "To limit access to trusted sites" },
                                     { "id": 4, "answer": "To encourage software piracy" }
                                 ],
-                                "correct": 1
+                                "correct": 3
                             },
                             {
                                 "id": 16,
@@ -466,7 +466,7 @@
                                     { "id": 3, "answer": "It monitors network traffic" },
                                     { "id": 4, "answer": "It stores user passwords" }
                                 ],
-                                "correct": 2
+                                "correct": 4
                             },
                             {
                                 "id": 17,
@@ -477,7 +477,7 @@
                                     { "id": 3, "answer": "A method for network monitoring" },
                                     { "id": 4, "answer": "A tool for website performance" }
                                 ],
-                                "correct": 1
+                                "correct": 3
                             },
                             {
                                 "id": 18,
@@ -2896,226 +2896,229 @@
                         "id": "module4-1",
                         "title": "Secure Network Architecture",
                         "questions": [
-                            {
-                                "id": 1,
-                                "title": "What is the purpose of disabling unnecessary services in network hardening?",
-                                "answers": [
-                                    { "id": 1, "answer": "To reduce potential vulnerabilities" },
-                                    { "id": 2, "answer": "To speed up network traffic" },
-                                    { "id": 3, "answer": "To simplify network management" },
-                                    { "id": 4, "answer": "To improve device performance" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 2,
-                                "title": "What does the Implicit Deny Principle involve?",
-                                "answers": [
-                                    { "id": 1, "answer": "Denying access by default unless explicitly allowed" },
-                                    { "id": 2, "answer": "Allowing all access unless explicitly denied" },
-                                    { "id": 3, "answer": "Whitelisting all services" },
-                                    { "id": 4, "answer": "Explicitly defining access controls" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 3,
-                                "title": "Which of the following is an essential part of network traffic monitoring?",
-                                "answers": [
-                                    { "id": 1, "answer": "Baseline network traffic" },
-                                    { "id": 2, "answer": "Allowing all traffic" },
-                                    { "id": 3, "answer": "Blocking unknown traffic" },
-                                    { "id": 4, "answer": "Disabling firewall logging" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 4,
-                                "title": "What is the purpose of log normalization in network security?",
-                                "answers": [
-                                    { "id": 1, "answer": "To standardize logs from various systems" },
-                                    { "id": 2, "answer": "To delete old logs" },
-                                    { "id": 3, "answer": "To ignore duplicate log entries" },
-                                    { "id": 4, "answer": "To encrypt all logs" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 5,
-                                "title": "Which tool is commonly used for log aggregation and analysis?",
-                                "answers": [
-                                    { "id": 1, "answer": "Splunk" },
-                                    { "id": 2, "answer": "Wireshark" },
-                                    { "id": 3, "answer": "OpenVAS" },
-                                    { "id": 4, "answer": "Nessus" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 6,
-                                "title": "What is the role of flood guards in network security?",
-                                "answers": [
-                                    { "id": 1, "answer": "To protect against DoS attacks" },
-                                    { "id": 2, "answer": "To monitor network traffic" },
-                                    { "id": 3, "answer": "To manage network traffic flow" },
-                                    { "id": 4, "answer": "To block unauthorized devices" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 7,
-                                "title": "What is the function of network segmentation in security?",
-                                "answers": [
-                                    { "id": 1, "answer": "To separate networks based on device types or purposes" },
-                                    { "id": 2, "answer": "To combine multiple networks into a single one" },
-                                    { "id": 3, "answer": "To allow unrestricted traffic flow" },
-                                    { "id": 4, "answer": "To disable access controls" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 8,
-                                "title": "What type of attack does DHCP snooping help prevent?",
-                                "answers": [
-                                    { "id": 1, "answer": "Rogue DHCP server attacks" },
-                                    { "id": 2, "answer": "SQL injection attacks" },
-                                    { "id": 3, "answer": "Cross-site scripting attacks" },
-                                    { "id": 4, "answer": "Phishing attacks" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 9,
-                                "title": "What does Dynamic ARP Inspection (DAI) help prevent?",
-                                "answers": [
-                                    { "id": 1, "answer": "ARP spoofing" },
-                                    { "id": 2, "answer": "Denial of Service attacks" },
-                                    { "id": 3, "answer": "Man-in-the-middle attacks" },
-                                    { "id": 4, "answer": "Password cracking" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 10,
-                                "title": "What does IP Source Guard (IPSG) help prevent?",
-                                "answers": [
-                                    { "id": 1, "answer": "IP spoofing" },
-                                    { "id": 2, "answer": "Network congestion" },
-                                    { "id": 3, "answer": "Data leakage" },
-                                    { "id": 4, "answer": "Routing errors" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 11,
-                                "title": "What does 802.1X authentication provide for network security?",
-                                "answers": [
-                                    { "id": 1, "answer": "Secure network access control" },
-                                    { "id": 2, "answer": "Data encryption" },
-                                    { "id": 3, "answer": "Firewall management" },
-                                    { "id": 4, "answer": "Traffic filtering" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 12,
-                                "title": "What type of certificates are used in EAP-TLS authentication?",
-                                "answers": [
-                                    { "id": 1, "answer": "Client-side certificates" },
-                                    { "id": 2, "answer": "Server-side certificates" },
-                                    { "id": 3, "answer": "Self-signed certificates" },
-                                    { "id": 4, "answer": "Wildcard certificates" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 13,
-                                "title": "What is the primary function of a network firewall?",
-                                "answers": [
-                                    { "id": 1, "answer": "To control traffic flow across a network" },
-                                    { "id": 2, "answer": "To store network configurations" },
-                                    { "id": 3, "answer": "To encrypt network traffic" },
-                                    { "id": 4, "answer": "To provide remote access to a network" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 14,
-                                "title": "What type of firewall is deployed on individual devices?",
-                                "answers": [
-                                    { "id": 1, "answer": "Host-based firewall" },
-                                    { "id": 2, "answer": "Network-based firewall" },
-                                    { "id": 3, "answer": "Application firewall" },
-                                    { "id": 4, "answer": "Proxy firewall" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 15,
-                                "title": "What is the purpose of a Site-to-Site VPN?",
-                                "answers": [
-                                    { "id": 1, "answer": "To link two remote networks securely" },
-                                    { "id": 2, "answer": "To provide secure remote access to users" },
-                                    { "id": 3, "answer": "To filter web traffic" },
-                                    { "id": 4, "answer": "To provide encryption for data at rest" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 16,
-                                "title": "What is the role of a reverse proxy in network security?",
-                                "answers": [
-                                    { "id": 1, "answer": "To provide secure access to internal web services" },
-                                    { "id": 2, "answer": "To block unauthorized traffic" },
-                                    { "id": 3, "answer": "To act as a firewall" },
-                                    { "id": 4, "answer": "To encrypt network data" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 17,
-                                "title": "What is the function of a web proxy?",
-                                "answers": [
-                                    { "id": 1, "answer": "To control access to external websites" },
-                                    { "id": 2, "answer": "To provide encrypted communication" },
-                                    { "id": 3, "answer": "To monitor network traffic" },
-                                    { "id": 4, "answer": "To secure VPN connections" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 18,
-                                "title": "What is one of the key benefits of VPNs?",
-                                "answers": [
-                                    { "id": 1, "answer": "Encrypting data between networks or clients" },
-                                    { "id": 2, "answer": "Providing content filtering" },
-                                    { "id": 3, "answer": "Blocking all inbound traffic" },
-                                    { "id": 4, "answer": "Monitoring user activity" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 19,
-                                "title": "What is a primary function of proxies in network security?",
-                                "answers": [
-                                    { "id": 1, "answer": "To filter and log web traffic" },
-                                    { "id": 2, "answer": "To provide secure email access" },
-                                    { "id": 3, "answer": "To control access to internal servers" },
-                                    { "id": 4, "answer": "To enforce encryption policies" }
-                                ],
-                                "correct": 1
-                            },
-                            {
-                                "id": 20,
-                                "title": "Why should organizations use both network-based and host-based firewalls?",
-                                "answers": [
-                                    { "id": 1, "answer": "To provide comprehensive protection" },
-                                    { "id": 2, "answer": "To reduce network latency" },
-                                    { "id": 3, "answer": "To monitor network traffic" },
-                                    { "id": 4, "answer": "To encrypt network traffic" }
-                                ],
-                                "correct": 1
-                            }
+                            [
+                                {
+                                    "id": 1,
+                                    "title": "What is the purpose of disabling unnecessary services in network hardening?",
+                                    "answers": [
+                                        { "id": 1, "answer": "To reduce potential vulnerabilities" },
+                                        { "id": 2, "answer": "To speed up network traffic" },
+                                        { "id": 3, "answer": "To simplify network management" },
+                                        { "id": 4, "answer": "To improve device performance" }
+                                    ],
+                                    "correct": 2
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "What does the Implicit Deny Principle involve?",
+                                    "answers": [
+                                        { "id": 1, "answer": "Denying access by default unless explicitly allowed" },
+                                        { "id": 2, "answer": "Allowing all access unless explicitly denied" },
+                                        { "id": 3, "answer": "Whitelisting all services" },
+                                        { "id": 4, "answer": "Explicitly defining access controls" }
+                                    ],
+                                    "correct": 3
+                                },
+                                {
+                                    "id": 3,
+                                    "title": "Which of the following is an essential part of network traffic monitoring?",
+                                    "answers": [
+                                        { "id": 1, "answer": "Baseline network traffic" },
+                                        { "id": 2, "answer": "Allowing all traffic" },
+                                        { "id": 3, "answer": "Blocking unknown traffic" },
+                                        { "id": 4, "answer": "Disabling firewall logging" }
+                                    ],
+                                    "correct": 3
+                                },
+                                {
+                                    "id": 4,
+                                    "title": "What is the purpose of log normalization in network security?",
+                                    "answers": [
+                                        { "id": 1, "answer": "To standardize logs from various systems" },
+                                        { "id": 2, "answer": "To delete old logs" },
+                                        { "id": 3, "answer": "To ignore duplicate log entries" },
+                                        { "id": 4, "answer": "To encrypt all logs" }
+                                    ],
+                                    "correct": 4
+                                },
+                                {
+                                    "id": 5,
+                                    "title": "Which tool is commonly used for log aggregation and analysis?",
+                                    "answers": [
+                                        { "id": 1, "answer": "Splunk" },
+                                        { "id": 2, "answer": "Wireshark" },
+                                        { "id": 3, "answer": "OpenVAS" },
+                                        { "id": 4, "answer": "Nessus" }
+                                    ],
+                                    "correct": 2
+                                },
+                                {
+                                    "id": 6,
+                                    "title": "What is the role of flood guards in network security?",
+                                    "answers": [
+                                        { "id": 1, "answer": "To protect against DoS attacks" },
+                                        { "id": 2, "answer": "To monitor network traffic" },
+                                        { "id": 3, "answer": "To manage network traffic flow" },
+                                        { "id": 4, "answer": "To block unauthorized devices" }
+                                    ],
+                                    "correct": 4
+                                },
+                                {
+                                    "id": 7,
+                                    "title": "What is the function of network segmentation in security?",
+                                    "answers": [
+                                        { "id": 1, "answer": "To separate networks based on device types or purposes" },
+                                        { "id": 2, "answer": "To combine multiple networks into a single one" },
+                                        { "id": 3, "answer": "To allow unrestricted traffic flow" },
+                                        { "id": 4, "answer": "To disable access controls" }
+                                    ],
+                                    "correct": 3
+                                },
+                                {
+                                    "id": 8,
+                                    "title": "What type of attack does DHCP snooping help prevent?",
+                                    "answers": [
+                                        { "id": 1, "answer": "Rogue DHCP server attacks" },
+                                        { "id": 2, "answer": "SQL injection attacks" },
+                                        { "id": 3, "answer": "Cross-site scripting attacks" },
+                                        { "id": 4, "answer": "Phishing attacks" }
+                                    ],
+                                    "correct": 2
+                                },
+                                {
+                                    "id": 9,
+                                    "title": "What does Dynamic ARP Inspection (DAI) help prevent?",
+                                    "answers": [
+                                        { "id": 1, "answer": "ARP spoofing" },
+                                        { "id": 2, "answer": "Denial of Service attacks" },
+                                        { "id": 3, "answer": "Man-in-the-middle attacks" },
+                                        { "id": 4, "answer": "Password cracking" }
+                                    ],
+                                    "correct": 1
+                                },
+                                {
+                                    "id": 10,
+                                    "title": "What does IP Source Guard (IPSG) help prevent?",
+                                    "answers": [
+                                        { "id": 1, "answer": "IP spoofing" },
+                                        { "id": 2, "answer": "Network congestion" },
+                                        { "id": 3, "answer": "Data leakage" },
+                                        { "id": 4, "answer": "Routing errors" }
+                                    ],
+                                    "correct": 3
+                                },
+                                {
+                                    "id": 11,
+                                    "title": "What does 802.1X authentication provide for network security?",
+                                    "answers": [
+                                        { "id": 1, "answer": "Secure network access control" },
+                                        { "id": 2, "answer": "Data encryption" },
+                                        { "id": 3, "answer": "Firewall management" },
+                                        { "id": 4, "answer": "Traffic filtering" }
+                                    ],
+                                    "correct": 2
+                                },
+                                {
+                                    "id": 12,
+                                    "title": "What type of certificates are used in EAP-TLS authentication?",
+                                    "answers": [
+                                        { "id": 1, "answer": "Client-side certificates" },
+                                        { "id": 2, "answer": "Server-side certificates" },
+                                        { "id": 3, "answer": "Self-signed certificates" },
+                                        { "id": 4, "answer": "Wildcard certificates" }
+                                    ],
+                                    "correct": 1
+                                },
+                                {
+                                    "id": 13,
+                                    "title": "What is the primary function of a network firewall?",
+                                    "answers": [
+                                        { "id": 1, "answer": "To control traffic flow across a network" },
+                                        { "id": 2, "answer": "To store network configurations" },
+                                        { "id": 3, "answer": "To encrypt network traffic" },
+                                        { "id": 4, "answer": "To provide remote access to a network" }
+                                    ],
+                                    "correct": 2
+                                },
+                                {
+                                    "id": 14,
+                                    "title": "What type of firewall is deployed on individual devices?",
+                                    "answers": [
+                                        { "id": 1, "answer": "Host-based firewall" },
+                                        { "id": 2, "answer": "Network-based firewall" },
+                                        { "id": 3, "answer": "Application firewall" },
+                                        { "id": 4, "answer": "Proxy firewall" }
+                                    ],
+                                    "correct": 3
+                                },
+                                {
+                                    "id": 15,
+                                    "title": "What is the purpose of a Site-to-Site VPN?",
+                                    "answers": [
+                                        { "id": 1, "answer": "To link two remote networks securely" },
+                                        { "id": 2, "answer": "To provide secure remote access to users" },
+                                        { "id": 3, "answer": "To filter web traffic" },
+                                        { "id": 4, "answer": "To provide encryption for data at rest" }
+                                    ],
+                                    "correct": 4
+                                },
+                                {
+                                    "id": 16,
+                                    "title": "What is the role of a reverse proxy in network security?",
+                                    "answers": [
+                                        { "id": 1, "answer": "To provide secure access to internal web services" },
+                                        { "id": 2, "answer": "To block unauthorized traffic" },
+                                        { "id": 3, "answer": "To act as a firewall" },
+                                        { "id": 4, "answer": "To encrypt network data" }
+                                    ],
+                                    "correct": 2
+                                },
+                                {
+                                    "id": 17,
+                                    "title": "What is the function of a web proxy?",
+                                    "answers": [
+                                        { "id": 1, "answer": "To control access to external websites" },
+                                        { "id": 2, "answer": "To provide encrypted communication" },
+                                        { "id": 3, "answer": "To monitor network traffic" },
+                                        { "id": 4, "answer": "To secure VPN connections" }
+                                    ],
+                                    "correct": 4
+                                },
+                                {
+                                    "id": 18,
+                                    "title": "What is one of the key benefits of VPNs?",
+                                    "answers": [
+                                        { "id": 1, "answer": "Encrypting data between networks or clients" },
+                                        { "id": 2, "answer": "Providing content filtering" },
+                                        { "id": 3, "answer": "Blocking all inbound traffic" },
+                                        { "id": 4, "answer": "Limiting bandwidth usage" }
+                                    ],
+                                    "correct": 3
+                                },
+                                {
+                                    "id": 19,
+                                    "title": "What is an important consideration when configuring IPsec tunnels?",
+                                    "answers": [
+                                        { "id": 1, "answer": "Both ends of the tunnel must use compatible encryption methods" },
+                                        { "id": 2, "answer": "The tunnel must have a static IP address" },
+                                        { "id": 3, "answer": "The tunnel must be limited to 1 GB of traffic" },
+                                        { "id": 4, "answer": "IPsec tunnels should be configured in pairs" }
+                                    ],
+                                    "correct": 2
+                                },
+                                {
+                                    "id": 20,
+                                    "title": "What is the primary benefit of using VLANs in network design?",
+                                    "answers": [
+                                        { "id": 1, "answer": "To isolate traffic between different network segments" },
+                                        { "id": 2, "answer": "To allow direct communication between all devices" },
+                                        { "id": 3, "answer": "To simplify routing" },
+                                        { "id": 4, "answer": "To provide redundancy for network connections" }
+                                    ],
+                                    "correct": 1
+                                }
+                            ]
+                            
                         ]
                         
                     },
@@ -3290,15 +3293,16 @@
                             },
                             {
                                 "id": 16,
-                                "title": "What attack can compromise WPA2's Four-Way Handshake?",
+                                "title": "Which type of attack involves guessing the WPA2 passphrase to compromise the Four-Way Handshake?",
                                 "answers": [
-                                    { "id": 1, "answer": "Brute-force attack" },
+                                    { "id": 1, "answer": "Man-in-the-middle attack" },
                                     { "id": 2, "answer": "Phishing attack" },
-                                    { "id": 3, "answer": "Man-in-the-middle attack" },
-                                    { "id": 4, "answer": "Dictionary attack" }
+                                    { "id": 3, "answer":  "Brute-force attack"},
+                                    { "id": 4, "answer": "Replay attack" }
                                 ],
-                                "correct": 1
+                                "correct": 3
                             },
+                            
                             {
                                 "id": 17,
                                 "title": "What makes WPA2 susceptible to brute-force attacks?",
@@ -3695,14 +3699,13 @@
                                 "id": 22,
                                 "title": "What is a challenge when using Wireshark for wireless packet capture?",
                                 "answers": [
-                                    { "id": 1, "answer": "Capturing encrypted packets without the encryption key" },
-                                    { "id": 2, "answer": "It requires manual configuration of IP addresses" },
-                                    { "id": 3, "answer": "It cannot capture multicast traffic" },
-                                    { "id": 4, "answer": "It requires a physical connection to the network" }
+                                    { "id": 1, "answer": "Capturing encrypted traffic without keys" },
+                                    { "id": 2, "answer": "Capturing high-speed data traffic" },
+                                    { "id": 3, "answer": "Capturing traffic from only a single source" },
+                                    { "id": 4, "answer": "Capturing data only from wired devices" }
                                 ],
                                 "correct": 1
-                            },
-                            {
+                            },  {
                                 "id": 23,
                                 "title": "What is the difference between unicast and broadcast traffic?",
                                 "answers": [
@@ -3734,7 +3737,8 @@
                                     { "id": 4, "answer": "It is easier to use than Wireshark" }
                                 ],
                                 "correct": 1
-                            },
+                            }, 
+                            
                             {
                                 "id": 26,
                                 "title": "What is the role of a packet sniffer in a security breach investigation?",
